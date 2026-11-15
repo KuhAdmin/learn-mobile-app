@@ -1,98 +1,67 @@
-import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { router } from 'expo-router';
+import { useEffect } from 'react';
+import { StyleSheet, useWindowDimensions, View } from 'react-native';
+import Animated, { Easing, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { AnimatedIcon } from '@/components/animated-icon';
-import { HintRow } from '@/components/hint-row';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { WebBadge } from '@/components/web-badge';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import { AppText } from '@/components/AppText';
+import { BrandLogo } from '@/components/BrandLogo';
+import { Illustration } from '@/components/Illustration';
+import { colors, space } from '@/theme/tokens';
 
-function getDevMenuHint() {
-  if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
-  }
-  if (Device.isDevice) {
-    return (
-      <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
-      </ThemedText>
-    );
-  }
-  const shortcut = Platform.OS === 'android' ? 'cmd+m (or ctrl+m)' : 'cmd+d';
+const SPLASH_DURATION_MS = 3000;
+const BAR_WIDTH = 120;
+
+/**
+ * Splash: shown on every app launch (the app's entry route). No CTA —
+ * a short progress bar fills over 3 s, then it replaces itself with the intro
+ * so Back can never return here.
+ */
+export default function SplashScreen() {
+  const { width } = useWindowDimensions();
+  const insets = useSafeAreaInsets();
+  const progress = useSharedValue(0);
+
+  useEffect(() => {
+    progress.value = withTiming(1, { duration: SPLASH_DURATION_MS, easing: Easing.linear });
+    const timer = setTimeout(() => router.replace('/intro'), SPLASH_DURATION_MS);
+    return () => clearTimeout(timer);
+  }, [progress]);
+
+  const fillStyle = useAnimatedStyle(() => ({ width: progress.value * BAR_WIDTH }));
+
   return (
-    <ThemedText type="small">
-      press <ThemedText type="code">{shortcut}</ThemedText>
-    </ThemedText>
-  );
-}
-
-export default function HomeScreen() {
-  return (
-    <ThemedView style={styles.container}>
-      <SafeAreaView style={styles.safeArea}>
-        <ThemedView style={styles.heroSection}>
-          <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
-        </ThemedView>
-
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
-
-        <ThemedView type="backgroundElement" style={styles.stepContainer}>
-          <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
-          />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
-          <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
-          />
-        </ThemedView>
-
-        {Platform.OS === 'web' && <WebBadge />}
-      </SafeAreaView>
-    </ThemedView>
+    <View style={[styles.root, { paddingTop: insets.top, paddingBottom: insets.bottom }]}>
+      <Illustration name="mascot" size={Math.min(width * 0.68, 280)} />
+      <View style={styles.brand}>
+        <BrandLogo width={Math.min(width * 0.6, 260)} />
+        <AppText variant="label" align="center" style={styles.tagline} accessibilityLabel="Grammar and Vocabulary">
+          Grammar  |  Vocabulary
+        </AppText>
+      </View>
+      <View
+        style={styles.track}
+        accessible
+        accessibilityRole="progressbar"
+        accessibilityLabel="Loading"
+      >
+        <Animated.View style={[styles.fill, fillStyle]} />
+      </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
+  root: { flex: 1, backgroundColor: colors.bg, alignItems: 'center', justifyContent: 'center' },
+  brand: { marginTop: space.xl, alignItems: 'center' },
+  tagline: { marginTop: space.md, fontSize: 17, letterSpacing: 0.5, color: colors.inkMuted },
+  track: {
+    marginTop: space.xxl + space.sm,
+    width: BAR_WIDTH,
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: colors.switchOff,
+    overflow: 'hidden',
   },
-  safeArea: {
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    alignItems: 'center',
-    gap: Spacing.three,
-    paddingBottom: BottomTabInset + Spacing.three,
-    maxWidth: MaxContentWidth,
-  },
-  heroSection: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
-  },
-  title: {
-    textAlign: 'center',
-  },
-  code: {
-    textTransform: 'uppercase',
-  },
-  stepContainer: {
-    gap: Spacing.three,
-    alignSelf: 'stretch',
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.four,
-    borderRadius: Spacing.four,
-  },
+  fill: { height: '100%', borderRadius: 2, backgroundColor: colors.ink },
 });

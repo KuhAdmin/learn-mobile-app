@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0",
+  "content_type": "grammar_lesson",
+  "topic": {
+    "topic_id": "1.1.1.EP001",
+    "title": "What Are Parts of Speech?",
+    "learning_stage": "Grammar Foundations",
+    "learner_level": "Beginner",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Discover Parts of Speech",
+    "lesson_summary": "Learn what parts of speech are, why words belong to different groups, and how they help us build meaningful sentences.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Understand what parts of speech are."
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Understand that words can be grouped according to their grammatical behaviour."
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Understand that words perform different jobs in sentences."
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Recognise that grammatical categories help words work together to create meaningful sentences."
+      },
+      {
+        "objective_id": "OBJ005",
+        "description": "Understand that a word's grammatical category depends on how it is used."
+      }
+    ],
+    "estimated_duration_minutes": 4,
+    "total_pages": 8
+  },
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Words Are Everywhere",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Look around you. You see a book, a chair and a window. You can say, \"I read a book.\" Every sentence is made using words."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The little bird sings.",
+              "highlight": [
+                "The",
+                "little",
+                "bird",
+                "sings"
+              ],
+              "explanation": "This short sentence uses four words to share one complete idea."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Sentences are built from words."
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Words Have Different Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Not all words do the same job. Some name people or things. Some show actions. Others describe or connect words."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The happy girl dances.",
+              "highlight": [
+                "girl",
+                "happy",
+                "dances"
+              ],
+              "explanation": "\"Girl\" names a person, \"happy\" describes her, and \"dances\" tells us what she does."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Different words do different jobs."
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "What Are Parts of Speech?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Parts of speech are groups of words based on how they work in language. Each group has its own grammatical role."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "note",
+          "text": "Think of them as different teams. Each team has a different job."
+        }
+      ],
+      "key_takeaway": "Parts of speech are grammatical word groups."
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Words Belong to Groups",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Words can be grouped by their grammar. For example, words that name people, places or things belong to one group. Words that express actions belong to another."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Dogs bark.",
+              "highlight": [
+                "Dogs",
+                "bark"
+              ],
+              "explanation": "\"Dogs\" names animals. \"Bark\" tells us what they do."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Words are grouped by their grammatical behaviour."
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "application",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "title": "Words Work Together",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "Words join together to make sentences. Their different grammatical jobs help us understand who or what we are talking about and what is happening."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "My brother plays football.",
+              "highlight": [
+                "brother",
+                "plays",
+                "football"
+              ],
+              "explanation": "\"Brother\" tells us who we mean. \"Plays\" tells us the action. \"Football\" tells us what he plays."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Words work together to express ideas."
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "title": "Grammar Helps Make Sense",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Grammar helps words work together in an understandable order. Changing a word or its position can change the meaning or make a sentence unclear."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The cat chased the mouse.",
+              "highlight": [
+                "cat",
+                "chased",
+                "mouse"
+              ],
+              "explanation": "The sentence tells us who did the chasing and who was chased."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Grammar helps us understand sentences."
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ005"
+      ],
+      "title": "A Word Can Change Its Job",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "text",
+          "text": "A word does not always belong to the same grammatical group. Its role can change when we use it differently in a sentence."
+        },
+        {
+          "block_id": "BLOCK014",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I drink water. Please water the plant.",
+              "highlight": [
+                "drink",
+                "water",
+                "water",
+                "plant"
+              ],
+              "explanation": "In the first sentence, \"water\" names something. In the second, \"water\" describes an action."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A word's use helps determine its grammatical category."
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003",
+        "OBJ004",
+        "OBJ005"
+      ],
+      "title": "What Have You Learned?",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "list",
+          "items": [
+            "Words make sentences.",
+            "Words perform different grammatical jobs.",
+            "Parts of speech are groups of words.",
+            "Grammar helps words work together.",
+            "A word's grammatical category can depend on its use."
+          ]
+        }
+      ],
+      "key_takeaway": "Parts of speech help us understand how words work."
+    }
+  ],
+  "knowledge_check": {
+    "title": "Check Your Understanding",
+    "questions": [
+      {
+        "question_id": "Q001",
+        "type": "multiple_choice",
+        "learning_objective_ids": [
+          "OBJ001"
+        ],
+        "question": "What are parts of speech?",
+        "options": [
+          {
+            "option_id": "A",
+            "text": "Groups of words based on their grammatical roles"
+          },
+          {
+            "option_id": "B",
+            "text": "Groups of sentences based on their length"
+          },
+          {
+            "option_id": "C",
+            "text": "Different ways of spelling words"
+          }
+        ],
+        "correct_answers": [
+          "A"
+        ],
+        "explanation": "Parts of speech group words according to how they work in language."
+      },
+      {
+        "question_id": "Q002",
+        "type": "multiple_choice",
+        "learning_objective_ids": [
+          "OBJ003"
+        ],
+        "question": "In \"The baby cries\", which word tells us the action?",
+        "options": [
+          {
+            "option_id": "A",
+            "text": "The"
+          },
+          {
+            "option_id": "B",
+            "text": "Baby"
+          },
+          {
+            "option_id": "C",
+            "text": "Cries"
+          }
+        ],
+        "correct_answers": [
+          "C"
+        ],
+        "explanation": "\"Cries\" tells us what the baby does."
+      },
+      {
+        "question_id": "Q003",
+        "type": "true_false",
+        "learning_objective_ids": [
+          "OBJ002",
+          "OBJ005"
+        ],
+        "question": "A word can have different grammatical roles in different sentences.",
+        "options": [
+          {
+            "option_id": "TRUE",
+            "text": "True"
+          },
+          {
+            "option_id": "FALSE",
+            "text": "False"
+          }
+        ],
+        "correct_answers": [
+          "TRUE"
+        ],
+        "explanation": "The word \"water\" names something in one sentence and expresses an action in another."
+      },
+      {
+        "question_id": "Q004",
+        "type": "multiple_choice",
+        "learning_objective_ids": [
+          "OBJ004"
+        ],
+        "question": "Why do words work together in a sentence?",
+        "options": [
+          {
+            "option_id": "A",
+            "text": "To create and communicate meaning"
+          },
+          {
+            "option_id": "B",
+            "text": "To make every sentence longer"
+          },
+          {
+            "option_id": "C",
+            "text": "To make all words sound alike"
+          }
+        ],
+        "correct_answers": [
+          "A"
+        ],
+        "explanation": "Words combine according to grammatical patterns to communicate meaningful ideas."
+      }
+    ]
+  },
+  "coverage": {
+    "dimensions": [
+      {
+        "dimension": "Definition and fundamental concepts",
+        "status": "covered",
+        "page_ids": [
+          "PAGE001",
+          "PAGE002",
+          "PAGE003"
+        ]
+      },
+      {
+        "dimension": "Grammatical classification",
+        "status": "covered",
+        "page_ids": [
+          "PAGE003",
+          "PAGE004"
+        ]
+      },
+      {
+        "dimension": "Functional understanding",
+        "status": "covered",
+        "page_ids": [
+          "PAGE002",
+          "PAGE004",
+          "PAGE005"
+        ]
+      },
+      {
+        "dimension": "Sentence structure and meaning",
+        "status": "covered",
+        "page_ids": [
+          "PAGE005",
+          "PAGE006"
+        ]
+      },
+      {
+        "dimension": "Contextual understanding",
+        "status": "introduced",
+        "page_ids": [
+          "PAGE007"
+        ]
+      },
+      {
+        "dimension": "Word category variation",
+        "status": "introduced",
+        "page_ids": [
+          "PAGE007"
+        ]
+      },
+      {
+        "dimension": "Practical recognition",
+        "status": "introduced",
+        "page_ids": [
+          "PAGE002",
+          "PAGE004",
+          "PAGE005"
+        ]
+      }
+    ],
+    "cross_references": [
+      {
+        "concept": "The Eight Parts of Speech",
+        "reason": "Detailed teaching of individual grammatical categories belongs to the next curriculum topic.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Words Functioning as Different Parts of Speech",
+        "reason": "Detailed examples of words changing grammatical categories require a separate lesson.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Identifying Parts of Speech in Sentences",
+        "reason": "Systematic identification of grammatical categories is a separate learning objective.",
+        "coverage": "introduced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}
