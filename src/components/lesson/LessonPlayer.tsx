@@ -1,7 +1,16 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useEffect, useMemo, useReducer, useRef, type ReactNode } from 'react';
-import { AccessibilityInfo, BackHandler, ScrollView, StyleSheet, View, type ScrollViewInstance } from 'react-native';
+import {
+  AccessibilityInfo,
+  BackHandler,
+  KeyboardAvoidingView,
+  ScrollView,
+  StyleSheet,
+  View,
+  useWindowDimensions,
+  type ScrollViewInstance,
+} from 'react-native';
 import Animated, { FadeIn, FadeInLeft, FadeInRight } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -9,16 +18,11 @@ import { AppText } from '@/components/AppText';
 import { OutlineButton, PrimaryButton } from '@/components/Buttons';
 import { STAGE_ART } from '@/components/learning-path/StageBanner';
 import type { TopicRef } from '@/learning-path/progression';
-import {
-  canStepBack,
-  initialLessonFlow,
-  isCorrect,
-  lessonFlowReducer,
-  lessonScore,
-} from '@/lessons/lesson-flow';
+import { grade } from '@/lessons/answers';
+import { buildSteps, canStepBack, initialLessonFlow, lessonFlowReducer, lessonScore } from '@/lessons/lesson-flow';
+import type { Lesson } from '@/lessons/model';
 import { visualsFor } from '@/lessons/presentation';
-import type { GrammarLesson } from '@/lessons/schema';
-import { lessonScreens } from '@/lessons/screens';
+import { bodyBudget } from '@/lessons/screens';
 import { useProgress } from '@/state/progress-context';
 import { colors, fonts, sizes, space } from '@/theme/tokens';
 
@@ -28,20 +32,29 @@ import { LessonPageView } from './LessonPageView';
 import { QuestionCard, QuizIntro } from './QuizViews';
 
 interface LessonPlayerProps {
-  lesson: GrammarLesson;
+  lesson: Lesson;
   topic: TopicRef;
 }
 
-/** Plays a lesson: content pages → knowledge check → result, then marks the path topic complete. */
+/**
+ * Plays a lesson: page screens, in-page practice, quick checks after pages, the final check, then the
+ * result. "Back to path" marks the path topic complete.
+ */
 export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   const insets = useSafeAreaInsets();
   const { completeTopic } = useProgress();
-  const reducer = useMemo(() => lessonFlowReducer(lesson), [lesson]);
-  const screens = useMemo(() => lessonScreens(lesson), [lesson]);
+  const visuals = visualsFor(lesson.id);
+  // Screens are packed for this phone's height, so each one fits without scrolling.
+  const { height } = useWindowDimensions();
+  const budget = bodyBudget(height, insets.top, insets.bottom);
+  const steps = useMemo(() => buildSteps(lesson, visualsFor(lesson.id), budget), [lesson, budget]);
+  const reducer = useMemo(() => lessonFlowReducer(steps), [steps]);
   const [state, dispatch] = useReducer(reducer, initialLessonFlow);
-  const visuals = visualsFor(lesson.topic.topic_id);
-  const { step } = state;
-  const questions = lesson.knowledge_check.questions;
+  const step = steps[state.index];
+  const nextStep = steps[state.index + 1];
+  // The step before the final check offers it by name ("Check Your Understanding" / "Take Final Check").
+  const leadsToFinal =
+    lesson.finalCheck && nextStep?.kind === 'question' && nextStep.context === 'final' && nextStep.position === 1;
 
   const exit = () => (router.canGoBack() ? router.back() : router.replace('/learn'));
   const back = () => (canStepBack(state) ? dispatch({ type: 'back' }) : exit());
@@ -59,7 +72,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
 
   // Each step starts at the top.
   const scrollRef = useRef<ScrollViewInstance>(null);
-  const stepKey = step.kind === 'result' ? 'result' : `${step.kind}-${step.index}`;
+  const stepKey = `step-${state.index}`;
   useEffect(() => {
     scrollRef.current?.scrollTo({ y: 0, animated: false });
   }, [stepKey]);
@@ -78,56 +91,65 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   let body: ReactNode;
   let footer: ReactNode;
 
-  if (step.kind === 'page') {
-    const screen = screens[step.index];
+  const next = () => dispatch({ type: 'next' });
+  const continueButton = (disabled = false) =>
+    leadsToFinal ? (
+      <PrimaryButton
+        label={lesson.finalCheck!.ctaLabel}
+        leading={<MaterialCommunityIcons name="bullseye-arrow" size={24} color={colors.accentSalmon} />}
+        trailingIcon="arrow-right"
+        disabled={disabled}
+        onPress={next}
+      />
+    ) : (
+      <PrimaryButton
+        label={nextStep?.kind === 'result' && !lesson.finalCheck ? 'Finish' : 'Continue'}
+        trailingIcon="arrow-right"
+        disabled={disabled}
+        onPress={next}
+      />
+    );
+
+  if (step.kind === 'screen') {
+    const { screen } = step;
     const { page } = screen;
-    const last = step.index === screens.length - 1;
     // The pill counts JSON pages ("3 / 8").
     counter = `${page.page_number} / ${lesson.pages.length}`;
     counterLabel = `Page ${page.page_number} of ${lesson.pages.length}${screen.parts > 1 ? `, part ${screen.part + 1} of ${screen.parts}` : ''}`;
-    body = <LessonPageView lessonTitle={lesson.lesson.lesson_title} screen={screen} visuals={visuals} />;
-    footer = (
-      <View style={styles.footerStack}>
-        {last && questions.length ? (
-          <PrimaryButton
-            label={lesson.knowledge_check.title}
-            leading={<MaterialCommunityIcons name="bullseye-arrow" size={24} color={colors.accentSalmon} />}
-            trailingIcon="arrow-right"
-            onPress={() => dispatch({ type: 'next' })}
-          />
-        ) : (
-          <PrimaryButton label={last ? 'Finish' : 'Continue'} trailingIcon="arrow-right" onPress={() => dispatch({ type: 'next' })} />
-        )}
-      </View>
-    );
-  } else if (step.kind === 'quiz') {
-    const q = questions[step.index];
-    const answer = state.answers[q.question_id];
-    counter = `Quiz ${step.index + 1}/${questions.length}`;
-    counterLabel = `Question ${step.index + 1} of ${questions.length}`;
+    body = <LessonPageView lessonTitle={lesson.lessonTitle} screen={screen} visuals={visuals} />;
+    footer = continueButton();
+  } else if (step.kind === 'question') {
+    const q = lesson.questions[step.questionId];
+    const answer = state.answers[q.id];
+    if (step.context === 'final') {
+      counter = `Quiz ${step.position}/${step.count}`;
+      counterLabel = `Final check, question ${step.position} of ${step.count}`;
+    } else if (step.context === 'check') {
+      counter = 'Quick check';
+      counterLabel = `Quick check, question ${step.position} of ${step.count}`;
+    } else {
+      counter = `${step.pageNumber} / ${lesson.pages.length}`;
+      counterLabel = `Page ${step.pageNumber} of ${lesson.pages.length}, practice ${step.position} of ${step.count}`;
+    }
     body = (
       <View style={styles.quiz}>
-        <QuizIntro lessonTitle={lesson.lesson.lesson_title} title={lesson.knowledge_check.title} />
+        <QuizIntro pill={step.context === 'check' ? 'Quick check' : lesson.lessonTitle} title={step.heading} />
         <QuestionCard
-          number={step.index + 1}
+          number={step.position}
           question={q}
           answer={answer}
-          onAnswer={(optionId) => {
-            dispatch({ type: 'answer', questionId: q.question_id, optionId });
-            AccessibilityInfo.announceForAccessibility(isCorrect(q, optionId) ? 'Correct!' : 'Not quite.');
+          onAnswer={(a) => {
+            dispatch({ type: 'answer', questionId: q.id, answer: a });
+            // Bring the explanation into view.
+            setTimeout(() => scrollRef.current?.scrollToEnd({ animated: true }), 150);
+            const result = grade(q, a);
+            if (result !== null) AccessibilityInfo.announceForAccessibility(result ? 'Correct!' : 'Not quite.');
           }}
         />
       </View>
     );
     // Same Continue as the lessons, enabled once the question is answered.
-    footer = (
-      <PrimaryButton
-        label="Continue"
-        trailingIcon="arrow-right"
-        disabled={answer === undefined}
-        onPress={() => dispatch({ type: 'next' })}
-      />
-    );
+    footer = continueButton(answer === undefined);
   } else {
     const { correct, total } = lessonScore(lesson, state.answers);
     body = (
@@ -157,27 +179,27 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   return (
     <View style={[styles.root, { paddingTop: insets.top }]}>
       <LessonHeader
-        stageTitle={lesson.topic.learning_stage}
+        stageTitle={lesson.stageTitle ?? topic.stage.title}
         stageArt={STAGE_ART[topic.stage.number]}
         counter={counter}
         counterLabel={counterLabel}
         onBack={back}
       />
-      <ScrollView
-        ref={scrollRef}
-        style={styles.fill}
-        contentContainerStyle={styles.content}
-        showsVerticalScrollIndicator={false}
-      >
-        <Animated.View key={stepKey} entering={entering}>
-          {body}
-        </Animated.View>
-      </ScrollView>
-      {footer ? (
+      {/* "padding" on both platforms: Android is edge-to-edge, so typed answers need room above the keyboard. */}
+      <KeyboardAvoidingView style={styles.fill} behavior="padding">
+        <ScrollView
+          ref={scrollRef}
+          style={styles.fill}
+          contentContainerStyle={styles.content}
+          showsVerticalScrollIndicator={false}
+          keyboardShouldPersistTaps="handled"
+        >
+          <Animated.View key={stepKey} entering={entering}>
+            {body}
+          </Animated.View>
+        </ScrollView>
         <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, space.lg) + space.sm }]}>{footer}</View>
-      ) : (
-        <View style={{ height: insets.bottom }} />
-      )}
+      </KeyboardAvoidingView>
     </View>
   );
 }

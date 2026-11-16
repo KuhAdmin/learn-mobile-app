@@ -1,23 +1,27 @@
 import { StyleSheet, View } from 'react-native';
 
 import type { LessonVisuals } from '@/lessons/presentation';
-import type { ContentBlock } from '@/lessons/schema';
+import type { ContentBlock } from '@/lessons/model';
 import type { LessonScreen } from '@/lessons/screens';
 import { space } from '@/theme/tokens';
 
 import {
   AnnotatedExampleCard,
   BodyText,
+  ComparisonCard,
   ExampleCard,
   ExplanationCard,
-  LessonArtImage,
   KeyTakeaway,
+  LessonArtImage,
   LessonPill,
+  ListBlock,
   NoteCard,
   PageTitle,
+  RuleCard,
   SentencePictures,
-  SummaryList,
+  WarningCard,
   WithArt,
+  wideArtWidth,
 } from './LessonBlocks';
 
 interface LessonPageViewProps {
@@ -33,35 +37,48 @@ interface LessonPageViewProps {
 export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewProps) {
   const { page } = screen;
   const visual = visuals?.pages[page.page_id];
-  const [first, ...rest] = screen.blocks;
+  // The picture goes under the screen's leading text (or under its first block if it has no text).
+  const firstNonText = screen.blocks.findIndex((b) => b.type !== 'text');
+  const lead = firstNonText === -1 ? screen.blocks : screen.blocks.slice(0, Math.max(1, firstNonText));
+  const rest = screen.blocks.slice(lead.length);
 
   const renderBlock = (block: ContentBlock) => {
     switch (block.type) {
       case 'text':
         return <BodyText key={block.block_id}>{block.text}</BodyText>;
       case 'note':
-        return <NoteCard key={block.block_id} text={block.text} />;
+        return <NoteCard key={block.block_id} text={block.text} title={block.title} />;
       case 'list':
-        return <SummaryList key={block.block_id} items={block.items} />;
+        return <ListBlock key={block.block_id} block={block} />;
+      case 'comparison':
+        return <ComparisonCard key={block.block_id} block={block} arts={visuals?.comparisonArt?.[block.block_id]} />;
+      case 'warning':
+        return <WarningCard key={block.block_id} block={block} />;
+      case 'rule':
+        return <RuleCard key={block.block_id} block={block} />;
+      case 'question':
+        return null; // played as its own question step
+
       case 'example':
         return (
           <View key={block.block_id} style={styles.blocks}>
-            {block.examples.map((example, i) => {
+            {(() => {
+              const [example] = block.examples;
               const phrases = visuals?.annotations?.[block.block_id];
-              if (phrases && i === 0) return <AnnotatedExampleCard key={i} example={example} phrases={phrases} />;
-              if (visual?.sentenceArt && i === 0) {
+              if (phrases) return <AnnotatedExampleCard example={example} phrases={phrases} />;
+              if (visual?.sentenceArt) {
                 // A split page shows the pictures on one screen and the explanation on the next.
                 return (
-                  <View key={i} style={styles.blocks}>
+                  <>
                     {screen.examplePart !== 'explanation' ? (
                       <SentencePictures example={example} arts={visual.sentenceArt} />
                     ) : null}
                     {screen.examplePart !== 'sentences' ? <ExplanationCard text={example.explanation} /> : null}
-                  </View>
+                  </>
                 );
               }
-              return <ExampleCard key={i} example={example} art={i === 0 ? visual?.exampleArt : undefined} />;
-            })}
+              return <ExampleCard examples={block.examples} art={visual?.exampleArt} />;
+            })()}
           </View>
         );
     }
@@ -73,15 +90,14 @@ export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewP
         <LessonPill label={lessonTitle} />
         <PageTitle>{page.title}</PageTitle>
       </View>
-      {first ? (
-        // The page's main picture sits with its first block (intro text, or the summary list).
+      {lead.length ? (
         <WithArt art={screen.showArt ? visual?.art : undefined} layout={visual?.layout}>
-          {renderBlock(first)}
+          <View style={styles.blocks}>{lead.map(renderBlock)}</View>
         </WithArt>
       ) : screen.showArt && visual?.art ? (
-        // A screen with no blocks left (summary part 2) shows the picture on its own.
+        // A screen with no blocks left (summary closing screen) shows the picture on its own.
         <View style={styles.soloArt}>
-          <LessonArtImage art={visual.art} width={visual.art.aspect < 0.8 ? '46%' : '80%'} />
+          <LessonArtImage art={visual.art} width={wideArtWidth(visual.art.aspect)} />
         </View>
       ) : null}
       {rest.map(renderBlock)}

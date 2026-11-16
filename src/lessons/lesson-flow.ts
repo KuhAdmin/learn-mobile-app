@@ -1,20 +1,87 @@
 /**
- * Lesson player state: content screens (pages, split by `screens.ts`) → knowledge check → result. Pure reducer so the
- * navigation rules (no skipping unanswered questions, one answer per question) are unit tested.
+ * Lesson player flow. A lesson becomes one ordered list of steps:
+ *   page screens (see `screens.ts`)
+ *   → the page's in-page practice questions (one per step)
+ *   → any quick check placed after that page (schema 2.0 dimension assessments)
+ *   … → final check questions → result.
+ * The reducer moves through that list. A question must be answered before moving on, and an
+ * answer is locked once given. Pure, so these rules are unit tested.
  */
-import type { GrammarLesson, QuizQuestion } from './schema';
-import { lessonScreens } from './screens';
+import { grade, score, type Answer } from './answers';
+import type { Lesson } from './model';
+import type { LessonVisuals } from './presentation';
+import { lessonScreens, type LessonScreen } from './screens';
+
+export type QuestionContext = 'practice' | 'check' | 'final';
 
 export type LessonStep =
-  /** `index` is a screen index (see `lessonScreens`), not a JSON page index. */
-  | { kind: 'page'; index: number }
-  | { kind: 'quiz'; index: number }
+  | { kind: 'screen'; screen: LessonScreen }
+  | {
+      kind: 'question';
+      questionId: string;
+      context: QuestionContext;
+      /** Heading above the question: page title, check title or final-check title. */
+      heading: string;
+      /** 1-based position within its group (practice page / check / final check). */
+      position: number;
+      count: number;
+      /** Page the question belongs to or follows (header counter). */
+      pageNumber: number;
+    }
   | { kind: 'result' };
 
+/** `budget`: screen height budget (see `bodyBudget` in screens.ts); defaults to a ~400×820 phone. */
+export function buildSteps(lesson: Lesson, visuals?: LessonVisuals, budget?: number): LessonStep[] {
+  const steps: LessonStep[] = [];
+  const screens = lessonScreens(lesson, visuals, budget);
+  for (const page of lesson.pages) {
+    screens.filter((s) => s.page === page).forEach((screen) => steps.push({ kind: 'screen', screen }));
+    const practice = page.content.flatMap((b) => (b.type === 'question' ? [b.question_id] : []));
+    practice.forEach((questionId, i) =>
+      steps.push({
+        kind: 'question',
+        questionId,
+        context: 'practice',
+        heading: page.title,
+        position: i + 1,
+        count: practice.length,
+        pageNumber: page.page_number,
+      }),
+    );
+    for (const check of lesson.checkpoints.filter((c) => c.afterPageId === page.page_id)) {
+      check.questionIds.forEach((questionId, i) =>
+        steps.push({
+          kind: 'question',
+          questionId,
+          context: 'check',
+          heading: check.title,
+          position: i + 1,
+          count: check.questionIds.length,
+          pageNumber: page.page_number,
+        }),
+      );
+    }
+  }
+  const final = lesson.finalCheck;
+  final?.questionIds.forEach((questionId, i) =>
+    steps.push({
+      kind: 'question',
+      questionId,
+      context: 'final',
+      heading: final.title,
+      position: i + 1,
+      count: final.questionIds.length,
+      pageNumber: lesson.pages.length,
+    }),
+  );
+  steps.push({ kind: 'result' });
+  return steps;
+}
+
 export interface LessonFlowState {
-  step: LessonStep;
-  /** question_id → chosen option_id. Locked once set. */
-  answers: Record<string, string>;
+  index: number;
+  /** question id → answer. Locked once set. */
+  answers: Record<string, Answer>;
   /** Direction of the last step change, so the next screen can slide in from the matching side. */
   lastMove: 'forward' | 'back';
 }
@@ -22,59 +89,37 @@ export interface LessonFlowState {
 export type LessonFlowAction =
   | { type: 'next' }
   | { type: 'back' }
-  | { type: 'answer'; questionId: string; optionId: string }
+  | { type: 'answer'; questionId: string; answer: Answer }
   | { type: 'restart' };
 
-export const initialLessonFlow: LessonFlowState = { step: { kind: 'page', index: 0 }, answers: {}, lastMove: 'forward' };
-
-export const isCorrect = (q: QuizQuestion, optionId: string | undefined) =>
-  optionId !== undefined && q.correct_answers.includes(optionId);
-
-export function lessonScore(lesson: GrammarLesson, answers: Record<string, string>) {
-  const questions = lesson.knowledge_check.questions;
-  return { correct: questions.filter((q) => isCorrect(q, answers[q.question_id])).length, total: questions.length };
-}
+export const initialLessonFlow: LessonFlowState = { index: 0, answers: {}, lastMove: 'forward' };
 
 /** Whether "back" stays inside the lesson (false = leave the lesson). */
-export const canStepBack = (state: LessonFlowState) => !(state.step.kind === 'page' && state.step.index === 0);
+export const canStepBack = (state: LessonFlowState) => state.index > 0;
 
-export function lessonFlowReducer(lesson: GrammarLesson) {
-  const lastPage = lessonScreens(lesson).length - 1;
-  const questions = lesson.knowledge_check.questions;
+export function lessonScore(lesson: Lesson, answers: Record<string, Answer>) {
+  return score((lesson.finalCheck?.questionIds ?? []).map((id) => lesson.questions[id]), answers);
+}
 
-  const move = (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
-    const { step } = state;
+export function isAnswerCorrect(lesson: Lesson, questionId: string, answers: Record<string, Answer>) {
+  return grade(lesson.questions[questionId], answers[questionId]);
+}
+
+export function lessonFlowReducer(steps: LessonStep[]) {
+  return (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
+    const step = steps[state.index];
     switch (action.type) {
       case 'next':
-        if (step.kind === 'page') {
-          if (step.index < lastPage) return { ...state, step: { kind: 'page', index: step.index + 1 } };
-          return { ...state, step: questions.length ? { kind: 'quiz', index: 0 } : { kind: 'result' } };
-        }
-        if (step.kind === 'quiz') {
-          if (!state.answers[questions[step.index].question_id]) return state; // answer first
-          if (step.index < questions.length - 1) return { ...state, step: { kind: 'quiz', index: step.index + 1 } };
-          return { ...state, step: { kind: 'result' } };
-        }
-        return state;
+        if (step.kind === 'question' && !state.answers[step.questionId]) return state; // answer first
+        if (state.index >= steps.length - 1) return state;
+        return { ...state, index: state.index + 1, lastMove: 'forward' };
       case 'back':
-        if (step.kind === 'page') return step.index > 0 ? { ...state, step: { kind: 'page', index: step.index - 1 } } : state;
-        if (step.kind === 'quiz')
-          return { ...state, step: step.index > 0 ? { kind: 'quiz', index: step.index - 1 } : { kind: 'page', index: lastPage } };
-        return { ...state, step: questions.length ? { kind: 'quiz', index: questions.length - 1 } : { kind: 'page', index: lastPage } };
-      case 'answer': {
-        if (step.kind !== 'quiz' || state.answers[action.questionId]) return state;
-        const q = questions[step.index];
-        if (q.question_id !== action.questionId || !q.options.some((o) => o.option_id === action.optionId)) return state;
-        return { ...state, answers: { ...state.answers, [action.questionId]: action.optionId } };
-      }
+        return state.index > 0 ? { ...state, index: state.index - 1, lastMove: 'back' } : state;
+      case 'answer':
+        if (step.kind !== 'question' || step.questionId !== action.questionId || state.answers[action.questionId]) return state;
+        return { ...state, answers: { ...state.answers, [action.questionId]: action.answer } };
       case 'restart':
         return initialLessonFlow;
     }
-  };
-
-  return (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
-    const next = move(state, action);
-    if (next === state || next.step === state.step || action.type === 'restart') return next;
-    return { ...next, lastMove: action.type === 'back' ? 'back' : 'forward' };
   };
 }

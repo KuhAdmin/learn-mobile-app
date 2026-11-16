@@ -22,8 +22,10 @@ export function tokenizeSentence(sentence: string, highlight: readonly string[])
     .filter(Boolean)
     .map((text) => {
       const word = bare(text);
-      let idx = pending.indexOf(word);
-      if (idx === -1) idx = pending.findIndex((h) => h.toLowerCase() === word.toLowerCase());
+      // Exact fragment first ("Wow!"), then the word without punctuation, then any case.
+      let idx = pending.indexOf(text);
+      if (idx === -1) idx = pending.indexOf(word);
+      if (idx === -1) idx = pending.findIndex((h) => bare(h).toLowerCase() === word.toLowerCase());
       if (idx === -1) return { text, tone: null };
       pending.splice(idx, 1);
       return { text, tone: n++ % 2 === 0 ? 'teal' : 'salmon' };
