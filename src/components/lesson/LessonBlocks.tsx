@@ -58,10 +58,13 @@ export function LessonArtImage({ art, width = '100%' }: { art: LessonArt; width?
 export function WithArt({ art, layout = 'side', children }: { art?: LessonArt; layout?: 'side' | 'wide'; children: ReactNode }) {
   if (!art) return <>{children}</>;
   if (layout === 'wide') {
+    // Panoramic art spans the page; squarer art is centred at a comfortable size.
     return (
       <View style={styles.stack}>
         {children}
-        <LessonArtImage art={art} />
+        <View style={styles.wideArt}>
+          <LessonArtImage art={art} width={art.aspect >= 2 ? '100%' : '70%'} />
+        </View>
       </View>
     );
   }
@@ -163,28 +166,32 @@ export function AnnotatedExampleCard({ example, phrases }: { example: ExampleIte
   );
 }
 
-/** One picture per sentence with the sentence under it, then the explanation ("A Word Can Change Its Job"). */
+/** One picture per sentence with the sentence under it ("A Word Can Change Its Job"). */
 export function SentencePictures({ example, arts }: { example: ExampleItem; arts: LessonArt[] }) {
   const sentences = splitTokenSentences(tokenizeSentence(example.sentence, example.highlight));
   return (
-    <View style={styles.stack}>
-      <View style={styles.pictureRow}>
-        {sentences.map((tokens, i) => (
-          <View key={i} style={styles.pictureCol}>
-            {arts[i] ? <LessonArtImage art={arts[i]} /> : null}
-            {i < sentences.length - 1 ? (
-              <MaterialCommunityIcons name="arrow-right-thin" size={28} color={colors.ink} style={styles.pictureArrow} />
-            ) : null}
-            <View style={styles.sentenceBubble}>
-              <ChipLine tokens={tokens} size="sm" label={tokens.map((t) => t.text).join(' ')} />
-            </View>
+    <View style={styles.pictureRow}>
+      {sentences.map((tokens, i) => (
+        <View key={i} style={styles.pictureCol}>
+          {arts[i] ? <LessonArtImage art={arts[i]} /> : null}
+          {i < sentences.length - 1 ? (
+            <MaterialCommunityIcons name="arrow-right-thin" size={28} color={colors.ink} style={styles.pictureArrow} />
+          ) : null}
+          <View style={styles.sentenceBubble}>
+            <ChipLine tokens={tokens} size="sm" label={tokens.map((t) => t.text).join(' ')} />
           </View>
-        ))}
-      </View>
-      <InfoCard icon={<TopicIcon name="book" size={52} />} label="Explanation">
-        <AppText style={styles.cardBody}>{example.explanation}</AppText>
-      </InfoCard>
+        </View>
+      ))}
     </View>
+  );
+}
+
+/** An example's explanation as its own card (book icon), used after sentence pictures. */
+export function ExplanationCard({ text }: { text: string }) {
+  return (
+    <InfoCard icon={<TopicIcon name="book" size={52} />} label="Explanation">
+      <AppText style={styles.cardBody}>{text}</AppText>
+    </InfoCard>
   );
 }
 
@@ -272,6 +279,7 @@ const styles = StyleSheet.create({
   gapSm: { gap: space.sm },
   gapMd: { gap: space.md },
   stack: { gap: space.lg },
+  wideArt: { alignItems: 'center' },
   lessonPill: {
     alignSelf: 'flex-start',
     paddingHorizontal: space.lg,
@@ -355,7 +363,6 @@ const styles = StyleSheet.create({
   cardBody: { fontFamily: fonts.sans, fontSize: 15, lineHeight: 22, color: colors.ink },
   takeaway: { fontFamily: fonts.serifBold, fontSize: 20, lineHeight: 26, color: colors.ink },
   listCard: {
-    flex: 1,
     paddingHorizontal: space.lg,
     paddingVertical: space.xs,
     borderRadius: radii.block,

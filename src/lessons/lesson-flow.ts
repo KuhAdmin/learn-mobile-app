@@ -1,10 +1,12 @@
 /**
- * Lesson player state: content pages → knowledge check → result. Pure reducer so the
+ * Lesson player state: content screens (pages, split by `screens.ts`) → knowledge check → result. Pure reducer so the
  * navigation rules (no skipping unanswered questions, one answer per question) are unit tested.
  */
 import type { GrammarLesson, QuizQuestion } from './schema';
+import { lessonScreens } from './screens';
 
 export type LessonStep =
+  /** `index` is a screen index (see `lessonScreens`), not a JSON page index. */
   | { kind: 'page'; index: number }
   | { kind: 'quiz'; index: number }
   | { kind: 'result' };
@@ -13,6 +15,8 @@ export interface LessonFlowState {
   step: LessonStep;
   /** question_id → chosen option_id. Locked once set. */
   answers: Record<string, string>;
+  /** Direction of the last step change, so the next screen can slide in from the matching side. */
+  lastMove: 'forward' | 'back';
 }
 
 export type LessonFlowAction =
@@ -21,7 +25,7 @@ export type LessonFlowAction =
   | { type: 'answer'; questionId: string; optionId: string }
   | { type: 'restart' };
 
-export const initialLessonFlow: LessonFlowState = { step: { kind: 'page', index: 0 }, answers: {} };
+export const initialLessonFlow: LessonFlowState = { step: { kind: 'page', index: 0 }, answers: {}, lastMove: 'forward' };
 
 export const isCorrect = (q: QuizQuestion, optionId: string | undefined) =>
   optionId !== undefined && q.correct_answers.includes(optionId);
@@ -35,10 +39,10 @@ export function lessonScore(lesson: GrammarLesson, answers: Record<string, strin
 export const canStepBack = (state: LessonFlowState) => !(state.step.kind === 'page' && state.step.index === 0);
 
 export function lessonFlowReducer(lesson: GrammarLesson) {
-  const lastPage = lesson.pages.length - 1;
+  const lastPage = lessonScreens(lesson).length - 1;
   const questions = lesson.knowledge_check.questions;
 
-  return (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
+  const move = (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
     const { step } = state;
     switch (action.type) {
       case 'next':
@@ -66,5 +70,11 @@ export function lessonFlowReducer(lesson: GrammarLesson) {
       case 'restart':
         return initialLessonFlow;
     }
+  };
+
+  return (state: LessonFlowState, action: LessonFlowAction): LessonFlowState => {
+    const next = move(state, action);
+    if (next === state || next.step === state.step || action.type === 'restart') return next;
+    return { ...next, lastMove: action.type === 'back' ? 'back' : 'forward' };
   };
 }

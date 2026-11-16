@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useEffect, useMemo, useReducer, useRef, type ReactNode } from 'react';
 import { AccessibilityInfo, BackHandler, ScrollView, StyleSheet, View, type ScrollViewInstance } from 'react-native';
-import Animated, { FadeIn } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeInLeft, FadeInRight } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AppText } from '@/components/AppText';
@@ -18,13 +18,14 @@ import {
 } from '@/lessons/lesson-flow';
 import { visualsFor } from '@/lessons/presentation';
 import type { GrammarLesson } from '@/lessons/schema';
+import { lessonScreens } from '@/lessons/screens';
 import { useProgress } from '@/state/progress-context';
 import { colors, fonts, sizes, space } from '@/theme/tokens';
 
 import { LessonArtImage } from './LessonBlocks';
 import { LessonHeader } from './LessonHeader';
 import { LessonPageView } from './LessonPageView';
-import { QuestionCard, QuizFooter, QuizIntro } from './QuizViews';
+import { QuestionCard, QuizIntro } from './QuizViews';
 
 interface LessonPlayerProps {
   lesson: GrammarLesson;
@@ -36,6 +37,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   const insets = useSafeAreaInsets();
   const { completeTopic } = useProgress();
   const reducer = useMemo(() => lessonFlowReducer(lesson), [lesson]);
+  const screens = useMemo(() => lessonScreens(lesson), [lesson]);
   const [state, dispatch] = useReducer(reducer, initialLessonFlow);
   const visuals = visualsFor(lesson.topic.topic_id);
   const { step } = state;
@@ -62,6 +64,10 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
     scrollRef.current?.scrollTo({ y: 0, animated: false });
   }, [stepKey]);
 
+  // New screens slide in from the side matching the direction of travel.
+  const entering =
+    step.kind === 'result' ? FadeIn.duration(220) : (state.lastMove === 'back' ? FadeInLeft : FadeInRight).duration(220);
+
   const finish = () => {
     completeTopic(topic.topic.id);
     exit();
@@ -73,14 +79,15 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   let footer: ReactNode;
 
   if (step.kind === 'page') {
-    const page = lesson.pages[step.index];
-    const last = step.index === lesson.pages.length - 1;
+    const screen = screens[step.index];
+    const { page } = screen;
+    const last = step.index === screens.length - 1;
+    // The pill counts JSON pages ("3 / 8").
     counter = `${page.page_number} / ${lesson.pages.length}`;
-    counterLabel = `Page ${page.page_number} of ${lesson.pages.length}`;
-    body = <LessonPageView lessonTitle={lesson.lesson.lesson_title} page={page} visuals={visuals} />;
+    counterLabel = `Page ${page.page_number} of ${lesson.pages.length}${screen.parts > 1 ? `, part ${screen.part + 1} of ${screen.parts}` : ''}`;
+    body = <LessonPageView lessonTitle={lesson.lesson.lesson_title} screen={screen} visuals={visuals} />;
     footer = (
       <View style={styles.footerStack}>
-        {page.page_type !== 'summary' ? <ProgressBar value={page.page_number / lesson.pages.length} /> : null}
         {last && questions.length ? (
           <PrimaryButton
             label={lesson.knowledge_check.title}
@@ -89,7 +96,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
             onPress={() => dispatch({ type: 'next' })}
           />
         ) : (
-          <PrimaryButton label="Continue" trailingIcon="arrow-right" onPress={() => dispatch({ type: 'next' })} />
+          <PrimaryButton label={last ? 'Finish' : 'Continue'} trailingIcon="arrow-right" onPress={() => dispatch({ type: 'next' })} />
         )}
       </View>
     );
@@ -100,7 +107,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
     counterLabel = `Question ${step.index + 1} of ${questions.length}`;
     body = (
       <View style={styles.quiz}>
-        <QuizIntro lessonTitle={lesson.lesson.lesson_title} title={lesson.knowledge_check.title} art={visuals?.quizArt} />
+        <QuizIntro lessonTitle={lesson.lesson.lesson_title} title={lesson.knowledge_check.title} />
         <QuestionCard
           number={step.index + 1}
           question={q}
@@ -112,12 +119,13 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
         />
       </View>
     );
+    // Same Continue as the lessons, enabled once the question is answered.
     footer = (
-      <QuizFooter
-        index={step.index}
-        count={questions.length}
-        canContinue={answer !== undefined}
-        onNext={() => dispatch({ type: 'next' })}
+      <PrimaryButton
+        label="Continue"
+        trailingIcon="arrow-right"
+        disabled={answer === undefined}
+        onPress={() => dispatch({ type: 'next' })}
       />
     );
   } else {
@@ -161,25 +169,15 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
       >
-        <Animated.View key={stepKey} entering={FadeIn.duration(220)}>
+        <Animated.View key={stepKey} entering={entering}>
           {body}
         </Animated.View>
       </ScrollView>
-      <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, space.lg) + space.sm }]}>{footer}</View>
-    </View>
-  );
-}
-
-function ProgressBar({ value }: { value: number }) {
-  return (
-    <View
-      style={styles.track}
-      accessible
-      accessibilityRole="progressbar"
-      accessibilityLabel="Lesson progress"
-      accessibilityValue={{ min: 0, max: 100, now: Math.round(value * 100) }}
-    >
-      <View style={[styles.trackFill, { width: `${value * 100}%` }]} />
+      {footer ? (
+        <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, space.lg) + space.sm }]}>{footer}</View>
+      ) : (
+        <View style={{ height: insets.bottom }} />
+      )}
     </View>
   );
 }
@@ -191,8 +189,6 @@ const styles = StyleSheet.create({
   footer: { paddingHorizontal: sizes.gutter, paddingTop: space.md, backgroundColor: colors.bg },
   footerStack: { gap: space.lg },
   quiz: { gap: space.xl },
-  track: { height: 10, borderRadius: 5, backgroundColor: colors.switchOff, overflow: 'hidden' },
-  trackFill: { height: '100%', borderRadius: 5, backgroundColor: colors.pathTeal },
   result: { alignItems: 'center', gap: space.md, paddingTop: space.xxl },
   resultTitle: { fontFamily: fonts.serifBold, fontSize: 32, lineHeight: 40, color: colors.ink, marginTop: space.md },
   resultBody: { fontFamily: fonts.sansMedium, fontSize: 17, lineHeight: 24, color: colors.ink },

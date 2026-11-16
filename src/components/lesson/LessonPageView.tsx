@@ -1,13 +1,16 @@
 import { StyleSheet, View } from 'react-native';
 
 import type { LessonVisuals } from '@/lessons/presentation';
-import type { ContentBlock, LessonPage } from '@/lessons/schema';
+import type { ContentBlock } from '@/lessons/schema';
+import type { LessonScreen } from '@/lessons/screens';
 import { space } from '@/theme/tokens';
 
 import {
   AnnotatedExampleCard,
   BodyText,
   ExampleCard,
+  ExplanationCard,
+  LessonArtImage,
   KeyTakeaway,
   LessonPill,
   NoteCard,
@@ -19,14 +22,18 @@ import {
 
 interface LessonPageViewProps {
   lessonTitle: string;
-  page: LessonPage;
+  screen: LessonScreen;
   visuals?: LessonVisuals;
 }
 
-/** Renders one content page from its JSON blocks; artwork/layout come from the presentation map. */
-export function LessonPageView({ lessonTitle, page, visuals }: LessonPageViewProps) {
+/**
+ * Renders one screen of a content page from its JSON blocks; artwork/layout come from the presentation map.
+ * Both screens of a split page repeat the page title so the example keeps its context.
+ */
+export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewProps) {
+  const { page } = screen;
   const visual = visuals?.pages[page.page_id];
-  const [first, ...rest] = page.content;
+  const [first, ...rest] = screen.blocks;
 
   const renderBlock = (block: ContentBlock) => {
     switch (block.type) {
@@ -42,7 +49,17 @@ export function LessonPageView({ lessonTitle, page, visuals }: LessonPageViewPro
             {block.examples.map((example, i) => {
               const phrases = visuals?.annotations?.[block.block_id];
               if (phrases && i === 0) return <AnnotatedExampleCard key={i} example={example} phrases={phrases} />;
-              if (visual?.sentenceArt && i === 0) return <SentencePictures key={i} example={example} arts={visual.sentenceArt} />;
+              if (visual?.sentenceArt && i === 0) {
+                // A split page shows the pictures on one screen and the explanation on the next.
+                return (
+                  <View key={i} style={styles.blocks}>
+                    {screen.examplePart !== 'explanation' ? (
+                      <SentencePictures example={example} arts={visual.sentenceArt} />
+                    ) : null}
+                    {screen.examplePart !== 'sentences' ? <ExplanationCard text={example.explanation} /> : null}
+                  </View>
+                );
+              }
               return <ExampleCard key={i} example={example} art={i === 0 ? visual?.exampleArt : undefined} />;
             })}
           </View>
@@ -58,12 +75,17 @@ export function LessonPageView({ lessonTitle, page, visuals }: LessonPageViewPro
       </View>
       {first ? (
         // The page's main picture sits with its first block (intro text, or the summary list).
-        <WithArt art={visual?.art} layout={visual?.layout}>
+        <WithArt art={screen.showArt ? visual?.art : undefined} layout={visual?.layout}>
           {renderBlock(first)}
         </WithArt>
+      ) : screen.showArt && visual?.art ? (
+        // A screen with no blocks left (summary part 2) shows the picture on its own.
+        <View style={styles.soloArt}>
+          <LessonArtImage art={visual.art} width={visual.art.aspect < 0.8 ? '46%' : '80%'} />
+        </View>
       ) : null}
       {rest.map(renderBlock)}
-      {page.key_takeaway ? <KeyTakeaway text={page.key_takeaway} /> : null}
+      {screen.showTakeaway && page.key_takeaway ? <KeyTakeaway text={page.key_takeaway} /> : null}
     </View>
   );
 }
@@ -72,4 +94,5 @@ const styles = StyleSheet.create({
   page: { gap: space.xl },
   head: { gap: space.md },
   blocks: { gap: space.lg },
+  soloArt: { alignItems: 'center' },
 });

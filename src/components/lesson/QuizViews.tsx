@@ -3,22 +3,18 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { AppText } from '@/components/AppText';
 import { isCorrect } from '@/lessons/lesson-flow';
-import type { LessonArt } from '@/lessons/presentation';
 import type { QuizOption, QuizQuestion } from '@/lessons/schema';
 import { borderWidth, colors, fonts, radii, space } from '@/theme/tokens';
 
-import { BodyText, InfoCard, LessonPill, PageTitle, WithArt } from './LessonBlocks';
+import { InfoCard, LessonPill, PageTitle } from './LessonBlocks';
 import { Lightbulb } from './Lightbulb';
 
-/** Quiz page head: lesson pill, "Check Your Understanding", subtitle and clipboard art. */
-export function QuizIntro({ lessonTitle, title, art }: { lessonTitle: string; title: string; art?: LessonArt }) {
+/** Quiz page head: lesson pill + "Check Your Understanding". */
+export function QuizIntro({ lessonTitle, title }: { lessonTitle: string; title: string }) {
   return (
     <View style={styles.intro}>
       <LessonPill label={lessonTitle} />
       <PageTitle>{title}</PageTitle>
-      <WithArt art={art}>
-        <BodyText>Answer the questions to see how much you’ve learned.</BodyText>
-      </WithArt>
     </View>
   );
 }
@@ -125,47 +121,6 @@ function OptionRow({ option, state, selected, showLetter, disabled, onPress }: O
   );
 }
 
-interface QuizFooterProps {
-  index: number;
-  count: number;
-  canContinue: boolean;
-  onNext: () => void;
-}
-
-/** "1 / 4", progress dots and the round next button (enabled once the question is answered). */
-export function QuizFooter({ index, count, canContinue, onNext }: QuizFooterProps) {
-  const last = index === count - 1;
-  return (
-    <View style={styles.footer}>
-      <View style={styles.footerSide} />
-      <View style={styles.footerCenter}>
-        <AppText style={styles.counter}>{`${index + 1} / ${count}`}</AppText>
-        <View style={styles.dots} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
-          {Array.from({ length: count }, (_, i) => (
-            <View key={i} style={[styles.dot, i === index && styles.dotActive]} />
-          ))}
-        </View>
-      </View>
-      <View style={styles.footerSide}>
-        <Pressable
-          onPress={onNext}
-          disabled={!canContinue}
-          accessibilityRole="button"
-          accessibilityLabel={last ? 'Finish quiz' : 'Next question'}
-          accessibilityState={{ disabled: !canContinue }}
-          style={({ pressed }) => [styles.next, !canContinue && styles.nextDisabled, pressed && styles.pressed]}
-        >
-          <MaterialCommunityIcons
-            name={last ? 'check' : 'chevron-right'}
-            size={30}
-            color={canContinue ? colors.ink : colors.disabled}
-          />
-        </Pressable>
-      </View>
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
   intro: { gap: space.md },
   stack: { gap: space.lg },
@@ -225,22 +180,4 @@ const styles = StyleSheet.create({
   optionTextRest: { color: colors.inkMuted },
   explanation: { borderWidth: 0, padding: space.md },
   explanationText: { fontFamily: fonts.sans, fontSize: 15, lineHeight: 22, color: colors.ink },
-  footer: { flexDirection: 'row', alignItems: 'center' },
-  footerSide: { width: 60, alignItems: 'flex-end' },
-  footerCenter: { flex: 1, alignItems: 'center', gap: space.sm },
-  counter: { fontFamily: fonts.serifBold, fontSize: 18, lineHeight: 24, color: colors.ink },
-  dots: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
-  dot: { width: 10, height: 10, borderRadius: 5, backgroundColor: colors.disabled },
-  dotActive: { width: 14, height: 14, borderRadius: 7, backgroundColor: colors.pathTeal },
-  next: {
-    width: 56,
-    height: 56,
-    borderRadius: 28,
-    borderWidth,
-    borderColor: colors.ink,
-    backgroundColor: colors.surface,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  nextDisabled: { borderColor: colors.disabled },
 });

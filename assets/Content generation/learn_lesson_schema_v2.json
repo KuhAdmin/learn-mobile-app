@@ -1,0 +1,1491 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kuhedu.com/schemas/learn-lesson-v2.0.schema.json",
+  "title": "Learn English Grammar Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "content_type",
+    "generation_context",
+    "topic",
+    "lesson",
+    "learning_dimensions",
+    "pages",
+    "question_bank",
+    "assessments",
+    "coverage",
+    "quality_audit"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "content_type": {
+      "const": "grammar_lesson"
+    },
+    "generation_context": {
+      "$ref": "#/$defs/generation_context"
+    },
+    "topic": {
+      "$ref": "#/$defs/topic"
+    },
+    "lesson": {
+      "$ref": "#/$defs/lesson"
+    },
+    "learning_dimensions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dimension"
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/page"
+      }
+    },
+    "question_bank": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "assessments": {
+      "$ref": "#/$defs/assessments"
+    },
+    "coverage": {
+      "$ref": "#/$defs/coverage"
+    },
+    "quality_audit": {
+      "$ref": "#/$defs/quality_audit"
+    },
+    "requirement_traceability": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/requirement_trace"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "passed",
+        "failed",
+        "review_required"
+      ]
+    },
+    "generation_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_audience",
+        "language_level",
+        "learning_context",
+        "content_language"
+      ],
+      "properties": {
+        "target_audience": {
+          "$ref": "#/$defs/text"
+        },
+        "language_level": {
+          "$ref": "#/$defs/text"
+        },
+        "learning_context": {
+          "$ref": "#/$defs/text"
+        },
+        "content_language": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+        }
+      }
+    },
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "topic_id",
+        "title",
+        "learning_stage",
+        "learner_level",
+        "language"
+      ],
+      "properties": {
+        "topic_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "learning_stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "learner_level": {
+          "$ref": "#/$defs/text"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+        }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lesson_title",
+        "lesson_summary",
+        "learning_objectives",
+        "estimated_duration_minutes",
+        "total_pages"
+      ],
+      "properties": {
+        "lesson_title": {
+          "$ref": "#/$defs/text"
+        },
+        "lesson_summary": {
+          "$ref": "#/$defs/text"
+        },
+        "learning_objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/objective"
+          }
+        },
+        "estimated_duration_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_pages": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "objective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "objective_id",
+        "description",
+        "success_criteria"
+      ],
+      "properties": {
+        "objective_id": {
+          "$ref": "#/$defs/id"
+        },
+        "description": {
+          "$ref": "#/$defs/text"
+        },
+        "success_criteria": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        }
+      }
+    },
+    "dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dimension_id",
+        "dimension",
+        "applicability",
+        "status",
+        "learning_objective_ids",
+        "page_ids",
+        "assessment_id"
+      ],
+      "properties": {
+        "dimension_id": {
+          "$ref": "#/$defs/id"
+        },
+        "dimension": {
+          "$ref": "#/$defs/text"
+        },
+        "applicability": {
+          "enum": [
+            "applicable",
+            "not_applicable"
+          ]
+        },
+        "status": {
+          "enum": [
+            "covered",
+            "introduced",
+            "not_applicable"
+          ]
+        },
+        "learning_objective_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "page_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "applicability": {
+                "const": "not_applicable"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "status": {
+                "const": "not_applicable"
+              },
+              "learning_objective_ids": {
+                "maxItems": 0
+              },
+              "page_ids": {
+                "maxItems": 0
+              },
+              "assessment_id": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "covered",
+                  "introduced"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "page_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page_id",
+        "page_number",
+        "page_type",
+        "pedagogical_role",
+        "learning_objective_ids",
+        "title",
+        "content"
+      ],
+      "properties": {
+        "page_id": {
+          "$ref": "#/$defs/id"
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "page_type": {
+          "enum": [
+            "introduction",
+            "concept",
+            "classification",
+            "rule",
+            "example",
+            "comparison",
+            "exception",
+            "common_mistake",
+            "application",
+            "practice",
+            "summary"
+          ]
+        },
+        "pedagogical_role": {
+          "enum": [
+            "introduction",
+            "explanation",
+            "decomposition",
+            "recognition",
+            "rule_application",
+            "demonstration",
+            "guided_practice",
+            "comparison",
+            "error_analysis",
+            "independent_practice",
+            "reinforcement"
+          ]
+        },
+        "learning_objective_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "content": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/text_block"
+              },
+              {
+                "$ref": "#/$defs/example_block"
+              },
+              {
+                "$ref": "#/$defs/rule_block"
+              },
+              {
+                "$ref": "#/$defs/comparison_block"
+              },
+              {
+                "$ref": "#/$defs/note_block"
+              },
+              {
+                "$ref": "#/$defs/warning_block"
+              },
+              {
+                "$ref": "#/$defs/list_block"
+              },
+              {
+                "$ref": "#/$defs/question_block"
+              }
+            ]
+          }
+        },
+        "key_takeaway": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "transition": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "page_audit": {
+          "$ref": "#/$defs/page_audit"
+        }
+      }
+    },
+    "text_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "text"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "text"
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "example_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sentence",
+        "highlight",
+        "explanation"
+      ],
+      "properties": {
+        "sentence": {
+          "$ref": "#/$defs/text"
+        },
+        "highlight": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        },
+        "explanation": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "example_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "examples"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "example"
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/example_item"
+          }
+        }
+      }
+    },
+    "rule_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "rule_id",
+        "rule_text",
+        "scope"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "rule"
+        },
+        "rule_id": {
+          "$ref": "#/$defs/id"
+        },
+        "rule_text": {
+          "$ref": "#/$defs/text"
+        },
+        "scope": {
+          "$ref": "#/$defs/text"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        },
+        "exception_page_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/example_item"
+          }
+        }
+      }
+    },
+    "comparison_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "items"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "comparison"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "description"
+            ],
+            "properties": {
+              "label": {
+                "$ref": "#/$defs/text"
+              },
+              "description": {
+                "$ref": "#/$defs/text"
+              },
+              "example": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "comparison_points": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        },
+        "conclusion": {
+          "type": "string"
+        }
+      }
+    },
+    "note_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "text"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "note"
+        },
+        "title": {
+          "type": "string"
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "warning_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "mistake"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "warning"
+        },
+        "title": {
+          "type": "string"
+        },
+        "mistake": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "incorrect",
+            "correct",
+            "reason"
+          ],
+          "properties": {
+            "incorrect": {
+              "$ref": "#/$defs/text"
+            },
+            "correct": {
+              "$ref": "#/$defs/text"
+            },
+            "reason": {
+              "$ref": "#/$defs/text"
+            }
+          }
+        },
+        "related_learning_objective_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "list_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "items"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "list"
+        },
+        "introduction": {
+          "type": "string"
+        },
+        "list_style": {
+          "enum": [
+            "bulleted",
+            "numbered"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        }
+      }
+    },
+    "question_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id",
+        "type",
+        "question_id"
+      ],
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "const": "question"
+        },
+        "question_id": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "page_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary_objective_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "estimated_visible_word_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "density_status": {
+          "$ref": "#/$defs/status"
+        },
+        "standalone_understanding": {
+          "$ref": "#/$defs/status"
+        }
+      }
+    },
+    "assessment_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "difficulty": {
+          "enum": [
+            "easy",
+            "medium",
+            "challenging"
+          ]
+        },
+        "cognitive_level": {
+          "enum": [
+            "remember",
+            "understand",
+            "apply",
+            "analyse",
+            "evaluate",
+            "create"
+          ]
+        },
+        "assessment_purpose": {
+          "enum": [
+            "dimension_check",
+            "final_check",
+            "practice",
+            "revision"
+          ]
+        }
+      }
+    },
+    "question_common": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "type",
+        "learning_objective_ids",
+        "prompt",
+        "explanation"
+      ],
+      "properties": {
+        "question_id": {
+          "$ref": "#/$defs/id"
+        },
+        "learning_objective_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "prompt": {
+          "$ref": "#/$defs/text"
+        },
+        "explanation": {
+          "$ref": "#/$defs/text"
+        },
+        "assessment_metadata": {
+          "$ref": "#/$defs/assessment_metadata"
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "option_id",
+        "text"
+      ],
+      "properties": {
+        "option_id": {
+          "$ref": "#/$defs/id"
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "question": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/multiple_choice"
+        },
+        {
+          "$ref": "#/$defs/true_false"
+        },
+        {
+          "$ref": "#/$defs/fill_blank"
+        },
+        {
+          "$ref": "#/$defs/identify"
+        },
+        {
+          "$ref": "#/$defs/sentence_correction"
+        },
+        {
+          "$ref": "#/$defs/match_pair"
+        },
+        {
+          "$ref": "#/$defs/flash_card"
+        }
+      ]
+    },
+    "multiple_choice": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "options",
+            "correct_answers",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "multiple_choice"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "options": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "$ref": "#/$defs/option"
+              }
+            },
+            "correct_answers": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "true_false": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "correct_answer",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "true_false"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "correct_answer": {
+              "type": "boolean"
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "fill_blank": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "blanks",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "fill_blank"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "blanks": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "blank_id",
+                  "accepted_answers"
+                ],
+                "properties": {
+                  "blank_id": {
+                    "$ref": "#/$defs/id"
+                  },
+                  "accepted_answers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "$ref": "#/$defs/text"
+                    }
+                  },
+                  "case_sensitive": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                }
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "identify": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "target",
+            "accepted_answers",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "identify"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "target": {
+              "$ref": "#/$defs/text"
+            },
+            "accepted_answers": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/text"
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "sentence_correction": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "original_sentence",
+            "corrected_sentence",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "sentence_correction"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "original_sentence": {
+              "$ref": "#/$defs/text"
+            },
+            "corrected_sentence": {
+              "$ref": "#/$defs/text"
+            },
+            "accepted_corrections": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/text"
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "match_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "text"
+      ],
+      "properties": {
+        "item_id": {
+          "$ref": "#/$defs/id"
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "match_pair": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "left_items",
+            "right_items",
+            "correct_pairs",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "match_the_pair"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "left_items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/match_item"
+              }
+            },
+            "right_items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/match_item"
+              }
+            },
+            "correct_pairs": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "left_id",
+                  "right_id"
+                ],
+                "properties": {
+                  "left_id": {
+                    "$ref": "#/$defs/id"
+                  },
+                  "right_id": {
+                    "$ref": "#/$defs/id"
+                  }
+                }
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "flash_card": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/question_common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "question_id",
+            "type",
+            "learning_objective_ids",
+            "prompt",
+            "front",
+            "back",
+            "explanation"
+          ],
+          "properties": {
+            "question_id": {
+              "$ref": "#/$defs/id"
+            },
+            "type": {
+              "const": "flash_card"
+            },
+            "learning_objective_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "prompt": {
+              "$ref": "#/$defs/text"
+            },
+            "front": {
+              "$ref": "#/$defs/text"
+            },
+            "back": {
+              "$ref": "#/$defs/text"
+            },
+            "explanation": {
+              "$ref": "#/$defs/text"
+            },
+            "assessment_metadata": {
+              "$ref": "#/$defs/assessment_metadata"
+            }
+          }
+        }
+      ]
+    },
+    "assessments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dimension_assessments",
+        "final_assessment"
+      ],
+      "properties": {
+        "dimension_assessments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/dimension_assessment"
+          }
+        },
+        "final_assessment": {
+          "$ref": "#/$defs/final_assessment"
+        }
+      }
+    },
+    "dimension_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment_id",
+        "dimension_id",
+        "title",
+        "after_page_id",
+        "question_ids"
+      ],
+      "properties": {
+        "assessment_id": {
+          "$ref": "#/$defs/id"
+        },
+        "dimension_id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "after_page_id": {
+          "$ref": "#/$defs/id"
+        },
+        "question_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "final_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment_id",
+        "title",
+        "question_ids"
+      ],
+      "properties": {
+        "assessment_id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "question_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cross_references"
+      ],
+      "properties": {
+        "cross_references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "concept",
+              "reason",
+              "coverage"
+            ],
+            "properties": {
+              "concept": {
+                "$ref": "#/$defs/text"
+              },
+              "reason": {
+                "$ref": "#/$defs/text"
+              },
+              "coverage": {
+                "enum": [
+                  "introduced_only",
+                  "referenced_only",
+                  "excluded"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "quality_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "grammar_accuracy",
+        "content_completeness",
+        "pedagogical_sequence",
+        "eli5_readability",
+        "mobile_page_density",
+        "example_quality",
+        "interaction_validity",
+        "json_schema_validity",
+        "duplicate_content_check",
+        "assessment_audit",
+        "overall_status",
+        "issues_found",
+        "corrections_made"
+      ],
+      "properties": {
+        "grammar_accuracy": {
+          "$ref": "#/$defs/status"
+        },
+        "content_completeness": {
+          "$ref": "#/$defs/status"
+        },
+        "pedagogical_sequence": {
+          "$ref": "#/$defs/status"
+        },
+        "eli5_readability": {
+          "$ref": "#/$defs/status"
+        },
+        "mobile_page_density": {
+          "$ref": "#/$defs/status"
+        },
+        "example_quality": {
+          "$ref": "#/$defs/status"
+        },
+        "interaction_validity": {
+          "$ref": "#/$defs/status"
+        },
+        "json_schema_validity": {
+          "$ref": "#/$defs/status"
+        },
+        "duplicate_content_check": {
+          "$ref": "#/$defs/status"
+        },
+        "assessment_audit": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "dimension_assessment_coverage",
+            "final_assessment_coverage",
+            "question_objective_alignment",
+            "duplicate_question_check",
+            "answer_key_validation",
+            "interaction_structure_validation"
+          ],
+          "properties": {
+            "dimension_assessment_coverage": {
+              "$ref": "#/$defs/status"
+            },
+            "final_assessment_coverage": {
+              "$ref": "#/$defs/status"
+            },
+            "question_objective_alignment": {
+              "$ref": "#/$defs/status"
+            },
+            "duplicate_question_check": {
+              "$ref": "#/$defs/status"
+            },
+            "answer_key_validation": {
+              "$ref": "#/$defs/status"
+            },
+            "interaction_structure_validation": {
+              "$ref": "#/$defs/status"
+            }
+          }
+        },
+        "overall_status": {
+          "$ref": "#/$defs/status"
+        },
+        "issues_found": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        },
+        "corrections_made": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        }
+      }
+    },
+    "requirement_trace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requirement_id",
+        "requirement",
+        "status"
+      ],
+      "properties": {
+        "requirement_id": {
+          "$ref": "#/$defs/id"
+        },
+        "requirement": {
+          "$ref": "#/$defs/text"
+        },
+        "status": {
+          "enum": [
+            "implemented",
+            "not_applicable",
+            "review_required"
+          ]
+        },
+        "page_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "assessment_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    }
+  }
+}

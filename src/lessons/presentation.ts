@@ -34,7 +34,6 @@ export interface LessonVisuals {
   pages: Record<string, PageVisual>;
   /** block_id → phrases. Phrases must spell out the example sentence in order. */
   annotations?: Record<string, PhraseAnnotation[]>;
-  quizArt?: LessonArt;
   resultArt?: LessonArt;
 }
 
@@ -42,6 +41,7 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
   '1.1.1.EP001': {
     pages: {
       PAGE001: {
+        layout: 'wide',
         art: {
           source: require('../../assets/lessons/1.1.1.EP001/bird.webp'),
           aspect: 390 / 350,
@@ -49,6 +49,7 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
         },
       },
       PAGE002: {
+        layout: 'wide',
         art: {
           source: require('../../assets/lessons/1.1.1.EP001/girl.webp'),
           aspect: 420 / 350,
@@ -64,6 +65,7 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
         },
       },
       PAGE004: {
+        layout: 'wide',
         art: {
           source: require('../../assets/lessons/1.1.1.EP001/cards.webp'),
           aspect: 445 / 400,
@@ -76,6 +78,7 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
         },
       },
       PAGE005: {
+        layout: 'wide',
         art: {
           source: require('../../assets/lessons/1.1.1.EP001/puzzle.webp'),
           aspect: 520 / 440,
@@ -124,11 +127,6 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
         { text: 'chased', label: 'What happened?' },
         { text: 'the mouse.', label: 'Who was chased?' },
       ],
-    },
-    quizArt: {
-      source: require('../../assets/lessons/1.1.1.EP001/clipboard.webp'),
-      aspect: 355 / 330,
-      label: 'A checklist on a clipboard with a pencil',
     },
     resultArt: {
       source: require('../../assets/lessons/1.1.1.EP001/pencil.webp'),

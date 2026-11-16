@@ -4,6 +4,7 @@ import { findTopic } from '@/learning-path/progression';
 
 import raw from '../content/1.1.1.EP001.json';
 import { LESSON_VISUALS } from '../presentation';
+import { lessonScreens } from '../screens';
 import { initialLessonFlow, lessonFlowReducer, lessonScore, type LessonFlowState } from '../lesson-flow';
 import { curriculumTopicId, lessonForTopic } from '../registry';
 import { parseLesson } from '../schema';
@@ -60,14 +61,39 @@ describe('tokenizeSentence', () => {
   });
 });
 
+describe('lessonScreens', () => {
+  it('moves each example or note and its Key Takeaway to a second screen', () => {
+    const screens = lessonScreens(lesson);
+    // Every page is 2 screens: 1–7 break at the example/note, the summary moves mascot + takeaway on.
+    expect(screens.map((s) => `${s.page.page_number}.${s.part}`)).toEqual([
+      '1.0', '1.1', '2.0', '2.1', '3.0', '3.1', '4.0', '4.1', '5.0', '5.1', '6.0', '6.1', '7.0', '7.1', '8.0', '8.1',
+    ]);
+    const [intro, example] = screens;
+    expect(intro.blocks.map((b) => b.type)).toEqual(['text']);
+    expect([intro.showArt, intro.showTakeaway]).toEqual([true, false]);
+    expect(example.blocks.map((b) => b.type)).toEqual(['example']);
+    expect([example.showArt, example.showTakeaway]).toEqual([false, true]);
+    // Page 3 breaks at the Note.
+    expect([screens[4].blocks, screens[5].blocks].map((b) => b.map((x) => x.type))).toEqual([['text'], ['note']]);
+    // Page 7 keeps its sentence pictures with the intro and breaks at the explanation.
+    expect([screens[12], screens[13]].map((s) => [s.blocks.map((b) => b.type), s.examplePart])).toEqual([
+      [['text', 'example'], 'sentences'],
+      [['example'], 'explanation'],
+    ]);
+    expect(screens[14]).toMatchObject({ showArt: false, showTakeaway: false });
+    expect(screens[14].blocks.map((b) => b.type)).toEqual(['list']);
+    expect(screens[15]).toMatchObject({ blocks: [], showArt: true, showTakeaway: true });
+  });
+});
+
 describe('lessonFlowReducer', () => {
   const reduce = lessonFlowReducer(lesson);
   const run = (state: LessonFlowState, ...actions: Parameters<typeof reduce>[1][]) => actions.reduce(reduce, state);
   const next = { type: 'next' } as const;
 
   it('walks every page, then the quiz, then the result', () => {
-    let s = run(initialLessonFlow, ...Array(7).fill(next));
-    expect(s.step).toEqual({ kind: 'page', index: 7 });
+    let s = run(initialLessonFlow, ...Array(15).fill(next));
+    expect(s.step).toEqual({ kind: 'page', index: 15 });
     s = reduce(s, next);
     expect(s.step).toEqual({ kind: 'quiz', index: 0 });
     // Can't skip an unanswered question.
@@ -82,12 +108,14 @@ describe('lessonFlowReducer', () => {
   });
 
   it('locks the first answer and steps back across the quiz boundary', () => {
-    let s = run(initialLessonFlow, ...Array(8).fill(next));
+    let s = run(initialLessonFlow, ...Array(16).fill(next));
     s = reduce(s, { type: 'answer', questionId: 'Q001', optionId: 'B' });
     s = reduce(s, { type: 'answer', questionId: 'Q001', optionId: 'A' });
     expect(s.answers.Q001).toBe('B');
     s = reduce(s, { type: 'back' });
-    expect(s.step).toEqual({ kind: 'page', index: 7 });
+    expect(s.step).toEqual({ kind: 'page', index: 15 });
+    expect(s.lastMove).toBe('back');
+    expect(reduce(s, next).lastMove).toBe('forward');
     expect(reduce(initialLessonFlow, { type: 'back' })).toBe(initialLessonFlow);
     expect(reduce(s, { type: 'restart' })).toEqual(initialLessonFlow);
   });
