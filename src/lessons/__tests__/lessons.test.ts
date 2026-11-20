@@ -5,18 +5,34 @@ import { findTopic } from '@/learning-path/progression';
 import { grade, normalizeTyped, score, type Answer } from '../answers';
 import v1raw from '../content/1.1.1.EP001.json';
 import v2raw from '../content/1-1-2.json';
-import { buildSteps, initialLessonFlow, lessonFlowReducer, lessonScore, type LessonFlowState } from '../lesson-flow';
+import v3raw from '../content/1-1-3.json';
+import {
+  buildSteps,
+  initialLessonFlow,
+  lessonFlowReducer,
+  lessonScore,
+  nextCta,
+  type LessonFlowState,
+  type LessonStep,
+} from '../lesson-flow';
 import { parseList } from '../list-items';
-import { loadLesson, type Question } from '../model';
+import { loadLesson, type Lesson, type Question } from '../model';
 import { LESSON_VISUALS, visualsFor } from '../presentation';
 import { curriculumTopicId, lessonForTopic } from '../registry';
-import { bodyBudget, DEFAULT_BUDGET, estimateHeight, lessonScreens, titleLines } from '../screens';
-import { splitTokenSentences, tokenizeSentence } from '../sentence';
+import { bodyBudget, DEFAULT_BUDGET, estimateHeight, lessonScreens, pageBlockArt, titleLines, type LessonScreen } from '../screens';
+import { groupExamples, highlightList, splitTokenSentences, tokenizeGroups, tokenizeSentence } from '../sentence';
 
 const v1 = loadLesson(v1raw);
 const v2 = loadLesson(v2raw);
+const v3 = loadLesson(v3raw);
 // Untyped deep copy, so tests can break the JSON on purpose.
 const clone = (x: unknown) => JSON.parse(JSON.stringify(x));
+
+/** Estimated block height of a packed screen (with the pictures drawn inside its blocks). */
+const packedHeight = (lesson: Lesson, s: LessonScreen) => {
+  const art = pageBlockArt(s.page, visualsFor(lesson.id));
+  return s.blocks.reduce((sum, b) => sum + estimateHeight(b, art[b.block_id]) + 24, -24);
+};
 
 describe('lesson content', () => {
   it('loads both schema versions and maps them onto path topics', () => {
@@ -28,7 +44,14 @@ describe('lesson content', () => {
     expect(curriculumTopicId('1-1-2')).toBe('s1.1.02');
     expect(findTopic('s1.1.02')?.topic.title).toBe('The Eight Parts of Speech');
     expect(lessonForTopic('s1.1.02')?.id).toBe('1-1-2');
-    expect(lessonForTopic('s1.1.03')).toBeUndefined();
+    expect(lessonForTopic('s1.1.03')?.lessonTitle).toBe('Content Words and Function Words');
+    expect(lessonForTopic('s1.1.04')).toBeUndefined();
+    expect([v3.pages.length, Object.keys(v3.questions).length, v3.finalCheck?.questionIds.length]).toEqual([15, 18, 6]);
+  });
+
+  it('gives every 1.1.3 page a picture', () => {
+    const pages = visualsFor('1-1-3')?.pages ?? {};
+    expect(v3.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual([]);
   });
 
   it('converts v1 true/false and multiple-choice questions', () => {
@@ -46,6 +69,16 @@ describe('lesson content', () => {
     const overlap = clone(v2raw);
     overlap.assessments.final_assessment.question_ids.push('Q001');
     expect(() => loadLesson(overlap)).toThrow('Q001 is also in a dimension check');
+    // Rule: each taught dimension ends with its own check; the lesson ends with a final check.
+    const lateCheck = clone(v3raw);
+    lateCheck.assessments.dimension_assessments[1].after_page_id = 'PAGE014';
+    expect(() => loadLesson(lateCheck)).toThrow('DA002 must follow PAGE007');
+    const noCheck = clone(v3raw);
+    delete noCheck.learning_dimensions[2].assessment_id;
+    expect(() => loadLesson(noCheck)).toThrow('needs a short assessment after PAGE010');
+    const noFinal = clone(v3raw);
+    noFinal.assessments.final_assessment.question_ids = [];
+    expect(() => loadLesson(noFinal)).toThrow('a lesson needs a final assessment');
     const badHighlight = clone(v2raw);
     badHighlight.pages[0].content[1].examples[0].highlight = ['cat'];
     expect(() => loadLesson(badHighlight)).toThrow('"cat" is not in the sentence');
@@ -78,6 +111,23 @@ describe('tokenizeSentence', () => {
       'I drink water.',
       'Please water the plant.',
     ]);
+  });
+
+  it('shows a repeated sentence once, with one tone per highlight group', () => {
+    const block = v3.pages[10].content[1]; // "The children are playing in the park." ×2
+    if (block.type !== 'example') throw new Error('expected example');
+    const groups = groupExamples(block.examples);
+    expect(groups).toHaveLength(1);
+    const tokens = tokenizeGroups(
+      groups[0][0].sentence,
+      groups[0].map((e) => e.highlight),
+    );
+    expect(tokens.map((t) => `${t.text}:${t.tone ?? '-'}`).join(' ')).toBe(
+      'The:salmon children:teal are:salmon playing:teal in:salmon the:salmon park.:teal',
+    );
+    expect(highlightList(['The', 'are', 'in', 'the'])).toBe('The, are, in');
+    // Different sentences stay separate.
+    expect(groupExamples([{ sentence: 'A.' }, { sentence: 'B.' }, { sentence: 'B.' }]).map((g) => g.length)).toEqual([1, 2]);
   });
 });
 
@@ -113,6 +163,17 @@ describe('answers', () => {
     expect(normalizeTyped('“Adverb!”')).toBe('adverb');
   });
 
+  it('grades word-list answers in any order', () => {
+    const q3 = (id: string) => v3.questions[id] as Question;
+    const typed = (s: string) => ({ kind: 'text' as const, values: [s] });
+    expect(grade(q3('Q007'), typed('quickly, runs, small, dog'))).toBe(true);
+    expect(grade(q3('Q007'), typed('Small dog runs and quickly'))).toBe(true);
+    expect(grade(q3('Q007'), typed('small, dog, runs'))).toBe(false);
+    expect(grade(q3('Q004'), typed('the, is, in'))).toBe(true);
+    expect(grade(q3('Q016'), typed('on, the, has, she'))).toBe(true);
+    expect(grade(q3('Q016'), typed('she, has, flowers'))).toBe(false);
+  });
+
   it('scores only graded questions', () => {
     const answers: Record<string, Answer> = { Q016: { kind: 'choice', id: 'B' }, Q018: { kind: 'choice', id: 'A' } };
     expect(score([q('Q016'), q('Q018')], answers)).toEqual({ correct: 1, total: 2 });
@@ -129,7 +190,7 @@ describe('lessonScreens', () => {
     expect([intro.blocks.map((b) => b.type), intro.showArt, intro.showTakeaway]).toEqual([['text'], true, false]);
     expect([example.blocks.map((b) => b.type), example.showArt, example.showTakeaway]).toEqual([['example'], false, true]);
     // Page 7 keeps its sentence pictures with the intro and breaks at the explanation.
-    expect([screens[12], screens[13]].map((s) => [s.blocks.map((b) => b.type), s.examplePart])).toEqual([
+    expect([screens[12], screens[13]].map((s) => [s.blocks.map((b) => b.type), s.blockPart])).toEqual([
       [['text', 'example'], 'sentences'],
       [['example'], 'explanation'],
     ]);
@@ -141,8 +202,7 @@ describe('lessonScreens', () => {
   it('packs lesson 1.1.2 so no screen exceeds the height budget', () => {
     const screens = lessonScreens(v2, visualsFor(v2.id));
     for (const s of screens.filter((x) => x.part > 0 && x.blocks.length > 1)) {
-      const h = s.blocks.reduce((sum, b) => sum + estimateHeight(b) + 24, -24);
-      expect(h).toBeLessThanOrEqual(DEFAULT_BUDGET - titleLines(s.page.title) * 37);
+      expect(packedHeight(v2, s)).toBeLessThanOrEqual(DEFAULT_BUDGET - titleLines(s.page.title) * 37);
     }
     // A shorter phone gets more screens.
     expect(lessonScreens(v2, visualsFor(v2.id), bodyBudget(667, 20, 0)).length).toBeGreaterThan(screens.length);
@@ -152,6 +212,23 @@ describe('lessonScreens', () => {
     expect(screens.filter((s) => s.page.page_number === 4).at(-1)?.showTakeaway).toBe(true);
     // Practice questions are not drawn on screens.
     expect(byPage(15)).toEqual([['text']]);
+  });
+
+  it('fits lesson 1.1.3 on screens, splitting tall comparisons', () => {
+    const screens = lessonScreens(v3, visualsFor(v3.id));
+    for (const s of screens.filter((x) => x.blocks.some((b) => b.type !== 'text'))) {
+      const budget = DEFAULT_BUDGET - titleLines(s.page.title) * 37;
+      if (s.blockPart === 'all') expect(packedHeight(v3, s)).toBeLessThanOrEqual(budget);
+    }
+    const byPage = (n: number) => screens.filter((s) => s.page.page_number === n);
+    // No intro text: the comparison first, then picture + takeaway.
+    expect(byPage(9).map((s) => [s.blocks.map((b) => b.type), s.showArt, s.showTakeaway])).toEqual([
+      [['comparison'], false, false],
+      [[], true, true],
+    ]);
+    // Summary: comparison items, then points, then picture + takeaway.
+    expect(byPage(15).map((s) => s.blockPart)).toEqual(['items', 'points', 'all']);
+    expect(byPage(15).at(-1)).toMatchObject({ blocks: [], showArt: true, showTakeaway: true });
   });
 });
 
@@ -180,6 +257,27 @@ describe('lesson flow', () => {
     const before = steps[i - 1];
     expect(before.kind === 'screen' && before.screen.page.page_id).toBe('PAGE002');
     expect(steps.at(-1)?.kind).toBe('result');
+  });
+
+  it('names the assessment the footer button leads into', () => {
+    const ctaAfter = (lesson: Lesson, match: (s: LessonStep) => boolean, last = false) => {
+      const steps = buildSteps(lesson, visualsFor(lesson.id));
+      const i = last ? steps.findLastIndex(match) : steps.findIndex(match);
+      return nextCta(lesson, steps[i + 1]);
+    };
+    const isQ = (id: string) => (s: LessonStep) => s.kind === 'question' && s.questionId === id;
+    const onPage = (n: number) => (s: LessonStep) => s.kind === 'screen' && s.screen.page.page_number === n;
+    // 1.1.3: page 3 → quick check (Q001, Q002) → page 4 … page 15 → final check.
+    expect(ctaAfter(v3, onPage(3), true)).toBe('check');
+    expect(ctaAfter(v3, isQ('Q001'))).toBe('continue');
+    expect(ctaAfter(v3, isQ('Q002'))).toBe('continue');
+    expect(ctaAfter(v3, onPage(15), true)).toBe('final');
+    // 1.1.2's last quick check follows its last page and runs straight into the final check.
+    expect(ctaAfter(v2, onPage(16), true)).toBe('check');
+    expect(ctaAfter(v2, isQ('Q005'))).toBe('final');
+    // After the last final question comes the result; a lesson without a final check offers "Finish".
+    expect(ctaAfter(v1, isQ('Q004'))).toBe('continue');
+    expect(ctaAfter({ ...v1, finalCheck: null }, onPage(8), true)).toBe('finish');
   });
 
   it('blocks unanswered questions, locks answers and scores the final check', () => {

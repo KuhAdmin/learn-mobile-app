@@ -3,19 +3,28 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 
 import { AppText } from '@/components/AppText';
-import { expectedText, grade, type Answer } from '@/lessons/answers';
+import { expectedText, grade, isWordList, type Answer } from '@/lessons/answers';
 import type { Question } from '@/lessons/model';
 import { borderWidth, colors, fonts, radii, space } from '@/theme/tokens';
 
 import { InfoCard, LessonPill, PageTitle } from './LessonBlocks';
 import { Lightbulb } from './Lightbulb';
 
-/** Question page head: context pill + title ("Check Your Understanding", a quick-check title, …). */
-export function QuizIntro({ pill, title }: { pill: string; title: string }) {
+/**
+ * Question page head: lesson pill + title ("Check Your Understanding", a quick-check title, …), and an
+ * optional line saying what this is ("Quick check · 2 questions").
+ */
+export function QuizIntro({ pill, title, meta }: { pill: string; title: string; meta?: string }) {
   return (
     <View style={styles.intro}>
       <LessonPill label={pill} />
       <PageTitle>{title}</PageTitle>
+      {meta ? (
+        <View style={styles.meta}>
+          <MaterialCommunityIcons name="clipboard-check-outline" size={16} color={colors.pathTeal} />
+          <AppText style={styles.metaText}>{meta}</AppText>
+        </View>
+      ) : null}
     </View>
   );
 }
@@ -184,7 +193,13 @@ function TypedAnswer({ question, answer, onAnswer }: { question: TypedQuestion; 
   const result = grade(question, answer);
   const ready = values.every((v) => v.trim());
   const placeholder =
-    question.type === 'sentence_correction' ? 'Write the corrected sentence' : question.type === 'fill_blank' ? 'Type the missing word' : 'Type your answer';
+    question.type === 'sentence_correction'
+      ? 'Write the corrected sentence'
+      : question.type === 'fill_blank'
+        ? 'Type the missing word'
+        : isWordList(question)
+          ? 'Type the words, e.g. cat, runs'
+          : 'Type your answer';
 
   return (
     <View style={styles.options}>
@@ -370,6 +385,8 @@ const WRONG = '#D9694F';
 
 const styles = StyleSheet.create({
   intro: { gap: space.md },
+  meta: { flexDirection: 'row', alignItems: 'center', gap: space.xs, marginTop: -space.xs },
+  metaText: { fontFamily: fonts.sansSemiBold, fontSize: 14, lineHeight: 19, color: colors.inkMuted },
   card: {
     gap: space.md,
     padding: space.md,

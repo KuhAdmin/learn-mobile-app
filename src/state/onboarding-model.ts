@@ -1,6 +1,7 @@
 /**
  * Pure onboarding model: types, defaults, reducer and selectors.
- * In-memory only for Phase 1 — no persistence.
+ * Saved across restarts by `onboarding-context.tsx` (see `src/state/storage.ts`); `restoreOnboarding`
+ * validates what was saved.
  */
 
 export type Focus = 'grammar' | 'vocabulary';
@@ -19,6 +20,8 @@ export interface OnboardingState {
   reminderEnabled: boolean;
   reminderTime: TimeOfDay;
   name: string;
+  /** When the learner finished onboarding (ISO time); null = not finished, so launch shows the intro. */
+  completedAt: string | null;
 }
 
 /** Learners pick at most this many main goals. */
@@ -33,6 +36,7 @@ export const initialOnboardingState: OnboardingState = {
   reminderEnabled: true,
   reminderTime: { hour: 20, minute: 0 },
   name: '',
+  completedAt: null,
 };
 
 export type OnboardingAction =
@@ -42,6 +46,7 @@ export type OnboardingAction =
   | { type: 'setReminderEnabled'; enabled: boolean }
   | { type: 'setReminderTime'; time: TimeOfDay }
   | { type: 'setName'; name: string }
+  | { type: 'complete'; at: string }
   | { type: 'reset' };
 
 function toggle<T>(list: readonly T[], item: T): T[] {
@@ -66,9 +71,39 @@ export function onboardingReducer(state: OnboardingState, action: OnboardingActi
       return { ...state, reminderTime: action.time };
     case 'setName':
       return { ...state, name: action.name };
+    case 'complete':
+      return state.completedAt ? state : { ...state, completedAt: action.at };
     case 'reset':
       return initialOnboardingState;
   }
+}
+
+const LEVELS: readonly Level[] = ['beginner', 'intermediate', 'advanced'];
+const FOCUSES: readonly Focus[] = ['grammar', 'vocabulary'];
+const isInt = (v: unknown, min: number, max: number): v is number => Number.isInteger(v) && (v as number) >= min && (v as number) <= max;
+
+/**
+ * Saved onboarding → state. Each field is kept only if it is valid; anything else (or a field added in a
+ * later version) falls back to its default. Returns null when nothing usable was saved.
+ */
+export function restoreOnboarding(raw: unknown): OnboardingState | null {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+  const s = raw as Record<string, unknown>;
+  const d = initialOnboardingState;
+  const focus = Array.isArray(s.focus) ? s.focus.filter((f): f is Focus => FOCUSES.includes(f as Focus)) : [];
+  const goals = Array.isArray(s.goals) ? s.goals.filter((g): g is string => typeof g === 'string') : [];
+  const time = s.reminderTime as Partial<TimeOfDay> | undefined;
+  return {
+    focus: focus.length ? focus : d.focus,
+    level: LEVELS.includes(s.level as Level) ? (s.level as Level) : d.level,
+    goals: goals.slice(0, MAX_GOALS),
+    dailyMinutes: isInt(s.dailyMinutes, 1, 240) ? s.dailyMinutes : d.dailyMinutes,
+    reminderEnabled: typeof s.reminderEnabled === 'boolean' ? s.reminderEnabled : d.reminderEnabled,
+    reminderTime:
+      time && isInt(time.hour, 0, 23) && isInt(time.minute, 0, 59) ? { hour: time.hour, minute: time.minute } : d.reminderTime,
+    name: typeof s.name === 'string' ? s.name : d.name,
+    completedAt: typeof s.completedAt === 'string' ? s.completedAt : null,
+  };
 }
 
 /** Grammar is the primary track: when both are chosen, split 70/30 in its favour. */

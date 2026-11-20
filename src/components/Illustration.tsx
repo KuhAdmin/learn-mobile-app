@@ -1,7 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Image, type ImageSource } from 'expo-image';
 import { useId } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Platform, StyleSheet, View } from 'react-native';
 import { useReducedMotion } from 'react-native-reanimated';
 import Svg, { Circle, Defs, Pattern, Polygon } from 'react-native-svg';
 
@@ -74,7 +74,9 @@ export function Illustration({ name, size = 200, decorative = false }: Illustrat
         contentFit="contain"
         // Respect the OS "Reduce motion" setting: show the first frame only.
         autoplay={!reduceMotion}
-        accessible={!decorative}
+        // expo-image forwards `accessible` to the DOM on web (React warning); it only matters on native.
+        accessible={Platform.OS === 'web' ? undefined : !decorative}
+        aria-hidden={decorative || undefined}
         accessibilityRole={decorative ? undefined : 'image'}
         accessibilityLabel={decorative ? undefined : LABELS[name]}
         importantForAccessibility={decorative ? 'no-hide-descendants' : 'auto'}

@@ -1,44 +1,54 @@
 /**
- * Learner progress — PHASE 1 MOCK ADAPTER.
- * In-memory only: no backend, no persistence; progress resets when the app restarts.
- * Replace this file with the real progress API/storage later; screens only use `useProgress()`.
+ * Learner progress, saved on the device across restarts (see `storage.ts`). No backend yet; screens
+ * only use `useProgress()`, so a server-backed version can replace this later.
+ *
+ * Development builds also have "unlock all lessons" (Profile tab), so new lessons can be checked
+ * without completing every earlier one. It is ignored in release builds.
  */
-import { createContext, useCallback, useContext, useMemo, useReducer, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
 import { deriveTopicStatuses, type CompletedTopics, type TopicStatus } from '@/learning-path/progression';
 
-type ProgressAction = { type: 'complete'; topicId: string; at: string } | { type: 'reset' };
-
-function progressReducer(state: CompletedTopics, action: ProgressAction): CompletedTopics {
-  switch (action.type) {
-    case 'complete':
-      // Keep the first completion time when a lesson is reviewed again.
-      return state[action.topicId] ? state : { ...state, [action.topicId]: action.at };
-    case 'reset':
-      return {};
-  }
-}
+import { progressReducer, restoreProgress } from './progress-model';
+import { readJSON, STORAGE_KEYS, usePersistedReducer, writeJSON } from './storage';
 
 interface ProgressContextValue {
   completed: CompletedTopics;
   statuses: Record<string, TopicStatus>;
   completeTopic: (topicId: string) => void;
   resetProgress: () => void;
+  /** Development only: every lesson is open. Always false in release builds. */
+  devUnlock: boolean;
+  setDevUnlock: (on: boolean) => void;
 }
 
 const ProgressContext = createContext<ProgressContextValue | null>(null);
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
-  const [completed, dispatch] = useReducer(progressReducer, {});
-  const statuses = useMemo(() => deriveTopicStatuses(completed), [completed]);
+  const [completed, dispatch] = usePersistedReducer(STORAGE_KEYS.progress, progressReducer, {}, restoreProgress);
+  const [devUnlockSaved, setDevUnlock] = useState(() => __DEV__ && readJSON(STORAGE_KEYS.devUnlock) === true);
+  useEffect(() => {
+    if (__DEV__) writeJSON(STORAGE_KEYS.devUnlock, devUnlockSaved);
+  }, [devUnlockSaved]);
+  const devUnlock = __DEV__ && devUnlockSaved;
+
+  const statuses = useMemo(() => {
+    const derived = deriveTopicStatuses(completed);
+    if (!devUnlock) return derived;
+    // Every lock check reads these statuses, so opening them here opens every lesson.
+    return Object.fromEntries(
+      Object.entries(derived).map(([id, s]) => [id, s === 'locked' ? 'available' : s]),
+    ) as Record<string, TopicStatus>;
+  }, [completed, devUnlock]);
+
   const completeTopic = useCallback(
     (topicId: string) => dispatch({ type: 'complete', topicId, at: new Date().toISOString() }),
-    [],
+    [dispatch],
   );
-  const resetProgress = useCallback(() => dispatch({ type: 'reset' }), []);
+  const resetProgress = useCallback(() => dispatch({ type: 'reset' }), [dispatch]);
   const value = useMemo(
-    () => ({ completed, statuses, completeTopic, resetProgress }),
-    [completed, statuses, completeTopic, resetProgress],
+    () => ({ completed, statuses, completeTopic, resetProgress, devUnlock, setDevUnlock }),
+    [completed, statuses, completeTopic, resetProgress, devUnlock],
   );
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;
 }

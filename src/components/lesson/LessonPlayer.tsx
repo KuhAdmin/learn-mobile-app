@@ -19,7 +19,7 @@ import { OutlineButton, PrimaryButton } from '@/components/Buttons';
 import { STAGE_ART } from '@/components/learning-path/StageBanner';
 import type { TopicRef } from '@/learning-path/progression';
 import { grade } from '@/lessons/answers';
-import { buildSteps, canStepBack, initialLessonFlow, lessonFlowReducer, lessonScore } from '@/lessons/lesson-flow';
+import { buildSteps, canStepBack, initialLessonFlow, lessonFlowReducer, lessonScore, nextCta } from '@/lessons/lesson-flow';
 import type { Lesson } from '@/lessons/model';
 import { visualsFor } from '@/lessons/presentation';
 import { bodyBudget } from '@/lessons/screens';
@@ -52,9 +52,8 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   const [state, dispatch] = useReducer(reducer, initialLessonFlow);
   const step = steps[state.index];
   const nextStep = steps[state.index + 1];
-  // The step before the final check offers it by name ("Check Your Understanding" / "Take Final Check").
-  const leadsToFinal =
-    lesson.finalCheck && nextStep?.kind === 'question' && nextStep.context === 'final' && nextStep.position === 1;
+  // The step before an assessment offers it by name ("Quick Check", "Take Final Check").
+  const cta = nextCta(lesson, nextStep);
 
   const exit = () => (router.canGoBack() ? router.back() : router.replace('/learn'));
   const back = () => (canStepBack(state) ? dispatch({ type: 'back' }) : exit());
@@ -93,17 +92,23 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
 
   const next = () => dispatch({ type: 'next' });
   const continueButton = (disabled = false) =>
-    leadsToFinal ? (
+    cta === 'final' || cta === 'check' ? (
       <PrimaryButton
-        label={lesson.finalCheck!.ctaLabel}
-        leading={<MaterialCommunityIcons name="bullseye-arrow" size={24} color={colors.accentSalmon} />}
+        label={cta === 'final' ? lesson.finalCheck!.ctaLabel : 'Quick Check'}
+        leading={
+          cta === 'final' ? (
+            <MaterialCommunityIcons name="bullseye-arrow" size={24} color={colors.accentSalmon} />
+          ) : (
+            <MaterialCommunityIcons name="clipboard-check-outline" size={24} color={colors.selectedFill} />
+          )
+        }
         trailingIcon="arrow-right"
         disabled={disabled}
         onPress={next}
       />
     ) : (
       <PrimaryButton
-        label={nextStep?.kind === 'result' && !lesson.finalCheck ? 'Finish' : 'Continue'}
+        label={cta === 'finish' ? 'Finish' : 'Continue'}
         trailingIcon="arrow-right"
         disabled={disabled}
         onPress={next}
@@ -125,7 +130,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
       counter = `Quiz ${step.position}/${step.count}`;
       counterLabel = `Final check, question ${step.position} of ${step.count}`;
     } else if (step.context === 'check') {
-      counter = 'Quick check';
+      counter = `Check ${step.position}/${step.count}`;
       counterLabel = `Quick check, question ${step.position} of ${step.count}`;
     } else {
       counter = `${step.pageNumber} / ${lesson.pages.length}`;
@@ -133,7 +138,11 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
     }
     body = (
       <View style={styles.quiz}>
-        <QuizIntro pill={step.context === 'check' ? 'Quick check' : lesson.lessonTitle} title={step.heading} />
+        <QuizIntro
+          pill={lesson.lessonTitle}
+          title={step.heading}
+          meta={step.context === 'check' ? `Quick check · ${step.count} question${step.count === 1 ? '' : 's'}` : undefined}
+        />
         <QuestionCard
           number={step.position}
           question={q}
@@ -179,7 +188,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   return (
     <View style={[styles.root, { paddingTop: insets.top }]}>
       <LessonHeader
-        stageTitle={lesson.stageTitle ?? topic.stage.title}
+        stageTitle={topic.stage.title}
         stageArt={STAGE_ART[topic.stage.number]}
         counter={counter}
         counterLabel={counterLabel}

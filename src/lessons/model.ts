@@ -87,8 +87,6 @@ export interface Lesson {
   /** Content `topic_id`, e.g. `1.1.1.EP001` or `1-1-2`. Keys artwork in `presentation.ts`. */
   id: string;
   schemaVersion: '1.0' | '2.0';
-  /** Course name from the content; null → use the curriculum's course title. */
-  stageTitle: string | null;
   lessonTitle: string;
   pages: LessonPage[];
   questions: Record<string, Question>;
@@ -139,7 +137,6 @@ function fromV1(raw: unknown): Lesson {
   return {
     id: v1.topic.topic_id,
     schemaVersion: '1.0',
-    stageTitle: v1.topic.learning_stage,
     lessonTitle: v1.lesson.lesson_title,
     pages: v1.pages,
     questions,
@@ -300,6 +297,30 @@ function parseQuestion(q: unknown, path: string): Question {
   }
 }
 
+/**
+ * Rule (CLAUDE.md, "Lesson assessments"): every taught learning dimension is followed by its own short
+ * assessment, placed right after the dimension's last page.
+ */
+function checkDimensionAssessments(root: Obj, pages: LessonPage[], checkpoints: Checkpoint[]) {
+  const order = new Map(pages.map((p, i) => [p.page_id, i]));
+  const byId = new Map(checkpoints.map((c) => [c.id, c]));
+  arr(root.learning_dimensions ?? [], '$.learning_dimensions').forEach((d, i) => {
+    const p = `$.learning_dimensions[${i}]`;
+    const dim = obj(d, p);
+    if (dim.applicability === 'not_applicable') return;
+    const pageIds = strs(dim.page_ids ?? [], `${p}.page_ids`);
+    if (!pageIds.length) return; // not taught in this lesson
+    pageIds.forEach((id, k) => order.has(id) || fail(`${p}.page_ids[${k}]`, `unknown page ${id}`));
+    const lastPage = pageIds.reduce((a, b) => (order.get(b)! > order.get(a)! ? b : a));
+    if (typeof dim.assessment_id !== 'string' || !dim.assessment_id)
+      fail(`${p}.assessment_id`, `every taught dimension needs a short assessment after ${lastPage}`);
+    const id = dim.assessment_id as string;
+    const check = byId.get(id) ?? fail(`${p}.assessment_id`, `unknown dimension assessment ${id}`);
+    if (check.afterPageId !== lastPage)
+      fail(`${p}.assessment_id`, `${id} must follow ${lastPage}, the dimension's last page (found after ${check.afterPageId})`);
+  });
+}
+
 function fromV2(raw: unknown): Lesson {
   const root = obj(raw, '$');
   if (root.content_type !== 'grammar_lesson') fail('$.content_type', 'expected "grammar_lesson"');
@@ -346,19 +367,19 @@ function fromV2(raw: unknown): Lesson {
       questionIds: knownQuestions(da.question_ids, `${p}.question_ids`),
     };
   });
-  let finalCheck: Lesson['finalCheck'] = null;
-  if (assessments.final_assessment) {
-    const fa = obj(assessments.final_assessment, '$.assessments.final_assessment');
-    const ids = knownQuestions(fa.question_ids, '$.assessments.final_assessment.question_ids');
-    const inChecks = new Set(checkpoints.flatMap((c) => c.questionIds));
-    ids.forEach((id) => inChecks.has(id) && fail('$.assessments.final_assessment.question_ids', `${id} is also in a dimension check`));
-    if (ids.length) finalCheck = { title: str(fa.title, '$.assessments.final_assessment.title'), ctaLabel: 'Take Final Check', questionIds: ids };
-  }
+  checkDimensionAssessments(root, pages, checkpoints);
+
+  // Rule: the lesson ends with a longer final assessment (see CLAUDE.md, "Lesson assessments").
+  const fa = obj(assessments.final_assessment, '$.assessments.final_assessment');
+  const ids = knownQuestions(fa.question_ids, '$.assessments.final_assessment.question_ids');
+  if (!ids.length) fail('$.assessments.final_assessment.question_ids', 'a lesson needs a final assessment');
+  const inChecks = new Set(checkpoints.flatMap((c) => c.questionIds));
+  ids.forEach((id) => inChecks.has(id) && fail('$.assessments.final_assessment.question_ids', `${id} is also in a dimension check`));
+  const finalCheck = { title: str(fa.title, '$.assessments.final_assessment.title'), ctaLabel: 'Take Final Check', questionIds: ids };
 
   return {
     id: str(topic.topic_id, '$.topic.topic_id'),
     schemaVersion: '2.0',
-    stageTitle: optStr(topic.learning_stage, '$.topic.learning_stage') ?? null,
     lessonTitle: str(lesson.lesson_title, '$.lesson.lesson_title'),
     pages,
     questions,

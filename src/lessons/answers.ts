@@ -21,6 +21,22 @@ export const normalizeTyped = (s: string) =>
 const matches = (typed: string | undefined, accepted: string[]) =>
   typed !== undefined && accepted.some((a) => normalizeTyped(a) === normalizeTyped(typed));
 
+/** "The, is, in, the" → {the, is, in}. "and" is a joiner, not an answer word. */
+const wordSet = (s: string) => new Set(normalizeTyped(s).split(' ').filter((w) => w && w !== 'and'));
+
+/** An identify answer that is a comma-separated word list ("small, dog, runs, quickly"). */
+export const isWordList = (q: Question) => q.type === 'identify' && q.accepted.some((a) => a.includes(','));
+
+/** Word-list answers match in any order, with repeats, commas or "and" ignored. */
+const matchesWords = (typed: string | undefined, accepted: string[]) => {
+  if (typed === undefined) return false;
+  const words = wordSet(typed);
+  return accepted.some((a) => {
+    const want = wordSet(a);
+    return want.size === words.size && [...want].every((w) => words.has(w));
+  });
+};
+
 /** true/false = right/wrong; null = not scored (flash cards) or no answer yet. */
 export function grade(q: Question, a: Answer | undefined): boolean | null {
   if (!a) return null;
@@ -30,6 +46,7 @@ export function grade(q: Question, a: Answer | undefined): boolean | null {
     case 'true_false':
       return a.kind === 'bool' && a.value === q.correct;
     case 'identify':
+      return a.kind === 'text' && (matches(a.values[0], q.accepted) || (isWordList(q) && matchesWords(a.values[0], q.accepted)));
     case 'sentence_correction':
       return a.kind === 'text' && matches(a.values[0], q.accepted);
     case 'fill_blank':

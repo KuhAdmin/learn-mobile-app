@@ -32,6 +32,46 @@ export function tokenizeSentence(sentence: string, highlight: readonly string[])
     });
 }
 
+/**
+ * Consecutive examples that repeat the same sentence with different highlights ("These are content
+ * words" / "These are function words") are shown as one sentence with one tone per group.
+ */
+export function groupExamples<T extends { sentence: string }>(examples: readonly T[]): T[][] {
+  const groups: T[][] = [];
+  for (const e of examples) {
+    const last = groups[groups.length - 1];
+    if (last && last[0].sentence === e.sentence) last.push(e);
+    else groups.push([e]);
+  }
+  return groups;
+}
+
+/** Chips for a grouped example: words highlighted by group i get `toneAt(i)`. */
+export function tokenizeGroups(sentence: string, highlights: readonly (readonly string[])[]): WordToken[] {
+  const pending = highlights.map((h) => [...h]);
+  return sentence
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((text) => {
+      const word = bare(text);
+      for (let g = 0; g < pending.length; g++) {
+        const list = pending[g];
+        let idx = list.indexOf(text);
+        if (idx === -1) idx = list.indexOf(word);
+        if (idx === -1) idx = list.findIndex((h) => bare(h).toLowerCase() === word.toLowerCase());
+        if (idx !== -1) {
+          list.splice(idx, 1);
+          return { text, tone: toneAt(g) };
+        }
+      }
+      return { text, tone: null };
+    });
+}
+
+/** "The, are, in, the" → "The, are, in": a group's highlighted words for its legend row. */
+export const highlightList = (highlight: readonly string[]) =>
+  highlight.filter((w, i) => highlight.findIndex((x) => bare(x).toLowerCase() === bare(w).toLowerCase()) === i).join(', ');
+
 /** Splits chips into sentences ("I drink water. Please water the plant." → two groups). */
 export function splitTokenSentences(tokens: readonly WordToken[]): WordToken[][] {
   const groups: WordToken[][] = [[]];

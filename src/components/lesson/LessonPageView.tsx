@@ -51,7 +51,14 @@ export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewP
       case 'list':
         return <ListBlock key={block.block_id} block={block} />;
       case 'comparison':
-        return <ComparisonCard key={block.block_id} block={block} arts={visuals?.comparisonArt?.[block.block_id]} />;
+        return (
+          <ComparisonCard
+            key={block.block_id}
+            block={block}
+            arts={visuals?.comparisonArt?.[block.block_id]}
+            part={screen.blockPart === 'items' || screen.blockPart === 'points' ? screen.blockPart : 'all'}
+          />
+        );
       case 'warning':
         return <WarningCard key={block.block_id} block={block} />;
       case 'rule':
@@ -70,14 +77,14 @@ export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewP
                 // A split page shows the pictures on one screen and the explanation on the next.
                 return (
                   <>
-                    {screen.examplePart !== 'explanation' ? (
+                    {screen.blockPart !== 'explanation' ? (
                       <SentencePictures example={example} arts={visual.sentenceArt} />
                     ) : null}
-                    {screen.examplePart !== 'sentences' ? <ExplanationCard text={example.explanation} /> : null}
+                    {screen.blockPart !== 'sentences' ? <ExplanationCard text={example.explanation} /> : null}
                   </>
                 );
               }
-              return <ExampleCard examples={block.examples} art={visual?.exampleArt} />;
+              return <ExampleCard examples={block.examples} arts={visual?.exampleArts} />;
             })()}
           </View>
         );

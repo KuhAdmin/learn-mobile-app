@@ -1,16 +1,26 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import type { ReactNode } from 'react';
-import { StyleSheet, View, type DimensionValue, type StyleProp, type ViewStyle } from 'react-native';
+import { Platform, StyleSheet, View, type DimensionValue, type StyleProp, type ViewStyle } from 'react-native';
 
 import { AppText } from '@/components/AppText';
 import { TopicIcon } from '@/components/learning-path/TopicIcon';
 import { Sparkle } from '@/components/Sparkle';
 import type { IconName } from '@/data/options';
 import { parseList } from '@/lessons/list-items';
-import type { ContentBlock, ExampleItem } from '@/lessons/model';
+import type { ComparisonItem, ContentBlock, ExampleItem } from '@/lessons/model';
 import { LIST_ICONS, type LessonArt, type PhraseAnnotation } from '@/lessons/presentation';
-import { splitTokenSentences, tokenizeSentence, toneAt, type ChipTone, type WordToken } from '@/lessons/sentence';
+import { artBesideSentence, comparisonAsRows, EXAMPLE_ART_SHARE } from '@/lessons/screens';
+import {
+  groupExamples,
+  highlightList,
+  splitTokenSentences,
+  tokenizeGroups,
+  tokenizeSentence,
+  toneAt,
+  type ChipTone,
+  type WordToken,
+} from '@/lessons/sentence';
 import { borderWidth, colors, fonts, radii, space } from '@/theme/tokens';
 
 import { Lightbulb } from './Lightbulb';
@@ -49,7 +59,8 @@ export function LessonArtImage({ art, width = '100%' }: { art: LessonArt; width?
       source={art.source}
       style={{ width, aspectRatio: art.aspect }}
       contentFit="contain"
-      accessible
+      // expo-image forwards `accessible` to the DOM on web (React warning); it only matters on native.
+      accessible={Platform.OS === 'web' ? undefined : true}
       accessibilityRole="image"
       accessibilityLabel={art.label}
     />
@@ -119,21 +130,67 @@ function SoftTag({ children }: { children: string }) {
 
 /* ───────────── Example blocks ───────────── */
 
-/** "Example" card: the sentence as word chips, the explanation, optional picture on the right. */
-/** "Example" card: each sentence as word chips with its explanation; optional picture beside the first. */
-export function ExampleCard({ examples, art }: { examples: ExampleItem[]; art?: LessonArt }) {
+/**
+ * "Example" card: each sentence as word chips with its explanation, and an optional picture per example.
+ * Examples repeating one sentence with different highlights show it once, one chip tone per group, with
+ * a legend row per group naming its words (so the groups don't rely on colour alone).
+ */
+export function ExampleCard({ examples, arts = [] }: { examples: ExampleItem[]; arts?: LessonArt[] }) {
+  const groups = groupExamples(examples);
   return (
     <View style={styles.card}>
-      <SoftTag>{examples.length > 1 ? 'Examples' : 'Example'}</SoftTag>
-      {examples.map((example, i) => (
-        <View key={i} style={[styles.sideRow, i > 0 && styles.exampleDivider]}>
-          <View style={[styles.flex, styles.gapSm]}>
-            <ChipLine tokens={tokenizeSentence(example.sentence, example.highlight)} label={example.sentence} />
-            <AppText style={styles.explanation}>{example.explanation}</AppText>
+      <SoftTag>{groups.length > 1 ? 'Examples' : 'Example'}</SoftTag>
+      {groups.map((group, i) => {
+        const [first] = group;
+        const divider = i > 0 && styles.exampleDivider;
+        if (group.length > 1) {
+          return (
+            <View key={i} style={[styles.gapMd, divider]}>
+              <ChipLine
+                tokens={tokenizeGroups(
+                  first.sentence,
+                  group.map((e) => e.highlight),
+                )}
+                label={first.sentence}
+              />
+              {group.map((e, g) => (
+                <View key={g} style={styles.legendRow} accessible accessibilityLabel={`${highlightList(e.highlight)}. ${e.explanation}`}>
+                  <View style={[styles.swatch, { backgroundColor: CHIP_BG[toneAt(g)] }]} />
+                  <View style={styles.flex}>
+                    <AppText style={styles.legendWords}>{highlightList(e.highlight)}</AppText>
+                    <AppText style={styles.explanation}>{e.explanation}</AppText>
+                  </View>
+                </View>
+              ))}
+            </View>
+          );
+        }
+        const art = arts[i];
+        const chips = <ChipLine tokens={tokenizeSentence(first.sentence, first.highlight)} label={first.sentence} />;
+        const explanation = <AppText style={styles.explanation}>{first.explanation}</AppText>;
+        const picture = art ? <LessonArtImage art={art} width={`${EXAMPLE_ART_SHARE * 100}%`} /> : null;
+        if (art && !artBesideSentence(first.sentence)) {
+          // Long sentence: chips run full width; the picture sits beside the explanation.
+          return (
+            <View key={i} style={[styles.gapSm, divider]}>
+              {chips}
+              <View style={styles.sideRow}>
+                <View style={styles.flex}>{explanation}</View>
+                {picture}
+              </View>
+            </View>
+          );
+        }
+        return (
+          <View key={i} style={[styles.sideRow, divider]}>
+            <View style={[styles.flex, styles.gapSm]}>
+              {chips}
+              {explanation}
+            </View>
+            {picture}
           </View>
-          {art && i === 0 ? <LessonArtImage art={art} width="34%" /> : null}
-        </View>
-      ))}
+        );
+      })}
     </View>
   );
 }
@@ -332,36 +389,86 @@ export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'lis
   );
 }
 
-/** Side-by-side comparison of two (or more) word classes, with points and a conclusion. */
-export function ComparisonCard({ block, arts }: { block: Extract<ContentBlock, { type: 'comparison' }>; arts?: LessonArt[] }) {
+/**
+ * Comparison of word classes with points and a conclusion. Two items sit side by side; more stack as
+ * rows. `part` shows only the items or only the points + conclusion when the block is split across
+ * screens (see `screens.ts`).
+ */
+export function ComparisonCard({
+  block,
+  arts,
+  part = 'all',
+}: {
+  block: Extract<ContentBlock, { type: 'comparison' }>;
+  arts?: LessonArt[];
+  part?: 'all' | 'items' | 'points';
+}) {
+  const label = (item: ComparisonItem) => `${item.label}: ${item.description} ${item.example ?? ''}`;
   return (
     <View style={styles.card}>
       <SoftTag>Compare</SoftTag>
-      <View style={styles.compareRow}>
-        {block.items.map((item, i) => (
-          <View
-            key={item.label}
-            style={[styles.compareItem, { backgroundColor: TILE_TONES[i % 2].bg }]}
-            accessible
-            accessibilityLabel={`${item.label}: ${item.description} ${item.example ?? ''}`}
-          >
-            {arts?.[i] ? <LessonArtImage art={arts[i]} width="70%" /> : null}
-            <AppText style={styles.compareLabel} maxFontSizeMultiplier={1.2}>
-              {item.label}
-            </AppText>
-            <AppText style={styles.tileDetail} align="center" maxFontSizeMultiplier={1.2}>
-              {item.description}
-            </AppText>
-            {item.example ? (
-              <View style={styles.compareExample}>
-                <AppText style={styles.compareExampleText} align="center" maxFontSizeMultiplier={1.2}>
-                  {item.example}
+      {part === 'points' ? null : comparisonAsRows(block) ? (
+        <View style={styles.gapSm}>
+          {block.items.map((item, i) => (
+            <View
+              key={item.label}
+              style={[styles.compareRowItem, { backgroundColor: TILE_TONES[i % 2].bg }]}
+              accessible
+              accessibilityLabel={label(item)}
+            >
+              <AppText style={[styles.compareLabel, styles.compareRowLabel]} maxFontSizeMultiplier={1.2}>
+                {item.label}
+              </AppText>
+              <View style={[styles.flex, styles.gapXs]}>
+                <AppText style={styles.tileDetail} maxFontSizeMultiplier={1.2}>
+                  {item.description}
                 </AppText>
+                {item.example ? (
+                  <View style={[styles.compareExample, styles.compareRowExample]}>
+                    <AppText style={styles.compareExampleText} maxFontSizeMultiplier={1.2}>
+                      {item.example}
+                    </AppText>
+                  </View>
+                ) : null}
               </View>
-            ) : null}
-          </View>
-        ))}
-      </View>
+            </View>
+          ))}
+        </View>
+      ) : (
+        <View style={styles.compareRow}>
+          {block.items.map((item, i) => (
+            <View
+              key={item.label}
+              style={[styles.compareItem, { backgroundColor: TILE_TONES[i % 2].bg }]}
+              accessible
+              accessibilityLabel={label(item)}
+            >
+              {arts?.[i] ? <LessonArtImage art={arts[i]} width="70%" /> : null}
+              <AppText style={styles.compareLabel} maxFontSizeMultiplier={1.2}>
+                {item.label}
+              </AppText>
+              <AppText style={styles.tileDetail} align="center" maxFontSizeMultiplier={1.2}>
+                {item.description}
+              </AppText>
+              {item.example ? (
+                <View style={styles.compareExample}>
+                  <AppText style={styles.compareExampleText} align="center" maxFontSizeMultiplier={1.2}>
+                    {item.example}
+                  </AppText>
+                </View>
+              ) : null}
+            </View>
+          ))}
+        </View>
+      )}
+      {part !== 'items' ? <ComparisonPoints block={block} /> : null}
+    </View>
+  );
+}
+
+function ComparisonPoints({ block }: { block: Extract<ContentBlock, { type: 'comparison' }> }) {
+  return (
+    <>
       {block.comparison_points?.map((point, i) => (
         <View key={i} style={styles.pointRow}>
           <View style={styles.pointDot} />
@@ -374,7 +481,7 @@ export function ComparisonCard({ block, arts }: { block: Extract<ContentBlock, {
           <AppText style={[styles.conclusion, styles.flex]}>{block.conclusion}</AppText>
         </View>
       ) : null}
-    </View>
+    </>
   );
 }
 
@@ -429,6 +536,7 @@ const chipSize = {
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
+  gapXs: { gap: space.xs },
   gapSm: { gap: space.sm },
   gapMd: { gap: space.md },
   stack: { gap: space.lg },
@@ -466,6 +574,9 @@ const styles = StyleSheet.create({
   chip: {},
   chipText: { fontFamily: fonts.serifBold, color: colors.ink },
   explanation: { fontFamily: fonts.sans, fontSize: 15, lineHeight: 22, color: colors.inkMuted },
+  legendRow: { flexDirection: 'row', alignItems: 'flex-start', gap: space.sm },
+  swatch: { width: 16, height: 16, marginTop: 3, borderRadius: 5, borderWidth: 1, borderColor: colors.inkSubtle },
+  legendWords: { fontFamily: fonts.serifBold, fontSize: 15, lineHeight: 22, color: colors.ink },
   phraseRow: { flexDirection: 'row', gap: space.sm },
   phraseCol: { flexBasis: 0, alignItems: 'center', gap: 2 },
   rolePill: {
@@ -556,6 +667,9 @@ const styles = StyleSheet.create({
     backgroundColor: colors.surface,
   },
   compareExampleText: { fontFamily: fonts.serifBold, fontSize: 15, lineHeight: 20, color: colors.ink },
+  compareRowItem: { flexDirection: 'row', alignItems: 'center', gap: space.sm + 2, padding: space.sm + 2, borderRadius: radii.card },
+  compareRowLabel: { width: '38%', fontSize: 16, lineHeight: 21 },
+  compareRowExample: { alignSelf: 'flex-start', marginTop: 2, paddingVertical: 3 },
   pointRow: { flexDirection: 'row', alignItems: 'flex-start', gap: space.sm },
   pointDot: { width: 8, height: 8, borderRadius: 4, marginTop: 7, marginHorizontal: 6, backgroundColor: colors.pathTeal },
   conclusion: { fontFamily: fonts.sansSemiBold, fontSize: 15, lineHeight: 22, color: colors.ink },

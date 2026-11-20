@@ -5,6 +5,7 @@ import {
   formatTime,
   initialOnboardingState as init,
   onboardingReducer as reduce,
+  restoreOnboarding,
 } from '../onboarding-model';
 
 describe('onboardingReducer', () => {
@@ -57,5 +58,37 @@ describe('formatTime', () => {
   it('handles midnight and noon', () => {
     expect(formatTime({ hour: 0, minute: 0 })).toBe('12:00 AM');
     expect(formatTime({ hour: 12, minute: 30 })).toBe('12:30 PM');
+  });
+});
+
+describe('onboarding completion and saved state', () => {
+  it('records completion once and clears it on reset', () => {
+    const done = reduce(init, { type: 'complete', at: '2026-11-16T10:00:00.000Z' });
+    expect(done.completedAt).toBe('2026-11-16T10:00:00.000Z');
+    expect(reduce(done, { type: 'complete', at: '2026-11-17T10:00:00.000Z' })).toBe(done);
+    expect(reduce(done, { type: 'reset' }).completedAt).toBeNull();
+  });
+
+  it('restores valid saved fields and defaults the rest', () => {
+    const saved = { ...init, level: 'advanced', goals: ['career'], name: 'Asha', completedAt: '2026-11-16T10:00:00.000Z' };
+    expect(restoreOnboarding(JSON.parse(JSON.stringify(saved)))).toEqual(saved);
+    // An older save without newer fields still loads.
+    expect(restoreOnboarding({ name: 'Asha' })).toEqual({ ...init, name: 'Asha' });
+  });
+
+  it('drops invalid saved values', () => {
+    const bad = restoreOnboarding({
+      level: 'expert',
+      goals: ['a', 'b', 'c', 7],
+      dailyMinutes: -5,
+      reminderTime: { hour: 30, minute: 0 },
+      reminderEnabled: 'yes',
+      focus: ['history'],
+      completedAt: 42,
+    });
+    expect(bad).toEqual({ ...init, goals: ['a', 'b'] });
+    expect(restoreOnboarding(null)).toBeNull();
+    expect(restoreOnboarding('text')).toBeNull();
+    expect(restoreOnboarding([])).toBeNull();
   });
 });

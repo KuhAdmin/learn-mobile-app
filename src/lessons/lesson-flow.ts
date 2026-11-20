@@ -101,6 +101,21 @@ export function lessonScore(lesson: Lesson, answers: Record<string, Answer>) {
   return score((lesson.finalCheck?.questionIds ?? []).map((id) => lesson.questions[id]), answers);
 }
 
+/**
+ * What the footer button offers for the step after the current one: the final check or a quick check
+ * by name (so assessments don't arrive behind a plain "Continue"), "Finish", or "Continue".
+ */
+export type NextCta = 'final' | 'check' | 'finish' | 'continue';
+
+export function nextCta(lesson: Lesson, nextStep: LessonStep | undefined): NextCta {
+  if (nextStep?.kind === 'question' && nextStep.position === 1) {
+    if (nextStep.context === 'final' && lesson.finalCheck) return 'final';
+    if (nextStep.context === 'check') return 'check';
+  }
+  if (nextStep?.kind === 'result' && !lesson.finalCheck) return 'finish';
+  return 'continue';
+}
+
 export function isAnswerCorrect(lesson: Lesson, questionId: string, answers: Record<string, Answer>) {
   return grade(lesson.questions[questionId], answers[questionId]);
 }

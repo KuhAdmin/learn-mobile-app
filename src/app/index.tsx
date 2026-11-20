@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { AppText } from '@/components/AppText';
 import { BrandLogo } from '@/components/BrandLogo';
 import { Illustration } from '@/components/Illustration';
+import { useOnboarding } from '@/state/onboarding-context';
 import { colors, space } from '@/theme/tokens';
 
 const SPLASH_DURATION_MS = 3000;
@@ -14,19 +15,20 @@ const BAR_WIDTH = 120;
 
 /**
  * Splash: shown on every app launch (the app's entry route). No CTA —
- * a short progress bar fills over 3 s, then it replaces itself with the intro
- * so Back can never return here.
+ * a short progress bar fills over 3 s, then it replaces itself (so Back can never
+ * return here) with the intro, or the Learning Path once onboarding is finished.
  */
 export default function SplashScreen() {
   const { width } = useWindowDimensions();
   const insets = useSafeAreaInsets();
   const progress = useSharedValue(0);
+  const onboarded = Boolean(useOnboarding().state.completedAt);
 
   useEffect(() => {
     progress.value = withTiming(1, { duration: SPLASH_DURATION_MS, easing: Easing.linear });
-    const timer = setTimeout(() => router.replace('/intro'), SPLASH_DURATION_MS);
+    const timer = setTimeout(() => router.replace(onboarded ? '/learn' : '/intro'), SPLASH_DURATION_MS);
     return () => clearTimeout(timer);
-  }, [progress]);
+  }, [progress, onboarded]);
 
   const fillStyle = useAnimatedStyle(() => ({ width: progress.value * BAR_WIDTH }));
 
