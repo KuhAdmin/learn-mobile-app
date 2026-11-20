@@ -84,7 +84,7 @@ export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewP
                   </>
                 );
               }
-              return <ExampleCard examples={block.examples} arts={visual?.exampleArts} />;
+              return <ExampleCard examples={block.examples} arts={visuals?.exampleArt?.[block.block_id]} />;
             })()}
           </View>
         );

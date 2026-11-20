@@ -8,9 +8,13 @@
 import ep_1_1_1_001 from './content/1.1.1.EP001.json';
 import topic_1_1_2 from './content/1-1-2.json';
 import topic_1_1_3 from './content/1-1-3.json';
+import topic_1_1_4 from './content/1-1-4.json';
+import topic_1_1_5 from './content/1-1-5.json';
+import topic_1_1_6 from './content/1-1-6.json';
+import topic_1_1_7 from './content/1-1-7.json';
 import { loadLesson, type Lesson } from './model';
 
-const LESSON_FILES: unknown[] = [ep_1_1_1_001, topic_1_1_2, topic_1_1_3];
+const LESSON_FILES: unknown[] = [ep_1_1_1_001, topic_1_1_2, topic_1_1_3, topic_1_1_4, topic_1_1_5, topic_1_1_6, topic_1_1_7];
 
 /** `1.1.1.EP001` / `1-1-2` → `s1.1.01` / `s1.1.02`. */
 export function curriculumTopicId(contentTopicId: string): string | undefined {

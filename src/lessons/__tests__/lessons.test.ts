@@ -2,10 +2,14 @@ import { describe, expect, it } from '@jest/globals';
 
 import { findTopic } from '@/learning-path/progression';
 
-import { grade, normalizeTyped, score, type Answer } from '../answers';
+import { explanationText, grade, normalizeTyped, score, type Answer } from '../answers';
 import v1raw from '../content/1.1.1.EP001.json';
 import v2raw from '../content/1-1-2.json';
 import v3raw from '../content/1-1-3.json';
+import v4raw from '../content/1-1-4.json';
+import v5raw from '../content/1-1-5.json';
+import v6raw from '../content/1-1-6.json';
+import v7raw from '../content/1-1-7.json';
 import {
   buildSteps,
   initialLessonFlow,
@@ -19,12 +23,16 @@ import { parseList } from '../list-items';
 import { loadLesson, type Lesson, type Question } from '../model';
 import { LESSON_VISUALS, visualsFor } from '../presentation';
 import { curriculumTopicId, lessonForTopic } from '../registry';
-import { bodyBudget, DEFAULT_BUDGET, estimateHeight, lessonScreens, pageBlockArt, titleLines, type LessonScreen } from '../screens';
-import { groupExamples, highlightList, splitTokenSentences, tokenizeGroups, tokenizeSentence } from '../sentence';
+import { bodyBudget, DEFAULT_BUDGET, estimateHeight, lessonScreens, pageBlockArt, splitList, titleLines, type LessonScreen } from '../screens';
+import { groupExamples, highlightList, keepSuffixes, splitTokenSentences, tokenizeGroups, tokenizeSentence } from '../sentence';
 
 const v1 = loadLesson(v1raw);
 const v2 = loadLesson(v2raw);
 const v3 = loadLesson(v3raw);
+const v4 = loadLesson(v4raw);
+const v5 = loadLesson(v5raw);
+const v6 = loadLesson(v6raw);
+const v7 = loadLesson(v7raw);
 // Untyped deep copy, so tests can break the JSON on purpose.
 const clone = (x: unknown) => JSON.parse(JSON.stringify(x));
 
@@ -45,7 +53,11 @@ describe('lesson content', () => {
     expect(findTopic('s1.1.02')?.topic.title).toBe('The Eight Parts of Speech');
     expect(lessonForTopic('s1.1.02')?.id).toBe('1-1-2');
     expect(lessonForTopic('s1.1.03')?.lessonTitle).toBe('Content Words and Function Words');
-    expect(lessonForTopic('s1.1.04')).toBeUndefined();
+    expect(lessonForTopic('s1.1.04')?.lessonTitle).toBe('Open and Closed Word Classes');
+    expect(lessonForTopic('s1.1.05')?.lessonTitle).toBe(v5.lessonTitle);
+    expect(lessonForTopic('s1.1.06')?.lessonTitle).toBe(v6.lessonTitle);
+    expect(lessonForTopic('s1.1.07')?.lessonTitle).toBe(v7.lessonTitle);
+    expect(lessonForTopic('s1.1.08')).toBeUndefined();
     expect([v3.pages.length, Object.keys(v3.questions).length, v3.finalCheck?.questionIds.length]).toEqual([15, 18, 6]);
   });
 
@@ -68,7 +80,7 @@ describe('lesson content', () => {
     expect(() => loadLesson(badPair)).toThrow('unknown item R99');
     const overlap = clone(v2raw);
     overlap.assessments.final_assessment.question_ids.push('Q001');
-    expect(() => loadLesson(overlap)).toThrow('Q001 is also in a dimension check');
+    expect(() => loadLesson(overlap)).toThrow('Q001 is used more than once (dimension check DA001 and the final assessment)');
     // Rule: each taught dimension ends with its own check; the lesson ends with a final check.
     const lateCheck = clone(v3raw);
     lateCheck.assessments.dimension_assessments[1].after_page_id = 'PAGE014';
@@ -79,6 +91,10 @@ describe('lesson content', () => {
     const noFinal = clone(v3raw);
     noFinal.assessments.final_assessment.question_ids = [];
     expect(() => loadLesson(noFinal)).toThrow('a lesson needs a final assessment');
+    // Rule: a question is asked once. An in-page practice question can't also be in the check after it.
+    const twice = clone(v4raw);
+    twice.pages[8].content.push({ block_id: 'BLOCK018', type: 'question', question_id: 'Q003' });
+    expect(() => loadLesson(twice)).toThrow('Q003 is used more than once (page PAGE009 and dimension check DA003)');
     const badHighlight = clone(v2raw);
     badHighlight.pages[0].content[1].examples[0].highlight = ['cat'];
     expect(() => loadLesson(badHighlight)).toThrow('"cat" is not in the sentence');
@@ -110,6 +126,20 @@ describe('tokenizeSentence', () => {
     expect(splitTokenSentences(tokens).map((g) => g.map((t) => t.text).join(' '))).toEqual([
       'I drink water.',
       'Please water the plant.',
+    ]);
+  });
+
+  it('highlights a multi-word phrase as one chip tone', () => {
+    // 1.1.6 page 6 highlights the whole subject: "The little squirrel".
+    const tones = tokenizeSentence('The little squirrel climbed the tree.', ['The little squirrel']).map((t) => t.tone);
+    expect(tones).toEqual(['teal', 'teal', 'teal', null, null, null]);
+    // Phrases and single words alternate tones in sentence order.
+    expect(tokenizeSentence('Mira opened the wooden box.', ['opened', 'the wooden box']).map((t) => t.tone)).toEqual([
+      null,
+      'teal',
+      'salmon',
+      'salmon',
+      'salmon',
     ]);
   });
 
@@ -161,6 +191,14 @@ describe('answers', () => {
     expect(grade(match, { kind: 'pairs', pairs: { ...match.pairs, L1: 'R2', L2: 'R1' } })).toBe(false);
     expect(grade(q('Q001'), undefined)).toBeNull();
     expect(normalizeTyped('“Adverb!”')).toBe('adverb');
+  });
+
+  it("gives the verdict once, for the learner's actual answer", () => {
+    const authored = 'Correct. Closed classes usually gain new words very rarely.';
+    expect(explanationText(authored, true)).toBe('Correct! Closed classes usually gain new words very rarely.');
+    expect(explanationText(authored, false)).toBe('Not quite. Closed classes usually gain new words very rarely.');
+    expect(explanationText('Correctly placed words help.', true)).toBe('Correct! Correctly placed words help.');
+    expect(explanationText('Wow is an interjection.', null)).toBe('Wow is an interjection.');
   });
 
   it('grades word-list answers in any order', () => {
@@ -229,6 +267,55 @@ describe('lessonScreens', () => {
     // Summary: comparison items, then points, then picture + takeaway.
     expect(byPage(15).map((s) => s.blockPart)).toEqual(['items', 'points', 'all']);
     expect(byPage(15).at(-1)).toMatchObject({ blocks: [], showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.1.6 on screens', () => {
+    const screens = lessonScreens(v6, visualsFor(v6.id));
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v6, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v6.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE011', 'PAGE014', 'PAGE016', 'PAGE018', 'PAGE020']);
+    // Page 3's eight tiles continue on a second screen, split between grid rows; numbering carries on.
+    const page3 = screens.filter((s) => s.page.page_number === 3 && s.blocks[0]?.type === 'list').map((s) => s.blocks[0]);
+    expect(page3.length).toBeGreaterThan(1);
+    const parts = page3.map((b) => (b.type === 'list' ? [b.start, b.items.length, Boolean(b.introduction)] : null));
+    expect(parts.every((p) => p && (p[0] as number) % 2 === 0)).toBe(true);
+    expect(parts.map((p) => p?.[2])).toEqual([true, ...parts.slice(1).map(() => false)]);
+    const all = v6.pages[2].content[0];
+    if (all.type !== 'list') throw new Error('expected list');
+    expect(splitList(all, 10_000)).toEqual([{ ...all, start: 0 }]);
+    expect(grade(v6.questions.Q005, { kind: 'text', values: ['gardener'] })).toBe(true);
+  });
+
+  it('fits lesson 1.1.7 on screens, with practice on pages 6 and 17', () => {
+    const screens = lessonScreens(v7, visualsFor(v7.id));
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v7, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v7.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE006', 'PAGE013', 'PAGE015', 'PAGE019']);
+    const practice = (n: number) => v7.pages[n - 1].content.flatMap((b) => (b.type === 'question' ? [b.question_id] : []));
+    expect([practice(6), practice(17)]).toEqual([['Q019'], ['Q007', 'Q008']]);
+    expect(v7.checkpoints.at(-1)?.questionIds).toEqual(['Q006', 'Q016']);
+    // "Every adverb must end in -ly." never wraps between "-" and "ly"; hyphenated words are untouched.
+    expect(keepSuffixes('Every adverb must end in -ly.')).toBe('Every adverb must end in -\u2060ly.');
+    expect(keepSuffixes('a well-known word')).toBe('a well-known word');
+  });
+
+  it('fits lesson 1.1.5 on screens, with pictures in row comparisons', () => {
+    const screens = lessonScreens(v5, visualsFor(v5.id));
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v5, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    // Each example block has its own pictures: page 7's "dry" block has none.
+    const art = pageBlockArt(v5.pages[6], visualsFor(v5.id));
+    expect([Boolean(art.BLOCK016?.examples), Boolean(art.BLOCK017)]).toEqual([true, false]);
+    expect(v5.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005', 'PAGE011', 'PAGE014', 'PAGE018']);
+  });
+
+  it('fits lesson 1.1.4 on screens', () => {
+    const screens = lessonScreens(v4, visualsFor(v4.id));
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect(packedHeight(v4, s)).toBeLessThanOrEqual(DEFAULT_BUDGET - titleLines(s.page.title) * 37);
+    // Summary list, then picture + takeaway; checks follow their dimensions' last pages.
+    expect(screens.filter((s) => s.page.page_number === 15).at(-1)).toMatchObject({ blocks: [], showArt: true, showTakeaway: true });
+    expect(v4.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE007', 'PAGE009', 'PAGE011', 'PAGE013', 'PAGE015']);
   });
 });
 

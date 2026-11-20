@@ -3,8 +3,9 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 
 import { AppText } from '@/components/AppText';
-import { expectedText, grade, isWordList, type Answer } from '@/lessons/answers';
+import { expectedText, explanationText, grade, isWordList, type Answer } from '@/lessons/answers';
 import type { Question } from '@/lessons/model';
+import { keepSuffixes } from '@/lessons/sentence';
 import { borderWidth, colors, fonts, radii, space } from '@/theme/tokens';
 
 import { InfoCard, LessonPill, PageTitle } from './LessonBlocks';
@@ -49,14 +50,14 @@ export function QuestionCard({ number, question, answer, onAnswer }: QuestionCar
           <AppText style={styles.qNumberText}>{number}</AppText>
         </View>
         <AppText accessibilityRole="header" style={styles.qText} maxFontSizeMultiplier={1.3}>
-          {question.prompt}
+          {keepSuffixes(question.prompt)}
         </AppText>
       </View>
       <AnswerArea question={question} answer={answer} onAnswer={onAnswer} />
       {answer ? (
         <InfoCard icon={<Lightbulb />} label="Explanation" emphasis style={styles.explanation}>
           <AppText style={styles.explanationText} accessibilityLiveRegion="polite">
-            {`${result === true ? 'Correct! ' : result === false ? 'Not quite. ' : ''}${question.explanation}`}
+            {keepSuffixes(explanationText(question.explanation, result))}
           </AppText>
         </InfoCard>
       ) : null}
@@ -258,7 +259,10 @@ function MatchPairs({ question, answer, onAnswer }: { question: MatchQuestion; a
   const [active, setActive] = useState<string | undefined>(question.left[0]?.id);
   const locked = answer?.kind === 'pairs';
   const shown = locked ? answer.pairs : pairs;
-  const used = new Set(Object.values(shown));
+  // One-to-one matches take each answer once; when answers repeat ("Open class" for Noun and Adjective)
+  // every answer stays in the bank.
+  const reusable = new Set(Object.values(question.pairs)).size < question.left.length;
+  const used = new Set(reusable ? [] : Object.values(shown));
   const rightText = (id: string | undefined) => question.right.find((r) => r.id === id)?.text;
   const nextEmpty = (p: Record<string, string>, after?: string) => {
     const order = question.left.map((l) => l.id);

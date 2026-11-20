@@ -10,7 +10,7 @@ import type { IconName } from '@/data/options';
 import { parseList } from '@/lessons/list-items';
 import type { ComparisonItem, ContentBlock, ExampleItem } from '@/lessons/model';
 import { LIST_ICONS, type LessonArt, type PhraseAnnotation } from '@/lessons/presentation';
-import { artBesideSentence, comparisonAsRows, EXAMPLE_ART_SHARE } from '@/lessons/screens';
+import { artBesideSentence, COMPARISON_ROW_ART, comparisonAsRows, EXAMPLE_ART_SHARE } from '@/lessons/screens';
 import {
   groupExamples,
   highlightList,
@@ -135,7 +135,7 @@ function SoftTag({ children }: { children: string }) {
  * Examples repeating one sentence with different highlights show it once, one chip tone per group, with
  * a legend row per group naming its words (so the groups don't rely on colour alone).
  */
-export function ExampleCard({ examples, arts = [] }: { examples: ExampleItem[]; arts?: LessonArt[] }) {
+export function ExampleCard({ examples, arts = [] }: { examples: ExampleItem[]; arts?: (LessonArt | null)[] }) {
   const groups = groupExamples(examples);
   return (
     <View style={styles.card}>
@@ -321,6 +321,8 @@ const TILE_TONES = [
 export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'list' }> }) {
   const { layout, entries } = parseList(block.items);
   const numbered = block.list_style === 'numbered';
+  // A list continued from the previous screen keeps counting (and its tile pattern) from `start`.
+  const first = block.start ?? 0;
   return (
     <View style={styles.card}>
       {block.introduction ? <SoftTag>{block.introduction}</SoftTag> : null}
@@ -328,7 +330,7 @@ export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'lis
         <View style={styles.tileGrid}>
           {entries.map((e, i) => {
             // Checkerboard tones so neighbours differ in both directions of the 2-column grid.
-            const tone = TILE_TONES[(Math.floor(i / 2) + i) % 2];
+            const tone = TILE_TONES[(Math.floor((first + i) / 2) + first + i) % 2];
             const icon = LIST_ICONS[(e.label ?? '').toLowerCase()];
             return (
               <View key={i} style={[styles.tile, { backgroundColor: tone.bg }]} accessible accessibilityLabel={e.text}>
@@ -348,10 +350,10 @@ export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'lis
           {entries.map((e, i) => (
             <View key={i} style={[styles.qaRow, i > 0 && styles.listDivider]} accessible accessibilityLabel={e.text}>
               <View style={styles.numberBadge}>
-                <AppText style={styles.numberText}>{i + 1}</AppText>
+                <AppText style={styles.numberText}>{first + i + 1}</AppText>
               </View>
               <AppText style={[styles.cardBody, styles.flex]}>{e.label}</AppText>
-              <View style={[styles.answerChip, { backgroundColor: TILE_TONES[i % 2].bg }]}>
+              <View style={[styles.answerChip, { backgroundColor: TILE_TONES[(first + i) % 2].bg }]}>
                 <AppText style={styles.answerChipText}>{e.detail}</AppText>
               </View>
             </View>
@@ -360,7 +362,7 @@ export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'lis
       ) : layout === 'chips' ? (
         <View style={styles.tileGrid}>
           {entries.map((e, i) => (
-            <View key={i} style={[styles.wordGroup, { backgroundColor: TILE_TONES[(Math.floor(i / 2) + i) % 2].bg }]}>
+            <View key={i} style={[styles.wordGroup, { backgroundColor: TILE_TONES[(Math.floor((first + i) / 2) + first + i) % 2].bg }]}>
               <AppText style={styles.wordGroupText} align="center" maxFontSizeMultiplier={1.2}>
                 {e.text}
               </AppText>
@@ -373,7 +375,7 @@ export function ListBlock({ block }: { block: Extract<ContentBlock, { type: 'lis
             <View key={i} style={[styles.listRow, i > 0 && styles.listDivider]}>
               {numbered ? (
                 <View style={styles.numberBadge}>
-                  <AppText style={styles.numberText}>{i + 1}</AppText>
+                  <AppText style={styles.numberText}>{first + i + 1}</AppText>
                 </View>
               ) : (
                 <View style={styles.listCheck}>
@@ -400,7 +402,7 @@ export function ComparisonCard({
   part = 'all',
 }: {
   block: Extract<ContentBlock, { type: 'comparison' }>;
-  arts?: LessonArt[];
+  arts?: (LessonArt | null)[];
   part?: 'all' | 'items' | 'points';
 }) {
   const label = (item: ComparisonItem) => `${item.label}: ${item.description} ${item.example ?? ''}`;
@@ -416,10 +418,19 @@ export function ComparisonCard({
               accessible
               accessibilityLabel={label(item)}
             >
-              <AppText style={[styles.compareLabel, styles.compareRowLabel]} maxFontSizeMultiplier={1.2}>
-                {item.label}
-              </AppText>
+              {arts?.[i] ? <LessonArtImage art={arts[i]} width={COMPARISON_ROW_ART} /> : null}
+              {/* With a picture, the label joins the text column so the description isn't squeezed. */}
+              {arts?.[i] ? null : (
+                <AppText style={[styles.compareLabel, styles.compareRowLabel]} maxFontSizeMultiplier={1.2}>
+                  {item.label}
+                </AppText>
+              )}
               <View style={[styles.flex, styles.gapXs]}>
+                {arts?.[i] ? (
+                  <AppText style={[styles.compareLabel, styles.compareRowLabelStacked]} maxFontSizeMultiplier={1.2}>
+                    {item.label}
+                  </AppText>
+                ) : null}
                 <AppText style={styles.tileDetail} maxFontSizeMultiplier={1.2}>
                   {item.description}
                 </AppText>
@@ -669,6 +680,7 @@ const styles = StyleSheet.create({
   compareExampleText: { fontFamily: fonts.serifBold, fontSize: 15, lineHeight: 20, color: colors.ink },
   compareRowItem: { flexDirection: 'row', alignItems: 'center', gap: space.sm + 2, padding: space.sm + 2, borderRadius: radii.card },
   compareRowLabel: { width: '38%', fontSize: 16, lineHeight: 21 },
+  compareRowLabelStacked: { fontSize: 16, lineHeight: 21 },
   compareRowExample: { alignSelf: 'flex-start', marginTop: 2, paddingVertical: 3 },
   pointRow: { flexDirection: 'row', alignItems: 'flex-start', gap: space.sm },
   pointDot: { width: 8, height: 8, borderRadius: 4, marginTop: 7, marginHorizontal: 6, backgroundColor: colors.pathTeal },

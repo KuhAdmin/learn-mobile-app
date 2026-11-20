@@ -27,7 +27,15 @@ export type ContentBlock =
   | { block_id: string; type: 'text'; text: string }
   | { block_id: string; type: 'note'; title?: string; text: string }
   | { block_id: string; type: 'example'; examples: ExampleItem[] }
-  | { block_id: string; type: 'list'; introduction?: string; list_style?: 'numbered' | 'bulleted'; items: string[] }
+  | {
+      block_id: string;
+      type: 'list';
+      introduction?: string;
+      list_style?: 'numbered' | 'bulleted';
+      items: string[];
+      /** Index of the first item. Set by `screens.ts` (never in content) when a long list continues on the next screen. */
+      start?: number;
+    }
   | {
       block_id: string;
       type: 'comparison';
@@ -373,8 +381,24 @@ function fromV2(raw: unknown): Lesson {
   const fa = obj(assessments.final_assessment, '$.assessments.final_assessment');
   const ids = knownQuestions(fa.question_ids, '$.assessments.final_assessment.question_ids');
   if (!ids.length) fail('$.assessments.final_assessment.question_ids', 'a lesson needs a final assessment');
-  const inChecks = new Set(checkpoints.flatMap((c) => c.questionIds));
-  ids.forEach((id) => inChecks.has(id) && fail('$.assessments.final_assessment.question_ids', `${id} is also in a dimension check`));
+
+  // Rule: each question is asked once — as in-page practice, in one dimension check, or in the final.
+  const usedAt = new Map<string, string>();
+  const use = (id: string, where: string, path: string) => {
+    const before = usedAt.get(id);
+    if (before) fail(path, `${id} is used more than once (${before} and ${where})`);
+    usedAt.set(id, where);
+  };
+  pages.forEach((page, pi) =>
+    page.content.forEach(
+      (b, bi) => b.type === 'question' && use(b.question_id, `page ${page.page_id}`, `$.pages[${pi}].content[${bi}].question_id`),
+    ),
+  );
+  checkpoints.forEach((c, ci) =>
+    c.questionIds.forEach((id) => use(id, `dimension check ${c.id}`, `$.assessments.dimension_assessments[${ci}].question_ids`)),
+  );
+  ids.forEach((id) => use(id, 'the final assessment', '$.assessments.final_assessment.question_ids'));
+
   const finalCheck = { title: str(fa.title, '$.assessments.final_assessment.title'), ctaLabel: 'Take Final Check', questionIds: ids };
 
   return {

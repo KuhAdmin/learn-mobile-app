@@ -64,6 +64,19 @@ export function score(questions: Question[], answers: Record<string, Answer>) {
   return { correct: graded.filter((q) => grade(q, answers[q.id]) === true).length, total: graded.length };
 }
 
+// A verdict the content wrote into the explanation itself ("Correct. Closed classes…").
+const AUTHORED_VERDICT = /^\s*(?:correct|right|incorrect|wrong|not quite|well done)\s*[.!:,]\s*/i;
+
+/**
+ * Explanation shown after answering: the app's verdict for the learner's actual answer, then the content's
+ * explanation without any verdict it starts with. Otherwise a wrong answer would read
+ * "Not quite. Correct. …" and a right one "Correct! Correct. …".
+ */
+export function explanationText(explanation: string, result: boolean | null): string {
+  const verdict = result === true ? 'Correct! ' : result === false ? 'Not quite. ' : '';
+  return verdict + explanation.replace(AUTHORED_VERDICT, '');
+}
+
 /** The answer to show after a wrong attempt, for typed questions. */
 export function expectedText(q: Question): string | undefined {
   switch (q.type) {

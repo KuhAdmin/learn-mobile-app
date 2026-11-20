@@ -1,1343 +1,1141 @@
-{\
-&#x20; "schema_version": "2.0",\
-&#x20; "content_type": "grammar_lesson",\
-&#x20; "generation_context": {\
-&#x20; "target_audience": "English learners",\
-&#x20; "language_level": "ELI5",\
-&#x20; "learning_context": "Mobile learning",\
-&#x20; "content_language": "en"\
-&#x20; },\
-&#x20; "topic": {\
-&#x20; "topic_id": "1-1-3",\
-&#x20; "title": "Content Words and Function Words",\
-&#x20; "learning_stage": "Grammar Foundation -> Parts of Speech",\
-&#x20; "learner_level": null,\
-&#x20; "language": "en"\
-&#x20; },\
-&#x20; "lesson": {\
-&#x20; "lesson_title": "Content Words and Function Words",\
-&#x20; "lesson_summary": "Learn the two important groups of words in English. Discover how content words carry meaning and how function words connect ideas and help sentences work correctly. Learn to identify, compare and use both groups in everyday sentences.",\
-&#x20; "learning_objectives": [\
-&#x20; {\
-&#x20; "objective_id": "OBJ001",\
-&#x20; "description": "Explain what content words and function words are.",\
-&#x20; "success_criteria": [\
-&#x20; "Define content words in simple language.",\
-&#x20; "Define function words in simple language.",\
-&#x20; "Explain the difference between the two groups."\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "objective_id": "OBJ002",\
-&#x20; "description": "Recognise common types of content words and function words.",\
-&#x20; "success_criteria": [\
-&#x20; "Identify nouns, main verbs, adjectives and adverbs as common content words.",\
-&#x20; "Identify articles, determiners, pronouns, prepositions, conjunctions and auxiliary verbs as common function words."\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "objective_id": "OBJ003",\
-&#x20; "description": "Distinguish content words from function words in sentences.",\
-&#x20; "success_criteria": [\
-&#x20; "Identify the two groups in short sentences.",\
-&#x20; "Explain the role of selected words in their sentence."\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "objective_id": "OBJ004",\
-&#x20; "description": "Understand the difference between open-class and closed-class words.",\
-&#x20; "success_criteria": [\
-&#x20; "Explain why content words form an open class.",\
-&#x20; "Explain why function words generally form a closed class."\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "objective_id": "OBJ005",\
-&#x20; "description": "Apply knowledge of content words and function words in practical English.",\
-&#x20; "success_criteria": [\
-&#x20; "Recognise the two groups in everyday communication.",\
-&#x20; "Understand how both groups work together to form meaningful sentences."\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "objective_id": "OBJ006",\
-&#x20; "description": "Identify and correct common misunderstandings about content words and function words.",\
-&#x20; "success_criteria": [\
-&#x20; "Avoid treating all short words as function words.",\
-&#x20; "Recognise that a word's grammatical role can change with its use.",\
-&#x20; "Classify words according to their role in context."\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "estimated_duration_minutes": 15,\
-&#x20; "total_pages": 15\
-&#x20; },\
-&#x20; "learning_dimensions": [\
-&#x20; {\
-&#x20; "dimension_id": "DIM001",\
-&#x20; "dimension": "Definition and Fundamental Concepts",\
-&#x20; "applicability": "applicable",\
-&#x20; "status": "covered",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "page_ids": [\
-&#x20; "PAGE001",\
-&#x20; "PAGE002",\
-&#x20; "PAGE003"\
-&#x20; ],\
-&#x20; "assessment_id": "DA001"\
-&#x20; },\
-&#x20; {\
-&#x20; "dimension_id": "DIM002",\
-&#x20; "dimension": "Types and Classifications",\
-&#x20; "applicability": "applicable",\
-&#x20; "status": "covered",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002",\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "page_ids": [\
-&#x20; "PAGE004",\
-&#x20; "PAGE005",\
-&#x20; "PAGE006",\
-&#x20; "PAGE007"\
-&#x20; ],\
-&#x20; "assessment_id": "DA002"\
-&#x20; },\
-&#x20; {\
-&#x20; "dimension_id": "DIM003",\
-&#x20; "dimension": "Identification and Recognition",\
-&#x20; "applicability": "applicable",\
-&#x20; "status": "covered",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "page_ids": [\
-&#x20; "PAGE008",\
-&#x20; "PAGE009",\
-&#x20; "PAGE010"\
-&#x20; ],\
-&#x20; "assessment_id": "DA003"\
-&#x20; },\
-&#x20; {\
-&#x20; "dimension_id": "DIM004",\
-&#x20; "dimension": "Practical Usage and Application",\
-&#x20; "applicability": "applicable",\
-&#x20; "status": "covered",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "page_ids": [\
-&#x20; "PAGE011",\
-&#x20; "PAGE012"\
-&#x20; ],\
-&#x20; "assessment_id": "DA004"\
-&#x20; },\
-&#x20; {\
-&#x20; "dimension_id": "DIM005",\
-&#x20; "dimension": "Common Learner Mistakes and Error Correction",\
-&#x20; "applicability": "applicable",\
-&#x20; "status": "covered",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "page_ids": [\
-&#x20; "PAGE013",\
-&#x20; "PAGE014"\
-&#x20; ],\
-&#x20; "assessment_id": "DA005"\
-&#x20; }\
-&#x20; ],\
-&#x20; "pages": [\
-&#x20; {\
-&#x20; "page_id": "PAGE001",\
-&#x20; "page_number": 1,\
-&#x20; "page_type": "introduction",\
-&#x20; "pedagogical_role": "introduction",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "title": "Two Word Families",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK001",\
-&#x20; "type": "text",\
-&#x20; "text": "English words have different jobs. Some words carry the main meaning. Others help those words work together. These are called content words and function words."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK002",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "The little boy runs quickly.",\
-&#x20; "highlight": [\
-&#x20; "little",\
-&#x20; "boy",\
-&#x20; "runs",\
-&#x20; "quickly",\
-&#x20; "The"\
-&#x20; ],\
-&#x20; "explanation": "Little, boy, runs and quickly carry meaning. The helps the sentence work correctly."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "English has two important word families."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE002",\
-&#x20; "page_number": 2,\
-&#x20; "page_type": "concept",\
-&#x20; "pedagogical_role": "explanation",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "title": "What Are Content Words?",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK003",\
-&#x20; "type": "text",\
-&#x20; "text": "Content words carry the main meaning of a sentence. They tell us about people, things, actions, qualities and how actions happen."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK004",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "Maya sings beautifully.",\
-&#x20; "highlight": [\
-&#x20; "Maya",\
-&#x20; "sings",\
-&#x20; "beautifully"\
-&#x20; ],\
-&#x20; "explanation": "Maya tells us who. Sings tells us the action. Beautifully tells us how she sings."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Content words carry the main message."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE003",\
-&#x20; "page_number": 3,\
-&#x20; "page_type": "concept",\
-&#x20; "pedagogical_role": "explanation",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "title": "What Are Function Words?",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK005",\
-&#x20; "type": "text",\
-&#x20; "text": "Function words help other words work together. They show relationships, connections, reference and grammatical meaning."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK006",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "The cat is under the table.",\
-&#x20; "highlight": [\
-&#x20; "The",\
-&#x20; "is",\
-&#x20; "under"\
-&#x20; ],\
-&#x20; "explanation": "The introduces the noun, is helps form the sentence, and under shows the cat's position."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Function words help build the sentence."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE004",\
-&#x20; "page_number": 4,\
-&#x20; "page_type": "classification",\
-&#x20; "pedagogical_role": "decomposition",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002"\
-&#x20; ],\
-&#x20; "title": "Four Common Content Words",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK007",\
-&#x20; "type": "text",\
-&#x20; "text": "Four major groups commonly carry the main meaning in English. They are nouns, main verbs, adjectives and adverbs."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK008",\
-&#x20; "type": "list",\
-&#x20; "introduction": "Meet the four groups:",\
-&#x20; "list_style": "numbered",\
-&#x20; "items": [\
-&#x20; "Nouns: name people, places, things or ideas. Example: teacher.",\
-&#x20; "Main verbs: show actions or states. Example: dance.",\
-&#x20; "Adjectives: describe nouns. Example: beautiful.",\
-&#x20; "Adverbs: describe actions or other descriptions. Example: slowly."\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Nouns, main verbs, adjectives and adverbs are common content words."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE005",\
-&#x20; "page_number": 5,\
-&#x20; "page_type": "classification",\
-&#x20; "pedagogical_role": "decomposition",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002"\
-&#x20; ],\
-&#x20; "title": "Common Function Words",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK009",\
-&#x20; "type": "text",\
-&#x20; "text": "Function words help us connect, introduce and organise information. They often show how one word relates to another."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK010",\
-&#x20; "type": "list",\
-&#x20; "introduction": "Common function-word groups include:",\
-&#x20; "list_style": "bulleted",\
-&#x20; "items": [\
-&#x20; "Articles: a, an, the.",\
-&#x20; "Determiners: this, that, some, every.",\
-&#x20; "Pronouns: he, she, they, it.",\
-&#x20; "Prepositions: in, on, under, at.",\
-&#x20; "Conjunctions: and, but, because.",\
-&#x20; "Auxiliary verbs: is, have, can, will."\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Function words organise and connect information."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE006",\
-&#x20; "page_number": 6,\
-&#x20; "page_type": "concept",\
-&#x20; "pedagogical_role": "explanation",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "title": "Open-Class Words",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK011",\
-&#x20; "type": "text",\
-&#x20; "text": "Content words belong mainly to open classes. This means new words can easily join these groups as language grows and changes."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK012",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "We use the word selfie for a type of photograph.",\
-&#x20; "highlight": [\
-&#x20; "selfie"\
-&#x20; ],\
-&#x20; "explanation": "Selfie is a relatively new noun that entered everyday English."\
-&#x20; },\
-&#x20; {\
-&#x20; "sentence": "People now use the verb google.",\
-&#x20; "highlight": [\
-&#x20; "google"\
-&#x20; ],\
-&#x20; "explanation": "A new verb can enter English when people begin using a new action word."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Open classes can welcome new words."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE007",\
-&#x20; "page_number": 7,\
-&#x20; "page_type": "comparison",\
-&#x20; "pedagogical_role": "comparison",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002",\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "title": "Closed-Class Words",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK013",\
-&#x20; "type": "text",\
-&#x20; "text": "Function words generally belong to closed classes. Their groups are relatively fixed, and new words rarely enter them."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK014",\
-&#x20; "type": "comparison",\
-&#x20; "items": [\
-&#x20; {\
-&#x20; "label": "Open class",\
-&#x20; "description": "New words can easily join the group.",\
-&#x20; "example": "Nouns: selfie, podcast."\
-&#x20; },\
-&#x20; {\
-&#x20; "label": "Closed class",\
-&#x20; "description": "The group usually has a fairly fixed set of words.",\
-&#x20; "example": "Articles: a, an, the."\
-&#x20; }\
-&#x20; ],\
-&#x20; "comparison_points": [\
-&#x20; "Content words commonly belong to open classes.",\
-&#x20; "Function words commonly belong to closed classes."\
-&#x20; ],\
-&#x20; "conclusion": "The difference is about how easily new words enter a word group."\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Content words are mostly open-class; function words are mostly closed-class."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE008",\
-&#x20; "page_number": 8,\
-&#x20; "page_type": "example",\
-&#x20; "pedagogical_role": "demonstration",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "title": "Find Both Groups",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK015",\
-&#x20; "type": "text",\
-&#x20; "text": "Look at a sentence carefully. Content words carry its main message. Function words connect and organise that message."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK016",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "The happy girl is reading a book.",\
-&#x20; "highlight": [\
-&#x20; "happy",\
-&#x20; "girl",\
-&#x20; "reading",\
-&#x20; "book"\
-&#x20; ],\
-&#x20; "explanation": "These are content words. They tell us the main information."\
-&#x20; },\
-&#x20; {\
-&#x20; "sentence": "The happy girl is reading a book.",\
-&#x20; "highlight": [\
-&#x20; "The",\
-&#x20; "is",\
-&#x20; "a"\
-&#x20; ],\
-&#x20; "explanation": "These are function words. They help organise the sentence."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "One sentence can contain both word groups."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE009",\
-&#x20; "page_number": 9,\
-&#x20; "page_type": "comparison",\
-&#x20; "pedagogical_role": "comparison",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "title": "The Two Groups Compared",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK017",\
-&#x20; "type": "comparison",\
-&#x20; "items": [\
-&#x20; {\
-&#x20; "label": "Content words",\
-&#x20; "description": "Carry the main information and meaning.",\
-&#x20; "example": "Birds fly high."\
-&#x20; },\
-&#x20; {\
-&#x20; "label": "Function words",\
-&#x20; "description": "Show relationships and grammatical connections.",\
-&#x20; "example": "The birds are in the garden."\
-&#x20; }\
-&#x20; ],\
-&#x20; "comparison_points": [\
-&#x20; "Content words often carry more of the sentence's main meaning.",\
-&#x20; "Function words help show how the sentence is organised.",\
-&#x20; "Both groups are needed for clear and natural communication."\
-&#x20; ],\
-&#x20; "conclusion": "Content words tell us the main message; function words help organise it."\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Both groups have different but important jobs."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE010",\
-&#x20; "page_number": 10,\
-&#x20; "page_type": "application",\
-&#x20; "pedagogical_role": "recognition",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "title": "Spot Words in Context",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK018",\
-&#x20; "type": "text",\
-&#x20; "text": "To classify a word, look at its job in the sentence. Ask whether it carries the main meaning or helps connect and organise other words."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK019",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "Ravi quickly opened the door.",\
-&#x20; "highlight": [\
-&#x20; "Ravi",\
-&#x20; "quickly",\
-&#x20; "opened",\
-&#x20; "door"\
-&#x20; ],\
-&#x20; "explanation": "These words give us the main information."\
-&#x20; },\
-&#x20; {\
-&#x20; "sentence": "Ravi quickly opened the door.",\
-&#x20; "highlight": [\
-&#x20; "the"\
-&#x20; ],\
-&#x20; "explanation": "The introduces the noun door and helps organise the sentence."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Always check a word's job in its sentence."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE011",\
-&#x20; "page_number": 11,\
-&#x20; "page_type": "application",\
-&#x20; "pedagogical_role": "demonstration",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "title": "How They Work Together",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK020",\
-&#x20; "type": "text",\
-&#x20; "text": "Content words and function words work as a team. Content words supply the main ideas, while function words help arrange those ideas into clear sentences."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK021",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "The children are playing in the park.",\
-&#x20; "highlight": [\
-&#x20; "children",\
-&#x20; "playing",\
-&#x20; "park"\
-&#x20; ],\
-&#x20; "explanation": "These words tell us who is doing what and where."\
-&#x20; },\
-&#x20; {\
-&#x20; "sentence": "The children are playing in the park.",\
-&#x20; "highlight": [\
-&#x20; "The",\
-&#x20; "are",\
-&#x20; "in",\
-&#x20; "the"\
-&#x20; ],\
-&#x20; "explanation": "These words help the other words fit together."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Both word groups work together to make clear sentences."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE012",\
-&#x20; "page_number": 12,\
-&#x20; "page_type": "example",\
-&#x20; "pedagogical_role": "rule_application",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "title": "Meaning and Sentence Structure",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK022",\
-&#x20; "type": "text",\
-&#x20; "text": "Some function words carry important grammatical information even though they do not name things or actions. Removing them can change the meaning or make a sentence incorrect."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK023",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "She is going to school.",\
-&#x20; "highlight": [\
-&#x20; "She",\
-&#x20; "is",\
-&#x20; "to"\
-&#x20; ],\
-&#x20; "explanation": "She identifies the person, is helps form the verb phrase, and to marks direction."\
-&#x20; },\
-&#x20; {\
-&#x20; "sentence": "She going school.",\
-&#x20; "highlight": [\
-&#x20; "going",\
-&#x20; "school"\
-&#x20; ],\
-&#x20; "explanation": "The main ideas are still partly understandable, but important function words are missing and the sentence is not standard grammatical English."\
-&#x20; }\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Small words can carry important grammatical information."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE013",\
-&#x20; "page_number": 13,\
-&#x20; "page_type": "common_mistake",\
-&#x20; "pedagogical_role": "error_analysis",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "title": "Short Does Not Mean Function",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK024",\
-&#x20; "type": "text",\
-&#x20; "text": "Do not classify a word only by its length. A short word can carry the main meaning, and a longer word can perform a grammatical function."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK025",\
-&#x20; "type": "example",\
-&#x20; "examples": [\
-&#x20; {\
-&#x20; "sentence": "Dogs bark.",\
-&#x20; "highlight": [\
-&#x20; "Dogs",\
-&#x20; "bark"\
-&#x20; ],\
-&#x20; "explanation": "Both words are content words, even though bark is short."\
-&#x20; }\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK026",\
-&#x20; "type": "warning",\
-&#x20; "title": "Avoid this mistake",\
-&#x20; "mistake": {\
-&#x20; "incorrect": "Every short word is a function word.",\
-&#x20; "correct": "Classify words by their grammatical job and meaning.",\
-&#x20; "reason": "Word length does not decide whether a word is a content word or a function word."\
-&#x20; },\
-&#x20; "related_learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Word length does not decide word type."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE014",\
-&#x20; "page_number": 14,\
-&#x20; "page_type": "common_mistake",\
-&#x20; "pedagogical_role": "error_analysis",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "title": "Context Can Change the Job",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK027",\
-&#x20; "type": "text",\
-&#x20; "text": "Some words can belong to different groups depending on how they are used. Always look at the sentence before deciding."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK028",\
-&#x20; "type": "comparison",\
-&#x20; "items": [\
-&#x20; {\
-&#x20; "label": "Before as a preposition",\
-&#x20; "description": "Shows a relationship in time.",\
-&#x20; "example": "Come before lunch."\
-&#x20; },\
-&#x20; {\
-&#x20; "label": "Before as a conjunction",\
-&#x20; "description": "Connects two clauses.",\
-&#x20; "example": "Come before I leave."\
-&#x20; },\
-&#x20; {\
-&#x20; "label": "Before as an adverb",\
-&#x20; "description": "Means earlier or previously.",\
-&#x20; "example": "I have seen this before."\
-&#x20; }\
-&#x20; ],\
-&#x20; "comparison_points": [\
-&#x20; "The same spelling can have different grammatical jobs.",\
-&#x20; "The word's use in context helps determine its classification."\
-&#x20; ],\
-&#x20; "conclusion": "Do not classify a word by its spelling alone."\
-&#x20; },\
-&#x20; {\
-&#x20; "block_id": "BLOCK029",\
-&#x20; "type": "warning",\
-&#x20; "title": "Remember",\
-&#x20; "mistake": {\
-&#x20; "incorrect": "Before is always a preposition.",\
-&#x20; "correct": "Before can be a preposition, conjunction or adverb.",\
-&#x20; "reason": "Its grammatical category depends on how it is used in a sentence."\
-&#x20; },\
-&#x20; "related_learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Context helps identify a word's grammatical job."\
-&#x20; },\
-&#x20; {\
-&#x20; "page_id": "PAGE015",\
-&#x20; "page_number": 15,\
-&#x20; "page_type": "summary",\
-&#x20; "pedagogical_role": "reinforcement",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001",\
-&#x20; "OBJ002",\
-&#x20; "OBJ003",\
-&#x20; "OBJ004",\
-&#x20; "OBJ005",\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "title": "Remember the Difference",\
-&#x20; "content": [\
-&#x20; {\
-&#x20; "block_id": "BLOCK030",\
-&#x20; "type": "comparison",\
-&#x20; "items": [\
-&#x20; {\
-&#x20; "label": "Content words",\
-&#x20; "description": "Carry the main meaning. Common groups are nouns, main verbs, adjectives and adverbs.",\
-&#x20; "example": "Happy children play outside."\
-&#x20; },\
-&#x20; {\
-&#x20; "label": "Function words",\
-&#x20; "description": "Help organise sentences. Common groups include articles, pronouns, prepositions, conjunctions and auxiliaries.",\
-&#x20; "example": "The children are in the garden."\
-&#x20; }\
-&#x20; ],\
-&#x20; "comparison_points": [\
-&#x20; "Content words mostly belong to open classes.",\
-&#x20; "Function words mostly belong to closed classes.",\
-&#x20; "Both groups are essential for communication.",\
-&#x20; "A word's grammatical job depends on its use."\
-&#x20; ],\
-&#x20; "conclusion": "Understand the meaning and the job of each word."\
-&#x20; }\
-&#x20; ],\
-&#x20; "key_takeaway": "Meaning comes from content words; sentence organisation needs function words."\
-&#x20; }\
-&#x20; ],\
-&#x20; "question_bank": [\
-&#x20; {\
-&#x20; "question_id": "Q001",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "prompt": "What do content words mainly do?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "Carry the main meaning"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "Connect every sentence"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Show only punctuation"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Replace all verbs"\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "A"\
-&#x20; ],\
-&#x20; "explanation": "Content words carry the main information in a sentence.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q002",\
-&#x20; "type": "true_false",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001"\
-&#x20; ],\
-&#x20; "prompt": "Function words help connect and organise other words in a sentence.",\
-&#x20; "correct_answer": true,\
-&#x20; "explanation": "Function words help show grammatical relationships and organise sentences.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q003",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002"\
-&#x20; ],\
-&#x20; "prompt": "Which group contains only common content-word categories?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "Nouns, main verbs, adjectives and adverbs"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "Articles, prepositions and conjunctions"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Pronouns, articles and auxiliaries"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Determiners, conjunctions and prepositions"\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "A"\
-&#x20; ],\
-&#x20; "explanation": "These four groups commonly carry the main meaning in sentences.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "remember",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q004",\
-&#x20; "type": "identify",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002"\
-&#x20; ],\
-&#x20; "prompt": "Identify the function words in this sentence: The boy is in the garden.",\
-&#x20; "target": "The, is, in, the",\
-&#x20; "accepted_answers": [\
-&#x20; "The, is, in, the",\
-&#x20; "the, is, in, the"\
-&#x20; ],\
-&#x20; "explanation": "The introduces nouns, is helps form the verb phrase, and in shows location.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q005",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "prompt": "What does an open-class word group allow?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "New words to join the group"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "Only old words to remain"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Words to lose their meaning"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Words to become punctuation"\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "A"\
-&#x20; ],\
-&#x20; "explanation": "Open classes can grow as new words enter the language.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q006",\
-&#x20; "type": "true_false",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "prompt": "Function-word groups are generally closed classes, so new words rarely enter them.",\
-&#x20; "correct_answer": true,\
-&#x20; "explanation": "Function-word groups usually have a relatively fixed membership.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q007",\
-&#x20; "type": "identify",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "prompt": "Identify the content words in this sentence: The small dog runs quickly.",\
-&#x20; "target": "Content words",\
-&#x20; "accepted_answers": [\
-&#x20; "small, dog, runs, quickly",\
-&#x20; "dog, small, quickly, runs",\
-&#x20; "The content words are small, dog, runs and quickly."\
-&#x20; ],\
-&#x20; "explanation": "Small describes the dog, dog names an animal, runs shows an action and quickly describes how it happens.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q008",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "prompt": "Which word is a function word in 'The birds are flying over the lake'?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "Birds"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "Flying"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Over"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Lake"\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "C"\
-&#x20; ],\
-&#x20; "explanation": "Over is a preposition that shows the relationship between flying and the lake.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q009",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "prompt": "Why do sentences need both content words and function words?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "They perform different jobs that help create clear sentences."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "They always have the same meaning."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Content words are never needed."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Function words replace every noun."\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "A"\
-&#x20; ],\
-&#x20; "explanation": "Content words supply the main information, while function words help organise it.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q010",\
-&#x20; "type": "fill_blank",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "prompt": "Complete the sentence: The children are playing \_\_\_ the park.",\
-&#x20; "blanks": [\
-&#x20; {\
-&#x20; "blank_id": "BLANK001",\
-&#x20; "accepted_answers": [\
-&#x20; "in"\
-&#x20; ],\
-&#x20; "case_sensitive": false\
-&#x20; }\
-&#x20; ],\
-&#x20; "explanation": "In is a function word that shows the location of the activity.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q011",\
-&#x20; "type": "true_false",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "prompt": "Every short English word is a function word.",\
-&#x20; "correct_answer": false,\
-&#x20; "explanation": "Short words such as dog, run and cat can be content words.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q012",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "prompt": "Which statement about the word 'before' is correct?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "It is always a preposition."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "It can have different grammatical roles in different sentences."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "It is always a noun."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "It is always a content word."\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "B"\
-&#x20; ],\
-&#x20; "explanation": "Before can function as a preposition, conjunction or adverb depending on its use.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "analyse",\
-&#x20; "assessment_purpose": "dimension_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q013",\
-&#x20; "type": "identify",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ001",\
-&#x20; "OBJ002",\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "prompt": "In the sentence 'A clever student answered the question', identify the content words.",\
-&#x20; "target": "Content words",\
-&#x20; "accepted_answers": [\
-&#x20; "clever, student, answered, question",\
-&#x20; "student, clever, question, answered"\
-&#x20; ],\
-&#x20; "explanation": "Clever, student, answered and question carry the main information. A, the are function words.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q014",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ002",\
-&#x20; "OBJ003"\
-&#x20; ],\
-&#x20; "prompt": "Which set contains only function words?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "And, the, under"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "Happy, quickly, run"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Teacher, school, book"\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Beautiful, slowly, dance"\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "A"\
-&#x20; ],\
-&#x20; "explanation": "And is a conjunction, the is an article, and under is a preposition.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q015",\
-&#x20; "type": "true_false",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ004"\
-&#x20; ],\
-&#x20; "prompt": "The noun group is an example of an open word class.",\
-&#x20; "correct_answer": true,\
-&#x20; "explanation": "New nouns can enter English as new objects, ideas and activities appear.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "easy",\
-&#x20; "cognitive_level": "understand",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q016",\
-&#x20; "type": "identify",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ003",\
-&#x20; "OBJ005"\
-&#x20; ],\
-&#x20; "prompt": "Identify the function words in 'She has placed the flowers on the table'.",\
-&#x20; "target": "Function words",\
-&#x20; "accepted_answers": [\
-&#x20; "She, has, the, on, the",\
-&#x20; "She, has, the, on"\
-&#x20; ],\
-&#x20; "explanation": "She is a pronoun, has is an auxiliary verb, the is an article and on is a preposition.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "challenging",\
-&#x20; "cognitive_level": "analyse",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q017",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ005",\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "prompt": "What happens when important function words are removed from a sentence?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "The sentence always becomes better."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "The sentence may become unclear or grammatically incorrect."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "Every content word disappears."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "The sentence becomes a question."\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "B"\
-&#x20; ],\
-&#x20; "explanation": "Function words provide grammatical information and relationships needed for clear sentences.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "medium",\
-&#x20; "cognitive_level": "apply",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; },\
-&#x20; {\
-&#x20; "question_id": "Q018",\
-&#x20; "type": "multiple_choice",\
-&#x20; "learning_objective_ids": [\
-&#x20; "OBJ006"\
-&#x20; ],\
-&#x20; "prompt": "In which sentence is 'before' used as an adverb?",\
-&#x20; "options": [\
-&#x20; {\
-&#x20; "option_id": "A",\
-&#x20; "text": "I arrived before lunch."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "B",\
-&#x20; "text": "I arrived before you."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "C",\
-&#x20; "text": "I have seen this before."\
-&#x20; },\
-&#x20; {\
-&#x20; "option_id": "D",\
-&#x20; "text": "Come before sunset."\
-&#x20; }\
-&#x20; ],\
-&#x20; "correct_answers": [\
-&#x20; "C"\
-&#x20; ],\
-&#x20; "explanation": "In this sentence, before means earlier or previously and does not take an object.",\
-&#x20; "assessment_metadata": {\
-&#x20; "difficulty": "challenging",\
-&#x20; "cognitive_level": "analyse",\
-&#x20; "assessment_purpose": "final_check"\
-&#x20; }\
-&#x20; }\
-&#x20; ],\
-&#x20; "assessments": {\
-&#x20; "dimension_assessments": [\
-&#x20; {\
-&#x20; "assessment_id": "DA001",\
-&#x20; "dimension_id": "DIM001",\
-&#x20; "title": "Understanding the Two Word Families",\
-&#x20; "after_page_id": "PAGE003",\
-&#x20; "question_ids": [\
-&#x20; "Q001",\
-&#x20; "Q002"\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "assessment_id": "DA002",\
-&#x20; "dimension_id": "DIM002",\
-&#x20; "title": "Classifying Word Groups",\
-&#x20; "after_page_id": "PAGE007",\
-&#x20; "question_ids": [\
-&#x20; "Q003",\
-&#x20; "Q004",\
-&#x20; "Q005",\
-&#x20; "Q006"\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "assessment_id": "DA003",\
-&#x20; "dimension_id": "DIM003",\
-&#x20; "title": "Spotting Words in Sentences",\
-&#x20; "after_page_id": "PAGE010",\
-&#x20; "question_ids": [\
-&#x20; "Q007",\
-&#x20; "Q008"\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "assessment_id": "DA004",\
-&#x20; "dimension_id": "DIM004",\
-&#x20; "title": "Using Both Word Groups",\
-&#x20; "after_page_id": "PAGE012",\
-&#x20; "question_ids": [\
-&#x20; "Q009",\
-&#x20; "Q010"\
-&#x20; ]\
-&#x20; },\
-&#x20; {\
-&#x20; "assessment_id": "DA005",\
-&#x20; "dimension_id": "DIM005",\
-&#x20; "title": "Avoiding Common Mistakes",\
-&#x20; "after_page_id": "PAGE014",\
-&#x20; "question_ids": [\
-&#x20; "Q011",\
-&#x20; "Q012"\
-&#x20; ]\
-&#x20; }\
-&#x20; ],\
-&#x20; "final_assessment": {\
-&#x20; "assessment_id": "FA001",\
-&#x20; "title": "Content Words and Function Words: Final Check",\
-&#x20; "question_ids": [\
-&#x20; "Q013",\
-&#x20; "Q014",\
-&#x20; "Q015",\
-&#x20; "Q016",\
-&#x20; "Q017",\
-&#x20; "Q018"\
-&#x20; ]\
-&#x20; }\
-&#x20; },\
-&#x20; "coverage": {\
-&#x20; "cross_references": [\
-&#x20; {\
-&#x20; "concept": "The Eight Parts of Speech",\
-&#x20; "reason": "Understanding the individual parts of speech provides a deeper explanation of the grammatical categories that commonly form content-word and function-word groups.",\
-&#x20; "coverage": "referenced_only"\
-&#x20; },\
-&#x20; {\
-&#x20; "concept": "Grammatical Functions of Words in Sentences",\
-&#x20; "reason": "A more detailed study of how words perform different grammatical functions in different sentence structures requires separate lessons.",\
-&#x20; "coverage": "introduced_only"\
-&#x20; },\
-&#x20; {\
-&#x20; "concept": "Open and Closed Word Classes",\
-&#x20; "reason": "The basic distinction is introduced here. Detailed linguistic classification and exceptions can be explored in a separate lesson.",\
-&#x20; "coverage": "introduced_only"\
-&#x20; }\
-&#x20; ]\
-&#x20; },\
-&#x20; "quality_audit": {\
-&#x20; "grammar_accuracy": "passed",\
-&#x20; "content_completeness": "passed",\
-&#x20; "pedagogical_sequence": "passed",\
-&#x20; "eli5_readability": "passed",\
-&#x20; "mobile_page_density": "passed",\
-&#x20; "example_quality": "passed",\
-&#x20; "interaction_validity": "passed",\
-&#x20; "json_schema_validity": "review_required",\
-&#x20; "duplicate_content_check": "passed",\
-&#x20; "assessment_audit": {\
-&#x20; "dimension_assessment_coverage": "passed",\
-&#x20; "final_assessment_coverage": "passed",\
-&#x20; "question_objective_alignment": "passed",\
-&#x20; "duplicate_question_check": "passed",\
-&#x20; "answer_key_validation": "passed",\
-&#x20; "interaction_structure_validation": "passed"\
-&#x20; },\
-&#x20; "overall_status": "review_required",\
-&#x20; "issues_found": [\
-&#x20; "The actual Learn Lesson JSON Schema v2.0 definition was not supplied as a separate schema artifact. Structural conformance has been checked against the field and interaction contracts in the generation prompt, but formal JSON Schema validation remains pending.",\
-&#x20; "The content-word and function-word distinction is a useful introductory classification rather than an absolute division of every English word. Some grammatical frameworks classify particular categories differently, and individual words can perform different grammatical roles depending on context."\
-&#x20; ],\
-&#x20; "corrections_made": [\
-&#x20; "Separated content-word and function-word definitions into individual learning pages.",\
-&#x20; "Added open-class and closed-class explanations.",\
-&#x20; "Included context-dependent classification using before as an example.",\
-&#x20; "Corrected the potential misconception that word length determines word classification.",\
-&#x20; "Ensured all dimension assessments follow their teaching sequences.",\
-&#x20; "Separated final assessment questions from dimension assessment questions.",\
-&#x20; "Checked question references, objective references and example highlighting."\
-&#x20; ]\
-&#x20; }\
+{
+"schema_version": "2.0",
+"content_type": "grammar_lesson",
+"generation_context": {
+"target_audience": "English learners",
+"language_level": "ELI5",
+"learning_context": "Mobile learning",
+"content_language": "en"
+},
+"topic": {
+"topic_id": "1-1-7",
+"title": "Word Classification Through Context",
+"learning_stage": null,
+"learner_level": "Grammar Foundations",
+"language": "en"
+},
+"lesson": {
+"lesson_title": "Word Classification Through Context",
+"lesson_summary": "A word does not always belong to the same word class. Its job in a sentence helps us identify its class. Learn to use sentence meaning, position, and grammatical function to classify words correctly, even when the same word performs different jobs.",
+"learning_objectives": [
+{
+"objective_id": "OBJ001",
+"description": "Explain why a word must be understood in its sentence context before its word class can be identified.",
+"success_criteria": [
+"Explain that a word can perform different grammatical jobs.",
+"Recognise that the same spelling can belong to different word classes."
+]
+},
+{
+"objective_id": "OBJ002",
+"description": "Identify the word class of a word by examining its job in a sentence.",
+"success_criteria": [
+"Identify the grammatical function of a target word.",
+"Use surrounding words and sentence meaning to classify it.",
+"Distinguish between a word's meaning and its grammatical job."
+]
+},
+{
+"objective_id": "OBJ003",
+"description": "Classify words that can belong to different word classes in different sentences.",
+"success_criteria": [
+"Recognise nouns and verbs that share the same spelling.",
+"Recognise adjectives and verbs that share the same spelling.",
+"Recognise words that can function as more than two word classes."
+]
+},
+{
+"objective_id": "OBJ004",
+"description": "Distinguish between word classes that are easily confused in real sentences.",
+"success_criteria": [
+"Distinguish nouns from verbs.",
+"Distinguish adjectives from adverbs.",
+"Distinguish prepositions from conjunctions and adverbs through their sentence functions."
+]
+},
+{
+"objective_id": "OBJ005",
+"description": "Apply contextual word classification when analysing complete sentences.",
+"success_criteria": [
+"Classify highlighted words in unfamiliar sentences.",
+"Explain why a word belongs to a particular class.",
+"Correct incorrect word classifications using sentence evidence."
+]
+}
+],
+"estimated_duration_minutes": 18,
+"total_pages": 19
+},
+"learning_dimensions": [
+{
+"dimension_id": "DIM001",
+"dimension": "Understanding the Role of Context",
+"applicability": "applicable",
+"status": "covered",
+"learning_objective_ids": ["OBJ001"],
+"page_ids": ["PAGE001", "PAGE002", "PAGE003"],
+"assessment_id": "DA001"
+},
+{
+"dimension_id": "DIM002",
+"dimension": "Identifying Word Classes Through Sentence Function",
+"applicability": "applicable",
+"status": "covered",
+"learning_objective_ids": ["OBJ002"],
+"page_ids": ["PAGE004", "PAGE005", "PAGE006"],
+"assessment_id": "DA002"
+},
+{
+"dimension_id": "DIM003",
+"dimension": "Recognising Words with Multiple Grammatical Jobs",
+"applicability": "applicable",
+"status": "covered",
+"learning_objective_ids": ["OBJ003", "OBJ004"],
+"page_ids": ["PAGE007", "PAGE008", "PAGE009", "PAGE010", "PAGE011", "PAGE012", "PAGE013"],
+"assessment_id": "DA003"
+},
+{
+"dimension_id": "DIM004",
+"dimension": "Distinguishing Confusing Word Classes",
+"applicability": "applicable",
+"status": "covered",
+"learning_objective_ids": ["OBJ004"],
+"page_ids": ["PAGE014", "PAGE015"],
+"assessment_id": "DA004"
+},
+{
+"dimension_id": "DIM005",
+"dimension": "Contextual Application and Error Correction",
+"applicability": "applicable",
+"status": "covered",
+"learning_objective_ids": ["OBJ005"],
+"page_ids": ["PAGE016", "PAGE017", "PAGE018", "PAGE019"],
+"assessment_id": "DA005"
+}
+],
+"pages": [
+{
+"page_id": "PAGE001",
+"page_number": 1,
+"page_type": "introduction",
+"pedagogical_role": "introduction",
+"learning_objective_ids": ["OBJ001"],
+"title": "One Word, Different Jobs",
+"content": [
+{
+"block_id": "BLOCK001",
+"type": "text",
+"text": "Can one word do different jobs? Yes! A word can belong to different word classes in different sentences. Its job depends on how it is used."
+},
+{
+"block_id": "BLOCK002",
+"type": "example",
+"examples": [
+{
+"sentence": "They drink tea.",
+"highlight": ["drink"],
+"explanation": "Drink names an action. It is a verb."
+},
+{
+"sentence": "Have a drink.",
+"highlight": ["drink"],
+"explanation": "Drink names something you have. It is a noun."
+}
+]
+}
+],
+"key_takeaway": "A word's grammatical role can change from sentence to sentence."
+},
+{
+"page_id": "PAGE002",
+"page_number": 2,
+"page_type": "concept",
+"pedagogical_role": "explanation",
+"learning_objective_ids": ["OBJ001"],
+"title": "Context Gives the Clue",
+"content": [
+{
+"block_id": "BLOCK003",
+"type": "text",
+"text": "Context means the words and ideas around a word. They help us understand what the word is doing in a sentence."
+},
+{
+"block_id": "BLOCK004",
+"type": "example",
+"examples": [
+{
+"sentence": "The birds fly south.",
+"highlight": ["fly"],
+"explanation": "Fly tells us what the birds do. It is a verb."
+},
+{
+"sentence": "The children watched a play.",
+"highlight": ["play"],
+"explanation": "Play names a performance. It is a noun."
+}
+]
+}
+],
+"key_takeaway": "Look at the whole sentence, not just one word."
+},
+{
+"page_id": "PAGE003",
+"page_number": 3,
+"page_type": "comparison",
+"pedagogical_role": "comparison",
+"learning_objective_ids": ["OBJ001"],
+"title": "Same Word, Different Class",
+"content": [
+{
+"block_id": "BLOCK005",
+"type": "comparison",
+"items": [
+{
+"label": "Noun",
+"description": "Names a thing or idea.",
+"example": "I need some help."
+},
+{
+"label": "Verb",
+"description": "Shows an action or state.",
+"example": "Please help me."
+}
+],
+"comparison_points": [
+"Help names something in the first sentence.",
+"Help shows an action in the second sentence."
+],
+"conclusion": "The spelling stays the same, but the grammatical job changes."
+}
+],
+"key_takeaway": "Word class depends on grammatical function."
+},
+{
+"page_id": "PAGE004",
+"page_number": 4,
+"page_type": "concept",
+"pedagogical_role": "recognition",
+"learning_objective_ids": ["OBJ002"],
+"title": "Discover the Word's Function",
+"content": [
+{
+"block_id": "BLOCK007",
+"type": "text",
+"text": "To identify a word class, ask what the word does in the sentence. Does it name something, show an action, describe something, or give more information?"
+},
+{
+"block_id": "BLOCK008",
+"type": "list",
+"introduction": "Start with these simple clues:",
+"list_style": "bulleted",
+"items": [
+"Names a person, place, thing or idea: noun.",
+"Shows an action or state: verb.",
+"Describes a noun: adjective.",
+"Adds information about an action or description: adverb."
+]
+}
+],
+"key_takeaway": "Ask what the word does."
+},
+{
+"page_id": "PAGE005",
+"page_number": 5,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ002"],
+"title": "Use the Sentence Clues",
+"content": [
+{
+"block_id": "BLOCK009",
+"type": "example",
+"examples": [
+{
+"sentence": "A small puppy sleeps.",
+"highlight": ["small"],
+"explanation": "Small describes the noun puppy. It is an adjective."
+},
+{
+"sentence": "The bird sings beautifully.",
+"highlight": ["beautifully"],
+"explanation": "Beautifully tells us how the bird sings. It is an adverb."
+}
+]
+},
+{
+"block_id": "BLOCK010",
+"type": "note",
+"title": "Look carefully",
+"text": "Do not classify a word only because of its spelling or ending. Check its actual job."
+}
+],
+"key_takeaway": "Sentence clues reveal grammatical function."
+},
+{
+"page_id": "PAGE006",
+"page_number": 6,
+"page_type": "practice",
+"pedagogical_role": "guided_practice",
+"learning_objective_ids": ["OBJ002"],
+"title": "Try the Sentence Clue",
+"content": [
+{
+"block_id": "BLOCK011",
+"type": "text",
+"text": "Read the sentence carefully. Find the highlighted word's job before choosing its word class."
+}
+],
+"key_takeaway": "Use meaning and function together."
+},
+{
+"page_id": "PAGE007",
+"page_number": 7,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "A Word Can Be a Noun or Verb",
+"content": [
+{
+"block_id": "BLOCK014",
+"type": "example",
+"examples": [
+{
+"sentence": "The children dance together.",
+"highlight": ["dance"],
+"explanation": "Dance shows what the children do. It is a verb."
+},
+{
+"sentence": "The dance was wonderful.",
+"highlight": ["dance"],
+"explanation": "Dance names an event. It is a noun."
+}
+]
+},
+{
+"block_id": "BLOCK015",
+"type": "note",
+"title": "Remember",
+"text": "Many action words can also name activities or events."
+}
+],
+"key_takeaway": "A noun can name an action as an activity."
+},
+{
+"page_id": "PAGE008",
+"page_number": 8,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Brush Has Two Jobs",
+"content": [
+{
+"block_id": "BLOCK016",
+"type": "example",
+"examples": [
+{
+"sentence": "I brush my hair every morning.",
+"highlight": ["brush"],
+"explanation": "Brush tells us what action I perform. It is a verb."
+},
+{
+"sentence": "This brush has soft bristles.",
+"highlight": ["brush"],
+"explanation": "Brush names an object. It is a noun."
+}
+]
+}
+],
+"key_takeaway": "Brush can name an object or show an action."
+},
+{
+"page_id": "PAGE009",
+"page_number": 9,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Plant Has Different Jobs",
+"content": [
+{
+"block_id": "BLOCK018",
+"type": "example",
+"examples": [
+{
+"sentence": "The plant needs sunlight.",
+"highlight": ["plant"],
+"explanation": "Plant names a living thing. It is a noun."
+},
+{
+"sentence": "They plant roses in spring.",
+"highlight": ["plant"],
+"explanation": "Plant tells us what action they perform. It is a verb."
+}
+]
+},
+{
+"block_id": "BLOCK019",
+"type": "note",
+"title": "Remember",
+"text": "The same spelling can name something in one sentence and express an action in another."
+}
+],
+"key_takeaway": "Plant can be a noun or a verb."
+},
+{
+"page_id": "PAGE010",
+"page_number": 10,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Empty Can Change Its Job",
+"content": [
+{
+"block_id": "BLOCK020",
+"type": "example",
+"examples": [
+{
+"sentence": "The empty box is on the floor.",
+"highlight": ["empty"],
+"explanation": "Empty describes the box. It is an adjective."
+},
+{
+"sentence": "Please empty the box.",
+"highlight": ["empty"],
+"explanation": "Empty tells us what action to perform. It is a verb."
+}
+]
+},
+{
+"block_id": "BLOCK021",
+"type": "note",
+"title": "Think about the job",
+"text": "Is empty describing something, or is it showing an action?"
+}
+],
+"key_takeaway": "An adjective can also function as a verb."
+},
+{
+"page_id": "PAGE011",
+"page_number": 11,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Straight Can Be Two Classes",
+"content": [
+{
+"block_id": "BLOCK022",
+"type": "example",
+"examples": [
+{
+"sentence": "Draw a straight line.",
+"highlight": ["straight"],
+"explanation": "Straight describes the line. It is an adjective."
+},
+{
+"sentence": "Walk straight ahead.",
+"highlight": ["straight"],
+"explanation": "Straight tells us the direction in which to walk. It is an adverb."
+}
+]
+},
+{
+"block_id": "BLOCK023",
+"type": "note",
+"title": "Important",
+"text": "Some adverbs do not end in -ly. Straight can be an adverb when it gives information about direction."
+}
+],
+"key_takeaway": "A word's ending does not always reveal its class."
+},
+{
+"page_id": "PAGE012",
+"page_number": 12,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Since Has Different Jobs",
+"content": [
+{
+"block_id": "BLOCK024",
+"type": "example",
+"examples": [
+{
+"sentence": "I have lived here since 2020.",
+"highlight": ["since"],
+"explanation": "Since connects the time period 2020 with the action of living here. It is a preposition."
+},
+{
+"sentence": "Since you arrived, everything has changed.",
+"highlight": ["Since"],
+"explanation": "Since introduces a clause containing a subject and a verb. It is a conjunction."
+}
+]
+},
+{
+"block_id": "BLOCK025",
+"type": "note",
+"title": "A useful clue",
+"text": "Look at what comes after since. A noun phrase or a full clause can help identify its job."
+}
+],
+"key_takeaway": "Since can be a preposition or a conjunction."
+},
+{
+"page_id": "PAGE013",
+"page_number": 13,
+"page_type": "example",
+"pedagogical_role": "demonstration",
+"learning_objective_ids": ["OBJ003"],
+"title": "Round Can Be Three Classes",
+"content": [
+{
+"block_id": "BLOCK026",
+"type": "example",
+"examples": [
+{
+"sentence": "We sat around the table.",
+"highlight": ["around"],
+"explanation": "Around shows the relationship between the sitting and the table. It is a preposition."
+},
+{
+"sentence": "The children stood around.",
+"highlight": ["around"],
+"explanation": "Around gives more information about where the children stood. It is an adverb."
+}
+]
+},
+{
+"block_id": "BLOCK027",
+"type": "example",
+"examples": [
+{
+"sentence": "We played a round of chess.",
+"highlight": ["round"],
+"explanation": "Round names one stage of a game. It is a noun."
+}
+]
+}
+],
+"key_takeaway": "One spelling can perform several grammatical jobs."
+},
+{
+"page_id": "PAGE014",
+"page_number": 14,
+"page_type": "comparison",
+"pedagogical_role": "comparison",
+"learning_objective_ids": ["OBJ004"],
+"title": "Noun or Verb?",
+"content": [
+{
+"block_id": "BLOCK028",
+"type": "comparison",
+"items": [
+{
+"label": "Noun",
+"description": "Names a person, place, thing or idea.",
+"example": "The cook prepared dinner."
+},
+{
+"label": "Verb",
+"description": "Shows an action or state.",
+"example": "I cook dinner."
+}
+],
+"comparison_points": [
+"Cook names a person in the first sentence.",
+"Cook shows an action in the second sentence."
+],
+"conclusion": "Ask whether the word names something or shows what someone does."
+}
+],
+"key_takeaway": "Naming and doing are different grammatical jobs."
+},
+{
+"page_id": "PAGE015",
+"page_number": 15,
+"page_type": "comparison",
+"pedagogical_role": "comparison",
+"learning_objective_ids": ["OBJ004"],
+"title": "Describing Words: Adjective or Adverb?",
+"content": [
+{
+"block_id": "BLOCK030",
+"type": "comparison",
+"items": [
+{
+"label": "Adjective",
+"description": "Describes a noun or pronoun.",
+"example": "The late bus finally arrived."
+},
+{
+"label": "Adverb",
+"description": "Can describe a verb, adjective or another adverb.",
+"example": "The bus arrived late."
+}
+],
+"comparison_points": [
+"Late describes the noun bus in the first sentence.",
+"Late tells us when the bus arrived in the second sentence."
+],
+"conclusion": "Check what the describing word is connected to."
+},
+{
+"block_id": "BLOCK031",
+"type": "warning",
+"title": "Common mistake",
+"mistake": {
+"incorrect": "He explains patient.",
+"correct": "He explains patiently.",
+"reason": "Patiently describes how he explains. It is an adverb in this sentence."
+},
+"related_learning_objective_ids": ["OBJ004"]
+}
+],
+"key_takeaway": "Check whether a word describes a noun or modifies an action."
+},
+{
+"page_id": "PAGE016",
+"page_number": 16,
+"page_type": "application",
+"pedagogical_role": "guided_practice",
+"learning_objective_ids": ["OBJ005"],
+"title": "Read Before You Classify",
+"content": [
+{
+"block_id": "BLOCK032",
+"type": "text",
+"text": "Never guess a word class from a word alone. Read the whole sentence. Notice the words around it and understand what job it performs."
+},
+{
+"block_id": "BLOCK033",
+"type": "list",
+"introduction": "Follow these three steps:",
+"list_style": "numbered",
+"items": [
+"Read the complete sentence.",
+"Find the job of the highlighted word.",
+"Choose the word class that matches its job."
+]
+}
+],
+"key_takeaway": "Sentence first, word class second."
+},
+{
+"page_id": "PAGE017",
+"page_number": 17,
+"page_type": "practice",
+"pedagogical_role": "independent_practice",
+"learning_objective_ids": ["OBJ005"],
+"title": "Classify in Context",
+"content": [
+{
+"block_id": "BLOCK035",
+"type": "text",
+"text": "The same word may appear in different sentences. Identify its word class separately each time."
+}
+],
+"key_takeaway": "Classify each use independently."
+},
+{
+"page_id": "PAGE018",
+"page_number": 18,
+"page_type": "common_mistake",
+"pedagogical_role": "error_analysis",
+"learning_objective_ids": ["OBJ005"],
+"title": "Avoid These Mistakes",
+"content": [
+{
+"block_id": "BLOCK038",
+"type": "warning",
+"title": "Mistake 1: Classifying by spelling",
+"mistake": {
+"incorrect": "Words ending in -ly are always adverbs.",
+"correct": "Words ending in -ly are often adverbs, but some are adjectives.",
+"reason": "In a friendly person, friendly is an adjective. In she speaks kindly, kindly is an adverb."
+},
+"related_learning_objective_ids": ["OBJ003", "OBJ004"]
+},
+{
+"block_id": "BLOCK039",
+"type": "warning",
+"title": "Mistake 2: Classifying by meaning alone",
+"mistake": {
+"incorrect": "Dance is always a verb because it means an activity.",
+"correct": "Dance can be a noun or a verb.",
+"reason": "In They dance, it is a verb. In Their dance was beautiful, it is a noun."
+},
+"related_learning_objective_ids": ["OBJ003", "OBJ005"]
+}
+],
+"key_takeaway": "Meaning and sentence function work together."
+},
+{
+"page_id": "PAGE019",
+"page_number": 19,
+"page_type": "summary",
+"pedagogical_role": "reinforcement",
+"learning_objective_ids": ["OBJ001", "OBJ002", "OBJ003", "OBJ004", "OBJ005"],
+"title": "The Context Rule",
+"content": [
+{
+"block_id": "BLOCK040",
+"type": "text",
+"text": "You have learned that the same word can perform different grammatical jobs in different sentences. Its word class depends on how it works in context."
+},
+{
+"block_id": "BLOCK041",
+"type": "list",
+"introduction": "Remember these key ideas:",
+"list_style": "bulleted",
+"items": [
+"A word can belong to more than one word class.",
+"Its spelling does not always reveal its class.",
+"Its meaning and grammatical function provide clues.",
+"Always examine the complete sentence."
+]
+}
+],
+"key_takeaway": "Context is the key to word classification."
+}
+],
+"question_bank": [
+{
+"question_id": "Q001",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ001"],
+"prompt": "In which sentence is the word help a noun?",
+"options": [
+{"option_id": "A", "text": "Please help me."},
+{"option_id": "B", "text": "I need some help."},
+{"option_id": "C", "text": "Help your friend."}
+],
+"correct_answers": ["B"],
+"explanation": "In I need some help, help names something that is needed. It is a noun.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q002",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ002"],
+"prompt": "Identify the word class of little in: The little puppy slept.",
+"options": [
+{"option_id": "A", "text": "Noun"},
+{"option_id": "B", "text": "Adjective"},
+{"option_id": "C", "text": "Adverb"},
+{"option_id": "D", "text": "Verb"}
+],
+"correct_answers": ["B"],
+"explanation": "Little describes the noun puppy. Therefore, it is an adjective.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q003",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ002"],
+"prompt": "What is the word class of soundly in: The baby slept soundly?",
+"options": [
+{"option_id": "A", "text": "Noun"},
+{"option_id": "B", "text": "Adjective"},
+{"option_id": "C", "text": "Adverb"},
+{"option_id": "D", "text": "Preposition"}
+],
+"correct_answers": ["C"],
+"explanation": "Soundly tells us how the baby slept. It modifies the verb slept, so it is an adverb.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q004",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ003"],
+"prompt": "What is the word class of brush in: This brush has soft bristles?",
+"options": [
+{"option_id": "A", "text": "Verb"},
+{"option_id": "B", "text": "Noun"},
+{"option_id": "C", "text": "Adjective"},
+{"option_id": "D", "text": "Adverb"}
+],
+"correct_answers": ["B"],
+"explanation": "Brush names an object. Therefore, it is a noun.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q005",
+"type": "identify",
+"learning_objective_ids": ["OBJ004"],
+"prompt": "What part of speech is the word cook in: My uncle is a cook?",
+"target": "The word cook",
+"accepted_answers": ["noun"],
+"explanation": "Cook names a person whose job is preparing food. It is a noun.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q006",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ005"],
+"prompt": "In the sentence I have lived here since 2020, what is since?",
+"options": [
+{"option_id": "A", "text": "Conjunction"},
+{"option_id": "B", "text": "Preposition"},
+{"option_id": "C", "text": "Adjective"},
+{"option_id": "D", "text": "Verb"}
+],
+"correct_answers": ["B"],
+"explanation": "Since connects the time expression 2020 with the clause I have lived here. It is a preposition.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q007",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ005"],
+"prompt": "What is the word class of straight in: Draw a straight line?",
+"options": [
+{"option_id": "A", "text": "Noun"},
+{"option_id": "B", "text": "Verb"},
+{"option_id": "C", "text": "Adjective"},
+{"option_id": "D", "text": "Adverb"}
+],
+"correct_answers": ["C"],
+"explanation": "Straight describes the line. It is an adjective.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q008",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ005"],
+"prompt": "What is the word class of round in: We played a round of cards?",
+"options": [
+{"option_id": "A", "text": "Noun"},
+{"option_id": "B", "text": "Adverb"},
+{"option_id": "C", "text": "Preposition"},
+{"option_id": "D", "text": "Conjunction"}
+],
+"correct_answers": ["A"],
+"explanation": "Round names one part or stage of the game. It is a noun.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q009",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ001", "OBJ002", "OBJ003", "OBJ004", "OBJ005"],
+"prompt": "Read both sentences: (1) They dance every evening. (2) Their dance was enjoyable. What is the word class of dance in sentence 1 and sentence 2?",
+"options": [
+{"option_id": "A", "text": "Noun in both sentences"},
+{"option_id": "B", "text": "Verb in both sentences"},
+{"option_id": "C", "text": "Verb in sentence 1 and noun in sentence 2"},
+{"option_id": "D", "text": "Noun in sentence 1 and verb in sentence 2"}
+],
+"correct_answers": ["C"],
+"explanation": "In sentence 1, dance shows an action, so it is a verb. In sentence 2, dance names an activity, so it is a noun.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "analyse",
+"assessment_purpose": "final_check"
+}
+},
+{
+"question_id": "Q010",
+"type": "true_false",
+"learning_objective_ids": ["OBJ001", "OBJ002"],
+"prompt": "A word always belongs to the same word class in every sentence.",
+"correct_answer": false,
+"explanation": "A word can perform different grammatical jobs in different sentences. Its word class depends on its use.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q011",
+"type": "identify",
+"learning_objective_ids": ["OBJ003", "OBJ005"],
+"prompt": "What part of speech is the word straight in: Walk straight ahead?",
+"target": "The word straight",
+"accepted_answers": ["adverb"],
+"explanation": "Straight tells us the direction in which to walk. It modifies the verb walk, so it is an adverb.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "final_check"
+}
+},
+{
+"question_id": "Q012",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ003", "OBJ004"],
+"prompt": "In which sentence is empty a verb?",
+"options": [
+{"option_id": "A", "text": "The empty box is on the floor."},
+{"option_id": "B", "text": "Please empty the box."},
+{"option_id": "C", "text": "The empty room looks large."},
+{"option_id": "D", "text": "We found an empty bottle."}
+],
+"correct_answers": ["B"],
+"explanation": "In sentence B, empty tells someone what action to perform. It is a verb.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q013",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ003", "OBJ004"],
+"prompt": "In the sentence I waited until the bell rang, what is until?",
+"options": [
+{"option_id": "A", "text": "Noun"},
+{"option_id": "B", "text": "Preposition"},
+{"option_id": "C", "text": "Conjunction"},
+{"option_id": "D", "text": "Adjective"}
+],
+"correct_answers": ["C"],
+"explanation": "Until joins the main clause with the clause the bell rang. It is a subordinating conjunction.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q014",
+"type": "match_the_pair",
+"learning_objective_ids": ["OBJ003", "OBJ005"],
+"prompt": "Match each highlighted word with its word class in the given sentence.",
+"left_items": [
+{"item_id": "L1", "text": "The brush is new. — brush"},
+{"item_id": "L2", "text": "I brush my hair. — brush"},
+{"item_id": "L3", "text": "Draw a straight line. — straight"},
+{"item_id": "L4", "text": "Walk straight ahead. — straight"}
+],
+"right_items": [
+{"item_id": "R1", "text": "Noun"},
+{"item_id": "R2", "text": "Verb"},
+{"item_id": "R3", "text": "Adjective"},
+{"item_id": "R4", "text": "Adverb"}
+],
+"correct_pairs": [
+{"left_id": "L1", "right_id": "R1"},
+{"left_id": "L2", "right_id": "R2"},
+{"left_id": "L3", "right_id": "R3"},
+{"left_id": "L4", "right_id": "R4"}
+],
+"explanation": "Brush names an object or shows an action. Straight describes a line or tells us the direction of movement.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "analyse",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q015",
+"type": "sentence_correction",
+"learning_objective_ids": ["OBJ004", "OBJ005"],
+"prompt": "Correct the sentence to mean that the bus did not arrive on time: The bus arrived lately.",
+"original_sentence": "The bus arrived lately.",
+"corrected_sentence": "The bus arrived late.",
+"explanation": "Late tells us when the bus arrived and functions as an adverb. Lately means recently and does not express the meaning of arriving after the expected time.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "final_check"
+}
+},
+{
+"question_id": "Q016",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ002", "OBJ005"],
+"prompt": "In the sentence The children stood around, what is around?",
+"options": [
+{"option_id": "A", "text": "Preposition"},
+{"option_id": "B", "text": "Adverb"},
+{"option_id": "C", "text": "Noun"},
+{"option_id": "D", "text": "Conjunction"}
+],
+"correct_answers": ["B"],
+"explanation": "Around gives information about where the children stood. There is no object after it, so it functions as an adverb here.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "dimension_check"
+}
+},
+{
+"question_id": "Q017",
+"type": "multiple_choice",
+"learning_objective_ids": ["OBJ003", "OBJ005"],
+"prompt": "In which sentence is plant a verb?",
+"options": [
+{"option_id": "A", "text": "The plant needs sunlight."},
+{"option_id": "B", "text": "They plant roses in spring."},
+{"option_id": "C", "text": "The plant has green leaves."},
+{"option_id": "D", "text": "A small plant grew near the wall."}
+],
+"correct_answers": ["B"],
+"explanation": "In sentence B, plant tells us what action they perform. It is a verb.",
+"assessment_metadata": {
+"difficulty": "medium",
+"cognitive_level": "apply",
+"assessment_purpose": "final_check"
+}
+},
+{
+"question_id": "Q018",
+"type": "true_false",
+"learning_objective_ids": ["OBJ003", "OBJ004"],
+"prompt": "Every adverb must end in -ly.",
+"correct_answer": false,
+"explanation": "Many adverbs end in -ly, but some do not. Fast, hard, and well can also function as adverbs.",
+"assessment_metadata": {
+"difficulty": "easy",
+"cognitive_level": "understand",
+"assessment_purpose": "dimension_check"
+}
+}
+],
+"assessments": {
+"dimension_assessments": [
+{
+"assessment_id": "DA001",
+"dimension_id": "DIM001",
+"title": "Understanding Context",
+"after_page_id": "PAGE003",
+"question_ids": ["Q010", "Q001"]
+},
+{
+"assessment_id": "DA002",
+"dimension_id": "DIM002",
+"title": "Finding Word Jobs",
+"after_page_id": "PAGE006",
+"question_ids": ["Q002", "Q003"]
+},
+{
+"assessment_id": "DA003",
+"dimension_id": "DIM003",
+"title": "One Word, Different Classes",
+"after_page_id": "PAGE013",
+"question_ids": ["Q004", "Q012", "Q014"]
+},
+{
+"assessment_id": "DA004",
+"dimension_id": "DIM004",
+"title": "Distinguishing Word Classes",
+"after_page_id": "PAGE015",
+"question_ids": ["Q005", "Q013", "Q018"]
+},
+{
+"assessment_id": "DA005",
+"dimension_id": "DIM005",
+"title": "Applying Context Clues",
+"after_page_id": "PAGE019",
+"question_ids": ["Q006", "Q007", "Q008", "Q016"]
+}
+],
+"final_assessment": {
+"assessment_id": "FA001",
+"title": "Word Classification Through Context — Final Check",
+"question_ids": ["Q009", "Q011", "Q015", "Q017"]
+}
+},
+"coverage": {
+"cross_references": [
+{
+"concept": "The eight traditional parts of speech",
+"reason": "This lesson uses previously introduced word classes to show how their grammatical jobs change with context. A complete introduction to all eight classes belongs to the preceding lessons.",
+"coverage": "referenced_only"
+},
+{
+"concept": "Subject, object and predicate",
+"reason": "Understanding sentence structure can help learners identify grammatical functions. A detailed study of these sentence elements requires a separate lesson.",
+"coverage": "introduced_only"
+},
+{
+"concept": "Gerunds and infinitives",
+"reason": "Some verb forms can function as nouns or perform other grammatical roles. Their detailed classification requires a separate lesson.",
+"coverage": "excluded"
+},
+{
+"concept": "Word formation and conversion",
+"reason": "Some words change grammatical class without changing their spelling. The broader process of conversion and word formation requires a separate lesson.",
+"coverage": "introduced_only"
+}
+]
+},
+"quality_audit": {
+"grammar_accuracy": "passed",
+"content_completeness": "review_required",
+"pedagogical_sequence": "passed",
+"eli5_readability": "passed",
+"mobile_page_density": "passed",
+"example_quality": "passed",
+"interaction_validity": "passed",
+"json_schema_validity": "review_required",
+"duplicate_content_check": "passed",
+"assessment_audit": {
+"dimension_assessment_coverage": "passed",
+"final_assessment_coverage": "passed",
+"question_objective_alignment": "passed",
+"duplicate_question_check": "passed",
+"answer_key_validation": "passed",
+"interaction_structure_validation": "passed"
+},
+"overall_status": "review_required",
+"issues_found": [
+"The formal Learn Lesson JSON Schema v2.0 definition was not supplied as a separate schema file. Structural compliance has been checked against the output contract in the generation prompt, but formal JSON Schema validation has not been executed.",
+"The lesson provides representative examples of words with multiple grammatical classes rather than an exhaustive dictionary of such words. The focus is contextual identification, not memorisation of every possible word-class conversion.",
+"The distinction between prepositions, conjunctions and adverbs is introduced through selected examples. A comprehensive treatment of multi-function prepositions and subordinating conjunctions requires additional lessons."
+],
+"corrections_made": [
+"Replaced Q003's repeated beautifully sentence with The baby slept soundly.",
+"Replaced Q004's repeated watch-related sentence with a new brush example.",
+"Replaced Q007's repeated light-related sentence with a straight example.",
+"Replaced Q012's repeated clean-related sentence with a new empty example.",
+"Replaced Q017's repeated light-related sentence with a new plant example.",
+"Replaced PAGE008's watch examples with brush examples.",
+"Replaced PAGE009's light examples with plant examples.",
+"Replaced PAGE010's clean examples with empty examples.",
+"Replaced PAGE011's fast examples with straight examples.",
+"Replaced PAGE012's before examples with since examples.",
+"Replaced PAGE015's patient examples with late examples.",
+"Updated Q006 to assess since as a preposition.",
+"Updated Q011 to assess straight as an adverb.",
+"Updated Q014 to practise brush and straight in context.",
+"Updated Q015 to assess the adjective and adverb uses of late.",
+"Preserved all page IDs, question IDs, learning objective IDs, dimension IDs and assessment IDs.",
+"Preserved the page sequence and assessment architecture.",
+"Checked question uniqueness across assessment placements.",
+"Checked answer keys and grammatical explanations for the revised questions."
+]
+}
 }

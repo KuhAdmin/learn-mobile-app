@@ -1,0 +1,1594 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-1-7",
+    "title": "Word Classification Through Context",
+    "learning_stage": null,
+    "learner_level": "Grammar Foundations",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Word Classification Through Context",
+    "lesson_summary": "A word does not always belong to the same word class. Its job in a sentence helps us identify its class. Learn to use sentence meaning, position, and grammatical function to classify words correctly, even when the same word performs different jobs.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Explain why a word must be understood in its sentence context before its word class can be identified.",
+        "success_criteria": [
+          "Explain that a word can perform different grammatical jobs.",
+          "Recognise that the same spelling can belong to different word classes."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Identify the word class of a word by examining its job in a sentence.",
+        "success_criteria": [
+          "Identify the grammatical function of a target word.",
+          "Use surrounding words and sentence meaning to classify it.",
+          "Distinguish between a word's meaning and its grammatical job."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Classify words that can belong to different word classes in different sentences.",
+        "success_criteria": [
+          "Recognise nouns and verbs that share the same spelling.",
+          "Recognise adjectives and verbs that share the same spelling.",
+          "Recognise words that can function as more than two word classes."
+        ]
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Distinguish between word classes that are easily confused in real sentences.",
+        "success_criteria": [
+          "Distinguish nouns from verbs.",
+          "Distinguish adjectives from adverbs.",
+          "Distinguish prepositions from conjunctions and adverbs through their sentence functions."
+        ]
+      },
+      {
+        "objective_id": "OBJ005",
+        "description": "Apply contextual word classification when analysing complete sentences.",
+        "success_criteria": [
+          "Classify highlighted words in unfamiliar sentences.",
+          "Explain why a word belongs to a particular class.",
+          "Correct incorrect word classifications using sentence evidence."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 18,
+    "total_pages": 19
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Understanding the Role of Context",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE001",
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Identifying Word Classes Through Sentence Function",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Recognising Words with Multiple Grammatical Jobs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008",
+        "PAGE009",
+        "PAGE010",
+        "PAGE011",
+        "PAGE012",
+        "PAGE013"
+      ],
+      "assessment_id": "DA003"
+    },
+    {
+      "dimension_id": "DIM004",
+      "dimension": "Distinguishing Confusing Word Classes",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "page_ids": [
+        "PAGE014",
+        "PAGE015"
+      ],
+      "assessment_id": "DA004"
+    },
+    {
+      "dimension_id": "DIM005",
+      "dimension": "Contextual Application and Error Correction",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "page_ids": [
+        "PAGE016",
+        "PAGE017",
+        "PAGE018",
+        "PAGE019"
+      ],
+      "assessment_id": "DA005"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One Word, Different Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Can one word do different jobs? Yes! A word can belong to different word classes in different sentences. Its job depends on how it is used."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "They drink tea.",
+              "highlight": [
+                "drink"
+              ],
+              "explanation": "Drink names an action. It is a verb."
+            },
+            {
+              "sentence": "Have a drink.",
+              "highlight": [
+                "drink"
+              ],
+              "explanation": "Drink names something you have. It is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A word's grammatical role can change from sentence to sentence."
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Context Gives the Clue",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Context means the words and ideas around a word. They help us understand what the word is doing in a sentence."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The birds fly south.",
+              "highlight": [
+                "fly"
+              ],
+              "explanation": "Fly tells us what the birds do. It is a verb."
+            },
+            {
+              "sentence": "The children watched a play.",
+              "highlight": [
+                "play"
+              ],
+              "explanation": "Play names a performance. It is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Look at the whole sentence, not just one word."
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Same Word, Different Class",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Noun",
+              "description": "Names a thing or idea.",
+              "example": "I need some help."
+            },
+            {
+              "label": "Verb",
+              "description": "Shows an action or state.",
+              "example": "Please help me."
+            }
+          ],
+          "comparison_points": [
+            "Help names something in the first sentence.",
+            "Help shows an action in the second sentence."
+          ],
+          "conclusion": "The spelling stays the same, but the grammatical job changes."
+        }
+      ],
+      "key_takeaway": "Word class depends on grammatical function."
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Discover the Word's Function",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "To identify a word class, ask what the word does in the sentence. Does it name something, show an action, describe something, or give more information?"
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "Start with these simple clues:",
+          "list_style": "bulleted",
+          "items": [
+            "Names a person, place, thing or idea: noun.",
+            "Shows an action or state: verb.",
+            "Describes a noun: adjective.",
+            "Adds information about an action or description: adverb."
+          ]
+        }
+      ],
+      "key_takeaway": "Ask what the word does."
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Use the Sentence Clues",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "A small puppy sleeps.",
+              "highlight": [
+                "small"
+              ],
+              "explanation": "Small describes the noun puppy. It is an adjective."
+            },
+            {
+              "sentence": "The bird sings beautifully.",
+              "highlight": [
+                "beautifully"
+              ],
+              "explanation": "Beautifully tells us how the bird sings. It is an adverb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "note",
+          "title": "Look carefully",
+          "text": "Do not classify a word only because of its spelling or ending. Check its actual job."
+        }
+      ],
+      "key_takeaway": "Sentence clues reveal grammatical function."
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "practice",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Try the Sentence Clue",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Read the sentence carefully. Find the highlighted word's job before choosing its word class."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "question",
+          "question_id": "Q019"
+        }
+      ],
+      "key_takeaway": "Use meaning and function together."
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "A Word Can Be a Noun or Verb",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The children dance together.",
+              "highlight": [
+                "dance"
+              ],
+              "explanation": "Dance shows what the children do. It is a verb."
+            },
+            {
+              "sentence": "The dance was wonderful.",
+              "highlight": [
+                "dance"
+              ],
+              "explanation": "Dance names an event. It is a noun."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK015",
+          "type": "note",
+          "title": "Remember",
+          "text": "Many action words can also name activities or events."
+        }
+      ],
+      "key_takeaway": "A noun can name an action as an activity."
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Brush Has Two Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK016",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I brush my hair every morning.",
+              "highlight": [
+                "brush"
+              ],
+              "explanation": "Brush tells us what action I perform. It is a verb."
+            },
+            {
+              "sentence": "This brush has soft bristles.",
+              "highlight": [
+                "brush"
+              ],
+              "explanation": "Brush names an object. It is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Brush can name an object or show an action."
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Plant Has Different Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK018",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The plant needs sunlight.",
+              "highlight": [
+                "plant"
+              ],
+              "explanation": "Plant names a living thing. It is a noun."
+            },
+            {
+              "sentence": "They plant roses in spring.",
+              "highlight": [
+                "plant"
+              ],
+              "explanation": "Plant tells us what action they perform. It is a verb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK019",
+          "type": "note",
+          "title": "Remember",
+          "text": "The same spelling can name something in one sentence and express an action in another."
+        }
+      ],
+      "key_takeaway": "Plant can be a noun or a verb."
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Empty Can Change Its Job",
+      "content": [
+        {
+          "block_id": "BLOCK020",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The empty box is on the floor.",
+              "highlight": [
+                "empty"
+              ],
+              "explanation": "Empty describes the box. It is an adjective."
+            },
+            {
+              "sentence": "Please empty the box.",
+              "highlight": [
+                "empty"
+              ],
+              "explanation": "Empty tells us what action to perform. It is a verb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK021",
+          "type": "note",
+          "title": "Think about the job",
+          "text": "Is empty describing something, or is it showing an action?"
+        }
+      ],
+      "key_takeaway": "An adjective can also function as a verb."
+    },
+    {
+      "page_id": "PAGE011",
+      "page_number": 11,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Straight Can Be Two Classes",
+      "content": [
+        {
+          "block_id": "BLOCK022",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Draw a straight line.",
+              "highlight": [
+                "straight"
+              ],
+              "explanation": "Straight describes the line. It is an adjective."
+            },
+            {
+              "sentence": "Walk straight ahead.",
+              "highlight": [
+                "straight"
+              ],
+              "explanation": "Straight tells us the direction in which to walk. It is an adverb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK023",
+          "type": "note",
+          "title": "Important",
+          "text": "Some adverbs do not end in -ly. Straight can be an adverb when it gives information about direction."
+        }
+      ],
+      "key_takeaway": "A word's ending does not always reveal its class."
+    },
+    {
+      "page_id": "PAGE012",
+      "page_number": 12,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Since Has Different Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK024",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I have lived here since 2020.",
+              "highlight": [
+                "since"
+              ],
+              "explanation": "Since connects the time period 2020 with the action of living here. It is a preposition."
+            },
+            {
+              "sentence": "Since you arrived, everything has changed.",
+              "highlight": [
+                "Since"
+              ],
+              "explanation": "Since introduces a clause containing a subject and a verb. It is a conjunction."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK025",
+          "type": "note",
+          "title": "A useful clue",
+          "text": "Look at what comes after since. A noun phrase or a full clause can help identify its job."
+        }
+      ],
+      "key_takeaway": "Since can be a preposition or a conjunction."
+    },
+    {
+      "page_id": "PAGE013",
+      "page_number": 13,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Round Can Be Three Classes",
+      "content": [
+        {
+          "block_id": "BLOCK026",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We sat around the table.",
+              "highlight": [
+                "around"
+              ],
+              "explanation": "Around shows the relationship between the sitting and the table. It is a preposition."
+            },
+            {
+              "sentence": "The children stood around.",
+              "highlight": [
+                "around"
+              ],
+              "explanation": "Around gives more information about where the children stood. It is an adverb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK027",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We played a round of chess.",
+              "highlight": [
+                "round"
+              ],
+              "explanation": "Round names one stage of a game. It is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One spelling can perform several grammatical jobs."
+    },
+    {
+      "page_id": "PAGE014",
+      "page_number": 14,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Noun or Verb?",
+      "content": [
+        {
+          "block_id": "BLOCK028",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Noun",
+              "description": "Names a person, place, thing or idea.",
+              "example": "The cook prepared dinner."
+            },
+            {
+              "label": "Verb",
+              "description": "Shows an action or state.",
+              "example": "I cook dinner."
+            }
+          ],
+          "comparison_points": [
+            "Cook names a person in the first sentence.",
+            "Cook shows an action in the second sentence."
+          ],
+          "conclusion": "Ask whether the word names something or shows what someone does."
+        }
+      ],
+      "key_takeaway": "Naming and doing are different grammatical jobs."
+    },
+    {
+      "page_id": "PAGE015",
+      "page_number": 15,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Describing Words: Adjective or Adverb?",
+      "content": [
+        {
+          "block_id": "BLOCK030",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Adjective",
+              "description": "Describes a noun or pronoun.",
+              "example": "The late bus finally arrived."
+            },
+            {
+              "label": "Adverb",
+              "description": "Can describe a verb, adjective or another adverb.",
+              "example": "The bus arrived late."
+            }
+          ],
+          "comparison_points": [
+            "Late describes the noun bus in the first sentence.",
+            "Late tells us when the bus arrived in the second sentence."
+          ],
+          "conclusion": "Check what the describing word is connected to."
+        },
+        {
+          "block_id": "BLOCK031",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "He explains patient.",
+            "correct": "He explains patiently.",
+            "reason": "Patiently describes how he explains. It is an adverb in this sentence."
+          },
+          "related_learning_objective_ids": [
+            "OBJ004"
+          ]
+        }
+      ],
+      "key_takeaway": "Check whether a word describes a noun or modifies an action."
+    },
+    {
+      "page_id": "PAGE016",
+      "page_number": 16,
+      "page_type": "application",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Read Before You Classify",
+      "content": [
+        {
+          "block_id": "BLOCK032",
+          "type": "text",
+          "text": "Never guess a word class from a word alone. Read the whole sentence. Notice the words around it and understand what job it performs."
+        },
+        {
+          "block_id": "BLOCK033",
+          "type": "list",
+          "introduction": "Follow these three steps:",
+          "list_style": "numbered",
+          "items": [
+            "Read the complete sentence.",
+            "Find the job of the highlighted word.",
+            "Choose the word class that matches its job."
+          ]
+        }
+      ],
+      "key_takeaway": "Sentence first, word class second."
+    },
+    {
+      "page_id": "PAGE017",
+      "page_number": 17,
+      "page_type": "practice",
+      "pedagogical_role": "independent_practice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Classify in Context",
+      "content": [
+        {
+          "block_id": "BLOCK035",
+          "type": "text",
+          "text": "The same word may appear in different sentences. Identify its word class separately each time."
+        },
+        {
+          "block_id": "BLOCK036",
+          "type": "question",
+          "question_id": "Q007"
+        },
+        {
+          "block_id": "BLOCK037",
+          "type": "question",
+          "question_id": "Q008"
+        }
+      ],
+      "key_takeaway": "Classify each use independently."
+    },
+    {
+      "page_id": "PAGE018",
+      "page_number": 18,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Avoid These Mistakes",
+      "content": [
+        {
+          "block_id": "BLOCK038",
+          "type": "warning",
+          "title": "Mistake 1: Classifying by spelling",
+          "mistake": {
+            "incorrect": "Words ending in -ly are always adverbs.",
+            "correct": "Words ending in -ly are often adverbs, but some are adjectives.",
+            "reason": "In a friendly person, friendly is an adjective. In she speaks kindly, kindly is an adverb."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003",
+            "OBJ004"
+          ]
+        },
+        {
+          "block_id": "BLOCK039",
+          "type": "warning",
+          "title": "Mistake 2: Classifying by meaning alone",
+          "mistake": {
+            "incorrect": "Dance is always a verb because it means an activity.",
+            "correct": "Dance can be a noun or a verb.",
+            "reason": "In They dance, it is a verb. In Their dance was beautiful, it is a noun."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003",
+            "OBJ005"
+          ]
+        }
+      ],
+      "key_takeaway": "Meaning and sentence function work together."
+    },
+    {
+      "page_id": "PAGE019",
+      "page_number": 19,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003",
+        "OBJ004",
+        "OBJ005"
+      ],
+      "title": "The Context Rule",
+      "content": [
+        {
+          "block_id": "BLOCK040",
+          "type": "text",
+          "text": "You have learned that the same word can perform different grammatical jobs in different sentences. Its word class depends on how it works in context."
+        },
+        {
+          "block_id": "BLOCK041",
+          "type": "list",
+          "introduction": "Remember these key ideas:",
+          "list_style": "bulleted",
+          "items": [
+            "A word can belong to more than one word class.",
+            "Its spelling does not always reveal its class.",
+            "Its meaning and grammatical function provide clues.",
+            "Always examine the complete sentence."
+          ]
+        }
+      ],
+      "key_takeaway": "Context is the key to word classification."
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In which sentence is the word help a noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Please help me."
+        },
+        {
+          "option_id": "B",
+          "text": "I need some help."
+        },
+        {
+          "option_id": "C",
+          "text": "Help your friend."
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "In I need some help, help names something that is needed. It is a noun.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the word class of little in: The little puppy slept.",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "D",
+          "text": "Verb"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Little describes the noun puppy. Therefore, it is an adjective.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the word class of soundly in: The baby slept soundly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "D",
+          "text": "Preposition"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Soundly tells us how the baby slept. It modifies the verb slept, so it is an adverb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What is the word class of brush in: This brush has soft bristles?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Verb"
+        },
+        {
+          "option_id": "B",
+          "text": "Noun"
+        },
+        {
+          "option_id": "C",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "D",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Brush names an object. Therefore, it is a noun.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "What part of speech is the word cook in: My uncle is a cook?",
+      "target": "The word cook",
+      "accepted_answers": [
+        "noun"
+      ],
+      "explanation": "Cook names a person whose job is preparing food. It is a noun.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "In the sentence I have lived here since 2020, what is since?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "B",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "C",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "D",
+          "text": "Verb"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Since connects the time expression 2020 with the clause I have lived here. It is a preposition.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "What is the word class of straight in: Draw a straight line?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Verb"
+        },
+        {
+          "option_id": "C",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "D",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Straight describes the line. It is an adjective.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "What is the word class of round in: We played a round of cards?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "C",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "D",
+          "text": "Conjunction"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Round names one part or stage of the game. It is a noun.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003",
+        "OBJ004",
+        "OBJ005"
+      ],
+      "prompt": "Read both sentences: (1) They dance every evening. (2) Their dance was enjoyable. What is the word class of dance in sentence 1 and sentence 2?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun in both sentences"
+        },
+        {
+          "option_id": "B",
+          "text": "Verb in both sentences"
+        },
+        {
+          "option_id": "C",
+          "text": "Verb in sentence 1 and noun in sentence 2"
+        },
+        {
+          "option_id": "D",
+          "text": "Noun in sentence 1 and verb in sentence 2"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "In sentence 1, dance shows an action, so it is a verb. In sentence 2, dance names an activity, so it is a noun.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "A word always belongs to the same word class in every sentence.",
+      "correct_answer": false,
+      "explanation": "A word can perform different grammatical jobs in different sentences. Its word class depends on its use.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q011",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is the word straight in: Walk straight ahead?",
+      "target": "The word straight",
+      "accepted_answers": [
+        "adverb"
+      ],
+      "explanation": "Straight tells us the direction in which to walk. It modifies the verb walk, so it is an adverb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "prompt": "In which sentence is empty a verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The empty box is on the floor."
+        },
+        {
+          "option_id": "B",
+          "text": "Please empty the box."
+        },
+        {
+          "option_id": "C",
+          "text": "The empty room looks large."
+        },
+        {
+          "option_id": "D",
+          "text": "We found an empty bottle."
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "In sentence B, empty tells someone what action to perform. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "prompt": "In the sentence I waited until the bell rang, what is until?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "C",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "D",
+          "text": "Adjective"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Until joins the main clause with the clause the bell rang. It is a subordinating conjunction.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q014",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ005"
+      ],
+      "prompt": "Match each highlighted word with its word class in the given sentence.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "The brush is new. — brush"
+        },
+        {
+          "item_id": "L2",
+          "text": "I brush my hair. — brush"
+        },
+        {
+          "item_id": "L3",
+          "text": "Draw a straight line. — straight"
+        },
+        {
+          "item_id": "L4",
+          "text": "Walk straight ahead. — straight"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "Noun"
+        },
+        {
+          "item_id": "R2",
+          "text": "Verb"
+        },
+        {
+          "item_id": "R3",
+          "text": "Adjective"
+        },
+        {
+          "item_id": "R4",
+          "text": "Adverb"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R4"
+        }
+      ],
+      "explanation": "Brush names an object or shows an action. Straight describes a line or tells us the direction of movement.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q015",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ004",
+        "OBJ005"
+      ],
+      "prompt": "Correct the sentence to mean that the bus did not arrive on time: The bus arrived lately.",
+      "original_sentence": "The bus arrived lately.",
+      "corrected_sentence": "The bus arrived late.",
+      "explanation": "Late tells us when the bus arrived and functions as an adverb. Lately means recently and does not express the meaning of arriving after the expected time.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q016",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ005"
+      ],
+      "prompt": "In the sentence The children stood around, what is around?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "B",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "C",
+          "text": "Noun"
+        },
+        {
+          "option_id": "D",
+          "text": "Conjunction"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Around gives information about where the children stood. There is no object after it, so it functions as an adverb here.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q017",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ005"
+      ],
+      "prompt": "In which sentence is plant a verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The plant needs sunlight."
+        },
+        {
+          "option_id": "B",
+          "text": "They plant roses in spring."
+        },
+        {
+          "option_id": "C",
+          "text": "The plant has green leaves."
+        },
+        {
+          "option_id": "D",
+          "text": "A small plant grew near the wall."
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "In sentence B, plant tells us what action they perform. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q018",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "prompt": "Every adverb must end in -ly.",
+      "correct_answer": false,
+      "explanation": "Many adverbs end in -ly, but some do not. Fast, hard, and well can also function as adverbs.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q019",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the word class of sweet in: The flowers smell sweet?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Verb"
+        },
+        {
+          "option_id": "C",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "D",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Sweet describes the flowers, not the action of smelling. It is an adjective.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Understanding Context",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q010",
+          "Q001"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Finding Word Jobs",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "One Word, Different Classes",
+        "after_page_id": "PAGE013",
+        "question_ids": [
+          "Q004",
+          "Q012",
+          "Q014"
+        ]
+      },
+      {
+        "assessment_id": "DA004",
+        "dimension_id": "DIM004",
+        "title": "Distinguishing Word Classes",
+        "after_page_id": "PAGE015",
+        "question_ids": [
+          "Q005",
+          "Q013",
+          "Q018"
+        ]
+      },
+      {
+        "assessment_id": "DA005",
+        "dimension_id": "DIM005",
+        "title": "Applying Context Clues",
+        "after_page_id": "PAGE019",
+        "question_ids": [
+          "Q006",
+          "Q016"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Word Classification Through Context — Final Check",
+      "question_ids": [
+        "Q009",
+        "Q011",
+        "Q015",
+        "Q017"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The eight traditional parts of speech",
+        "reason": "This lesson uses previously introduced word classes to show how their grammatical jobs change with context. A complete introduction to all eight classes belongs to the preceding lessons.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Subject, object and predicate",
+        "reason": "Understanding sentence structure can help learners identify grammatical functions. A detailed study of these sentence elements requires a separate lesson.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Gerunds and infinitives",
+        "reason": "Some verb forms can function as nouns or perform other grammatical roles. Their detailed classification requires a separate lesson.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Word formation and conversion",
+        "reason": "Some words change grammatical class without changing their spelling. The broader process of conversion and word formation requires a separate lesson.",
+        "coverage": "introduced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "review_required",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "review_required",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "review_required",
+    "issues_found": [
+      "The formal Learn Lesson JSON Schema v2.0 definition was not supplied as a separate schema file. Structural compliance has been checked against the output contract in the generation prompt, but formal JSON Schema validation has not been executed.",
+      "The lesson provides representative examples of words with multiple grammatical classes rather than an exhaustive dictionary of such words. The focus is contextual identification, not memorisation of every possible word-class conversion.",
+      "The distinction between prepositions, conjunctions and adverbs is introduced through selected examples. A comprehensive treatment of multi-function prepositions and subordinating conjunctions requires additional lessons."
+    ],
+    "corrections_made": [
+      "Replaced Q003's repeated beautifully sentence with The baby slept soundly.",
+      "Replaced Q004's repeated watch-related sentence with a new brush example.",
+      "Replaced Q007's repeated light-related sentence with a straight example.",
+      "Replaced Q012's repeated clean-related sentence with a new empty example.",
+      "Replaced Q017's repeated light-related sentence with a new plant example.",
+      "Replaced PAGE008's watch examples with brush examples.",
+      "Replaced PAGE009's light examples with plant examples.",
+      "Replaced PAGE010's clean examples with empty examples.",
+      "Replaced PAGE011's fast examples with straight examples.",
+      "Replaced PAGE012's before examples with since examples.",
+      "Replaced PAGE015's patient examples with late examples.",
+      "Updated Q006 to assess since as a preposition.",
+      "Updated Q011 to assess straight as an adverb.",
+      "Updated Q014 to practise brush and straight in context.",
+      "Updated Q015 to assess the adjective and adverb uses of late.",
+      "Preserved all page IDs, question IDs, learning objective IDs, dimension IDs and assessment IDs.",
+      "Preserved the page sequence and assessment architecture.",
+      "Checked question uniqueness across assessment placements.",
+      "Checked answer keys and grammatical explanations for the revised questions."
+    ]
+  }
+}

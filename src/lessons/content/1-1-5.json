@@ -1,0 +1,1499 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-1-5",
+    "title": "Words Functioning as Different Parts of Speech",
+    "learning_stage": null,
+    "learner_level": "Grammar Foundations",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "One Word, Different Jobs",
+    "lesson_summary": "Learn how the same English word can do different grammatical jobs in different sentences. Discover how to identify a word's part of speech by looking at how it is used, rather than memorising only its meaning.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Understand that the same word can belong to different parts of speech depending on its use in a sentence.",
+        "success_criteria": [
+          "Explain why a word does not always have one fixed grammatical role.",
+          "Recognise that a word's function depends on its use in a sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Identify words functioning as nouns and verbs in different sentences.",
+        "success_criteria": [
+          "Identify a word used as a noun.",
+          "Identify the same word used as a verb.",
+          "Explain the difference using sentence context."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Identify words functioning as different parts of speech beyond nouns and verbs.",
+        "success_criteria": [
+          "Recognise words used as adjectives and verbs.",
+          "Recognise words used as nouns and adjectives.",
+          "Recognise words used as adjectives and adverbs."
+        ]
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Recognise words that can function as prepositions, conjunctions and adverbs.",
+        "success_criteria": [
+          "Identify the grammatical role of a word in different sentence structures.",
+          "Distinguish between different uses of the same word."
+        ]
+      },
+      {
+        "objective_id": "OBJ005",
+        "description": "Determine the part of speech of a word by examining its function in a complete sentence.",
+        "success_criteria": [
+          "Use surrounding words to identify grammatical function.",
+          "Classify a word correctly in an unfamiliar sentence.",
+          "Avoid identifying parts of speech from word meaning alone."
+        ]
+      },
+      {
+        "objective_id": "OBJ006",
+        "description": "Correct common mistakes when identifying words with multiple grammatical functions.",
+        "success_criteria": [
+          "Recognise incorrect word classifications.",
+          "Explain why a word has a particular grammatical function.",
+          "Correctly classify the same word across different sentences."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 15,
+    "total_pages": 18
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Understanding the Core Concept",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE001",
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Noun and Verb Functions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Other Parts of Speech and Their Functions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007",
+        "PAGE008",
+        "PAGE009",
+        "PAGE010",
+        "PAGE011"
+      ],
+      "assessment_id": "DA003"
+    },
+    {
+      "dimension_id": "DIM004",
+      "dimension": "Sentence Context and Identification",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "page_ids": [
+        "PAGE012",
+        "PAGE013",
+        "PAGE014"
+      ],
+      "assessment_id": "DA004"
+    },
+    {
+      "dimension_id": "DIM005",
+      "dimension": "Common Mistakes and Practical Application",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "page_ids": [
+        "PAGE015",
+        "PAGE016",
+        "PAGE017",
+        "PAGE018"
+      ],
+      "assessment_id": "DA005"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One Word, Two Jobs!",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Did you know that one English word can do different jobs? A word can be a noun in one sentence and a verb in another!"
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I have a book.",
+              "highlight": [
+                "book"
+              ],
+              "explanation": "Book names something. It is a noun."
+            },
+            {
+              "sentence": "Please book a table.",
+              "highlight": [
+                "book"
+              ],
+              "explanation": "Book tells us what action to do. It is a verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One word can have different grammatical jobs."
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What Is a Word's Job?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Every word has a job in a sentence. This job is called its grammatical function or part of speech."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Rita runs every morning.",
+              "highlight": [
+                "Rita"
+              ],
+              "explanation": "Rita is a noun. It names a person."
+            },
+            {
+              "sentence": "Rita runs every morning.",
+              "highlight": [
+                "runs"
+              ],
+              "explanation": "Runs is a verb. It tells us what Rita does."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A part of speech tells us what job a word does."
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ005"
+      ],
+      "title": "Look at the Sentence!",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Never decide a word's part of speech by looking at the word alone. Look at the complete sentence to understand its job."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "The word alone",
+              "description": "Does not always tell us its grammatical function.",
+              "example": "Play"
+            },
+            {
+              "label": "The word in a sentence",
+              "description": "Shows us the grammatical function.",
+              "example": "The play was funny."
+            }
+          ],
+          "comparison_points": [
+            "A word's grammatical role depends on how it is used."
+          ],
+          "conclusion": "Always examine the sentence before identifying a part of speech."
+        }
+      ],
+      "key_takeaway": "The sentence gives the clue."
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A Noun Can Become a Verb",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Some words can name things and also describe actions. Their grammatical jobs change with the sentence."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The children play is starting.",
+              "highlight": [
+                "play"
+              ],
+              "explanation": "Here, play is a noun. It names an activity."
+            },
+            {
+              "sentence": "The children play outside.",
+              "highlight": [
+                "play"
+              ],
+              "explanation": "Here, play is a verb. It tells us what the children do."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "note",
+          "title": "Remember",
+          "text": "A noun names something. A verb tells us what happens or what someone does."
+        }
+      ],
+      "key_takeaway": "Play can be a noun or a verb."
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "example",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "More Noun and Verb Examples",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "Look at these words. Each one can name something or describe an action."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Water — Noun",
+              "description": "Names a liquid.",
+              "example": "Please drink some water."
+            },
+            {
+              "label": "Water — Verb",
+              "description": "Describes an action.",
+              "example": "I water the plants."
+            },
+            {
+              "label": "Answer — Noun",
+              "description": "Names a response.",
+              "example": "Your answer is correct."
+            },
+            {
+              "label": "Answer — Verb",
+              "description": "Describes an action.",
+              "example": "Please answer the question."
+            }
+          ],
+          "comparison_points": [
+            "The same word form can name something or describe an action."
+          ],
+          "conclusion": "Check whether the word names something or expresses an action."
+        }
+      ],
+      "key_takeaway": "Water and answer can also change their jobs."
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "An Adjective Can Become a Noun",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "text",
+          "text": "Some words describe people or things. The same words can sometimes name a group or a person."
+        },
+        {
+          "block_id": "BLOCK013",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The poor need our support.",
+              "highlight": [
+                "poor"
+              ],
+              "explanation": "Poor is used as a noun. It refers to people who are poor."
+            },
+            {
+              "sentence": "The poor man needs help.",
+              "highlight": [
+                "poor"
+              ],
+              "explanation": "Poor is an adjective. It describes the man."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK014",
+          "type": "note",
+          "title": "A Useful Point",
+          "text": "When an adjective refers to a whole group of people, it can function as a noun. For example, the rich, the young and the elderly."
+        }
+      ],
+      "key_takeaway": "The same describing word can also name a group."
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "An Adjective Can Become a Verb",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "text",
+          "text": "Some words describe a quality. They can also describe an action that changes something."
+        },
+        {
+          "block_id": "BLOCK016",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The room is clean.",
+              "highlight": [
+                "clean"
+              ],
+              "explanation": "Clean describes the room. It is an adjective."
+            },
+            {
+              "sentence": "Please clean the room.",
+              "highlight": [
+                "clean"
+              ],
+              "explanation": "Clean tells us what action to do. It is a verb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK017",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The floor is dry.",
+              "highlight": [
+                "dry"
+              ],
+              "explanation": "Dry describes the floor. It is an adjective."
+            },
+            {
+              "sentence": "Dry the floor.",
+              "highlight": [
+                "Dry"
+              ],
+              "explanation": "Dry tells us to remove the water. It is a verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Clean and dry can be adjectives or verbs."
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "An Adjective Can Become an Adverb",
+      "content": [
+        {
+          "block_id": "BLOCK018",
+          "type": "text",
+          "text": "Some words can describe a noun in one sentence and describe an action in another."
+        },
+        {
+          "block_id": "BLOCK019",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She is a fast runner.",
+              "highlight": [
+                "fast"
+              ],
+              "explanation": "Fast describes the runner. It is an adjective."
+            },
+            {
+              "sentence": "She runs fast.",
+              "highlight": [
+                "fast"
+              ],
+              "explanation": "Fast describes how she runs. It is an adverb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK020",
+          "type": "note",
+          "title": "Important",
+          "text": "Not every adverb ends in -ly. Fast is an adverb in the second sentence."
+        }
+      ],
+      "key_takeaway": "Fast can be an adjective or an adverb."
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "More Adjective and Adverb Examples",
+      "content": [
+        {
+          "block_id": "BLOCK021",
+          "type": "text",
+          "text": "Some words can describe a noun or tell us how an action happens. Notice the difference."
+        },
+        {
+          "block_id": "BLOCK022",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Hard — Adjective",
+              "description": "Describes a noun.",
+              "example": "This is a hard task."
+            },
+            {
+              "label": "Hard — Adverb",
+              "description": "Describes an action.",
+              "example": "She works hard."
+            },
+            {
+              "label": "Early — Adjective",
+              "description": "Describes a noun.",
+              "example": "It was an early train."
+            },
+            {
+              "label": "Early — Adverb",
+              "description": "Describes when an action happens.",
+              "example": "We arrived early."
+            }
+          ],
+          "comparison_points": [
+            "An adjective describes a noun.",
+            "An adverb can describe a verb or an action."
+          ],
+          "conclusion": "The word's job changes according to what it describes."
+        }
+      ],
+      "key_takeaway": "Hard and early can have different grammatical functions."
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "A Word Can Be a Preposition",
+      "content": [
+        {
+          "block_id": "BLOCK023",
+          "type": "text",
+          "text": "Some words can show a relationship between things. The same words may have other jobs in different sentences."
+        },
+        {
+          "block_id": "BLOCK024",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The cat is inside the box.",
+              "highlight": [
+                "inside"
+              ],
+              "explanation": "Inside is a preposition. It shows where the cat is in relation to the box."
+            },
+            {
+              "sentence": "The cat is inside.",
+              "highlight": [
+                "inside"
+              ],
+              "explanation": "Inside is an adverb. It tells us where the cat is, without an object after it."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK025",
+          "type": "note",
+          "title": "Look Carefully",
+          "text": "A preposition normally has an object. An adverb does not take an object in this use."
+        }
+      ],
+      "key_takeaway": "Inside can be a preposition or an adverb."
+    },
+    {
+      "page_id": "PAGE011",
+      "page_number": 11,
+      "page_type": "classification",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "A Word Can Be a Conjunction",
+      "content": [
+        {
+          "block_id": "BLOCK026",
+          "type": "text",
+          "text": "Some words connect ideas or parts of sentences. They may also have other grammatical jobs."
+        },
+        {
+          "block_id": "BLOCK027",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Before — Preposition",
+              "description": "Comes before a noun or noun phrase.",
+              "example": "I arrived before lunch."
+            },
+            {
+              "label": "Before — Conjunction",
+              "description": "Connects a dependent clause to another clause.",
+              "example": "I arrived before the show started."
+            },
+            {
+              "label": "Before — Adverb",
+              "description": "Refers to an earlier time without an object or following clause.",
+              "example": "I have seen this before."
+            }
+          ],
+          "comparison_points": [
+            "A preposition takes an object.",
+            "A conjunction introduces a clause.",
+            "An adverb can stand without either."
+          ],
+          "conclusion": "The grammatical structure after before helps identify its job."
+        }
+      ],
+      "key_takeaway": "Before can be a preposition, conjunction or adverb."
+    },
+    {
+      "page_id": "PAGE012",
+      "page_number": 12,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "How Can You Find the Job?",
+      "content": [
+        {
+          "block_id": "BLOCK028",
+          "type": "text",
+          "text": "Ask a simple question about the word. Does it name something, describe something, show an action or connect ideas?"
+        },
+        {
+          "block_id": "BLOCK029",
+          "type": "list",
+          "introduction": "Use these clues:",
+          "list_style": "numbered",
+          "items": [
+            "Noun: Does it name someone or something?",
+            "Verb: Does it express an action or state?",
+            "Adjective: Does it describe a noun?",
+            "Adverb: Does it describe a verb, adjective or another adverb?",
+            "Preposition: Does it show a relationship with an object?",
+            "Conjunction: Does it connect words, phrases or clauses?"
+          ]
+        }
+      ],
+      "key_takeaway": "Ask what job the word is doing."
+    },
+    {
+      "page_id": "PAGE013",
+      "page_number": 13,
+      "page_type": "example",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Same Word, Different Sentences",
+      "content": [
+        {
+          "block_id": "BLOCK030",
+          "type": "text",
+          "text": "Let's examine the word light. It can do several different jobs."
+        },
+        {
+          "block_id": "BLOCK031",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Noun",
+              "description": "Names something.",
+              "example": "Turn on the light."
+            },
+            {
+              "label": "Adjective",
+              "description": "Describes something.",
+              "example": "This bag is light."
+            },
+            {
+              "label": "Verb",
+              "description": "Describes an action.",
+              "example": "Light the candle."
+            }
+          ],
+          "comparison_points": [
+            "The word light has different grammatical functions in these sentences."
+          ],
+          "conclusion": "A single word form can perform several grammatical jobs."
+        }
+      ],
+      "key_takeaway": "Light can be a noun, adjective or verb."
+    },
+    {
+      "page_id": "PAGE014",
+      "page_number": 14,
+      "page_type": "application",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Try Identifying the Job",
+      "content": [
+        {
+          "block_id": "BLOCK032",
+          "type": "text",
+          "text": "Read each sentence carefully. Look at the highlighted word and decide what job it performs."
+        },
+        {
+          "block_id": "BLOCK033",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The children watch television.",
+              "highlight": [
+                "watch"
+              ],
+              "explanation": "Watch is a verb. It describes what the children do."
+            },
+            {
+              "sentence": "I bought a new watch.",
+              "highlight": [
+                "watch"
+              ],
+              "explanation": "Watch is a noun. It names an object."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Always use the complete sentence as your clue."
+    },
+    {
+      "page_id": "PAGE015",
+      "page_number": 15,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "title": "Common Mistake: Fixed Labels",
+      "content": [
+        {
+          "block_id": "BLOCK035",
+          "type": "text",
+          "text": "A common mistake is thinking that a word always belongs to the same part of speech."
+        },
+        {
+          "block_id": "BLOCK036",
+          "type": "warning",
+          "title": "Do Not Memorise One Label",
+          "mistake": {
+            "incorrect": "Book is always a noun.",
+            "correct": "Book can be a noun or a verb.",
+            "reason": "In 'I bought a book', it names something. In 'Book a ticket', it expresses an action."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001",
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Never give a word one permanent part-of-speech label."
+    },
+    {
+      "page_id": "PAGE016",
+      "page_number": 16,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "title": "Meaning Is Not Enough",
+      "content": [
+        {
+          "block_id": "BLOCK037",
+          "type": "text",
+          "text": "A word's meaning alone does not decide its part of speech. Its grammatical role in the sentence is what matters."
+        },
+        {
+          "block_id": "BLOCK038",
+          "type": "warning",
+          "title": "Look at the Sentence",
+          "mistake": {
+            "incorrect": "Fast is always an adjective.",
+            "correct": "Fast can be an adjective or an adverb.",
+            "reason": "In 'a fast car', fast describes a noun. In 'drive fast', it describes the action."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003",
+            "OBJ005"
+          ]
+        }
+      ],
+      "key_takeaway": "Check the word's grammatical function, not just its meaning."
+    },
+    {
+      "page_id": "PAGE017",
+      "page_number": 17,
+      "page_type": "practice",
+      "pedagogical_role": "independent_practice",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ003",
+        "OBJ004",
+        "OBJ005"
+      ],
+      "title": "Test Your Understanding",
+      "content": [
+        {
+          "block_id": "BLOCK039",
+          "type": "text",
+          "text": "You have learned that words can change their grammatical jobs. Try identifying their functions in these sentences."
+        }
+      ],
+      "key_takeaway": "Find the job before choosing the part of speech."
+    },
+    {
+      "page_id": "PAGE018",
+      "page_number": 18,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ005",
+        "OBJ006"
+      ],
+      "title": "Remember These Rules",
+      "content": [
+        {
+          "block_id": "BLOCK042",
+          "type": "text",
+          "text": "The same word can perform different grammatical jobs in different sentences. Its function depends on how it is used."
+        },
+        {
+          "block_id": "BLOCK043",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "numbered",
+          "items": [
+            "A word does not always have one fixed part of speech.",
+            "Nouns can also function as verbs.",
+            "Adjectives can also function as nouns or verbs.",
+            "Some adjectives can also function as adverbs.",
+            "Some words can function as prepositions, conjunctions or adverbs.",
+            "Always examine the complete sentence."
+          ]
+        }
+      ],
+      "key_takeaway": "One word. Different jobs. The sentence tells you which one."
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What part of speech is the word watch in this sentence: 'I bought a new watch'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "OPT001"
+      ],
+      "explanation": "Watch names an object in this sentence. Therefore, it is a noun.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is fast in this sentence: 'The car moves fast'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "OPT004"
+      ],
+      "explanation": "Fast tells us how the car moves. It describes the action and functions as an adverb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004",
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is before in this sentence: 'I arrived before the bell rang'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adjective"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "Before introduces the clause 'the bell rang' and connects it to the main clause. Therefore, it functions as a conjunction.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q004",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "The word book can function as both a noun and a verb.",
+      "correct_answer": true,
+      "explanation": "Book is a noun in 'I read a book' and a verb in 'Book a room'.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ005"
+      ],
+      "prompt": "What decides the part of speech of a word?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "The number of letters in the word"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Its position in the dictionary"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Its grammatical function in the sentence"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Its spelling alone"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "A word's grammatical function in its sentence determines its part of speech.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What part of speech is answer in this sentence: 'Please answer my question'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Preposition"
+        }
+      ],
+      "correct_answers": [
+        "OPT002"
+      ],
+      "explanation": "Answer tells us what action someone should perform. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What part of speech is clean in this sentence: 'Please clean your shoes'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "Clean expresses the action of making the shoes free from dirt. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What part of speech is poor in this sentence: 'The poor need support'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "The poor refers to people who are poor. The word poor functions as a noun in this expression.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "What part of speech is inside in this sentence: 'The children are inside the classroom'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Verb"
+        }
+      ],
+      "correct_answers": [
+        "OPT001"
+      ],
+      "explanation": "Inside shows the relationship between the children and the classroom. The noun phrase 'the classroom' is its object.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "What part of speech is before in this sentence: 'I have met her before'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adjective"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "Before refers to an earlier time. It does not introduce an object or a clause, so it functions as an adverb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is light in this sentence: 'Light the candle'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "Light tells someone to perform an action. It is an imperative verb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is hard in this sentence: 'She works hard'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Conjunction"
+        }
+      ],
+      "correct_answers": [
+        "OPT003"
+      ],
+      "explanation": "Hard describes how she works. It functions as an adverb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "What part of speech is play in this sentence: 'The children play outside'?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Noun"
+        },
+        {
+          "option_id": "OPT002",
+          "text": "Verb"
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "OPT004",
+          "text": "Preposition"
+        }
+      ],
+      "correct_answers": [
+        "OPT002"
+      ],
+      "explanation": "Play tells us what the children do. It functions as a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q014",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "prompt": "Which statement is correct?",
+      "options": [
+        {
+          "option_id": "OPT001",
+          "text": "Every word has only one part of speech."
+        },
+        {
+          "option_id": "OPT002",
+          "text": "A word's part of speech depends on its function in the sentence."
+        },
+        {
+          "option_id": "OPT003",
+          "text": "Only nouns can change their grammatical jobs."
+        },
+        {
+          "option_id": "OPT004",
+          "text": "A word's spelling always tells us its part of speech."
+        }
+      ],
+      "correct_answers": [
+        "OPT002"
+      ],
+      "explanation": "The same word form can perform different grammatical functions in different sentences.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "understand",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q015",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ006"
+      ],
+      "prompt": "Correct the grammatical classification in this statement: 'In the sentence She runs fast, fast is an adjective.'",
+      "original_sentence": "In the sentence She runs fast, fast is an adjective.",
+      "corrected_sentence": "In the sentence She runs fast, fast is an adverb.",
+      "explanation": "Fast describes how she runs. It modifies the verb runs, so it functions as an adverb.",
+      "assessment_metadata": {
+        "difficulty": "challenging",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Understanding Different Word Jobs",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Noun or Verb?",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Recognising Different Word Functions",
+        "after_page_id": "PAGE011",
+        "question_ids": [
+          "Q007",
+          "Q008",
+          "Q009",
+          "Q010"
+        ]
+      },
+      {
+        "assessment_id": "DA004",
+        "dimension_id": "DIM004",
+        "title": "Finding the Correct Word Function",
+        "after_page_id": "PAGE014",
+        "question_ids": [
+          "Q001",
+          "Q011"
+        ]
+      },
+      {
+        "assessment_id": "DA005",
+        "dimension_id": "DIM005",
+        "title": "Avoiding Common Mistakes",
+        "after_page_id": "PAGE018",
+        "question_ids": [
+          "Q012",
+          "Q013"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "One Word, Different Jobs — Final Check",
+      "question_ids": [
+        "Q002",
+        "Q003",
+        "Q014",
+        "Q015"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Word Formation and Conversion (Zero Derivation)",
+        "reason": "Some words acquire an additional grammatical function without changing their spelling, such as book used as a noun or verb. The linguistic process of forming a new word through conversion is related but requires a separate lesson.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Inflectional Changes in Word Forms",
+        "reason": "This lesson focuses on the same word form performing different grammatical functions, not changes such as play, plays and played.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Gerunds and Participles",
+        "reason": "Some verb forms can perform noun-like or adjective-like functions. These involve additional grammatical structures and require separate lessons.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Complete Parts of Speech Classification",
+        "reason": "This lesson demonstrates selected words with multiple grammatical functions. A complete study of all parts of speech and their classifications belongs to the broader Parts of Speech lesson.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "review_required",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "review_required",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "review_required",
+    "issues_found": [
+      "The complete Learn Lesson JSON Schema v2.0 definition was not included in the supplied prompt file. Structural compliance with the actual JSON Schema cannot therefore be independently certified.",
+      "The lesson introduces selected examples of words functioning as different parts of speech. It is not an exhaustive dictionary of all English words that can perform multiple grammatical functions.",
+      "The expression 'the poor' is treated as a noun phrase with poor functioning substantivally. Some grammar frameworks classify this as an adjective used substantively rather than a conventional noun. The distinction may be introduced in an advanced lesson.",
+      "The example 'The children play is starting' was avoided in favour of clearer examples elsewhere; the noun play is illustrated through its use in 'The play was funny' in the comparison section."
+    ],
+    "corrections_made": [
+      "Organised the lesson from the central concept to specific word-class changes, sentence analysis and error correction.",
+      "Included noun, verb, adjective, adverb, preposition and conjunction functions.",
+      "Added the adverbial use of before and inside to demonstrate differences in grammatical structure.",
+      "Added examples showing that fast, hard and early can function as both adjectives and adverbs.",
+      "Separated dimension assessments from the final assessment and ensured that their question IDs do not overlap.",
+      "Added cross-references for conversion, inflection and gerunds or participles to maintain topic boundaries.",
+      "Used sentence context rather than isolated word meanings to explain grammatical classification."
+    ]
+  }
+}

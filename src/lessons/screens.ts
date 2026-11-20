@@ -62,7 +62,9 @@ const CARD_WIDTH = 326;
 /** Example-card pictures take this share of the card width (see `ExampleCard`). */
 export const EXAMPLE_ART_SHARE = 0.34;
 const EXAMPLE_ART_WIDTH = CARD_WIDTH * EXAMPLE_ART_SHARE;
-const BESIDE_ART_WIDTH = CARD_WIDTH - EXAMPLE_ART_WIDTH - 12;
+// Gap (12) plus a 12pt margin: Fraunces chips render a little wider than the per-character estimate,
+// and beside a picture one extra wrapped line matters (1.1.6 "Mia and Sam are friends." wraps to 3 lines).
+const BESIDE_ART_WIDTH = CARD_WIDTH - EXAMPLE_ART_WIDTH - 24;
 
 /** Lines of word chips (Fraunces 22) a sentence needs inside a card. */
 function chipLines(sentence: string, width = CARD_WIDTH): number {
@@ -85,18 +87,21 @@ const chipsHeight = (n: number) => n * 36 + (n - 1) * 6;
  */
 export const artBesideSentence = (sentence: string) => chipLines(sentence, BESIDE_ART_WIDTH) <= 2;
 
-/** Comparisons with more than two items stack as rows (label | description + example). */
+/** Width (pt) of a row comparison's picture, drawn at the start of its row. */
+export const COMPARISON_ROW_ART = 56;
+
+/** Comparisons with more than two items stack as rows ([picture] label | description + example). */
 export const comparisonAsRows = (block: Extract<ContentBlock, { type: 'comparison' }>) => block.items.length > 2;
 
 /** Pictures drawn inside a block, which change its height. */
 export interface BlockArt {
   /** One per example group (see `groupExamples`). */
-  examples?: LessonArt[];
+  examples?: (LessonArt | null)[];
   /** One per comparison item. */
-  comparison?: LessonArt[];
+  comparison?: (LessonArt | null)[];
 }
 
-function exampleHeight(block: Extract<ContentBlock, { type: 'example' }>, arts: LessonArt[] = []): number {
+function exampleHeight(block: Extract<ContentBlock, { type: 'example' }>, arts: (LessonArt | null)[] = []): number {
   return (
     CARD_HEAD +
     groupExamples(block.examples).reduce((h, group, i) => {
@@ -124,11 +129,16 @@ function exampleHeight(block: Extract<ContentBlock, { type: 'example' }>, arts: 
 type Comparison = Extract<ContentBlock, { type: 'comparison' }>;
 
 /** Card with the compared items only. */
-function comparisonItemsHeight(block: Comparison, arts: LessonArt[] = []): number {
+function comparisonItemsHeight(block: Comparison, arts: (LessonArt | null)[] = []): number {
   if (comparisonAsRows(block)) {
-    const rows = block.items.map(
-      (it) => 20 + Math.max(lines(it.label, 12) * 21, lines(it.description, 27) * 18 + (it.example ? 8 + lines(it.example, 20) * 19 + 6 : 0)),
-    );
+    const rows = block.items.map((it, i) => {
+      const art = arts[i];
+      const example = it.example ? 8 + lines(it.example, art ? 26 : 20) * 19 + 6 : 0;
+      // With a picture, label, description and example stack in one column beside it.
+      if (art)
+        return 20 + Math.max(COMPARISON_ROW_ART / art.aspect, lines(it.label, 22) * 21 + 4 + lines(it.description, 34) * 18 + example);
+      return 20 + Math.max(lines(it.label, 12) * 21, lines(it.description, 27) * 18 + example);
+    });
     return CARD_HEAD + rows.reduce((a, b) => a + b, 0) + 8 * (rows.length - 1);
   }
   const itemWidth = (CARD_WIDTH - 10) / 2 - 20;
@@ -151,6 +161,33 @@ function comparisonPointsHeight(block: Comparison): number {
 }
 const hasPoints = (block: Comparison) => Boolean(block.comparison_points?.length || block.conclusion);
 
+type ListBlock = Extract<ContentBlock, { type: 'list' }>;
+
+/**
+ * Splits a list into parts that each fit `budget`. Two-column layouts (tiles, chips) split between rows,
+ * so the grid and its checkerboard stay intact. Only the first part keeps the introduction.
+ */
+export function splitList(block: ListBlock, budget: number): ListBlock[] {
+  const { layout } = parseList(block.items);
+  const step = layout === 'tiles' || layout === 'chips' ? 2 : 1;
+  const parts: ListBlock[] = [];
+  let start = 0;
+  while (start < block.items.length) {
+    const make = (end: number): ListBlock => ({
+      ...block,
+      introduction: start === 0 ? block.introduction : undefined,
+      items: block.items.slice(start, end),
+      start,
+    });
+    let end = Math.min(block.items.length, start + step);
+    while (end < block.items.length && estimateHeight(make(Math.min(block.items.length, end + step))) <= budget)
+      end = Math.min(block.items.length, end + step);
+    parts.push(make(end));
+    start = end;
+  }
+  return parts;
+}
+
 /** Rough rendered height (pt) of a block at phone width, calibrated against rendered screens. */
 export function estimateHeight(block: ContentBlock, art: BlockArt = {}): number {
   switch (block.type) {
@@ -171,7 +208,8 @@ export function estimateHeight(block: ContentBlock, art: BlockArt = {}): number 
       if (layout === 'tiles') return head + pairs((e) => 71 + lines(e.detail ?? '', 20) * 18);
       if (layout === 'chips') return head + pairs((e) => 16 + lines(e.text, 16) * 22);
       if (layout === 'qa') return head + entries.reduce((h, e) => h + lines(e.label ?? e.text, 24) * 22 + 22, 0);
-      return head + entries.reduce((h, e) => h + lines(e.text, 34) * 22 + 20, 0);
+      // Row: 12pt padding above and below the text, plus the divider (measured: ~48pt for a one-line row).
+      return head + entries.reduce((h, e) => h + lines(e.text, 34) * 22 + 26, 0);
     }
     case 'comparison':
       return comparisonItemsHeight(block, art.comparison) + (hasPoints(block) ? 12 + comparisonPointsHeight(block) : 0);
@@ -191,7 +229,8 @@ export function estimateHeight(block: ContentBlock, art: BlockArt = {}): number 
   }
 }
 
-const takeawayHeight = (text: string) => 44 + lines(text, 24) * 27 + 16;
+// Fraunces 20 beside the lightbulb column fits ~21 characters a line (measured on 1.1.6 page 11).
+const takeawayHeight = (text: string) => 44 + lines(text, 21) * 27 + 16;
 
 interface Draft {
   blocks: ContentBlock[];
@@ -239,6 +278,9 @@ export function pageScreens(page: LessonPage, pageIndex: number, opts: PageScree
       const art = opts.blockArt?.[block.block_id]?.comparison;
       packed.push({ blocks: [block], height: comparisonItemsHeight(block, art), blockPart: 'items' });
       packed.push({ blocks: [block], height: CARD_HEAD + comparisonPointsHeight(block), blockPart: 'points' });
+    } else if (block.type === 'list' && h > SCREEN_BUDGET && block.items.length > 1) {
+      // Too tall for any screen: the list continues on the next screen(s), keeping its numbering.
+      for (const part of splitList(block, SCREEN_BUDGET)) packed.push({ blocks: [part], height: estimateHeight(part), blockPart: 'all' });
     } else if (last && last.blockPart === 'all' && last.height + GAP + h <= SCREEN_BUDGET) {
       last.blocks.push(block);
       last.height += GAP + h;
@@ -293,10 +335,10 @@ export function lessonScreens(lesson: Lesson, visuals?: LessonVisuals, budget?: 
 
 /** Pictures inside a page's blocks (example and comparison art), by block id. */
 export function pageBlockArt(page: LessonPage, visuals?: LessonVisuals): Record<string, BlockArt> {
-  const exampleArts = visuals?.pages[page.page_id]?.exampleArts;
   const art: Record<string, BlockArt> = {};
   for (const block of page.content) {
-    if (block.type === 'example' && exampleArts) art[block.block_id] = { examples: exampleArts };
+    const examples = visuals?.exampleArt?.[block.block_id];
+    if (block.type === 'example' && examples) art[block.block_id] = { examples };
     const comparison = visuals?.comparisonArt?.[block.block_id];
     if (comparison) art[block.block_id] = { comparison };
   }

@@ -11,17 +11,37 @@ Tooling and Expo rules are in `AGENTS.md`. This file holds product rules that ev
 2. **The lesson ends with one longer final assessment**, after the last page (usually the summary).
    - Its questions never repeat a dimension-assessment question.
 3. **Never move assessments to the end.** Dimension checks stay interleaved with the pages they test.
-4. **Make assessments visible:**
+4. **Each question is asked once**: as an in-page practice question, in one dimension check, or in the final assessment.
+   - A page's practice question is never also in the check that follows it.
+   - Question explanations shouldn't start with a verdict ("Correct."). The app adds "Correct!" or "Not quite." based on the learner's answer and strips an authored one.
+5. **Make assessments visible:**
    - The footer button before a quick check reads **"Quick Check"** (clipboard-check icon). The one before the final check reads **"Take Final Check"** (bullseye icon).
    - On quick-check questions, the header pill shows **"Check i/N"**, and a line under the title says **"Quick check · N questions"**.
    - Final-check questions show **"Quiz i/N"**.
-5. **The loader enforces rules 1 and 2.** `loadLesson` (`src/lessons/model.ts`) rejects a lesson where:
+6. **The loader enforces rules 1, 2 and 4.** `loadLesson` (`src/lessons/model.ts`) rejects a lesson where:
    - a dimension has no check,
-   - a check is placed anywhere other than after its dimension's last page, or
-   - the final assessment is missing.
+   - a check is placed anywhere other than after its dimension's last page,
+   - the final assessment is missing, or
+   - a question is used more than once.
    Fix the content JSON; don't relax the check.
 
 Schema 1.0 lessons (`1.1.1.EP001`) have no learning dimensions, only a final quiz, so rules 1 and 3 can't apply to them.
+
+## Lesson content
+
+1. **Check new lessons before building them.** Run `npm run lesson:overlap` on the workbench file. It reports:
+   - repeated sentences, titles and takeaways (including sentences in question prompts and answer options)
+   - re-taught concept pages
+   - words an earlier lesson already showed doing more than one job
+   - wrong answer keys
+   - examples that don't use the word they demonstrate
+   - assessment placement problems
+
+   It ends with a fix list to paste into the generator.
+   - If it finds repeats, show the user the summary first and let them decide whether to regenerate.
+   - Never silently ship a lesson that re-teaches an earlier one.
+2. **Keep the coverage brief current.** After adding a lesson, run `npm run lesson:overlap -- --write-brief "assets/Content generation/Chapter1_Coverage_Brief.md"`. Only the part below the marker is regenerated.
+3. **Fix content bugs in the app's copy and tell the user.** Examples: swapped answers, duplicate questions, a dimension check in the wrong place. Their source file (the workbench / generation prompt) is theirs to change.
 
 ## Learner state
 

@@ -1,0 +1,1972 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-1-6",
+    "title": "Identifying Parts of Speech in Sentences",
+    "learning_stage": null,
+    "learner_level": "Grammar Foundations",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Find the Job of Every Word",
+    "lesson_summary": "Learn how to identify the eight main parts of speech in real sentences. Discover what each word does, how to recognise its grammatical job, and why the same word can belong to different parts of speech in different sentences.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Understand that every word in a sentence performs a grammatical job.",
+        "success_criteria": [
+          "Explain what a part of speech means.",
+          "Understand that grammatical classification depends on how a word is used in a sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Recognise the eight main parts of speech.",
+        "success_criteria": [
+          "Name the eight main parts of speech.",
+          "Explain the basic job of each part of speech."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Identify nouns, pronouns, verbs, and adjectives in sentences.",
+        "success_criteria": [
+          "Identify naming words.",
+          "Identify words that replace nouns.",
+          "Identify action and linking verbs.",
+          "Identify words that describe nouns."
+        ]
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Identify adverbs, prepositions, conjunctions, and interjections in sentences.",
+        "success_criteria": [
+          "Recognise words that describe verbs, adjectives, or other adverbs.",
+          "Recognise prepositions and their relationships.",
+          "Recognise joining words.",
+          "Recognise words expressing sudden feelings."
+        ]
+      },
+      {
+        "objective_id": "OBJ005",
+        "description": "Use questions and sentence clues to identify the grammatical job of a word.",
+        "success_criteria": [
+          "Use the word's meaning and position as clues.",
+          "Identify a word by asking what job it performs.",
+          "Classify words correctly in complete sentences."
+        ]
+      },
+      {
+        "objective_id": "OBJ006",
+        "description": "Recognise that the same word can perform different grammatical jobs.",
+        "success_criteria": [
+          "Identify words that change their parts of speech across sentences.",
+          "Explain why context determines grammatical classification."
+        ]
+      },
+      {
+        "objective_id": "OBJ007",
+        "description": "Avoid common mistakes when identifying parts of speech.",
+        "success_criteria": [
+          "Distinguish adjectives from adverbs.",
+          "Distinguish verbs from nouns.",
+          "Avoid classifying words by appearance alone.",
+          "Correct incorrectly classified words."
+        ]
+      },
+      {
+        "objective_id": "OBJ008",
+        "description": "Analyse complete sentences and identify the parts of speech of their words.",
+        "success_criteria": [
+          "Classify words in a complete sentence.",
+          "Explain the grammatical job of selected words.",
+          "Apply parts-of-speech knowledge to unfamiliar sentences."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 25,
+    "total_pages": 23
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Understanding Parts of Speech and Their Purpose",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE001",
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Recognising the Eight Parts of Speech",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Identifying Parts of Speech in Sentences",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006",
+        "PAGE007",
+        "PAGE008",
+        "PAGE009",
+        "PAGE010",
+        "PAGE011",
+        "PAGE012",
+        "PAGE013",
+        "PAGE014"
+      ],
+      "assessment_id": "DA003"
+    },
+    {
+      "dimension_id": "DIM004",
+      "dimension": "Methods of Identification and Sentence Analysis",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "page_ids": [
+        "PAGE015",
+        "PAGE016",
+        "PAGE017",
+        "PAGE018"
+      ],
+      "assessment_id": "DA004"
+    },
+    {
+      "dimension_id": "DIM005",
+      "dimension": "Context-Dependent Parts of Speech",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "page_ids": [
+        "PAGE019",
+        "PAGE020"
+      ],
+      "assessment_id": "DA005"
+    },
+    {
+      "dimension_id": "DIM006",
+      "dimension": "Common Mistakes and Error Correction",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ007"
+      ],
+      "page_ids": [
+        "PAGE021",
+        "PAGE022"
+      ],
+      "assessment_id": "DA006"
+    },
+    {
+      "dimension_id": "DIM007",
+      "dimension": "Practical Application and Reinforcement",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "page_ids": [
+        "PAGE023"
+      ],
+      "assessment_id": "DA007"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Every Word Has a Job",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Look at this sentence: Maya sings beautifully. Every word has a job. Maya names a person. Sings tells us what she does. Beautifully tells us how she sings."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Maya sings beautifully.",
+              "highlight": [
+                "Maya",
+                "sings",
+                "beautifully"
+              ],
+              "explanation": "The three words perform three different grammatical jobs."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Words have different grammatical jobs."
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What Are Parts of Speech?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Parts of speech are groups of words based on the jobs they do in sentences. These grammatical jobs help us understand how sentences work."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Remember",
+          "text": "We identify a word's part of speech by looking at how it is used."
+        }
+      ],
+      "key_takeaway": "A word's job determines its part of speech."
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Meet the Eight Word Groups",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "English grammar commonly teaches eight main parts of speech. Each group has a different job in a sentence."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "list",
+          "introduction": "The eight main parts of speech are:",
+          "list_style": "numbered",
+          "items": [
+            "Noun – names something.",
+            "Pronoun – replaces a noun.",
+            "Verb – shows an action or state.",
+            "Adjective – describes a noun or pronoun.",
+            "Adverb – adds information about a verb, adjective, or another adverb.",
+            "Preposition – shows a relationship.",
+            "Conjunction – joins words or groups of words.",
+            "Interjection – expresses a sudden feeling."
+          ]
+        }
+      ],
+      "key_takeaway": "Eight groups, eight different grammatical jobs."
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "See Them in One Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Look at how different parts of speech work together in one sentence."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Wow! She quickly carried a beautiful flower into the room, and smiled.",
+              "highlight": [
+                "Wow",
+                "She",
+                "quickly",
+                "carried",
+                "beautiful",
+                "into",
+                "and"
+              ],
+              "explanation": "Wow is an interjection, She a pronoun, quickly an adverb, carried a verb, beautiful an adjective, into a preposition, and joins ideas. A is an article or determiner, and flower and room are nouns."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "note",
+          "title": "A small detail",
+          "text": "Articles such as a, an, and the are usually taught as determiners in modern grammar. Some traditional school grammars group them under adjectives."
+        }
+      ],
+      "key_takeaway": "Different word groups work together to build sentences."
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Find the Naming Words",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "A noun names a person, place, animal, thing, or idea. Look for the words that tell you who or what the sentence is about."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The boy kicked the ball.",
+              "highlight": [
+                "boy",
+                "ball"
+              ],
+              "explanation": "Boy names a person. Ball names a thing. Both are nouns."
+            },
+            {
+              "sentence": "Honesty is important.",
+              "highlight": [
+                "Honesty"
+              ],
+              "explanation": "Honesty names an idea. It is an abstract noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Ask: Who or what is being named?"
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Find the Replacing Words",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "text",
+          "text": "A pronoun takes the place of a noun or noun phrase. It helps us avoid repeating the same name again and again."
+        },
+        {
+          "block_id": "BLOCK013",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Riya is my friend. She is kind.",
+              "highlight": [
+                "She"
+              ],
+              "explanation": "She replaces the name Riya. It is a pronoun."
+            },
+            {
+              "sentence": "They are playing outside.",
+              "highlight": [
+                "They"
+              ],
+              "explanation": "They is a pronoun referring to people."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A pronoun can replace a noun or noun phrase."
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Find the Doing Words",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "text",
+          "text": "A verb tells us what someone or something does, or what state it is in. Some verbs show actions. Others connect the subject to information about it."
+        },
+        {
+          "block_id": "BLOCK015",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Tom runs every morning.",
+              "highlight": [
+                "runs"
+              ],
+              "explanation": "Runs shows an action. It is a verb."
+            },
+            {
+              "sentence": "The sky looks blue.",
+              "highlight": [
+                "looks"
+              ],
+              "explanation": "Looks connects the subject to a description. It is a linking verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Verbs show actions or states."
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Find the Describing Words",
+      "content": [
+        {
+          "block_id": "BLOCK016",
+          "type": "text",
+          "text": "An adjective describes a noun or pronoun. It can tell us what something is like, which one it is, or how many there are."
+        },
+        {
+          "block_id": "BLOCK017",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She has a beautiful dress.",
+              "highlight": [
+                "beautiful"
+              ],
+              "explanation": "Beautiful describes the noun dress."
+            },
+            {
+              "sentence": "Three small birds are singing.",
+              "highlight": [
+                "Three",
+                "small"
+              ],
+              "explanation": "Three tells us how many birds. Small describes their size. Both modify the noun birds."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Adjectives give more information about nouns and pronouns."
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Find the Extra Details",
+      "content": [
+        {
+          "block_id": "BLOCK018",
+          "type": "text",
+          "text": "An adverb adds information about a verb, an adjective, or another adverb. It may tell us how, when, where, or how often something happens."
+        },
+        {
+          "block_id": "BLOCK019",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The baby sleeps peacefully.",
+              "highlight": [
+                "peacefully"
+              ],
+              "explanation": "Peacefully tells us how the baby sleeps."
+            },
+            {
+              "sentence": "She is very happy.",
+              "highlight": [
+                "very"
+              ],
+              "explanation": "Very adds more meaning to the adjective happy."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Adverbs add details to verbs, adjectives, and adverbs."
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Find the Relationship Words",
+      "content": [
+        {
+          "block_id": "BLOCK020",
+          "type": "text",
+          "text": "A preposition shows how a noun or pronoun is related to another word. It can show place, time, direction, or another relationship."
+        },
+        {
+          "block_id": "BLOCK021",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The cat is under the table.",
+              "highlight": [
+                "under"
+              ],
+              "explanation": "Under shows the cat's position in relation to the table."
+            },
+            {
+              "sentence": "We walked to school.",
+              "highlight": [
+                "to"
+              ],
+              "explanation": "To shows the direction of movement."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Prepositions show relationships between words."
+    },
+    {
+      "page_id": "PAGE011",
+      "page_number": 11,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Find the Joining Words",
+      "content": [
+        {
+          "block_id": "BLOCK022",
+          "type": "text",
+          "text": "A conjunction joins words, phrases, or clauses. It helps connect ideas in a sentence."
+        },
+        {
+          "block_id": "BLOCK023",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Mia and Sam are friends.",
+              "highlight": [
+                "and"
+              ],
+              "explanation": "And joins two names."
+            },
+            {
+              "sentence": "I stayed home because it rained.",
+              "highlight": [
+                "because"
+              ],
+              "explanation": "Because joins the reason to the main idea."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Conjunctions connect words and ideas."
+    },
+    {
+      "page_id": "PAGE012",
+      "page_number": 12,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Find the Feeling Words",
+      "content": [
+        {
+          "block_id": "BLOCK024",
+          "type": "text",
+          "text": "An interjection expresses a sudden feeling or reaction. It often appears with an exclamation mark, but not always."
+        },
+        {
+          "block_id": "BLOCK025",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Wow! That is amazing.",
+              "highlight": [
+                "Wow"
+              ],
+              "explanation": "Wow expresses surprise or admiration."
+            },
+            {
+              "sentence": "Ouch! My finger hurts.",
+              "highlight": [
+                "Ouch"
+              ],
+              "explanation": "Ouch expresses pain."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Interjections express feelings and reactions."
+    },
+    {
+      "page_id": "PAGE013",
+      "page_number": 13,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "title": "Adjective or Adverb?",
+      "content": [
+        {
+          "block_id": "BLOCK026",
+          "type": "text",
+          "text": "Adjectives describe nouns or pronouns. Adverbs can describe verbs, adjectives, or other adverbs. Do not identify them by their spelling alone."
+        },
+        {
+          "block_id": "BLOCK027",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Adjective",
+              "description": "Describes a noun.",
+              "example": "She is a careful driver."
+            },
+            {
+              "label": "Adverb",
+              "description": "Describes a verb.",
+              "example": "She drives carefully."
+            }
+          ],
+          "comparison_points": [
+            "Careful describes the noun driver.",
+            "Carefully describes the verb drives."
+          ],
+          "conclusion": "Look at the word being described to identify the part of speech."
+        }
+      ],
+      "key_takeaway": "Find the word being described."
+    },
+    {
+      "page_id": "PAGE014",
+      "page_number": 14,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ004"
+      ],
+      "title": "Identify All Eight",
+      "content": [
+        {
+          "block_id": "BLOCK028",
+          "type": "text",
+          "text": "Now try to recognise several parts of speech in one sentence. Focus on the job of each highlighted word."
+        },
+        {
+          "block_id": "BLOCK029",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Wow! She quickly opened the little box and smiled.",
+              "highlight": [
+                "Wow",
+                "She",
+                "quickly",
+                "opened",
+                "little",
+                "and"
+              ],
+              "explanation": "Wow is an interjection, She a pronoun, quickly an adverb, opened a verb, little an adjective, and joins two actions. Box is a noun. The is a determiner."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Identify each word by its job, not just its meaning."
+    },
+    {
+      "page_id": "PAGE015",
+      "page_number": 15,
+      "page_type": "application",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Ask the Right Questions",
+      "content": [
+        {
+          "block_id": "BLOCK030",
+          "type": "text",
+          "text": "When you see a word, ask a simple question. The answer can help you find its grammatical job."
+        },
+        {
+          "block_id": "BLOCK031",
+          "type": "list",
+          "introduction": "Use these helpful questions:",
+          "list_style": "bulleted",
+          "items": [
+            "Does it name someone or something? Noun.",
+            "Does it replace a noun? Pronoun.",
+            "Does it show an action or state? Verb.",
+            "Does it describe a noun or pronoun? Adjective.",
+            "Does it add details about a verb, adjective, or adverb? Adverb.",
+            "Does it show a relationship? Preposition.",
+            "Does it join words or ideas? Conjunction.",
+            "Does it express a feeling? Interjection."
+          ]
+        }
+      ],
+      "key_takeaway": "Ask what job the word is doing."
+    },
+    {
+      "page_id": "PAGE016",
+      "page_number": 16,
+      "page_type": "application",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Look at the Whole Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK032",
+          "type": "text",
+          "text": "Never identify a word without checking its sentence. Read the whole sentence first. Then look at the word's meaning and its relationship with other words."
+        },
+        {
+          "block_id": "BLOCK033",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Classify a word according to its grammatical function in the sentence.",
+          "scope": "Identifying parts of speech in sentences",
+          "conditions": [
+            "Read the complete sentence.",
+            "Understand what the word contributes.",
+            "Check how the word relates to surrounding words."
+          ],
+          "exception_page_ids": [],
+          "examples": [
+            {
+              "sentence": "I like swimming.",
+              "highlight": [
+                "swimming"
+              ],
+              "explanation": "Swimming functions as a noun-like gerund in this sentence."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Sentence context is essential."
+    },
+    {
+      "page_id": "PAGE017",
+      "page_number": 17,
+      "page_type": "application",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "title": "Analyse a Sentence Step by Step",
+      "content": [
+        {
+          "block_id": "BLOCK034",
+          "type": "text",
+          "text": "Let's examine a complete sentence. Find the word groups one by one. Do not rush. Each word has a role."
+        },
+        {
+          "block_id": "BLOCK035",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The clever girl reads books quietly.",
+              "highlight": [
+                "clever",
+                "girl",
+                "reads",
+                "books",
+                "quietly"
+              ],
+              "explanation": "Clever is an adjective, girl and books are nouns, reads is a verb, and quietly is an adverb. The is a determiner."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK036",
+          "type": "list",
+          "introduction": "Follow this simple order:",
+          "list_style": "numbered",
+          "items": [
+            "Find the naming words.",
+            "Find the pronouns.",
+            "Find the verbs.",
+            "Find the describing words.",
+            "Find the joining and relationship words.",
+            "Find any interjections."
+          ]
+        }
+      ],
+      "key_takeaway": "Analyse the sentence one word at a time."
+    },
+    {
+      "page_id": "PAGE018",
+      "page_number": 18,
+      "page_type": "practice",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "title": "Try a Sentence Analysis",
+      "content": [
+        {
+          "block_id": "BLOCK037",
+          "type": "text",
+          "text": "Read the sentence and identify the part of speech of each highlighted word. Think about the job each word performs."
+        },
+        {
+          "block_id": "BLOCK038",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Oh! The little puppy runs happily.",
+              "highlight": [
+                "Oh",
+                "little",
+                "puppy",
+                "runs",
+                "happily"
+              ],
+              "explanation": "Oh is an interjection, little is an adjective, puppy is a noun, runs is a verb, and happily is an adverb."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK039",
+          "type": "question",
+          "question_id": "Q001"
+        }
+      ],
+      "key_takeaway": "Use the sentence to find each word's job."
+    },
+    {
+      "page_id": "PAGE019",
+      "page_number": 19,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "title": "One Word, Two Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK040",
+          "type": "text",
+          "text": "Here is a surprising fact: the same word can belong to different parts of speech. Its job changes when the sentence changes."
+        },
+        {
+          "block_id": "BLOCK041",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Noun: Play",
+              "description": "Names an activity.",
+              "example": "The play was exciting."
+            },
+            {
+              "label": "Verb: Play",
+              "description": "Shows an action.",
+              "example": "Children play outside."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, play names an event.",
+            "In the second sentence, play tells us what children do."
+          ],
+          "conclusion": "The same spelling can have different grammatical jobs."
+        }
+      ],
+      "key_takeaway": "A word's job can change with the sentence."
+    },
+    {
+      "page_id": "PAGE020",
+      "page_number": 20,
+      "page_type": "comparison",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "title": "More Words, Different Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK042",
+          "type": "text",
+          "text": "Some common English words can work as different parts of speech. Always check what they do in the sentence."
+        },
+        {
+          "block_id": "BLOCK043",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Fast – Adjective",
+              "description": "Describes a noun.",
+              "example": "He drives a fast car."
+            },
+            {
+              "label": "Fast – Adverb",
+              "description": "Describes a verb.",
+              "example": "He drives fast."
+            },
+            {
+              "label": "Before – Preposition",
+              "description": "Shows a time relationship.",
+              "example": "I arrived before lunch."
+            },
+            {
+              "label": "Before – Conjunction",
+              "description": "Joins clauses.",
+              "example": "I arrived before the shop closed."
+            }
+          ],
+          "comparison_points": [
+            "Fast describes car in the first sentence and drives in the second.",
+            "Before connects to a noun phrase in the first example and introduces a clause in the second."
+          ],
+          "conclusion": "The sentence tells you which grammatical job a word performs."
+        }
+      ],
+      "key_takeaway": "Never classify a word by its spelling alone."
+    },
+    {
+      "page_id": "PAGE021",
+      "page_number": 21,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ007"
+      ],
+      "title": "Do Not Guess by Appearance",
+      "content": [
+        {
+          "block_id": "BLOCK044",
+          "type": "text",
+          "text": "A word may look like another kind of word. For example, many adverbs end in -ly, but not all words ending in -ly are adverbs."
+        },
+        {
+          "block_id": "BLOCK045",
+          "type": "warning",
+          "title": "A common mistake",
+          "mistake": {
+            "incorrect": "Friendly is always an adverb.",
+            "correct": "Friendly is usually an adjective.",
+            "reason": "In She is friendly, friendly describes the pronoun she. Its ending does not make it an adverb."
+          },
+          "related_learning_objective_ids": [
+            "OBJ007"
+          ]
+        }
+      ],
+      "key_takeaway": "Meaning and grammatical function matter more than word endings."
+    },
+    {
+      "page_id": "PAGE022",
+      "page_number": 22,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ007"
+      ],
+      "title": "Check What the Word Describes",
+      "content": [
+        {
+          "block_id": "BLOCK046",
+          "type": "text",
+          "text": "Do not confuse adjectives and adverbs. An adjective describes a noun or pronoun. An adverb can describe a verb, adjective, or another adverb."
+        },
+        {
+          "block_id": "BLOCK047",
+          "type": "warning",
+          "title": "A common mistake",
+          "mistake": {
+            "incorrect": "In She sings beautifully, beautifully is an adjective.",
+            "correct": "In She sings beautifully, beautifully is an adverb.",
+            "reason": "Beautifully tells us how she sings. It describes the verb sings."
+          },
+          "related_learning_objective_ids": [
+            "OBJ007"
+          ]
+        },
+        {
+          "block_id": "BLOCK048",
+          "type": "note",
+          "title": "Remember",
+          "text": "Do not use a word's position or ending as your only clue. Check its job."
+        }
+      ],
+      "key_takeaway": "Find the word being described."
+    },
+    {
+      "page_id": "PAGE023",
+      "page_number": 23,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "title": "You Can Read Word Jobs!",
+      "content": [
+        {
+          "block_id": "BLOCK049",
+          "type": "text",
+          "text": "You have learned how to identify the eight main parts of speech. Remember: the job a word performs in a sentence determines its grammatical group."
+        },
+        {
+          "block_id": "BLOCK050",
+          "type": "list",
+          "introduction": "Your quick revision guide:",
+          "list_style": "numbered",
+          "items": [
+            "Noun – naming word.",
+            "Pronoun – replacement word.",
+            "Verb – action or state word.",
+            "Adjective – describes a noun or pronoun.",
+            "Adverb – adds information about a verb, adjective, or adverb.",
+            "Preposition – relationship word.",
+            "Conjunction – joining word.",
+            "Interjection – feeling word."
+          ]
+        },
+        {
+          "block_id": "BLOCK051",
+          "type": "question",
+          "question_id": "Q002"
+        }
+      ],
+      "key_takeaway": "Read the sentence. Find the job. Name the part of speech."
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'The clever boy runs quickly', what part of speech is the word 'quickly'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "D",
+          "text": "Verb"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Quickly tells us how the boy runs. It describes the verb runs, so it is an adverb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'Wow! She opened the red door carefully', which word is an interjection?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "She"
+        },
+        {
+          "option_id": "B",
+          "text": "Red"
+        },
+        {
+          "option_id": "C",
+          "text": "Carefully"
+        },
+        {
+          "option_id": "D",
+          "text": "Wow"
+        }
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "explanation": "Wow expresses surprise or admiration. It is an interjection.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What determines the part of speech of a word?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Its length"
+        },
+        {
+          "option_id": "B",
+          "text": "Its grammatical job in the sentence"
+        },
+        {
+          "option_id": "C",
+          "text": "Its first letter"
+        },
+        {
+          "option_id": "D",
+          "text": "Its spelling alone"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "A word's grammatical function in a sentence determines its part of speech.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which group contains the eight traditional main parts of speech?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection"
+        },
+        {
+          "option_id": "B",
+          "text": "Noun, article, sentence, verb, phrase, adjective, tense, adverb"
+        },
+        {
+          "option_id": "C",
+          "text": "Noun, pronoun, tense, voice, adjective, phrase, clause, verb"
+        },
+        {
+          "option_id": "D",
+          "text": "Subject, object, verb, sentence, clause, phrase, noun, tense"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "These are the eight traditional parts of speech taught in this lesson.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "remember",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the noun in this sentence: 'The baby is sleeping.'",
+      "target": "baby",
+      "accepted_answers": [
+        "noun"
+      ],
+      "explanation": "Baby names a person. Therefore, it is a noun.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q006",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the pronoun in this sentence: 'They are my friends.'",
+      "target": "They",
+      "accepted_answers": [
+        "pronoun"
+      ],
+      "explanation": "They is a pronoun referring to people.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q007",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the verb in this sentence: 'Birds fly in the sky.'",
+      "target": "fly",
+      "accepted_answers": [
+        "verb"
+      ],
+      "explanation": "Fly tells us what the birds do. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the adjective in this sentence: 'It is a sunny day.'",
+      "target": "sunny",
+      "accepted_answers": [
+        "adjective"
+      ],
+      "explanation": "Sunny describes the noun day. It is an adjective.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q009",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Identify the adverb in this sentence: 'The dog barked loudly.'",
+      "target": "loudly",
+      "accepted_answers": [
+        "adverb"
+      ],
+      "explanation": "Loudly tells us how the dog barked. It is an adverb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Identify the preposition in this sentence: 'The keys are on the table.'",
+      "target": "on",
+      "accepted_answers": [
+        "preposition"
+      ],
+      "explanation": "On shows the relationship between the keys and the table.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q011",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Identify the conjunction in this sentence: 'I wanted to go, but it was raining.'",
+      "target": "but",
+      "accepted_answers": [
+        "conjunction"
+      ],
+      "explanation": "But joins two contrasting ideas. It is a conjunction.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q012",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Identify the interjection in this sentence: 'Hurray! We won the game.'",
+      "target": "Hurray",
+      "accepted_answers": [
+        "interjection"
+      ],
+      "explanation": "Hurray expresses happiness and excitement. It is an interjection.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'The little girl smiled happily', which part of speech is 'little'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Verb"
+        },
+        {
+          "option_id": "D",
+          "text": "Pronoun"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Little describes the noun girl. Therefore, it is an adjective.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q014",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'The children played outside', what part of speech is 'outside'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "B",
+          "text": "Noun"
+        },
+        {
+          "option_id": "C",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "D",
+          "text": "Adjective"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Outside tells us where the children played. It functions as an adverb in this sentence.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q015",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "prompt": "In which sentence is 'play' used as a noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Children play outside."
+        },
+        {
+          "option_id": "B",
+          "text": "We play football."
+        },
+        {
+          "option_id": "C",
+          "text": "The play was interesting."
+        },
+        {
+          "option_id": "D",
+          "text": "They play every evening."
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "In this sentence, play names a theatrical performance. It is a noun.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q016",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "prompt": "In the sentence 'She bought a fast car', what part of speech is 'fast'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Verb"
+        },
+        {
+          "option_id": "D",
+          "text": "Preposition"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Fast describes the noun car. It functions as an adjective.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q017",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ007"
+      ],
+      "prompt": "What part of speech is 'friendly' in the sentence 'Maya is friendly'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "B",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "C",
+          "text": "Noun"
+        },
+        {
+          "option_id": "D",
+          "text": "Preposition"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Friendly describes Maya. It is an adjective, even though it ends in -ly.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q018",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ007"
+      ],
+      "prompt": "A learner says that 'beautifully' is an adjective in the sentence 'She sings beautifully.' Correct the classification.",
+      "original_sentence": "Beautifully is an adjective.",
+      "corrected_sentence": "Beautifully is an adverb.",
+      "explanation": "Beautifully describes the verb sings by telling us how she sings. Therefore, it is an adverb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "evaluate",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q019",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "Identify the parts of speech in this sentence: 'Oh! The happy child laughed loudly.' Which option correctly classifies 'happy' and 'loudly'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Happy is an adverb; loudly is an adjective."
+        },
+        {
+          "option_id": "B",
+          "text": "Happy is an adjective; loudly is an adverb."
+        },
+        {
+          "option_id": "C",
+          "text": "Both are adjectives."
+        },
+        {
+          "option_id": "D",
+          "text": "Both are adverbs."
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Happy describes the noun child, while loudly describes the verb laughed.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q020",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'The bird flew over the house', which word is the preposition?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Bird"
+        },
+        {
+          "option_id": "B",
+          "text": "Flew"
+        },
+        {
+          "option_id": "C",
+          "text": "Over"
+        },
+        {
+          "option_id": "D",
+          "text": "House"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Over shows the relationship between the bird's movement and the house.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q021",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "Which word joins the two ideas in 'I was tired, so I went to bed'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Tired"
+        },
+        {
+          "option_id": "B",
+          "text": "So"
+        },
+        {
+          "option_id": "C",
+          "text": "Went"
+        },
+        {
+          "option_id": "D",
+          "text": "Bed"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "So joins two clauses and expresses a result. It is a conjunction.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q022",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "Identify the part of speech of 'smiled' in the sentence 'The girl smiled warmly.'",
+      "target": "smiled",
+      "accepted_answers": [
+        "verb"
+      ],
+      "explanation": "Smiled tells us what the girl did. It is a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q023",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'I arrived before lunch', what is the part of speech of 'before'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "B",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "C",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "D",
+          "text": "Interjection"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Before introduces the noun phrase lunch and shows a time relationship. It functions as a preposition.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q024",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'I stayed inside because it was raining', what is the part of speech of 'because'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Noun"
+        },
+        {
+          "option_id": "B",
+          "text": "Preposition"
+        },
+        {
+          "option_id": "C",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "D",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Because introduces a clause giving the reason. It is a conjunction.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q025",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ008"
+      ],
+      "prompt": "In the sentence 'The young boy kicked the ball hard', what part of speech is 'hard'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "B",
+          "text": "Adverb"
+        },
+        {
+          "option_id": "C",
+          "text": "Noun"
+        },
+        {
+          "option_id": "D",
+          "text": "Pronoun"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Hard tells us how the boy kicked the ball. It modifies the verb kicked and functions as an adverb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "final_check"
+      }
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Understanding Word Jobs",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "The Eight Parts of Speech",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q004"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Recognise the Word Groups",
+        "after_page_id": "PAGE014",
+        "question_ids": [
+          "Q005",
+          "Q006",
+          "Q007",
+          "Q008",
+          "Q009",
+          "Q010",
+          "Q011",
+          "Q012"
+        ]
+      },
+      {
+        "assessment_id": "DA004",
+        "dimension_id": "DIM004",
+        "title": "Sentence Identification Skills",
+        "after_page_id": "PAGE018",
+        "question_ids": [
+          "Q013",
+          "Q014"
+        ]
+      },
+      {
+        "assessment_id": "DA005",
+        "dimension_id": "DIM005",
+        "title": "Words with Different Jobs",
+        "after_page_id": "PAGE020",
+        "question_ids": [
+          "Q015",
+          "Q016"
+        ]
+      },
+      {
+        "assessment_id": "DA006",
+        "dimension_id": "DIM006",
+        "title": "Avoid Common Mistakes",
+        "after_page_id": "PAGE022",
+        "question_ids": [
+          "Q017",
+          "Q018"
+        ]
+      },
+      {
+        "assessment_id": "DA007",
+        "dimension_id": "DIM007",
+        "title": "Parts of Speech Challenge",
+        "after_page_id": "PAGE023",
+        "question_ids": [
+          "Q019"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Identify the Parts of Speech",
+      "question_ids": [
+        "Q020",
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Noun classifications",
+        "reason": "Common, proper, collective, abstract, and material nouns require a separate detailed lesson.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Pronoun classifications",
+        "reason": "Personal, possessive, reflexive, demonstrative, relative, interrogative, and indefinite pronouns require separate detailed teaching.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Verb classifications and forms",
+        "reason": "Main verbs, auxiliary verbs, modal verbs, transitive verbs, intransitive verbs, and verb forms require dedicated lessons.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Adjective classifications and degrees",
+        "reason": "Types of adjectives, comparison, and adjective order require separate lessons.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Adverb classifications and degrees",
+        "reason": "Types of adverbs, their positions, and comparison require separate lessons.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Preposition classifications and usage",
+        "reason": "Prepositions of time, place, direction, movement, and other relationships require detailed lessons.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Conjunction classifications",
+        "reason": "Coordinating, subordinating, and correlative conjunctions require separate lessons.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Determiners and articles",
+        "reason": "Modern grammar treats determiners as a separate word class. Their forms and functions require a dedicated lesson.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Gerunds and participles",
+        "reason": "Verbal forms can perform noun-like or adjective-like functions and require more detailed grammatical analysis.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Phrases and clauses",
+        "reason": "Identifying grammatical functions across complete phrases and clauses requires further study.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "review_required",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "review_required",
+    "issues_found": [
+      "The supplied lesson-generation prompt describes the required JSON output structure but does not include the complete Learn Lesson JSON Schema v2.0 definition. Exact structural validation against the application's formal schema therefore remains unverified.",
+      "The lesson introduces traditional eight-part-of-speech classification. Modern grammatical frameworks may classify determiners separately. This distinction is explained and cross-referenced.",
+      "The lesson focuses on identifying individual words by their grammatical functions. Detailed phrase-level and clause-level analysis is outside the present topic."
+    ],
+    "corrections_made": [
+      "Clarified that parts of speech are determined by grammatical function and sentence context rather than spelling alone.",
+      "Included linking verbs as well as action verbs.",
+      "Distinguished adjectives from adverbs through their grammatical functions.",
+      "Included examples of words changing grammatical roles across sentences.",
+      "Clarified the distinction between prepositions and conjunctions using before.",
+      "Included determiners as a modern grammatical category without silently adding them to the traditional eight-part classification.",
+      "Checked question answer keys, objective references, page references, assessment membership, and duplicate assessment questions."
+    ]
+  }
+}

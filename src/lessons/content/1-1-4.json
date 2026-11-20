@@ -1,0 +1,1279 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-1-4",
+    "title": "Open and Closed Word Classes",
+    "learning_stage": "Beginner",
+    "learner_level": "Grammar Foundations",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Open and Closed Word Classes",
+    "lesson_summary": "Learn how English words belong to two main groups: open classes, which can easily gain new words, and closed classes, which usually have a fixed set of words. Discover their differences, identify their members and understand how they work in everyday sentences.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Explain what open and closed word classes mean.",
+        "success_criteria": [
+          "Define an open word class in simple language.",
+          "Define a closed word class in simple language.",
+          "Explain the basic difference between the two groups."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Identify the main open and closed word classes.",
+        "success_criteria": [
+          "Name the four main open word classes.",
+          "Name the main closed word classes.",
+          "Classify common word classes into the correct group."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise open and closed word classes in sentences.",
+        "success_criteria": [
+          "Identify the word class of familiar words.",
+          "Distinguish open-class words from closed-class words in sentences.",
+          "Explain the role of selected words in context."
+        ]
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Explain how open and closed word classes behave differently.",
+        "success_criteria": [
+          "Explain how new words enter open word classes.",
+          "Explain why closed word classes change less often.",
+          "Recognise examples of new vocabulary and established grammatical words."
+        ]
+      },
+      {
+        "objective_id": "OBJ005",
+        "description": "Recognise special cases and avoid common classification mistakes.",
+        "success_criteria": [
+          "Understand that a word's grammatical class can depend on its use.",
+          "Recognise that some word classes have borderline classifications.",
+          "Avoid confusing a word's meaning with its grammatical class."
+        ]
+      },
+      {
+        "objective_id": "OBJ006",
+        "description": "Apply knowledge of open and closed word classes to everyday English.",
+        "success_criteria": [
+          "Classify words from everyday sentences.",
+          "Explain why selected words belong to their respective groups.",
+          "Correct simple classification errors."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 15
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Definition and Fundamental Concepts",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE001",
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Types and Classifications",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005",
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Identification and Recognition",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE008",
+        "PAGE009"
+      ],
+      "assessment_id": "DA003"
+    },
+    {
+      "dimension_id": "DIM004",
+      "dimension": "Practical Usage and Contextual Application",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ004",
+        "OBJ006"
+      ],
+      "page_ids": [
+        "PAGE010",
+        "PAGE011"
+      ],
+      "assessment_id": "DA004"
+    },
+    {
+      "dimension_id": "DIM005",
+      "dimension": "Related Concepts and Distinctions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "page_ids": [
+        "PAGE012",
+        "PAGE013"
+      ],
+      "assessment_id": "DA005"
+    },
+    {
+      "dimension_id": "DIM006",
+      "dimension": "Common Learner Mistakes and Error Correction",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ006"
+      ],
+      "page_ids": [
+        "PAGE014",
+        "PAGE015"
+      ],
+      "assessment_id": "DA006"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Two Groups of Words",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "English has thousands of words. But words do not all behave in the same way. We can divide them into two big groups: open word classes and closed word classes."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The little dog runs quickly.",
+              "highlight": [
+                "dog",
+                "little",
+                "runs",
+                "quickly"
+              ],
+              "explanation": "These words belong to open word classes. Other words belong to closed word classes."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "English words belong to two main groups."
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What Is an Open Class?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "An open word class is a group that can easily welcome new words. English speakers create and borrow words to talk about new things."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We can Google the answer.",
+              "highlight": [
+                "Google"
+              ],
+              "explanation": "Google began as a name. It is now also used as a verb."
+            },
+            {
+              "sentence": "She posted a selfie.",
+              "highlight": [
+                "selfie"
+              ],
+              "explanation": "Selfie is a relatively modern word added to English vocabulary."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Open classes can easily gain new words."
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What Is a Closed Class?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "A closed word class is a group with a relatively fixed set of words. New words are rarely added because these words mainly help us build sentences."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She is sitting on the chair.",
+              "highlight": [
+                "She",
+                "is",
+                "on",
+                "the"
+              ],
+              "explanation": "These words belong to closed word classes. They help connect and organise the sentence."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "note",
+          "title": "Remember",
+          "text": "Closed does not mean that no new word can ever enter the group. It means that new additions are uncommon."
+        }
+      ],
+      "key_takeaway": "Closed classes usually have a fixed set of words."
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Four Open Classes",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "There are four main open word classes. They carry much of the meaning in our sentences."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "introduction": "Meet the four open classes:",
+          "list_style": "numbered",
+          "items": [
+            "Nouns – name people, places, things or ideas.",
+            "Lexical verbs – express actions, events or states.",
+            "Adjectives – describe nouns.",
+            "Adverbs – modify verbs, adjectives, other adverbs or whole clauses."
+          ]
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The happy child plays happily.",
+              "highlight": [
+                "child",
+                "plays",
+                "happy",
+                "happily"
+              ],
+              "explanation": "Child is a noun, plays is a verb, happy is an adjective and happily is an adverb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Nouns, lexical verbs, adjectives and adverbs are the main open classes."
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Closed Word Classes",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Closed word classes contain words that help sentences work. They show relationships, point to people or things, and connect ideas."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "introduction": "The main closed classes include:",
+          "list_style": "bulleted",
+          "items": [
+            "Pronouns – I, you, he, she, they.",
+            "Determiners – a, an, the, this, some.",
+            "Prepositions – in, on, under, at, with.",
+            "Conjunctions – and, but, because, although.",
+            "Auxiliary verbs – be, have and do when used as helping verbs, and modal auxiliaries such as can and must.",
+            "Particles – words such as not and the infinitive marker to, in their grammatical uses."
+          ]
+        }
+      ],
+      "key_takeaway": "Closed classes help words work together in sentences."
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Open Versus Closed",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Open classes",
+              "description": "Can easily gain new vocabulary.",
+              "example": "Noun: selfie"
+            },
+            {
+              "label": "Closed classes",
+              "description": "Usually have a relatively fixed set of words.",
+              "example": "Preposition: under"
+            }
+          ],
+          "comparison_points": [
+            "Open classes mainly carry lexical meaning.",
+            "Closed classes mainly provide grammatical structure.",
+            "New vocabulary is added more easily to open classes."
+          ],
+          "conclusion": "Both groups are important for making meaningful sentences."
+        }
+      ],
+      "key_takeaway": "Open classes grow more easily than closed classes."
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "See Both Groups Together",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The clever boy ran into the garden.",
+              "highlight": [
+                "clever",
+                "boy",
+                "ran",
+                "The",
+                "into",
+                "the"
+              ],
+              "explanation": "Clever is an adjective, boy is a noun and ran is a verb. The and into are closed-class words: a determiner and a preposition."
+            },
+            {
+              "sentence": "She sings beautifully.",
+              "highlight": [
+                "She",
+                "sings",
+                "beautifully"
+              ],
+              "explanation": "She is a pronoun, sings is a verb and beautifully is an adverb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One sentence can contain words from both groups."
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "application",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "How to Identify Them",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "text",
+          "text": "Look at what a word does in a sentence. Does it name, describe or express an action? It may belong to an open class. Does it connect, point or show a relationship? It may belong to a closed class."
+        },
+        {
+          "block_id": "BLOCK016",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "A cat slept under the table.",
+              "highlight": [
+                "A",
+                "cat",
+                "slept",
+                "under",
+                "the",
+                "table"
+              ],
+              "explanation": "Cat and table are nouns, slept is a verb, while a and the are determiners and under is a preposition."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Identify a word by its job in the sentence."
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "practice",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Check What You Know",
+      "content": [
+        {
+          "block_id": "BLOCK017",
+          "type": "text",
+          "text": "Let's practise identifying open and closed word classes. Read each question carefully and think about the job of the word."
+        }
+      ],
+      "key_takeaway": "Look at the word's grammatical job."
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Why Are They Open?",
+      "content": [
+        {
+          "block_id": "BLOCK019",
+          "type": "text",
+          "text": "People invent new things and new ways to communicate. English needs new words to describe them. New nouns, verbs, adjectives and adverbs can enter the language."
+        },
+        {
+          "block_id": "BLOCK020",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "He downloaded an app.",
+              "highlight": [
+                "downloaded",
+                "app"
+              ],
+              "explanation": "App is a modern noun. Download is also used as a verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "New ideas bring new open-class vocabulary."
+    },
+    {
+      "page_id": "PAGE011",
+      "page_number": 11,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Why Are They Closed?",
+      "content": [
+        {
+          "block_id": "BLOCK021",
+          "type": "text",
+          "text": "Words such as the, and, in and she perform basic grammatical jobs. English usually does not need new words for these jobs, so their groups change very slowly."
+        },
+        {
+          "block_id": "BLOCK022",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She put the book on the table.",
+              "highlight": [
+                "She",
+                "the",
+                "on"
+              ],
+              "explanation": "These established grammatical words show who, which thing and where."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK023",
+          "type": "note",
+          "title": "Remember",
+          "text": "Closed classes are not completely frozen. Their membership can change over time, but additions are uncommon."
+        }
+      ],
+      "key_takeaway": "Closed classes change slowly because their grammatical jobs are established."
+    },
+    {
+      "page_id": "PAGE012",
+      "page_number": 12,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "One Word, Two Jobs",
+      "content": [
+        {
+          "block_id": "BLOCK024",
+          "type": "text",
+          "text": "Some words can belong to different word classes in different sentences. Their grammatical job depends on how they are used."
+        },
+        {
+          "block_id": "BLOCK025",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Noun: a text",
+              "description": "Text names a written message.",
+              "example": "I received a text."
+            },
+            {
+              "label": "Verb: to text",
+              "description": "Text expresses an action.",
+              "example": "I will text you."
+            }
+          ],
+          "comparison_points": [
+            "The spelling is the same.",
+            "The grammatical jobs are different."
+          ],
+          "conclusion": "Always examine the word in its sentence."
+        }
+      ],
+      "key_takeaway": "A word's class depends on how it is used."
+    },
+    {
+      "page_id": "PAGE013",
+      "page_number": 13,
+      "page_type": "exception",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "title": "Some Special Cases",
+      "content": [
+        {
+          "block_id": "BLOCK026",
+          "type": "text",
+          "text": "Not every word fits perfectly into a simple open-or-closed list. Some grammar books classify certain words differently. Interjections, such as wow and oh, are often treated separately."
+        },
+        {
+          "block_id": "BLOCK027",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Wow! That is amazing!",
+              "highlight": [
+                "Wow"
+              ],
+              "explanation": "Wow is an interjection. It expresses a sudden feeling. Its classification may vary across grammatical frameworks."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK028",
+          "type": "note",
+          "title": "Important",
+          "text": "This lesson focuses on the main open and closed word classes. Some advanced grammar systems use more detailed classifications."
+        }
+      ],
+      "key_takeaway": "Some words need a closer look before classification."
+    },
+    {
+      "page_id": "PAGE014",
+      "page_number": 14,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ005",
+        "OBJ006"
+      ],
+      "title": "Avoid This Mistake",
+      "content": [
+        {
+          "block_id": "BLOCK029",
+          "type": "text",
+          "text": "Do not decide whether a word is open or closed just by looking at its spelling or meaning. First identify its grammatical job in the sentence."
+        },
+        {
+          "block_id": "BLOCK030",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Text is always a noun.",
+            "correct": "Text can be a noun or a verb.",
+            "reason": "In 'I received a text', it is a noun. In 'I will text you', it is a verb. Both noun and lexical verb are open classes."
+          },
+          "related_learning_objective_ids": [
+            "OBJ005"
+          ]
+        }
+      ],
+      "key_takeaway": "Classify words by their use, not just their form."
+    },
+    {
+      "page_id": "PAGE015",
+      "page_number": 15,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ004",
+        "OBJ005",
+        "OBJ006"
+      ],
+      "title": "Your Quick Revision",
+      "content": [
+        {
+          "block_id": "BLOCK031",
+          "type": "list",
+          "introduction": "Remember these important points:",
+          "list_style": "bulleted",
+          "items": [
+            "Open classes can easily gain new words.",
+            "The four main open classes are nouns, lexical verbs, adjectives and adverbs.",
+            "Closed classes usually contain a relatively fixed set of words.",
+            "Pronouns, determiners, prepositions and conjunctions are closed classes.",
+            "Auxiliaries and particles are also generally classified as closed classes.",
+            "A word's grammatical class depends on its job in a sentence."
+          ]
+        }
+      ],
+      "key_takeaway": "Open classes grow. Closed classes provide grammatical structure."
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What is an open word class?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "A group that can easily gain new words."
+        },
+        {
+          "option_id": "B",
+          "text": "A group that contains only one word."
+        },
+        {
+          "option_id": "C",
+          "text": "A group that never changes."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "An open word class can easily gain new words as the language develops.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Closed word classes usually have a relatively fixed set of words.",
+      "correct_answer": true,
+      "explanation": "Correct. Closed classes usually gain new words very rarely.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In the sentence 'The dog sleeps under the table', which word belongs to a closed class?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "dog"
+        },
+        {
+          "option_id": "B",
+          "text": "sleeps"
+        },
+        {
+          "option_id": "C",
+          "text": "under"
+        },
+        {
+          "option_id": "D",
+          "text": "table"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Under is a preposition. Prepositions belong to closed word classes.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "practice"
+      }
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which group contains only open word classes?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Nouns, verbs, adjectives and adverbs."
+        },
+        {
+          "option_id": "B",
+          "text": "Pronouns, prepositions and conjunctions."
+        },
+        {
+          "option_id": "C",
+          "text": "Determiners, nouns and pronouns."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nouns, lexical verbs, adjectives and adverbs are the four main open word classes.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "remember",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q005",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Match each word class with its correct group.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "Noun"
+        },
+        {
+          "item_id": "L2",
+          "text": "Pronoun"
+        },
+        {
+          "item_id": "L3",
+          "text": "Adjective"
+        },
+        {
+          "item_id": "L4",
+          "text": "Preposition"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "Open class"
+        },
+        {
+          "item_id": "R2",
+          "text": "Closed class"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R2"
+        }
+      ],
+      "explanation": "Nouns and adjectives are open classes. Pronouns and prepositions are closed classes.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'She sings beautifully', which word is a closed-class word?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "She"
+        },
+        {
+          "option_id": "B",
+          "text": "sings"
+        },
+        {
+          "option_id": "C",
+          "text": "beautifully"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "She is a pronoun, which belongs to a closed word class.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q007",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "New words can easily enter open word classes.",
+      "correct_answer": true,
+      "explanation": "Open classes welcome new vocabulary as people create new words and adopt words from other languages.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Why do closed word classes usually change slowly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "They mainly perform established grammatical jobs."
+        },
+        {
+          "option_id": "B",
+          "text": "They contain all new vocabulary."
+        },
+        {
+          "option_id": "C",
+          "text": "They are not used in sentences."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Closed-class words perform established grammatical jobs, so new additions are uncommon.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "understand",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "In which sentence is 'text' used as a verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "I received a text."
+        },
+        {
+          "option_id": "B",
+          "text": "I will text you."
+        },
+        {
+          "option_id": "C",
+          "text": "The text is long."
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "In 'I will text you', text describes the action of sending a message, so it is a verb.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "analyse",
+        "assessment_purpose": "dimension_check"
+      }
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "prompt": "Which statement correctly describes open and closed word classes?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Open classes can easily gain words, while closed classes usually change slowly."
+        },
+        {
+          "option_id": "B",
+          "text": "Open classes contain only short words."
+        },
+        {
+          "option_id": "C",
+          "text": "Closed classes contain all nouns and verbs."
+        },
+        {
+          "option_id": "D",
+          "text": "Every word always belongs to the same class."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Open classes grow more easily, while closed classes usually have relatively fixed membership.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "evaluate",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which of these is a closed word class?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Adjective"
+        },
+        {
+          "option_id": "B",
+          "text": "Noun"
+        },
+        {
+          "option_id": "C",
+          "text": "Conjunction"
+        },
+        {
+          "option_id": "D",
+          "text": "Adverb"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Conjunctions such as and, but and because belong to closed word classes.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "remember",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ006"
+      ],
+      "prompt": "In 'The little girl smiled happily', which word is an adjective?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The"
+        },
+        {
+          "option_id": "B",
+          "text": "little"
+        },
+        {
+          "option_id": "C",
+          "text": "smiled"
+        },
+        {
+          "option_id": "D",
+          "text": "happily"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Little describes the noun girl, so it is an adjective and belongs to an open word class.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q013",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ005"
+      ],
+      "prompt": "A word always belongs to the same word class, whatever sentence it appears in.",
+      "correct_answer": false,
+      "explanation": "Some words can belong to different word classes depending on their grammatical use. Text, for example, can be a noun or a verb.",
+      "assessment_metadata": {
+        "difficulty": "medium",
+        "cognitive_level": "understand",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q014",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word is a determiner?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Quickly"
+        },
+        {
+          "option_id": "B",
+          "text": "Under"
+        },
+        {
+          "option_id": "C",
+          "text": "Those"
+        },
+        {
+          "option_id": "D",
+          "text": "Beautiful"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Those is a determiner when it comes before a noun, as in those books. Determiners belong to closed word classes.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    },
+    {
+      "question_id": "Q015",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ006"
+      ],
+      "prompt": "Identify the open-class word in this sentence: 'The children played outside.'",
+      "target": "children",
+      "accepted_answers": [
+        "children"
+      ],
+      "explanation": "Children is a noun. Nouns are open-class words.",
+      "assessment_metadata": {
+        "difficulty": "easy",
+        "cognitive_level": "apply",
+        "assessment_purpose": "final_check"
+      }
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Understanding the Two Groups",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Classifying Word Classes",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Identifying Word Classes",
+        "after_page_id": "PAGE009",
+        "question_ids": [
+          "Q003",
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA004",
+        "dimension_id": "DIM004",
+        "title": "Understanding How Classes Work",
+        "after_page_id": "PAGE011",
+        "question_ids": [
+          "Q007",
+          "Q008"
+        ]
+      },
+      {
+        "assessment_id": "DA005",
+        "dimension_id": "DIM005",
+        "title": "Words in Different Roles",
+        "after_page_id": "PAGE013",
+        "question_ids": [
+          "Q009"
+        ]
+      },
+      {
+        "assessment_id": "DA006",
+        "dimension_id": "DIM006",
+        "title": "Applying Your Understanding",
+        "after_page_id": "PAGE015",
+        "question_ids": [
+          "Q010"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Open and Closed Word Classes: Final Test",
+      "question_ids": [
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The Eight Parts of Speech",
+        "reason": "A separate lesson can explain the individual word classes and their grammatical functions in greater depth.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Grammatical Categories and Word-Class Changes",
+        "reason": "A separate lesson can explore how words change grammatical class through conversion and other processes.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Functional and Lexical Words",
+        "reason": "A separate lesson can explain the distinction between words carrying lexical meaning and words primarily expressing grammatical relationships.",
+        "coverage": "introduced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "review_required",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "review_required",
+    "issues_found": [
+      "The separate Learn Lesson JSON Schema v2.0 definition was not supplied. The output follows the structural contracts and field requirements described in the generation prompt, but full external JSON Schema validation remains unverified.",
+      "Interjections and some borderline grammatical categories may be classified differently across linguistic frameworks. The lesson identifies this variation rather than presenting one classification as universal."
+    ],
+    "corrections_made": [
+      "Distinguished lexical verbs from auxiliary verbs when classifying open and closed classes.",
+      "Clarified that closed classes are relatively fixed rather than permanently unchangeable.",
+      "Included determiners, conjunctions, pronouns, prepositions, auxiliaries and particles in the closed-class classification.",
+      "Added contextual examples showing that the same spelling can function as different word classes.",
+      "Separated dimension assessment questions from final assessment questions to prevent duplicate assessment membership.",
+      "Checked objective references, page references, question references, answer keys and matching-pair mappings."
+    ]
+  }
+}
