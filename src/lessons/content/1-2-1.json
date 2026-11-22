@@ -1,0 +1,757 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-2-1",
+    "title": "Introduction to Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Introduction to Nouns",
+    "lesson_summary": "Learners already know that a noun names a person, place, animal, thing or idea. This lesson shows the wider range of things nouns name, such as events, times, jobs and school subjects, and gives two quick tests for spotting a noun. It ends with a map of the kinds of nouns the chapter explores next.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise nouns that name events, times, jobs and school subjects.",
+        "success_criteria": [
+          "Identify a noun that names an event.",
+          "Identify a noun that names a time of day, day or season.",
+          "Identify a noun that names a job or a school subject."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use the naming question and the frame test to decide whether a word is a noun.",
+        "success_criteria": [
+          "Ask whether a word names someone or something.",
+          "Place a word in the frame 'I can see the ___' to check it.",
+          "Find every noun in a longer sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise that nouns can be sorted into different kinds.",
+        "success_criteria": [
+          "Name at least two kinds of nouns the chapter will explore."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 10
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "What Nouns Can Name",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Spotting a Noun",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006",
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Nouns Are Everywhere",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Almost every sentence has a noun. You already know that nouns name people, places, animals, things and ideas. Now let's see how much more they name, and how to spot them fast."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our bus reached the station at noon.",
+              "highlight": [
+                "bus",
+                "station",
+                "noon"
+              ],
+              "explanation": "This short sentence has three nouns: bus, station and noon."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Most sentences contain at least one noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Nouns Name Events",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Some nouns name things that happen, such as a party, a match or a wedding. You cannot hold an event in your hand, but its name is still a noun."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The wedding starts after lunch.",
+              "highlight": [
+                "wedding"
+              ],
+              "explanation": "Wedding names an event, so it is a noun."
+            },
+            {
+              "sentence": "Our school won the quiz.",
+              "highlight": [
+                "quiz"
+              ],
+              "explanation": "Quiz names an event too. It is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Events have names, and those names are nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Nouns Name Times",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Words for parts of the day, days of the week and seasons are nouns. They name a time."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Grandpa visits us every summer.",
+              "highlight": [
+                "summer"
+              ],
+              "explanation": "Summer names a season, so it is a noun."
+            },
+            {
+              "sentence": "The bakery closes in the evening.",
+              "highlight": [
+                "evening"
+              ],
+              "explanation": "Evening names a part of the day, so it is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Times and seasons are named by nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Nouns Name Jobs and Subjects",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Nouns also name the jobs people do and the subjects we study at school."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Her cousin works as a nurse.",
+              "highlight": [
+                "nurse"
+              ],
+              "explanation": "Nurse names a job, so it is a noun."
+            },
+            {
+              "sentence": "History is my favourite subject.",
+              "highlight": [
+                "History",
+                "subject"
+              ],
+              "explanation": "History names a school subject. Subject is a noun too."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Jobs and school subjects are nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Naming Question",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "To spot a noun, ask one question: does this word name someone or something? If the answer is yes, the word is probably a noun."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The guide showed us the castle.",
+              "highlight": [
+                "guide",
+                "castle"
+              ],
+              "explanation": "Guide names a person and castle names a place. Both are nouns."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "If a word names someone or something, it is a noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Try the Frame Test",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Put the word in the frame 'I can see the ___'. If the sentence makes sense, the word is usually a noun.",
+          "scope": "A quick everyday check; nouns for ideas or times may need a different frame, such as 'The ___ was lovely'.",
+          "conditions": [
+            "The word is used as a single word in the gap."
+          ],
+          "examples": [
+            {
+              "sentence": "I can see the lighthouse.",
+              "highlight": [
+                "lighthouse"
+              ],
+              "explanation": "The frame makes sense with lighthouse, so lighthouse is a noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A word that fits the frame is usually a noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Does It Fit the Frame?",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Fits the frame",
+              "description": "The sentence makes sense, so the word is a noun.",
+              "example": "I can see the bridge."
+            },
+            {
+              "label": "Breaks the frame",
+              "description": "The sentence sounds wrong, so the word is not a noun.",
+              "example": "I can see the quickly."
+            }
+          ],
+          "comparison_points": [
+            "Bridge names a thing, so it fits.",
+            "Quickly tells how something happens, so it breaks the frame."
+          ],
+          "conclusion": "Only a noun sounds right in the gap."
+        }
+      ],
+      "key_takeaway": "If the frame sounds wrong, the word is not a noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "application",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Test Every Word",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "text",
+          "text": "A longer sentence can have several nouns. Test the words one by one with the naming question."
+        },
+        {
+          "block_id": "BLOCK014",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The baker sold bread to a tourist at the market.",
+              "highlight": [
+                "baker",
+                "bread",
+                "tourist",
+                "market"
+              ],
+              "explanation": "Baker and tourist name people. Bread names a thing. Market names a place. All four are nouns."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Check each word: one sentence can hold many nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Noun Family",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "text",
+          "text": "Nouns come in different kinds. You will meet each kind in its own lesson."
+        },
+        {
+          "block_id": "BLOCK016",
+          "type": "list",
+          "introduction": "Coming up next:",
+          "list_style": "bulleted",
+          "items": [
+            "Common and proper – general names or special names",
+            "Concrete and abstract – things you sense or ideas",
+            "Collective – names for groups",
+            "Countable and uncountable – things you can or cannot count",
+            "Compound – nouns made from two words",
+            "Possessive – nouns that show who owns something"
+          ]
+        }
+      ],
+      "key_takeaway": "Nouns come in many kinds.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Your Noun Toolkit",
+      "content": [
+        {
+          "block_id": "BLOCK017",
+          "type": "list",
+          "introduction": "You can now:",
+          "list_style": "bulleted",
+          "items": [
+            "Spot nouns for events, times, jobs and subjects.",
+            "Ask: does this word name someone or something?",
+            "Try the frame: I can see the ___.",
+            "Test every word in a long sentence."
+          ]
+        }
+      ],
+      "key_takeaway": "The naming question and the frame test find nouns.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word in 'The concert ended at midnight' names an event?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "concert"
+        },
+        {
+          "option_id": "B",
+          "text": "ended"
+        },
+        {
+          "option_id": "C",
+          "text": "midnight"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A concert is something that happens, so concert names an event. Midnight names a time."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the noun that names a job in: 'Our neighbour called a plumber yesterday.'",
+      "target": "The word that names a job.",
+      "accepted_answers": [
+        "plumber",
+        "a plumber"
+      ],
+      "explanation": "A plumber is a person who does a job, so plumber is the noun that names a job."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'We meet every Friday afternoon', the word afternoon is a noun.",
+      "correct_answer": true,
+      "explanation": "Afternoon names a part of the day, so it is a noun."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word fits the frame 'I can see the ___'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "lantern"
+        },
+        {
+          "option_id": "B",
+          "text": "gently"
+        },
+        {
+          "option_id": "C",
+          "text": "borrowed"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "'I can see the lantern' makes sense, so lantern is a noun. Gently and borrowed break the frame."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the two nouns in: 'The farmer repaired the fence.'",
+      "target": "Both words that name someone or something.",
+      "accepted_answers": [
+        "farmer, fence"
+      ],
+      "explanation": "Farmer names a person and fence names a thing. Repaired is an action."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'They whispered softly', the word whispered is a noun.",
+      "correct_answer": false,
+      "explanation": "Whispered names an action, not someone or something, and 'I can see the whispered' sounds wrong."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence has a noun that names an event?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The festival lasted three days."
+        },
+        {
+          "option_id": "B",
+          "text": "She smiled warmly at us."
+        },
+        {
+          "option_id": "C",
+          "text": "We stayed very quiet."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A festival is something that happens, so festival names an event."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Identify every noun in: 'The dentist checked my teeth on Tuesday.'",
+      "target": "All the words that name someone or something.",
+      "accepted_answers": [
+        "dentist, teeth, Tuesday"
+      ],
+      "explanation": "Dentist names a job, teeth names things and Tuesday names a day. My and checked are not nouns."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word is NOT a noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "harbour"
+        },
+        {
+          "option_id": "B",
+          "text": "slowly"
+        },
+        {
+          "option_id": "C",
+          "text": "holiday"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Slowly does not name anything, and 'I can see the slowly' sounds wrong. Harbour and holiday are nouns."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "A noun can name something you cannot touch, such as a meeting.",
+      "correct_answer": true,
+      "explanation": "A meeting is an event. You cannot touch it, but its name is still a noun."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Nouns can be sorted into different kinds, such as names for groups and nouns made from two words.",
+      "correct_answer": true,
+      "explanation": "Collective nouns name groups and compound nouns are made from two words. These are two of the kinds this chapter explores."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check What Nouns Name",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Spotting Nouns",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q004",
+          "Q005",
+          "Q006"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Introduction to Nouns: Final Check",
+      "question_ids": [
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Basic definition of a noun",
+        "reason": "Lesson 1.1.2 already teaches that a noun names a person, place, animal, thing or idea; this lesson builds on it.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Kinds of nouns (common, proper, concrete, abstract, collective, countable, compound, possessive)",
+        "reason": "Each kind has its own lesson in this chapter (1-2-2 to 1-2-11); this lesson only previews them.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Singular and plural nouns",
+        "reason": "Taught in 1-2-8 and 1-2-9.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Noun functions in sentences",
+        "reason": "Taught in 1-2-13 and in Stage 2.4 Sentence Structure.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Narrowed the earlier 1-2-1 draft to its Chapter 2 scope: noun functions, noun phrases and plurals moved to 1-2-8, 1-2-9, 1-2-13 and Stage 4.3.",
+      "Used schema v2.0 values for dimension status, cross-references and audit fields."
+    ]
+  }
+}

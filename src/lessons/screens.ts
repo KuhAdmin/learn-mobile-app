@@ -8,6 +8,7 @@
  * - A comparison too tall for one screen splits into its items, then its points + conclusion.
  * - A summary page, or a page with no intro text, ends with its picture + Key Takeaway on their own screen.
  * - In-page practice questions are not drawn on screens; the flow turns them into question steps.
+ * - A rule's examples are drawn as an example card under the rule (`screenBlocks`).
  */
 import { parseList } from './list-items';
 import type { ContentBlock, Lesson, LessonPage } from './model';
@@ -223,7 +224,8 @@ export function estimateHeight(block: ContentBlock, art: BlockArt = {}): number 
         lines(block.mistake.reason, 40) * 20
       );
     case 'rule':
-      return 32 + Math.max(52, 34 + lines(block.rule_text, 30) * 22);
+      // Its examples are a separate block (see `screenBlocks`); the scope line sits under the rule text.
+      return 32 + Math.max(52, 34 + lines(block.rule_text, 30) * 22 + (block.scope ? 4 + lines(block.scope, 34) * 22 : 0));
     case 'question':
       return 0;
   }
@@ -248,11 +250,27 @@ export interface PageScreenOptions {
   budget?: number;
 }
 
+/**
+ * The blocks a page draws, in order. In-page questions are left out (they are question steps). A rule's worked
+ * examples follow it as their own example card (same block id), so they pack like any other example and take
+ * `exampleArt` keyed by the rule's block id.
+ */
+export function screenBlocks(page: LessonPage): ContentBlock[] {
+  return page.content.flatMap((b): ContentBlock[] => {
+    if (b.type === 'question') return [];
+    if (b.type === 'rule' && b.examples?.length) {
+      const { examples, ...rule } = b;
+      return [rule, { block_id: b.block_id, type: 'example', examples }];
+    }
+    return [b];
+  });
+}
+
 export function pageScreens(page: LessonPage, pageIndex: number, opts: PageScreenOptions = {}): LessonScreen[] {
   // The page head grows with the title; the rest of the window is for blocks.
   const SCREEN_BUDGET = (opts.budget ?? DEFAULT_BUDGET) - titleLines(page.title) * TITLE_LINE;
   const height = (b: ContentBlock) => estimateHeight(b, opts.blockArt?.[b.block_id]);
-  const blocks = page.content.filter((b) => b.type !== 'question');
+  const blocks = screenBlocks(page);
   const leadCount = blocks.findIndex((b) => b.type !== 'text');
   const lead = leadCount === -1 ? blocks : blocks.slice(0, leadCount);
   let queue = leadCount === -1 ? [] : blocks.slice(leadCount);
@@ -338,7 +356,7 @@ export function pageBlockArt(page: LessonPage, visuals?: LessonVisuals): Record<
   const art: Record<string, BlockArt> = {};
   for (const block of page.content) {
     const examples = visuals?.exampleArt?.[block.block_id];
-    if (block.type === 'example' && examples) art[block.block_id] = { examples };
+    if ((block.type === 'example' || block.type === 'rule') && examples) art[block.block_id] = { examples };
     const comparison = visuals?.comparisonArt?.[block.block_id];
     if (comparison) art[block.block_id] = { comparison };
   }

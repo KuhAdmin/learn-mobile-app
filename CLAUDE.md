@@ -43,6 +43,16 @@ Schema 1.0 lessons (`1.1.1.EP001`) have no learning dimensions, only a final qui
 2. **Keep the coverage brief current.** After adding a lesson, run `npm run lesson:overlap -- --write-brief "assets/Content generation/Chapter1_Coverage_Brief.md"`. Only the part below the marker is regenerated.
 3. **Fix content bugs in the app's copy and tell the user.** Examples: swapped answers, duplicate questions, a dimension check in the wrong place. Their source file (the workbench / generation prompt) is theirs to change.
 
+## Lesson artwork
+
+1. **Every lesson image has a transparent background.** Pictures cut from a mockup never keep the mockup's ivory page background.
+   - Keep the drawing itself, including the pale mint blob behind a character and any white inside the drawing (a coat, a page, a speech bubble).
+   - Save it as lossless WebP with alpha in `assets/lessons/<topic_id>/`.
+2. **Make the cutout with `npm run art:cutout -- <crops…> --out assets/lessons/<topic_id>`** (needs ffmpeg).
+   - It removes only the warm-ivory background connected to the image edge.
+   - Look at the result over a dark or coloured background before using it.
+3. **The tests enforce rule 1.** `lessons.test.ts` fails on any lesson image without transparency. `npm run art:cutout -- --check` lists them.
+
 ## Learner state
 
 - **Saved state goes through `src/state/storage.ts` only** (expo-sqlite `localStorage`). Never call storage from screens.

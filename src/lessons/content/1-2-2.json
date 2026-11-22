@@ -1,0 +1,871 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-2-2",
+    "title": "Common and Proper Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Common and Proper Nouns",
+    "lesson_summary": "Learners tell general names (common nouns) from the special names of one particular person, place or thing (proper nouns), write proper nouns with capital letters, and recognise when a common word such as road or school becomes part of a proper name.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Distinguish common nouns from proper nouns.",
+        "success_criteria": [
+          "Explain that a common noun is a general name.",
+          "Explain that a proper noun names one particular person, place or thing.",
+          "Sort nouns into common and proper."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Write proper nouns with a capital letter.",
+        "success_criteria": [
+          "Capitalise names of people, places, days, months and festivals.",
+          "Capitalise the names of films, books and clubs.",
+          "Choose the correctly capitalised sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise a common word that has become part of a proper name.",
+        "success_criteria": [
+          "Tell 'a lake' from 'Lotus Lake'.",
+          "Explain why both words of a place name take capitals."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 13,
+    "total_pages": 10
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "General Names and Special Names",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Capital Letters for Proper Nouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Common Words Inside Proper Names",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE008",
+        "PAGE009"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Any City or One City?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some nouns name any member of a group, like city. Others name one particular person, place or thing, like Jaipur."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Jaipur is a busy city.",
+              "highlight": [
+                "Jaipur",
+                "city"
+              ],
+              "explanation": "City could be any city. Jaipur is the name of one particular city."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Some names are general; some are special.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Common Nouns Are General Names",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "A common noun is a general name. It can name any person, place, animal or thing of one kind."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "A doctor works at the hospital.",
+              "highlight": [
+                "doctor",
+                "hospital"
+              ],
+              "explanation": "Doctor and hospital could be any doctor and any hospital, so they are common nouns."
+            },
+            {
+              "sentence": "The puppy chewed my slipper.",
+              "highlight": [
+                "puppy",
+                "slipper"
+              ],
+              "explanation": "Puppy and slipper are general names too."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A common noun names any one of a kind.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Proper Nouns Are Special Names",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "A proper noun is the special name of one particular person, place or thing. It always begins with a capital letter."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Arjun lives in Pune.",
+              "highlight": [
+                "Arjun",
+                "Pune"
+              ],
+              "explanation": "Arjun names one particular boy and Pune names one particular city."
+            },
+            {
+              "sentence": "Our cat Biscuit sleeps all day.",
+              "highlight": [
+                "Biscuit"
+              ],
+              "explanation": "Biscuit is the name of one particular cat."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A proper noun names one particular person, place or thing.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 46,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "General Name or Special Name?",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Common noun",
+              "description": "A general name for any dog.",
+              "example": "The dog barked at the postman."
+            },
+            {
+              "label": "Proper noun",
+              "description": "The name of one particular dog.",
+              "example": "Bruno barked at the postman."
+            }
+          ],
+          "comparison_points": [
+            "Dog could be any dog.",
+            "Bruno is the name of just one dog, so it starts with a capital."
+          ],
+          "conclusion": "A proper noun points to one particular member of a group."
+        }
+      ],
+      "key_takeaway": "Ask: could it be any one, or just this one?",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Proper Nouns Take Capitals",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Begin every proper noun with a capital letter, wherever it appears in a sentence.",
+          "scope": "Standard written English",
+          "examples": [
+            {
+              "sentence": "We met Neha outside the cinema.",
+              "highlight": [
+                "Neha"
+              ],
+              "explanation": "Neha is in the middle of the sentence, but it is a name, so it starts with a capital."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "We drove to agra on sunday.",
+            "correct": "We drove to Agra on Sunday.",
+            "reason": "Agra and Sunday are proper nouns, so they need capital letters."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Proper nouns always start with a capital letter.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Days, Months and Festivals",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "The names of days, months and festivals are proper nouns. They start with capital letters too."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Diwali comes in November this year.",
+              "highlight": [
+                "Diwali",
+                "November"
+              ],
+              "explanation": "Diwali names one festival and November names one month."
+            },
+            {
+              "sentence": "The library is closed on Mondays.",
+              "highlight": [
+                "Mondays"
+              ],
+              "explanation": "Monday is the name of a day, so it takes a capital."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Days, months and festivals start with capitals.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Names of Films, Books and Clubs",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "text",
+          "text": "The name of a film, book, team or club is a proper noun as well. Its main words start with capitals."
+        },
+        {
+          "block_id": "BLOCK013",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We watched Jungle Friends at the cinema.",
+              "highlight": [
+                "Jungle Friends"
+              ],
+              "explanation": "Jungle Friends is the name of one particular film."
+            },
+            {
+              "sentence": "The Green Club planted fifty trees.",
+              "highlight": [
+                "Green Club"
+              ],
+              "explanation": "Green Club is the name of one particular club."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Titles and club names are proper nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "concept",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "When a Common Word Joins a Name",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "text",
+          "text": "Words like school, road and lake are common nouns. When one becomes part of a particular name, it starts with a capital letter too."
+        },
+        {
+          "block_id": "BLOCK015",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our school is near the main road.",
+              "highlight": [
+                "school",
+                "road"
+              ],
+              "explanation": "Here school and road are general words, so they stay small."
+            },
+            {
+              "sentence": "Green Valley School is on Park Road.",
+              "highlight": [
+                "Green Valley School",
+                "Park Road"
+              ],
+              "explanation": "Now school and road are part of names, so every word starts with a capital."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A common word inside a name gets a capital.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Any Lake or Lotus Lake?",
+      "content": [
+        {
+          "block_id": "BLOCK016",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "General word",
+              "description": "It could be any lake.",
+              "example": "We had a picnic by a lake."
+            },
+            {
+              "label": "Part of a name",
+              "description": "It names one particular lake.",
+              "example": "We had a picnic by Lotus Lake."
+            }
+          ],
+          "comparison_points": [
+            "A lake could be any lake, so lake stays small.",
+            "Lotus Lake is one place, so both words take capitals."
+          ],
+          "conclusion": "Check whether the words name one particular place."
+        }
+      ],
+      "key_takeaway": "Part of a special name? Use a capital.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Common or Proper: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK017",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Common nouns are general names: city, doctor, lake.",
+            "Proper nouns name one particular person, place or thing.",
+            "Proper nouns start with capital letters.",
+            "Days, months, festivals and titles are proper nouns.",
+            "A common word inside a name gets a capital too."
+          ]
+        }
+      ],
+      "key_takeaway": "General names stay small; special names get capitals.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word in 'Kabir flew a kite in Delhi' is a common noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Kabir"
+        },
+        {
+          "option_id": "B",
+          "text": "kite"
+        },
+        {
+          "option_id": "C",
+          "text": "Delhi"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Kite could be any kite, so it is a common noun. Kabir and Delhi are special names."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the proper noun in: 'My uncle flew to Singapore.'",
+      "target": "The special name of one particular place.",
+      "accepted_answers": [
+        "Singapore"
+      ],
+      "explanation": "Singapore is the name of one particular place, so it is a proper noun."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Teacher is a proper noun.",
+      "correct_answer": false,
+      "explanation": "Teacher is a general name for anyone who teaches, so it is a common noun."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence uses capital letters correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "My friend Sana was born in July."
+        },
+        {
+          "option_id": "B",
+          "text": "My friend sana was born in july."
+        },
+        {
+          "option_id": "C",
+          "text": "My Friend Sana was born in July."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Sana and July are proper nouns, so they take capitals. Friend is a common noun, so it stays small."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word needs a capital letter in 'we celebrate eid with our cousins'? Ignore the first word.",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "celebrate"
+        },
+        {
+          "option_id": "B",
+          "text": "eid"
+        },
+        {
+          "option_id": "C",
+          "text": "cousins"
+        }
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "explanation": "Eid is the name of a festival, so it is a proper noun and needs a capital."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "The name of a day, such as Saturday, always starts with a capital letter.",
+      "correct_answer": true,
+      "explanation": "Days of the week are proper nouns, so they always start with capitals."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence uses capitals correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We walked along Marine Drive."
+        },
+        {
+          "option_id": "B",
+          "text": "We walked along marine Drive."
+        },
+        {
+          "option_id": "C",
+          "text": "We walked along Marine drive."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Marine Drive is the name of one road, so both of its words start with capitals."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003",
+        "OBJ001"
+      ],
+      "prompt": "Identify the common noun in: 'Sunrise Hospital has a new lift.'",
+      "target": "The general name in the sentence.",
+      "accepted_answers": [
+        "lift"
+      ],
+      "explanation": "Lift is a general name. Hospital is part of the name Sunrise Hospital here."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which group contains only proper nouns?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Ahmed, Kenya, April"
+        },
+        {
+          "option_id": "B",
+          "text": "Ahmed, country, April"
+        },
+        {
+          "option_id": "C",
+          "text": "boy, Kenya, month"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Ahmed, Kenya and April each name one particular person, place or month."
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Identify both proper nouns in: 'On Friday, Leela visited the zoo.'",
+      "target": "The two special names in the sentence.",
+      "accepted_answers": [
+        "Friday, Leela"
+      ],
+      "explanation": "Friday names a day and Leela names a person. Zoo is a general name."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is written correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The shop on Lake Road opens in August."
+        },
+        {
+          "option_id": "B",
+          "text": "The shop on lake road opens in august."
+        },
+        {
+          "option_id": "C",
+          "text": "The Shop on Lake Road opens in August."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Lake Road names one road and August names a month. Shop is a general word, so it stays small."
+    },
+    {
+      "question_id": "Q012",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'I jog in a park every morning', park is a proper noun.",
+      "correct_answer": false,
+      "explanation": "A park could be any park, so park is a common noun here."
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'We hiked to Hill Fort', why does Fort start with a capital?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "It is part of the name of one particular fort."
+        },
+        {
+          "option_id": "B",
+          "text": "It is the last word in the sentence."
+        },
+        {
+          "option_id": "C",
+          "text": "Fort always starts with a capital."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Hill Fort is the name of one place, so fort is part of a proper noun here."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Common and Proper",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Capital Letters",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q004",
+          "Q005",
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Names With Common Words",
+        "after_page_id": "PAGE009",
+        "question_ids": [
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Common and Proper Nouns: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Full capitalization rules (sentence starts, titles, languages)",
+        "reason": "Taught in Stage 5.5 Punctuation, Capitalization and Writing Mechanics; this lesson covers capitals for proper nouns only.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Articles with proper nouns",
+        "reason": "Taught in 1-4-8 Articles with Proper Nouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Missing capitals as a common error",
+        "reason": "Reviewed with other noun errors in 1-2-14.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Capital-letter questions use multiple choice, because typed answers are compared without case."
+    ]
+  }
+}

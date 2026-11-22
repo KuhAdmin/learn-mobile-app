@@ -7,16 +7,22 @@
  *   npm run lesson:overlap -- <file> --strict      → exits 1 when anything repeats
  *   npm run lesson:overlap -- --brief              → prints the "Already covered" brief for the generation prompt
  *   npm run lesson:overlap -- --write-brief <md>   → rewrites the generated part of that brief file
+ *   npm run lesson:overlap -- --all <dir>          → checks every lesson draft in <dir>, in curriculum order
+ *   … --with <dir>                                 → also compares with the lesson drafts in <dir> (repeatable)
  *
  * Compares example sentences (and sentences quoted in questions), page titles and key takeaways with every
  * lesson in src/lessons/content (except one with the same topic_id), and flags repeats inside the lesson itself.
+ * Drafts (`.md` / `.json` files in a --with or --all folder) count only when they come before the checked
+ * lesson in curriculum order, so a batch of new lessons is checked like lessons added one by one; a draft
+ * replaces the app copy of the same topic.
  * Also reports:
  *   - pages that re-teach the parts of speech one per page, as an earlier lesson already did
  *   - identify questions whose accepted answer is a class name when the prompt asks for a word, and
  *     explanations that start with a verdict
  *   - comparison examples that don't use the word they demonstrate ("Clean – Adjective" without "clean")
  *   - dimension assessments not placed after their dimension's last page, questions used twice, and a
- *     missing final assessment (the same rules the app's loader enforces)
+ *     missing final assessment (the same rules the app's loader enforces), or one shorter than 4 questions
+ *   - dimension statuses and cross-references that don't use the schema v2.0 fields and values
  * The report ends with a numbered fix list to paste into the lesson generator with the lesson JSON.
  * Plain Node, no build step; the pure functions are exported for tests.
  */
@@ -25,7 +31,11 @@ const path = require('path');
 
 const CONTENT_DIR = path.join(__dirname, '..', 'src', 'lessons', 'content');
 const DEFAULT_INPUT = path.join(__dirname, '..', 'assets', 'Content generation', 'ContentWorkbench.md');
-const BRIEF_MARKER = '<!-- GENERATED BELOW: npm run lesson:overlap -- --write-brief "assets/Content generation/Chapter1_Coverage_Brief.md" -->';
+/** Line above the generated part of a brief file; it records the command that regenerates it. */
+const BRIEF_MARKER = /<!-- GENERATED BELOW:[^\n]*-->/;
+const briefMarker = (command) => `<!-- GENERATED BELOW: npm run lesson:overlap -- ${command} -->`;
+/** The final check must be longer than a quick check (CLAUDE.md, "Lesson assessments" rule 2). */
+const MIN_FINAL_QUESTIONS = 4;
 
 /** Lesson JSON from a workbench paste: plain JSON, JSON in a ``` fence, or rich-text pasted markdown. */
 function parseLessonText(text) {
@@ -132,6 +142,7 @@ function findOverlaps(candidate, earlier) {
       ...answerFindings(candidate),
       ...exampleFindings(candidate),
       ...assessmentFindings(candidate),
+      ...schemaFindings(candidate),
     ],
   };
 }
@@ -246,7 +257,11 @@ function pageConcepts(page) {
 const conceptPages = (json) => json.pages.map((p) => ({ page: p.page_number, concepts: pageConcepts(p) })).filter((x) => x.concepts.length);
 const pageRange = (pages) => (pages.length > 1 ? `p${Math.min(...pages)}–p${Math.max(...pages)}` : `p${pages[0]}`);
 
-/** Three or more pages that each teach a part of speech an earlier lesson already gave its own page. */
+/**
+ * Three or more pages that each teach a part of speech an earlier lesson already gave its own page, covering at
+ * least three different parts. A lesson that goes deeper into one part ("The Noun as Subject", "Noun Phrases" …)
+ * has many pages on that part, but that is its own topic, not a re-run of the overview.
+ */
 function structureFindings(candidate, earlier) {
   const mine = conceptPages(candidate);
   const findings = [];
@@ -254,7 +269,8 @@ function structureFindings(candidate, earlier) {
     const theirs = conceptPages(other);
     const taught = new Set(theirs.flatMap((t) => t.concepts));
     const shared = mine.filter((m) => m.concepts.some((c) => taught.has(c)));
-    if (shared.length < 3) continue;
+    const sharedParts = new Set(shared.flatMap((m) => m.concepts.filter((c) => taught.has(c))));
+    if (shared.length < 3 || sharedParts.size < 3) continue;
     // Report this lesson's whole run of concept pages (it may add parts the earlier lesson grouped together).
     const concepts = [...new Set(mine.flatMap((m) => m.concepts))];
     const where = pageRange(mine.map((m) => m.page));
@@ -276,6 +292,13 @@ function structureFindings(candidate, earlier) {
 /* ───────────── Answer keys and explanations ───────────── */
 
 const VERDICT = /^\s*(?:correct|right|incorrect|wrong|not quite|well done)\s*[.!:,]/i;
+/** How the app compares typed answers (same as normalizeTyped in src/lessons/answers.ts). */
+const typedForm = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/[“”"‘’'.,!?;:]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 const isPosTerm = (s) => POS.some((t) => normalize(s) === t || normalize(s) === t + 's');
 
 function answerFindings(json) {
@@ -306,6 +329,21 @@ function answerFindings(json) {
               : `Put the word itself in accepted_answers (or reword the prompt to ask "What part of speech is …?").`),
         });
       }
+    }
+    // The app grades typed answers without case or punctuation (normalizeTyped in src/lessons/answers.ts), so a
+    // correction that only fixes capitals or apostrophes would accept the uncorrected sentence.
+    if (q.type === 'sentence_correction' && q.original_sentence) {
+      const fixes = [q.corrected_sentence, ...(q.accepted_corrections || [])].filter(Boolean);
+      if (fixes.some((c) => typedForm(c) === typedForm(q.original_sentence)))
+        findings.push({
+          kind: 'answer',
+          where: q.question_id,
+          text: q.original_sentence,
+          matches: [],
+          fix:
+            `${q.question_id} only corrects capital letters or punctuation, but typed answers are graded without them, so "${q.original_sentence}" ` +
+            `would count as corrected. Make it a multiple_choice question with the correct and incorrect versions as options.`,
+        });
     }
     if (VERDICT.test(q.explanation || ''))
       findings.push({
@@ -384,7 +422,46 @@ function assessmentFindings(json) {
   for (const id of (final && final.question_ids) || []) use(id, 'the final assessment');
   for (const [id, places] of used)
     if (places.length > 1) add(id, places.join(', '), `${id} is used in ${places.join(' and ')}. Ask each question once: drop it from all but one place, or write a new question.`);
-  if (!final || !(final.question_ids || []).length) add('FA', 'final assessment', 'The lesson has no final assessment. End it with a longer final check whose questions are not used anywhere else.');
+  const finalCount = ((final && final.question_ids) || []).length;
+  if (!finalCount) add('FA', 'final assessment', 'The lesson has no final assessment. End it with a longer final check whose questions are not used anywhere else.');
+  else if (finalCount < MIN_FINAL_QUESTIONS)
+    add(
+      final.assessment_id || 'FA',
+      final.title || 'final assessment',
+      `The final assessment has ${finalCount} question${finalCount === 1 ? '' : 's'}. End the lesson with a longer final check: at least ${MIN_FINAL_QUESTIONS} new questions across the lesson's objectives, none used anywhere else.`,
+    );
+  return findings;
+}
+
+/* ───────────── Schema v2.0 values the loader doesn't enforce ───────────── */
+
+const DIMENSION_STATUS = ['covered', 'introduced', 'not_applicable'];
+const CROSS_REFERENCE_COVERAGE = ['introduced_only', 'referenced_only', 'excluded'];
+
+/** learning_dimensions[].status and coverage.cross_references[] must use the schema's fields and values. */
+function schemaFindings(json) {
+  if (json.schema_version !== '2.0') return [];
+  const findings = [];
+  const add = (where, text, fix) => findings.push({ kind: 'schema', where, text, matches: [], fix });
+  for (const d of json.learning_dimensions || [])
+    if (!DIMENSION_STATUS.includes(d.status))
+      add(d.dimension_id, d.dimension, `${d.dimension_id}'s status is ${JSON.stringify(d.status)}. Use one of ${DIMENSION_STATUS.join(', ')} ("covered" for a taught dimension).`);
+  const audit = json.quality_audit || {};
+  const statuses = Object.entries({ ...audit, ...(audit.assessment_audit || {}) }).filter(
+    ([k]) => !['assessment_audit', 'issues_found', 'corrections_made'].includes(k),
+  );
+  const notStrings = statuses.filter(([, v]) => !['passed', 'failed', 'review_required'].includes(v)).map(([k]) => k);
+  if (notStrings.length)
+    add('QA', 'quality_audit', `quality_audit entries must be plain strings ("passed", "failed" or "review_required"), not objects: ${notStrings.join(', ')}.`);
+  (json.coverage && json.coverage.cross_references ? json.coverage.cross_references : []).forEach((c, i) => {
+    const keys = Object.keys(c).sort().join(',');
+    if (keys !== 'concept,coverage,reason' || !CROSS_REFERENCE_COVERAGE.includes(c.coverage))
+      add(
+        `CR${i + 1}`,
+        c.concept || '',
+        `Cross-reference ${i + 1} ("${c.concept}") has the fields ${keys}. Use exactly concept, reason and coverage, with coverage one of ${CROSS_REFERENCE_COVERAGE.join(', ')}.`,
+      );
+  });
   return findings;
 }
 
@@ -425,6 +502,7 @@ function formatReport(report) {
     ['answer', 'Answer keys and explanations'],
     ['content', 'Examples that miss their word'],
     ['assessment', 'Assessment placement'],
+    ['schema', 'Schema values'],
   ];
   for (const [kind, heading] of groups) {
     const list = findings.filter((f) => f.kind === kind);
@@ -441,7 +519,7 @@ function formatReport(report) {
   lines.push(
     '',
     `Summary: ${count('structure')} re-taught concept runs, ${count('sentence')} repeated sentences, ${count('title')} repeated titles, ` +
-      `${count('takeaway')} repeated takeaways, ${count('word')} re-used job words, ${count('answer')} answer-key issues, ${count('content')} example issues, ${count('assessment')} assessment issues.`,
+      `${count('takeaway')} repeated takeaways, ${count('word')} re-used job words, ${count('answer')} answer-key issues, ${count('content')} example issues, ${count('assessment')} assessment issues, ${count('schema')} schema issues.`,
   );
   if (!findings.length) {
     lines.push('No problems found.');
@@ -488,30 +566,106 @@ function loadContent(dir = CONTENT_DIR) {
     .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 }
 
+/**
+ * Lesson drafts in a folder (`.md` workbench pastes or `.json`) as { file, json }; a relative folder is read from
+ * the repository root. A missing folder has no drafts.
+ */
+function readDrafts(dir) {
+  const abs = path.resolve(__dirname, '..', dir);
+  if (!fs.existsSync(abs)) return [];
+  return fs
+    .readdirSync(abs)
+    .filter((f) => /\.(md|json)$/i.test(f))
+    .map((file) => {
+      try {
+        return { file, json: parseLessonText(fs.readFileSync(path.join(abs, file), 'utf8')) };
+      } catch (e) {
+        throw new Error(`${path.join(dir, file)} is not lesson JSON: ${e.message}`);
+      }
+    });
+}
+
+/** The lessons in a draft folder, in curriculum order. */
+function loadDrafts(dir) {
+  if (!fs.existsSync(path.resolve(__dirname, '..', dir))) throw new Error(`No such folder: ${dir}`);
+  return readDrafts(dir)
+    .map((d) => d.json)
+    .sort(byOrder);
+}
+
+/**
+ * The lessons a candidate is compared with: every app lesson, plus the drafts that come before it in
+ * curriculum order. A draft replaces the app copy of its topic.
+ */
+function comparisonSet(candidate, appLessons, drafts) {
+  return withDrafts(appLessons, drafts).filter((l) => !drafts.includes(l) || byOrder(l, candidate) < 0);
+}
+
+/** App lessons and drafts together, a draft replacing the app copy of its topic. */
+function withDrafts(appLessons, drafts) {
+  const replaced = new Set(drafts.map((d) => d.topic.topic_id));
+  return [...appLessons.filter((l) => !replaced.has(l.topic.topic_id)), ...drafts];
+}
+
+/** Values of a repeatable `--flag <value>` argument. */
+const argValues = (args, flag) => args.flatMap((a, i) => (a === flag && args[i + 1] ? [args[i + 1]] : []));
+
 function main(argv) {
   const args = argv.slice(2);
   const strict = args.includes('--strict');
   const writeAt = args.indexOf('--write-brief');
-  const lessons = loadContent();
+  const allDir = argValues(args, '--all')[0];
+  const withDirs = argValues(args, '--with');
+  const app = loadContent();
+  const drafts = [...withDirs, ...(allDir ? [allDir] : [])].flatMap(loadDrafts);
+  const uniqueDrafts = drafts.filter((d, i) => drafts.findIndex((x) => x.topic.topic_id === d.topic.topic_id) === i);
+  const everything = withDrafts(app, uniqueDrafts);
   if (args.includes('--brief')) {
-    process.stdout.write(coverageBrief(lessons) + '\n');
+    process.stdout.write(coverageBrief(everything) + '\n');
     return 0;
   }
   if (writeAt !== -1) {
     const file = args[writeAt + 1];
     const current = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
-    const head = current.includes(BRIEF_MARKER) ? current.slice(0, current.indexOf(BRIEF_MARKER)) : current ? current.trimEnd() + '\n\n' : '';
-    fs.writeFileSync(file, `${head}${BRIEF_MARKER}\n\n${coverageBrief(lessons)}\n`);
+    const marker = BRIEF_MARKER.exec(current);
+    const head = marker ? current.slice(0, marker.index) : current ? current.trimEnd() + '\n\n' : '';
+    const command = [`--write-brief "${file}"`, ...withDirs.map((d) => `--with "${d}"`)].join(' ');
+    fs.writeFileSync(file, `${head}${briefMarker(command)}\n\n${coverageBrief(everything)}\n`);
     console.log(`Updated ${file}`);
     return 0;
   }
-  const input = args.find((a) => !a.startsWith('--')) || DEFAULT_INPUT;
+  if (allDir) {
+    const batch = loadDrafts(allDir);
+    const results = batch.map((lesson) => findOverlaps(lesson, comparisonSet(lesson, app, uniqueDrafts)));
+    for (const report of results) console.log(formatReport(report) + '\n\n' + '═'.repeat(72) + '\n');
+    const dirty = results.filter((r) => r.findings.length);
+    console.log(
+      `Batch: ${results.length} lesson${results.length === 1 ? '' : 's'} in ${allDir}. ` +
+        (dirty.length ? `Problems in ${dirty.map((r) => `${r.lesson.id} (${r.findings.length})`).join(', ')}.` : 'No problems found.'),
+    );
+    return strict && dirty.length ? 1 : 0;
+  }
+  const input = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--with') || DEFAULT_INPUT;
   const candidate = parseLessonText(fs.readFileSync(input, 'utf8'));
-  const report = findOverlaps(candidate, lessons);
+  const report = findOverlaps(candidate, comparisonSet(candidate, app, uniqueDrafts));
   console.log(formatReport(report));
   return strict && report.findings.length ? 1 : 0;
 }
 
-module.exports = { parseLessonText, normalize, lessonFacts, pageConcepts, findOverlaps, fixList, formatReport, coverageBrief, loadContent, BRIEF_MARKER };
+module.exports = {
+  parseLessonText,
+  normalize,
+  lessonFacts,
+  pageConcepts,
+  findOverlaps,
+  fixList,
+  formatReport,
+  coverageBrief,
+  loadContent,
+  loadDrafts,
+  readDrafts,
+  comparisonSet,
+  BRIEF_MARKER,
+};
 
 if (require.main === module) process.exitCode = main(process.argv);

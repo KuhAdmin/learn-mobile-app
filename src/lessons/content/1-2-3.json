@@ -1,0 +1,783 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-2-3",
+    "title": "Concrete and Abstract Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Concrete and Abstract Nouns",
+    "lesson_summary": "Learners sort nouns by whether the senses can notice them. Concrete nouns name things you can see, hear, touch, smell or taste; abstract nouns name feelings, qualities, states and ideas. Learners then sort the nouns in whole sentences.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Identify concrete nouns with the five-senses test.",
+        "success_criteria": [
+          "Explain what a concrete noun is.",
+          "Use the five senses to check a noun."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Identify abstract nouns that name feelings, qualities, states and ideas.",
+        "success_criteria": [
+          "Explain what an abstract noun is.",
+          "Place an abstract noun in its group: feeling, quality, state or idea."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Sort the nouns in a sentence into concrete and abstract.",
+        "success_criteria": [
+          "Find the concrete and abstract nouns in one sentence."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 9
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Concrete Nouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Abstract Nouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Telling Concrete From Abstract",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Can You Touch It?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some nouns name things you can see or touch, like a drum. Others name things you can only think or feel, like courage."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The drummer showed great courage.",
+              "highlight": [
+                "drummer",
+                "courage"
+              ],
+              "explanation": "You can see the drummer, but you cannot see or touch courage."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Some nouns you can sense; some you can only think.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Concrete Nouns Use the Senses",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "A concrete noun names something you can see, hear, touch, smell or taste."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The soup smells delicious.",
+              "highlight": [
+                "soup"
+              ],
+              "explanation": "You can smell and taste soup, so soup is a concrete noun."
+            },
+            {
+              "sentence": "Thunder woke the baby.",
+              "highlight": [
+                "Thunder",
+                "baby"
+              ],
+              "explanation": "You can hear thunder and see the baby. Both are concrete nouns."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "If your senses can notice it, the noun is concrete.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Five-Senses Test",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "To check a noun, ask whether any one of your senses can notice it. One yes is enough."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "list",
+          "introduction": "Can I …",
+          "list_style": "bulleted",
+          "items": [
+            "See it? A rainbow",
+            "Hear it? A whistle",
+            "Touch it? A blanket",
+            "Smell it? Smoke",
+            "Taste it? Honey"
+          ]
+        }
+      ],
+      "key_takeaway": "One sense is enough to make a noun concrete.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Abstract Nouns Name Ideas",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "An abstract noun names something your senses cannot notice. It names a feeling, a quality, a state or an idea."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Her kindness surprised everyone.",
+              "highlight": [
+                "kindness"
+              ],
+              "explanation": "You cannot see or touch kindness. It is a quality, so it is an abstract noun."
+            },
+            {
+              "sentence": "Curiosity led the children into the cave.",
+              "highlight": [
+                "Curiosity"
+              ],
+              "explanation": "Curiosity is a feeling inside us, so it is an abstract noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Abstract nouns name things you can only think or feel.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Four Groups of Abstract Nouns",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "Most abstract nouns fit into one of four groups."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Feelings: joy, fear, anger",
+            "Qualities: honesty, bravery, wisdom",
+            "States: childhood, health, peace",
+            "Ideas: freedom, luck, truth"
+          ]
+        }
+      ],
+      "key_takeaway": "Feelings, qualities, states and ideas are abstract.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Abstract Nouns in Sentences",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Abstract nouns can appear anywhere in a sentence, just like other nouns."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Honesty earned him many friends.",
+              "highlight": [
+                "Honesty"
+              ],
+              "explanation": "Honesty is a quality. Here it starts the sentence."
+            },
+            {
+              "sentence": "The team celebrated their victory.",
+              "highlight": [
+                "victory"
+              ],
+              "explanation": "Victory is an idea you cannot touch. Here it ends the sentence."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "An abstract noun can sit anywhere in a sentence.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Hose or Strength?",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Concrete noun",
+              "description": "Your senses can notice it.",
+              "example": "The firefighter carried a heavy hose."
+            },
+            {
+              "label": "Abstract noun",
+              "description": "You can only think about it or feel it.",
+              "example": "The firefighter showed real strength."
+            }
+          ],
+          "comparison_points": [
+            "You can see and touch a hose.",
+            "You cannot see or touch strength. You notice it through what people do."
+          ],
+          "conclusion": "When you are unsure, use the five-senses test."
+        }
+      ],
+      "key_takeaway": "Can a sense notice it? Then it is concrete.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "application",
+      "pedagogical_role": "guided_practice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Sort the Nouns in a Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "text",
+          "text": "One sentence can hold both kinds. Test each noun on its own."
+        },
+        {
+          "block_id": "BLOCK015",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The nurse spoke with gentleness and respect.",
+              "highlight": [
+                "nurse",
+                "gentleness",
+                "respect"
+              ],
+              "explanation": "You can see the nurse, so nurse is concrete. Gentleness and respect are qualities, so they are abstract."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Test each noun in the sentence separately.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Concrete and Abstract: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK016",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Concrete nouns name things your senses can notice.",
+            "Abstract nouns name feelings, qualities, states and ideas.",
+            "Ask: can I see, hear, touch, smell or taste it?",
+            "One sentence can mix both kinds."
+          ]
+        }
+      ],
+      "key_takeaway": "Your senses decide: concrete or abstract.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which noun is concrete?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "whistle"
+        },
+        {
+          "option_id": "B",
+          "text": "honesty"
+        },
+        {
+          "option_id": "C",
+          "text": "freedom"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "You can see and hear a whistle, so it is concrete. Honesty and freedom cannot be sensed."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the noun you can smell in: 'The smoke drifted over the rooftops.'",
+      "target": "The noun your nose can notice.",
+      "accepted_answers": [
+        "smoke",
+        "the smoke"
+      ],
+      "explanation": "You can smell smoke, so smoke is a concrete noun."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "A bell is a concrete noun because you can see it and hear it.",
+      "correct_answer": true,
+      "explanation": "Your senses can notice a bell, so bell is a concrete noun."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which noun names a feeling?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "anger"
+        },
+        {
+          "option_id": "B",
+          "text": "ladder"
+        },
+        {
+          "option_id": "C",
+          "text": "garden"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Anger is a feeling inside us, so it is an abstract noun."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the abstract noun in: 'The coach praised her bravery.'",
+      "target": "The noun that names a quality.",
+      "accepted_answers": [
+        "bravery",
+        "her bravery"
+      ],
+      "explanation": "Bravery is a quality you cannot see or touch, so it is an abstract noun."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which group contains only abstract nouns?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "truth, luck, health"
+        },
+        {
+          "option_id": "B",
+          "text": "truth, lamp, health"
+        },
+        {
+          "option_id": "C",
+          "text": "spoon, luck, rope"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Truth and luck are ideas and health is a state. A lamp, a spoon and a rope can all be touched."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'The climber reached the top with pride', which noun is abstract?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "climber"
+        },
+        {
+          "option_id": "B",
+          "text": "top"
+        },
+        {
+          "option_id": "C",
+          "text": "pride"
+        }
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "explanation": "Pride is a feeling, so it is abstract. You can see the climber and the top of the mountain."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the concrete noun in: 'His wisdom impressed the judge.'",
+      "target": "The noun your senses can notice.",
+      "accepted_answers": [
+        "judge",
+        "the judge"
+      ],
+      "explanation": "You can see the judge, so judge is concrete. Wisdom is a quality, so it is abstract."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ003"
+      ],
+      "prompt": "Which sentence contains an abstract noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Their friendship lasted for years."
+        },
+        {
+          "option_id": "B",
+          "text": "The kettle whistled loudly."
+        },
+        {
+          "option_id": "C",
+          "text": "A crow landed on the wall."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Friendship is a state between people that you cannot touch, so it is abstract."
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002",
+        "OBJ003"
+      ],
+      "prompt": "Identify both abstract nouns in: 'Hope and fear filled the waiting room.'",
+      "target": "The two nouns that name feelings.",
+      "accepted_answers": [
+        "Hope, fear"
+      ],
+      "explanation": "Hope and fear are feelings, so they are abstract. You can see a waiting room."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Childhood is an abstract noun.",
+      "correct_answer": true,
+      "explanation": "Childhood is a time of life. You cannot see or touch it, so it is abstract."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which noun is concrete?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "pepper"
+        },
+        {
+          "option_id": "B",
+          "text": "comfort"
+        },
+        {
+          "option_id": "C",
+          "text": "beauty"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "You can see, smell and taste pepper, so it is concrete."
+    },
+    {
+      "question_id": "Q013",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the abstract noun in: 'The violinist played with great skill.'",
+      "target": "The noun that names a quality.",
+      "accepted_answers": [
+        "skill",
+        "great skill"
+      ],
+      "explanation": "Skill is a quality you cannot touch, so it is abstract. You can see and hear the violinist."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Concrete Nouns",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Abstract Nouns",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005",
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Sorting Nouns",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Concrete and Abstract Nouns: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Forming abstract nouns with suffixes such as -ness and -ment",
+        "reason": "Taught in 1-2-12 Noun Formation and Word Building.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Whether abstract nouns can be counted",
+        "reason": "Taught in 1-2-5 Countable and Uncountable Nouns.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

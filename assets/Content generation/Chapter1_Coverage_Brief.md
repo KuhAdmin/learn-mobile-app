@@ -60,7 +60,7 @@ Each lesson is generated without seeing the others, so new lessons tend to re-te
 
 Do not reuse any sentence, focus word, page title or key takeaway listed below. Build on these lessons instead of re-teaching them.
 
-**Words already shown doing more than one job** (don't demonstrate them that way again): careful, before, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late.
+**Words already shown doing more than one job** (don't demonstrate them that way again): careful, before, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late, glass, iron, silver, cousins.
 
 ### 1.1.1 Discover Parts of Speech
 
@@ -265,4 +265,263 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - He explains patient.
   - Words ending in -ly are always adverbs.
   - Dance is always a verb because it means an activity.
+
+### 1.2.1 Introduction to Nouns
+
+- **Pages:** Nouns Are Everywhere · Nouns Name Events · Nouns Name Times · Nouns Name Jobs and Subjects · The Naming Question · Try the Frame Test · Does It Fit the Frame? · Test Every Word · The Noun Family · Your Noun Toolkit
+- **Key takeaways:** Most sentences contain at least one noun. · Events have names, and those names are nouns. · Times and seasons are named by nouns. · Jobs and school subjects are nouns. · If a word names someone or something, it is a noun. · A word that fits the frame is usually a noun. · If the frame sounds wrong, the word is not a noun. · Check each word: one sentence can hold many nouns. · Nouns come in many kinds. · The naming question and the frame test find nouns.
+- **Example sentences:**
+  - Our bus reached the station at noon. _(focus: bus, station, noon)_
+  - The wedding starts after lunch. _(focus: wedding)_
+  - Our school won the quiz. _(focus: quiz)_
+  - Grandpa visits us every summer. _(focus: summer)_
+  - The bakery closes in the evening. _(focus: evening)_
+  - Her cousin works as a nurse. _(focus: nurse)_
+  - History is my favourite subject. _(focus: History, subject)_
+  - The guide showed us the castle. _(focus: guide, castle)_
+  - I can see the lighthouse. _(focus: lighthouse)_
+  - I can see the bridge.
+  - I can see the quickly.
+  - The baker sold bread to a tourist at the market. _(focus: baker, bread, tourist, market)_
+
+### 1.2.2 Common and Proper Nouns
+
+- **Pages:** Any City or One City? · Common Nouns Are General Names · Proper Nouns Are Special Names · General Name or Special Name? · Proper Nouns Take Capitals · Days, Months and Festivals · Names of Films, Books and Clubs · When a Common Word Joins a Name · Any Lake or Lotus Lake? · Common or Proper: Recap
+- **Key takeaways:** Some names are general; some are special. · A common noun names any one of a kind. · A proper noun names one particular person, place or thing. · Ask: could it be any one, or just this one? · Proper nouns always start with a capital letter. · Days, months and festivals start with capitals. · Titles and club names are proper nouns. · A common word inside a name gets a capital. · Part of a special name? Use a capital. · General names stay small; special names get capitals.
+- **Example sentences:**
+  - Jaipur is a busy city. _(focus: Jaipur, city)_
+  - A doctor works at the hospital. _(focus: doctor, hospital)_
+  - The puppy chewed my slipper. _(focus: puppy, slipper)_
+  - Arjun lives in Pune. _(focus: Arjun, Pune)_
+  - Our cat Biscuit sleeps all day. _(focus: Biscuit)_
+  - The dog barked at the postman.
+  - Bruno barked at the postman.
+  - We met Neha outside the cinema. _(focus: Neha)_
+  - We drove to agra on sunday.
+  - Diwali comes in November this year. _(focus: Diwali, November)_
+  - The library is closed on Mondays. _(focus: Mondays)_
+  - We watched Jungle Friends at the cinema. _(focus: Jungle Friends)_
+  - The Green Club planted fifty trees. _(focus: Green Club)_
+  - Our school is near the main road. _(focus: school, road)_
+  - Green Valley School is on Park Road. _(focus: Green Valley School, Park Road)_
+  - We had a picnic by a lake.
+  - We had a picnic by Lotus Lake.
+
+### 1.2.3 Concrete and Abstract Nouns
+
+- **Pages:** Can You Touch It? · Concrete Nouns Use the Senses · The Five-Senses Test · Abstract Nouns Name Ideas · Four Groups of Abstract Nouns · Abstract Nouns in Sentences · Hose or Strength? · Sort the Nouns in a Sentence · Concrete and Abstract: Recap
+- **Key takeaways:** Some nouns you can sense; some you can only think. · If your senses can notice it, the noun is concrete. · One sense is enough to make a noun concrete. · Abstract nouns name things you can only think or feel. · Feelings, qualities, states and ideas are abstract. · An abstract noun can sit anywhere in a sentence. · Can a sense notice it? Then it is concrete. · Test each noun in the sentence separately. · Your senses decide: concrete or abstract.
+- **Example sentences:**
+  - The drummer showed great courage. _(focus: drummer, courage)_
+  - The soup smells delicious. _(focus: soup)_
+  - Thunder woke the baby. _(focus: Thunder, baby)_
+  - Her kindness surprised everyone. _(focus: kindness)_
+  - Curiosity led the children into the cave. _(focus: Curiosity)_
+  - Honesty earned him many friends. _(focus: Honesty)_
+  - The team celebrated their victory. _(focus: victory)_
+  - The firefighter carried a heavy hose.
+  - The firefighter showed real strength.
+  - The nurse spoke with gentleness and respect. _(focus: nurse, gentleness, respect)_
+
+### 1.2.4 Collective Nouns
+
+- **Pages:** Many Members, One Name · What Is a Collective Noun? · Members or the Whole Group? · Groups of People · Groups of Animals · Groups of Things · Each Group Word Fits Its Members · Name a Group and Its Members · Collective Nouns: Recap
+- **Key takeaways:** One word can name a whole group. · A collective noun names a group as one unit. · The group word replaces a list of members. · Class, choir and staff are groups of people. · Herd, flock and pack are animal groups. · Bunch, pile and fleet are groups of things. · Pick the group word that fits the members. · Use 'a … of' to name a group and its members. · One word, one whole group.
+- **Example sentences:**
+  - Our cricket team won the final. _(focus: team)_
+  - The audience clapped for ten minutes. _(focus: audience)_
+  - A swarm of bees circled the hive. _(focus: swarm)_
+  - Three sailors waved from the deck.
+  - The crew waved from the deck.
+  - The choir sang at the temple fair. _(focus: choir)_
+  - A herd of elephants crossed the road. _(focus: herd)_
+  - She found a bunch of keys under the sofa. _(focus: bunch)_
+  - We saw a bunch of elephants.
+  - A team of doctors visited our village. _(focus: team)_
+  - The class collected a pile of old newspapers. _(focus: class, pile)_
+
+### 1.2.5 Countable and Uncountable Nouns
+
+- **Pages:** Can You Count It? · Countable Nouns · The Count Test · Uncountable Nouns · Groups of Uncountable Nouns · Many Items, One Mass Word · Units Make a Mass Countable · Common Unit Words · Coffee or a Coffee? · Count It or Measure It
+- **Key takeaways:** Some nouns can be counted; some cannot. · Countable nouns have a singular and a plural form. · If a number fits before it, the noun is countable. · Uncountable nouns have no plural form. · Liquids, powders, gases and ideas are often uncountable. · Some words for many items are still uncountable. · Count the unit, not the mass. · A unit word lets you count a mass noun. · Counting can change what a noun means. · Count the things; measure the mass.
+- **Example sentences:**
+  - We bought six mangoes and some rice. _(focus: mangoes, rice)_
+  - Two kittens slept in the basket. _(focus: kittens)_
+  - I need three pencils for the test. _(focus: pencils)_
+  - I washed two bottles. _(focus: bottles)_
+  - The children played in the sand. _(focus: sand)_
+  - Fresh air came through the window. _(focus: air)_
+  - Mum added salt to the curry. _(focus: salt)_
+  - Our luggage filled the car boot. _(focus: luggage)_
+  - The new furniture arrived on Monday. _(focus: furniture)_
+  - Please buy two bags of flour. _(focus: bags, flour)_
+  - She gave me a useful piece of advice. _(focus: piece, advice)_
+  - Coffee keeps my father awake.
+  - We ordered two coffees at the café.
+
+### 1.2.6 Material Nouns
+
+- **Pages:** What Is It Made Of? · Material Nouns · Where Materials Come From · Glass or a Glass? · The Stuff or the Thing? · A Material Before a Noun · The Long Way and the Short Way · Material Nouns: Recap
+- **Words shown in more than one job:** glass, iron, silver
+- **Key takeaways:** Everything around us is made of something. · A material noun names a substance things are made from. · Materials come from the earth, plants, animals or factories. · Glass is a material; a glass is a thing. · Ask: does the word name the stuff or the thing? · Material + noun tells what a thing is made of. · Say it short: a silver ring. · Ask: what is it made of?
+- **Example sentences:**
+  - This old door is made of wood. _(focus: wood)_
+  - Gold shines in the sunlight. _(focus: Gold)_
+  - The potter shaped the wet clay. _(focus: clay)_
+  - Our windows are made of glass.
+  - He drank a glass of lemonade.
+  - Railway tracks are made of iron. _(focus: iron)_
+  - She pressed her shirt with an iron. _(focus: iron)_
+  - She wore a cotton dress to the fair. _(focus: cotton)_
+  - We rested on a stone bench. _(focus: stone)_
+  - The ring is made of silver.
+  - She lost her silver ring.
+
+### 1.2.7 Compound Nouns
+
+- **Pages:** Two Words, One Noun · What Is a Compound Noun? · Closed Compounds · Open Compounds · Hyphenated Compounds · The Last Word Is the Main Word · Houseboat or Boathouse? · Compound Nouns: Recap
+- **Key takeaways:** Two words can join to make one noun. · A compound noun names one thing with two or more words. · Closed compounds are written as one word. · Open compounds keep a space but name one thing. · Some compounds use hyphens to join their words. · The last word tells you what the thing is. · Change the order and you change the meaning. · Look at the last word to know what it is.
+- **Example sentences:**
+  - I packed my toothbrush and a towel. _(focus: toothbrush)_
+  - The postman delivered a parcel. _(focus: postman)_
+  - We waited at the bus stop. _(focus: bus stop)_
+  - The sunflower turned towards the sky. _(focus: sunflower)_
+  - Our classroom has big windows. _(focus: classroom)_
+  - The post office was crowded today. _(focus: post office)_
+  - We shared an ice cream after the match. _(focus: ice cream)_
+  - My brother-in-law flies planes. _(focus: brother-in-law)_
+  - The runner-up won a silver medal. _(focus: runner-up)_
+  - A teacup is a small cup for tea. _(focus: teacup)_
+  - Our school bus is painted yellow. _(focus: school bus)_
+  - We stayed on a houseboat in Kerala.
+  - The oars are kept in the boathouse.
+
+### 1.2.8 Singular and Plural Nouns
+
+- **Pages:** One or Many? · Singular Nouns · Plural Nouns · Clues for Plural Nouns · Not Every -s Means Plural · Nouns That Are Always Plural · Counting With A Pair Of · Singular Nouns Ending in -s · Singular and Plural: Recap
+- **Key takeaways:** A noun can show one or more than one. · Singular means one. · Plural means more than one. · An -s ending and a number are plural clues. · Check the meaning, not just the -s. · Two-part items take plural nouns. · Count two-part items in pairs. · News and maths end in -s but are singular. · Ask: is it one, or more than one?
+- **Example sentences:**
+  - First one star appeared, then hundreds of stars. _(focus: star, stars)_
+  - A parrot sat on the gate. _(focus: parrot)_
+  - I have one younger sister. _(focus: sister)_
+  - Three parrots sat on the gate. _(focus: parrots)_
+  - I have two younger sisters. _(focus: sisters)_
+  - Ten candles glowed on the cake. _(focus: candles)_
+  - The farmer planted rows of beans. _(focus: rows, beans)_
+  - The bus left at nine. _(focus: bus)_
+  - She paints every Sunday. _(focus: paints)_
+  - Grandpa lost his reading glasses. _(focus: glasses)_
+  - Mum sharpened the scissors yesterday. _(focus: scissors)_
+  - I bought a pair of jeans for the trip. _(focus: pair)_
+  - She packed three pairs of shorts. _(focus: pairs)_
+  - The news shocked the whole town. _(focus: news)_
+  - Maths helped her win the science prize. _(focus: Maths)_
+
+### 1.2.9 Regular and Irregular Plurals
+
+- **Pages:** Spelling More Than One · Add -s to Most Nouns · Add -es After s, x, z, ch and sh · Nouns Ending in y · Nouns Ending in f or fe · Nouns Ending in o · Irregular: The Vowels Change · Irregular: Adding -en · Irregular: No Change at All · Plurals of Compound Nouns · Plural Spelling: Recap
+- **Key takeaways:** Plural spelling follows rules, with a few exceptions. · Most nouns just add -s. · After s, x, z, ch or sh, add -es. · Consonant + y becomes -ies; vowel + y adds -s. · Many f and fe nouns change to -ves. · Some o nouns add -es; others add -s. · Some plurals change the vowels inside the word. · Child becomes children; ox becomes oxen. · Sheep, deer and fish don't change. · Make the main word plural. · Learn the rules, then remember the exceptions.
+- **Example sentences:**
+  - The babies played with the empty boxes. _(focus: babies, boxes)_
+  - We flew two kites at the beach. _(focus: kites)_
+  - Our school has four gates. _(focus: gates)_
+  - Dad washed the dinner dishes. _(focus: dishes)_
+  - The foxes hid in the bushes. _(focus: foxes, bushes)_
+  - Two puppies chased the ball. _(focus: puppies)_
+  - The monkeys stole our bananas. _(focus: monkeys)_
+  - Autumn leaves covered the path. _(focus: leaves)_
+  - Put the knives back in the drawer. _(focus: knives)_
+  - Grandma grew tomatoes and potatoes. _(focus: tomatoes, potatoes)_
+  - We took lots of photos at the zoo. _(focus: photos)_
+  - Two geese waddled across the farm. _(focus: geese)_
+  - The oxen pulled the heavy cart. _(focus: oxen)_
+  - Six children waited for the ferry. _(focus: children)_
+  - We spotted three deer in the forest. _(focus: deer)_
+  - Both my sisters-in-law came to dinner. _(focus: sisters-in-law)_
+  - Two passers-by helped the old man. _(focus: passers-by)_
+
+### 1.2.10 Gender of Nouns
+
+- **Pages:** Boy, Girl, Child, Chair · The Four Genders · Genders in a Sentence · Different Words for Male and Female · Feminine Nouns With -ess · Male and Female Animals · Words That Name Anyone · Older Word or Word for Everyone? · Gender of Nouns: Recap
+- **Key takeaways:** Nouns can name male, female, either or neither. · Masculine, feminine, common and neuter. · Ask: male, female, either or neither? · Many pairs are completely different words. · Some feminine nouns add -ess. · Bull and cow, rooster and hen are animal pairs. · Common-gender words can name anyone. · Choose the word that fits everyone. · Ask who or what the noun names.
+- **Example sentences:**
+  - The boy and the girl carried a chair for their teacher. _(focus: boy, girl, chair, teacher)_
+  - My uncle gave his cousin a kite. _(focus: uncle, cousin, kite)_
+  - My nephew and my niece came for the holidays. _(focus: nephew, niece)_
+  - The princess rode a white horse. _(focus: princess)_
+  - The rooster crowed while the hen pecked at the grain. _(focus: rooster, hen)_
+  - The police officer helped us cross the road. _(focus: police officer)_
+  - Every parent got a letter from the school. _(focus: parent)_
+  - The fireman climbed the ladder.
+  - The firefighter climbed the ladder.
+
+### 1.2.11 Possessive Nouns
+
+- **Pages:** Whose Is It? · Add 's for One Owner · Belonging, Not Just Owning · Plural Owners Ending in s · Irregular Plural Owners · Names That End in s · Shared or Separate? · Things Usually Use Of · Plural or Possessive? · Possessive Nouns: Recap
+- **Words shown in more than one job:** cousins
+- **Key takeaways:** An apostrophe and s can show who owns something. · One owner: add 's. · 's links a thing to the one it belongs to. · Plural owners ending in s: add only '. · Children's and women's take 's. · A name ending in s usually adds 's. · Shared: one 's. Separate: 's on each name. · For things, use of. · No owner, no apostrophe. · Ask who owns it, then place the apostrophe.
+- **Example sentences:**
+  - Meera's bicycle has a red bell. _(focus: Meera's)_
+  - The doctor's clinic opens at ten. _(focus: doctor's)_
+  - Our dog's bowl was empty. _(focus: dog's)_
+  - The giraffe's neck is very long. _(focus: giraffe's)_
+  - We found a baby's sock in the car. _(focus: baby's)_
+  - The girls' hostel is near the gate. _(focus: girls')_
+  - The players' shirts were muddy. _(focus: players')_
+  - The children's park reopened today. _(focus: children's)_
+  - The women's team won the gold. _(focus: women's)_
+  - James's cousin lives in Goa. _(focus: James's)_
+  - Ravi and Asha's house is blue.
+  - Ravi's and Asha's phones were new.
+  - The handle of the door is loose. _(focus: handle of the door)_
+  - The top of the mountain was white with snow. _(focus: top of the mountain)_
+  - My cousins visited us last week.
+  - My cousin's visit was too short.
+
+### 1.2.12 Noun Formation and Word Building
+
+- **Pages:** Building New Nouns · From Verbs: -ment and -tion · From Verbs: -ance, -ence and -al · From Adjectives: -ness · From Adjectives: -ity, -th and -dom · Nouns for People · -ship and -hood · Watch the Spelling · Noun Building: Recap
+- **Key takeaways:** A suffix can turn a word into a noun. · -ment and -tion turn actions into nouns. · -ance, -ence and -al also make nouns from verbs. · -ness turns describing words into nouns. · -ity, -th and -dom also make nouns from adjectives. · -er, -or, -ist and -ian name people. · -ship and -hood name relationships and stages. · Check the spelling when you add a suffix. · Know the suffix and you can build the noun.
+- **Example sentences:**
+  - The darkness didn't spoil our enjoyment of the show. _(focus: darkness, enjoyment)_
+  - We sent an invitation to every neighbour. _(focus: invitation)_
+  - Her arrival surprised the whole family. _(focus: arrival)_
+  - Sadness filled the empty hall. _(focus: Sadness)_
+  - The warmth of the fire kept us cosy. _(focus: warmth)_
+  - The librarian found the book in seconds. _(focus: librarian)_
+  - Our neighbourhood held a street party. _(focus: neighbourhood)_
+  - The captain's leadership won us the match. _(focus: leadership)_
+  - Their laziness cost them the game. _(focus: laziness)_
+
+### 1.2.13 Noun Functions in Sentences
+
+- **Pages:** More Jobs for Nouns · The Indirect Object · The Object of a Preposition · The Subject Complement · The Object Complement · The Appositive · Name Every Noun's Job · Six Noun Jobs
+- **Key takeaways:** Every noun in a sentence does a job. · The indirect object answers to whom or for whom. · A noun after a preposition is that preposition's object. · A subject complement renames the subject. · An object complement renames the object. · An appositive sits beside a noun and renames it. · Find the verb, then ask about each noun. · Ask questions to find each noun's job.
+- **Example sentences:**
+  - The goalie stopped the penalty. _(focus: goalie, penalty)_
+  - Grandpa told the children a story. _(focus: children, story)_
+  - Priya baked her brother a cake. _(focus: brother)_
+  - The keys were under the doormat. _(focus: doormat)_
+  - We cycled along the river. _(focus: river)_
+  - My cousin became a lawyer. _(focus: lawyer)_
+  - Mr Iyer was our swimming coach. _(focus: coach)_
+  - They named the kitten Pepper. _(focus: Pepper)_
+  - The class elected Zoya captain. _(focus: captain)_
+  - Our teacher, Mrs Rao, loves poetry. _(focus: Mrs Rao)_
+  - My friend Kabir plays the flute. _(focus: Kabir)_
+  - Last week, Grandma gave my sister a book about birds. _(focus: Grandma, sister, book, birds)_
+
+### 1.2.14 Noun Usage and Common Errors
+
+- **Pages:** Spot and Fix Noun Mistakes · No -s on Uncountable Nouns · Counting News and Advice · Irregular Plurals, Not -s · One of My Friends · Two-Part Nouns Stay Plural · No Apostrophe in Plain Plurals · The Apostrophe Follows the Owner · Capital Letters for Names · Noun Mistake Checklist
+- **Key takeaways:** Most noun mistakes fall into a few groups. · Never add -s to an uncountable noun. · Count news and advice with a piece of. · Irregular nouns keep their own plural forms. · After one of, use a plural noun. · Say a pair of scissors, not a scissor. · Plain plurals never need an apostrophe. · Place the apostrophe right after the owner word. · Names of places and days need capitals. · Check your nouns before you finish writing.
+- **Example sentences:**
+  - The guide gave us useful informations.
+  - She shared a good news with us.
+  - Three childs splashed in the puddle.
+  - Raju is one of my best friend.
+  - I need a scissor for this card.
+  - Fresh banana's for sale!
+  - All the teacher's cars were parked outside.
+  - Our school trip to mysore is on friday.
 

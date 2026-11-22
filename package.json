@@ -49,7 +49,8 @@
     "lint": "expo lint",
     "typecheck": "tsc --noEmit",
     "test": "jest",
-    "lesson:overlap": "node scripts/lesson-overlap.js"
+    "lesson:overlap": "node scripts/lesson-overlap.js",
+    "art:cutout": "node scripts/art-cutout.js"
   },
   "private": true,
   "jest": {

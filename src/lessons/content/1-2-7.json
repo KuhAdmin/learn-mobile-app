@@ -1,0 +1,790 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-2-7",
+    "title": "Compound Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Compound Nouns",
+    "lesson_summary": "Learners meet nouns made from two or more words, written closed (toothbrush), open (post office) or hyphenated (runner-up). They find the main word of a compound, which is usually the last one, and see that changing the order changes the meaning. Plurals of compound nouns are left to 1-2-9.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise a compound noun as one noun made from two or more words.",
+        "success_criteria": [
+          "Find a compound noun in a sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Identify closed, open and hyphenated compound nouns.",
+        "success_criteria": [
+          "Sort compound nouns by how they are written."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Find the main word of a compound noun.",
+        "success_criteria": [
+          "Explain that the last word usually names what the thing is.",
+          "Explain how word order changes the meaning."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 11,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "What a Compound Noun Is",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Closed, Open and Hyphenated Compounds",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "The Main Word",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Two Words, One Noun",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Tooth + brush = toothbrush. Some nouns are built by joining two words together."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I packed my toothbrush and a towel.",
+              "highlight": [
+                "toothbrush"
+              ],
+              "explanation": "Toothbrush joins tooth and brush to name one thing."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Two words can join to make one noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What Is a Compound Noun?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "A compound noun is one noun made from two or more words. Together, the words name one person, place or thing."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The postman delivered a parcel.",
+              "highlight": [
+                "postman"
+              ],
+              "explanation": "Post + man makes one noun for one person."
+            },
+            {
+              "sentence": "We waited at the bus stop.",
+              "highlight": [
+                "bus stop"
+              ],
+              "explanation": "Bus stop is two words, but it names one place."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A compound noun names one thing with two or more words.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "classification",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Closed Compounds",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Some compound nouns are written as one word, with no space in between."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The sunflower turned towards the sky.",
+              "highlight": [
+                "sunflower"
+              ],
+              "explanation": "Sun + flower is written as one word."
+            },
+            {
+              "sentence": "Our classroom has big windows.",
+              "highlight": [
+                "classroom"
+              ],
+              "explanation": "Class + room is written as one word too."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Closed compounds are written as one word.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Open Compounds",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Some compound nouns keep a space between their words, but they still name one thing."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The post office was crowded today.",
+              "highlight": [
+                "post office"
+              ],
+              "explanation": "Post office has a space, but it names one place."
+            },
+            {
+              "sentence": "We shared an ice cream after the match.",
+              "highlight": [
+                "ice cream"
+              ],
+              "explanation": "Ice cream has a space, but it names one food."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Open compounds keep a space but name one thing.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Hyphenated Compounds",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "A few compound nouns join their words with hyphens."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "My brother-in-law flies planes.",
+              "highlight": [
+                "brother-in-law"
+              ],
+              "explanation": "Brother-in-law joins three words with hyphens to name one person."
+            },
+            {
+              "sentence": "The runner-up won a silver medal.",
+              "highlight": [
+                "runner-up"
+              ],
+              "explanation": "Runner-up names the person who came second."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "note",
+          "title": "Tip",
+          "text": "Not sure how a compound is written? Check a dictionary."
+        }
+      ],
+      "key_takeaway": "Some compounds use hyphens to join their words.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Last Word Is the Main Word",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "In most compound nouns, the last word names the kind of thing. The first word tells us more about it.",
+          "scope": "Most English compound nouns; a few, such as brother-in-law, have their main word first.",
+          "examples": [
+            {
+              "sentence": "A teacup is a small cup for tea.",
+              "highlight": [
+                "teacup"
+              ],
+              "explanation": "Cup is the main word. Tea tells us what kind of cup it is."
+            },
+            {
+              "sentence": "Our school bus is painted yellow.",
+              "highlight": [
+                "school bus"
+              ],
+              "explanation": "Bus is the main word. School tells us which kind of bus."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The last word tells you what the thing is.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Houseboat or Boathouse?",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Houseboat",
+              "description": "A boat you can live in.",
+              "example": "We stayed on a houseboat in Kerala."
+            },
+            {
+              "label": "Boathouse",
+              "description": "A building for keeping boats.",
+              "example": "The oars are kept in the boathouse."
+            }
+          ],
+          "comparison_points": [
+            "Houseboat ends in boat, so it is a kind of boat.",
+            "Boathouse ends in house, so it is a kind of building."
+          ],
+          "conclusion": "Swap the words and you name a different thing."
+        }
+      ],
+      "key_takeaway": "Change the order and you change the meaning.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Compound Nouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "A compound noun is one noun made from two or more words.",
+            "Closed: toothbrush. Open: post office. Hyphenated: runner-up.",
+            "The last word usually names what the thing is.",
+            "Changing the order changes the meaning."
+          ]
+        }
+      ],
+      "key_takeaway": "Look at the last word to know what it is.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "A compound noun is made from two or more words that together name one thing.",
+      "correct_answer": true,
+      "explanation": "The words join to name one person, place or thing, like toothbrush or bus stop."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the compound noun in: 'A butterfly landed on my hand.'",
+      "target": "The noun made from two words.",
+      "accepted_answers": [
+        "butterfly",
+        "a butterfly"
+      ],
+      "explanation": "Butterfly is made from butter and fly, joined to name one insect."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which compound noun is written as one word?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "football"
+        },
+        {
+          "option_id": "B",
+          "text": "bus station"
+        },
+        {
+          "option_id": "C",
+          "text": "father-in-law"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Football has no space and no hyphen, so it is a closed compound."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which is an open compound noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "high school"
+        },
+        {
+          "option_id": "B",
+          "text": "bedroom"
+        },
+        {
+          "option_id": "C",
+          "text": "passer-by"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "High school keeps a space between its words, so it is an open compound."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the hyphenated compound noun in: 'My sister-in-law teaches music.'",
+      "target": "The noun joined with hyphens.",
+      "accepted_answers": [
+        "sister-in-law",
+        "my sister-in-law"
+      ],
+      "explanation": "Sister-in-law joins three words with hyphens to name one person."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In the compound noun 'fire engine', which word is the main word?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "engine"
+        },
+        {
+          "option_id": "B",
+          "text": "fire"
+        },
+        {
+          "option_id": "C",
+          "text": "both equally"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A fire engine is a kind of engine, so engine is the main word. Fire tells us what kind."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What is a lunchbox?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "A box for lunch"
+        },
+        {
+          "option_id": "B",
+          "text": "A lunch shaped like a box"
+        },
+        {
+          "option_id": "C",
+          "text": "A lunch for a box"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Box is the main word, so a lunchbox is a kind of box. Lunch tells us what it holds."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the compound noun in: 'The goalkeeper dived to the left.'",
+      "target": "The noun made from two words.",
+      "accepted_answers": [
+        "goalkeeper",
+        "the goalkeeper"
+      ],
+      "explanation": "Goalkeeper joins goal and keeper to name one player."
+    },
+    {
+      "question_id": "Q009",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Match each kind of compound with an example.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "closed"
+        },
+        {
+          "item_id": "L2",
+          "text": "open"
+        },
+        {
+          "item_id": "L3",
+          "text": "hyphenated"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "passer-by"
+        },
+        {
+          "item_id": "R2",
+          "text": "swimming pool"
+        },
+        {
+          "item_id": "R3",
+          "text": "keyboard"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Keyboard is one word, swimming pool keeps a space and passer-by uses hyphens."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'a fruit basket', the main word is basket.",
+      "correct_answer": true,
+      "explanation": "A fruit basket is a kind of basket. Fruit tells us what it holds."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which compound noun names a kind of shoe?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "snowshoe"
+        },
+        {
+          "option_id": "B",
+          "text": "shoelace"
+        },
+        {
+          "option_id": "C",
+          "text": "shoebox"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Snowshoe ends in shoe, so it is a kind of shoe. A shoelace is a lace and a shoebox is a box."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence contains an open compound noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We met at the railway station."
+        },
+        {
+          "option_id": "B",
+          "text": "The bookshelf is completely full."
+        },
+        {
+          "option_id": "C",
+          "text": "Her stepmother smiled at us."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Railway station keeps a space between its words. Bookshelf and stepmother are closed compounds."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Compound Nouns",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check How Compounds Are Written",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check the Main Word",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Compound Nouns: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Plurals of compound nouns (mothers-in-law, passers-by)",
+        "reason": "Taught with other plural spelling rules in 1-2-9.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Compound adjectives",
+        "reason": "Taught in 1-5-10 Compound Adjectives.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Hyphen rules",
+        "reason": "Taught in Stage 5.5, Dash and Hyphen.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "A material noun before another noun",
+        "reason": "Taught in 1-2-6 Material Nouns.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

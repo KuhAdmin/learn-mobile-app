@@ -68,7 +68,8 @@ export function LessonPageView({ lessonTitle, screen, visuals }: LessonPageViewP
 
       case 'example':
         return (
-          <View key={block.block_id} style={styles.blocks}>
+          // A rule's examples share the rule's block id (see `screenBlocks`), so the key names the type.
+          <View key={`example-${block.block_id}`} style={styles.blocks}>
             {(() => {
               const [example] = block.examples;
               const phrases = visuals?.annotations?.[block.block_id];

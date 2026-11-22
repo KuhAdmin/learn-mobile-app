@@ -1,0 +1,934 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-2-11",
+    "title": "Possessive Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Possessive Nouns",
+    "lesson_summary": "Learners show ownership with nouns: 's for one owner, s' for plural owners ending in s, 's for irregular plurals and for names ending in s, and shared or separate ownership. They use 'of' for things and tell a possessive from a plain plural. Possessive pronouns and determiners (my, mine, its) are left to Chapters 1.3 and 1.4.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Show that one owner has something with 's.",
+        "success_criteria": [
+          "Add 's to a singular noun."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Show plural owners with s' or 's.",
+        "success_criteria": [
+          "Add only an apostrophe to plurals ending in s.",
+          "Add 's to irregular plurals such as children."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Show shared and separate ownership, and ownership by names ending in s.",
+        "success_criteria": [
+          "Tell 'Ravi and Asha's house' from 'Ravi's and Asha's phones'.",
+          "Write James's."
+        ]
+      },
+      {
+        "objective_id": "OBJ004",
+        "description": "Use 'of' for things and tell a possessive from a plural.",
+        "success_criteria": [
+          "Use phrases such as 'the top of the mountain'.",
+          "Leave out the apostrophe when a plural owns nothing."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 15,
+    "total_pages": 10
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "One Owner",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Plural Owners",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Names Ending in s and Two Owners",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    },
+    {
+      "dimension_id": "DIM004",
+      "dimension": "Possessive, Plural or Of",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "page_ids": [
+        "PAGE008",
+        "PAGE009"
+      ],
+      "assessment_id": "DA004"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Whose Is It?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "To show that something belongs to someone, we can add an apostrophe and s to a noun."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Meera's bicycle has a red bell.",
+              "highlight": [
+                "Meera's"
+              ],
+              "explanation": "Meera's tells us whose bicycle it is."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "An apostrophe and s can show who owns something.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Add 's for One Owner",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "To show that one person or animal has something, add an apostrophe and s ('s) to the noun.",
+          "scope": "Singular nouns",
+          "examples": [
+            {
+              "sentence": "The doctor's clinic opens at ten.",
+              "highlight": [
+                "doctor's"
+              ],
+              "explanation": "One doctor owns the clinic, so we write doctor's."
+            },
+            {
+              "sentence": "Our dog's bowl was empty.",
+              "highlight": [
+                "dog's"
+              ],
+              "explanation": "One dog has the bowl, so we write dog's."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One owner: add 's.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Belonging, Not Just Owning",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "The 's also shows that something is part of someone, or is for someone."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The giraffe's neck is very long.",
+              "highlight": [
+                "giraffe's"
+              ],
+              "explanation": "The neck is part of the giraffe."
+            },
+            {
+              "sentence": "We found a baby's sock in the car.",
+              "highlight": [
+                "baby's"
+              ],
+              "explanation": "The sock is for a baby."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "'s links a thing to the one it belongs to.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Plural Owners Ending in s",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "If a plural noun already ends in s, add only an apostrophe after the s (s').",
+          "scope": "Plural nouns ending in s",
+          "examples": [
+            {
+              "sentence": "The girls' hostel is near the gate.",
+              "highlight": [
+                "girls'"
+              ],
+              "explanation": "Many girls share the hostel, so the apostrophe comes after the s."
+            },
+            {
+              "sentence": "The players' shirts were muddy.",
+              "highlight": [
+                "players'"
+              ],
+              "explanation": "The shirts belong to many players."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Plural owners ending in s: add only '.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Irregular Plural Owners",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "If a plural noun does not end in s, add 's as usual.",
+          "scope": "Irregular plurals such as children, women and men",
+          "examples": [
+            {
+              "sentence": "The children's park reopened today.",
+              "highlight": [
+                "children's"
+              ],
+              "explanation": "Children doesn't end in s, so we add 's."
+            },
+            {
+              "sentence": "The women's team won the gold.",
+              "highlight": [
+                "women's"
+              ],
+              "explanation": "Women doesn't end in s, so we add 's."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Children's and women's take 's.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Names That End in s",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "For a name that ends in s, add 's: James's, Charles's. Some writers add only an apostrophe (James'). This course uses 's."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "James's cousin lives in Goa.",
+              "highlight": [
+                "James's"
+              ],
+              "explanation": "James is one person, so we add 's, even though his name ends in s."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A name ending in s usually adds 's.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Shared or Separate?",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Shared",
+              "description": "Both people own one thing: add 's to the last name only.",
+              "example": "Ravi and Asha's house is blue."
+            },
+            {
+              "label": "Separate",
+              "description": "Each person owns their own: add 's to both names.",
+              "example": "Ravi's and Asha's phones were new."
+            }
+          ],
+          "comparison_points": [
+            "One house belongs to both of them.",
+            "Each of them has a phone of their own."
+          ],
+          "conclusion": "Where you put the 's shows whether the owners share."
+        }
+      ],
+      "key_takeaway": "Shared: one 's. Separate: 's on each name.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Things Usually Use Of",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "For things that are not alive, we usually use of instead of 's: the leg of the table, the roof of the house."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The handle of the door is loose.",
+              "highlight": [
+                "handle of the door"
+              ],
+              "explanation": "A door is a thing, so we say the handle of the door."
+            },
+            {
+              "sentence": "The top of the mountain was white with snow.",
+              "highlight": [
+                "top of the mountain"
+              ],
+              "explanation": "A mountain is a thing, so of sounds natural."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "For things, use of.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "title": "Plural or Possessive?",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Plural",
+              "description": "More than one, owning nothing: no apostrophe.",
+              "example": "My cousins visited us last week."
+            },
+            {
+              "label": "Possessive",
+              "description": "Shows ownership: uses an apostrophe.",
+              "example": "My cousin's visit was too short."
+            }
+          ],
+          "comparison_points": [
+            "Cousins just means more than one cousin.",
+            "Cousin's tells us whose visit it was."
+          ],
+          "conclusion": "Ask: does the noun own something? If not, no apostrophe."
+        }
+      ],
+      "key_takeaway": "No owner, no apostrophe.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003",
+        "OBJ004"
+      ],
+      "title": "Possessive Nouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "One owner: add 's, as in the dog's bowl.",
+            "Plural ending in s: add ', as in the players' shirts.",
+            "Irregular plural: add 's, as in the children's park.",
+            "Shared: Ravi and Asha's house. Separate: Ravi's and Asha's phones.",
+            "Things usually use of: the top of the mountain.",
+            "A plural that owns nothing has no apostrophe."
+          ]
+        }
+      ],
+      "key_takeaway": "Ask who owns it, then place the apostrophe.",
+      "page_audit": {
+        "primary_objective_count": 4,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which phrase shows that the kite belongs to one boy?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the boy's kite"
+        },
+        {
+          "option_id": "B",
+          "text": "the boys kite"
+        },
+        {
+          "option_id": "C",
+          "text": "the boys' kite"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "One owner takes 's: the boy's kite. The boys' kite would mean many boys."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the possessive noun in: 'The farmer's tractor broke down.'",
+      "target": "The noun that shows who owns something.",
+      "accepted_answers": [
+        "farmer's",
+        "the farmer's"
+      ],
+      "explanation": "Farmer's shows that the tractor belongs to the farmer."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase means the toys of many babies?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the babies' toys"
+        },
+        {
+          "option_id": "B",
+          "text": "the baby's toys"
+        },
+        {
+          "option_id": "C",
+          "text": "the babies's toys"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Babies is plural and ends in s, so we add only an apostrophe: babies'."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the men's shoes"
+        },
+        {
+          "option_id": "B",
+          "text": "the mens' shoes"
+        },
+        {
+          "option_id": "C",
+          "text": "the mens shoes"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Men is an irregular plural without s, so it takes 's: men's."
+    },
+    {
+      "question_id": "Q005",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'the teachers' staffroom', more than one teacher is meant.",
+      "correct_answer": true,
+      "explanation": "The apostrophe after the s shows a plural owner: many teachers share the room."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which phrase means that Anu and Ben share one car?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Anu and Ben's car"
+        },
+        {
+          "option_id": "B",
+          "text": "Anu's and Ben's car"
+        },
+        {
+          "option_id": "C",
+          "text": "Anu and Bens car"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "For one shared thing, only the last name takes 's."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "A boy is called Thomas. Which phrase names his bat?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Thomas's bat"
+        },
+        {
+          "option_id": "B",
+          "text": "Thomases bat"
+        },
+        {
+          "option_id": "C",
+          "text": "Thoma's bat"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A name ending in s adds 's: Thomas's."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Which phrase sounds most natural?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the leg of the chair"
+        },
+        {
+          "option_id": "B",
+          "text": "the chair's leg's"
+        },
+        {
+          "option_id": "C",
+          "text": "the chairs leg"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A chair is a thing, so we usually use of: the leg of the chair."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Which sentence uses the apostrophe correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The parrot's cage is clean."
+        },
+        {
+          "option_id": "B",
+          "text": "The parrot's were noisy."
+        },
+        {
+          "option_id": "C",
+          "text": "Two parrot's flew away."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Only the first parrot owns something, the cage. The other sentences are plurals that own nothing."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase means the books that belong to my brothers?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "my brothers' books"
+        },
+        {
+          "option_id": "B",
+          "text": "my brother's books"
+        },
+        {
+          "option_id": "C",
+          "text": "my brothers books"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Brothers is plural and ends in s, so we add only an apostrophe."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the women's choir"
+        },
+        {
+          "option_id": "B",
+          "text": "the womens' choir"
+        },
+        {
+          "option_id": "C",
+          "text": "the woman's' choir"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Women doesn't end in s, so it takes 's: women's."
+    },
+    {
+      "question_id": "Q012",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the possessive noun in: 'The pilot's cap blew away.'",
+      "target": "The noun that shows who owns something.",
+      "accepted_answers": [
+        "pilot's",
+        "the pilot's"
+      ],
+      "explanation": "Pilot's shows that the cap belongs to the pilot."
+    },
+    {
+      "question_id": "Q013",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'Mira's and Sam's bikes', each person has their own bike.",
+      "correct_answer": true,
+      "explanation": "Both names take 's, so the ownership is separate."
+    },
+    {
+      "question_id": "Q014",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ004"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Ten lemons sat in the basket."
+        },
+        {
+          "option_id": "B",
+          "text": "Ten lemon's sat in the basket."
+        },
+        {
+          "option_id": "C",
+          "text": "Ten lemons' sat in the basket."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The lemons own nothing, so the plural needs no apostrophe."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check One Owner",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Plural Owners",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Names and Two Owners",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      },
+      {
+        "assessment_id": "DA004",
+        "dimension_id": "DIM004",
+        "title": "Check Of and Plurals",
+        "after_page_id": "PAGE009",
+        "question_ids": [
+          "Q008",
+          "Q009"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Possessive Nouns: Final Check",
+      "question_ids": [
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Possessive pronouns (mine, yours, its)",
+        "reason": "Taught in 1-3-3 Possessive Pronouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Possessive determiners (my, your, their)",
+        "reason": "Taught in 1-3-4 and 1-4-10.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Apostrophes in contractions (it's, don't)",
+        "reason": "Taught in Stage 5.5, Apostrophe.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Apostrophe mistakes",
+        "reason": "Practised with other noun errors in 1-2-14.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Apostrophe questions use multiple choice, because typed answers are compared without apostrophes."
+    ]
+  }
+}

@@ -1,1141 +1,1136 @@
-{
-"schema_version": "2.0",
-"content_type": "grammar_lesson",
-"generation_context": {
-"target_audience": "English learners",
-"language_level": "ELI5",
-"learning_context": "Mobile learning",
-"content_language": "en"
-},
-"topic": {
-"topic_id": "1-1-7",
-"title": "Word Classification Through Context",
-"learning_stage": null,
-"learner_level": "Grammar Foundations",
-"language": "en"
-},
-"lesson": {
-"lesson_title": "Word Classification Through Context",
-"lesson_summary": "A word does not always belong to the same word class. Its job in a sentence helps us identify its class. Learn to use sentence meaning, position, and grammatical function to classify words correctly, even when the same word performs different jobs.",
-"learning_objectives": [
-{
-"objective_id": "OBJ001",
-"description": "Explain why a word must be understood in its sentence context before its word class can be identified.",
-"success_criteria": [
-"Explain that a word can perform different grammatical jobs.",
-"Recognise that the same spelling can belong to different word classes."
-]
-},
-{
-"objective_id": "OBJ002",
-"description": "Identify the word class of a word by examining its job in a sentence.",
-"success_criteria": [
-"Identify the grammatical function of a target word.",
-"Use surrounding words and sentence meaning to classify it.",
-"Distinguish between a word's meaning and its grammatical job."
-]
-},
-{
-"objective_id": "OBJ003",
-"description": "Classify words that can belong to different word classes in different sentences.",
-"success_criteria": [
-"Recognise nouns and verbs that share the same spelling.",
-"Recognise adjectives and verbs that share the same spelling.",
-"Recognise words that can function as more than two word classes."
-]
-},
-{
-"objective_id": "OBJ004",
-"description": "Distinguish between word classes that are easily confused in real sentences.",
-"success_criteria": [
-"Distinguish nouns from verbs.",
-"Distinguish adjectives from adverbs.",
-"Distinguish prepositions from conjunctions and adverbs through their sentence functions."
-]
-},
-{
-"objective_id": "OBJ005",
-"description": "Apply contextual word classification when analysing complete sentences.",
-"success_criteria": [
-"Classify highlighted words in unfamiliar sentences.",
-"Explain why a word belongs to a particular class.",
-"Correct incorrect word classifications using sentence evidence."
-]
-}
-],
-"estimated_duration_minutes": 18,
-"total_pages": 19
-},
-"learning_dimensions": [
-{
-"dimension_id": "DIM001",
-"dimension": "Understanding the Role of Context",
-"applicability": "applicable",
-"status": "covered",
-"learning_objective_ids": ["OBJ001"],
-"page_ids": ["PAGE001", "PAGE002", "PAGE003"],
-"assessment_id": "DA001"
-},
-{
-"dimension_id": "DIM002",
-"dimension": "Identifying Word Classes Through Sentence Function",
-"applicability": "applicable",
-"status": "covered",
-"learning_objective_ids": ["OBJ002"],
-"page_ids": ["PAGE004", "PAGE005", "PAGE006"],
-"assessment_id": "DA002"
-},
-{
-"dimension_id": "DIM003",
-"dimension": "Recognising Words with Multiple Grammatical Jobs",
-"applicability": "applicable",
-"status": "covered",
-"learning_objective_ids": ["OBJ003", "OBJ004"],
-"page_ids": ["PAGE007", "PAGE008", "PAGE009", "PAGE010", "PAGE011", "PAGE012", "PAGE013"],
-"assessment_id": "DA003"
-},
-{
-"dimension_id": "DIM004",
-"dimension": "Distinguishing Confusing Word Classes",
-"applicability": "applicable",
-"status": "covered",
-"learning_objective_ids": ["OBJ004"],
-"page_ids": ["PAGE014", "PAGE015"],
-"assessment_id": "DA004"
-},
-{
-"dimension_id": "DIM005",
-"dimension": "Contextual Application and Error Correction",
-"applicability": "applicable",
-"status": "covered",
-"learning_objective_ids": ["OBJ005"],
-"page_ids": ["PAGE016", "PAGE017", "PAGE018", "PAGE019"],
-"assessment_id": "DA005"
-}
-],
-"pages": [
-{
-"page_id": "PAGE001",
-"page_number": 1,
-"page_type": "introduction",
-"pedagogical_role": "introduction",
-"learning_objective_ids": ["OBJ001"],
-"title": "One Word, Different Jobs",
-"content": [
-{
-"block_id": "BLOCK001",
-"type": "text",
-"text": "Can one word do different jobs? Yes! A word can belong to different word classes in different sentences. Its job depends on how it is used."
-},
-{
-"block_id": "BLOCK002",
-"type": "example",
-"examples": [
-{
-"sentence": "They drink tea.",
-"highlight": ["drink"],
-"explanation": "Drink names an action. It is a verb."
-},
-{
-"sentence": "Have a drink.",
-"highlight": ["drink"],
-"explanation": "Drink names something you have. It is a noun."
-}
-]
-}
-],
-"key_takeaway": "A word's grammatical role can change from sentence to sentence."
-},
-{
-"page_id": "PAGE002",
-"page_number": 2,
-"page_type": "concept",
-"pedagogical_role": "explanation",
-"learning_objective_ids": ["OBJ001"],
-"title": "Context Gives the Clue",
-"content": [
-{
-"block_id": "BLOCK003",
-"type": "text",
-"text": "Context means the words and ideas around a word. They help us understand what the word is doing in a sentence."
-},
-{
-"block_id": "BLOCK004",
-"type": "example",
-"examples": [
-{
-"sentence": "The birds fly south.",
-"highlight": ["fly"],
-"explanation": "Fly tells us what the birds do. It is a verb."
-},
-{
-"sentence": "The children watched a play.",
-"highlight": ["play"],
-"explanation": "Play names a performance. It is a noun."
-}
-]
-}
-],
-"key_takeaway": "Look at the whole sentence, not just one word."
-},
-{
-"page_id": "PAGE003",
-"page_number": 3,
-"page_type": "comparison",
-"pedagogical_role": "comparison",
-"learning_objective_ids": ["OBJ001"],
-"title": "Same Word, Different Class",
-"content": [
-{
-"block_id": "BLOCK005",
-"type": "comparison",
-"items": [
-{
-"label": "Noun",
-"description": "Names a thing or idea.",
-"example": "I need some help."
-},
-{
-"label": "Verb",
-"description": "Shows an action or state.",
-"example": "Please help me."
-}
-],
-"comparison_points": [
-"Help names something in the first sentence.",
-"Help shows an action in the second sentence."
-],
-"conclusion": "The spelling stays the same, but the grammatical job changes."
-}
-],
-"key_takeaway": "Word class depends on grammatical function."
-},
-{
-"page_id": "PAGE004",
-"page_number": 4,
-"page_type": "concept",
-"pedagogical_role": "recognition",
-"learning_objective_ids": ["OBJ002"],
-"title": "Discover the Word's Function",
-"content": [
-{
-"block_id": "BLOCK007",
-"type": "text",
-"text": "To identify a word class, ask what the word does in the sentence. Does it name something, show an action, describe something, or give more information?"
-},
-{
-"block_id": "BLOCK008",
-"type": "list",
-"introduction": "Start with these simple clues:",
-"list_style": "bulleted",
-"items": [
-"Names a person, place, thing or idea: noun.",
-"Shows an action or state: verb.",
-"Describes a noun: adjective.",
-"Adds information about an action or description: adverb."
-]
-}
-],
-"key_takeaway": "Ask what the word does."
-},
-{
-"page_id": "PAGE005",
-"page_number": 5,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ002"],
-"title": "Use the Sentence Clues",
-"content": [
-{
-"block_id": "BLOCK009",
-"type": "example",
-"examples": [
-{
-"sentence": "A small puppy sleeps.",
-"highlight": ["small"],
-"explanation": "Small describes the noun puppy. It is an adjective."
-},
-{
-"sentence": "The bird sings beautifully.",
-"highlight": ["beautifully"],
-"explanation": "Beautifully tells us how the bird sings. It is an adverb."
-}
-]
-},
-{
-"block_id": "BLOCK010",
-"type": "note",
-"title": "Look carefully",
-"text": "Do not classify a word only because of its spelling or ending. Check its actual job."
-}
-],
-"key_takeaway": "Sentence clues reveal grammatical function."
-},
-{
-"page_id": "PAGE006",
-"page_number": 6,
-"page_type": "practice",
-"pedagogical_role": "guided_practice",
-"learning_objective_ids": ["OBJ002"],
-"title": "Try the Sentence Clue",
-"content": [
-{
-"block_id": "BLOCK011",
-"type": "text",
-"text": "Read the sentence carefully. Find the highlighted word's job before choosing its word class."
-}
-],
-"key_takeaway": "Use meaning and function together."
-},
-{
-"page_id": "PAGE007",
-"page_number": 7,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "A Word Can Be a Noun or Verb",
-"content": [
-{
-"block_id": "BLOCK014",
-"type": "example",
-"examples": [
-{
-"sentence": "The children dance together.",
-"highlight": ["dance"],
-"explanation": "Dance shows what the children do. It is a verb."
-},
-{
-"sentence": "The dance was wonderful.",
-"highlight": ["dance"],
-"explanation": "Dance names an event. It is a noun."
-}
-]
-},
-{
-"block_id": "BLOCK015",
-"type": "note",
-"title": "Remember",
-"text": "Many action words can also name activities or events."
-}
-],
-"key_takeaway": "A noun can name an action as an activity."
-},
-{
-"page_id": "PAGE008",
-"page_number": 8,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Brush Has Two Jobs",
-"content": [
-{
-"block_id": "BLOCK016",
-"type": "example",
-"examples": [
-{
-"sentence": "I brush my hair every morning.",
-"highlight": ["brush"],
-"explanation": "Brush tells us what action I perform. It is a verb."
-},
-{
-"sentence": "This brush has soft bristles.",
-"highlight": ["brush"],
-"explanation": "Brush names an object. It is a noun."
-}
-]
-}
-],
-"key_takeaway": "Brush can name an object or show an action."
-},
-{
-"page_id": "PAGE009",
-"page_number": 9,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Plant Has Different Jobs",
-"content": [
-{
-"block_id": "BLOCK018",
-"type": "example",
-"examples": [
-{
-"sentence": "The plant needs sunlight.",
-"highlight": ["plant"],
-"explanation": "Plant names a living thing. It is a noun."
-},
-{
-"sentence": "They plant roses in spring.",
-"highlight": ["plant"],
-"explanation": "Plant tells us what action they perform. It is a verb."
-}
-]
-},
-{
-"block_id": "BLOCK019",
-"type": "note",
-"title": "Remember",
-"text": "The same spelling can name something in one sentence and express an action in another."
-}
-],
-"key_takeaway": "Plant can be a noun or a verb."
-},
-{
-"page_id": "PAGE010",
-"page_number": 10,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Empty Can Change Its Job",
-"content": [
-{
-"block_id": "BLOCK020",
-"type": "example",
-"examples": [
-{
-"sentence": "The empty box is on the floor.",
-"highlight": ["empty"],
-"explanation": "Empty describes the box. It is an adjective."
-},
-{
-"sentence": "Please empty the box.",
-"highlight": ["empty"],
-"explanation": "Empty tells us what action to perform. It is a verb."
-}
-]
-},
-{
-"block_id": "BLOCK021",
-"type": "note",
-"title": "Think about the job",
-"text": "Is empty describing something, or is it showing an action?"
-}
-],
-"key_takeaway": "An adjective can also function as a verb."
-},
-{
-"page_id": "PAGE011",
-"page_number": 11,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Straight Can Be Two Classes",
-"content": [
-{
-"block_id": "BLOCK022",
-"type": "example",
-"examples": [
-{
-"sentence": "Draw a straight line.",
-"highlight": ["straight"],
-"explanation": "Straight describes the line. It is an adjective."
-},
-{
-"sentence": "Walk straight ahead.",
-"highlight": ["straight"],
-"explanation": "Straight tells us the direction in which to walk. It is an adverb."
-}
-]
-},
-{
-"block_id": "BLOCK023",
-"type": "note",
-"title": "Important",
-"text": "Some adverbs do not end in -ly. Straight can be an adverb when it gives information about direction."
-}
-],
-"key_takeaway": "A word's ending does not always reveal its class."
-},
-{
-"page_id": "PAGE012",
-"page_number": 12,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Since Has Different Jobs",
-"content": [
-{
-"block_id": "BLOCK024",
-"type": "example",
-"examples": [
-{
-"sentence": "I have lived here since 2020.",
-"highlight": ["since"],
-"explanation": "Since connects the time period 2020 with the action of living here. It is a preposition."
-},
-{
-"sentence": "Since you arrived, everything has changed.",
-"highlight": ["Since"],
-"explanation": "Since introduces a clause containing a subject and a verb. It is a conjunction."
-}
-]
-},
-{
-"block_id": "BLOCK025",
-"type": "note",
-"title": "A useful clue",
-"text": "Look at what comes after since. A noun phrase or a full clause can help identify its job."
-}
-],
-"key_takeaway": "Since can be a preposition or a conjunction."
-},
-{
-"page_id": "PAGE013",
-"page_number": 13,
-"page_type": "example",
-"pedagogical_role": "demonstration",
-"learning_objective_ids": ["OBJ003"],
-"title": "Round Can Be Three Classes",
-"content": [
-{
-"block_id": "BLOCK026",
-"type": "example",
-"examples": [
-{
-"sentence": "We sat around the table.",
-"highlight": ["around"],
-"explanation": "Around shows the relationship between the sitting and the table. It is a preposition."
-},
-{
-"sentence": "The children stood around.",
-"highlight": ["around"],
-"explanation": "Around gives more information about where the children stood. It is an adverb."
-}
-]
-},
-{
-"block_id": "BLOCK027",
-"type": "example",
-"examples": [
-{
-"sentence": "We played a round of chess.",
-"highlight": ["round"],
-"explanation": "Round names one stage of a game. It is a noun."
-}
-]
-}
-],
-"key_takeaway": "One spelling can perform several grammatical jobs."
-},
-{
-"page_id": "PAGE014",
-"page_number": 14,
-"page_type": "comparison",
-"pedagogical_role": "comparison",
-"learning_objective_ids": ["OBJ004"],
-"title": "Noun or Verb?",
-"content": [
-{
-"block_id": "BLOCK028",
-"type": "comparison",
-"items": [
-{
-"label": "Noun",
-"description": "Names a person, place, thing or idea.",
-"example": "The cook prepared dinner."
-},
-{
-"label": "Verb",
-"description": "Shows an action or state.",
-"example": "I cook dinner."
-}
-],
-"comparison_points": [
-"Cook names a person in the first sentence.",
-"Cook shows an action in the second sentence."
-],
-"conclusion": "Ask whether the word names something or shows what someone does."
-}
-],
-"key_takeaway": "Naming and doing are different grammatical jobs."
-},
-{
-"page_id": "PAGE015",
-"page_number": 15,
-"page_type": "comparison",
-"pedagogical_role": "comparison",
-"learning_objective_ids": ["OBJ004"],
-"title": "Describing Words: Adjective or Adverb?",
-"content": [
-{
-"block_id": "BLOCK030",
-"type": "comparison",
-"items": [
-{
-"label": "Adjective",
-"description": "Describes a noun or pronoun.",
-"example": "The late bus finally arrived."
-},
-{
-"label": "Adverb",
-"description": "Can describe a verb, adjective or another adverb.",
-"example": "The bus arrived late."
-}
-],
-"comparison_points": [
-"Late describes the noun bus in the first sentence.",
-"Late tells us when the bus arrived in the second sentence."
-],
-"conclusion": "Check what the describing word is connected to."
-},
-{
-"block_id": "BLOCK031",
-"type": "warning",
-"title": "Common mistake",
-"mistake": {
-"incorrect": "He explains patient.",
-"correct": "He explains patiently.",
-"reason": "Patiently describes how he explains. It is an adverb in this sentence."
-},
-"related_learning_objective_ids": ["OBJ004"]
-}
-],
-"key_takeaway": "Check whether a word describes a noun or modifies an action."
-},
-{
-"page_id": "PAGE016",
-"page_number": 16,
-"page_type": "application",
-"pedagogical_role": "guided_practice",
-"learning_objective_ids": ["OBJ005"],
-"title": "Read Before You Classify",
-"content": [
-{
-"block_id": "BLOCK032",
-"type": "text",
-"text": "Never guess a word class from a word alone. Read the whole sentence. Notice the words around it and understand what job it performs."
-},
-{
-"block_id": "BLOCK033",
-"type": "list",
-"introduction": "Follow these three steps:",
-"list_style": "numbered",
-"items": [
-"Read the complete sentence.",
-"Find the job of the highlighted word.",
-"Choose the word class that matches its job."
-]
-}
-],
-"key_takeaway": "Sentence first, word class second."
-},
-{
-"page_id": "PAGE017",
-"page_number": 17,
-"page_type": "practice",
-"pedagogical_role": "independent_practice",
-"learning_objective_ids": ["OBJ005"],
-"title": "Classify in Context",
-"content": [
-{
-"block_id": "BLOCK035",
-"type": "text",
-"text": "The same word may appear in different sentences. Identify its word class separately each time."
-}
-],
-"key_takeaway": "Classify each use independently."
-},
-{
-"page_id": "PAGE018",
-"page_number": 18,
-"page_type": "common_mistake",
-"pedagogical_role": "error_analysis",
-"learning_objective_ids": ["OBJ005"],
-"title": "Avoid These Mistakes",
-"content": [
-{
-"block_id": "BLOCK038",
-"type": "warning",
-"title": "Mistake 1: Classifying by spelling",
-"mistake": {
-"incorrect": "Words ending in -ly are always adverbs.",
-"correct": "Words ending in -ly are often adverbs, but some are adjectives.",
-"reason": "In a friendly person, friendly is an adjective. In she speaks kindly, kindly is an adverb."
-},
-"related_learning_objective_ids": ["OBJ003", "OBJ004"]
-},
-{
-"block_id": "BLOCK039",
-"type": "warning",
-"title": "Mistake 2: Classifying by meaning alone",
-"mistake": {
-"incorrect": "Dance is always a verb because it means an activity.",
-"correct": "Dance can be a noun or a verb.",
-"reason": "In They dance, it is a verb. In Their dance was beautiful, it is a noun."
-},
-"related_learning_objective_ids": ["OBJ003", "OBJ005"]
-}
-],
-"key_takeaway": "Meaning and sentence function work together."
-},
-{
-"page_id": "PAGE019",
-"page_number": 19,
-"page_type": "summary",
-"pedagogical_role": "reinforcement",
-"learning_objective_ids": ["OBJ001", "OBJ002", "OBJ003", "OBJ004", "OBJ005"],
-"title": "The Context Rule",
-"content": [
-{
-"block_id": "BLOCK040",
-"type": "text",
-"text": "You have learned that the same word can perform different grammatical jobs in different sentences. Its word class depends on how it works in context."
-},
-{
-"block_id": "BLOCK041",
-"type": "list",
-"introduction": "Remember these key ideas:",
-"list_style": "bulleted",
-"items": [
-"A word can belong to more than one word class.",
-"Its spelling does not always reveal its class.",
-"Its meaning and grammatical function provide clues.",
-"Always examine the complete sentence."
-]
-}
-],
-"key_takeaway": "Context is the key to word classification."
-}
-],
-"question_bank": [
-{
-"question_id": "Q001",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ001"],
-"prompt": "In which sentence is the word help a noun?",
-"options": [
-{"option_id": "A", "text": "Please help me."},
-{"option_id": "B", "text": "I need some help."},
-{"option_id": "C", "text": "Help your friend."}
-],
-"correct_answers": ["B"],
-"explanation": "In I need some help, help names something that is needed. It is a noun.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q002",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ002"],
-"prompt": "Identify the word class of little in: The little puppy slept.",
-"options": [
-{"option_id": "A", "text": "Noun"},
-{"option_id": "B", "text": "Adjective"},
-{"option_id": "C", "text": "Adverb"},
-{"option_id": "D", "text": "Verb"}
-],
-"correct_answers": ["B"],
-"explanation": "Little describes the noun puppy. Therefore, it is an adjective.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q003",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ002"],
-"prompt": "What is the word class of soundly in: The baby slept soundly?",
-"options": [
-{"option_id": "A", "text": "Noun"},
-{"option_id": "B", "text": "Adjective"},
-{"option_id": "C", "text": "Adverb"},
-{"option_id": "D", "text": "Preposition"}
-],
-"correct_answers": ["C"],
-"explanation": "Soundly tells us how the baby slept. It modifies the verb slept, so it is an adverb.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q004",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ003"],
-"prompt": "What is the word class of brush in: This brush has soft bristles?",
-"options": [
-{"option_id": "A", "text": "Verb"},
-{"option_id": "B", "text": "Noun"},
-{"option_id": "C", "text": "Adjective"},
-{"option_id": "D", "text": "Adverb"}
-],
-"correct_answers": ["B"],
-"explanation": "Brush names an object. Therefore, it is a noun.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q005",
-"type": "identify",
-"learning_objective_ids": ["OBJ004"],
-"prompt": "What part of speech is the word cook in: My uncle is a cook?",
-"target": "The word cook",
-"accepted_answers": ["noun"],
-"explanation": "Cook names a person whose job is preparing food. It is a noun.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q006",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ005"],
-"prompt": "In the sentence I have lived here since 2020, what is since?",
-"options": [
-{"option_id": "A", "text": "Conjunction"},
-{"option_id": "B", "text": "Preposition"},
-{"option_id": "C", "text": "Adjective"},
-{"option_id": "D", "text": "Verb"}
-],
-"correct_answers": ["B"],
-"explanation": "Since connects the time expression 2020 with the clause I have lived here. It is a preposition.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q007",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ005"],
-"prompt": "What is the word class of straight in: Draw a straight line?",
-"options": [
-{"option_id": "A", "text": "Noun"},
-{"option_id": "B", "text": "Verb"},
-{"option_id": "C", "text": "Adjective"},
-{"option_id": "D", "text": "Adverb"}
-],
-"correct_answers": ["C"],
-"explanation": "Straight describes the line. It is an adjective.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q008",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ005"],
-"prompt": "What is the word class of round in: We played a round of cards?",
-"options": [
-{"option_id": "A", "text": "Noun"},
-{"option_id": "B", "text": "Adverb"},
-{"option_id": "C", "text": "Preposition"},
-{"option_id": "D", "text": "Conjunction"}
-],
-"correct_answers": ["A"],
-"explanation": "Round names one part or stage of the game. It is a noun.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q009",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ001", "OBJ002", "OBJ003", "OBJ004", "OBJ005"],
-"prompt": "Read both sentences: (1) They dance every evening. (2) Their dance was enjoyable. What is the word class of dance in sentence 1 and sentence 2?",
-"options": [
-{"option_id": "A", "text": "Noun in both sentences"},
-{"option_id": "B", "text": "Verb in both sentences"},
-{"option_id": "C", "text": "Verb in sentence 1 and noun in sentence 2"},
-{"option_id": "D", "text": "Noun in sentence 1 and verb in sentence 2"}
-],
-"correct_answers": ["C"],
-"explanation": "In sentence 1, dance shows an action, so it is a verb. In sentence 2, dance names an activity, so it is a noun.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "analyse",
-"assessment_purpose": "final_check"
-}
-},
-{
-"question_id": "Q010",
-"type": "true_false",
-"learning_objective_ids": ["OBJ001", "OBJ002"],
-"prompt": "A word always belongs to the same word class in every sentence.",
-"correct_answer": false,
-"explanation": "A word can perform different grammatical jobs in different sentences. Its word class depends on its use.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q011",
-"type": "identify",
-"learning_objective_ids": ["OBJ003", "OBJ005"],
-"prompt": "What part of speech is the word straight in: Walk straight ahead?",
-"target": "The word straight",
-"accepted_answers": ["adverb"],
-"explanation": "Straight tells us the direction in which to walk. It modifies the verb walk, so it is an adverb.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "final_check"
-}
-},
-{
-"question_id": "Q012",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ003", "OBJ004"],
-"prompt": "In which sentence is empty a verb?",
-"options": [
-{"option_id": "A", "text": "The empty box is on the floor."},
-{"option_id": "B", "text": "Please empty the box."},
-{"option_id": "C", "text": "The empty room looks large."},
-{"option_id": "D", "text": "We found an empty bottle."}
-],
-"correct_answers": ["B"],
-"explanation": "In sentence B, empty tells someone what action to perform. It is a verb.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q013",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ003", "OBJ004"],
-"prompt": "In the sentence I waited until the bell rang, what is until?",
-"options": [
-{"option_id": "A", "text": "Noun"},
-{"option_id": "B", "text": "Preposition"},
-{"option_id": "C", "text": "Conjunction"},
-{"option_id": "D", "text": "Adjective"}
-],
-"correct_answers": ["C"],
-"explanation": "Until joins the main clause with the clause the bell rang. It is a subordinating conjunction.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q014",
-"type": "match_the_pair",
-"learning_objective_ids": ["OBJ003", "OBJ005"],
-"prompt": "Match each highlighted word with its word class in the given sentence.",
-"left_items": [
-{"item_id": "L1", "text": "The brush is new. — brush"},
-{"item_id": "L2", "text": "I brush my hair. — brush"},
-{"item_id": "L3", "text": "Draw a straight line. — straight"},
-{"item_id": "L4", "text": "Walk straight ahead. — straight"}
-],
-"right_items": [
-{"item_id": "R1", "text": "Noun"},
-{"item_id": "R2", "text": "Verb"},
-{"item_id": "R3", "text": "Adjective"},
-{"item_id": "R4", "text": "Adverb"}
-],
-"correct_pairs": [
-{"left_id": "L1", "right_id": "R1"},
-{"left_id": "L2", "right_id": "R2"},
-{"left_id": "L3", "right_id": "R3"},
-{"left_id": "L4", "right_id": "R4"}
-],
-"explanation": "Brush names an object or shows an action. Straight describes a line or tells us the direction of movement.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "analyse",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q015",
-"type": "sentence_correction",
-"learning_objective_ids": ["OBJ004", "OBJ005"],
-"prompt": "Correct the sentence to mean that the bus did not arrive on time: The bus arrived lately.",
-"original_sentence": "The bus arrived lately.",
-"corrected_sentence": "The bus arrived late.",
-"explanation": "Late tells us when the bus arrived and functions as an adverb. Lately means recently and does not express the meaning of arriving after the expected time.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "final_check"
-}
-},
-{
-"question_id": "Q016",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ002", "OBJ005"],
-"prompt": "In the sentence The children stood around, what is around?",
-"options": [
-{"option_id": "A", "text": "Preposition"},
-{"option_id": "B", "text": "Adverb"},
-{"option_id": "C", "text": "Noun"},
-{"option_id": "D", "text": "Conjunction"}
-],
-"correct_answers": ["B"],
-"explanation": "Around gives information about where the children stood. There is no object after it, so it functions as an adverb here.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "dimension_check"
-}
-},
-{
-"question_id": "Q017",
-"type": "multiple_choice",
-"learning_objective_ids": ["OBJ003", "OBJ005"],
-"prompt": "In which sentence is plant a verb?",
-"options": [
-{"option_id": "A", "text": "The plant needs sunlight."},
-{"option_id": "B", "text": "They plant roses in spring."},
-{"option_id": "C", "text": "The plant has green leaves."},
-{"option_id": "D", "text": "A small plant grew near the wall."}
-],
-"correct_answers": ["B"],
-"explanation": "In sentence B, plant tells us what action they perform. It is a verb.",
-"assessment_metadata": {
-"difficulty": "medium",
-"cognitive_level": "apply",
-"assessment_purpose": "final_check"
-}
-},
-{
-"question_id": "Q018",
-"type": "true_false",
-"learning_objective_ids": ["OBJ003", "OBJ004"],
-"prompt": "Every adverb must end in -ly.",
-"correct_answer": false,
-"explanation": "Many adverbs end in -ly, but some do not. Fast, hard, and well can also function as adverbs.",
-"assessment_metadata": {
-"difficulty": "easy",
-"cognitive_level": "understand",
-"assessment_purpose": "dimension_check"
-}
-}
-],
-"assessments": {
-"dimension_assessments": [
-{
-"assessment_id": "DA001",
-"dimension_id": "DIM001",
-"title": "Understanding Context",
-"after_page_id": "PAGE003",
-"question_ids": ["Q010", "Q001"]
-},
-{
-"assessment_id": "DA002",
-"dimension_id": "DIM002",
-"title": "Finding Word Jobs",
-"after_page_id": "PAGE006",
-"question_ids": ["Q002", "Q003"]
-},
-{
-"assessment_id": "DA003",
-"dimension_id": "DIM003",
-"title": "One Word, Different Classes",
-"after_page_id": "PAGE013",
-"question_ids": ["Q004", "Q012", "Q014"]
-},
-{
-"assessment_id": "DA004",
-"dimension_id": "DIM004",
-"title": "Distinguishing Word Classes",
-"after_page_id": "PAGE015",
-"question_ids": ["Q005", "Q013", "Q018"]
-},
-{
-"assessment_id": "DA005",
-"dimension_id": "DIM005",
-"title": "Applying Context Clues",
-"after_page_id": "PAGE019",
-"question_ids": ["Q006", "Q007", "Q008", "Q016"]
-}
-],
-"final_assessment": {
-"assessment_id": "FA001",
-"title": "Word Classification Through Context — Final Check",
-"question_ids": ["Q009", "Q011", "Q015", "Q017"]
-}
-},
-"coverage": {
-"cross_references": [
-{
-"concept": "The eight traditional parts of speech",
-"reason": "This lesson uses previously introduced word classes to show how their grammatical jobs change with context. A complete introduction to all eight classes belongs to the preceding lessons.",
-"coverage": "referenced_only"
-},
-{
-"concept": "Subject, object and predicate",
-"reason": "Understanding sentence structure can help learners identify grammatical functions. A detailed study of these sentence elements requires a separate lesson.",
-"coverage": "introduced_only"
-},
-{
-"concept": "Gerunds and infinitives",
-"reason": "Some verb forms can function as nouns or perform other grammatical roles. Their detailed classification requires a separate lesson.",
-"coverage": "excluded"
-},
-{
-"concept": "Word formation and conversion",
-"reason": "Some words change grammatical class without changing their spelling. The broader process of conversion and word formation requires a separate lesson.",
-"coverage": "introduced_only"
-}
-]
-},
-"quality_audit": {
-"grammar_accuracy": "passed",
-"content_completeness": "review_required",
-"pedagogical_sequence": "passed",
-"eli5_readability": "passed",
-"mobile_page_density": "passed",
-"example_quality": "passed",
-"interaction_validity": "passed",
-"json_schema_validity": "review_required",
-"duplicate_content_check": "passed",
-"assessment_audit": {
-"dimension_assessment_coverage": "passed",
-"final_assessment_coverage": "passed",
-"question_objective_alignment": "passed",
-"duplicate_question_check": "passed",
-"answer_key_validation": "passed",
-"interaction_structure_validation": "passed"
-},
-"overall_status": "review_required",
-"issues_found": [
-"The formal Learn Lesson JSON Schema v2.0 definition was not supplied as a separate schema file. Structural compliance has been checked against the output contract in the generation prompt, but formal JSON Schema validation has not been executed.",
-"The lesson provides representative examples of words with multiple grammatical classes rather than an exhaustive dictionary of such words. The focus is contextual identification, not memorisation of every possible word-class conversion.",
-"The distinction between prepositions, conjunctions and adverbs is introduced through selected examples. A comprehensive treatment of multi-function prepositions and subordinating conjunctions requires additional lessons."
-],
-"corrections_made": [
-"Replaced Q003's repeated beautifully sentence with The baby slept soundly.",
-"Replaced Q004's repeated watch-related sentence with a new brush example.",
-"Replaced Q007's repeated light-related sentence with a straight example.",
-"Replaced Q012's repeated clean-related sentence with a new empty example.",
-"Replaced Q017's repeated light-related sentence with a new plant example.",
-"Replaced PAGE008's watch examples with brush examples.",
-"Replaced PAGE009's light examples with plant examples.",
-"Replaced PAGE010's clean examples with empty examples.",
-"Replaced PAGE011's fast examples with straight examples.",
-"Replaced PAGE012's before examples with since examples.",
-"Replaced PAGE015's patient examples with late examples.",
-"Updated Q006 to assess since as a preposition.",
-"Updated Q011 to assess straight as an adverb.",
-"Updated Q014 to practise brush and straight in context.",
-"Updated Q015 to assess the adjective and adverb uses of late.",
-"Preserved all page IDs, question IDs, learning objective IDs, dimension IDs and assessment IDs.",
-"Preserved the page sequence and assessment architecture.",
-"Checked question uniqueness across assessment placements.",
-"Checked answer keys and grammatical explanations for the revised questions."
-]
-}
+{\
+&#x20; "schema_version": "2.0",\
+&#x20; "content_type": "grammar_lesson",\
+&#x20; "generation_context": {\
+&#x20; "target_audience": "English learners",\
+&#x20; "language_level": "ELI5",\
+&#x20; "learning_context": "Mobile learning",\
+&#x20; "content_language": "en"\
+&#x20; },\
+&#x20; "topic": {\
+&#x20; "topic_id": "1-2-1",\
+&#x20; "title": "Introduction to Nouns",\
+&#x20; "learning_stage": null,\
+&#x20; "learner_level": "Grammar Fundamentals",\
+&#x20; "language": "en"\
+&#x20; },\
+&#x20; "lesson": {\
+&#x20; "lesson_title": "Introduction to Nouns",\
+&#x20; "lesson_summary": "This lesson builds on the learner's earlier knowledge of nouns. It does not reteach noun definitions or basic noun classifications. Instead, it explores how nouns work inside sentences, how noun phrases are formed, and how noun number affects sentence structure.",\
+&#x20; "learning_objectives": [\
+&#x20; {\
+&#x20; "objective_id": "OBJ001",\
+&#x20; "description": "Recall the basic meaning of a noun without repeating the earlier lesson on parts of speech.",\
+&#x20; "success_criteria": [\
+&#x20; "Recognise that a noun can appear in different positions in a sentence.",\
+&#x20; "Use the earlier noun knowledge as a starting point for studying noun functions."\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "objective_id": "OBJ002",\
+&#x20; "description": "Identify the grammatical functions performed by nouns in sentences.",\
+&#x20; "success_criteria": [\
+&#x20; "Identify a noun used as the subject.",\
+&#x20; "Identify a noun used as a direct or indirect object.",\
+&#x20; "Identify a noun used after a preposition.",\
+&#x20; "Recognise a noun used as a subject complement or an appositive."\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "objective_id": "OBJ003",\
+&#x20; "description": "Recognise and understand the structure of noun phrases.",\
+&#x20; "success_criteria": [\
+&#x20; "Identify the main noun in a noun phrase.",\
+&#x20; "Recognise words that come before and after the main noun.",\
+&#x20; "Identify a complete noun phrase in a sentence."\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "objective_id": "OBJ004",\
+&#x20; "description": "Apply noun number correctly when constructing and understanding sentences.",\
+&#x20; "success_criteria": [\
+&#x20; "Distinguish singular and plural noun forms.",\
+&#x20; "Recognise common regular and irregular plural forms.",\
+&#x20; "Use a noun with an appropriate verb in a sentence."\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "objective_id": "OBJ005",\
+&#x20; "description": "Analyse and construct sentences using nouns and noun phrases.",\
+&#x20; "success_criteria": [\
+&#x20; "Identify the function of a noun in a complete sentence.",\
+&#x20; "Build a sentence using an expanded noun phrase.",\
+&#x20; "Correct a basic noun-related sentence error."\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "estimated_duration_minutes": 25,\
+&#x20; "total_pages": 13\
+&#x20; },\
+&#x20; "learning_dimensions": [\
+&#x20; {\
+&#x20; "dimension_id": "DIM001",\
+&#x20; "dimension": "Grammatical Functions of Nouns",\
+&#x20; "applicability": "applicable",\
+&#x20; "status": "applicable",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "page_ids": [\
+&#x20; "PAGE002",\
+&#x20; "PAGE003",\
+&#x20; "PAGE004",\
+&#x20; "PAGE005",\
+&#x20; "PAGE006",\
+&#x20; "PAGE007"\
+&#x20; ],\
+&#x20; "assessment_id": "DA001"\
+&#x20; },\
+&#x20; {\
+&#x20; "dimension_id": "DIM002",\
+&#x20; "dimension": "Noun Phrases and Their Structure",\
+&#x20; "applicability": "applicable",\
+&#x20; "status": "applicable",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003"\
+&#x20; ],\
+&#x20; "page_ids": [\
+&#x20; "PAGE008",\
+&#x20; "PAGE009",\
+&#x20; "PAGE010"\
+&#x20; ],\
+&#x20; "assessment_id": "DA002"\
+&#x20; },\
+&#x20; {\
+&#x20; "dimension_id": "DIM003",\
+&#x20; "dimension": "Noun Number and Sentence Application",\
+&#x20; "applicability": "applicable",\
+&#x20; "status": "applicable",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "page_ids": [\
+&#x20; "PAGE011",\
+&#x20; "PAGE012"\
+&#x20; ],\
+&#x20; "assessment_id": "DA003"\
+&#x20; }\
+&#x20; ],\
+&#x20; "pages": [\
+&#x20; {\
+&#x20; "page_id": "PAGE001",\
+&#x20; "page_number": 1,\
+&#x20; "page_type": "introduction",\
+&#x20; "pedagogical_role": "reinforcement",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ001"\
+&#x20; ],\
+&#x20; "title": "A Quick Noun Reminder",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK001",\
+&#x20; "type": "text",\
+&#x20; "text": "You already know what nouns are. This short reminder prepares you for the next step: understanding the different jobs nouns do inside sentences."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK002",\
+&#x20; "type": "list",\
+&#x20; "introduction": "Remember:",\
+&#x20; "list_style": "bulleted",\
+&#x20; "items": [\
+&#x20; "A noun names something.",\
+&#x20; "A noun can appear in different places in a sentence.",\
+&#x20; "Its position helps us understand its job."\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "You know nouns. Now discover how they work.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 43,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE002",\
+&#x20; "page_number": 2,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "explanation",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "A Noun Can Do a Job",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK003",\
+&#x20; "type": "text",\
+&#x20; "text": "A noun does more than name something. In a sentence, it can play a particular grammatical role. Its job depends on how it is used."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK004",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "Lena opened the window.",\
+&#x20; "highlight": [\
+&#x20; "Lena",\
+&#x20; "window"\
+&#x20; ],\
+&#x20; "explanation": "Lena performs the action. The window receives the action. Both are nouns, but their jobs are different."\
+&#x20; }\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "One noun can have different sentence jobs.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 43,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE003",\
+&#x20; "page_number": 3,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "recognition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "The Noun as Subject",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK005",\
+&#x20; "type": "text",\
+&#x20; "text": "The subject tells us who or what the sentence is about. When a noun performs this job, it is called the subject."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK006",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "The baby smiled.",\
+&#x20; "highlight": [\
+&#x20; "baby"\
+&#x20; ],\
+&#x20; "explanation": "The sentence tells us about the baby. The noun baby is the subject."\
+&#x20; },\
+&#x20; {\
+&#x20; "sentence": "Heavy rain flooded the road.",\
+&#x20; "highlight": [\
+&#x20; "rain"\
+&#x20; ],\
+&#x20; "explanation": "The sentence is about the rain. The noun rain is the subject."\
+&#x20; }\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "The subject tells us who or what the sentence is about.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 49,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE004",\
+&#x20; "page_number": 4,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "recognition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "The Noun as Direct Object",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK007",\
+&#x20; "type": "text",\
+&#x20; "text": "A direct object receives the action of a verb. Ask what or whom after the action word to help find it."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK008",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "Ravi kicked the ball.",\
+&#x20; "highlight": [\
+&#x20; "ball"\
+&#x20; ],\
+&#x20; "explanation": "Ravi kicked what? The ball. The noun ball is the direct object."\
+&#x20; },\
+&#x20; {\
+&#x20; "sentence": "Mina called her friend.",\
+&#x20; "highlight": [\
+&#x20; "friend"\
+&#x20; ],\
+&#x20; "explanation": "Mina called whom? Her friend. The noun friend is the direct object."\
+&#x20; }\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "A direct object receives the action.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 47,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE005",\
+&#x20; "page_number": 5,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "decomposition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "The Noun as Indirect Object",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK009",\
+&#x20; "type": "text",\
+&#x20; "text": "An indirect object tells us who receives something or benefits from an action. It often appears before the direct object."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK010",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "Dad gave Sara a gift.",\
+&#x20; "highlight": [\
+&#x20; "Sara",\
+&#x20; "gift"\
+&#x20; ],\
+&#x20; "explanation": "Sara receives the gift, so Sara is the indirect object. Gift is the direct object."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK011",\
+&#x20; "type": "note",\
+&#x20; "title": "Ask two questions",\
+&#x20; "text": "Gave what? A gift. Gave it to whom? Sara."\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "The indirect object tells us who receives something.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 47,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE006",\
+&#x20; "page_number": 6,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "recognition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "Nouns After Prepositions",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK012",\
+&#x20; "type": "text",\
+&#x20; "text": "A noun can come after a preposition such as in, on, under, near, or beside. It completes the meaning of the preposition."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK013",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "The keys are under the pillow.",\
+&#x20; "highlight": [\
+&#x20; "pillow"\
+&#x20; ],\
+&#x20; "explanation": "The noun pillow follows the preposition under."\
+&#x20; },\
+&#x20; {\
+&#x20; "sentence": "We walked through the garden.",\
+&#x20; "highlight": [\
+&#x20; "garden"\
+&#x20; ],\
+&#x20; "explanation": "The noun garden follows the preposition through."\
+&#x20; }\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "A noun after a preposition is its object.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 48,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE007",\
+&#x20; "page_number": 7,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "recognition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "title": "Two More Noun Jobs",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK014",\
+&#x20; "type": "text",\
+&#x20; "text": "A noun can also rename the subject after a linking verb. It can also give another name or detail for a noun beside it. These jobs are called a subject complement and an appositive."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK015",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "Maya is a doctor.",\
+&#x20; "highlight": [\
+&#x20; "doctor"\
+&#x20; ],\
+&#x20; "explanation": "Doctor renames the subject Maya after the linking verb is. It is a subject complement."\
+&#x20; },\
+&#x20; {\
+&#x20; "sentence": "My brother, Arif, lives nearby.",\
+&#x20; "highlight": [\
+&#x20; "Arif"\
+&#x20; ],\
+&#x20; "explanation": "Arif gives another name for my brother. It is an appositive."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK016",\
+&#x20; "type": "note",\
+&#x20; "title": "Remember",\
+&#x20; "text": "A linking verb connects the subject to information about it. An appositive gives extra information about a nearby noun."\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Nouns can rename or explain other nouns.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 65,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE008",\
+&#x20; "page_number": 8,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "explanation",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003"\
+&#x20; ],\
+&#x20; "title": "What Is a Noun Phrase?",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK017",\
+&#x20; "type": "text",\
+&#x20; "text": "A noun phrase is a group of words built around a main noun. The group works together as one part of a sentence."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK018",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "The little puppy barked.",\
+&#x20; "highlight": [\
+&#x20; "The little puppy"\
+&#x20; ],\
+&#x20; "explanation": "The, little, and puppy work together. The whole group is a noun phrase."\
+&#x20; }\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "A noun phrase is a group built around a noun.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 43,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE009",\
+&#x20; "page_number": 9,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "decomposition",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003"\
+&#x20; ],\
+&#x20; "title": "Find the Main Noun",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK019",\
+&#x20; "type": "text",\
+&#x20; "text": "Every noun phrase has a main noun. This is the most important noun in the group. Other words give us more information about it."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK020",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "Those three bright stars shone.",\
+&#x20; "highlight": [\
+&#x20; "stars"\
+&#x20; ],\
+&#x20; "explanation": "Stars is the main noun. Those, three, and bright add information about it."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK021",\
+&#x20; "type": "note",\
+&#x20; "title": "Quick test",\
+&#x20; "text": "Ask: What person, place, thing, or idea is this group mainly about?"\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Find the main noun first.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 47,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE010",\
+&#x20; "page_number": 10,\
+&#x20; "page_type": "concept",\
+&#x20; "pedagogical_role": "demonstration",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "title": "Build a Bigger Noun Phrase",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK022",\
+&#x20; "type": "text",\
+&#x20; "text": "We can add useful details before or after the main noun. These details help the reader picture exactly which person or thing we mean."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK023",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "The small wooden box on the shelf is mine.",\
+&#x20; "highlight": [\
+&#x20; "The small wooden box on the shelf"\
+&#x20; ],\
+&#x20; "explanation": "The phrase is built around box. The other words describe or identify that box."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK024",\
+&#x20; "type": "list",\
+&#x20; "introduction": "A noun phrase can include:",\
+&#x20; "list_style": "bulleted",\
+&#x20; "items": [\
+&#x20; "A word before the noun: the",\
+&#x20; "A describing word: wooden",\
+&#x20; "The main noun: box",\
+&#x20; "Extra information after it: on the shelf"\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Add details to make a noun phrase clearer.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 2,\
+&#x20; "estimated_visible_word_count": 65,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE011",\
+&#x20; "page_number": 11,\
+&#x20; "page_type": "rule",\
+&#x20; "pedagogical_role": "rule_application",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ004"\
+&#x20; ],\
+&#x20; "title": "Singular and Plural Nouns",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK025",\
+&#x20; "type": "text",\
+&#x20; "text": "A singular noun refers to one. A plural noun refers to more than one. The noun form often changes to show this difference."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK026",\
+&#x20; "type": "comparison",\
+&#x20; "items": [\
+&#x20; {\
+&#x20; "label": "Singular",\
+&#x20; "description": "One item.",\
+&#x20; "example": "One dish"\
+&#x20; },\
+&#x20; {\
+&#x20; "label": "Plural",\
+&#x20; "description": "More than one item.",\
+&#x20; "example": "Two dishes"\
+&#x20; }\
+&#x20; ],\
+&#x20; "comparison_points": [\
+&#x20; "Dish refers to one.",\
+&#x20; "Dishes refers to more than one."\
+&#x20; ],\
+&#x20; "conclusion": "The noun form changes to show number."\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Singular means one; plural means more than one.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 1,\
+&#x20; "estimated_visible_word_count": 43,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE012",\
+&#x20; "page_number": 12,\
+&#x20; "page_type": "application",\
+&#x20; "pedagogical_role": "error_analysis",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "title": "Use Nouns Correctly",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK027",\
+&#x20; "type": "text",\
+&#x20; "text": "A noun's number can affect the verb used with it. Check whether the subject is singular or plural before choosing the verb."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK028",\
+&#x20; "type": "example",\
+&#x20; "examples": [\
+&#x20; {\
+&#x20; "sentence": "The child sings in the choir.",\
+&#x20; "highlight": [\
+&#x20; "child",\
+&#x20; "sings"\
+&#x20; ],\
+&#x20; "explanation": "The singular subject child takes sings in the present simple."\
+&#x20; },\
+&#x20; {\
+&#x20; "sentence": "The children sing in the choir.",\
+&#x20; "highlight": [\
+&#x20; "children",\
+&#x20; "sing"\
+&#x20; ],\
+&#x20; "explanation": "The plural subject children takes sing in the present simple."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK029",\
+&#x20; "type": "warning",\
+&#x20; "title": "Common mistake",\
+&#x20; "mistake": {\
+&#x20; "incorrect": "The children sings in the choir.",\
+&#x20; "correct": "The children sing in the choir.",\
+&#x20; "reason": "Children is plural, so the verb is sing, not sings."\
+&#x20; },\
+&#x20; "related_learning_objective_ids": [\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Check the noun's number when choosing the verb.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 2,\
+&#x20; "estimated_visible_word_count": 66,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "page_id": "PAGE013",\
+&#x20; "page_number": 13,\
+&#x20; "page_type": "summary",\
+&#x20; "pedagogical_role": "reinforcement",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002",\
+&#x20; "OBJ003",\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "title": "Nouns at Work: Quick Review",\
+&#x20; "content": [\
+&#x20; {\
+&#x20; "block_id": "BLOCK030",\
+&#x20; "type": "text",\
+&#x20; "text": "You have explored how nouns work inside sentences. You can now look beyond naming and notice the role and structure of each noun."\
+&#x20; },\
+&#x20; {\
+&#x20; "block_id": "BLOCK031",\
+&#x20; "type": "list",\
+&#x20; "introduction": "Keep these ideas in mind:",\
+&#x20; "list_style": "bulleted",\
+&#x20; "items": [\
+&#x20; "A noun can be a subject or an object.",\
+&#x20; "A noun can follow a preposition.",\
+&#x20; "A noun can rename or explain another noun.",\
+&#x20; "A noun phrase is built around a main noun.",\
+&#x20; "Singular and plural nouns can affect verb choice."\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "key_takeaway": "Look at the job a noun performs in the sentence.",\
+&#x20; "page_audit": {\
+&#x20; "primary_objective_count": 4,\
+&#x20; "estimated_visible_word_count": 63,\
+&#x20; "density_status": "passed",\
+&#x20; "standalone_understanding": "passed"\
+&#x20; }\
+&#x20; }\
+&#x20; ],\
+&#x20; "question_bank": [\
+&#x20; {\
+&#x20; "question_id": "Q001",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "In the sentence 'The artist painted a picture', which noun is the subject?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "artist"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "picture"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "painted"\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "A"\
+&#x20; ],\
+&#x20; "explanation": "Artist is the subject because the sentence tells us what the artist did.",\
+&#x20; "assessment_metadata": {\
+&#x20; "difficulty": "easy",\
+&#x20; "cognitive_level": "understand",\
+&#x20; "assessment_purpose": "dimension_check"\
+&#x20; }\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q002",\
+&#x20; "type": "identify",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "Identify the direct object in: 'Nina washed the plates.'",\
+&#x20; "target": "The noun that receives the action of washed.",\
+&#x20; "accepted_answers": [\
+&#x20; "plates",\
+&#x20; "the plates"\
+&#x20; ],\
+&#x20; "explanation": "The plates receive the action of washing, so plates is the direct object."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q003",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "In 'The coach gave Ali a medal', which noun is the indirect object?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "coach"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "Ali"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "medal"\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "B"\
+&#x20; ],\
+&#x20; "explanation": "Ali receives the medal, so Ali is the indirect object."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q004",\
+&#x20; "type": "identify",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "Identify the noun that follows the preposition in: 'The cat slept beside the fireplace.'",\
+&#x20; "target": "The noun after beside.",\
+&#x20; "accepted_answers": [\
+&#x20; "fireplace",\
+&#x20; "the fireplace"\
+&#x20; ],\
+&#x20; "explanation": "Fireplace follows the preposition beside, so it is the object of that preposition."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q005",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "In 'My aunt is a pilot', what is the noun pilot doing?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "It is the subject."\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "It is a direct object."\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "It renames the subject."\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "C"\
+&#x20; ],\
+&#x20; "explanation": "Pilot renames the subject my aunt after the linking verb is. It is a subject complement."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q006",\
+&#x20; "type": "identify",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002"\
+&#x20; ],\
+&#x20; "prompt": "In 'Our neighbour, Mr Das, grows roses', identify the appositive.",\
+&#x20; "target": "The noun that gives another name for our neighbour.",\
+&#x20; "accepted_answers": [\
+&#x20; "Mr Das"\
+&#x20; ],\
+&#x20; "explanation": "Mr Das gives another name for our neighbour. It is an appositive."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q007",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003"\
+&#x20; ],\
+&#x20; "prompt": "Which group of words is the noun phrase in 'A noisy parrot sat on the fence'?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "A noisy parrot"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "sat on"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "on the fence"\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "A"\
+&#x20; ],\
+&#x20; "explanation": "A noisy parrot is built around the main noun parrot, so it is a noun phrase."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q008",\
+&#x20; "type": "identify",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003"\
+&#x20; ],\
+&#x20; "prompt": "Find the main noun in the phrase 'those beautiful garden flowers'.",\
+&#x20; "target": "The noun that the other words describe or identify.",\
+&#x20; "accepted_answers": [\
+&#x20; "flowers"\
+&#x20; ],\
+&#x20; "explanation": "Flowers is the main noun. The other words tell us which flowers or describe them."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q009",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ003",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "prompt": "Which is an expanded noun phrase?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "The old stone bridge near the river"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "ran very quickly"\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "under the table"\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "A"\
+&#x20; ],\
+&#x20; "explanation": "The old stone bridge near the river is built around the noun bridge and includes details before and after it."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q010",\
+&#x20; "type": "match_the_pair",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ004"\
+&#x20; ],\
+&#x20; "prompt": "Match each singular noun with its plural form.",\
+&#x20; "left_items": [\
+&#x20; {\
+&#x20; "item_id": "L1",\
+&#x20; "text": "leaf"\
+&#x20; },\
+&#x20; {\
+&#x20; "item_id": "L2",\
+&#x20; "text": "woman"\
+&#x20; },\
+&#x20; {\
+&#x20; "item_id": "L3",\
+&#x20; "text": "dish"\
+&#x20; }\
+&#x20; ],\
+&#x20; "right_items": [\
+&#x20; {\
+&#x20; "item_id": "R1",\
+&#x20; "text": "dishes"\
+&#x20; },\
+&#x20; {\
+&#x20; "item_id": "R2",\
+&#x20; "text": "women"\
+&#x20; },\
+&#x20; {\
+&#x20; "item_id": "R3",\
+&#x20; "text": "leaves"\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_pairs": [\
+&#x20; {\
+&#x20; "left_id": "L1",\
+&#x20; "right_id": "R3"\
+&#x20; },\
+&#x20; {\
+&#x20; "left_id": "L2",\
+&#x20; "right_id": "R2"\
+&#x20; },\
+&#x20; {\
+&#x20; "left_id": "L3",\
+&#x20; "right_id": "R1"\
+&#x20; }\
+&#x20; ],\
+&#x20; "explanation": "Leaf changes to leaves, woman changes to women, and dish changes to dishes."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q011",\
+&#x20; "type": "sentence_correction",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "prompt": "Correct the sentence so that the verb agrees with its plural subject.",\
+&#x20; "original_sentence": "The players runs every morning.",\
+&#x20; "corrected_sentence": "The players run every morning.",\
+&#x20; "explanation": "Players is plural, so the present simple verb is run, not runs."\
+&#x20; },\
+&#x20; {\
+&#x20; "question_id": "Q012",\
+&#x20; "type": "multiple_choice",\
+&#x20; "learning_objective_ids": [\
+&#x20; "OBJ002",\
+&#x20; "OBJ003",\
+&#x20; "OBJ004",\
+&#x20; "OBJ005"\
+&#x20; ],\
+&#x20; "prompt": "In 'The young gardener planted two trees', which statement is correct?",\
+&#x20; "options": [\
+&#x20; {\
+&#x20; "option_id": "A",\
+&#x20; "text": "Gardener is the direct object."\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "B",\
+&#x20; "text": "The young gardener is the subject noun phrase."\
+&#x20; },\
+&#x20; {\
+&#x20; "option_id": "C",\
+&#x20; "text": "Trees is the subject."\
+&#x20; }\
+&#x20; ],\
+&#x20; "correct_answers": [\
+&#x20; "B"\
+&#x20; ],\
+&#x20; "explanation": "The young gardener is the complete subject noun phrase. Gardener is its main noun."\
+&#x20; }\
+&#x20; ],\
+&#x20; "assessments": {\
+&#x20; "dimension_assessments": [\
+&#x20; {\
+&#x20; "assessment_id": "DA001",\
+&#x20; "dimension_id": "DIM001",\
+&#x20; "title": "Check Noun Functions",\
+&#x20; "after_page_id": "PAGE007",\
+&#x20; "question_ids": [\
+&#x20; "Q001",\
+&#x20; "Q002",\
+&#x20; "Q003",\
+&#x20; "Q004",\
+&#x20; "Q005",\
+&#x20; "Q006"\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "assessment_id": "DA002",\
+&#x20; "dimension_id": "DIM002",\
+&#x20; "title": "Check Noun Phrases",\
+&#x20; "after_page_id": "PAGE010",\
+&#x20; "question_ids": [\
+&#x20; "Q007",\
+&#x20; "Q008",\
+&#x20; "Q009"\
+&#x20; ]\
+&#x20; },\
+&#x20; {\
+&#x20; "assessment_id": "DA003",\
+&#x20; "dimension_id": "DIM003",\
+&#x20; "title": "Check Noun Number",\
+&#x20; "after_page_id": "PAGE012",\
+&#x20; "question_ids": [\
+&#x20; "Q010",\
+&#x20; "Q011"\
+&#x20; ]\
+&#x20; }\
+&#x20; ],\
+&#x20; "final_assessment": {\
+&#x20; "assessment_id": "FA001",\
+&#x20; "title": "Nouns in Sentences: Final Check",\
+&#x20; "question_ids": [\
+&#x20; "Q012"\
+&#x20; ]\
+&#x20; }\
+&#x20; },\
+&#x20; "coverage": {\
+&#x20; "cross_references": [\
+&#x20; {\
+&#x20; "concept": "Basic noun definition and noun classifications",\
+&#x20; "status": "referenced_only",\
+&#x20; "related_lesson": "1.1.2",\
+&#x20; "note": "Learners have already studied nouns as a part of speech and their basic classifications. This lesson uses that knowledge without reteaching it."\
+&#x20; },\
+&#x20; {\
+&#x20; "concept": "Pronouns and their use in place of nouns",\
+&#x20; "status": "excluded",\
+&#x20; "related_lesson": null,\
+&#x20; "note": "Pronouns are not taught in this lesson."\
+&#x20; },\
+&#x20; {\
+&#x20; "concept": "Countable and uncountable nouns",\
+&#x20; "status": "excluded",\
+&#x20; "related_lesson": null,\
+&#x20; "note": "This is a separate noun topic and is not covered here."\
+&#x20; },\
+&#x20; {\
+&#x20; "concept": "Possessive nouns",\
+&#x20; "status": "excluded",\
+&#x20; "related_lesson": null,\
+&#x20; "note": "Possessive noun forms are not covered here."\
+&#x20; },\
+&#x20; {\
+&#x20; "concept": "Noun clauses",\
+&#x20; "status": "excluded",\
+&#x20; "related_lesson": null,\
+&#x20; "note": "Noun clauses are a separate structural topic and are not covered here."\
+&#x20; }\
+&#x20; ]\
+&#x20; },\
+&#x20; "quality_audit": {\
+&#x20; "grammar_accuracy": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Examples and explanations use standard contemporary English. The distinction between direct objects, indirect objects, objects of prepositions, subject complements, and appositives is maintained."\
+&#x20; },\
+&#x20; "content_completeness": {\
+&#x20; "status": "review_required",\
+&#x20; "notes": "The lesson covers the selected scope: noun functions, noun phrases, and noun number in sentence use. It does not attempt to cover every advanced noun construction."\
+&#x20; },\
+&#x20; "pedagogical_sequence": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "The lesson begins with a brief recall prompt, then moves to noun functions, noun phrase structure, and sentence application."\
+&#x20; },\
+&#x20; "eli5_readability": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Explanations use short sentences, familiar examples, and immediate explanations of essential grammar terms."\
+&#x20; },\
+&#x20; "mobile_page_density": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Pages use short explanations and limited examples. Page 7 and page 10 contain slightly more information because they introduce two closely related elements."\
+&#x20; },\
+&#x20; "example_quality": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Examples are grammatically correct, varied, and aligned with the objective of each page."\
+&#x20; },\
+&#x20; "interaction_validity": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "All questions use supported interaction types and include the required answer structures and explanations."\
+&#x20; },\
+&#x20; "json_schema_validity": {\
+&#x20; "status": "review_required",\
+&#x20; "notes": "The JSON structure and cross-references have been reviewed against the supplied generation contract. A separate automated validation against the full Learn Lesson JSON Schema v2.0 has not been run."\
+&#x20; },\
+&#x20; "duplicate_content_check": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "The repeated one-page-per-part-of-speech treatment has been removed. Only PAGE001 briefly recalls prior noun knowledge. The remaining pages teach noun functions, noun phrase structure, and noun number. The final page title has also been changed to avoid the previously reported repeated title."\
+&#x20; },\
+&#x20; "assessment_audit": {\
+&#x20; "dimension_assessment_coverage": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Each applicable learning dimension has an assessment placed after its teaching pages."\
+&#x20; },\
+&#x20; "final_assessment_coverage": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "The final assessment checks an integrated application of the lesson content."\
+&#x20; },\
+&#x20; "question_objective_alignment": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Each question maps to an objective taught in the lesson."\
+&#x20; },\
+&#x20; "duplicate_question_check": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Each question is defined once and assigned to exactly one assessment. No question is repeated in page content."\
+&#x20; },\
+&#x20; "answer_key_validation": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Multiple-choice answers refer to valid option IDs. Matching pairs refer to valid items. Identification answers include intended accepted forms."\
+&#x20; },\
+&#x20; "interaction_structure_validation": {\
+&#x20; "status": "passed",\
+&#x20; "notes": "Question structures follow the seven supported interaction contracts."\
+&#x20; }\
+&#x20; },\
+&#x20; "overall_status": "review_required",\
+&#x20; "issues_found": [\
+&#x20; "Automated validation against the complete Learn Lesson JSON Schema v2.0 has not been performed."\
+&#x20; ],\
+&#x20; "corrections_made": [\
+&#x20; "Replaced the repeated one-page-per-part-of-speech treatment with one short noun recap followed by pages on noun functions, noun phrases, and noun number.",\
+&#x20; "Renamed the final page to 'Nouns at Work: Quick Review' to avoid the repeated title 'What Have You Learned?'.",\
+&#x20; "Aligned each dimension assessment with the final page of its teaching sequence.",\
+&#x20; "Ensured that each question is defined once and assigned to only one assessment.",\
+&#x20; "Removed page-level question references so that questions are not duplicated between pages and assessments."\
+&#x20; ]\
+&#x20; }\
 }

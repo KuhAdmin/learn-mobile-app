@@ -11,7 +11,7 @@ import v6raw from '../content/1-1-6.json';
 import draft from './fixtures/1-1-6-first-draft.json';
 
 interface Finding {
-  kind: 'sentence' | 'title' | 'takeaway' | 'structure' | 'word' | 'answer' | 'content' | 'assessment';
+  kind: 'sentence' | 'title' | 'takeaway' | 'structure' | 'word' | 'answer' | 'content' | 'assessment' | 'schema';
   where: string;
   text: string;
   matches: { lesson: string; where: string }[];
@@ -25,6 +25,7 @@ interface OverlapTool {
   parseLessonText(text: string): unknown;
   normalize(text: string): string;
   findOverlaps(candidate: unknown, earlier: unknown[]): Report;
+  comparisonSet(candidate: unknown, appLessons: unknown[], drafts: unknown[]): unknown[];
   fixList(report: Report): string[];
   coverageBrief(lessons: unknown[]): string;
 }
@@ -66,6 +67,17 @@ describe('lesson overlap check', () => {
     expect(tool.findOverlaps(v5raw, earlier).findings.some((f) => f.kind === 'structure')).toBe(false);
   });
 
+  it('does not flag a lesson that goes deeper into one part of speech', () => {
+    // A nouns lesson (like 1.2.1) has many pages opening "A noun …"; that is its topic, not a re-run of 1.1.2.
+    const nouns = clone(v6raw);
+    nouns.pages.slice(0, 6).forEach((p: { title: string; key_takeaway: string; content: unknown[] }, i: number) => {
+      p.title = `The Noun at Work ${i + 1}`;
+      p.key_takeaway = `A noun can do job ${i + 1}.`;
+      p.content = [{ block_id: `N${i}`, type: 'text', text: `A noun can do job number ${i + 1} in a sentence.` }];
+    });
+    expect(tool.findOverlaps(nouns, earlier).findings.some((f) => f.kind === 'structure')).toBe(false);
+  });
+
   it('checks answer keys and assessment placement, with a fix for each', () => {
     // The draft's "Identify the noun in 'The baby is sleeping.'" accepted only "noun" (Q005–Q012).
     expect(findings.filter((f) => f.kind === 'answer').map((f) => f.where)).toEqual(['Q005', 'Q006', 'Q007', 'Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
@@ -87,6 +99,53 @@ describe('lesson overlap check', () => {
     ]);
     // The generator fix list has one instruction per finding.
     expect(tool.fixList(report)).toHaveLength(report.findings.length);
+  });
+
+  it('checks a batch of drafts against each other, earlier drafts only', () => {
+    const asDraft = (lesson: unknown, id: string) => {
+      const d = clone(lesson);
+      d.topic.topic_id = id;
+      return d;
+    };
+    // Two drafts teaching with the same sentences: only the later one reports the repeats.
+    const first = asDraft(v6raw, '1-2-1');
+    const second = asDraft(v6raw, '1-2-2');
+    const drafts = [second, first];
+    const repeatsOf = (lesson: unknown, other: string) =>
+      tool.findOverlaps(lesson, tool.comparisonSet(lesson, earlier, drafts)).findings.filter((f) => f.matches.some((m) => m.lesson === other));
+    expect(repeatsOf(second, '1-2-1').some((f) => f.kind === 'sentence')).toBe(true);
+    expect(repeatsOf(first, '1-2-2')).toEqual([]);
+    // A draft replaces the app copy of its topic.
+    const redo = asDraft(v5raw, '1-1-5');
+    expect(tool.comparisonSet(asDraft(v6raw, '1-2-3'), earlier, [redo])).toEqual([v1raw, v2raw, v3raw, v4raw, redo]);
+  });
+
+  it('flags a short final check and values outside schema v2.0', () => {
+    const bad = clone(v6raw);
+    bad.assessments.final_assessment.question_ids = bad.assessments.final_assessment.question_ids.slice(0, 1);
+    bad.learning_dimensions[0].status = 'applicable';
+    bad.coverage.cross_references[0] = { concept: 'Pronouns', status: 'excluded', related_lesson: null, note: 'Later.' };
+    const kinds = others(bad).filter((f) => f.kind === 'assessment' || f.kind === 'schema');
+    expect(kinds.map((f) => [f.kind, f.where])).toEqual([
+      ['assessment', 'FA001'],
+      ['schema', 'DIM001'],
+      ['schema', 'CR1'],
+    ]);
+    expect(kinds[0].fix).toContain('at least 4 new questions');
+  });
+
+  it('flags typed corrections that only fix capitals or apostrophes', () => {
+    const typed = clone(v6raw);
+    typed.question_bank.push({
+      question_id: 'Q099',
+      type: 'sentence_correction',
+      learning_objective_ids: ['OBJ001'],
+      prompt: 'Correct the sentence.',
+      original_sentence: 'my sisters bag is red.',
+      corrected_sentence: "My sister's bag is red.",
+      explanation: 'Sister owns the bag.',
+    });
+    expect(others(typed).find((f) => f.where === 'Q099')?.fix).toContain('Make it a multiple_choice question');
   });
 
   it('flags comparison examples that lost the word they demonstrate', () => {
