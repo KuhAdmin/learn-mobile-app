@@ -1,0 +1,700 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-4",
+    "title": "Definite Article – The",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Definite Article – The",
+    "lesson_summary": "Learners use the for a particular person or thing the listener can pick out: something mentioned before, something both speakers know, something there is only one of, or something picked out by a phrase after the noun. They see that the works with singular, plural and uncountable nouns. The with names of rivers, seas and some countries is left to 1-4-8.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Use the for second mentions and shared knowledge.",
+        "success_criteria": [
+          "Change a to the on a second mention.",
+          "Use the for something both speakers know."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use the for unique things and things picked out by a phrase.",
+        "success_criteria": [
+          "Say the sun and the sky.",
+          "Say the bag on the chair."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use the with any kind of noun.",
+        "success_criteria": [
+          "Use the with singular, plural and uncountable nouns."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Mentioned Before or Known",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Only One, or Picked Out",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "The With Any Noun",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Pointing to a Particular One",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "The points to a particular person or thing that the listener can pick out."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Can you water the money plant on the balcony?",
+              "highlight": [
+                "the money plant"
+              ],
+              "explanation": "There is one particular money plant, and the listener knows which."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The means a particular one.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "From A to The",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "The first time we mention something, we use a. After that, the listener knows which one, so we use the."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I bought a notebook and a pen. The notebook cost more.",
+              "highlight": [
+                "a notebook",
+                "The notebook"
+              ],
+              "explanation": "A notebook introduces it; the notebook refers back to the same one."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "First a, then the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Things We Both Know",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Use the for something both speakers know about, such as things in the same room or home."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Switch off the fan before you leave.",
+              "highlight": [
+                "the fan"
+              ],
+              "explanation": "Both people know which fan: the one in their room."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "If we both know which one, use the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Only One in the World",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Use the for things there is only one of: the sun, the moon, the sky, the internet."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The moon looked orange tonight.",
+              "highlight": [
+                "The moon"
+              ],
+              "explanation": "There is only one moon, so we say the moon."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Only one exists? Use the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A Phrase That Picks One Out",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "Words after the noun can pick out one particular thing. Then we use the."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The bag on the chair belongs to my cousin.",
+              "highlight": [
+                "The bag on the chair"
+              ],
+              "explanation": "'On the chair' tells us exactly which bag."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "If a phrase shows which one, use the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Works With Every Noun",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Unlike a, the works with singular, plural and uncountable nouns."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The biscuits in this tin are stale.",
+              "highlight": [
+                "The biscuits"
+              ],
+              "explanation": "Biscuits is plural, and the still works."
+            },
+            {
+              "sentence": "The water in the well is icy.",
+              "highlight": [
+                "The water"
+              ],
+              "explanation": "Water is uncountable, and the still works."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The fits singular, plural and uncountable nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "The Article The: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "list",
+          "introduction": "Use the when:",
+          "list_style": "bulleted",
+          "items": [
+            "it has been mentioned before",
+            "both speakers know which one",
+            "there is only one",
+            "a phrase picks it out",
+            "and with any kind of noun"
+          ]
+        }
+      ],
+      "key_takeaway": "The tells the listener exactly which one.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'We watched a cartoon last night. ___ cartoon was very funny.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The"
+        },
+        {
+          "option_id": "B",
+          "text": "A"
+        },
+        {
+          "option_id": "C",
+          "text": "An"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The cartoon has already been mentioned, so we use the."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Mum says, 'Please lock the gate.' Why does she use the?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "They both know which gate she means."
+        },
+        {
+          "option_id": "B",
+          "text": "It is the first time anyone has heard of a gate."
+        },
+        {
+          "option_id": "C",
+          "text": "There are lots of gates to choose from."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Both people know the gate is the one at their house."
+    },
+    {
+      "question_id": "Q003",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: '___ sun rose at six this morning.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "The"
+          ]
+        }
+      ],
+      "explanation": "There is only one sun, so we use the."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Could you pass me ___ book on the top shelf?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the"
+        },
+        {
+          "option_id": "B",
+          "text": "a"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "'On the top shelf' picks out one particular book, so the."
+    },
+    {
+      "question_id": "Q005",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "The can be used with plural and uncountable nouns.",
+      "correct_answer": true,
+      "explanation": "We can say the biscuits and the water, as well as the biscuit."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The rice in this pot is burnt."
+        },
+        {
+          "option_id": "B",
+          "text": "A rice in this pot is burnt."
+        },
+        {
+          "option_id": "C",
+          "text": "An rice in this pot is burnt."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Rice is uncountable, so it can't take a or an, but it can take the."
+    },
+    {
+      "question_id": "Q007",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the definite article in: 'A boy found a wallet and handed the wallet to a guard.'",
+      "target": "The article that refers back to something already mentioned.",
+      "accepted_answers": [
+        "the"
+      ],
+      "explanation": "The wallet refers back to the wallet the boy found."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Why do we say 'the sky'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "There is only one sky."
+        },
+        {
+          "option_id": "B",
+          "text": "It is a first mention."
+        },
+        {
+          "option_id": "C",
+          "text": "Sky is a plural noun."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Things there is only one of take the."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'A dog howled all night. ___ dog belongs to our neighbour.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The"
+        },
+        {
+          "option_id": "B",
+          "text": "A"
+        },
+        {
+          "option_id": "C",
+          "text": "An"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The dog has just been mentioned, so we use the."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "We use the when we mention something new to the listener for the first time.",
+      "correct_answer": false,
+      "explanation": "A first mention takes a or an. The comes once the listener knows which one."
+    },
+    {
+      "question_id": "Q011",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Match each phrase with the reason for the.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "the moon"
+        },
+        {
+          "item_id": "L2",
+          "text": "the girl in the red coat"
+        },
+        {
+          "item_id": "L3",
+          "text": "Close the window."
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "we both know which"
+        },
+        {
+          "item_id": "R2",
+          "text": "only one exists"
+        },
+        {
+          "item_id": "R3",
+          "text": "a phrase picks it out"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "There is one moon, the red coat picks out the girl, and both people know which window."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Mentioned or Known",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Only One or Picked Out",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check The With Any Noun",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q005",
+          "Q006"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "The Article The: Final Check",
+      "question_ids": [
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The with rivers, seas and some countries",
+        "reason": "Taught in 1-4-8 Articles with Proper Nouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "General and specific meanings in depth",
+        "reason": "Taught in 1-4-6.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Leaving out the article",
+        "reason": "Taught in 1-4-5 Zero Article.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

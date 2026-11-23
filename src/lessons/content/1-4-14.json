@@ -1,0 +1,661 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-14",
+    "title": "Interrogative Determiners",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Interrogative Determiners",
+    "lesson_summary": "Learners already know who, what, which and whose standing alone in questions (1-3-8). This lesson puts what, which and whose before a noun. The what/which rule is the same as for the pronouns, so it is recalled in one page; whose + noun asks about the owner. It also adds 'what kind of' and 'what sort of' + noun, and everyday questions with what colour, what size and what time.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Choose what or which before a noun.",
+        "success_criteria": [
+          "Use what for an open choice.",
+          "Use which for a choice from a set."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use whose before a noun.",
+        "success_criteria": [
+          "Ask about the owner with whose + noun."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Ask with what kind of, what colour, what size and what time.",
+        "success_criteria": [
+          "Ask 'What kind of music do you like?'",
+          "Choose what colour, size or time for the answer wanted."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 10,
+    "total_pages": 5
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "What or Which + Noun",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Whose + Noun",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "What Kind Of, What Colour",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE004"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Question Words With a Noun",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "What, which and whose can sit right before a noun in a question. Then they are determiners."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Which bus goes to the old fort?",
+              "highlight": [
+                "Which bus"
+              ],
+              "explanation": "Which comes before the noun bus and asks us to pick one bus."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Question words can come before a noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "What or Which Before a Noun",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "The rule you met with the question pronouns (1-3-8) works the same before a noun: what + noun for any answer, which + noun to pick from a few."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Which kurta do you prefer, the yellow or the green?",
+              "highlight": [
+                "Which kurta"
+              ],
+              "explanation": "There are only two kurtas to choose from, so which."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Same rule as the pronouns: what is open, which picks.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Whose + Noun: The Owner",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Use whose + noun to ask who something belongs to."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Whose phone keeps ringing in the hall?",
+              "highlight": [
+                "Whose phone"
+              ],
+              "explanation": "We want to know the owner of the phone."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Whose + noun asks about the owner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 26,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "What Kind Of, What Colour",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "What kind of (or what sort of) + noun asks about type. What colour, what size and what time ask about one detail."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "What sort of shoes do you need for the trek?",
+              "highlight": [
+                "What sort of"
+              ],
+              "explanation": "The answer is a type of shoe, such as hiking boots."
+            },
+            {
+              "sentence": "What colour is the new school bus?",
+              "highlight": [
+                "What colour"
+              ],
+              "explanation": "The answer will be a colour, such as yellow."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "What kind of asks about type.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Question Determiners: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "What + noun: an open choice.",
+            "Which + noun: a choice from a few.",
+            "Whose + noun: the owner.",
+            "Without a noun after them, they are pronouns.",
+            "What kind of asks about type; what colour, size and time ask about one detail."
+          ]
+        }
+      ],
+      "key_takeaway": "Put the right question word before the noun.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: '___ size are your school shoes?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "What"
+        },
+        {
+          "option_id": "B",
+          "text": "Whose"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The answer could be any size, so what."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: '___ pen is yours, the blue one or the black one?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Which"
+        },
+        {
+          "option_id": "B",
+          "text": "Whose"
+        },
+        {
+          "option_id": "C",
+          "text": "What"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "There are only two pens to choose from, so which."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which + noun is used when the answer comes from a small, known set.",
+      "correct_answer": true,
+      "explanation": "Which picks from choices the speakers already know."
+    },
+    {
+      "question_id": "Q004",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete the question: '___ day is your birthday party?'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "What",
+            "Which"
+          ]
+        }
+      ],
+      "explanation": "What day asks openly; which day picks from the days of the week. Both work here."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete, asking about the owner: '___ umbrella is dripping on the carpet?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Whose"
+        },
+        {
+          "option_id": "B",
+          "text": "What"
+        },
+        {
+          "option_id": "C",
+          "text": "Who"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Whose + noun asks who the umbrella belongs to."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Whose bicycle is leaning on the gate?', whose asks about the owner.",
+      "correct_answer": true,
+      "explanation": "Whose comes before bicycle and asks who owns it."
+    },
+    {
+      "question_id": "Q007",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the question determiner in: 'Which platform does the Chennai train leave from?'",
+      "target": "The question word before a noun.",
+      "accepted_answers": [
+        "which"
+      ],
+      "explanation": "Which comes before platform and asks us to pick one."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which question asks about the owner?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Whose jacket is on the chair?"
+        },
+        {
+          "option_id": "B",
+          "text": "What jacket should I buy for winter?"
+        },
+        {
+          "option_id": "C",
+          "text": "Which jacket fits you better?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Whose + noun asks who something belongs to."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which question picks from a small set?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Which flavour do you want, vanilla or mango?"
+        },
+        {
+          "option_id": "B",
+          "text": "What music do you enjoy?"
+        },
+        {
+          "option_id": "C",
+          "text": "What games do you play?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Only two flavours are offered, so which."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'Which is yours?', which is a determiner.",
+      "correct_answer": false,
+      "explanation": "No noun follows which, so here it is a pronoun, not a determiner."
+    },
+    {
+      "question_id": "Q011",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Match each question determiner with what it asks for.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "what + noun"
+        },
+        {
+          "item_id": "L2",
+          "text": "which + noun"
+        },
+        {
+          "item_id": "L3",
+          "text": "whose + noun"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "the owner"
+        },
+        {
+          "item_id": "R2",
+          "text": "an open choice"
+        },
+        {
+          "item_id": "R3",
+          "text": "a choice from a few"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "What is open, which picks from a few, and whose asks about the owner."
+    },
+    {
+      "question_id": "Q012",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "type": "multiple_choice",
+      "prompt": "Which question asks about the type of something?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "What kind of fruit is a jackfruit?"
+        },
+        {
+          "option_id": "B",
+          "text": "Whose fruit basket is this?"
+        },
+        {
+          "option_id": "C",
+          "text": "How many fruits are in the basket?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "What kind of asks about the type."
+    },
+    {
+      "question_id": "Q013",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "type": "multiple_choice",
+      "prompt": "Complete to ask about the hour: 'What ___ does the train leave?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "time"
+        },
+        {
+          "option_id": "B",
+          "text": "colour"
+        },
+        {
+          "option_id": "C",
+          "text": "size"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "What time asks about the hour."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check What and Which",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003",
+          "Q004"
+        ],
+        "after_page_id": "PAGE002"
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Whose",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q005",
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check What Kind Of",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q012",
+          "Q013"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Question Determiners: Final Check",
+      "question_ids": [
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Who, what, which and whose standing alone",
+        "reason": "Taught in 1-3-8 Interrogative Pronouns.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Relative whose",
+        "reason": "Taught in 1-3-9 Relative Pronouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "The name 'interrogative adjective'",
+        "reason": "Named in 1-5-3 Determiners With Adjective Names.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

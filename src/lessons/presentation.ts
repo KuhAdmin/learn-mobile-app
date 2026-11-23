@@ -529,6 +529,162 @@ const ART_1315 = {
 } satisfies Record<string, ImageSource>;
 type Art1315 = keyof typeof ART_1315;
 
+const ART_141 = {
+  squirrel: require('../../assets/lessons/1-4-1/squirrel.webp'),
+  questions: require('../../assets/lessons/1-4-1/questions.webp'),
+  doorstep: require('../../assets/lessons/1-4-1/doorstep.webp'),
+  pencils: require('../../assets/lessons/1-4-1/pencils.webp'),
+  pencil: require('../../assets/lessons/1-4-1/pencil.webp'),
+  gate: require('../../assets/lessons/1-4-1/gate.webp'),
+  tree: require('../../assets/lessons/1-4-1/tree.webp'),
+} satisfies Record<string, ImageSource>;
+type Art141 = keyof typeof ART_141;
+
+const ART_142 = {
+  rainbow: require('../../assets/lessons/1-4-2/rainbow.webp'),
+  kitten: require('../../assets/lessons/1-4-2/kitten.webp'),
+  mango: require('../../assets/lessons/1-4-2/mango.webp'),
+  pilot: require('../../assets/lessons/1-4-2/pilot.webp'),
+  tulsi: require('../../assets/lessons/1-4-2/tulsi.webp'),
+} satisfies Record<string, ImageSource>;
+type Art142 = keyof typeof ART_142;
+
+const ART_143 = {
+  oranges: require('../../assets/lessons/1-4-3/oranges.webp'),
+  earring: require('../../assets/lessons/1-4-3/earring.webp'),
+  lizard: require('../../assets/lessons/1-4-3/lizard.webp'),
+  ferry: require('../../assets/lessons/1-4-3/ferry.webp'),
+  shopkeeper: require('../../assets/lessons/1-4-3/shopkeeper.webp'),
+  uniform: require('../../assets/lessons/1-4-3/uniform.webp'),
+  oneway: require('../../assets/lessons/1-4-3/oneway.webp'),
+  xray: require('../../assets/lessons/1-4-3/xray.webp'),
+  bicycle: require('../../assets/lessons/1-4-3/bicycle.webp'),
+  apple: require('../../assets/lessons/1-4-3/apple.webp'),
+} satisfies Record<string, ImageSource>;
+type Art143 = keyof typeof ART_143;
+
+const ART_144 = {
+  plant: require('../../assets/lessons/1-4-4/plant.webp'),
+  notebook: require('../../assets/lessons/1-4-4/notebook.webp'),
+  fan: require('../../assets/lessons/1-4-4/fan.webp'),
+  moon: require('../../assets/lessons/1-4-4/moon.webp'),
+  bag: require('../../assets/lessons/1-4-4/bag.webp'),
+  biscuits: require('../../assets/lessons/1-4-4/biscuits.webp'),
+  water: require('../../assets/lessons/1-4-4/water.webp'),
+} satisfies Record<string, ImageSource>;
+type Art144 = keyof typeof ART_144;
+
+const ART_145 = {
+  puppets: require('../../assets/lessons/1-4-5/puppets.webp'),
+  mangoes: require('../../assets/lessons/1-4-5/mangoes.webp'),
+  honey: require('../../assets/lessons/1-4-5/honey.webp'),
+  travel: require('../../assets/lessons/1-4-5/travel.webp'),
+  school: require('../../assets/lessons/1-4-5/school.webp'),
+} satisfies Record<string, ImageSource>;
+type Art145 = keyof typeof ART_145;
+
+const ART_146 = {
+  bees: require('../../assets/lessons/1-4-6/bees.webp'),
+  night: require('../../assets/lessons/1-4-6/night.webp'),
+  temple: require('../../assets/lessons/1-4-6/temple.webp'),
+  field: require('../../assets/lessons/1-4-6/field.webp'),
+  burnt: require('../../assets/lessons/1-4-6/burnt.webp'),
+  koala: require('../../assets/lessons/1-4-6/koala.webp'),
+} satisfies Record<string, ImageSource>;
+type Art146 = keyof typeof ART_146;
+
+const ART_147 = {
+  umbrella: require('../../assets/lessons/1-4-7/umbrella.webp'),
+  scooter: require('../../assets/lessons/1-4-7/scooter.webp'),
+  box: require('../../assets/lessons/1-4-7/box.webp'),
+  guavas: require('../../assets/lessons/1-4-7/guavas.webp'),
+  newspaper: require('../../assets/lessons/1-4-7/newspaper.webp'),
+  paper: require('../../assets/lessons/1-4-7/paper.webp'),
+} satisfies Record<string, ImageSource>;
+type Art147 = keyof typeof ART_147;
+
+const ART_148 = {
+  ganga: require('../../assets/lessons/1-4-8/ganga.webp'),
+  everest: require('../../assets/lessons/1-4-8/everest.webp'),
+  water: require('../../assets/lessons/1-4-8/water.webp'),
+  islands: require('../../assets/lessons/1-4-8/islands.webp'),
+  countries: require('../../assets/lessons/1-4-8/countries.webp'),
+  fort: require('../../assets/lessons/1-4-8/fort.webp'),
+} satisfies Record<string, ImageSource>;
+type Art148 = keyof typeof ART_148;
+
+const ART_149 = {
+  jackets: require('../../assets/lessons/1-4-9/jackets.webp'),
+  marbles: require('../../assets/lessons/1-4-9/marbles.webp'),
+  milk: require('../../assets/lessons/1-4-9/milk.webp'),
+  time: require('../../assets/lessons/1-4-9/time.webp'),
+  beach: require('../../assets/lessons/1-4-9/beach.webp'),
+  mangoes: require('../../assets/lessons/1-4-9/mangoes.webp'),
+  school: require('../../assets/lessons/1-4-9/school.webp'),
+} satisfies Record<string, ImageSource>;
+type Art149 = keyof typeof ART_149;
+
+const ART_1410 = {
+  kite: require('../../assets/lessons/1-4-10/kite.webp'),
+  umbrella: require('../../assets/lessons/1-4-10/umbrella.webp'),
+  friends: require('../../assets/lessons/1-4-10/friends.webp'),
+  twins: require('../../assets/lessons/1-4-10/twins.webp'),
+  shoes: require('../../assets/lessons/1-4-10/shoes.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1410 = keyof typeof ART_1410;
+
+const ART_1411 = {
+  tickets: require('../../assets/lessons/1-4-11/tickets.webp'),
+  cousins: require('../../assets/lessons/1-4-11/cousins.webp'),
+  petrol: require('../../assets/lessons/1-4-11/petrol.webp'),
+  afew: require('../../assets/lessons/1-4-11/afew.webp'),
+  few: require('../../assets/lessons/1-4-11/few.webp'),
+  rice: require('../../assets/lessons/1-4-11/rice.webp'),
+  cloud: require('../../assets/lessons/1-4-11/cloud.webp'),
+  homework: require('../../assets/lessons/1-4-11/homework.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1411 = keyof typeof ART_1411;
+
+const ART_1413 = {
+  kittens: require('../../assets/lessons/1-4-13/kittens.webp'),
+  balcony: require('../../assets/lessons/1-4-13/balcony.webp'),
+  saplings: require('../../assets/lessons/1-4-13/saplings.webp'),
+  hall: require('../../assets/lessons/1-4-13/hall.webp'),
+  school: require('../../assets/lessons/1-4-13/school.webp'),
+  book: require('../../assets/lessons/1-4-13/book.webp'),
+  sets: require('../../assets/lessons/1-4-13/sets.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1413 = keyof typeof ART_1413;
+
+const ART_1414 = {
+  bus: require('../../assets/lessons/1-4-14/bus.webp'),
+  kurta: require('../../assets/lessons/1-4-14/kurta.webp'),
+  thinker: require('../../assets/lessons/1-4-14/thinker.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1414 = keyof typeof ART_1414;
+
+const ART_1415 = {
+  samosa: require('../../assets/lessons/1-4-15/samosa.webp'),
+  others: require('../../assets/lessons/1-4-15/others.webp'),
+  queue: require('../../assets/lessons/1-4-15/queue.webp'),
+  hilltop: require('../../assets/lessons/1-4-15/hilltop.webp'),
+  teams: require('../../assets/lessons/1-4-15/teams.webp'),
+  museum: require('../../assets/lessons/1-4-15/museum.webp'),
+  whole: require('../../assets/lessons/1-4-15/whole.webp'),
+  all: require('../../assets/lessons/1-4-15/all.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1415 = keyof typeof ART_1415;
+
+const ART_1416 = {
+  tabla: require('../../assets/lessons/1-4-16/tabla.webp'),
+  slots: require('../../assets/lessons/1-4-16/slots.webp'),
+  kittens: require('../../assets/lessons/1-4-16/kittens.webp'),
+  mangoes: require('../../assets/lessons/1-4-16/mangoes.webp'),
+  cake: require('../../assets/lessons/1-4-16/cake.webp'),
+  puzzle: require('../../assets/lessons/1-4-16/puzzle.webp'),
+} satisfies Record<string, ImageSource>;
+type Art1416 = keyof typeof ART_1416;
+
 export const LESSON_VISUALS: Record<string, LessonVisuals> = {
   '1.1.1.EP001': {
     pages: {
@@ -1474,7 +1630,359 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
     },
     resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
   },
+  // Cut from the 1.4.1 mockups. Page 2's row puts together the three icons of its question rows (cut from white
+  // cards). Pages 2 and 6 open with a list and page 5 with its rule, so their picture closes the page with the
+  // takeaway. Page 4's pencils sit in the comparison (the single pencil was cut from a mint tile). The recap's pencil
+  // is the same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-1': {
+    pages: {
+      PAGE001: { art: art141('squirrel', 330 / 132, 'A squirrel holding an acorn on a red roof') },
+      PAGE002: { art: art141('questions', 468 / 70, 'A boy pointing at a book, three apples, and a boy pointing at a school bag labelled Ravi’s') },
+      PAGE003: { art: art141('doorstep', 340 / 175, 'A key and an envelope on a doormat in front of a door') },
+      PAGE005: { art: art141('gate', 430 / 148, 'A boy painting a tall wooden gate') },
+      PAGE006: { art: art141('tree', 160 / 215, 'A tree with a sign saying Determiner Family') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    comparisonArt: {
+      BLOCK006: [art141('pencils', 150 / 66, 'Three coloured pencils'), art141('pencil', 125 / 60, 'One yellow pencil')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.2 mockups. Pages 1, 2, 4 and 5 show their scene under the intro text. Page 3 opens with its rule,
+  // so the mango and chair close the page with the takeaway. The recap's pencil is the same drawing as 1.3.1's. The
+  // mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-2': {
+    pages: {
+      PAGE001: { art: art142('rainbow', 383 / 182, 'A boy pointing at a rainbow over green hills') },
+      PAGE002: { art: art142('kitten', 380 / 170, 'A girl smiling at a kitten beside a pet carrier') },
+      PAGE003: { art: art142('mango', 345 / 128, 'A mango and a wooden chair') },
+      PAGE004: { art: art142('pilot', 385 / 185, 'A pilot, a plane in the sky, and two boys playing football') },
+      PAGE005: { art: art142('tulsi', 370 / 194, 'A girl watering a tulsi plant beside a calendar saying Twice a day') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.3 mockups. Pages 2, 3, 4 and 6 keep a picture beside each example (2 and 6 with the rule's
+  // examples); pages 1 and 5 show their scene under the intro text. The recap's pencil is the same drawing as 1.3.1's.
+  // The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-3': {
+    pages: {
+      PAGE001: { art: art143('oranges', 315 / 153, 'A boy peeling an orange beside two more oranges') },
+      PAGE005: { art: art143('xray', 262 / 160, 'A doctor pointing at an X-ray of a hand') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK003: [art143('earring', 108 / 76, 'A gold earring with a pink stone'), art143('lizard', 172 / 86, 'A green lizard on a rock')],
+      BLOCK005: [
+        art143('ferry', 198 / 118, 'A clock and a ferry on the sea'),
+        art143('shopkeeper', 156 / 135, 'A smiling shopkeeper in front of his shelves'),
+      ],
+      BLOCK007: [
+        art143('uniform', 170 / 110, 'A school shirt with a red tie'),
+        art143('oneway', 172 / 124, 'A blue One-Way sign with an arrow'),
+      ],
+      BLOCK010: [art143('bicycle', 205 / 84, 'A blue bicycle'), art143('apple', 190 / 84, 'A big red apple')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.4 mockups. Pages 1–5 show their scene under the intro text; page 6 keeps a picture beside each
+  // example (the biscuit tin and the glass of water). The recap's pencil is the same drawing as 1.3.1's. The mockups
+  // have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-4': {
+    pages: {
+      PAGE001: { art: art144('plant', 362 / 158, 'A boy watering a money plant on a balcony') },
+      PAGE002: { art: art144('notebook', 358 / 146, 'A girl writing in a notebook beside books and a pen pot') },
+      PAGE003: { art: art144('fan', 360 / 148, 'A boy pointing at a ceiling fan while his mother smiles') },
+      PAGE004: { art: art144('moon', 356 / 158, 'A big orange moon in a starry night sky') },
+      PAGE005: { art: art144('bag', 450 / 148, 'A pink bag on a chair beside a table with books and a plant') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK012: [art144('biscuits', 146 / 98, 'A red tin full of biscuits'), art144('water', 134 / 84, 'A glass of water')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.5 mockups. Pages 1, 3 and 5 show their scene under the intro text; page 2's mangoes and honey sit
+  // beside the rule's two examples. Page 4's tiles draw their icons from LIST_ICONS (meals, languages, subjects,
+  // sports, days and months), matching the mockup's tile pictures. The recap's pencil is the same drawing as 1.3.1's.
+  // The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-5': {
+    pages: {
+      PAGE001: { art: art145('puppets', 370 / 194, 'A boy and a girl with lion and rabbit hand puppets at a puppet theatre') },
+      PAGE003: { art: art145('travel', 370 / 212, 'A girl with a map beside signs to Chennai and Japan, with a plane overhead') },
+      PAGE005: { art: art145('school', 200 / 238, 'A boy outside his school with a yellow school bus') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK003: [art145('mangoes', 190 / 170, 'A basket of mangoes'), art145('honey', 162 / 168, 'A jar of honey with a honey dipper')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.6 mockups. Pages 1, 3 and 5 show their scene under the intro text; page 2 opens with its rule,
+  // so the night owls close the page with the takeaway. Page 4's rice field and burnt rice sit in the comparison (cut
+  // from tinted cards). The recap's pencil is the same drawing as 1.3.1's. The mockups have no clipboard, so the
+  // Lesson Complete screen reuses 1.2.8's.
+  '1-4-6': {
+    pages: {
+      PAGE001: { art: art146('bees', 365 / 168, 'Bees flying round flowers near a beehive') },
+      PAGE002: { art: art146('night', 378 / 172, 'Owls flying and perching under a full moon') },
+      PAGE003: { art: art146('temple', 378 / 206, 'Two owls on a wall in front of an old stone temple') },
+      PAGE005: { art: art146('koala', 355 / 182, 'A koala asleep on a branch') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    comparisonArt: {
+      BLOCK006: [art146('field', 184 / 108, 'A rice field with hills behind'), art146('burnt', 180 / 100, 'A plate of burnt rice')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.7 mockups. Pages 1 and 4 show their scene under the intro text; pages 2 and 3 open with a rule,
+  // so their scene closes the page with the takeaway. Page 5's tiles draw icons from LIST_ICONS (a pen, a pencil box,
+  // a bottle), standing in for the mockup's pen, pens and ink. Page 6's newspaper and paper stack sit in the
+  // comparison (cut from tinted cards). The recap's pencil is the same drawing as 1.3.1's. The mockups have no
+  // clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-7': {
+    pages: {
+      PAGE001: { art: art147('umbrella', 290 / 195, 'A boy packing an umbrella and sunscreen into his bag') },
+      PAGE002: { art: art147('scooter', 270 / 170, 'A boy with his blue scooter') },
+      PAGE003: { art: art147('box', 286 / 168, 'A girl and a boy carrying a box together') },
+      PAGE004: { art: art147('guavas', 268 / 200, 'A girl picking guavas from a tree into a basket') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    comparisonArt: {
+      BLOCK008: [art147('newspaper', 150 / 72, 'A folded newspaper'), art147('paper', 150 / 90, 'A stack of blank paper')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.8 mockups. Every page but the recap shows one scene under its intro text; page 3 opens with its
+  // rule, so the river, sea and desert panels close the page with the takeaway. The recap's pencil is the same drawing
+  // as 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-8': {
+    pages: {
+      PAGE001: { art: art148('ganga', 366 / 140, 'A boy rowing a boat on the Ganga past the temples of Varanasi') },
+      PAGE002: { art: art148('everest', 345 / 118, 'A snowy mountain beside a globe showing Asia') },
+      PAGE003: { art: art148('water', 354 / 103, 'A river, a sailing boat on the sea, and a desert with a cactus') },
+      PAGE004: { art: art148('islands', 352 / 98, 'A mountain range and a small island with palm trees') },
+      PAGE005: { art: art148('countries', 458 / 122, 'A globe beside a signpost to the United Kingdom and the Maldives') },
+      PAGE006: { art: art148('fort', 450 / 130, 'The Red Fort with an Indian flag') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.9 mockups. Pages 1, 4 and 6 show their scene under the intro text. Page 2 keeps a picture beside
+  // each of the rule's examples. Beside page 3's two examples the calendar and memory bubble outgrow a screen, so they
+  // are put together as one row under the intro text. Page 5's sandals overlap the mango basket in the mockup, so the
+  // pointing hand, mangoes and sandals stay one picture; the page opens with its rule, so it closes the page with the
+  // takeaway. The recap's pencil is the same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson Complete
+  // screen reuses 1.2.8's.
+  '1-4-9': {
+    pages: {
+      PAGE001: { art: art149('jackets', 312 / 164, 'A boy pointing at a yellow jacket nearby and a blue coat farther away') },
+      PAGE003: { art: art149('time', 310 / 150, 'A desk calendar saying This Week, and a memory of two children laughing outside a house') },
+      PAGE004: { art: art149('beach', 300 / 176, 'A girl on the beach pointing at small shells in the sand') },
+      PAGE005: { art: art149('mangoes', 380 / 122, 'A hand pointing at a basket of mangoes, with a pair of pink sandals') },
+      PAGE006: { art: art149('school', 392 / 210, 'Two girls with school bags outside their school') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK004: [art149('marbles', 138 / 116, 'A glass bowl of marbles'), art149('milk', 126 / 126, 'A carton of milk and a glass of milk')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.10 mockups. Pages 1, 3 and 5 show their scene under the intro text; page 2 opens with its rule, so
+  // the umbrella closes the page with the takeaway. The mockup's page 4 picture
+  // shows "Tara's Book" but the approved example is Tara's lunchbox, and its hurt-ankle boy on page 6 belongs to a
+  // different example, so both are left out; page 6 keeps the shoes beside the shoes example. The recap's pencil is the
+  // same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-10': {
+    pages: {
+      PAGE001: { art: art1410('kite', 354 / 150, 'A boy flying a kite beside a mango tree') },
+      PAGE002: { art: art1410('umbrella', 358 / 146, 'A girl under a bright red umbrella in the rain') },
+      PAGE003: { art: art1410('friends', 356 / 98, 'Two girls chatting, one introducing the other') },
+      PAGE005: { art: art1410('twins', 444 / 120, 'Twin boys giving a thumbs up in their bedroom') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK011: [null, art1410('shoes', 224 / 134, 'A girl holding up her blue shoes')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.11 mockups. Pages 1 and 5 show their scene under the intro text. Pages 2 and 4 keep a picture
+  // beside each example (2 with the rule's examples), and page 3's helpers and lone digger sit in the comparison (cut
+  // from tinted cards). The recap's pencil is the same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson
+  // Complete screen reuses 1.2.8's.
+  '1-4-11': {
+    pages: {
+      PAGE001: { art: art1411('tickets', 374 / 180, 'A boy pointing at a clock and two tickets') },
+      PAGE005: { art: art1411('homework', 384 / 122, 'A girl doing homework beside a tin of paint and an empty egg box') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK003: [art1411('cousins', 232 / 145, 'Three smiling cousins'), art1411('petrol', 112 / 140, 'A red petrol can')],
+      BLOCK007: [art1411('rice', 186 / 130, 'A bowl with a little rice in it'), art1411('cloud', 175 / 130, 'A grey cloud over dry, cracked land')],
+    },
+    comparisonArt: {
+      BLOCK005: [art1411('afew', 186 / 132, 'Three children ready to help'), art1411('few', 176 / 132, 'One boy digging alone')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.13 mockups. Pages 1, 3, 4 and 6 show their scene under the intro text (page 6's hotel room, triple
+  // jump and dozen eggs stay one row, as in the mockup). Page 2 keeps a picture beside each of the rule's examples; page
+  // 5 opens with its rule, so the book closes the page with the takeaway. The recap's pencil is the same drawing as
+  // 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-13': {
+    pages: {
+      PAGE001: { art: art1413('kittens', 350 / 140, 'Two kittens sitting on stone steps') },
+      PAGE003: { art: art1413('hall', 348 / 142, 'A hall full of red seats facing a screen saying 300 seats') },
+      PAGE004: { art: art1413('school', 356 / 156, 'A school beside a sign for the 1st, 2nd and 3rd floors') },
+      PAGE005: { art: art1413('book', 452 / 138, 'An open book with chapters 1 to 3 ticked off, beside two books and a plant') },
+      PAGE006: { art: art1413('sets', 466 / 122, 'A hotel double room, a boy doing the triple jump, and a dozen eggs') },
+      PAGE007: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK003: [art1413('balcony', 163 / 108, 'A balcony with a flower pot'), art1413('saplings', 192 / 108, 'Three young saplings')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.14 mockups. Pages 1, 2 and 4 show a scene under the intro text. The mockup's page 3 picture asks
+  // "Whose bag is this?", but the approved example is about a ringing phone, so page 3 has none. The recap's pencil is
+  // the same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-14': {
+    pages: {
+      PAGE001: { art: art1414('bus', 490 / 178, 'A girl at a bus stop, thinking about a bus') },
+      PAGE002: { art: art1414('kurta', 476 / 124, 'A boy and a girl choosing between a yellow kurta and a green kurta') },
+      PAGE004: { art: art1414('thinker', 135 / 222, 'A boy with one finger raised') },
+      PAGE005: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.15 mockups. Page 1 shows its scene under the intro text. Page 2's row puts together the cup,
+  // children and gloves of its list tiles (cut from white cards); it opens with the list, so the row closes the page
+  // with the takeaway. Pages 3 and 4 keep a picture beside each example and page 5's puppies sit in the comparison. The
+  // mockup's pizza "Half" card is not in the approved content. The recap's pencil is the same drawing as 1.3.1's. The
+  // mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '1-4-15': {
+    pages: {
+      PAGE001: { art: art1415('samosa', 376 / 188, 'A boy asking for another samosa') },
+      PAGE002: { art: art1415('others', 342 / 92, 'A teacup, three children, and a pair of pink gloves') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK006: [
+        art1415('queue', 182 / 178, 'A long queue at a ticket counter'),
+        art1415('hilltop', 184 / 178, 'A girl gazing at a view of mountains'),
+      ],
+      BLOCK008: [
+        art1415('teams', 190 / 140, 'Two footballers in different team shirts, arm in arm'),
+        art1415('museum', 183 / 140, 'Visitors queuing to enter a museum'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK010: [art1415('whole', 152 / 104, 'A puppy eating a sandwich'), art1415('all', 172 / 104, 'A happy puppy beside an empty plate')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 1.4.16 mockups. Pages 1 and 5 show their scene under the intro text. Pages 2 (a list) and 3 (a rule)
+  // open with their card, so the slot-order picture and the kittens close the page with the takeaway. Page 4 keeps the
+  // mangoes and the cake beside their examples; the mockup's "Both my grandparents" row is not in the approved content.
+  // The recap's pencil is the same drawing as 1.3.1's. The mockups have no clipboard, so the Lesson Complete screen
+  // reuses 1.2.8's.
+  '1-4-16': {
+    pages: {
+      PAGE001: { art: art1416('tabla', 382 / 190, 'A boy pointing at his two older brothers playing the tabla') },
+      PAGE002: { art: art1416('slots', 372 / 166, 'First, middle, last and noun in order, with a girl pointing at them') },
+      PAGE003: { art: art1416('kittens', 376 / 122, 'Two kittens and a girl smiling at them') },
+      PAGE005: { art: art1416('puzzle', 372 / 190, 'A boy with an idea, working on a jigsaw puzzle') },
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK006: [art1416('mangoes', 172 / 86, 'A crate of ripe mangoes'), art1416('cake', 172 / 88, 'A chocolate cake with half of it gone')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // 1.4.12's own pictures are still to be cut from its mockup; for now the recap uses 1.3.1's pencil and the Lesson
+  // Complete screen 1.2.8's clipboard.
+  '1-4-12': {
+    pages: {
+      PAGE006: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
 };
+
+/** Lesson 1.4.16 artwork, cut from its mockups (`assets/lessons/1-4-16`). */
+function art1416(name: Art1416, aspect: number, label: string): LessonArt {
+  return { source: ART_1416[name], aspect, label };
+}
+
+/** Lesson 1.4.15 artwork, cut from its mockups (`assets/lessons/1-4-15`). */
+function art1415(name: Art1415, aspect: number, label: string): LessonArt {
+  return { source: ART_1415[name], aspect, label };
+}
+
+/** Lesson 1.4.14 artwork, cut from its mockups (`assets/lessons/1-4-14`). */
+function art1414(name: Art1414, aspect: number, label: string): LessonArt {
+  return { source: ART_1414[name], aspect, label };
+}
+
+/** Lesson 1.4.13 artwork, cut from its mockups (`assets/lessons/1-4-13`). */
+function art1413(name: Art1413, aspect: number, label: string): LessonArt {
+  return { source: ART_1413[name], aspect, label };
+}
+
+/** Lesson 1.4.11 artwork, cut from its mockups (`assets/lessons/1-4-11`). */
+function art1411(name: Art1411, aspect: number, label: string): LessonArt {
+  return { source: ART_1411[name], aspect, label };
+}
+
+/** Lesson 1.4.10 artwork, cut from its mockups (`assets/lessons/1-4-10`). */
+function art1410(name: Art1410, aspect: number, label: string): LessonArt {
+  return { source: ART_1410[name], aspect, label };
+}
+
+/** Lesson 1.4.9 artwork, cut from its mockups (`assets/lessons/1-4-9`). */
+function art149(name: Art149, aspect: number, label: string): LessonArt {
+  return { source: ART_149[name], aspect, label };
+}
+
+/** Lesson 1.4.8 artwork, cut from its mockups (`assets/lessons/1-4-8`). */
+function art148(name: Art148, aspect: number, label: string): LessonArt {
+  return { source: ART_148[name], aspect, label };
+}
+
+/** Lesson 1.4.7 artwork, cut from its mockups (`assets/lessons/1-4-7`). */
+function art147(name: Art147, aspect: number, label: string): LessonArt {
+  return { source: ART_147[name], aspect, label };
+}
+
+/** Lesson 1.4.6 artwork, cut from its mockups (`assets/lessons/1-4-6`). */
+function art146(name: Art146, aspect: number, label: string): LessonArt {
+  return { source: ART_146[name], aspect, label };
+}
+
+/** Lesson 1.4.5 artwork, cut from its mockups (`assets/lessons/1-4-5`). */
+function art145(name: Art145, aspect: number, label: string): LessonArt {
+  return { source: ART_145[name], aspect, label };
+}
+
+/** Lesson 1.4.4 artwork, cut from its mockups (`assets/lessons/1-4-4`). */
+function art144(name: Art144, aspect: number, label: string): LessonArt {
+  return { source: ART_144[name], aspect, label };
+}
+
+/** Lesson 1.4.3 artwork, cut from its mockups (`assets/lessons/1-4-3`). */
+function art143(name: Art143, aspect: number, label: string): LessonArt {
+  return { source: ART_143[name], aspect, label };
+}
+
+/** Lesson 1.4.2 artwork, cut from its mockups (`assets/lessons/1-4-2`). */
+function art142(name: Art142, aspect: number, label: string): LessonArt {
+  return { source: ART_142[name], aspect, label };
+}
+
+/** Lesson 1.4.1 artwork, cut from its mockups (`assets/lessons/1-4-1`). */
+function art141(name: Art141, aspect: number, label: string): LessonArt {
+  return { source: ART_141[name], aspect, label };
+}
 
 /** Lesson 1.3.15 artwork, cut from its mockups (`assets/lessons/1-3-15`). */
 function art1315(name: Art1315, aspect: number, label: string): LessonArt {
@@ -1690,6 +2198,14 @@ export const LIST_ICONS: Record<string, string> = {
   time: 'clock-outline',
   direction: 'arrow-right-bold-outline',
   position: 'cube-outline',
+  meals: 'rice',
+  languages: 'translate',
+  subjects: 'book-open-page-variant',
+  sports: 'hockey-sticks',
+  'days and months': 'calendar-month-outline',
+  'one countable thing': 'pen',
+  plural: 'pencil-box-multiple-outline',
+  uncountable: 'bottle-tonic-outline',
 };
 
 export const visualsFor = (contentTopicId: string): LessonVisuals | undefined => LESSON_VISUALS[contentTopicId];

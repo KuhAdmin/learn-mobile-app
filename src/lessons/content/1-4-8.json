@@ -1,0 +1,736 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-8",
+    "title": "Articles with Proper Nouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Articles with Proper Nouns",
+    "lesson_summary": "Learners already know proper nouns (1-2-2) and that most names take no article (1-4-5). This lesson sorts names into those with no article (people, most towns, countries and continents, single mountains and lakes) and those with the: rivers, seas, oceans and deserts, mountain ranges and island groups, countries with Republic, Kingdom or States in the name or a plural name, and many famous buildings.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Leave out the article with most names.",
+        "success_criteria": [
+          "Use no article with people, most places, continents, single mountains and lakes."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use the with names of rivers, seas, deserts, ranges and island groups.",
+        "success_criteria": [
+          "Say the Ganga, the Arabian Sea, the Himalayas."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use the with some countries and famous buildings.",
+        "success_criteria": [
+          "Say the United Kingdom, the Maldives, the Red Fort."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Names With No Article",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Water, Deserts, Ranges and Islands",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Some Countries and Buildings",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Names With and Without The",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Most names take no article, but some always take the. It depends on what kind of place or thing is named."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We sailed down the Ganga to Varanasi.",
+              "highlight": [
+                "the Ganga",
+                "Varanasi"
+              ],
+              "explanation": "A river takes the; a city takes no article."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The kind of name decides the article.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Names With No Article",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "People, most towns, cities and countries, continents, single mountains and lakes take no article."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Mount Everest is in Asia.",
+              "highlight": [
+                "Mount Everest",
+                "Asia"
+              ],
+              "explanation": "A single mountain and a continent: no article."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One mountain, one lake, one country: usually no the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Rivers, Seas, Oceans and Deserts",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Names of rivers, seas, oceans and deserts take the.",
+          "scope": "Names of bodies of water and deserts",
+          "examples": [
+            {
+              "sentence": "The Thar Desert is scorching in May.",
+              "highlight": [
+                "The Thar Desert"
+              ],
+              "explanation": "A desert takes the."
+            },
+            {
+              "sentence": "Fishing boats crowd the Arabian Sea.",
+              "highlight": [
+                "the Arabian Sea"
+              ],
+              "explanation": "A sea takes the."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Rivers, seas and deserts take the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Ranges and Island Groups",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "A group of mountains or a group of islands takes the, even though one mountain or lake does not."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The Himalayas stretch across five countries.",
+              "highlight": [
+                "The Himalayas"
+              ],
+              "explanation": "A mountain range takes the."
+            },
+            {
+              "sentence": "We spent a week in the Andaman Islands.",
+              "highlight": [
+                "the Andaman Islands"
+              ],
+              "explanation": "A group of islands takes the."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Groups of mountains or islands take the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Countries That Take The",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "A few countries take the: names with Republic, Kingdom, States or Emirates in them, and names that are plural."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "My uncle works in the United Kingdom.",
+              "highlight": [
+                "the United Kingdom"
+              ],
+              "explanation": "The name contains Kingdom, so it takes the."
+            },
+            {
+              "sentence": "The Maldives has dazzling white beaches.",
+              "highlight": [
+                "The Maldives"
+              ],
+              "explanation": "The name is plural, so it takes the."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Kingdom, States or a plural name: add the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Famous Buildings and Monuments",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "Many famous buildings, monuments and museums take the."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We climbed the ramparts of the Red Fort.",
+              "highlight": [
+                "the Red Fort"
+              ],
+              "explanation": "A famous monument takes the."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Famous monuments usually take the.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Names and Articles: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "No article: people, cities, most countries, continents, single mountains and lakes",
+            "The: rivers, seas, oceans, deserts",
+            "The: mountain ranges and island groups",
+            "The: Kingdom, States or plural country names",
+            "The: many famous buildings"
+          ]
+        }
+      ],
+      "key_takeaway": "Learn which kinds of names take the.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We went boating on Lake Pichola."
+        },
+        {
+          "option_id": "B",
+          "text": "We went boating on the Lake Pichola."
+        },
+        {
+          "option_id": "C",
+          "text": "We went boating on a Lake Pichola."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A single lake takes no article."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Names of continents, such as Africa, take the.",
+      "correct_answer": false,
+      "explanation": "Continents take no article: we say 'in Africa'."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Blue whales swim in the Pacific Ocean."
+        },
+        {
+          "option_id": "B",
+          "text": "Blue whales swim in Pacific Ocean."
+        },
+        {
+          "option_id": "C",
+          "text": "Blue whales swim in a Pacific Ocean."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Oceans take the."
+    },
+    {
+      "question_id": "Q004",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'The Godavari and ___ Krishna both flow into the sea.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "the"
+          ]
+        }
+      ],
+      "explanation": "The Krishna is a river, and rivers take the."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which name needs the in front of it?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Sahara"
+        },
+        {
+          "option_id": "B",
+          "text": "Mumbai"
+        },
+        {
+          "option_id": "C",
+          "text": "Kenya"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The Sahara is a desert, so it takes the. A city and most countries take no article."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Her cousin studies in the United States."
+        },
+        {
+          "option_id": "B",
+          "text": "Her cousin studies in United States."
+        },
+        {
+          "option_id": "C",
+          "text": "Her cousin studies in an United States."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A country name with States in it takes the."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Tourists queue for hours to see the Taj Mahal."
+        },
+        {
+          "option_id": "B",
+          "text": "Tourists queue for hours to see Taj Mahal."
+        },
+        {
+          "option_id": "C",
+          "text": "Tourists queue for hours to see a Taj Mahal."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Famous monuments such as the Taj Mahal take the."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Rani visited Japan and the Philippines."
+        },
+        {
+          "option_id": "B",
+          "text": "Rani visited the Japan and Philippines."
+        },
+        {
+          "option_id": "C",
+          "text": "Rani visited Japan and Philippines."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Japan takes no article, but the Philippines is a plural name, so it takes the."
+    },
+    {
+      "question_id": "Q009",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Rivers, such as the Brahmaputra, take the.",
+      "correct_answer": true,
+      "explanation": "Names of rivers always take the."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "prompt": "Match each name with the reason for its article.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "the Nile"
+        },
+        {
+          "item_id": "L2",
+          "text": "Kolkata"
+        },
+        {
+          "item_id": "L3",
+          "text": "the Netherlands"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "a plural country name"
+        },
+        {
+          "item_id": "R2",
+          "text": "a river"
+        },
+        {
+          "item_id": "R3",
+          "text": "a city, so no article"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Rivers take the, cities take none, and plural country names take the."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We trekked through the Western Ghats."
+        },
+        {
+          "option_id": "B",
+          "text": "We trekked through Western Ghats."
+        },
+        {
+          "option_id": "C",
+          "text": "We trekked through a Western Ghats."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The Western Ghats is a mountain range, so it takes the."
+    },
+    {
+      "question_id": "Q012",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Remove the article that doesn't belong.",
+      "original_sentence": "My aunt moved to the Australia last year.",
+      "corrected_sentence": "My aunt moved to Australia last year.",
+      "explanation": "Australia is a country with a simple name, so it takes no article."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Names With No Article",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Water and Mountains",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Countries and Buildings",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Names and Articles: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Proper nouns and capital letters",
+        "reason": "Taught in 1-2-2.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Names with no article in general",
+        "reason": "Introduced in 1-4-5 Zero Article; extended here.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

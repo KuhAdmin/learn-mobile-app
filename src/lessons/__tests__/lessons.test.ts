@@ -39,6 +39,22 @@ import v1312raw from '../content/1-3-12.json';
 import v1313raw from '../content/1-3-13.json';
 import v1314raw from '../content/1-3-14.json';
 import v1315raw from '../content/1-3-15.json';
+import v141raw from '../content/1-4-1.json';
+import v142raw from '../content/1-4-2.json';
+import v143raw from '../content/1-4-3.json';
+import v144raw from '../content/1-4-4.json';
+import v145raw from '../content/1-4-5.json';
+import v146raw from '../content/1-4-6.json';
+import v147raw from '../content/1-4-7.json';
+import v148raw from '../content/1-4-8.json';
+import v149raw from '../content/1-4-9.json';
+import v1410raw from '../content/1-4-10.json';
+import v1411raw from '../content/1-4-11.json';
+import v1412raw from '../content/1-4-12.json';
+import v1413raw from '../content/1-4-13.json';
+import v1414raw from '../content/1-4-14.json';
+import v1415raw from '../content/1-4-15.json';
+import v1416raw from '../content/1-4-16.json';
 import {
   buildSteps,
   initialLessonFlow,
@@ -50,7 +66,7 @@ import {
 } from '../lesson-flow';
 import { parseList } from '../list-items';
 import { loadLesson, type Lesson, type Question } from '../model';
-import { LESSON_VISUALS, visualsFor } from '../presentation';
+import { LESSON_VISUALS, LIST_ICONS, visualsFor } from '../presentation';
 import { curriculumTopicId, lessonForTopic } from '../registry';
 import {
   bodyBudget,
@@ -101,6 +117,22 @@ const v1312 = loadLesson(v1312raw);
 const v1313 = loadLesson(v1313raw);
 const v1314 = loadLesson(v1314raw);
 const v1315 = loadLesson(v1315raw);
+const v141 = loadLesson(v141raw);
+const v142 = loadLesson(v142raw);
+const v143 = loadLesson(v143raw);
+const v144 = loadLesson(v144raw);
+const v145 = loadLesson(v145raw);
+const v146 = loadLesson(v146raw);
+const v147 = loadLesson(v147raw);
+const v148 = loadLesson(v148raw);
+const v149 = loadLesson(v149raw);
+const v1410 = loadLesson(v1410raw);
+const v1411 = loadLesson(v1411raw);
+const v1412 = loadLesson(v1412raw);
+const v1413 = loadLesson(v1413raw);
+const v1414 = loadLesson(v1414raw);
+const v1415 = loadLesson(v1415raw);
+const v1416 = loadLesson(v1416raw);
 // Untyped deep copy, so tests can break the JSON on purpose.
 const clone = (x: unknown) => JSON.parse(JSON.stringify(x));
 
@@ -892,6 +924,278 @@ describe('lessonScreens', () => {
     const pages = visuals?.pages ?? {};
     expect(v1315.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE009']);
     for (const id of ['PAGE002', 'PAGE003', 'PAGE005', 'PAGE006', 'PAGE007', 'PAGE008']) {
+      const page = screens.filter((s) => s.page.page_id === id);
+      expect(page[page.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+    }
+  });
+
+  it('fits lesson 1.4.1 on screens, with a check after each dimension and a longer final check', () => {
+    expect(curriculumTopicId(v141.id)).toBe('s1.4.01');
+    expect(lessonForTopic('s1.4.01')?.id).toBe('1-4-1');
+    const visuals = visualsFor(v141.id);
+    const screens = lessonScreens(v141, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v141, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v141.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE004', 'PAGE006']);
+    expect(v141.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
+    expect(grade(v141.questions.Q011, { kind: 'text', values: ['The'] })).toBe(true);
+    expect(grade(v141.questions.Q011, { kind: 'text', values: ['a'] })).toBe(false);
+    // Page 2's questions show as question rows with an answer chip.
+    expect(parseList((v141.pages[1].content[0] as { items: string[] }).items).layout).toBe('qa');
+    expect(pageBlockArt(v141.pages[3], visuals).BLOCK006?.comparison).toHaveLength(2);
+    // Pages that open with a list or rule show their picture with the takeaway.
+    for (const id of ['PAGE002', 'PAGE005', 'PAGE006']) {
+      const page = screens.filter((s) => s.page.page_id === id);
+      expect(page[page.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+    }
+  });
+
+  it('fits lesson 1.4.2 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v142.id);
+    const screens = lessonScreens(v142, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v142, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v142.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005']);
+    expect(v142.finalCheck?.questionIds).toEqual(['Q006', 'Q007', 'Q008', 'Q009', 'Q010']);
+    expect(grade(v142.questions.Q003, { kind: 'text', values: ['A'] })).toBe(true);
+    expect(grade(v142.questions.Q003, { kind: 'text', values: ['the'] })).toBe(false);
+    // Every page has a picture; page 3 opens with its rule, so the mango and chair close it with the takeaway.
+    const pages = visuals?.pages ?? {};
+    expect(v142.pages.filter((p) => !pages[p.page_id]?.art)).toEqual([]);
+    const page3 = screens.filter((s) => s.page.page_id === 'PAGE003');
+    expect(page3[page3.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.3 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v143.id);
+    const screens = lessonScreens(v143, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v143, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v143.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE005', 'PAGE006']);
+    expect(v143.finalCheck?.questionIds).toEqual(['Q009', 'Q010', 'Q011', 'Q012', 'Q013']);
+    expect(grade(v143.questions.Q009, { kind: 'text', values: ['An'] })).toBe(true);
+    expect(grade(v143.questions.Q009, { kind: 'text', values: ['a'] })).toBe(false);
+    expect(grade(v143.questions.Q010, { kind: 'text', values: ['a'] })).toBe(true);
+    // Each example keeps its picture beside it (pages 2 and 6 with the rule's examples).
+    for (const [i, id] of [[1, 'BLOCK003'], [2, 'BLOCK005'], [3, 'BLOCK007'], [5, 'BLOCK010']] as const)
+      expect(pageBlockArt(v143.pages[i], visuals)[id]?.examples).toHaveLength(2);
+  });
+
+  it('fits lesson 1.4.4 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v144.id);
+    const screens = lessonScreens(v144, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v144, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v144.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005', 'PAGE006']);
+    expect(v144.finalCheck?.questionIds).toEqual(['Q007', 'Q008', 'Q009', 'Q010', 'Q011']);
+    expect(grade(v144.questions.Q003, { kind: 'text', values: ['the'] })).toBe(true);
+    expect(grade(v144.questions.Q003, { kind: 'text', values: ['A'] })).toBe(false);
+    // Pages 1–5 have a main picture; page 6's two examples each keep theirs.
+    const pages = visuals?.pages ?? {};
+    expect(v144.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE006']);
+    expect(pageBlockArt(v144.pages[5], visuals).BLOCK012?.examples).toHaveLength(2);
+  });
+
+  it('fits lesson 1.4.5 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v145.id);
+    const screens = lessonScreens(v145, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v145, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v145.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE004', 'PAGE005']);
+    expect(v145.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011']);
+    // Removing the article fixes the sentence; leaving it in doesn't.
+    expect(grade(v145.questions.Q010, { kind: 'text', values: ['I like geography more than any other subject'] })).toBe(true);
+    expect(grade(v145.questions.Q010, { kind: 'text', values: ['I like the geography more than any other subject.'] })).toBe(false);
+    // The rule's two examples on page 2 keep their pictures; page 4's tiles each get an icon.
+    expect(pageBlockArt(v145.pages[1], visuals).BLOCK003?.examples).toHaveLength(2);
+    const tiles = parseList((v145.pages[3].content[0] as { items: string[] }).items);
+    expect(tiles.layout).toBe('tiles');
+    expect(tiles.entries.map((e) => LIST_ICONS[(e.label ?? '').toLowerCase()]).every(Boolean)).toBe(true);
+  });
+
+  it('fits lesson 1.4.6 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v146.id);
+    const screens = lessonScreens(v146, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v146, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v146.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE004', 'PAGE005']);
+    expect(v146.finalCheck?.questionIds).toEqual(['Q007', 'Q008', 'Q009', 'Q010', 'Q011']);
+    expect(grade(v146.questions.Q008, { kind: 'text', values: ['the'] })).toBe(true);
+    expect(grade(v146.questions.Q008, { kind: 'text', values: ['A'] })).toBe(false);
+    // Page 4's comparison draws one picture per item; page 2 opens with its rule, so the owls close it.
+    expect(pageBlockArt(v146.pages[3], visuals).BLOCK006?.comparison).toHaveLength(2);
+    const page2 = screens.filter((s) => s.page.page_id === 'PAGE002');
+    expect(page2[page2.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.7 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v147.id);
+    const screens = lessonScreens(v147, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v147, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v147.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE005', 'PAGE006']);
+    expect(v147.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
+    // Some and any both fit before uncountable juice; a sugar is corrected to some sugar or a unit of sugar.
+    for (const answer of ['some', 'Any']) expect(grade(v147.questions.Q005, { kind: 'text', values: [answer] })).toBe(true);
+    expect(grade(v147.questions.Q005, { kind: 'text', values: ['a'] })).toBe(false);
+    expect(grade(v147.questions.Q008, { kind: 'text', values: ['Can you lend me a cup of sugar'] })).toBe(true);
+    expect(grade(v147.questions.Q008, { kind: 'text', values: ['Can you lend me a sugar?'] })).toBe(false);
+    // Page 5's tiles each get an icon; page 6's comparison draws one picture per item.
+    const tiles = parseList((v147.pages[4].content[0] as { items: string[] }).items);
+    expect(tiles.layout).toBe('tiles');
+    expect(tiles.entries.map((e) => LIST_ICONS[(e.label ?? '').toLowerCase()]).every(Boolean)).toBe(true);
+    expect(pageBlockArt(v147.pages[5], visuals).BLOCK008?.comparison).toHaveLength(2);
+  });
+
+  it('fits lesson 1.4.8 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v148.id);
+    const screens = lessonScreens(v148, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v148, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v148.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE004', 'PAGE006']);
+    expect(v148.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
+    expect(grade(v148.questions.Q004, { kind: 'text', values: ['The'] })).toBe(true);
+    expect(grade(v148.questions.Q012, { kind: 'text', values: ['My aunt moved to Australia last year'] })).toBe(true);
+    expect(grade(v148.questions.Q012, { kind: 'text', values: ['My aunt moved to the Australia last year.'] })).toBe(false);
+    // Every page has a picture; page 3 opens with its rule, so its panels close the page with the takeaway.
+    const pages = visuals?.pages ?? {};
+    expect(v148.pages.filter((p) => !pages[p.page_id]?.art)).toEqual([]);
+    const page3 = screens.filter((s) => s.page.page_id === 'PAGE003');
+    expect(page3[page3.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.9 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v149.id);
+    const screens = lessonScreens(v149, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v149, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v149.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE004', 'PAGE006']);
+    expect(v149.finalCheck?.questionIds).toEqual(['Q006', 'Q007', 'Q008', 'Q009', 'Q010']);
+    expect(grade(v149.questions.Q003, { kind: 'text', values: ['These'] })).toBe(true);
+    expect(grade(v149.questions.Q003, { kind: 'text', values: ['this'] })).toBe(false);
+    for (const answer of ['These oranges are very juicy', 'Those oranges are very juicy.'])
+      expect(grade(v149.questions.Q010, { kind: 'text', values: [answer] })).toBe(true);
+    expect(grade(v149.questions.Q010, { kind: 'text', values: ['This oranges are very juicy.'] })).toBe(false);
+    // Page 2's rule examples keep their pictures; page 3's row sits under the intro; page 5 opens with its rule, so its
+    // picture closes the page.
+    expect(pageBlockArt(v149.pages[1], visuals).BLOCK004?.examples).toHaveLength(2);
+    expect(screens.find((s) => s.page.page_id === 'PAGE003')).toMatchObject({ part: 0, showArt: true });
+    const page5 = screens.filter((s) => s.page.page_id === 'PAGE005');
+    expect(page5[page5.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.10 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1410.id);
+    const screens = lessonScreens(v1410, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1410, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1410.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005', 'PAGE006']);
+    expect(v1410.finalCheck?.questionIds).toEqual(['Q006', 'Q007', 'Q008', 'Q009', 'Q010']);
+    expect(grade(v1410.questions.Q005, { kind: 'text', values: ['Own'] })).toBe(true);
+    for (const answer of ['His car broke down on the highway', 'The car broke down on the highway.'])
+      expect(grade(v1410.questions.Q010, { kind: 'text', values: [answer] })).toBe(true);
+    // Page 4's mockup picture shows a different example, so it has none; page 6 keeps only the shoes picture.
+    const pages = visuals?.pages ?? {};
+    expect(v1410.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE004', 'PAGE006']);
+    expect(pageBlockArt(v1410.pages[5], visuals).BLOCK011?.examples?.map(Boolean)).toEqual([false, true]);
+    // Page 2 opens with its rule, so the umbrella closes the page; page 3's intro line carries the two girls.
+    const page2 = screens.filter((s) => s.page.page_id === 'PAGE002');
+    expect(page2[page2.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+    expect(screens.find((s) => s.page.page_id === 'PAGE003')).toMatchObject({ part: 0, showArt: true });
+  });
+
+  it('fits lesson 1.4.11 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1411.id);
+    const screens = lessonScreens(v1411, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1411, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1411.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE004', 'PAGE005']);
+    expect(v1411.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
+    expect(grade(v1411.questions.Q007, { kind: 'text', values: ['No'] })).toBe(true);
+    expect(grade(v1411.questions.Q007, { kind: 'text', values: ['any'] })).toBe(false);
+    // Pages 2 and 4 keep a picture beside each example; page 3's comparison draws one per item.
+    for (const [i, id] of [[1, 'BLOCK003'], [3, 'BLOCK007']] as const)
+      expect(pageBlockArt(v1411.pages[i], visuals)[id]?.examples).toHaveLength(2);
+    expect(pageBlockArt(v1411.pages[2], visuals).BLOCK005?.comparison).toHaveLength(2);
+  });
+
+  it('fits lesson 1.4.12 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1412.id);
+    const screens = lessonScreens(v1412, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1412, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1412.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE004', 'PAGE005']);
+    expect(v1412.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012', 'Q003']);
+    expect(grade(v1412.questions.Q005, { kind: 'text', values: ['Neither'] })).toBe(true);
+    expect(grade(v1412.questions.Q005, { kind: 'text', values: ['either'] })).toBe(false);
+    for (const answer of ['Each runner got a medal', 'Every runner got a medal.'])
+      expect(grade(v1412.questions.Q012, { kind: 'text', values: [answer] })).toBe(true);
+  });
+
+  it('fits lesson 1.4.13 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1413.id);
+    const screens = lessonScreens(v1413, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1413, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1413.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005', 'PAGE006']);
+    expect(v1413.finalCheck?.questionIds).toEqual(['Q006', 'Q007', 'Q008', 'Q009', 'Q010']);
+    expect(grade(v1413.questions.Q006, { kind: 'text', values: ['Second'] })).toBe(true);
+    expect(grade(v1413.questions.Q006, { kind: 'text', values: ['poetry'] })).toBe(false);
+    // Every page has a picture; page 2's rule examples keep theirs and page 5's book closes the page.
+    const pages = visuals?.pages ?? {};
+    expect(v1413.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE002']);
+    expect(pageBlockArt(v1413.pages[1], visuals).BLOCK003?.examples).toHaveLength(2);
+    const page5 = screens.filter((s) => s.page.page_id === 'PAGE005');
+    expect(page5[page5.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.14 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1414.id);
+    const screens = lessonScreens(v1414, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1414, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1414.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE003', 'PAGE004']);
+    expect(v1414.finalCheck?.questionIds).toEqual(['Q007', 'Q008', 'Q009', 'Q010', 'Q011']);
+    // Either question word fits a birthday party's day.
+    for (const answer of ['What', 'which']) expect(grade(v1414.questions.Q004, { kind: 'text', values: [answer] })).toBe(true);
+    expect(grade(v1414.questions.Q004, { kind: 'text', values: ['Whose'] })).toBe(false);
+    // Page 3's mockup picture shows a different example, so it has none.
+    const pages = visuals?.pages ?? {};
+    expect(v1414.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE003']);
+  });
+
+  it('fits lesson 1.4.15 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1415.id);
+    const screens = lessonScreens(v1415, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1415, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1415.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE002', 'PAGE003', 'PAGE005']);
+    expect(v1415.finalCheck?.questionIds).toEqual(['Q007', 'Q008', 'Q009', 'Q010', 'Q011']);
+    expect(grade(v1415.questions.Q006, { kind: 'text', values: ['Both'] })).toBe(true);
+    expect(grade(v1415.questions.Q006, { kind: 'text', values: ['all'] })).toBe(false);
+    // Pages 3 and 4 keep a picture beside each example; page 5's comparison draws one per item.
+    for (const [i, id] of [[2, 'BLOCK006'], [3, 'BLOCK008']] as const)
+      expect(pageBlockArt(v1415.pages[i], visuals)[id]?.examples).toHaveLength(2);
+    expect(pageBlockArt(v1415.pages[4], visuals).BLOCK010?.comparison).toHaveLength(2);
+    // Page 2 opens with its list, so the row of icons closes the page with the takeaway.
+    const page2 = screens.filter((s) => s.page.page_id === 'PAGE002');
+    expect(page2[page2.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
+  });
+
+  it('fits lesson 1.4.16 on screens, with a check after each dimension and a longer final check', () => {
+    const visuals = visualsFor(v1416.id);
+    const screens = lessonScreens(v1416, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v1416, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v1416.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005']);
+    expect(v1416.finalCheck?.questionIds).toEqual(['Q007', 'Q008', 'Q009', 'Q010', 'Q011']);
+    expect(grade(v1416.questions.Q006, { kind: 'text', values: ['Half'] })).toBe(true);
+    expect(grade(v1416.questions.Q007, { kind: 'text', values: ['All'] })).toBe(true);
+    expect(grade(v1416.questions.Q007, { kind: 'text', values: ['my'] })).toBe(false);
+    // Page 2's slots show as label tiles; page 4's examples each keep a picture.
+    expect(parseList((v1416.pages[1].content[0] as { items: string[] }).items).layout).toBe('tiles');
+    expect(pageBlockArt(v1416.pages[3], visuals).BLOCK006?.examples).toHaveLength(2);
+    for (const id of ['PAGE002', 'PAGE003']) {
       const page = screens.filter((s) => s.page.page_id === id);
       expect(page[page.length - 1]).toMatchObject({ showArt: true, showTakeaway: true });
     }

@@ -1,0 +1,715 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-3",
+    "title": "Indefinite Article – An",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Indefinite Article – An",
+    "lesson_summary": "Learners already know what a means (1-4-2). This lesson teaches when it becomes an: before a vowel sound. They learn to listen rather than look (an hour, a uniform, a one-way street, an X-ray), and see that the word right after the article decides, even if it is a describing word (an old car, a huge apple).",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Use an before a vowel sound and a before a consonant sound.",
+        "success_criteria": [
+          "Choose an egg and a lizard."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Choose by sound, not by spelling.",
+        "success_criteria": [
+          "Use an hour and an honest man.",
+          "Use a uniform and a one-way street.",
+          "Use an X-ray."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Let the next word decide.",
+        "success_criteria": [
+          "Choose an old car but a huge apple."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Vowel Sound or Consonant Sound",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Sound, Not Spelling",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "The Next Word Decides",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "When A Becomes An",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Before a vowel sound, a changes to an. Try saying 'a orange': the two vowel sounds bump together. An keeps them apart."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She peeled an orange for her little brother.",
+              "highlight": [
+                "an orange"
+              ],
+              "explanation": "Orange starts with a vowel sound, so we use an."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "An makes vowel sounds easy to say.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Vowel Sound or Consonant Sound?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Use an before a word that starts with a vowel sound. Use a before a word that starts with a consonant sound.",
+          "scope": "The indefinite articles a and an",
+          "examples": [
+            {
+              "sentence": "Rahul found an earring under the sofa.",
+              "highlight": [
+                "an earring"
+              ],
+              "explanation": "Earring starts with a vowel sound, so an."
+            },
+            {
+              "sentence": "We watched a lizard on the kitchen wall.",
+              "highlight": [
+                "a lizard"
+              ],
+              "explanation": "Lizard starts with a consonant sound, so a."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Vowel sound: an. Consonant sound: a.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Silent H",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "In a few words the h is silent, so the word really starts with a vowel sound."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We waited an hour for the ferry.",
+              "highlight": [
+                "an hour"
+              ],
+              "explanation": "Hour sounds like 'our', so we use an."
+            },
+            {
+              "sentence": "Mr Das is an honest shopkeeper.",
+              "highlight": [
+                "an honest shopkeeper"
+              ],
+              "explanation": "Honest sounds like 'onest', so we use an."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Silent h means a vowel sound: an hour.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Vowel Letters With Consonant Sounds",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "Some words start with a vowel letter but a consonant sound. U often sounds like 'you', and one sounds like 'won'."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our school has a uniform with a red tie.",
+              "highlight": [
+                "a uniform"
+              ],
+              "explanation": "Uniform starts with a 'you' sound, a consonant sound, so a."
+            },
+            {
+              "sentence": "Turn left into a one-way street.",
+              "highlight": [
+                "a one-way street"
+              ],
+              "explanation": "One starts with a 'w' sound, so a."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Listen to the sound: a uniform, a one-way street.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Letters Said One by One",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "When we say letters one by one, listen to how the first letter is said: X is 'ex', M is 'em', U is 'you'."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The doctor asked for an X-ray of my wrist.",
+              "highlight": [
+                "an X-ray"
+              ],
+              "explanation": "X is said 'ex', which starts with a vowel sound, so an."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Say the letter aloud to choose a or an.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Very Next Word Decides",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "Choose a or an by the word right after it. If a describing word comes before the noun, the describing word decides.",
+          "scope": "A or an before describing words",
+          "examples": [
+            {
+              "sentence": "Grandpa rides an old bicycle to the market.",
+              "highlight": [
+                "an old bicycle"
+              ],
+              "explanation": "Old comes right after the article and starts with a vowel sound, so an."
+            },
+            {
+              "sentence": "I bit into a huge apple.",
+              "highlight": [
+                "a huge apple"
+              ],
+              "explanation": "Huge comes right after the article, so a, even though apple starts with a vowel."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Look at the very next word, not the noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "A or An: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Vowel sound: an. Consonant sound: a.",
+            "Silent h: an hour, an honest man.",
+            "'You' and 'w' sounds: a uniform, a one-way street.",
+            "Say letters aloud: an X-ray.",
+            "The very next word decides: an old car, a huge apple."
+          ]
+        }
+      ],
+      "key_takeaway": "Trust your ears, not the spelling.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'We saw ___ ostrich at the zoo.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an"
+        },
+        {
+          "option_id": "B",
+          "text": "a"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Ostrich starts with a vowel sound, so an."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'She wants ___ kite for her birthday.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a"
+        },
+        {
+          "option_id": "B",
+          "text": "an"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Kite starts with a consonant sound, so a."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "half an hour"
+        },
+        {
+          "option_id": "B",
+          "text": "half a hour"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The h in hour is silent, so it starts with a vowel sound: an hour."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a university"
+        },
+        {
+          "option_id": "B",
+          "text": "an university"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "University starts with a 'you' sound, which is a consonant sound, so a."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an SMS"
+        },
+        {
+          "option_id": "B",
+          "text": "a SMS"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "S is said 'ess', which starts with a vowel sound, so an."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "We choose a or an by the first sound of the next word, not its first letter.",
+      "correct_answer": true,
+      "explanation": "That is why we say an hour but a uniform."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'It was ___ amazing show.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an"
+        },
+        {
+          "option_id": "B",
+          "text": "a"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Amazing comes right after the article and starts with a vowel sound, so an."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'Mira has ___ unusual pet.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an"
+        },
+        {
+          "option_id": "B",
+          "text": "a"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Unusual starts with an 'un' sound, a vowel sound, so an."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with a or an: 'Please bring ___ umbrella; it's pouring.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "an"
+          ]
+        }
+      ],
+      "explanation": "Umbrella starts with an 'um' sound, a vowel sound, so an."
+    },
+    {
+      "question_id": "Q010",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete with a or an: 'He left ___ useful note on the fridge.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "a"
+          ]
+        }
+      ],
+      "explanation": "Useful starts with a 'you' sound, a consonant sound, so a."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We need an extra chair for Nani."
+        },
+        {
+          "option_id": "B",
+          "text": "We need a extra chair for Nani."
+        },
+        {
+          "option_id": "C",
+          "text": "We need an chair for Nani."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Extra comes right after the article and starts with a vowel sound, so an."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a European city"
+        },
+        {
+          "option_id": "B",
+          "text": "an European city"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "European starts with a 'you' sound, so a."
+    },
+    {
+      "question_id": "Q013",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "We say 'an horse' because horse starts with the letter h.",
+      "correct_answer": false,
+      "explanation": "The h in horse is spoken, so it starts with a consonant sound: a horse."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check A or An",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Sound, Not Spelling",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005",
+          "Q006"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check the Next Word",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "A or An: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "What a and an mean",
+        "reason": "Taught in 1-4-2; recalled here in one line.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Vowel and consonant sounds in spelling",
+        "reason": "Beyond this grammar lesson.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

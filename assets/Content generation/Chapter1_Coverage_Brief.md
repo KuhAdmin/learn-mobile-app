@@ -734,3 +734,213 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - My sister she plays the sitar.
   - Please call Anita or myself if you need help.
 
+### 1.4.1 Introduction to Articles
+
+- **Pages:** Little Words Before Nouns · Which, How Many, Whose · Meet the Three Articles · Any One or a Particular One? · Determiner First, Describing Words After · The Determiner Family · Determiners: Recap
+- **Key takeaways:** Determiners come before nouns. · A determiner tells which one, how many or whose. · The articles are a, an and the. · A means any one; the means that one. · The determiner leads the group of words. · Determiners come in several kinds. · Start a noun group with the right determiner.
+- **Example sentences:**
+  - A squirrel ran along the roof. _(focus: A, the)_
+  - I found a key and an envelope on the doorstep. _(focus: a, an, the)_
+  - Can I borrow a pencil?
+  - Can I borrow the pencil?
+  - We painted the tall wooden gate. _(focus: the)_
+
+### 1.4.2 Indefinite Article – A
+
+- **Pages:** One of Many · Saying It for the First Time · Only One, Only Countable · A for Jobs and Descriptions · A Meaning 'In Each' · The Article A: Recap
+- **Key takeaways:** A means one, not a particular one. · Use a when you first mention something. · A goes with one countable thing. · She is a pilot, not she is pilot. · Twice a week means twice in each week. · Use a for one new, countable thing.
+- **Example sentences:**
+  - Look, there's a rainbow over the hills! _(focus: a rainbow)_
+  - We adopted a kitten from the shelter last week. _(focus: a kitten)_
+  - Rohan peeled a mango after school. _(focus: a mango)_
+  - My aunt is a pilot. _(focus: a pilot)_
+  - That was a brilliant match. _(focus: a brilliant match)_
+  - We water the tulsi plant twice a day. _(focus: a day)_
+
+### 1.4.3 Indefinite Article – An
+
+- **Pages:** When A Becomes An · Vowel Sound or Consonant Sound? · The Silent H · Vowel Letters With Consonant Sounds · Letters Said One by One · The Very Next Word Decides · A or An: Recap
+- **Key takeaways:** An makes vowel sounds easy to say. · Vowel sound: an. Consonant sound: a. · Silent h means a vowel sound: an hour. · Listen to the sound: a uniform, a one-way street. · Say the letter aloud to choose a or an. · Look at the very next word, not the noun. · Trust your ears, not the spelling.
+- **Example sentences:**
+  - She peeled an orange for her little brother. _(focus: an orange)_
+  - Rahul found an earring under the sofa. _(focus: an earring)_
+  - We watched a lizard on the kitchen wall. _(focus: a lizard)_
+  - We waited an hour for the ferry. _(focus: an hour)_
+  - Mr Das is an honest shopkeeper. _(focus: an honest shopkeeper)_
+  - Our school has a uniform with a red tie. _(focus: a uniform)_
+  - Turn left into a one-way street. _(focus: a one-way street)_
+  - The doctor asked for an X-ray of my wrist. _(focus: an X-ray)_
+  - Grandpa rides an old bicycle to the market. _(focus: an old bicycle)_
+  - I bit into a huge apple. _(focus: a huge apple)_
+
+### 1.4.4 Definite Article – The
+
+- **Pages:** Pointing to a Particular One · From A to The · Things We Both Know · Only One in the World · A Phrase That Picks One Out · The Works With Every Noun · The Article The: Recap
+- **Key takeaways:** The means a particular one. · First a, then the. · If we both know which one, use the. · Only one exists? Use the. · If a phrase shows which one, use the. · The fits singular, plural and uncountable nouns. · The tells the listener exactly which one.
+- **Example sentences:**
+  - Can you water the money plant on the balcony? _(focus: the money plant)_
+  - I bought a notebook and a pen. The notebook cost more. _(focus: a notebook, The notebook)_
+  - Switch off the fan before you leave. _(focus: the fan)_
+  - The moon looked orange tonight. _(focus: The moon)_
+  - The bag on the chair belongs to my cousin. _(focus: The bag on the chair)_
+  - The biscuits in this tin are stale. _(focus: The biscuits)_
+  - The water in the well is icy. _(focus: The water)_
+
+### 1.4.5 Zero Article
+
+- **Pages:** Sometimes No Article at All · Plurals and Uncountables in General · Names Usually Stand Alone · Meals, Languages, Subjects and Sports · Everyday Phrases Without Articles · Zero Article: Recap
+- **Key takeaways:** Sometimes no article is right. · In general, plurals and uncountables stand alone. · Most names need no article. · Lunch, Tamil, history, hockey: no article. · Go to school, at home, by bus: no article. · Know when to leave the article out.
+- **Example sentences:**
+  - Children love puppet shows. _(focus: Children, puppet shows)_
+  - Mangoes taste sweetest in May. _(focus: Mangoes)_
+  - Honey never goes bad. _(focus: Honey)_
+  - Zoya flew from Chennai to Japan. _(focus: Zoya, Chennai, Japan)_
+  - Arjun goes to school by bus. _(focus: school, bus)_
+
+### 1.4.6 General and Specific Reference
+
+- **Pages:** All of Them, or Just These? · Talking About a Whole Kind · Talking About Particular Ones · Rice or The Rice? · A for Any One Member · General or Specific: Recap
+- **Key takeaways:** The article shows general or particular. · A whole kind: no article. · Particular ones: the. · Ask: all of them, or these ones? · A koala can mean any koala. · Choose the article by what you mean.
+- **Example sentences:**
+  - Bees make honey, but the bees in our garden seem lazy. _(focus: Bees, the bees)_
+  - Owls hunt at night. _(focus: Owls)_
+  - The owls in the old temple hoot all night. _(focus: The owls)_
+  - Rice grows well in wet fields.
+  - The rice on my plate is burnt.
+  - A koala sleeps most of the day. _(focus: A koala)_
+
+### 1.4.7 Articles with Countable and Uncountable Nouns
+
+- **Pages:** The Noun Decides the Article · One Countable Thing Needs a Partner · No A or An With Uncountable Nouns · No A or An With Plurals · Which Article With Which Noun · A Paper or Some Paper? · Articles and Noun Types: Recap
+- **Key takeaways:** Countable or not decides the article. · Never leave one countable noun on its own. · Some help, never a help. · Plurals never take a or an. · Only one countable thing takes a or an. · The meaning decides countable or uncountable. · Check the noun before you choose the article.
+- **Example sentences:**
+  - Pack an umbrella and some sunscreen. _(focus: an umbrella, some sunscreen)_
+  - Ishaan has a scooter. _(focus: a scooter)_
+  - Could you give me some help with this box? _(focus: some help)_
+  - We picked some guavas from the tree. _(focus: some guavas)_
+  - Dad reads a paper every morning.
+  - The printer has run out of paper.
+
+### 1.4.8 Articles with Proper Nouns
+
+- **Pages:** Names With and Without The · Names With No Article · Rivers, Seas, Oceans and Deserts · Ranges and Island Groups · Countries That Take The · Famous Buildings and Monuments · Names and Articles: Recap
+- **Key takeaways:** The kind of name decides the article. · One mountain, one lake, one country: usually no the. · Rivers, seas and deserts take the. · Groups of mountains or islands take the. · Kingdom, States or a plural name: add the. · Famous monuments usually take the. · Learn which kinds of names take the.
+- **Example sentences:**
+  - We sailed down the Ganga to Varanasi. _(focus: the Ganga, Varanasi)_
+  - Mount Everest is in Asia. _(focus: Mount Everest, Asia)_
+  - The Thar Desert is scorching in May. _(focus: The Thar Desert)_
+  - Fishing boats crowd the Arabian Sea. _(focus: the Arabian Sea)_
+  - The Himalayas stretch across five countries. _(focus: The Himalayas)_
+  - We spent a week in the Andaman Islands. _(focus: the Andaman Islands)_
+  - My uncle works in the United Kingdom. _(focus: the United Kingdom)_
+  - The Maldives has dazzling white beaches. _(focus: The Maldives)_
+  - We climbed the ramparts of the Red Fort. _(focus: the Red Fort)_
+
+### 1.4.9 Demonstrative Determiners
+
+- **Pages:** Pointing Words Before Nouns · Match the Noun's Number · Near and Far in Time · A Describing Word in Between · This One, That One · The Same + Noun · Pointing Determiners: Recap
+- **Key takeaways:** Before a noun, this and that are determiners. · This and that for one; these and those for many. · This week is now; those summers are past. · Demonstrative first, describing word next. · One or ones saves repeating the noun. · The same school, never same school. · Point at the noun with the matching word.
+- **Example sentences:**
+  - This jacket is warmer than that coat. _(focus: This jacket, that coat)_
+  - These marbles belong to my brother. _(focus: These marbles)_
+  - That milk smells sour. _(focus: That milk)_
+  - We have a spelling test this week. _(focus: this week)_
+  - Those summers at Nani's house were the best. _(focus: Those summers)_
+  - Look at those tiny shells on the sand. _(focus: those tiny shells)_
+  - Don't pick that mango; pick this one. _(focus: this one)_
+  - These sandals pinch, so I'll wear the old ones. _(focus: the old ones)_
+  - Priya and I go to the same school. _(focus: the same school)_
+
+### 1.4.10 Possessive Determiners
+
+- **Pages:** Starting a Noun Group With an Owner · Owner, Describing Word, Noun · Never Next to A or The · A Name as the Owner · Their Own · Body Parts and Clothes Take an Owner Word · Possessive Determiners: Recap
+- **Key takeaways:** An owner word can start a noun group. · The owner word goes first. · My or a, never both together. · Tara's works like her: it shows the owner. · My own means mine and nobody else's. · My hand, your shoes, never the hand. · One owner word starts the noun group.
+- **Example sentences:**
+  - Ravi's kite got stuck in our mango tree. _(focus: Ravi's, our)_
+  - Her bright red umbrella kept us dry. _(focus: Her bright red umbrella)_
+  - I bumped into a my friend at the market.
+  - Tara's lunchbox fell into the puddle. _(focus: Tara's)_
+  - The twins finally have their own bedrooms. _(focus: their own)_
+  - Kavya brushed her hair before school. _(focus: her hair)_
+  - Take off your shoes at the temple door. _(focus: your shoes)_
+
+### 1.4.11 Quantifiers
+
+- **Pages:** How Much? How Many? · Many, Much, Some and Any · A Few or Few? · A Little or Little? · A Lot Of, Enough and No · Quantifiers: Recap
+- **Key takeaways:** Quantifiers tell roughly how much or how many. · Many for countable, much for uncountable. · A few is some; few is not enough. · A little is some; little is hardly any. · A lot of fits both kinds of noun. · Pick the quantifier that fits the noun.
+- **Example sentences:**
+  - We have plenty of time but not many tickets. _(focus: plenty of, many)_
+  - How many cousins do you have? _(focus: many)_
+  - We don't have much petrol left. _(focus: much)_
+  - A few neighbours came to help, so we finished quickly.
+  - Few neighbours came to help, so we finished late.
+  - There's a little rice left if you're still hungry. _(focus: a little)_
+  - There is little hope of rain this week. _(focus: little)_
+  - We have a lot of homework tonight. _(focus: a lot of)_
+  - Is there enough paint for the whole wall? _(focus: enough)_
+
+### 1.4.12 Distributive Determiners
+
+- **Pages:** One at a Time, Before a Noun · A Singular Noun Follows · Each or Every? · Every for Repeated Times · Every Other, Every Single · Distributive Determiners: Recap
+- **Key takeaways:** Distributive determiners go member by member. · Each player, not each players. · Each is one by one; every is all together. · Every Sunday tells how often. · Every other is every second one; every single stresses all. · Take the group one member at a time.
+- **Example sentences:**
+  - Every child got a sparkler at Diwali. _(focus: Every child)_
+  - Each player wore a numbered shirt. _(focus: Each player)_
+  - Neither shop had my size. _(focus: Neither shop)_
+  - The teacher spoke to each student in turn.
+  - Every student in our class passed the test.
+  - We visit Nani every Sunday. _(focus: every Sunday)_
+  - Take this syrup every six hours. _(focus: every six hours)_
+  - Our cousins visit every other Sunday. _(focus: every other Sunday)_
+  - I checked every single pocket for my keys. _(focus: every single)_
+
+### 1.4.13 Numbers and Ordinal Determiners
+
+- **Pages:** Exact Numbers Before Nouns · One, or Two and More · Hundred and Thousand Stay Singular · First, Second, Third · Ordinal Before Cardinal · Single, Double, Triple · Number Determiners: Recap
+- **Key takeaways:** Numbers tell how many or which place. · One balcony; eleven saplings. · Three hundred, not three hundreds. · Ordinals tell position: the second floor. · The first three, not the three first. · Single is one, double is two, triple is three. · Count with cardinals; place with ordinals.
+- **Example sentences:**
+  - Two kittens dozed on the third step. _(focus: Two, the third)_
+  - Our flat has one balcony. _(focus: one balcony)_
+  - We planted eleven saplings by the lake. _(focus: eleven saplings)_
+  - The new hall has three hundred seats. _(focus: three hundred seats)_
+  - Our classroom is on the second floor. _(focus: the second floor)_
+  - Read the first three pages tonight. _(focus: the first three pages)_
+  - We booked a double room for Nani and Nanaji. _(focus: double)_
+  - Our neighbour won gold in the triple jump. _(focus: triple)_
+
+### 1.4.14 Interrogative Determiners
+
+- **Pages:** Question Words With a Noun · What or Which Before a Noun · Whose + Noun: The Owner · What Kind Of, What Colour · Question Determiners: Recap
+- **Key takeaways:** Question words can come before a noun. · Same rule as the pronouns: what is open, which picks. · Whose + noun asks about the owner. · What kind of asks about type. · Put the right question word before the noun.
+- **Example sentences:**
+  - Which bus goes to the old fort? _(focus: Which bus)_
+  - Which kurta do you prefer, the yellow or the green? _(focus: Which kurta)_
+  - Whose phone keeps ringing in the hall? _(focus: Whose phone)_
+  - What sort of shoes do you need for the trek? _(focus: What sort of)_
+  - What colour is the new school bus? _(focus: What colour)_
+
+### 1.4.15 Other Determiners
+
+- **Pages:** A Few More Determiners · Another, Other, The Other · Such a and What a · Both, All and Half · Whole or All? · Other Determiners: Recap
+- **Key takeaways:** More words can start a noun group. · Another is one more; the other is the one left. · What a view! Such a long queue! · Both is two; all is the whole lot. · Whole for one thing; all for many. · These words also start noun groups.
+- **Example sentences:**
+  - Can I have another samosa, please? _(focus: another samosa)_
+  - One sock is blue and the other sock is green. _(focus: the other sock)_
+  - It was such a long queue at the ticket counter! _(focus: such a)_
+  - What a view from the hilltop! _(focus: What a)_
+  - Both teams played brilliantly in the final. _(focus: Both teams)_
+  - All visitors must sign the register. _(focus: All visitors)_
+  - The puppy ate the whole sandwich.
+  - The puppy ate all the sandwiches.
+
+### 1.4.16 Determiner Order and Combinations
+
+- **Pages:** Stacking Determiners · First, Middle and Last Slots · Only One Middle Word · All the, Both My, Half the · Numbers Come After · Chapter Recap: Determiners
+- **Key takeaways:** Determiners stack in a fixed order. · First slot, middle slot, last slot, then the noun. · Only one of a, the, this or my. · All the, never the all. · My first two, not first my two. · Stack determiners in the right slots.
+- **Example sentences:**
+  - Both my older brothers play the tabla. _(focus: Both my)_
+  - These two kittens belong to Asha. _(focus: These two)_
+  - All the mangoes in the crate were ripe. _(focus: All the)_
+  - We finished half the cake before lunch. _(focus: half the)_
+  - My first two attempts at the puzzle failed. _(focus: My first two)_
+

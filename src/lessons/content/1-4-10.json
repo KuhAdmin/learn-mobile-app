@@ -1,0 +1,698 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-10",
+    "title": "Possessive Determiners",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Possessive Determiners",
+    "lesson_summary": "Learners already know my, your, his, her, its, our and their before a noun (1-3-4). This lesson places them inside a noun group: possessive first, then describing words, then the noun. They learn that a possessive never sits next to a, the or this ('a friend of mine', not 'a my friend'), that a possessive noun such as Tara's works the same way, and that own can follow a possessive. It also shows that English uses a possessive with body parts and clothes ('She hurt her knee', 'Take off your shoes').",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Place a possessive determiner in a noun group.",
+        "success_criteria": [
+          "Put the possessive before describing words.",
+          "Never use it with a, the or this."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use possessive nouns and own as part of the noun group.",
+        "success_criteria": [
+          "Use Tara's as a determiner.",
+          "Say their own room."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use a possessive with body parts and clothes.",
+        "success_criteria": [
+          "Say 'I hurt my ankle', not 'I hurt the ankle'.",
+          "Say 'Take off your shoes'."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Order and Combinations",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Possessive Nouns and Own",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Body Parts and Clothes",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Starting a Noun Group With an Owner",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "A possessive determiner such as our, or a possessive noun such as Ravi's, starts a noun group and tells whose it is."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Ravi's kite got stuck in our mango tree.",
+              "highlight": [
+                "Ravi's",
+                "our"
+              ],
+              "explanation": "Ravi's tells whose kite; our tells whose mango tree."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "An owner word can start a noun group.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Owner, Describing Word, Noun",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "The possessive comes first, then any describing words, then the noun.",
+          "scope": "Possessive determiners in a noun group",
+          "examples": [
+            {
+              "sentence": "Her bright red umbrella kept us dry.",
+              "highlight": [
+                "Her bright red umbrella"
+              ],
+              "explanation": "Her comes first, then bright and red, then umbrella."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The owner word goes first.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Never Next to A or The",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "A possessive determiner never sits next to a, an, the or this. Choose one of them."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "I bumped into a my friend at the market.",
+            "correct": "I bumped into a friend of mine at the market.",
+            "reason": "A and my can't go together. Say 'my friend', or 'a friend of mine' for one of your friends."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "My or a, never both together.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A Name as the Owner",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "A possessive noun with 's works like a determiner too. It starts the noun group and tells whose."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Tara's lunchbox fell into the puddle.",
+              "highlight": [
+                "Tara's"
+              ],
+              "explanation": "Tara's starts the noun group and tells whose lunchbox."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Tara's works like her: it shows the owner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Their Own",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Add own after a possessive to stress that something belongs to that person alone."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The twins finally have their own bedrooms.",
+              "highlight": [
+                "their own"
+              ],
+              "explanation": "Their own stresses that each twin no longer shares a room."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "My own means mine and nobody else's.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Body Parts and Clothes Take an Owner Word",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "With body parts, clothes and personal things, English uses my, your, her and the other possessives, not the.",
+          "scope": "Body parts, clothes and belongings",
+          "examples": [
+            {
+              "sentence": "Kavya brushed her hair before school.",
+              "highlight": [
+                "her hair"
+              ],
+              "explanation": "The hair is Kavya's own, so her."
+            },
+            {
+              "sentence": "Take off your shoes at the temple door.",
+              "highlight": [
+                "your shoes"
+              ],
+              "explanation": "The shoes belong to the listener, so your."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "My hand, your shoes, never the hand.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Possessive Determiners: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Owner word, describing words, noun: my old bike.",
+            "Never with a, the or this: a friend of mine.",
+            "A possessive noun works the same way: Tara's lunchbox.",
+            "Own adds stress: their own room.",
+            "Body parts and clothes take a possessive: my ankle, your shoes."
+          ]
+        }
+      ],
+      "key_takeaway": "One owner word starts the noun group.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which phrase is in the right order?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "our old blue van"
+        },
+        {
+          "option_id": "B",
+          "text": "old our blue van"
+        },
+        {
+          "option_id": "C",
+          "text": "blue our old van"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The possessive our comes first, before the describing words."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "That is my scooter."
+        },
+        {
+          "option_id": "B",
+          "text": "That is the my scooter."
+        },
+        {
+          "option_id": "C",
+          "text": "That is a my scooter."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "My can't sit next to the or a."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Kavya is a classmate of mine."
+        },
+        {
+          "option_id": "B",
+          "text": "Kavya is a my classmate."
+        },
+        {
+          "option_id": "C",
+          "text": "Kavya is the my classmate."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A and my can't go together, so we say a classmate of mine."
+    },
+    {
+      "question_id": "Q004",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the word that tells whose dog it is in: 'Arjun's dog chased a squirrel.'",
+      "target": "The possessive noun used as a determiner.",
+      "accepted_answers": [
+        "Arjun's"
+      ],
+      "explanation": "Arjun's starts the noun group and tells whose dog."
+    },
+    {
+      "question_id": "Q005",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Now that she's older, Meera wants her ___ room.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "own"
+          ]
+        }
+      ],
+      "explanation": "Her own room means a room for Meera alone."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "their own garden"
+        },
+        {
+          "option_id": "B",
+          "text": "their garden own"
+        },
+        {
+          "option_id": "C",
+          "text": "own their garden"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Own comes right after the possessive and before the noun."
+    },
+    {
+      "question_id": "Q007",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "A possessive determiner can follow the, as in 'the my book'.",
+      "correct_answer": false,
+      "explanation": "Use one or the other: the book or my book."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the possessive determiner in: 'Please wipe your muddy feet.'",
+      "target": "The owner word before the noun group.",
+      "accepted_answers": [
+        "your"
+      ],
+      "explanation": "Your comes first in the noun group and tells whose feet."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "This is a friend of ours from school."
+        },
+        {
+          "option_id": "B",
+          "text": "This is a our friend from school."
+        },
+        {
+          "option_id": "C",
+          "text": "This is the our friend from school."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A can't sit next to our, so we say a friend of ours."
+    },
+    {
+      "question_id": "Q010",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the determiner mistake in this sentence.",
+      "original_sentence": "The his car broke down on the highway.",
+      "corrected_sentence": "His car broke down on the highway.",
+      "accepted_corrections": [
+        "The car broke down on the highway."
+      ],
+      "explanation": "The and his can't go together. Keep one of them."
+    },
+    {
+      "question_id": "Q011",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "type": "multiple_choice",
+      "prompt": "Which sentence sounds natural in English?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "I twisted my ankle at football."
+        },
+        {
+          "option_id": "B",
+          "text": "I twisted the ankle at football."
+        },
+        {
+          "option_id": "C",
+          "text": "I twisted ankle at football."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Body parts take a possessive: my ankle."
+    },
+    {
+      "question_id": "Q012",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "type": "multiple_choice",
+      "prompt": "Complete: 'Please put on ___ raincoats before you go out.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "your"
+        },
+        {
+          "option_id": "B",
+          "text": "the"
+        },
+        {
+          "option_id": "C",
+          "text": "a"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Clothes take a possessive: your raincoats."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Order and Combinations",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Possessive Nouns and Own",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Body Parts and Clothes",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q011",
+          "Q012"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Possessive Determiners: Final Check",
+      "question_ids": [
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "My versus mine",
+        "reason": "Taught in 1-3-4.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Spelling possessive nouns",
+        "reason": "Taught in 1-2-11.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Possessives with all, both and numbers",
+        "reason": "Taught in 1-4-16.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "The traditional adjective names for determiners",
+        "reason": "Named in 1-5-3 Determiners With Adjective Names.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

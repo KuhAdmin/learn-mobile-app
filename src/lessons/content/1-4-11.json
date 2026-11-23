@@ -1,0 +1,711 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-4-11",
+    "title": "Quantifiers",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Quantifiers",
+    "lesson_summary": "Learners use quantifiers before a noun to say how much or how many. They choose many for countable nouns and much for uncountable ones, some and any by the same rule as someone and anyone, tell a few from few and a little from little, and use a lot of, enough and no. All, both and half come in 1-4-15, and each and every in 1-4-12.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Choose many or much, and some or any.",
+        "success_criteria": [
+          "Use many with countable and much with uncountable nouns.",
+          "Use some in positives and offers, any in questions and negatives."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Tell a few from few and a little from little.",
+        "success_criteria": [
+          "Explain that few means not enough."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use a lot of, enough and no.",
+        "success_criteria": [
+          "Use a lot of with both kinds of noun.",
+          "Use no to mean none at all."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 6
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Many, Much, Some and Any",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Few and Little",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "A Lot Of, Enough and No",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "How Much? How Many?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Quantifiers come before a noun and tell us how much or how many, without giving an exact number."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We have plenty of time but not many tickets.",
+              "highlight": [
+                "plenty of",
+                "many"
+              ],
+              "explanation": "Plenty of tells how much time; many tells how many tickets."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Quantifiers tell roughly how much or how many.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Many, Much, Some and Any",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Use many with countable nouns and much with uncountable nouns. Much is most common in questions and with not.",
+          "scope": "Many and much before a noun",
+          "examples": [
+            {
+              "sentence": "How many cousins do you have?",
+              "highlight": [
+                "many"
+              ],
+              "explanation": "Cousins can be counted, so many."
+            },
+            {
+              "sentence": "We don't have much petrol left.",
+              "highlight": [
+                "much"
+              ],
+              "explanation": "Petrol is uncountable, so much."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Some and any",
+          "text": "Same rule as someone and anyone (1-3-10): some in positives and offers, any in questions and with not."
+        }
+      ],
+      "key_takeaway": "Many for countable, much for uncountable.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A Few or Few?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "A few",
+              "description": "Some: a small but useful number.",
+              "example": "A few neighbours came to help, so we finished quickly."
+            },
+            {
+              "label": "Few",
+              "description": "Not many: not enough.",
+              "example": "Few neighbours came to help, so we finished late."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, the helpers were enough.",
+            "In the second, there were too few helpers."
+          ],
+          "conclusion": "A few sounds hopeful; few sounds disappointed."
+        }
+      ],
+      "key_takeaway": "A few is some; few is not enough.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A Little or Little?",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "The same idea works with uncountable nouns: a little means some; little means not much."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "There's a little rice left if you're still hungry.",
+              "highlight": [
+                "a little"
+              ],
+              "explanation": "A little means some rice, enough for a small helping."
+            },
+            {
+              "sentence": "There is little hope of rain this week.",
+              "highlight": [
+                "little"
+              ],
+              "explanation": "Little means hardly any hope."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A little is some; little is hardly any.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "A Lot Of, Enough and No",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "A lot of and lots of work with both kinds of noun. Enough means as much as we need. No means none at all."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We have a lot of homework tonight.",
+              "highlight": [
+                "a lot of"
+              ],
+              "explanation": "A lot of means a large amount; it works with uncountable homework."
+            },
+            {
+              "sentence": "Is there enough paint for the whole wall?",
+              "highlight": [
+                "enough"
+              ],
+              "explanation": "Enough asks whether the amount is as much as needed."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A lot of fits both kinds of noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Quantifiers: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Many + countable; much + uncountable.",
+            "Some in positives and offers; any in questions and with not.",
+            "A few and a little: some. Few and little: not enough.",
+            "A lot of works with both kinds.",
+            "Enough: as much as needed. No: none at all."
+          ]
+        }
+      ],
+      "key_takeaway": "Pick the quantifier that fits the noun.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'How ___ bananas did you buy?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "many"
+        },
+        {
+          "option_id": "B",
+          "text": "much"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Bananas can be counted, so many."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'There isn't ___ room in the car for the cooler.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "much"
+        },
+        {
+          "option_id": "B",
+          "text": "many"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Room here means space, which is uncountable, so much."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete the offer: 'Would you like ___ tea?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "some"
+        },
+        {
+          "option_id": "B",
+          "text": "many"
+        },
+        {
+          "option_id": "C",
+          "text": "few"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Offers take some, even though they are questions."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence means that not enough people came?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Few people came to the meeting."
+        },
+        {
+          "option_id": "B",
+          "text": "A few people came to the meeting."
+        },
+        {
+          "option_id": "C",
+          "text": "Lots of people came to the meeting."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Few without a means not many, not enough."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Add ___ salt, just a pinch.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a little"
+        },
+        {
+          "option_id": "B",
+          "text": "a few"
+        },
+        {
+          "option_id": "C",
+          "text": "many"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Salt is uncountable, and a pinch is some, so a little."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "A lot of can be used with both countable and uncountable nouns.",
+      "correct_answer": true,
+      "explanation": "We can say a lot of books and a lot of water."
+    },
+    {
+      "question_id": "Q007",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete to mean none at all: 'We can't bake the cake; there are ___ eggs left.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "no"
+          ]
+        }
+      ],
+      "explanation": "No means none at all."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Identify the quantifier in: 'Several sparrows were drinking from the fountain.'",
+      "target": "The word that tells roughly how many.",
+      "accepted_answers": [
+        "several"
+      ],
+      "explanation": "Several comes before sparrows and tells roughly how many."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "I don't have any coins for the parking meter."
+        },
+        {
+          "option_id": "B",
+          "text": "I don't have many money for the parking meter."
+        },
+        {
+          "option_id": "C",
+          "text": "I don't have much coins for the parking meter."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Any fits a sentence with not. Money is uncountable (not many), and coins are countable (not much)."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Hurry! We have very ___ time left.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "little"
+        },
+        {
+          "option_id": "B",
+          "text": "few"
+        },
+        {
+          "option_id": "C",
+          "text": "many"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Time is uncountable, and the speaker means not much, so little."
+    },
+    {
+      "question_id": "Q011",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Match each quantifier with the nouns it goes with.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "many"
+        },
+        {
+          "item_id": "L2",
+          "text": "much"
+        },
+        {
+          "item_id": "L3",
+          "text": "a lot of"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "both kinds"
+        },
+        {
+          "item_id": "R2",
+          "text": "countable nouns"
+        },
+        {
+          "item_id": "R3",
+          "text": "uncountable nouns"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Many goes with countable nouns, much with uncountable nouns, and a lot of with both."
+    },
+    {
+      "question_id": "Q012",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "'A few' means 'not enough'.",
+      "correct_answer": false,
+      "explanation": "A few means some, a small but useful number. Few without a means not enough."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Many, Much, Some and Any",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ],
+        "after_page_id": "PAGE002"
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Few and Little",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check A Lot Of, Enough and No",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Quantifiers: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Quantity words standing alone (many, few, none)",
+        "reason": "Taught in 1-3-10 Indefinite Pronouns.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Each and every",
+        "reason": "Taught in 1-4-12 Distributive Determiners.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "All, both and half",
+        "reason": "Taught in 1-4-15 and 1-4-16.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "The name 'quantitative adjective'",
+        "reason": "Named in 1-5-3 Determiners With Adjective Names.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}
