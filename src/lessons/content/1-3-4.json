@@ -1,0 +1,702 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-4",
+    "title": "Possessive Adjectives / Determiners",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Possessive Adjectives / Determiners",
+    "lesson_summary": "Learners meet my, your, his, her, its, our and their: words that come before a noun and say whose it is. They tell my from mine and their from theirs, choose his or her by the owner rather than the thing owned, and use its for animals and things. How these words combine with other determiners is left to Chapter 1.4.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise possessive adjectives before a noun.",
+        "success_criteria": [
+          "Name the possessive word for each person.",
+          "Find it in a sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Tell possessive adjectives from possessive pronouns.",
+        "success_criteria": [
+          "Choose my before a noun and mine on its own."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Choose his, her or its correctly.",
+        "success_criteria": [
+          "Match his or her to the owner.",
+          "Use its for animals and things."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Words Before a Noun",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "My or Mine?",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "His, Her or Its",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Words That Point to an Owner",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "My, your, his, her, its, our and their sit right before a noun and tell us whose it is."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our kitchen smells of fresh cardamom.",
+              "highlight": [
+                "Our"
+              ],
+              "explanation": "Our comes before kitchen and tells us whose kitchen it is."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Possessive words before a noun show the owner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One Owner Word for Each Person",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Each personal pronoun has a partner that goes before a noun:",
+          "list_style": "bulleted",
+          "items": [
+            "I → my",
+            "you → your",
+            "he → his",
+            "she → her",
+            "it → its",
+            "we → our",
+            "they → their"
+          ]
+        }
+      ],
+      "key_takeaway": "My, your, his, her, its, our, their.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "A Noun Always Follows",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "These words never stand alone. A noun always follows, sometimes with a describing word in between.",
+          "scope": "My, your, his, her, its, our and their",
+          "examples": [
+            {
+              "sentence": "Please pass me your blue folder.",
+              "highlight": [
+                "your"
+              ],
+              "explanation": "Your is followed by blue folder."
+            },
+            {
+              "sentence": "The twins packed their swimming bags.",
+              "highlight": [
+                "their"
+              ],
+              "explanation": "Their is followed by swimming bags."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "My and their always need a noun after them.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "My Umbrella or Mine?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Before a noun",
+              "description": "Use my, your, our, their.",
+              "example": "That is my umbrella."
+            },
+            {
+              "label": "Standing alone",
+              "description": "Use mine, yours, ours, theirs.",
+              "example": "That umbrella is mine."
+            }
+          ],
+          "comparison_points": [
+            "My needs a noun after it.",
+            "Mine takes the place of 'my umbrella'."
+          ],
+          "conclusion": "If a noun follows, choose my; if nothing follows, choose mine."
+        }
+      ],
+      "key_takeaway": "Noun after it: my. Nothing after it: mine.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "His or Her? Follow the Owner",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "His and her match the owner, not the thing that is owned.",
+          "scope": "His and her",
+          "examples": [
+            {
+              "sentence": "Raj walked his little sister to school.",
+              "highlight": [
+                "his"
+              ],
+              "explanation": "Raj is the owner, so we say his, even though the sister is a girl."
+            },
+            {
+              "sentence": "Meera lent her brother a torch.",
+              "highlight": [
+                "her"
+              ],
+              "explanation": "Meera is the owner, so we say her, even though her brother is a boy."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Choose his or her by the owner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Its for Animals and Things",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "When the owner is an animal or a thing, use its. Its shows ownership and has no apostrophe."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The tortoise pulled its head into its shell.",
+              "highlight": [
+                "its"
+              ],
+              "explanation": "The head and the shell belong to the tortoise, so we use its."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Animals and things own with its.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Owner Words: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "My, your, his, her, its, our, their come before a noun.",
+            "They never stand alone.",
+            "Before a noun: my. On its own: mine.",
+            "His and her follow the owner.",
+            "Animals and things take its."
+          ]
+        }
+      ],
+      "key_takeaway": "Before a noun, use my, your, our or their.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word goes before a noun to show ownership?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "their"
+        },
+        {
+          "option_id": "B",
+          "text": "theirs"
+        },
+        {
+          "option_id": "C",
+          "text": "them"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Their comes before a noun, as in their house. Theirs stands alone, and them doesn't show ownership."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the word that shows ownership in: 'Grandma oiled her sewing machine.'",
+      "target": "The word before the noun that shows whose it is.",
+      "accepted_answers": [
+        "her"
+      ],
+      "explanation": "Her comes before sewing machine and shows it belongs to Grandma."
+    },
+    {
+      "question_id": "Q003",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with a possessive word: 'We left ___ tickets at home.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "our"
+          ]
+        }
+      ],
+      "explanation": "The owners are we, and a noun follows, so we use our."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Is this ___ jacket?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "your"
+        },
+        {
+          "option_id": "B",
+          "text": "yours"
+        },
+        {
+          "option_id": "C",
+          "text": "you"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The noun jacket follows, so we need your."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'The red car in the drive is ___.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "theirs"
+        },
+        {
+          "option_id": "B",
+          "text": "their"
+        },
+        {
+          "option_id": "C",
+          "text": "them"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nothing follows the blank, so the standalone form theirs is needed."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'Uncle Raju zipped up ___ suitcase.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "his"
+        },
+        {
+          "option_id": "B",
+          "text": "her"
+        },
+        {
+          "option_id": "C",
+          "text": "its"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Uncle Raju is the owner, and he is male, so we use his."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'The kettle has lost ___ lid.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "its"
+        },
+        {
+          "option_id": "B",
+          "text": "his"
+        },
+        {
+          "option_id": "C",
+          "text": "her"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A kettle is a thing, so it owns its lid."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the possessive word in: 'The players thanked their coach after the final.'",
+      "target": "The word before a noun that shows the owner.",
+      "accepted_answers": [
+        "their"
+      ],
+      "explanation": "Their comes before coach and shows the coach belongs to the players."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "These deckchairs are ours."
+        },
+        {
+          "option_id": "B",
+          "text": "These deckchairs are our."
+        },
+        {
+          "option_id": "C",
+          "text": "These are ours deckchairs."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nothing follows, so the standalone ours is right. Before a noun it would be our deckchairs."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "His and her match the owner, not the thing that is owned.",
+      "correct_answer": true,
+      "explanation": "A boy talks about his sister and a girl about her brother: the owner decides."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'Priya and ___ dog jogged along the river.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "her"
+        },
+        {
+          "option_id": "B",
+          "text": "his"
+        },
+        {
+          "option_id": "C",
+          "text": "its"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Priya owns the dog, so we use her."
+    },
+    {
+      "question_id": "Q012",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with a possessive word: 'The puppies chased ___ ball round the yard.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "their"
+          ]
+        }
+      ],
+      "explanation": "The owners are the puppies, more than one, so we use their."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Owner Words",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check My or Mine",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check His, Her and Its",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Possessive Adjectives: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Possessive pronouns (mine, yours, theirs)",
+        "reason": "Taught in 1-3-3; contrasted here on one page.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Possessive determiners with other determiners in a noun phrase",
+        "reason": "Taught in 1-4-10 Possessive Determiners and 1-4-16 Determiner Order.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Its versus it's as a common mistake",
+        "reason": "Practised in 1-3-15.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Its is tested with multiple choice only, because typed answers are compared without apostrophes."
+    ]
+  }
+}

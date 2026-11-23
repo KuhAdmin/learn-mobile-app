@@ -1,0 +1,847 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-2",
+    "title": "Personal Pronouns – Subject and Object",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Personal Pronouns – Subject and Object",
+    "lesson_summary": "Learners meet the personal pronouns by person and number, and choose the subject form (I, he, she, we, they) or the object form (me, him, her, us, them) by the pronoun's job. They see that you and it never change, that I is always a capital letter, and how to choose the form when two people are joined by and. Possessives and verb agreement come later.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Sort personal pronouns by person and number.",
+        "success_criteria": [
+          "Name first, second and third person pronouns.",
+          "Tell singular from plural pronouns."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Choose subject or object pronouns.",
+        "success_criteria": [
+          "Use I, he, she, we, they as subjects.",
+          "Use me, him, her, us, them after a verb or preposition."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Write I correctly and choose the form for two people joined by and.",
+        "success_criteria": [
+          "Always write I as a capital.",
+          "Drop the other person to check the form."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 14,
+    "total_pages": 9
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Person and Number",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Subject and Object Forms",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "I and Pairs With And",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Two Shapes for One Person",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Most personal pronouns change shape with their job in the sentence. The same girl is she when she acts and her when something happens to her."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "She waved, and the whole crowd waved back at her.",
+              "highlight": [
+                "She",
+                "her"
+              ],
+              "explanation": "She does the waving. Her receives the crowd's wave."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A pronoun's shape depends on its job.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "First, Second and Third Person",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Personal pronouns tell us who is speaking, who is listening, or who is being talked about:",
+          "list_style": "bulleted",
+          "items": [
+            "First person – the speaker: I, we",
+            "Second person – the listener: you",
+            "Third person – anyone else: he, she, it, they"
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Number",
+          "text": "I, he, she and it name one. We and they name more than one. You can be either."
+        }
+      ],
+      "key_takeaway": "Person tells who; number tells how many.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Subject Pronouns",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "When the pronoun does the action, usually before the verb, use I, he, she, we or they."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We caught the early train to Pune.",
+              "highlight": [
+                "We"
+              ],
+              "explanation": "We did the catching, so we use the subject form."
+            },
+            {
+              "sentence": "They painted the classroom wall blue.",
+              "highlight": [
+                "They"
+              ],
+              "explanation": "They did the painting, so they is the subject."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The doer takes the subject form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Object Pronouns",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "After a verb, or after a word like to, for, with or beside, use me, him, her, us or them."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The coach picked me for the relay team.",
+              "highlight": [
+                "me"
+              ],
+              "explanation": "Me comes after the verb picked, so it takes the object form."
+            },
+            {
+              "sentence": "Leena sat beside him on the ferry.",
+              "highlight": [
+                "him"
+              ],
+              "explanation": "Him comes after beside, so it takes the object form."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "After a verb or preposition, use the object form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Doer or Receiver?",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Subject form",
+              "description": "The pronoun does the action.",
+              "example": "He pushed the swing."
+            },
+            {
+              "label": "Object form",
+              "description": "The pronoun receives the action.",
+              "example": "The swing bumped him."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, he does the pushing.",
+            "In the second, him gets bumped."
+          ],
+          "conclusion": "Ask whether the pronoun acts or is acted on, then choose its shape."
+        }
+      ],
+      "key_takeaway": "Acting: subject form. Receiving: object form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "You and It Stay the Same",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "Two personal pronouns have just one shape for both jobs: you and it."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "You look tired, so I will walk you home.",
+              "highlight": [
+                "You"
+              ],
+              "explanation": "You is the subject first and the object later, with no change."
+            },
+            {
+              "sentence": "It rolled under the sofa, and Dad fished it out.",
+              "highlight": [
+                "It"
+              ],
+              "explanation": "It does the rolling, then receives the action, still as it."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "You and it never change shape.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "I Is Always a Capital",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Write the pronoun I as a capital letter, wherever it sits in the sentence.",
+          "scope": "The pronoun I only; me, my and mine use small letters",
+          "examples": [
+            {
+              "sentence": "On Sundays I bake bread with Nani.",
+              "highlight": [
+                "I"
+              ],
+              "explanation": "I sits in the middle of the sentence, but it is still a capital."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The word I is always a capital letter.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Two People Joined by And",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "When and joins you to someone else, use the form you would use alone. Drop the other person to check.",
+          "scope": "Pairs such as 'Mum and I' or 'Leo and me'",
+          "examples": [
+            {
+              "sentence": "Mum and I planted tulips by the gate.",
+              "highlight": [
+                "I"
+              ],
+              "explanation": "Drop Mum: 'I planted tulips', so the subject form I is right."
+            },
+            {
+              "sentence": "The librarian thanked Leo and me.",
+              "highlight": [
+                "me"
+              ],
+              "explanation": "Drop Leo: 'The librarian thanked me', so the object form me is right."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Drop the other person to choose I or me.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Personal Pronouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK014",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "First person speaks, second listens, third is talked about.",
+            "Subject forms: I, he, she, we, they.",
+            "Object forms: me, him, her, us, them.",
+            "You and it never change.",
+            "Always write I as a capital.",
+            "With and, drop the other person to check."
+          ]
+        }
+      ],
+      "key_takeaway": "Choose the pronoun's shape by its job.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which pronoun is first person and plural?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "we"
+        },
+        {
+          "option_id": "B",
+          "text": "they"
+        },
+        {
+          "option_id": "C",
+          "text": "you"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We includes the speaker and others, so it is first person plural."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "He, she, it and they are third-person pronouns.",
+      "correct_answer": true,
+      "explanation": "They talk about someone or something other than the speaker and the listener."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the pronoun: '___ cleaned the fish tank on Sunday.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We"
+        },
+        {
+          "option_id": "B",
+          "text": "Us"
+        },
+        {
+          "option_id": "C",
+          "text": "Them"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The blank does the cleaning, so it needs the subject form we."
+    },
+    {
+      "question_id": "Q004",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Replace 'my brother' with a pronoun: 'I lent ___ my bike.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "him"
+          ]
+        }
+      ],
+      "explanation": "My brother receives the bike after the verb lent, so the object form him fits."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the object pronoun in: 'The lifeguard waved at them from the tower.'",
+      "target": "The pronoun after a preposition.",
+      "accepted_answers": [
+        "them"
+      ],
+      "explanation": "Them comes after the preposition at, so it is in the object form."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Ravi and I joined the school choir."
+        },
+        {
+          "option_id": "B",
+          "text": "Ravi and me joined the school choir."
+        },
+        {
+          "option_id": "C",
+          "text": "Me and Ravi joined the school choir."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Drop Ravi: 'I joined the school choir'. The pair is the subject, so I is right."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The usher showed Asha and me to our seats."
+        },
+        {
+          "option_id": "B",
+          "text": "The usher showed Asha and I to our seats."
+        },
+        {
+          "option_id": "C",
+          "text": "The usher showed I and Asha to our seats."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Drop Asha: 'The usher showed me to my seat'. After a verb, the object form me is right."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is written correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "After lunch I went swimming."
+        },
+        {
+          "option_id": "B",
+          "text": "After lunch i went swimming."
+        },
+        {
+          "option_id": "C",
+          "text": "after lunch i went swimming."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The pronoun I is always a capital, and so is the first letter of a sentence."
+    },
+    {
+      "question_id": "Q009",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the subject pronoun in: 'Last month they repaired the old footbridge.'",
+      "target": "The pronoun that does the action.",
+      "accepted_answers": [
+        "they"
+      ],
+      "explanation": "They did the repairing, so they is the subject pronoun."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the pronoun: 'The guide handed ___ a map of the fort.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "us"
+        },
+        {
+          "option_id": "B",
+          "text": "we"
+        },
+        {
+          "option_id": "C",
+          "text": "they"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The map is handed to the people after the verb, so the object form us is needed."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "The pronoun you has the same form as a subject and as an object.",
+      "correct_answer": true,
+      "explanation": "You stays the same in both jobs, just like it."
+    },
+    {
+      "question_id": "Q012",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Match each subject pronoun with its object form.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "I"
+        },
+        {
+          "item_id": "L2",
+          "text": "she"
+        },
+        {
+          "item_id": "L3",
+          "text": "they"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "them"
+        },
+        {
+          "item_id": "R2",
+          "text": "me"
+        },
+        {
+          "item_id": "R3",
+          "text": "her"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "I becomes me, she becomes her and they becomes them in the object position."
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "My cousin and I built a sandcastle."
+        },
+        {
+          "option_id": "B",
+          "text": "Me and my cousin built a sandcastle."
+        },
+        {
+          "option_id": "C",
+          "text": "My cousin and me built a sandcastle."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Drop my cousin: 'I built a sandcastle'. The subject needs I."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Person and Number",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Subject and Object Forms",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check I and Pairs",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q006",
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Personal Pronouns: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Subject and object as sentence jobs",
+        "reason": "Taught in 1.1.6; recalled here in one line.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Possessive pronouns and possessive adjectives",
+        "reason": "Taught in 1-3-3 and 1-3-4.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Verb agreement with pronoun subjects",
+        "reason": "Taught in Stage 2.3 Subject–Verb Agreement.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Pronoun mistakes such as 'between you and I'",
+        "reason": "Practised in 1-3-15.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Capital-letter and I/me questions use multiple choice, because typed answers are compared without case."
+    ]
+  }
+}

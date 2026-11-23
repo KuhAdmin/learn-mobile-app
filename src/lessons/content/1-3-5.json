@@ -1,0 +1,713 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-5",
+    "title": "Reflexive Pronouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Reflexive Pronouns",
+    "lesson_summary": "Learners meet myself, yourself, himself, herself, itself, ourselves, yourselves and themselves, used when the doer and the receiver of an action are the same. They tell singular -self from plural -selves, compare 'blamed her' with 'blamed herself', meet common phrases such as help yourself, and learn that 'by myself' means alone. Using these words for emphasis is left to 1-3-6.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Name the reflexive pronouns.",
+        "success_criteria": [
+          "Match each personal pronoun with its reflexive form.",
+          "Use -self for one and -selves for more than one."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use a reflexive pronoun when the doer and receiver are the same.",
+        "success_criteria": [
+          "Choose herself rather than her when the person is the same.",
+          "Use common phrases such as enjoy yourself."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use 'by myself' to mean alone.",
+        "success_criteria": [
+          "Explain 'by himself'."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "The Reflexive Forms",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Doer and Receiver Are the Same",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "By Myself",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Doing Something to Yourself",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Sometimes the person who does an action also receives it. Then we use a pronoun that ends in -self or -selves."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Priya looked at herself in the shop window.",
+              "highlight": [
+                "herself"
+              ],
+              "explanation": "Priya does the looking and Priya is looked at, so we use herself."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A -self word points back to the doer.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Self Family",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Each personal pronoun has a reflexive partner:",
+          "list_style": "bulleted",
+          "items": [
+            "I → myself",
+            "you (one person) → yourself",
+            "he → himself",
+            "she → herself",
+            "it → itself",
+            "we → ourselves",
+            "you (more than one) → yourselves",
+            "they → themselves"
+          ]
+        }
+      ],
+      "key_takeaway": "Every personal pronoun has a -self partner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One Self, Many Selves",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Use -self for one person or thing and -selves for more than one.",
+          "scope": "Reflexive pronouns",
+          "examples": [
+            {
+              "sentence": "The kitten licked itself clean.",
+              "highlight": [
+                "itself"
+              ],
+              "explanation": "One kitten, so -self: itself."
+            },
+            {
+              "sentence": "We introduced ourselves to the new neighbours.",
+              "highlight": [
+                "ourselves"
+              ],
+              "explanation": "We is more than one, so -selves: ourselves."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One takes -self; more than one takes -selves.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Her or Herself?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Someone else",
+              "description": "The receiver is a different person.",
+              "example": "Nisha blamed her for the broken vase."
+            },
+            {
+              "label": "The same person",
+              "description": "The receiver is the doer.",
+              "example": "Nisha blamed herself for the broken vase."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, her is another girl.",
+            "In the second, herself is Nisha."
+          ],
+          "conclusion": "If the doer and the receiver are the same, use the -self word."
+        }
+      ],
+      "key_takeaway": "Same person? Use the -self word.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Everyday Phrases With -self",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "Some verbs often take a reflexive pronoun: enjoy yourself, hurt yourself, help yourself, introduce yourself."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Help yourselves to the samosas!",
+              "highlight": [
+                "yourselves"
+              ],
+              "explanation": "The guests serve themselves, so the host says help yourselves."
+            },
+            {
+              "sentence": "Did you enjoy yourself at the fair?",
+              "highlight": [
+                "yourself"
+              ],
+              "explanation": "You did the enjoying and received it, so yourself is used."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Enjoy, hurt and help often take a -self word.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "By Myself Means Alone",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "By with a reflexive pronoun means alone, with no help from anyone."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Grandpa built the garden shed by himself.",
+              "highlight": [
+                "by himself"
+              ],
+              "explanation": "By himself means Grandpa built it alone."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "By myself means alone.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Reflexive Pronouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Use a -self word when the doer is also the receiver.",
+            "-self for one, -selves for more than one.",
+            "Blamed her: someone else. Blamed herself: the same person.",
+            "Enjoy yourself, help yourself, hurt yourself.",
+            "By myself means alone."
+          ]
+        }
+      ],
+      "key_takeaway": "Reflexive pronouns point back to the subject.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which reflexive pronoun goes with we?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ourselves"
+        },
+        {
+          "option_id": "B",
+          "text": "ourself"
+        },
+        {
+          "option_id": "C",
+          "text": "themselves"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We is more than one person, so its reflexive form is ourselves."
+    },
+    {
+      "question_id": "Q002",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with a reflexive pronoun: 'The children dressed ___ for the party.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "themselves"
+          ]
+        }
+      ],
+      "explanation": "The children did the dressing and were dressed, and they are more than one: themselves."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Yourselves is used when you talk to more than one person.",
+      "correct_answer": true,
+      "explanation": "Yourself is for one listener, and yourselves is for more than one."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence means that Kabir hurt Kabir?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Kabir hurt himself on the slide."
+        },
+        {
+          "option_id": "B",
+          "text": "Kabir hurt him on the slide."
+        },
+        {
+          "option_id": "C",
+          "text": "Kabir hurt his friend on the slide."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Himself points back to Kabir. Him would mean another boy."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the reflexive pronoun in: 'Please make yourself comfortable on the sofa.'",
+      "target": "The -self word.",
+      "accepted_answers": [
+        "yourself"
+      ],
+      "explanation": "Yourself points back to you, the person being spoken to."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What does 'Leela travelled to Goa by herself' mean?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Leela travelled alone."
+        },
+        {
+          "option_id": "B",
+          "text": "Leela travelled with friends."
+        },
+        {
+          "option_id": "C",
+          "text": "Someone drove Leela to Goa."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "By herself means with no one else, so Leela went alone."
+    },
+    {
+      "question_id": "Q007",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete to mean 'alone': 'I painted the whole fence by ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "myself"
+          ]
+        }
+      ],
+      "explanation": "The speaker is I, so by myself means alone."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the reflexive pronoun in: 'The washing machine switched itself off.'",
+      "target": "The -self word.",
+      "accepted_answers": [
+        "itself"
+      ],
+      "explanation": "Itself points back to the washing machine, which did the switching."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'We taught ___ to juggle during the holidays.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ourselves"
+        },
+        {
+          "option_id": "B",
+          "text": "us"
+        },
+        {
+          "option_id": "C",
+          "text": "ourself"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We did the teaching and learned, and we is plural, so ourselves."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "They enjoyed themselves at the zoo."
+        },
+        {
+          "option_id": "B",
+          "text": "They enjoyed theirselves at the zoo."
+        },
+        {
+          "option_id": "C",
+          "text": "They enjoyed themself at the zoo."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The reflexive form of they is themselves."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Dad cut himself while shaving', himself means Dad.",
+      "correct_answer": true,
+      "explanation": "Dad did the cutting and was cut, so himself points back to Dad."
+    },
+    {
+      "question_id": "Q012",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Match each pronoun with its reflexive form.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "I"
+        },
+        {
+          "item_id": "L2",
+          "text": "she"
+        },
+        {
+          "item_id": "L3",
+          "text": "they"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "themselves"
+        },
+        {
+          "item_id": "R2",
+          "text": "myself"
+        },
+        {
+          "item_id": "R3",
+          "text": "herself"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "I goes with myself, she with herself and they with themselves."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check the Self Words",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Same-Person Actions",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check By Myself",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Reflexive Pronouns: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "-self words used for emphasis",
+        "reason": "Taught in 1-3-6 Emphatic Pronouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Mistakes such as hisself and theirselves",
+        "reason": "Practised in 1-3-15.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Each other and one another",
+        "reason": "Taught in 1-3-12 Reciprocal Pronouns.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-15",
+    "title": "Pronoun Usage and Common Errors",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Pronoun Usage and Common Errors",
+    "lesson_summary": "A review of the pronoun mistakes learners make most often, one kind per page, each with a correction: 'me and Arjun' as a subject, 'between you and I', its and it's, hisself and theirselves, 'them books', who and whom, a pronoun that repeats the subject, and myself used instead of me. The rules themselves were taught earlier in this chapter.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Correct I/me mistakes with pairs.",
+        "success_criteria": [
+          "Use I in a subject pair and me after a verb or preposition."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Correct mistakes with pronoun forms.",
+        "success_criteria": [
+          "Tell its from it's.",
+          "Use himself and themselves.",
+          "Use those, not them, before a noun."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Correct mistakes in choosing and placing pronouns.",
+        "success_criteria": [
+          "Choose who or whom.",
+          "Avoid a pronoun that repeats the subject.",
+          "Use me, not myself, when there is no I earlier."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 15,
+    "total_pages": 10
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "I or Me in Pairs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Wrong Pronoun Forms",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Choosing and Placing Pronouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008",
+        "PAGE009"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Spot and Fix Pronoun Mistakes",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Pronouns are small, so their mistakes are easy to miss. This lesson collects the most common ones and shows how to fix each."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "list",
+          "introduction": "Watch out for:",
+          "list_style": "bulleted",
+          "items": [
+            "I or me in pairs",
+            "Its and it's",
+            "Made-up forms like hisself",
+            "Who or whom, and extra pronouns"
+          ]
+        }
+      ],
+      "key_takeaway": "Most pronoun mistakes come in a few kinds.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Not Me and Arjun",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Me and Arjun went to the stadium.",
+            "correct": "Arjun and I went to the stadium.",
+            "reason": "The pair is the subject, so use I. It is polite to name yourself last."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "In a subject pair, say Arjun and I.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Between You and Me",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Keep this secret between you and I.",
+            "correct": "Keep this secret between you and me.",
+            "reason": "Between is a preposition, so the pronoun after it takes the object form me."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "After between, use me, not I.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Its or It's?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Its shows ownership. It's is short for it is or it has."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "The parrot flapped it's wings.",
+            "correct": "The parrot flapped its wings.",
+            "reason": "The wings belong to the parrot, so we need its. 'It is wings' makes no sense."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Its owns; it's means it is.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "No Hisself or Theirselves",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "The boys made the paper boats theirselves.",
+            "correct": "The boys made the paper boats themselves.",
+            "reason": "Theirselves is not an English word. The -self form of they is themselves."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "note",
+          "title": "Also",
+          "text": "himself, not hisself."
+        }
+      ],
+      "key_takeaway": "Say himself and themselves.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Those Books, Not Them Books",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Can you pass me them books?",
+            "correct": "Can you pass me those books?",
+            "reason": "Them stands alone and can't come before a noun. Use those to point at the books."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Before a noun, say those, not them.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Whom Is Not for the Doer",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Whom is knocking at the door?",
+            "correct": "Who is knocking at the door?",
+            "reason": "The person is doing the knocking, so we need who. Whom is only for the receiver."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "The doer is who, never whom.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Don't Repeat the Subject",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "My sister she plays the sitar.",
+            "correct": "My sister plays the sitar.",
+            "reason": "My sister is already the subject. Adding she says the subject twice."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Name the subject once, not twice.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Me, Not Myself",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Please call Anita or myself if you need help.",
+            "correct": "Please call Anita or me if you need help.",
+            "reason": "Myself needs I earlier in the same sentence. Here the plain object form me is right."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "No I before it? Use me, not myself.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE010",
+      "page_number": 10,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Pronoun Mistake Checklist",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "list",
+          "introduction": "Before you finish writing, check:",
+          "list_style": "bulleted",
+          "items": [
+            "Subject pairs take I; after verbs and between, me.",
+            "Its owns; it's means it is.",
+            "Himself and themselves, never hisself.",
+            "Those books, not them books.",
+            "Who for the doer.",
+            "No extra pronoun after the subject, and no myself without I."
+          ]
+        }
+      ],
+      "key_takeaway": "Read your pronouns once more before you finish.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Nisha and I painted the school mural."
+        },
+        {
+          "option_id": "B",
+          "text": "Me and Nisha painted the school mural."
+        },
+        {
+          "option_id": "C",
+          "text": "Nisha and me painted the school mural."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The pair is the subject, so I is needed, with the other person named first."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The prize money was shared between Tara and me."
+        },
+        {
+          "option_id": "B",
+          "text": "The prize money was shared between Tara and I."
+        },
+        {
+          "option_id": "C",
+          "text": "The prize money was shared between I and Tara."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Between is a preposition, so it takes the object form me."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The neem tree dropped its leaves early."
+        },
+        {
+          "option_id": "B",
+          "text": "The neem tree dropped it's leaves early."
+        },
+        {
+          "option_id": "C",
+          "text": "The neem tree dropped its' leaves early."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The leaves belong to the tree, so we need its, with no apostrophe."
+    },
+    {
+      "question_id": "Q004",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the pronoun mistake in this sentence.",
+      "original_sentence": "He fixed the puncture hisself.",
+      "corrected_sentence": "He fixed the puncture himself.",
+      "explanation": "Hisself is not a word. The -self form of he is himself."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the pronoun mistake in this sentence.",
+      "original_sentence": "Them shoes are too tight for me.",
+      "corrected_sentence": "Those shoes are too tight for me.",
+      "accepted_corrections": [
+        "These shoes are too tight for me.",
+        "The shoes are too tight for me."
+      ],
+      "explanation": "Them can't come before a noun. Use those (or these) to point at the shoes."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Who told you about the holiday?"
+        },
+        {
+          "option_id": "B",
+          "text": "Whom told you about the holiday?"
+        },
+        {
+          "option_id": "C",
+          "text": "Whose told you about the holiday?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The person did the telling, so the doer word who is needed."
+    },
+    {
+      "question_id": "Q007",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the pronoun mistake in this sentence.",
+      "original_sentence": "Our neighbour he grows chillies on his balcony.",
+      "corrected_sentence": "Our neighbour grows chillies on his balcony.",
+      "explanation": "Our neighbour is the subject, so the extra he repeats it. Remove he."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Send the photos to Ravi or me."
+        },
+        {
+          "option_id": "B",
+          "text": "Send the photos to Ravi or myself."
+        },
+        {
+          "option_id": "C",
+          "text": "Send the photos to Ravi or I."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "There is no I earlier in the sentence, and the pronoun comes after to, so me is right."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Dad drove Kabir and me to the match."
+        },
+        {
+          "option_id": "B",
+          "text": "Dad drove Kabir and I to the match."
+        },
+        {
+          "option_id": "C",
+          "text": "Dad drove Kabir and myself to the match."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The pair comes after the verb drove, so the object form me is right. There is no I earlier for myself."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "It's raining, so the dog is in its kennel."
+        },
+        {
+          "option_id": "B",
+          "text": "Its raining, so the dog is in it's kennel."
+        },
+        {
+          "option_id": "C",
+          "text": "It's raining, so the dog is in it's kennel."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "It's raining means it is raining, and its kennel shows the kennel belongs to the dog."
+    },
+    {
+      "question_id": "Q011",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the pronoun mistake in this sentence.",
+      "original_sentence": "The girls dressed theirselves for the dance show.",
+      "corrected_sentence": "The girls dressed themselves for the dance show.",
+      "explanation": "Theirselves is not a word. The -self form of they is themselves."
+    },
+    {
+      "question_id": "Q012",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "'Between you and I' is correct because I sounds more polite.",
+      "correct_answer": false,
+      "explanation": "Between takes the object form, so the correct phrase is between you and me."
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence has no pronoun mistake?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "My grandmother tells us stories every night."
+        },
+        {
+          "option_id": "B",
+          "text": "My grandmother she tells us stories every night."
+        },
+        {
+          "option_id": "C",
+          "text": "My grandmother tells we stories every night."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The subject is named once, and us is the object form after the verb."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check I or Me",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Pronoun Forms",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Choosing Pronouns",
+        "after_page_id": "PAGE009",
+        "question_ids": [
+          "Q006",
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Pronoun Mistakes: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The pronoun rules behind each mistake",
+        "reason": "Taught earlier in this chapter: 1-3-2, 1-3-4, 1-3-5, 1-3-7 and 1-3-8.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Unclear pronoun reference",
+        "reason": "Taught in 1-3-14.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Verb agreement mistakes with pronouns",
+        "reason": "Taught in Stage 2.3 Subject–Verb Agreement.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Noun mistakes",
+        "reason": "Practised in 1-2-14.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Its, it's and I/me questions use multiple choice, because typed answers are compared without apostrophes or case."
+    ]
+  }
+}

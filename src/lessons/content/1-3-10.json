@@ -1,0 +1,720 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-10",
+    "title": "Indefinite Pronouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Indefinite Pronouns",
+    "lesson_summary": "Learners use pronouns that don't name exactly who or what: someone, anybody, nobody, everything and the rest, plus amount words such as many, few, several, both and none. They pick -one or -body for people and -thing for things, and choose some-, any-, no- or every- by the kind of sentence. Verb agreement after these pronouns is left to Stage 2.3, and each, either and neither to 1-3-11.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Use -one, -body and -thing pronouns.",
+        "success_criteria": [
+          "Use -one or -body for people and -thing for things."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Choose some-, any-, no- or every-.",
+        "success_criteria": [
+          "Use some- in positive sentences and offers.",
+          "Use any- in questions and negatives.",
+          "Keep the verb positive after nobody and nothing."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise pronouns of amount.",
+        "success_criteria": [
+          "Understand all, many, few, several, both and none."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 13,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "People or Things",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Some, Any, No and Every",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Pronouns of Amount",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Not Naming Anyone Exactly",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Sometimes we don't know, or don't need to say, exactly who or what. Indefinite pronouns let us talk about people and things in general."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Somebody left a bunch of marigolds on our doorstep.",
+              "highlight": [
+                "Somebody"
+              ],
+              "explanation": "We don't know who left them, so we say somebody."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Indefinite pronouns don't name exactly who.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "People Words and Thing Words",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "The ending tells you whether it means a person or a thing:",
+          "list_style": "bulleted",
+          "items": [
+            "People (-one, -body): someone, anybody, everyone, nobody",
+            "Things (-thing): something, anything, everything, nothing"
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Same meaning",
+          "text": "Someone and somebody mean the same, and so do everyone and everybody."
+        }
+      ],
+      "key_takeaway": "-one and -body mean people; -thing means things.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Some- or Any-?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Use some- words in positive sentences and in offers. Use any- words in most questions and with not.",
+          "scope": "Someone, something, anybody, anything and similar words",
+          "examples": [
+            {
+              "sentence": "Would you like something cold to drink?",
+              "highlight": [
+                "something"
+              ],
+              "explanation": "This is an offer, so some- fits even in a question."
+            },
+            {
+              "sentence": "I can't find anything in this messy drawer.",
+              "highlight": [
+                "anything"
+              ],
+              "explanation": "Can't makes the sentence negative, so any- fits."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Offers and positives: some-. Questions and not: any-.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "No- Words Already Mean Not",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "Nobody, no one and nothing already carry the meaning 'not', so the verb stays positive."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Nothing was left on the plate after dinner.",
+              "highlight": [
+                "Nothing"
+              ],
+              "explanation": "Nothing already means 'not anything', so we don't add another not."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "With nobody or nothing, keep the verb positive.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Every- Means All",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Everyone, everybody and everything mean all the people or all the things."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Everyone clapped when the curtain rose.",
+              "highlight": [
+                "Everyone"
+              ],
+              "explanation": "Everyone means all the people in the audience."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Every- words include all of them.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Pronouns That Count Roughly",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "Some indefinite pronouns tell us roughly how many: all, many, few, several, both and none."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Many came to the mela, but few stayed for the fireworks.",
+              "highlight": [
+                "Many",
+                "few"
+              ],
+              "explanation": "Many means a large number of people; few means only a small number."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Many, few, both and none tell roughly how many.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Indefinite Pronouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "-one and -body for people; -thing for things.",
+            "Some- for positives and offers; any- for questions and not.",
+            "Nobody and nothing need no extra not.",
+            "Every- words mean all.",
+            "All, many, few, both, none tell roughly how many."
+          ]
+        }
+      ],
+      "key_takeaway": "Talk about people and things in general.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which indefinite pronoun talks about a person?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "somebody"
+        },
+        {
+          "option_id": "B",
+          "text": "something"
+        },
+        {
+          "option_id": "C",
+          "text": "nothing"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Words ending in -body or -one are about people; -thing words are about things."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Everything is used to talk about people.",
+      "correct_answer": false,
+      "explanation": "Everything ends in -thing, so it is about things. Everyone is about people."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'We don't have ___ for the picnic yet.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "anything"
+        },
+        {
+          "option_id": "B",
+          "text": "something"
+        },
+        {
+          "option_id": "C",
+          "text": "nothing"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Don't makes the sentence negative, so any- fits. Nothing would add a second not."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Nobody answered the landline."
+        },
+        {
+          "option_id": "B",
+          "text": "Nobody didn't answer the landline."
+        },
+        {
+          "option_id": "C",
+          "text": "Not nobody answered the landline."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nobody already means not anybody, so the verb stays positive."
+    },
+    {
+      "question_id": "Q005",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete with an every- word for people: '___ in my class has a library card.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "Everyone",
+            "Everybody"
+          ]
+        }
+      ],
+      "explanation": "Everyone or everybody means all the people in the class."
+    },
+    {
+      "question_id": "Q006",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the indefinite pronoun in: 'Several of the eggs were cracked.'",
+      "target": "The word that tells roughly how many.",
+      "accepted_answers": [
+        "several"
+      ],
+      "explanation": "Several means more than two but not many, and stands for some of the eggs."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'None of the shops were open', what does none mean?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "not one of them"
+        },
+        {
+          "option_id": "B",
+          "text": "all of them"
+        },
+        {
+          "option_id": "C",
+          "text": "a few of them"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "None means not one, so every shop was closed."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Identify the indefinite pronoun in: 'Does anybody know the way to the museum?'",
+      "target": "The word for a person not named.",
+      "accepted_answers": [
+        "anybody"
+      ],
+      "explanation": "Anybody means any person at all, and it fits in a question."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete the offer: 'Would you like ___ to read on the train?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "something"
+        },
+        {
+          "option_id": "B",
+          "text": "nothing"
+        },
+        {
+          "option_id": "C",
+          "text": "nobody"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Offers take some- words, even though they are questions."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Nothing already means 'not anything', so we don't add another not.",
+      "correct_answer": true,
+      "explanation": "We say 'Nothing happened', not 'Nothing didn't happen'."
+    },
+    {
+      "question_id": "Q011",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Match each pronoun with its meaning.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "someone"
+        },
+        {
+          "item_id": "L2",
+          "text": "something"
+        },
+        {
+          "item_id": "L3",
+          "text": "both"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "the two together"
+        },
+        {
+          "item_id": "R2",
+          "text": "a person"
+        },
+        {
+          "item_id": "R3",
+          "text": "a thing"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Someone is a person, something is a thing, and both means two together."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'I knocked twice, but ___ came to the door.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "nobody"
+        },
+        {
+          "option_id": "B",
+          "text": "anybody"
+        },
+        {
+          "option_id": "C",
+          "text": "everything"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "No person came, and the verb came is positive, so nobody fits."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check People and Thing Words",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Some, Any, No and Every",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Amount Pronouns",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Indefinite Pronouns: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Singular or plural verbs after indefinite pronouns",
+        "reason": "Taught in Stage 2.3 (Agreement with Indefinite Pronouns).",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Quantifiers before a noun (many books, few chairs)",
+        "reason": "Taught in 1-4-11 Quantifiers.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Each, either and neither",
+        "reason": "Taught in 1-3-11 Distributive Pronouns.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Everyone with their",
+        "reason": "Taught in 1-3-13 Pronoun–Antecedent Agreement.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

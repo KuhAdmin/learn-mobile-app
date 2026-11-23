@@ -1,0 +1,725 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-3",
+    "title": "Possessive Pronouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Possessive Pronouns",
+    "lesson_summary": "Learners meet mine, yours, his, hers, ours and theirs: pronouns that show who owns something and stand alone, with no noun after them. They use them to answer 'whose?' questions, learn that they never take an apostrophe, and meet 'a friend of mine'. Words like my and their before a noun come in 1-3-4; possessive nouns with 's were taught in 1-2-11.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise the possessive pronouns.",
+        "success_criteria": [
+          "Name the possessive pronoun for each person."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use a possessive pronoun in place of a noun phrase.",
+        "success_criteria": [
+          "Replace 'my bag' with mine.",
+          "Answer a whose question with a possessive pronoun."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Write possessive pronouns without apostrophes and use 'of mine'.",
+        "success_criteria": [
+          "Write hers, ours and theirs with no apostrophe.",
+          "Explain 'a friend of mine'."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "The Possessive Pronouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Standing Alone",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "No Apostrophe, and Of Mine",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "That One Is Mine",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some pronouns tell us who owns something, and they stand alone, with no noun after them."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The blue towel is mine, and the striped one is yours.",
+              "highlight": [
+                "mine",
+                "yours"
+              ],
+              "explanation": "Mine means my towel, and yours means your towel. No noun follows them."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Possessive pronouns show who owns something.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Meet the Owner Words",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Each person has its own possessive pronoun:",
+          "list_style": "bulleted",
+          "items": [
+            "mine – I own it",
+            "yours – you own it",
+            "his – he owns it",
+            "hers – she owns it",
+            "ours – we own it",
+            "theirs – they own it"
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Its",
+          "text": "Its is almost never used on its own like this."
+        }
+      ],
+      "key_takeaway": "Mine, yours, his, hers, ours, theirs.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "No Noun After It",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "A possessive pronoun takes the place of a whole phrase such as 'our painting', so no noun follows it."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Your painting is bright, but ours is brighter.",
+              "highlight": [
+                "ours"
+              ],
+              "explanation": "Ours means our painting, so the noun isn't repeated."
+            },
+            {
+              "sentence": "Grandpa's chair is by the window, and theirs is by the door.",
+              "highlight": [
+                "theirs"
+              ],
+              "explanation": "Theirs means their chair."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A possessive pronoun replaces the owner and the thing.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Answering Whose?",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "A possessive pronoun makes a quick answer to a question that starts with whose."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Whose scarf is on the bench? It's his.",
+              "highlight": [
+                "his"
+              ],
+              "explanation": "His answers whose and means his scarf."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Answer whose with mine, his, hers and so on.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Owner Words Without Apostrophes",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Possessive pronouns never take an apostrophe: yours, hers, ours, theirs.",
+          "scope": "Possessive pronouns; possessive nouns such as Asha's still take 's",
+          "examples": [
+            {
+              "sentence": "The last slice of pizza is yours.",
+              "highlight": [
+                "yours"
+              ],
+              "explanation": "Yours already shows ownership, so it needs no apostrophe."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Hers, ours and theirs never have an apostrophe.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "A Friend of Mine",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "'A friend of mine' means one of my friends. The possessive pronoun comes after of."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "A neighbour of ours keeps bees in her garden.",
+              "highlight": [
+                "ours"
+              ],
+              "explanation": "A neighbour of ours means one of our neighbours."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A friend of mine means one of my friends.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Possessive Pronouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Mine, yours, his, hers, ours, theirs show ownership.",
+            "They stand alone, with no noun after them.",
+            "They answer whose questions.",
+            "They never take an apostrophe.",
+            "A friend of mine means one of my friends."
+          ]
+        }
+      ],
+      "key_takeaway": "Use a possessive pronoun instead of owner plus thing.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word is a possessive pronoun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "theirs"
+        },
+        {
+          "option_id": "B",
+          "text": "them"
+        },
+        {
+          "option_id": "C",
+          "text": "they"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Theirs shows that something belongs to them. Them and they don't show ownership."
+    },
+    {
+      "question_id": "Q002",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Match each pronoun with its possessive pronoun.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "we"
+        },
+        {
+          "item_id": "L2",
+          "text": "she"
+        },
+        {
+          "item_id": "L3",
+          "text": "you"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "yours"
+        },
+        {
+          "item_id": "R2",
+          "text": "ours"
+        },
+        {
+          "item_id": "R3",
+          "text": "hers"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "We goes with ours, she with hers and you with yours."
+    },
+    {
+      "question_id": "Q003",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the possessive pronoun in: 'This bench is taken, but that one is ours.'",
+      "target": "The word that shows ownership and stands alone.",
+      "accepted_answers": [
+        "ours"
+      ],
+      "explanation": "Ours stands for our bench, with no noun after it."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Your lunchbox is green. ___ is red.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Mine"
+        },
+        {
+          "option_id": "B",
+          "text": "My"
+        },
+        {
+          "option_id": "C",
+          "text": "Me"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "No noun follows the blank, so the possessive pronoun mine is needed."
+    },
+    {
+      "question_id": "Q005",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Answer with a possessive pronoun: 'Whose bicycle is this? It belongs to Neha. It is ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "hers"
+          ]
+        }
+      ],
+      "explanation": "Neha is she, so the bicycle is hers."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The tickets on the table are theirs."
+        },
+        {
+          "option_id": "B",
+          "text": "The tickets on the table are their's."
+        },
+        {
+          "option_id": "C",
+          "text": "The tickets on the table are theirs'."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Possessive pronouns never take an apostrophe, so theirs is right."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What does 'a cousin of mine' mean?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "one of my cousins"
+        },
+        {
+          "option_id": "B",
+          "text": "my only cousin"
+        },
+        {
+          "option_id": "C",
+          "text": "a cousin I have never met"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "'Of mine' means one from the group of cousins I have."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the possessive pronoun in: 'The muddy boots by the door are his.'",
+      "target": "The word that shows who owns the boots.",
+      "accepted_answers": [
+        "his"
+      ],
+      "explanation": "His stands for his boots and shows who owns them."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence uses a possessive pronoun correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The best idea was yours."
+        },
+        {
+          "option_id": "B",
+          "text": "The best idea was your."
+        },
+        {
+          "option_id": "C",
+          "text": "The best idea was you."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "No noun follows, so the standalone possessive yours is needed."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "A possessive pronoun such as mine is followed by a noun.",
+      "correct_answer": false,
+      "explanation": "Possessive pronouns stand alone. 'Mine' means my thing, so no noun comes after it."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question is written correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Is this pencil case yours?"
+        },
+        {
+          "option_id": "B",
+          "text": "Is this pencil case your's?"
+        },
+        {
+          "option_id": "C",
+          "text": "Is this pencil case yours'?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Yours is a possessive pronoun, so it has no apostrophe."
+    },
+    {
+      "question_id": "Q012",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete with a possessive pronoun: 'We built that treehouse, so the treehouse is ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "ours"
+          ]
+        }
+      ],
+      "explanation": "We built it, so it belongs to us: it is ours."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check the Owner Words",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Standing Alone",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Apostrophes and Of Mine",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Possessive Pronouns: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "My, your, their and other words before a noun",
+        "reason": "Taught in 1-3-4 Possessive Adjectives / Determiners.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Possessive nouns with 's",
+        "reason": "Taught in 1-2-11 Possessive Nouns.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Its versus it's as a common mistake",
+        "reason": "Practised in 1-3-15.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": [
+      "Apostrophe questions use multiple choice, because typed answers are compared without apostrophes."
+    ]
+  }
+}

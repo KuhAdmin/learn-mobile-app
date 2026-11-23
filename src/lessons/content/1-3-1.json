@@ -1,0 +1,751 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-1",
+    "title": "Introduction to Pronouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Introduction to Pronouns",
+    "lesson_summary": "Learners already know that a pronoun takes the place of a noun (1.1.2). This lesson shows why we use pronouns, introduces the antecedent (the noun a pronoun points back to), shows that one pronoun can stand for a whole noun phrase, and previews the kinds of pronouns in this chapter. Each kind is taught in its own lesson.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Explain why we use pronouns.",
+        "success_criteria": [
+          "Rewrite a repetitive sentence with a pronoun."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Find the antecedent of a pronoun.",
+        "success_criteria": [
+          "Say which noun or noun phrase a pronoun stands for.",
+          "Find an antecedent in the sentence before."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Name the main kinds of pronouns.",
+        "success_criteria": [
+          "Match a pronoun with its kind, such as reflexive or possessive."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Why We Use Pronouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "The Antecedent",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Kinds of Pronouns",
+      "applicability": "applicable",
+      "status": "introduced",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Words That Stand In",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Imagine saying: 'Kiran fed Kiran's goldfish before Kiran left.' It sounds odd. Pronouns stand in for the noun, so we don't have to repeat it."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Kiran fed his goldfish before he left.",
+              "highlight": [
+                "his",
+                "he"
+              ],
+              "explanation": "His and he stand in for Kiran, so the name appears only once."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Pronouns save us from repeating nouns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "With and Without Pronouns",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Without pronouns",
+              "description": "The noun is repeated.",
+              "example": "The parcel came today, and Dad opened the parcel at once."
+            },
+            {
+              "label": "With a pronoun",
+              "description": "A pronoun replaces the second noun.",
+              "example": "The parcel came today, and Dad opened it at once."
+            }
+          ],
+          "comparison_points": [
+            "The first sentence says 'the parcel' twice.",
+            "The second uses it for the parcel, so it reads smoothly."
+          ],
+          "conclusion": "Use the noun once, then let a pronoun carry on."
+        }
+      ],
+      "key_takeaway": "Name it once, then use a pronoun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Meet the Antecedent",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "The noun that a pronoun stands for is its antecedent. Antecedent means 'the one that goes before', because it usually comes first."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Aunt Meena phoned, and she sounded cheerful.",
+              "highlight": [
+                "Aunt Meena",
+                "she"
+              ],
+              "explanation": "She stands for Aunt Meena, so Aunt Meena is the antecedent."
+            },
+            {
+              "sentence": "The bus was late because it broke down.",
+              "highlight": [
+                "The bus",
+                "it"
+              ],
+              "explanation": "It stands for the bus. The bus is the antecedent."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The antecedent is the noun a pronoun stands for.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "One Pronoun, a Whole Phrase",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "A pronoun can stand for a whole group of words, not just one noun."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The girl with the yellow umbrella waved, and then she crossed the road.",
+              "highlight": [
+                "The girl with the yellow umbrella",
+                "she"
+              ],
+              "explanation": "She stands for the whole phrase 'the girl with the yellow umbrella'."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "One short pronoun can replace a long phrase.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "How to Find the Antecedent",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Ask: who or what does this pronoun mean? Then look back, in the same sentence or the one before it.",
+          "scope": "Personal pronouns such as he, it and they",
+          "examples": [
+            {
+              "sentence": "My grandparents planted a mango tree. They water it every evening.",
+              "highlight": [
+                "They",
+                "it"
+              ],
+              "explanation": "They means my grandparents, and it means the mango tree. Both antecedents are in the sentence before."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Look back to find who or what a pronoun means.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "exception",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "When the Pronoun Comes First",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "Now and then, the pronoun comes first and the noun follows a little later in the same sentence."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "When she reached the gate, Ishita turned and smiled.",
+              "highlight": [
+                "she",
+                "Ishita"
+              ],
+              "explanation": "She comes first, but it still means Ishita, who is named later."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Sometimes the antecedent comes just after the pronoun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Pronoun Family",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "list",
+          "introduction": "This chapter meets each kind in turn:",
+          "list_style": "bulleted",
+          "items": [
+            "Personal: I, me, she, them",
+            "Possessive: mine, ours",
+            "Reflexive and emphatic: myself, themselves",
+            "Demonstrative: this, those",
+            "Question and relative: who, which",
+            "Indefinite and distributive: someone, each",
+            "Reciprocal: each other"
+          ]
+        }
+      ],
+      "key_takeaway": "Pronouns come in several families.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Pronoun Basics: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Pronouns stop us repeating nouns.",
+            "The antecedent is the noun a pronoun stands for.",
+            "A pronoun can replace a whole phrase.",
+            "To find the antecedent, look back.",
+            "There are several kinds of pronouns, each with its own lesson."
+          ]
+        }
+      ],
+      "key_takeaway": "Every pronoun points to someone or something.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence avoids repeating a noun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The lamp flickered, so Mum fixed it."
+        },
+        {
+          "option_id": "B",
+          "text": "The lamp flickered, so Mum fixed the lamp."
+        },
+        {
+          "option_id": "C",
+          "text": "The lamp flickered, so the lamp was fixed by Mum."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "It replaces the lamp the second time, so the noun is not repeated."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Pronouns help us avoid saying the same noun again and again.",
+      "correct_answer": true,
+      "explanation": "We name a person or thing once, then use a pronoun such as she or it."
+    },
+    {
+      "question_id": "Q003",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the antecedent of 'they' in: 'The puppies were hungry, so they whined at the door.'",
+      "target": "The noun that they stands for.",
+      "accepted_answers": [
+        "puppies",
+        "the puppies"
+      ],
+      "explanation": "They means the puppies, so the puppies is the antecedent."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Grandma lost her glasses, but she found them in the fridge', what does 'them' stand for?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "her glasses"
+        },
+        {
+          "option_id": "B",
+          "text": "Grandma"
+        },
+        {
+          "option_id": "C",
+          "text": "the fridge"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Grandma found her glasses in the fridge, so them stands for her glasses."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the pronoun that stands for 'the man in the red cap' in: 'The man in the red cap cheered because he had won.'",
+      "target": "The pronoun for the whole phrase.",
+      "accepted_answers": [
+        "he"
+      ],
+      "explanation": "He stands for the whole phrase 'the man in the red cap'."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which kind of pronoun is 'themselves'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Reflexive"
+        },
+        {
+          "option_id": "B",
+          "text": "Possessive"
+        },
+        {
+          "option_id": "C",
+          "text": "Demonstrative"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Words ending in -self or -selves, such as themselves, are reflexive pronouns."
+    },
+    {
+      "question_id": "Q007",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Match each kind of pronoun with an example.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "possessive"
+        },
+        {
+          "item_id": "L2",
+          "text": "demonstrative"
+        },
+        {
+          "item_id": "L3",
+          "text": "indefinite"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "nobody"
+        },
+        {
+          "item_id": "R2",
+          "text": "ours"
+        },
+        {
+          "item_id": "R3",
+          "text": "those"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Ours shows who owns something, those points at things, and nobody names no particular person."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Identify the pronoun in: 'The postman knocked twice, and then he slipped a note under the door.'",
+      "target": "The word that stands for the postman.",
+      "accepted_answers": [
+        "he"
+      ],
+      "explanation": "He stands for the postman, so the noun isn't repeated."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'The children cleaned the beach because it was covered in plastic', what is the antecedent of 'it'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "the beach"
+        },
+        {
+          "option_id": "B",
+          "text": "the children"
+        },
+        {
+          "option_id": "C",
+          "text": "plastic"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The beach was covered in plastic, so it points back to the beach."
+    },
+    {
+      "question_id": "Q010",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "The antecedent always comes after its pronoun.",
+      "correct_answer": false,
+      "explanation": "The antecedent usually comes before the pronoun. Only sometimes does it come just after."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Which sentence uses a pronoun for a long noun phrase?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The old man next door said he would mend our fence."
+        },
+        {
+          "option_id": "B",
+          "text": "The old man next door said the old man next door would mend our fence."
+        },
+        {
+          "option_id": "C",
+          "text": "The old man next door would mend our fence."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "He stands for the whole phrase 'the old man next door', so it isn't repeated."
+    },
+    {
+      "question_id": "Q012",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with a pronoun: 'My sister bought a kite, and ___ flew it at the beach.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "she"
+          ]
+        }
+      ],
+      "explanation": "My sister is one female person, so she stands for her."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Why We Use Pronouns",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Antecedents",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Pronoun Kinds",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Introduction to Pronouns: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "What a pronoun is",
+        "reason": "Taught in 1.1.2; recalled here in one line.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Each kind of pronoun in detail",
+        "reason": "Taught in 1-3-2 to 1-3-12; this lesson only previews them.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Pronoun–antecedent agreement",
+        "reason": "Taught in 1-3-13.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Unclear pronoun reference",
+        "reason": "Taught in 1-3-14.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

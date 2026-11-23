@@ -525,3 +525,212 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - All the teacher's cars were parked outside.
   - Our school trip to mysore is on friday.
 
+### 1.3.1 Introduction to Pronouns
+
+- **Pages:** Words That Stand In · With and Without Pronouns · Meet the Antecedent · One Pronoun, a Whole Phrase · How to Find the Antecedent · When the Pronoun Comes First · The Pronoun Family · Pronoun Basics: Recap
+- **Key takeaways:** Pronouns save us from repeating nouns. · Name it once, then use a pronoun. · The antecedent is the noun a pronoun stands for. · One short pronoun can replace a long phrase. · Look back to find who or what a pronoun means. · Sometimes the antecedent comes just after the pronoun. · Pronouns come in several families. · Every pronoun points to someone or something.
+- **Example sentences:**
+  - Kiran fed his goldfish before he left. _(focus: his, he)_
+  - The parcel came today, and Dad opened the parcel at once.
+  - The parcel came today, and Dad opened it at once.
+  - Aunt Meena phoned, and she sounded cheerful. _(focus: Aunt Meena, she)_
+  - The bus was late because it broke down. _(focus: The bus, it)_
+  - The girl with the yellow umbrella waved, and then she crossed the road. _(focus: The girl with the yellow umbrella, she)_
+  - My grandparents planted a mango tree. They water it every evening. _(focus: They, it)_
+  - When she reached the gate, Ishita turned and smiled. _(focus: she, Ishita)_
+
+### 1.3.2 Personal Pronouns – Subject and Object
+
+- **Pages:** Two Shapes for One Person · First, Second and Third Person · Subject Pronouns · Object Pronouns · Doer or Receiver? · You and It Stay the Same · I Is Always a Capital · Two People Joined by And · Personal Pronouns: Recap
+- **Key takeaways:** A pronoun's shape depends on its job. · Person tells who; number tells how many. · The doer takes the subject form. · After a verb or preposition, use the object form. · Acting: subject form. Receiving: object form. · You and it never change shape. · The word I is always a capital letter. · Drop the other person to choose I or me. · Choose the pronoun's shape by its job.
+- **Example sentences:**
+  - She waved, and the whole crowd waved back at her. _(focus: She, her)_
+  - We caught the early train to Pune. _(focus: We)_
+  - They painted the classroom wall blue. _(focus: They)_
+  - The coach picked me for the relay team. _(focus: me)_
+  - Leena sat beside him on the ferry. _(focus: him)_
+  - He pushed the swing.
+  - The swing bumped him.
+  - You look tired, so I will walk you home. _(focus: You)_
+  - It rolled under the sofa, and Dad fished it out. _(focus: It)_
+  - On Sundays I bake bread with Nani. _(focus: I)_
+  - Mum and I planted tulips by the gate. _(focus: I)_
+  - The librarian thanked Leo and me. _(focus: me)_
+
+### 1.3.3 Possessive Pronouns
+
+- **Pages:** That One Is Mine · Meet the Owner Words · No Noun After It · Answering Whose? · Owner Words Without Apostrophes · A Friend of Mine · Possessive Pronouns: Recap
+- **Key takeaways:** Possessive pronouns show who owns something. · Mine, yours, his, hers, ours, theirs. · A possessive pronoun replaces the owner and the thing. · Answer whose with mine, his, hers and so on. · Hers, ours and theirs never have an apostrophe. · A friend of mine means one of my friends. · Use a possessive pronoun instead of owner plus thing.
+- **Example sentences:**
+  - The blue towel is mine, and the striped one is yours. _(focus: mine, yours)_
+  - Your painting is bright, but ours is brighter. _(focus: ours)_
+  - Grandpa's chair is by the window, and theirs is by the door. _(focus: theirs)_
+  - Whose scarf is on the bench? It's his. _(focus: his)_
+  - The last slice of pizza is yours. _(focus: yours)_
+  - A neighbour of ours keeps bees in her garden. _(focus: ours)_
+
+### 1.3.4 Possessive Adjectives / Determiners
+
+- **Pages:** Words That Point to an Owner · One Owner Word for Each Person · A Noun Always Follows · My Umbrella or Mine? · His or Her? Follow the Owner · Its for Animals and Things · Owner Words: Recap
+- **Key takeaways:** Possessive words before a noun show the owner. · My, your, his, her, its, our, their. · My and their always need a noun after them. · Noun after it: my. Nothing after it: mine. · Choose his or her by the owner. · Animals and things own with its. · Before a noun, use my, your, our or their.
+- **Example sentences:**
+  - Our kitchen smells of fresh cardamom. _(focus: Our)_
+  - Please pass me your blue folder. _(focus: your)_
+  - The twins packed their swimming bags. _(focus: their)_
+  - That is my umbrella.
+  - That umbrella is mine.
+  - Raj walked his little sister to school. _(focus: his)_
+  - Meera lent her brother a torch. _(focus: her)_
+  - The tortoise pulled its head into its shell. _(focus: its)_
+
+### 1.3.5 Reflexive Pronouns
+
+- **Pages:** Doing Something to Yourself · The Self Family · One Self, Many Selves · Her or Herself? · Everyday Phrases With -self · By Myself Means Alone · Reflexive Pronouns: Recap
+- **Key takeaways:** A -self word points back to the doer. · Every personal pronoun has a -self partner. · One takes -self; more than one takes -selves. · Same person? Use the -self word. · Enjoy, hurt and help often take a -self word. · By myself means alone. · Reflexive pronouns point back to the subject.
+- **Example sentences:**
+  - Priya looked at herself in the shop window. _(focus: herself)_
+  - The kitten licked itself clean. _(focus: itself)_
+  - We introduced ourselves to the new neighbours. _(focus: ourselves)_
+  - Nisha blamed her for the broken vase.
+  - Nisha blamed herself for the broken vase.
+  - Help yourselves to the samosas! _(focus: yourselves)_
+  - Did you enjoy yourself at the fair? _(focus: yourself)_
+  - Grandpa built the garden shed by himself. _(focus: by himself)_
+
+### 1.3.6 Emphatic Pronouns
+
+- **Pages:** Adding Extra Force · Right After the Noun · At the End of the Clause · Same Word, Different Use · The Removal Test · Emphatic Pronouns: Recap
+- **Key takeaways:** An emphatic pronoun stresses who did it. · Place it right after the noun to stress that noun. · It can also stand at the end for emphasis. · Reflexive is needed; emphatic adds force. · Remove it: still fine means emphatic. · Use a -self word to say 'this one and no other'.
+- **Example sentences:**
+  - The chef himself carried out our dessert. _(focus: himself)_
+  - The mayor herself opened the new library. _(focus: herself)_
+  - The walls themselves were made of mud. _(focus: themselves)_
+  - I baked this lemon cake myself. _(focus: myself)_
+  - You can fix the puncture yourself. _(focus: yourself)_
+  - Tara taught herself the guitar.
+  - Tara herself taught the guitar class.
+  - The children themselves chose the song. _(focus: themselves)_
+
+### 1.3.7 Demonstrative Pronouns
+
+- **Pages:** Pointing Words · Near or Far, One or Many · Close By: This and These · Far Away: That and Those · Alone or Before a Noun? · Pointing Back at an Idea · Demonstrative Pronouns: Recap
+- **Key takeaways:** Demonstrative pronouns point at things. · Near: this, these. Far: that, those. · This and these point at things close by. · That and those point at things farther away. · No noun after it? It's a demonstrative pronoun. · That can stand for a whole action. · Point with this, that, these or those.
+- **Example sentences:**
+  - That smells delicious! _(focus: That)_
+  - This is my favourite spot in the park. _(focus: This)_
+  - These are the keys to the garden shed. _(focus: These)_
+  - Is that a hawk on the lamp post? _(focus: that)_
+  - Those were the sweetest mangoes of the summer. _(focus: Those)_
+  - This is heavy.
+  - This box is heavy.
+  - You carried my bags all the way home. That was kind of you. _(focus: That)_
+
+### 1.3.8 Interrogative Pronouns
+
+- **Pages:** Question Words That Stand In · Who Asks About the Doer · Whom Asks About the Receiver · Whose Asks About the Owner · Any Answer or a Choice? · Let the Answer Guide You · Question Pronouns: Recap
+- **Key takeaways:** Question pronouns stand in for the missing answer. · Who asks which person did it. · Whom asks about the person receiving the action. · Whose asks who owns something. · What is open; which picks from a set. · Picture the answer, then pick the question word. · Each question pronoun asks about a different answer.
+- **Example sentences:**
+  - Who left the back gate open? _(focus: Who)_
+  - Who scored the winning goal? _(focus: Who)_
+  - Whom did the committee choose as captain? _(focus: Whom)_
+  - Whose is this muddy football? _(focus: Whose)_
+  - What did you buy at the market?
+  - Which do you prefer, tea or lassi?
+  - Which of these paintings is yours? _(focus: Which)_
+
+### 1.3.9 Relative Pronouns
+
+- **Pages:** Joining Extra Information · Who and Whom for People · Which for Things and Animals · That for People or Things · Whose for Owners · Look Just Before It · Question Word or Joining Word? · Relative Pronouns: Recap
+- **Key takeaways:** A relative pronoun adds facts about a noun. · Who and whom join facts about people. · Which joins facts about things and animals. · That works for people and things. · Whose shows the noun owns something. · The noun sits just before the relative pronoun. · After a noun, who joins; at the start, who asks. · Pick the joining word that fits the noun.
+- **Example sentences:**
+  - I met the girl who won the spelling bee. _(focus: who)_
+  - The dentist who checked my teeth was very gentle. _(focus: who)_
+  - The singer whom we heard last night was brilliant. _(focus: whom)_
+  - The bus which goes to the airport leaves at six. _(focus: which)_
+  - The pie that Mum baked vanished in minutes. _(focus: that)_
+  - We thanked the man whose dog found my ring. _(focus: whose)_
+  - The tree which fell in the storm blocked our lane. _(focus: The tree, which)_
+  - Who painted this mural?
+  - The artist who painted this mural lives nearby.
+
+### 1.3.10 Indefinite Pronouns
+
+- **Pages:** Not Naming Anyone Exactly · People Words and Thing Words · Some- or Any-? · No- Words Already Mean Not · Every- Means All · Pronouns That Count Roughly · Indefinite Pronouns: Recap
+- **Key takeaways:** Indefinite pronouns don't name exactly who. · -one and -body mean people; -thing means things. · Offers and positives: some-. Questions and not: any-. · With nobody or nothing, keep the verb positive. · Every- words include all of them. · Many, few, both and none tell roughly how many. · Talk about people and things in general.
+- **Example sentences:**
+  - Somebody left a bunch of marigolds on our doorstep. _(focus: Somebody)_
+  - Would you like something cold to drink? _(focus: something)_
+  - I can't find anything in this messy drawer. _(focus: anything)_
+  - Nothing was left on the plate after dinner. _(focus: Nothing)_
+  - Everyone clapped when the curtain rose. _(focus: Everyone)_
+  - Many came to the mela, but few stayed for the fireworks. _(focus: Many, few)_
+
+### 1.3.11 Distributive Pronouns
+
+- **Pages:** One at a Time · Each: Every One, Separately · Either: One or the Other · Neither: Not This, Not That · Each Of, Either Of, Neither Of · Standing Alone or Before a Noun · Distributive Pronouns: Recap
+- **Key takeaways:** Distributive pronouns take members one at a time. · Each means every one, one by one. · Either means one of two. · Neither means not one of the two. · Each of the… needs a plural after of. · No noun after it? It's a distributive pronoun. · Look at the group one member at a time.
+- **Example sentences:**
+  - Three cousins came to stay, and each brought a gift. _(focus: each)_
+  - We tasted the five chutneys, and each was delicious. _(focus: each)_
+  - You can borrow the red pen or the blue one. Either is fine. _(focus: Either)_
+  - I tried on two raincoats, but neither fitted. _(focus: neither)_
+  - Each of the parcels had a red label. _(focus: Each of)_
+  - Neither of them wanted the last samosa. _(focus: Neither of)_
+  - Either will do.
+  - Either road will do.
+
+### 1.3.12 Reciprocal Pronouns
+
+- **Pages:** An Action That Goes Both Ways · Each Other and One Another · Each Other's Things · To the Other, or to Yourself? · It Takes at Least Two · Reciprocal Pronouns: Recap
+- **Key takeaways:** Reciprocal pronouns show a two-way action. · Each other and one another mean the same. · Each other's shows two-way ownership. · Across to the other: each other. Back to yourself: -selves. · One person can't do it to each other. · Use each other when the action goes both ways.
+- **Example sentences:**
+  - Arjun and Zara waved at each other across the street. _(focus: each other)_
+  - The two puppies chased each other round the garden. _(focus: each other)_
+  - After the final, the whole team hugged one another. _(focus: one another)_
+  - The twins often borrow each other's sandals. _(focus: each other's)_
+  - Ravi and Sam blamed each other.
+  - Ravi and Sam blamed themselves.
+  - The old classmates recognised one another at once. _(focus: one another)_
+
+### 1.3.13 Pronoun–Antecedent Agreement
+
+- **Pages:** Pronouns Must Match · Matching Number · Matching Person and Gender · Two Antecedents Joined by And · They for One Person · Everyone and Their · Groups: Its or Their? · Agreement: Recap
+- **Key takeaways:** A pronoun matches the noun it stands for. · One thing: it. More than one: they or them. · He, she or it follows the antecedent. · Two nouns joined by and take a plural pronoun. · They can mean one person. · Everyone usually takes their. · One unit: its. The members: their. · Check that each pronoun fits its antecedent.
+- **Example sentences:**
+  - The bakery closed early because it ran out of bread. _(focus: The bakery, it)_
+  - My watch stopped, so I took it to the repair shop. _(focus: it)_
+  - The new sandals pinch, so I hardly ever wear them. _(focus: them)_
+  - Uncle Ravi phoned to say he would visit on Sunday. _(focus: he)_
+  - Aunt Rekha promised she would bring the sweets. _(focus: she)_
+  - Meena and her brother finished their project early. _(focus: their)_
+  - Someone rang the bell, but they had gone by the time I opened the door. _(focus: they)_
+  - Everyone packed their own lunch for the trip. _(focus: their)_
+  - The committee announced its decision on Friday. _(focus: its)_
+  - The team pulled on their boots in silence. _(focus: their)_
+
+### 1.3.14 Pronoun Reference and Clarity
+
+- **Pages:** Who Does It Mean? · Two Nouns, One Pronoun · Repeat the Noun or Rewrite · An It That Points Nowhere · Who Are They? · When the Noun Is Too Far Back · Clear Pronouns: Recap
+- **Key takeaways:** Every pronoun needs one clear antecedent. · Two nouns before a pronoun can cause confusion. · If in doubt, use the noun again. · Name the source instead of a vague it. · Replace a vague they with the real source. · Keep the pronoun close to its noun. · Make sure each pronoun points one way.
+- **Example sentences:**
+  - Sam told Ali that he had won the quiz. _(focus: he)_
+  - Mum chatted with Aunt Leela while she was cooking.
+  - When the dog chased the cat, the cat shot up a tree. _(focus: the cat)_
+  - In the newspaper, it says the main road will close.
+  - They say it will rain all week.
+  - The museum has a dinosaur skeleton and a moon rock. Visitors love the skeleton most. _(focus: the skeleton)_
+
+### 1.3.15 Pronoun Usage and Common Errors
+
+- **Pages:** Spot and Fix Pronoun Mistakes · Not Me and Arjun · Between You and Me · Its or It's? · No Hisself or Theirselves · Those Books, Not Them Books · Whom Is Not for the Doer · Don't Repeat the Subject · Me, Not Myself · Pronoun Mistake Checklist
+- **Key takeaways:** Most pronoun mistakes come in a few kinds. · In a subject pair, say Arjun and I. · After between, use me, not I. · Its owns; it's means it is. · Say himself and themselves. · Before a noun, say those, not them. · The doer is who, never whom. · Name the subject once, not twice. · No I before it? Use me, not myself. · Read your pronouns once more before you finish.
+- **Example sentences:**
+  - Me and Arjun went to the stadium.
+  - Keep this secret between you and I.
+  - The parrot flapped it's wings.
+  - The boys made the paper boats theirselves.
+  - Can you pass me them books?
+  - Whom is knocking at the door?
+  - My sister she plays the sitar.
+  - Please call Anita or myself if you need help.
+

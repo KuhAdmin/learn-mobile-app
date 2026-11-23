@@ -1,0 +1,647 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-3-11",
+    "title": "Distributive Pronouns",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Distributive Pronouns",
+    "lesson_summary": "Learners use each, either and neither as pronouns that look at the members of a group one at a time. Each means every one separately, either means one or the other of two, and neither means not one and not the other. They use 'each of', 'either of' and 'neither of' with a plural noun or pronoun, and tell the pronoun from the same word before a noun (taught in 1-4-12). Verb agreement with these words comes in Stage 2.3.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Explain each, either and neither.",
+        "success_criteria": [
+          "Use each for every one separately.",
+          "Use either and neither for two."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use distributive pronouns in phrases with of.",
+        "success_criteria": [
+          "Follow 'each of' with a plural noun or pronoun.",
+          "Tell a pronoun from the same word before a noun."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 11,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Each, Either and Neither",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Using Them With Of",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One at a Time",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Each, either and neither look at the members of a group one at a time, instead of all together."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Three cousins came to stay, and each brought a gift.",
+              "highlight": [
+                "each"
+              ],
+              "explanation": "Each looks at the cousins one by one: every single cousin brought a gift."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Distributive pronouns take members one at a time.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Each: Every One, Separately",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Each means every member of a group, taken separately. The group can be two or more."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We tasted the five chutneys, and each was delicious.",
+              "highlight": [
+                "each"
+              ],
+              "explanation": "Every chutney, one by one, was delicious."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Each means every one, one by one.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Either: One or the Other",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Either means one or the other of two. It doesn't matter which."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "You can borrow the red pen or the blue one. Either is fine.",
+              "highlight": [
+                "Either"
+              ],
+              "explanation": "There are two pens, and any one of them is fine."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Either means one of two.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Neither: Not This, Not That",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "text",
+          "text": "Neither means not one and not the other of two. It already carries the meaning 'not'."
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I tried on two raincoats, but neither fitted.",
+              "highlight": [
+                "neither"
+              ],
+              "explanation": "The first raincoat didn't fit, and the second didn't either."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Neither means not one of the two.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Each Of, Either Of, Neither Of",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "After each of, either of and neither of, use a plural noun (with the, my, these…) or an object pronoun such as us or them.",
+          "scope": "Each, either and neither followed by of",
+          "examples": [
+            {
+              "sentence": "Each of the parcels had a red label.",
+              "highlight": [
+                "Each of"
+              ],
+              "explanation": "Each of is followed by the plural noun phrase the parcels."
+            },
+            {
+              "sentence": "Neither of them wanted the last samosa.",
+              "highlight": [
+                "Neither of"
+              ],
+              "explanation": "Neither of is followed by the object pronoun them."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Each of the… needs a plural after of.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Standing Alone or Before a Noun",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Standing alone",
+              "description": "A pronoun: no noun follows.",
+              "example": "Either will do."
+            },
+            {
+              "label": "Before a noun",
+              "description": "A pointer word with a noun, taught in Chapter 1.4.",
+              "example": "Either road will do."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, the word stands in for 'either road'.",
+            "In the second, the noun road follows it."
+          ],
+          "conclusion": "With nothing after it, each, either or neither is a pronoun."
+        }
+      ],
+      "key_takeaway": "No noun after it? It's a distributive pronoun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Distributive Pronouns: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Each: every one, separately.",
+            "Either: one or the other of two.",
+            "Neither: not one and not the other.",
+            "Each of, either of, neither of + a plural.",
+            "Standing alone, they are pronouns."
+          ]
+        }
+      ],
+      "key_takeaway": "Look at the group one member at a time.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word means 'not one and not the other' of two?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "neither"
+        },
+        {
+          "option_id": "B",
+          "text": "either"
+        },
+        {
+          "option_id": "C",
+          "text": "each"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Neither rules out both of the two."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'Tea or juice? ___ is fine with me.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Either"
+        },
+        {
+          "option_id": "B",
+          "text": "Neither"
+        },
+        {
+          "option_id": "C",
+          "text": "Each"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The speaker is happy with one or the other of two drinks, so either fits."
+    },
+    {
+      "question_id": "Q003",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Each looks at every member of a group one by one.",
+      "correct_answer": true,
+      "explanation": "Each means every one, taken separately."
+    },
+    {
+      "question_id": "Q004",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: '___ of my two sisters can swim, so we stayed on the beach.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "Neither"
+          ]
+        }
+      ],
+      "explanation": "Not one sister and not the other can swim, so neither of fits."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In which sentence is each a pronoun?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The players lined up, and each shook the referee's hand."
+        },
+        {
+          "option_id": "B",
+          "text": "Each player shook the referee's hand."
+        },
+        {
+          "option_id": "C",
+          "text": "Every player shook the referee's hand."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "In the first sentence, each stands alone for each player. In the second, it comes before the noun player."
+    },
+    {
+      "question_id": "Q006",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the distributive pronoun in: 'Both kurtas suit you, so you can take either.'",
+      "target": "The word that means one of the two.",
+      "accepted_answers": [
+        "either"
+      ],
+      "explanation": "Either stands alone and means one or the other of the two kurtas."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'I asked two shopkeepers, but ___ had any batteries.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "neither"
+        },
+        {
+          "option_id": "B",
+          "text": "either"
+        },
+        {
+          "option_id": "C",
+          "text": "each"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Not one shopkeeper and not the other had batteries, so neither."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "each of the windows"
+        },
+        {
+          "option_id": "B",
+          "text": "each of the window"
+        },
+        {
+          "option_id": "C",
+          "text": "each of window"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Each of is followed by a plural: the windows."
+    },
+    {
+      "question_id": "Q009",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Either is the usual word when there are many choices.",
+      "correct_answer": false,
+      "explanation": "Either is for two choices. For more than two, we say any of them."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Match each pronoun with its meaning.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "each"
+        },
+        {
+          "item_id": "L2",
+          "text": "either"
+        },
+        {
+          "item_id": "L3",
+          "text": "neither"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "not one of the two"
+        },
+        {
+          "item_id": "R2",
+          "text": "every one, separately"
+        },
+        {
+          "item_id": "R3",
+          "text": "one of the two"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Each is every one separately, either is one of two, and neither is not one of the two."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Each, Either and Neither",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Of and Standing Alone",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Distributive Pronouns: Final Check",
+      "question_ids": [
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Each, either and neither before a noun",
+        "reason": "Taught in 1-4-12 Distributive Determiners.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Singular verbs after each, either and neither",
+        "reason": "Taught in Stage 2.3 (Agreement with Each, Every, Either and Neither).",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Each other",
+        "reason": "Taught in 1-3-12 Reciprocal Pronouns.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}
