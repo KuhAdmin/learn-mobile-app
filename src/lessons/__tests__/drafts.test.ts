@@ -20,7 +20,7 @@ interface OverlapTool {
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const tool: OverlapTool = require('../../../scripts/lesson-overlap');
 
-const DRAFT_DIRS = ['assets/Content generation/Chapter2', 'assets/Content generation/Chapter3', 'assets/Content generation/Chapter4', 'assets/Content generation/Chapter5', 'assets/Content generation/Chapter6', 'assets/Content generation/Chapter7', 'assets/Content generation/Chapter8', 'assets/Content generation/Chapter9', 'assets/Content generation/Chapter10', 'assets/Content generation/Chapter11', 'assets/Content generation/Chapter12', 'assets/Content generation/Chapter13', 'assets/Content generation/Chapter14', 'assets/Content generation/Chapter15', 'assets/Content generation/Chapter16', 'assets/Content generation/Chapter17'];
+const DRAFT_DIRS = ['assets/Content generation/Chapter2', 'assets/Content generation/Chapter3', 'assets/Content generation/Chapter4', 'assets/Content generation/Chapter5', 'assets/Content generation/Chapter6', 'assets/Content generation/Chapter7', 'assets/Content generation/Chapter8', 'assets/Content generation/Chapter9', 'assets/Content generation/Chapter10', 'assets/Content generation/Chapter11', 'assets/Content generation/Chapter12', 'assets/Content generation/Chapter13', 'assets/Content generation/Chapter14', 'assets/Content generation/Chapter15', 'assets/Content generation/Chapter16', 'assets/Content generation/Chapter17', 'assets/Content generation/Chapter18', 'assets/Content generation/Chapter19', 'assets/Content generation/Chapter20'];
 const drafts = DRAFT_DIRS.flatMap((dir) => tool.readDrafts(dir));
 
 // Rules about a lesson on its own: answer keys, examples, assessment placement and length, schema values.
