@@ -8,7 +8,7 @@ describe('buildPathRows', () => {
 
   it('emits every banner, sub-stage and topic in curriculum order', () => {
     const count = (k: string) => rows.filter((r) => r.kind === k).length;
-    expect([count('banner'), count('legend'), count('sub'), count('topic')]).toEqual([5, 1, 25, 507]);
+    expect([count('banner'), count('legend'), count('sub'), count('topic')]).toEqual([5, 1, 25, 502]);
     expect(rows.slice(0, 4).map((r) => r.key)).toEqual(['s1', 'legend', 's1.1', 's1.1.01']);
   });
 

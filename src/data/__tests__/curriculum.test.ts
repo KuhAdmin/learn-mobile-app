@@ -21,8 +21,9 @@ describe('curriculum', () => {
     expect(codes).toEqual([1, 2, 3, 4, 5].flatMap((n) => [1, 2, 3, 4, 5].map((m) => `${n}.${m}`)));
   });
 
-  it('has the verified topic counts (507 in total)', () => {
-    expect([0, 1, 2, 3, 4].map((i) => topicsOf(i).length)).toEqual([68, 76, 98, 141, 124]);
+  it('has the verified topic counts (502 in total)', () => {
+    // Stage 1 had 68 in the workbook; the six determiner-named 1.5 topics were merged into one (approved change).
+    expect([0, 1, 2, 3, 4].map((i) => topicsOf(i).length)).toEqual([63, 76, 98, 141, 124]);
   });
 
   it('uses unique ids and contiguous order', () => {

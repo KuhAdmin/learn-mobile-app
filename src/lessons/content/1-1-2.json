@@ -213,13 +213,13 @@
           "type": "example",
           "examples": [
             {
-              "sentence": "The little boy runs quickly.",
+              "sentence": "The small girl reads quietly.",
               "highlight": [
                 "The",
-                "little",
-                "boy",
-                "runs",
-                "quickly"
+                "small",
+                "girl",
+                "reads",
+                "quietly"
               ],
               "explanation": "Different words perform different jobs to build one meaningful sentence."
             }
@@ -687,17 +687,17 @@
           "type": "example",
           "examples": [
             {
-              "sentence": "Wow! The little boy runs quickly through the garden.",
+              "sentence": "Wow! The tiny puppy races happily across the lawn.",
               "highlight": [
                 "Wow!",
-                "little",
-                "boy",
-                "runs",
-                "quickly",
-                "through",
+                "tiny",
+                "puppy",
+                "races",
+                "happily",
+                "across",
                 "the"
               ],
-              "explanation": "Wow is an interjection, the is an article traditionally classified as an adjective in some school grammar systems, little is an adjective, boy is a noun, runs is a verb, quickly is an adverb, and through is a preposition."
+              "explanation": "Wow is an interjection, the is an article traditionally classified as an adjective in some school grammar systems, tiny is an adjective, puppy is a noun, races is a verb, happily is an adverb, and across is a preposition."
             }
           ]
         },
@@ -772,18 +772,18 @@
           "items": [
             {
               "label": "Noun",
-              "description": "Names a thing.",
-              "example": "I have a book."
+              "description": "Names a place.",
+              "example": "We played in the park."
             },
             {
               "label": "Verb",
               "description": "Shows an action.",
-              "example": "Please book a table."
+              "example": "Park the car here."
             }
           ],
           "comparison_points": [
-            "In the first sentence, book names a thing.",
-            "In the second sentence, book describes an action."
+            "In the first sentence, park names a place.",
+            "In the second sentence, park describes an action."
           ],
           "conclusion": "The same spelling can have different grammatical jobs."
         },
@@ -1187,7 +1187,7 @@
       ],
       "prompt": "A verb can express a state, not just an action.",
       "correct_answer": true,
-      "explanation": "Correct. Verbs such as know, love and believe express states.",
+      "explanation": "Verbs such as know, love and believe express states.",
       "assessment_metadata": {
         "difficulty": "easy",
         "cognitive_level": "understand",
@@ -1498,7 +1498,7 @@
         "OBJ003",
         "OBJ004"
       ],
-      "prompt": "In 'She sings beautifully', what is the part of speech of 'She'?",
+      "prompt": "In 'She hums softly', what is the part of speech of 'She'?",
       "options": [
         {
           "option_id": "A",
@@ -1542,7 +1542,7 @@
         },
         {
           "option_id": "B",
-          "text": "She sings beautifully."
+          "text": "The bird chirps loudly."
         },
         {
           "option_id": "C",

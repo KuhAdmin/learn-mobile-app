@@ -4,6 +4,11 @@
  * GENERATED from assets/Master_Grammar_Curriculum_Level_1_to_3.xlsx and verified against
  * LEARN_Learning_Path_Claude_Code_Spec.md §3. Titles and order are approved curriculum:
  * do not rename, reorder, merge or remove entries by hand. `description` is UI copy, not curriculum.
+ *
+ * Approved change (2026-11): 1.5 Quantitative, Numeral, Demonstrative, Possessive, Interrogative and
+ * Distributive Adjectives were merged into one topic, s1.5.03 "Determiners With Adjective Names",
+ * because Chapter 1.4 already teaches those words as determiners. s1.5.04–s1.5.08 were removed; the
+ * remaining ids keep their workbook numbers, so 1.5 ids are no longer contiguous after s1.5.03.
  */
 
 export interface CurriculumTopic {
@@ -138,20 +143,15 @@ export const CURRICULUM: CurriculumStage[] = [
         topics: [
           { id: 's1.5.01', title: 'Introduction to Adjectives', order: 1 },
           { id: 's1.5.02', title: 'Descriptive Adjectives', order: 2 },
-          { id: 's1.5.03', title: 'Quantitative Adjectives', order: 3 },
-          { id: 's1.5.04', title: 'Numeral Adjectives', order: 4 },
-          { id: 's1.5.05', title: 'Demonstrative Adjectives', order: 5 },
-          { id: 's1.5.06', title: 'Possessive Adjectives', order: 6 },
-          { id: 's1.5.07', title: 'Interrogative Adjectives', order: 7 },
-          { id: 's1.5.08', title: 'Distributive Adjectives', order: 8 },
-          { id: 's1.5.09', title: 'Proper Adjectives', order: 9 },
-          { id: 's1.5.10', title: 'Compound Adjectives', order: 10 },
-          { id: 's1.5.11', title: 'Participial Adjectives', order: 11 },
-          { id: 's1.5.12', title: 'Attributive and Predicative Adjectives', order: 12 },
-          { id: 's1.5.13', title: 'Adjective Position and Order', order: 13 },
-          { id: 's1.5.14', title: 'Adjectives Followed by Prepositions', order: 14 },
-          { id: 's1.5.15', title: 'Adjective Formation', order: 15 },
-          { id: 's1.5.16', title: 'Adjective Usage and Common Errors', order: 16 },
+          { id: 's1.5.03', title: 'Determiners With Adjective Names', order: 3 },
+          { id: 's1.5.09', title: 'Proper Adjectives', order: 4 },
+          { id: 's1.5.10', title: 'Compound Adjectives', order: 5 },
+          { id: 's1.5.11', title: 'Participial Adjectives', order: 6 },
+          { id: 's1.5.12', title: 'Attributive and Predicative Adjectives', order: 7 },
+          { id: 's1.5.13', title: 'Adjective Position and Order', order: 8 },
+          { id: 's1.5.14', title: 'Adjectives Followed by Prepositions', order: 9 },
+          { id: 's1.5.15', title: 'Adjective Formation', order: 10 },
+          { id: 's1.5.16', title: 'Adjective Usage and Common Errors', order: 11 },
         ],
       },
     ],

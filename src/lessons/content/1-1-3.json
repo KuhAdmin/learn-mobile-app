@@ -238,7 +238,7 @@
           "type": "example",
           "examples": [
             {
-              "sentence": "The cat is under the table.",
+              "sentence": "The cat is sitting under the table.",
               "highlight": [
                 "The",
                 "is",
@@ -614,12 +614,12 @@
           "type": "example",
           "examples": [
             {
-              "sentence": "Dogs bark.",
+              "sentence": "Cows moo.",
               "highlight": [
-                "Dogs",
-                "bark"
+                "Cows",
+                "moo"
               ],
-              "explanation": "Both words are content words, even though bark is short."
+              "explanation": "Both words are content words, even though moo is short."
             }
           ]
         },
@@ -659,19 +659,19 @@
           "type": "comparison",
           "items": [
             {
-              "label": "Before as a preposition",
+              "label": "After as a preposition",
               "description": "Shows a relationship in time.",
-              "example": "Come before lunch."
+              "example": "Come after lunch."
             },
             {
-              "label": "Before as a conjunction",
+              "label": "After as a conjunction",
               "description": "Connects two clauses.",
-              "example": "Come before I leave."
+              "example": "Come after I leave."
             },
             {
-              "label": "Before as an adverb",
-              "description": "Means earlier or previously.",
-              "example": "I have seen this before."
+              "label": "After as an adverb",
+              "description": "Means later or afterwards.",
+              "example": "Soon after, the rain stopped."
             }
           ],
           "comparison_points": [
@@ -685,8 +685,8 @@
           "type": "warning",
           "title": "Remember",
           "mistake": {
-            "incorrect": "Before is always a preposition.",
-            "correct": "Before can be a preposition, conjunction or adverb.",
+            "incorrect": "After is always a preposition.",
+            "correct": "After can be a preposition, conjunction or adverb.",
             "reason": "Its grammatical category depends on how it is used in a sentence."
           },
           "related_learning_objective_ids": [
@@ -1190,29 +1190,29 @@
       "learning_objective_ids": [
         "OBJ006"
       ],
-      "prompt": "In which sentence is 'before' used as an adverb?",
+      "prompt": "In which sentence is 'after' used as an adverb?",
       "options": [
         {
           "option_id": "A",
-          "text": "I arrived before lunch."
+          "text": "We left after lunch."
         },
         {
           "option_id": "B",
-          "text": "I arrived before you."
+          "text": "We left after you."
         },
         {
           "option_id": "C",
-          "text": "I have seen this before."
+          "text": "They lived happily ever after."
         },
         {
           "option_id": "D",
-          "text": "Come before sunset."
+          "text": "Wait after class."
         }
       ],
       "correct_answers": [
         "C"
       ],
-      "explanation": "In this sentence, before means earlier or previously and does not take an object.",
+      "explanation": "In this sentence, after means afterwards and does not take an object.",
       "assessment_metadata": {
         "difficulty": "challenging",
         "cognitive_level": "analyse",

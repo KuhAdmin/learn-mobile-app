@@ -36,7 +36,7 @@ describe('deriveTopicStatuses', () => {
 
   it('crosses sub-stage and stage boundaries', () => {
     expect(currentTopicId(deriveTopicStatuses(firstN(7)))).toBe('s1.2.01');
-    expect(currentTopicId(deriveTopicStatuses(firstN(68)))).toBe('s2.1.01');
+    expect(currentTopicId(deriveTopicStatuses(firstN(63)))).toBe('s2.1.01');
   });
 
   it('reports no current topic when everything is complete', () => {
@@ -62,12 +62,12 @@ describe('progress', () => {
   it('derives sub-stage, stage and overall progress from completions', () => {
     const c = firstN(7); // all of 1.1 Parts of Speech
     expect(subStageProgress(stage1.subStages[0], c)).toEqual({ done: 7, total: 7, fraction: 1 });
-    expect(stageProgress(stage1, c)).toEqual({ done: 7, total: 68, fraction: 7 / 68 });
-    expect(overallProgress(c)).toEqual({ done: 7, total: 507, fraction: 7 / 507 });
+    expect(stageProgress(stage1, c)).toEqual({ done: 7, total: 63, fraction: 7 / 63 });
+    expect(overallProgress(c)).toEqual({ done: 7, total: 502, fraction: 7 / 502 });
   });
 
   it('classifies stages', () => {
-    const s = deriveTopicStatuses(firstN(68));
+    const s = deriveTopicStatuses(firstN(63));
     expect(stageStatus(CURRICULUM[0], s)).toBe('completed');
     expect(stageStatus(CURRICULUM[1], s)).toBe('current');
     expect(stageStatus(CURRICULUM[2], s)).toBe('locked');

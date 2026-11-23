@@ -60,11 +60,11 @@ Each lesson is generated without seeing the others, so new lessons tend to re-te
 
 Do not reuse any sentence, focus word, page title or key takeaway listed below. Build on these lessons instead of re-teaching them.
 
-**Words already shown doing more than one job** (don't demonstrate them that way again): careful, before, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late, glass, iron, silver, cousins.
+**Words already shown doing more than one job** (don't demonstrate them that way again): careful, after, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, before, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late, glass, iron, silver, cousins.
 
 ### 1.1.1 Discover Parts of Speech
 
-- **Pages:** Words Are Everywhere · Words Have Different Jobs · What Are Parts of Speech? · Words Belong to Groups · Words Work Together · Grammar Helps Make Sense · A Word Can Change Its Job · What Have You Learned?
+- **Pages:** Words Are Everywhere · Words Have Different Jobs · Meet the Word Teams · Words Belong to Groups · Words Work Together · Grammar Helps Make Sense · A Word Can Change Its Job · What Have You Learned?
 - **Key takeaways:** Sentences are built from words. · Different words do different jobs. · Parts of speech are grammatical word groups. · Words are grouped by their grammatical behaviour. · Words work together to express ideas. · Grammar helps us understand sentences. · A word's use helps determine its grammatical category. · Parts of speech help us understand how words work.
 - **Example sentences:**
   - The little bird sings. _(focus: The, little, bird, sings)_
@@ -81,7 +81,7 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
 - **Key takeaways:** Words have different jobs in sentences. · The job of a word helps us identify its part of speech. · Remember all eight: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction and Interjection. · A noun names someone or something. · A pronoun can take the place of a noun or noun phrase. · Verbs express actions, states or help other verbs. · An adjective gives more information about a noun or pronoun. · An adverb modifies a verb, adjective or another adverb. · A preposition shows a relationship between words. · Conjunctions join. Interjections express feelings. · Look at the word's job in the sentence. · A sentence can contain several different parts of speech. · Adjective describes a noun or pronoun. Adverb modifies a verb, adjective or adverb. · Identify words by their function, not just their appearance. · Eight parts of speech help us understand how English sentences work.
 - **Example sentences:**
   - Rita sings beautifully. _(focus: Rita, sings, beautifully)_
-  - The little boy runs quickly. _(focus: The, little, boy, runs, quickly)_
+  - The small girl reads quietly. _(focus: The, small, girl, reads, quietly)_
   - Maya loves her school. _(focus: Maya, school)_
   - The dog plays with a ball. _(focus: dog, ball)_
   - Riya is my friend. She is kind. _(focus: Riya, She)_
@@ -97,22 +97,22 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - I like tea and coffee.
   - Wow! That is amazing.
   - The happy child laughs loudly. _(focus: happy, child, laughs, loudly)_
-  - Wow! The little boy runs quickly through the garden. _(focus: Wow!, little, boy, runs, quickly, through, the)_
+  - Wow! The tiny puppy races happily across the lawn. _(focus: Wow!, tiny, puppy, races, happily, across, the)_
   - She is a careful driver.
   - She drives carefully.
-  - I have a book.
-  - Please book a table.
+  - We played in the park.
+  - Park the car here.
   - Every word ending in -ly is an adverb.
 
 ### 1.1.3 Content Words and Function Words
 
 - **Pages:** Two Word Families · What Are Content Words? · What Are Function Words? · Four Common Content Words · Common Function Words · Open-Class Words · Closed-Class Words · Find Both Groups · The Two Groups Compared · Spot Words in Context · How They Work Together · Meaning and Sentence Structure · Short Does Not Mean Function · Context Can Change the Job · Remember the Difference
-- **Words shown in more than one job:** before
+- **Words shown in more than one job:** after
 - **Key takeaways:** English has two important word families. · Content words carry the main message. · Function words help build the sentence. · Nouns, main verbs, adjectives and adverbs are common content words. · Function words organise and connect information. · Open classes can welcome new words. · Content words are mostly open-class; function words are mostly closed-class. · One sentence can contain both word groups. · Both groups have different but important jobs. · Always check a word's job in its sentence. · Both word groups work together to make clear sentences. · Small words can carry important grammatical information. · Word length does not decide word type. · Context helps identify a word's grammatical job. · Meaning comes from content words; sentence organisation needs function words.
 - **Example sentences:**
   - The little boy runs quickly. _(focus: little, boy, runs, quickly, The)_
   - Maya sings beautifully. _(focus: Maya, sings, beautifully)_
-  - The cat is under the table. _(focus: The, is, under)_
+  - The cat is sitting under the table. _(focus: The, is, under)_
   - We use the word selfie for a type of photograph. _(focus: selfie)_
   - People now use the verb google. _(focus: google)_
   - Nouns: selfie, podcast.
@@ -124,18 +124,18 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - The children are playing in the park. _(focus: children, playing, park)_
   - She is going to school. _(focus: She, is, to)_
   - She going school. _(focus: going, school)_
-  - Dogs bark. _(focus: Dogs, bark)_
+  - Cows moo. _(focus: Cows, moo)_
   - Every short word is a function word.
-  - Come before lunch.
-  - Come before I leave.
-  - I have seen this before.
-  - Before is always a preposition.
+  - Come after lunch.
+  - Come after I leave.
+  - Soon after, the rain stopped.
+  - After is always a preposition.
   - Happy children play outside.
   - The children are in the garden.
 
 ### 1.1.4 Open and Closed Word Classes
 
-- **Pages:** Two Groups of Words · What Is an Open Class? · What Is a Closed Class? · The Four Open Classes · The Closed Word Classes · Open Versus Closed · See Both Groups Together · How to Identify Them · Check What You Know · Why Are They Open? · Why Are They Closed? · One Word, Two Jobs · Some Special Cases · Avoid This Mistake · Your Quick Revision
+- **Pages:** Two Groups of Words · What Is an Open Class? · What Is a Closed Class? · The Four Open Classes · The Closed Word Classes · Open Versus Closed · See Both Groups Together · How to Identify Them · Check What You Know · Why Are They Open? · Why Are They Closed? · Same Spelling, Different Class · Some Special Cases · Avoid This Mistake · Your Quick Revision
 - **Words shown in more than one job:** text
 - **Key takeaways:** English words belong to two main groups. · Open classes can easily gain new words. · Closed classes usually have a fixed set of words. · Nouns, lexical verbs, adjectives and adverbs are the main open classes. · Closed classes help words work together in sentences. · Open classes grow more easily than closed classes. · One sentence can contain words from both groups. · Identify a word by its job in the sentence. · Look at the word's grammatical job. · New ideas bring new open-class vocabulary. · Closed classes change slowly because their grammatical jobs are established. · A word's class depends on how it is used. · Some words need a closer look before classification. · Classify words by their use, not just their form. · Open classes grow. Closed classes provide grammatical structure.
 - **Example sentences:**
@@ -153,7 +153,7 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - She put the book on the table. _(focus: She, the, on)_
   - I received a text.
   - I will text you.
-  - Wow! That is amazing! _(focus: Wow)_
+  - Oh! I dropped my pencil. _(focus: Oh)_
   - Text is always a noun.
 
 ### 1.1.5 One Word, Different Jobs

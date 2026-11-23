@@ -38,12 +38,14 @@ The supplied workbook contains five sheets, one for each Level-1 stage. Each she
 
 | Level 1 stage | Level 2 sub-stages | Level 3 topics |
 |---|---:|---:|
-| Stage 1 – Grammar Foundations | 5 | 68 |
+| Stage 1 – Grammar Foundations | 5 | 63 |
 | Stage 2 – Sentence Building | 5 | 76 |
 | Stage 3 – Verb Mastery and Sentence Control | 5 | 98 |
 | Stage 4 – Connecting and Expanding Ideas | 5 | 141 |
 | Stage 5 – Advanced Grammar and Fluent Expression | 5 | 124 |
-| **Total** | **25** | **507** |
+| **Total** | **25** | **502** |
+
+**Approved change:** 1.5 Quantitative, Numeral, Demonstrative, Possessive, Interrogative and Distributive Adjectives were merged into one topic, "Determiners With Adjective Names" (id s1.5.03), because 1.4 already teaches those words as determiners. Stage 1 now has 63 topics (workbook: 68). The workbook still lists the six; update it to match.
 
 **Important:** Use the exact titles and ordering below. The workbook's blank repeated cells mean that subsequent Level-2/Level-3 rows belong to the most recently named parent row; the hierarchy has been reconstructed using that convention.
 
@@ -115,12 +117,7 @@ The supplied workbook contains five sheets, one for each Level-1 stage. Each she
 #### 1.5 Adjectives
 - Introduction to Adjectives
 - Descriptive Adjectives
-- Quantitative Adjectives
-- Numeral Adjectives
-- Demonstrative Adjectives
-- Possessive Adjectives
-- Interrogative Adjectives
-- Distributive Adjectives
+- Determiners With Adjective Names
 - Proper Adjectives
 - Compound Adjectives
 - Participial Adjectives

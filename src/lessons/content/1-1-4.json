@@ -566,7 +566,7 @@
       "learning_objective_ids": [
         "OBJ005"
       ],
-      "title": "One Word, Two Jobs",
+      "title": "Same Spelling, Different Class",
       "content": [
         {
           "block_id": "BLOCK024",
@@ -617,11 +617,11 @@
           "type": "example",
           "examples": [
             {
-              "sentence": "Wow! That is amazing!",
+              "sentence": "Oh! I dropped my pencil.",
               "highlight": [
-                "Wow"
+                "Oh"
               ],
-              "explanation": "Wow is an interjection. It expresses a sudden feeling. Its classification may vary across grammatical frameworks."
+              "explanation": "Oh is an interjection. It expresses a sudden feeling. Its classification may vary across grammatical frameworks."
             }
           ]
         },
@@ -736,7 +736,7 @@
       ],
       "prompt": "Closed word classes usually have a relatively fixed set of words.",
       "correct_answer": true,
-      "explanation": "Correct. Closed classes usually gain new words very rarely.",
+      "explanation": "Closed classes usually gain new words very rarely.",
       "assessment_metadata": {
         "difficulty": "easy",
         "cognitive_level": "understand",
