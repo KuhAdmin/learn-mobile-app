@@ -1,0 +1,691 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "1-5-1",
+    "title": "Introduction to Adjectives",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Introduction to Adjectives",
+    "lesson_summary": "Learners already know that an adjective describes a noun (1.1.2). This lesson shows how to spot adjectives with two quick tests, where adjectives sit (before a noun, or after verbs such as is and looks), that adjectives never take a plural -s, and previews the kinds of adjectives in this chapter.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Spot adjectives in a sentence.",
+        "success_criteria": [
+          "Find words that tell what kind.",
+          "Use the 'very ___' and 'a ___ thing' tests."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Describe how adjectives behave.",
+        "success_criteria": [
+          "Name the two places an adjective can sit.",
+          "Keep adjectives the same for plural nouns."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Name the kinds of adjectives in this chapter.",
+        "success_criteria": [
+          "Match an adjective with its kind."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 11,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Spotting Adjectives",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "How Adjectives Behave",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Kinds of Adjectives",
+      "applicability": "applicable",
+      "status": "introduced",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Words That Paint the Picture",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Adjectives add colour, size, feeling and detail to nouns, so the listener can picture exactly what you mean."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "A fluffy grey kitten slept on the warm windowsill.",
+              "highlight": [
+                "fluffy",
+                "grey",
+                "warm"
+              ],
+              "explanation": "Fluffy and grey describe the kitten; warm describes the windowsill."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Adjectives help us picture the noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Questions Adjectives Answer",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "An adjective usually answers one of these questions about a noun:",
+          "list_style": "bulleted",
+          "items": [
+            "What kind? spicy, gentle",
+            "What colour? yellow, purple",
+            "What size or shape? tiny, round",
+            "How does it feel? soft, rough"
+          ]
+        }
+      ],
+      "key_takeaway": "Adjectives answer what kind.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Two Quick Adjective Tests",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "A word is probably an adjective if it fits 'very ___' or 'a ___ thing'.",
+          "scope": "Most descriptive adjectives",
+          "examples": [
+            {
+              "sentence": "The rasam was very salty.",
+              "highlight": [
+                "salty"
+              ],
+              "explanation": "'Very salty' and 'a salty thing' both work, so salty is an adjective."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Try 'very ___' to test for an adjective.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Before the Noun or After the Verb",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Before a noun",
+              "description": "The adjective sits next to its noun.",
+              "example": "Grandpa told us a funny story."
+            },
+            {
+              "label": "After is, looks or seems",
+              "description": "The adjective comes after the verb.",
+              "example": "Grandpa's story was funny."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, the adjective sits right before story.",
+            "In the second, it comes after was and still describes the story."
+          ],
+          "conclusion": "Adjectives can come before a noun or after verbs such as is, looks and seems."
+        }
+      ],
+      "key_takeaway": "Adjectives sit before nouns or after is.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Adjectives Never Go Plural",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "rule",
+          "rule_id": "RULE002",
+          "rule_text": "Adjectives keep the same form for one thing or many. Only the noun takes -s.",
+          "scope": "All adjectives",
+          "examples": [
+            {
+              "sentence": "One shy owl and three shy owls peered down at us.",
+              "highlight": [
+                "shy"
+              ],
+              "explanation": "Shy stays the same; only owl changes to owls."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Shy owls, never shys owls.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Adjective Family",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "introduction": "This chapter meets each kind in turn:",
+          "list_style": "bulleted",
+          "items": [
+            "Descriptive: bright, gentle",
+            "Proper: Indian, Japanese",
+            "Compound: well-known, ten-year-old",
+            "-ing and -ed: boring, bored",
+            "Built with endings: careless, wooden",
+            "Old names for determiners: demonstrative, possessive and more"
+          ]
+        }
+      ],
+      "key_takeaway": "Adjectives come in several kinds.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Adjectives: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Adjectives answer what kind, what colour, what size.",
+            "Test with 'very ___' or 'a ___ thing'.",
+            "They sit before a noun or after is, looks, seems.",
+            "They never take a plural -s.",
+            "There are several kinds, each with its own lesson."
+          ]
+        }
+      ],
+      "key_takeaway": "Find adjectives by what they tell you.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adjective in: 'The puppy chewed a squeaky toy.'",
+      "target": "The word that tells what kind of toy.",
+      "accepted_answers": [
+        "squeaky"
+      ],
+      "explanation": "Squeaky tells what kind of toy it is."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word fits 'a ___ thing'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "gentle"
+        },
+        {
+          "option_id": "B",
+          "text": "garden"
+        },
+        {
+          "option_id": "C",
+          "text": "gallop"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "'A gentle thing' makes sense, so gentle is an adjective."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In which sentence does the adjective come after the verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The lake looked calm at sunrise."
+        },
+        {
+          "option_id": "B",
+          "text": "We rowed across a calm lake."
+        },
+        {
+          "option_id": "C",
+          "text": "A calm breeze blew over us."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Calm comes after the verb looked and describes the lake."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which phrase is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "three tall towers"
+        },
+        {
+          "option_id": "B",
+          "text": "three talls towers"
+        },
+        {
+          "option_id": "C",
+          "text": "three tall tower"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The adjective tall stays the same; only the noun becomes plural."
+    },
+    {
+      "question_id": "Q005",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Adjectives add -s when the noun is plural.",
+      "correct_answer": false,
+      "explanation": "Adjectives never change for plural nouns: red kites, not reds kites."
+    },
+    {
+      "question_id": "Q006",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Match each adjective with its kind.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "Indian"
+        },
+        {
+          "item_id": "L2",
+          "text": "well-known"
+        },
+        {
+          "item_id": "L3",
+          "text": "bored"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "-ing or -ed adjective"
+        },
+        {
+          "item_id": "R2",
+          "text": "proper adjective"
+        },
+        {
+          "item_id": "R3",
+          "text": "compound adjective"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Indian comes from a proper noun, well-known joins two words, and bored ends in -ed."
+    },
+    {
+      "question_id": "Q007",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Words such as this, my and each are sometimes called adjectives, with names like demonstrative and possessive adjectives.",
+      "correct_answer": true,
+      "explanation": "These are the determiners of Chapter 1.4; older books give them adjective names."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adjective in: 'Nani wore an elegant sari to the wedding.'",
+      "target": "The word that describes the sari.",
+      "accepted_answers": [
+        "elegant"
+      ],
+      "explanation": "Elegant tells what kind of sari Nani wore."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word is an adjective?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "brave"
+        },
+        {
+          "option_id": "B",
+          "text": "bravely"
+        },
+        {
+          "option_id": "C",
+          "text": "bravery"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "'A brave girl' and 'very brave' both work. Bravely and bravery are other kinds of words."
+    },
+    {
+      "question_id": "Q010",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Complete with an adjective that means 'not loud': 'Please keep your voice ___ in the library.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "low",
+            "quiet",
+            "soft"
+          ]
+        }
+      ],
+      "explanation": "Low, quiet or soft describes the voice."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We bought five ripe papayas."
+        },
+        {
+          "option_id": "B",
+          "text": "We bought five ripes papayas."
+        },
+        {
+          "option_id": "C",
+          "text": "We bought five papayas ripes."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Ripe stays the same and comes before the plural noun."
+    },
+    {
+      "question_id": "Q012",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'The plan seems clever', clever is an adjective.",
+      "correct_answer": true,
+      "explanation": "Clever comes after seems and describes the plan."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Spotting Adjectives",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check How Adjectives Behave",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Kinds of Adjectives",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Introduction to Adjectives: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "What an adjective is",
+        "reason": "Taught in 1.1.2; recalled here in one line.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Adjectives before a noun or after a linking verb in depth",
+        "reason": "Taught in 1-5-12.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Each kind of adjective",
+        "reason": "Taught in 1-5-2 to 1-5-15; previewed here.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Comparatives and superlatives",
+        "reason": "Taught in Stage 5.2 Comparison and Degree.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

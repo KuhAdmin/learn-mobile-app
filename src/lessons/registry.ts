@@ -57,6 +57,17 @@ import topic_1_4_13 from './content/1-4-13.json';
 import topic_1_4_14 from './content/1-4-14.json';
 import topic_1_4_15 from './content/1-4-15.json';
 import topic_1_4_16 from './content/1-4-16.json';
+import topic_1_5_1 from './content/1-5-1.json';
+import topic_1_5_2 from './content/1-5-2.json';
+import topic_1_5_3 from './content/1-5-3.json';
+import topic_1_5_9 from './content/1-5-9.json';
+import topic_1_5_10 from './content/1-5-10.json';
+import topic_1_5_11 from './content/1-5-11.json';
+import topic_1_5_12 from './content/1-5-12.json';
+import topic_1_5_13 from './content/1-5-13.json';
+import topic_1_5_14 from './content/1-5-14.json';
+import topic_1_5_15 from './content/1-5-15.json';
+import topic_1_5_16 from './content/1-5-16.json';
 import { loadLesson, type Lesson } from './model';
 
 const LESSON_FILES: unknown[] = [
@@ -112,6 +123,17 @@ const LESSON_FILES: unknown[] = [
   topic_1_4_14,
   topic_1_4_15,
   topic_1_4_16,
+  topic_1_5_1,
+  topic_1_5_2,
+  topic_1_5_3,
+  topic_1_5_9,
+  topic_1_5_10,
+  topic_1_5_11,
+  topic_1_5_12,
+  topic_1_5_13,
+  topic_1_5_14,
+  topic_1_5_15,
+  topic_1_5_16,
 ];
 
 /** `1.1.1.EP001` / `1-1-2` → `s1.1.01` / `s1.1.02`. */

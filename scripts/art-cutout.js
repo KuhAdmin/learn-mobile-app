@@ -4,6 +4,7 @@
  *
  *   npm run art:cutout -- <in.png|webp> [more…] --out <dir>   → transparent lossless WebP per input, same name
  *   … --keep-edge bottom                                       → don't start the fill from that edge (see `cutout`)
+ *   … --page white                                             → the mockup's page is plain white, not ivory
  *   npm run art:cutout -- --check                              → lists lesson images without transparency
  *
  * The cutout removes the near-white page background that touches the image edge (a flood fill from the
@@ -22,14 +23,28 @@ const ART_DIR = path.join(__dirname, '..', 'assets', 'lessons');
  * (a coat, a veil, a page; red ≈ blue) and pale mint (#E8F7F1, blue above red) are kept, even where a gap in
  * the outline joins them to the background.
  */
-const isBackground = (r, g, b) => Math.min(r, g, b) >= 236 && r - b >= 4 && r - b <= 16 && g >= b;
+const isIvory = (r, g, b) => Math.min(r, g, b) >= 236 && r - b >= 4 && r - b <= 16 && g >= b;
+
+/**
+ * Some mockups have a plain white page instead (#FDFDFD). `--page white` also removes near-white grey that
+ * touches the edge. Only use it when the drawing has an outline, or its own whites can be reached from the edge.
+ */
+const isWhite = (r, g, b) => Math.min(r, g, b) >= 240 && Math.max(r, g, b) - Math.min(r, g, b) <= 6;
+
+const BACKGROUNDS = {
+  ivory: isIvory,
+  white: (r, g, b) => isIvory(r, g, b) || isWhite(r, g, b),
+};
 
 /**
  * Makes the border-connected background of an RGBA buffer transparent, in place. `skip` lists edges
  * ('top', 'bottom', 'left', 'right') not to start from: use it where the crop cuts through a white part of the
- * drawing (a coat or a page running off the bottom), so that white isn't taken for background.
+ * drawing (a coat or a page running off the bottom), so that white isn't taken for background. `page` names the
+ * mockup's page colour (`BACKGROUNDS`).
  */
-function cutout(rgba, width, height, skip = []) {
+function cutout(rgba, width, height, skip = [], page = 'ivory') {
+  const isBackground = BACKGROUNDS[page];
+  if (!isBackground) throw new Error(`Unknown page colour "${page}" (use ${Object.keys(BACKGROUNDS).join(' or ')})`);
   const removed = new Uint8Array(width * height);
   const queue = [];
   const visit = (x, y) => {
@@ -88,12 +103,12 @@ function ffmpeg(args, input) {
   return r.stdout;
 }
 
-function cutoutFile(input, output, skip = []) {
+function cutoutFile(input, output, skip = [], page = 'ivory') {
   const probe = spawnSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', input]);
   const [width, height] = String(probe.stdout).trim().split(',').map(Number);
   if (!width || !height) throw new Error(`Can't read the size of ${input}`);
   const rgba = ffmpeg(['-i', input, '-f', 'rawvideo', '-pix_fmt', 'rgba', '-']);
-  cutout(rgba, width, height, skip);
+  cutout(rgba, width, height, skip, page);
   ffmpeg(['-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', `${width}x${height}`, '-i', '-', '-c:v', 'libwebp', '-lossless', '1', output], rgba);
   return { width, height };
 }
@@ -131,17 +146,21 @@ function main(argv) {
   const out = outAt === -1 ? null : args[outAt + 1];
   const skipAt = args.indexOf('--keep-edge');
   const skip = skipAt === -1 ? [] : args[skipAt + 1].split(',');
+  const pageAt = args.indexOf('--page');
+  const page = pageAt === -1 ? 'ivory' : args[pageAt + 1];
   // Option values aren't inputs. Only skip a value index when its option is present (else -1 + 1 would drop input 0).
-  const optionValues = [outAt, skipAt].filter((at) => at !== -1).map((at) => at + 1);
+  const optionValues = [outAt, skipAt, pageAt].filter((at) => at !== -1).map((at) => at + 1);
   const inputs = args.filter((a, i) => !a.startsWith('--') && !optionValues.includes(i));
-  if (!out || !inputs.length) {
-    console.error('Usage: npm run art:cutout -- <image> [more…] --out <dir> [--keep-edge bottom,left]   |   npm run art:cutout -- --check');
+  if (!out || !inputs.length || !BACKGROUNDS[page]) {
+    console.error(
+      'Usage: npm run art:cutout -- <image> [more…] --out <dir> [--keep-edge bottom,left] [--page ivory|white]   |   npm run art:cutout -- --check',
+    );
     return 2;
   }
   fs.mkdirSync(out, { recursive: true });
   for (const input of inputs) {
     const target = path.join(out, path.basename(input).replace(/\.\w+$/, '.webp'));
-    const { width, height } = cutoutFile(input, target, skip);
+    const { width, height } = cutoutFile(input, target, skip, page);
     console.log(`${target}  ${width}×${height}`);
   }
   return 0;

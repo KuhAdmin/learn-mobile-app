@@ -944,3 +944,133 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - We finished half the cake before lunch. _(focus: half the)_
   - My first two attempts at the puzzle failed. _(focus: My first two)_
 
+### 1.5.1 Introduction to Adjectives
+
+- **Pages:** Words That Paint the Picture · Questions Adjectives Answer · Two Quick Adjective Tests · Before the Noun or After the Verb · Adjectives Never Go Plural · The Adjective Family · Adjectives: Recap
+- **Key takeaways:** Adjectives help us picture the noun. · Adjectives answer what kind. · Try 'very ___' to test for an adjective. · Adjectives sit before nouns or after is. · Shy owls, never shys owls. · Adjectives come in several kinds. · Find adjectives by what they tell you.
+- **Example sentences:**
+  - A fluffy grey kitten slept on the warm windowsill. _(focus: fluffy, grey, warm)_
+  - The rasam was very salty. _(focus: salty)_
+  - Grandpa told us a funny story.
+  - Grandpa's story was funny.
+  - One shy owl and three shy owls peered down at us. _(focus: shy)_
+
+### 1.5.2 Descriptive Adjectives
+
+- **Pages:** Adjectives of Quality · Sorting by Meaning · Opinion or Fact? · Strong Adjectives · Say It Precisely · Descriptive Adjectives: Recap
+- **Key takeaways:** Descriptive adjectives tell what something is like. · Group adjectives by what they describe. · Beautiful is an opinion; round is a fact. · Strong adjectives already mean 'very'. · Swap nice for a word that shows more. · Pick the adjective that paints the clearest picture.
+- **Example sentences:**
+  - A noisy green parrot landed on the mango tree. _(focus: noisy, green)_
+  - The concert hall is beautiful.
+  - The concert hall is round.
+  - The water in the mountain stream was freezing. _(focus: freezing)_
+  - The biryani smelled fragrant and tasted spicy. _(focus: fragrant, spicy)_
+
+### 1.5.3 Determiners With Adjective Names
+
+- **Pages:** Old Names for Familiar Words · Six Old Names · Why They Look Like Adjectives · Describing Word or Determiner? · Naming Them in a Sentence · Old Names: Recap
+- **Key takeaways:** Some determiners have adjective names. · Six names, all for words you know from Chapter 1.4. · They sit before a noun and add information. · Very ripe, but never very several. · Name each word before the noun. · Know the old names; you already know the words.
+- **Example sentences:**
+  - Which two kites belong to your cousins? _(focus: Which, two, your)_
+  - My sister picked several juicy guavas. _(focus: My, several)_
+  - We bought ripe papayas.
+  - We bought several papayas.
+  - Every student brought their own steel tiffin. _(focus: Every, their)_
+
+### 1.5.9 Proper Adjectives
+
+- **Pages:** Adjectives From Names · From Place to Adjective · Common Endings · Always a Capital Letter · A Place Name Before a Noun · Proper Adjectives: Recap
+- **Key takeaways:** Proper adjectives come from proper nouns. · Each place name has its own adjective. · Look for -an, -ese, -i and -ish. · Indian, not indian. · Darjeeling tea: a name used as a describing word. · Names make adjectives, and keep their capitals.
+- **Example sentences:**
+  - We slurped Japanese noodles at the food fair. _(focus: Japanese)_
+  - My aunt teaches Italian cooking. _(focus: Italian)_
+  - The Punjabi wedding lasted three days. _(focus: Punjabi)_
+  - We bought Kashmiri shawls in Srinagar. _(focus: Kashmiri)_
+  - Darjeeling tea is famous around the world. _(focus: Darjeeling tea)_
+
+### 1.5.10 Compound Adjectives
+
+- **Pages:** Two Words, One Adjective · Common Patterns · Describing How People Look · Numbers With No -s · Hyphens or Separate Words? · Compound Adjectives: Recap
+- **Key takeaways:** Compound adjectives join words with hyphens. · Several patterns make compound adjectives. · Curly-haired, blue-eyed, long-legged. · A ten-year-old girl, never ten-years-old. · Hyphens before the noun, not after the verb. · Join the words, hyphen them, keep the number noun singular.
+- **Example sentences:**
+  - Ruskin Bond is a well-known writer. _(focus: well-known)_
+  - A curly-haired girl won the spelling quiz. _(focus: curly-haired)_
+  - Our school organised a three-day camp. _(focus: three-day)_
+  - It is a five-minute walk to the park. _(focus: five-minute)_
+  - Meena has a twelve-year-old brother.
+  - Meena's brother is twelve years old.
+
+### 1.5.11 Participial Adjectives
+
+- **Pages:** Adjectives That End in -ing and -ed · -ing: What Causes the Feeling · -ed: How Someone Feels · Common Pairs · Boring or Bored? · Broken, Frozen, Fallen · -ing and -ed Adjectives: Recap
+- **Key takeaways:** Some adjectives end in -ing or -ed. · -ing describes the cause. · -ed describes the feeling. · Most feeling words come in -ing/-ed pairs. · A film is boring; you feel bored. · Past forms such as broken can describe nouns. · Cause takes -ing; feeling takes -ed.
+- **Example sentences:**
+  - The thrilling final left the whole stadium thrilled. _(focus: thrilling, thrilled)_
+  - The puppet show was amusing. _(focus: amusing)_
+  - The children were amused by the puppets. _(focus: amused)_
+  - The long speech was boring.
+  - The audience felt bored.
+  - A fallen tree blocked the hill road. _(focus: fallen)_
+  - Mum keeps frozen peas for quick meals. _(focus: frozen)_
+
+### 1.5.12 Attributive and Predicative Adjectives
+
+- **Pages:** Two Homes for an Adjective · Attributive: Before the Noun · Predicative: After a Linking Verb · Only After the Verb · Only Before the Noun · Adjective Positions: Recap
+- **Key takeaways:** Adjectives sit before a noun or after a verb. · Attributive adjectives come before the noun. · Predicative adjectives come after the linking verb. · The baby is asleep; not the asleep baby. · The main gate, not the gate is main. · Know which adjectives go where.
+- **Example sentences:**
+  - The sleepy kitten looked content. _(focus: sleepy, content)_
+  - We waded into the chilly sea. _(focus: chilly)_
+  - The dal tastes smoky. _(focus: smoky)_
+  - The sky became stormy by evening. _(focus: stormy)_
+  - The baby is asleep in her cot. _(focus: asleep)_
+  - The main gate closes at eight. _(focus: main)_
+
+### 1.5.13 Adjective Position and Order
+
+- **Pages:** Lining Up Adjectives · The Usual Order · Opinion Before Fact · Size, Age, Colour · Something Spicy · Adjective Order: Recap
+- **Key takeaways:** Several adjectives follow a natural order. · Opinion, size, age, shape, colour, origin, material, purpose. · What you think comes before what anyone can see. · Small old blue, not blue old small. · Something spicy, not spicy something. · Line adjectives up in the natural order.
+- **Example sentences:**
+  - She wore a lovely long silk dupatta. _(focus: lovely, long, silk)_
+  - We found a beautiful round pebble on the shore. _(focus: beautiful round)_
+  - Grandpa drives a small old blue car. _(focus: small old blue)_
+  - Let's cook something spicy tonight. _(focus: something spicy)_
+
+### 1.5.14 Adjectives Followed by Prepositions
+
+- **Pages:** Adjectives With Partners · Pairs to Remember · Proud Of, Good At · Angry With or Angry About? · An -ing Verb After the Pair · Adjective Partners: Recap
+- **Key takeaways:** Learn each adjective with its preposition. · Each adjective has its own preposition. · Proud of, good at. · Angry with someone, about something. · Good at swimming, not good at swim. · Learn the adjective and its preposition together.
+- **Example sentences:**
+  - My little brother is afraid of thunder. _(focus: afraid of)_
+  - Nani is proud of her rose garden. _(focus: proud of)_
+  - Leela is good at chess. _(focus: good at)_
+  - Mum was angry with my brother.
+  - Mum was angry about the broken vase.
+  - Arjun is interested in collecting coins. _(focus: interested in collecting)_
+
+### 1.5.15 Adjective Formation
+
+- **Pages:** Building Adjectives · Full Of or Without? · More Adjective Endings · When the Spelling Changes · Opposites With Un-, Im- and Dis- · Adjective Building: Recap
+- **Key takeaways:** Endings can turn words into adjectives. · -ful means full of; -less means without. · Many endings build adjectives. · Check the spelling when you add an ending. · Un-, in-, im- and dis- make opposites. · Know the ending and you can build the adjective.
+- **Example sentences:**
+  - Colourful kites made the sky look cheerful. _(focus: Colourful, cheerful)_
+  - The puppy was playful all morning.
+  - The homeless kitten found a kind family.
+  - It was a sunny morning in Ooty. _(focus: sunny)_
+  - The young singer became famous overnight. _(focus: famous)_
+  - It was unkind to laugh at his drawing. _(focus: unkind)_
+  - Climbing that slippery wall is impossible. _(focus: impossible)_
+
+### 1.5.16 Adjective Usage and Common Errors
+
+- **Pages:** Spot and Fix Adjective Mistakes · No -s on Adjectives · Not Ten-Years-Old · Capital Letters for Proper Adjectives · Bored or Boring? · The Right Preposition · Adjectives in the Wrong Order · Asleep Comes After the Verb · Something Nice, Not Nice Something · Adjective Mistake Checklist
+- **Key takeaways:** Adjective mistakes come in three kinds. · Red apples, never reds apples. · A ten-year-old boy, with no -s. · Adjectives from names keep their capital. · People feel bored; things are boring. · Good at, afraid of, interested in. · Opinion, size, age, shape, colour, origin, material. · The baby is asleep; the sleeping baby. · Something nice, someone kind. · Check your adjectives before you finish.
+- **Example sentences:**
+  - We picked some reds apples.
+  - He is a ten-years-old boy.
+  - We tried some tibetan momos.
+  - The film was so long that I was boring.
+  - My sister is good in painting.
+  - Dad bought a plastic new bucket.
+  - Don't wake the asleep baby.
+  - Let's buy a nice something for Mum.
+
