@@ -1,0 +1,773 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-2-16",
+    "title": "Formation of Adverbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Formation of Adverbs",
+    "lesson_summary": "Most adverbs are built by adding -ly to an adjective. Learners apply the spelling changes (-y to -ily, -le to -ly, -ll to -lly, -ic to -ically, true to truly), use the endings -wards and -wise, and recognise adverbs that have no ending at all. Comparative adverbs are left to Stage 5.2; adjectives ending in -ly were covered in 2-2-15.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Build adverbs with -ly and spell them correctly.",
+        "success_criteria": [
+          "Spell happily, gently, fully and basically."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use the endings -wards and -wise.",
+        "success_criteria": [
+          "Use backwards and clockwise."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise adverbs with no ending.",
+        "success_criteria": [
+          "Name adverbs like soon and often.",
+          "Use well for good."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Adding -ly",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "-wards and -wise",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "No Ending",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Building Adverbs",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Most adverbs are made by adding -ly to an adjective."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The sea was calm, and the boat moved calmly.",
+              "highlight": [
+                "calm",
+                "calmly"
+              ],
+              "explanation": "The adjective calm becomes the adverb calmly."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Adjective + -ly makes most adverbs.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 33,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Just Add -ly",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "For most adjectives, add -ly:",
+          "list_style": "bulleted",
+          "items": [
+            "quick → quickly",
+            "sudden → suddenly",
+            "brave → bravely",
+            "polite → politely",
+            "careless → carelessly"
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Keep the e",
+          "text": "Words ending in -e usually keep it: brave → bravely."
+        }
+      ],
+      "key_takeaway": "Most adjectives just add -ly.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 31,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Y Becomes I",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "list",
+          "introduction": "When an adjective ends in a consonant + y:",
+          "list_style": "bulleted",
+          "items": [
+            "happy → happily",
+            "easy → easily",
+            "lucky → luckily",
+            "angry → angrily",
+            "busy → busily"
+          ]
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The puppy wagged its tail happily.",
+              "highlight": [
+                "happily"
+              ],
+              "explanation": "Happy changes y to i before -ly."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Consonant + y: change y to i, add -ly.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 36,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Endings That Change",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "-le → -ly: gentle → gently, simple → simply",
+            "-ll → -lly: full → fully",
+            "-ic → -ically: basic → basically, tragic → tragically",
+            "true → truly (the e goes)"
+          ]
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "note",
+          "title": "One exception",
+          "text": "Public → publicly, not publically."
+        }
+      ],
+      "key_takeaway": "Watch -le, -ll, -ic and true.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "-wards Shows Direction",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "text",
+          "text": "The ending -wards (or -ward) makes adverbs of direction."
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The car rolled backwards down the slope.",
+              "highlight": [
+                "backwards"
+              ],
+              "explanation": "Backwards means towards the back."
+            },
+            {
+              "sentence": "After the match, the fans headed homewards.",
+              "highlight": [
+                "homewards"
+              ],
+              "explanation": "Homewards means towards home."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "note",
+          "title": "More",
+          "text": "upwards, downwards, forwards, onwards"
+        }
+      ],
+      "key_takeaway": "-wards means in that direction.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "-wise for Direction or Manner",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "text",
+          "text": "The ending -wise can mean \"in the direction of\" or \"in the way of\"."
+        },
+        {
+          "block_id": "BLOCK013",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Turn the lid clockwise to close the jar.",
+              "highlight": [
+                "clockwise"
+              ],
+              "explanation": "Clockwise means the way the hands of a clock move."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK014",
+          "type": "note",
+          "title": "More",
+          "text": "Anticlockwise is the opposite direction. Likewise means in the same way."
+        }
+      ],
+      "key_takeaway": "Clockwise: the way a clock turns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 56,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Adverbs With No Ending",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "text",
+          "text": "Many common adverbs have no special ending: soon, often, here, very, never. A few have the same form as their adjective (2-2-15), and good becomes well."
+        },
+        {
+          "block_id": "BLOCK016",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The guests will arrive soon.",
+              "highlight": [
+                "soon"
+              ],
+              "explanation": "Soon is an adverb of time with no ending."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Some adverbs are not built from anything.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Building Adverbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK017",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Most adjectives add -ly.",
+            "happy → happily; gentle → gently; full → fully.",
+            "basic → basically; true → truly.",
+            "-wards and -wise show direction or manner.",
+            "Some adverbs have no ending; good → well."
+          ]
+        }
+      ],
+      "key_takeaway": "Know the rule, then the changes.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the adverb of easy: 'She solved the riddle ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "easily"
+          ]
+        }
+      ],
+      "explanation": "Easy ends in a consonant + y, so y changes to i before -ly."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which spelling is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "gently"
+        },
+        {
+          "option_id": "B",
+          "text": "gentlely"
+        },
+        {
+          "option_id": "C",
+          "text": "gentley"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Adjectives ending in -le change -le to -ly."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which spelling is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "basically"
+        },
+        {
+          "option_id": "B",
+          "text": "basicly"
+        },
+        {
+          "option_id": "C",
+          "text": "basicaly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Adjectives ending in -ic usually add -ally."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word means 'towards the back'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "backwards"
+        },
+        {
+          "option_id": "B",
+          "text": "clockwise"
+        },
+        {
+          "option_id": "C",
+          "text": "likewise"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The ending -wards shows direction."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word describes the way the hands of a clock move?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "clockwise"
+        },
+        {
+          "option_id": "B",
+          "text": "anticlockwise"
+        },
+        {
+          "option_id": "C",
+          "text": "homewards"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Clockwise means in the direction a clock's hands turn."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which adverb is not made from an adjective with -ly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "often"
+        },
+        {
+          "option_id": "B",
+          "text": "quietly"
+        },
+        {
+          "option_id": "C",
+          "text": "angrily"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Often has no ending; quietly and angrily are built with -ly."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "What is the adverb of good?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "well"
+        },
+        {
+          "option_id": "B",
+          "text": "goodly"
+        },
+        {
+          "option_id": "C",
+          "text": "goodily"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Good becomes well."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "To make an adverb from 'happy', change y to i and add -ly.",
+      "correct_answer": true,
+      "explanation": "Happy becomes happily."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the adverb of true: 'Yours ___, Asha.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "truly"
+          ]
+        }
+      ],
+      "explanation": "True drops its e: truly."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which spelling is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "fully"
+        },
+        {
+          "option_id": "B",
+          "text": "fuly"
+        },
+        {
+          "option_id": "C",
+          "text": "fullly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Full adds only -y: fully."
+    },
+    {
+      "question_id": "Q011",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the adverb of simple: 'Please explain it ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "simply"
+          ]
+        }
+      ],
+      "explanation": "Simple changes -le to -ly."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word ends with a suffix that shows direction?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "upwards"
+        },
+        {
+          "option_id": "B",
+          "text": "gently"
+        },
+        {
+          "option_id": "C",
+          "text": "luckily"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The ending -wards shows direction."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check -ly Spelling",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check -wards and -wise",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Adverbs With No Ending",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Building Adverbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Comparative and superlative adverbs",
+        "reason": "Taught in Stage 5.2.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Adjectives ending in -ly and one-form words",
+        "reason": "Taught in 2-2-15 Adverbs vs Adjectives.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Adjective suffixes",
+        "reason": "Taught in 1-5-15 Adjective Formation.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

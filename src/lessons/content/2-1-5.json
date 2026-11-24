@@ -1,0 +1,586 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-5",
+    "title": "Transitive and Intransitive Verbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Transitive and Intransitive Verbs",
+    "lesson_summary": "Learners tell transitive verbs, whose action passes to an object (ask what? or whom?), from intransitive verbs, which are complete without one and may be followed by a place or time phrase. They meet verbs that can be used both ways. Direct and indirect objects are taught in Stage 2.4, and the passive voice in Stage 3.4.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Tell transitive from intransitive verbs.",
+        "success_criteria": [
+          "Find the object with what? or whom?",
+          "Recognise verbs that need no object."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Recognise verbs that can be both.",
+        "success_criteria": [
+          "Explain 'reading a comic' and 'reading in his room'."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 10,
+    "total_pages": 5
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Object or No Object",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Verbs That Can Be Both",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Does the Action Pass On?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some verbs need an object to finish their meaning. Others are complete on their own."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Kavya bought a kite, and her brother laughed.",
+              "highlight": [
+                "bought",
+                "laughed"
+              ],
+              "explanation": "Bought needs an object (a kite); laughed is complete without one."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Some verbs need an object; some don't.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Transitive: The Action Passes On",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "A transitive verb needs an object. Ask the verb what? or whom? The answer is the object.",
+          "scope": "Verbs with objects",
+          "examples": [
+            {
+              "sentence": "The cat caught a moth.",
+              "highlight": [
+                "caught"
+              ],
+              "explanation": "Caught what? A moth, so caught is transitive."
+            },
+            {
+              "sentence": "Our coach praised the whole team.",
+              "highlight": [
+                "praised"
+              ],
+              "explanation": "Praised whom? The whole team, so praised is transitive."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Ask what? or whom? to find the object.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Intransitive: Complete on Its Own",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "An intransitive verb has no object. A place or time phrase may follow it, but that phrase is not an object."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The train arrived at platform two.",
+              "highlight": [
+                "arrived"
+              ],
+              "explanation": "Arrived needs no object; 'at platform two' only tells where."
+            },
+            {
+              "sentence": "Everyone in the hall clapped.",
+              "highlight": [
+                "clapped"
+              ],
+              "explanation": "Clapped is complete without an object."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Intransitive verbs stand without an object.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Verbs That Can Be Both",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "With an object",
+              "description": "Transitive use.",
+              "example": "Ravi is reading a comic."
+            },
+            {
+              "label": "Without an object",
+              "description": "Intransitive use.",
+              "example": "Ravi is reading in his room."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, a comic answers 'reading what?'",
+            "In the second, nothing answers what?; 'in his room' only tells where."
+          ],
+          "conclusion": "Some verbs, like read, eat and win, can be used either way."
+        }
+      ],
+      "key_takeaway": "Read, eat and win can take an object or not.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Transitive and Intransitive: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Transitive verbs need an object: ask what? or whom?",
+            "Intransitive verbs are complete without one.",
+            "A place or time phrase is not an object.",
+            "Some verbs can be used both ways."
+          ]
+        }
+      ],
+      "key_takeaway": "Check whether the action passes to an object.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which verb needs an object?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "carry"
+        },
+        {
+          "option_id": "B",
+          "text": "sleep"
+        },
+        {
+          "option_id": "C",
+          "text": "arrive"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We carry something, so carry needs an object."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the object of the verb in: 'The goat nibbled my sandal.'",
+      "target": "The word that answers 'nibbled what?'",
+      "accepted_answers": [
+        "sandal",
+        "my sandal"
+      ],
+      "explanation": "Nibbled what? My sandal, so sandal is the object."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence has an intransitive verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The guests arrived at noon."
+        },
+        {
+          "option_id": "B",
+          "text": "The guests brought sweets."
+        },
+        {
+          "option_id": "C",
+          "text": "The guests waved goodbye to us."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Arrived has no object; 'at noon' only tells when."
+    },
+    {
+      "question_id": "Q004",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'The baby smiled at me', me is the object of smiled.",
+      "correct_answer": false,
+      "explanation": "Smiled is intransitive; me comes after the preposition at, not straight after the verb."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In which sentence is eat transitive?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We ate dosas for breakfast."
+        },
+        {
+          "option_id": "B",
+          "text": "We ate at a roadside café."
+        },
+        {
+          "option_id": "C",
+          "text": "We ate quickly and left."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Ate what? Dosas, so here eat has an object."
+    },
+    {
+      "question_id": "Q006",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Some verbs, like win, can be used with or without an object.",
+      "correct_answer": true,
+      "explanation": "We can say 'We won the cup' or just 'We won'."
+    },
+    {
+      "question_id": "Q007",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the transitive verb in: 'Leela opened the window and sneezed.'",
+      "target": "The verb that has an object.",
+      "accepted_answers": [
+        "opened"
+      ],
+      "explanation": "Opened what? The window. Sneezed has no object."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What is the object in 'The mechanic repaired our scooter'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "our scooter"
+        },
+        {
+          "option_id": "B",
+          "text": "The mechanic"
+        },
+        {
+          "option_id": "C",
+          "text": "repaired"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Repaired what? Our scooter."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which verb is usually intransitive?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "fall"
+        },
+        {
+          "option_id": "B",
+          "text": "push"
+        },
+        {
+          "option_id": "C",
+          "text": "borrow"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We don't fall something; fall is complete without an object."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Match each verb with how it is used.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "sneeze"
+        },
+        {
+          "item_id": "L2",
+          "text": "borrow"
+        },
+        {
+          "item_id": "L3",
+          "text": "read"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "can be both"
+        },
+        {
+          "item_id": "R2",
+          "text": "no object"
+        },
+        {
+          "item_id": "R3",
+          "text": "needs an object"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "We just sneeze, we borrow something, and we can read with or without an object."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'Dad fixed the leaking tap', the leaking tap is the object of fixed.",
+      "correct_answer": true,
+      "explanation": "Fixed what? The leaking tap."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Object or No Object",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003",
+          "Q004"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Verbs That Can Be Both",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q005",
+          "Q006"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Transitive and Intransitive: Final Check",
+      "question_ids": [
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The object of a sentence",
+        "reason": "Taught in 1.1.6; recalled here.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Direct and indirect objects",
+        "reason": "Introduced in 1-2-13; taught in depth in Stage 2.4.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Passive voice",
+        "reason": "Taught in Stage 3.4.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

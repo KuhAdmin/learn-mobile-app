@@ -1,0 +1,660 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-6",
+    "title": "Regular and Irregular Verbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Regular and Irregular Verbs",
+    "lesson_summary": "Learners meet the three key forms of a verb: base, past and past participle (the form after has or have). Regular verbs add -ed, with spelling changes (hoped, carried, stopped). Irregular verbs follow three patterns: all forms the same (cut), two the same (buy, bought, bought) or all different (sing, sang, sung). Using the past tenses is taught in Stage 3.1; -s and -ing spellings in 2-1-9.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Form the past of regular verbs.",
+        "success_criteria": [
+          "Add -ed.",
+          "Spell hoped, carried and stopped correctly."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Recognise irregular verbs and their forms.",
+        "success_criteria": [
+          "Name the three irregular patterns.",
+          "Give the past and past participle of common irregular verbs."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 7
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Regular Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Irregular Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Three Forms of Every Verb",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Every verb has three key forms: the base, the past, and the past participle that comes after has or have."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I often swim here, I swam yesterday, and I have swum here since May.",
+              "highlight": [
+                "swim",
+                "swam",
+                "swum"
+              ],
+              "explanation": "Swim is the base, swam the past, and swum the past participle after have."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Base, past, past participle.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Three Key Forms",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Base: walk, sing",
+            "Past: walked, sang",
+            "Past participle (after has or have): walked, sung"
+          ]
+        }
+      ],
+      "key_takeaway": "Learn each verb in three forms.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 22,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Regular Verbs Add -ed",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Regular verbs add -ed to make both the past and the past participle.",
+          "scope": "Regular verbs",
+          "examples": [
+            {
+              "sentence": "Grandpa fixed the wall clock.",
+              "highlight": [
+                "fixed"
+              ],
+              "explanation": "Fix + ed makes the past fixed."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Regular verbs add -ed.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 25,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Spelling Changes With -ed",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Ends in e: add only -d (hope → hoped)",
+            "Consonant + y: change y to i (carry → carried)",
+            "Short word ending in one vowel + one consonant: double it (stop → stopped)"
+          ]
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The bus stopped and we hurried on board.",
+              "highlight": [
+                "stopped",
+                "hurried"
+              ],
+              "explanation": "Stop doubles its p; hurry changes y to i."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Watch the spelling when you add -ed.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Three Kinds of Irregular Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "introduction": "Irregular verbs don't add -ed. They follow three patterns:",
+          "list_style": "bulleted",
+          "items": [
+            "All three the same: cut, cut, cut",
+            "Two the same: buy, bought, bought",
+            "All different: sing, sang, sung"
+          ]
+        }
+      ],
+      "key_takeaway": "Irregular verbs must be learned by heart.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Irregular Verbs in Sentences",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Use the past on its own, and the past participle after has or have."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The choir sang three songs last night.",
+              "highlight": [
+                "sang"
+              ],
+              "explanation": "Sang is the past of sing."
+            },
+            {
+              "sentence": "Mum has bought fresh marigolds.",
+              "highlight": [
+                "has bought"
+              ],
+              "explanation": "Bought is the past participle of buy, after has."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Past alone; past participle after has.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Regular and Irregular: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Three forms: base, past, past participle.",
+            "Regular verbs add -ed: hoped, carried, stopped.",
+            "Irregular: cut-cut-cut, buy-bought-bought, sing-sang-sung.",
+            "The past participle follows has or have."
+          ]
+        }
+      ],
+      "key_takeaway": "Add -ed, or learn the irregular form.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What is the past of carry?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "carried"
+        },
+        {
+          "option_id": "B",
+          "text": "carryed"
+        },
+        {
+          "option_id": "C",
+          "text": "carred"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Consonant + y changes y to i before -ed: carried."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What is the past of stop?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "stopped"
+        },
+        {
+          "option_id": "B",
+          "text": "stoped"
+        },
+        {
+          "option_id": "C",
+          "text": "stopt"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Stop is short and ends in one vowel + one consonant, so the p doubles."
+    },
+    {
+      "question_id": "Q003",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the past of smile: 'The baby ___ at me.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "smiled"
+          ]
+        }
+      ],
+      "explanation": "Smile ends in e, so we add only -d: smiled."
+    },
+    {
+      "question_id": "Q004",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Regular verbs use the same -ed form for the past and the past participle.",
+      "correct_answer": true,
+      "explanation": "Walk becomes walked in both: I walked; I have walked."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What are the three forms of go?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "go, went, gone"
+        },
+        {
+          "option_id": "B",
+          "text": "go, goed, goed"
+        },
+        {
+          "option_id": "C",
+          "text": "go, went, went"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Go is irregular with all three forms different."
+    },
+    {
+      "question_id": "Q006",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Write the past of buy: 'We ___ mangoes at the market.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "bought"
+          ]
+        }
+      ],
+      "explanation": "Buy is irregular: buy, bought, bought."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which verb is irregular?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "write"
+        },
+        {
+          "option_id": "B",
+          "text": "jump"
+        },
+        {
+          "option_id": "C",
+          "text": "walk"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Write becomes wrote and written, not writed."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which verb has all three forms the same?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "put"
+        },
+        {
+          "option_id": "B",
+          "text": "sing"
+        },
+        {
+          "option_id": "C",
+          "text": "buy"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Put, put, put: all three forms are the same."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Write the past participle of sing: 'The choir has ___ this song before.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "sung"
+          ]
+        }
+      ],
+      "explanation": "Sing, sang, sung: sung follows has."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Match each verb with its past.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "swim"
+        },
+        {
+          "item_id": "L2",
+          "text": "think"
+        },
+        {
+          "item_id": "L3",
+          "text": "write"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "wrote"
+        },
+        {
+          "item_id": "R2",
+          "text": "swam"
+        },
+        {
+          "item_id": "R3",
+          "text": "thought"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Swim becomes swam, think becomes thought, and write becomes wrote."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Every verb adds -ed to make its past.",
+      "correct_answer": false,
+      "explanation": "Only regular verbs add -ed. Irregular verbs such as sing and buy change in other ways."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Regular Verbs",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003",
+          "Q004"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Irregular Verbs",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q005",
+          "Q006"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Regular and Irregular Verbs: Final Check",
+      "question_ids": [
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Using the past tenses",
+        "reason": "Taught in Stage 3.1 Tenses.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "-s and -ing spellings",
+        "reason": "Taught in 2-1-9 Verb Forms.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Past participles as adjectives (broken, frozen)",
+        "reason": "Taught in 1-5-11.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

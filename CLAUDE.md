@@ -24,6 +24,9 @@ Tooling and Expo rules are in `AGENTS.md`. This file holds product rules that ev
    - the final assessment is missing, or
    - a question is used more than once.
    Fix the content JSON; don't relax the check.
+7. **Answer options are shuffled on screen.** Generated lessons put the right answer first, so the player shows multiple-choice options, and match-the-pair answers, in a new order each attempt (`src/lessons/option-order.ts`). Letters follow the shown order.
+   - The option order in the content doesn't matter, so don't reorder JSON to fix it.
+   - Never write an option, prompt or explanation that depends on position ("all of the above", "both A and B", "option C"). `option-order.test.ts` fails on them.
 
 Schema 1.0 lessons (`1.1.1.EP001`) have no learning dimensions, only a final quiz, so rules 1 and 3 can't apply to them.
 

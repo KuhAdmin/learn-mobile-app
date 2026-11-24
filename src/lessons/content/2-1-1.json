@@ -1,0 +1,655 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-1",
+    "title": "Introduction to Verbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Introduction to Verbs",
+    "lesson_summary": "Learners already know that a verb shows an action or a state (1.1.2). This lesson shows that every sentence needs a verb, gives two ways to find it (ask what the subject does or is; change the time and see which word changes), shows that a verb can be more than one word, and previews the kinds of verbs in this chapter.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Explain that every sentence needs a verb.",
+        "success_criteria": [
+          "Tell a sentence from a group of words with no verb."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Find the verb in a sentence.",
+        "success_criteria": [
+          "Ask what the subject does or is.",
+          "Find a verb of two words."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Name the main kinds of verbs.",
+        "success_criteria": [
+          "Match a verb with its kind."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 11,
+    "total_pages": 6
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Every Sentence Needs a Verb",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Finding the Verb",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Kinds of Verbs",
+      "applicability": "applicable",
+      "status": "introduced",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Engine of a Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "The verb is the engine of a sentence. It tells us what happens, or what is true."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The ferry leaves at noon.",
+              "highlight": [
+                "leaves"
+              ],
+              "explanation": "Leaves tells us what the ferry does."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The verb drives the sentence.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "No Verb, No Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Missing a verb",
+              "description": "We can't tell what happened.",
+              "example": "The kites over the beach."
+            },
+            {
+              "label": "With a verb",
+              "description": "Now the words make a sentence.",
+              "example": "The kites soared over the beach."
+            }
+          ],
+          "comparison_points": [
+            "In the first group of words, nothing happens.",
+            "In the second, soared tells us what the kites did."
+          ],
+          "conclusion": "Every complete sentence needs at least one verb."
+        }
+      ],
+      "key_takeaway": "No verb, no sentence.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "How to Find the Verb",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Ask what the subject does or is. Or say the sentence about yesterday: the word that changes is the verb.",
+          "scope": "Sentences with one verb",
+          "examples": [
+            {
+              "sentence": "Grandma knits scarves every winter.",
+              "highlight": [
+                "knits"
+              ],
+              "explanation": "Grandma knits; about yesterday it becomes knitted."
+            },
+            {
+              "sentence": "Our neighbour is a firefighter.",
+              "highlight": [
+                "is"
+              ],
+              "explanation": "Is tells us what our neighbour is; about the past it becomes was."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The verb is the word that changes with time.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Verbs With More Than One Word",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Sometimes the verb is two or three words: a helping verb and a main verb together."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The baby is giggling at the puppy.",
+              "highlight": [
+                "is giggling"
+              ],
+              "explanation": "Is and giggling work together as one verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A verb can be more than one word.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Verb Family",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "introduction": "This chapter meets each kind in turn:",
+          "list_style": "bulleted",
+          "items": [
+            "Main and helping: has finished",
+            "Action and state: jump, know",
+            "Linking: seem, become",
+            "With or without an object: buy a kite, arrive",
+            "Regular and irregular: walked, swam",
+            "Finite and non-finite: walks, to walk",
+            "Patterns: enjoy reading, want to go",
+            "Phrasal: give up, look after"
+          ]
+        }
+      ],
+      "key_takeaway": "Verbs come in several kinds.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Verbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Every sentence needs a verb.",
+            "Ask what the subject does or is.",
+            "The verb changes when the time changes.",
+            "A verb can be more than one word.",
+            "There are several kinds, each with its own lesson."
+          ]
+        }
+      ],
+      "key_takeaway": "Find the verb first, then the rest makes sense.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which group of words is a full sentence?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The tiger prowled through the grass."
+        },
+        {
+          "option_id": "B",
+          "text": "The tiger through the tall grass."
+        },
+        {
+          "option_id": "C",
+          "text": "Through the tall grass at night."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Only the first has a verb, prowled, so only it is a sentence."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Every complete sentence needs at least one verb.",
+      "correct_answer": true,
+      "explanation": "Without a verb, the words don't say what happens or what is true."
+    },
+    {
+      "question_id": "Q003",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the verb in: 'Our teacher smiled at the class.'",
+      "target": "The word that tells what the teacher did.",
+      "accepted_answers": [
+        "smiled"
+      ],
+      "explanation": "Smiled tells us what the teacher did."
+    },
+    {
+      "question_id": "Q004",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the whole verb (two words) in: 'The plumber is fixing our tap.'",
+      "target": "The helping verb and the main verb together.",
+      "accepted_answers": [
+        "is fixing"
+      ],
+      "explanation": "Is and fixing together make the verb."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Leela paints a mural', which word changes if we talk about yesterday?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "paints"
+        },
+        {
+          "option_id": "B",
+          "text": "mural"
+        },
+        {
+          "option_id": "C",
+          "text": "Leela"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Paints becomes painted, so paints is the verb."
+    },
+    {
+      "question_id": "Q006",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Match each example with its kind of verb.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "has finished"
+        },
+        {
+          "item_id": "L2",
+          "text": "know"
+        },
+        {
+          "item_id": "L3",
+          "text": "give up"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "phrasal verb"
+        },
+        {
+          "item_id": "R2",
+          "text": "helping + main verb"
+        },
+        {
+          "item_id": "R3",
+          "text": "state verb"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Has finished pairs a helper with a main verb, know is a state, and give up is a phrasal verb."
+    },
+    {
+      "question_id": "Q007",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "A verb is always just one word.",
+      "correct_answer": false,
+      "explanation": "A verb can be several words, as in is giggling or has finished."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the verb in: 'The kettle whistled on the stove.'",
+      "target": "The word that tells what the kettle did.",
+      "accepted_answers": [
+        "whistled"
+      ],
+      "explanation": "Whistled tells us what the kettle did."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which group of words is missing a verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The players on the muddy field."
+        },
+        {
+          "option_id": "B",
+          "text": "The players ran onto the field."
+        },
+        {
+          "option_id": "C",
+          "text": "The players cheered loudly."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nothing in the first group tells us what the players did."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'The guests are dancing', which words make the verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "are dancing"
+        },
+        {
+          "option_id": "B",
+          "text": "guests are"
+        },
+        {
+          "option_id": "C",
+          "text": "The guests"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The helping verb are and the main verb dancing work together."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Uncle Sanjay is a pilot', is is the verb.",
+      "correct_answer": true,
+      "explanation": "Is tells us what Uncle Sanjay is, and it would change to was for the past."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word can fill the gap as a verb: 'The monkeys ___ up the tree.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "scrambled"
+        },
+        {
+          "option_id": "B",
+          "text": "branch"
+        },
+        {
+          "option_id": "C",
+          "text": "happy"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Scrambled tells what the monkeys did, so it is a verb."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Sentences Need Verbs",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Finding the Verb",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Kinds of Verbs",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Introduction to Verbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "What a verb is",
+        "reason": "Taught in 1.1.2; recalled here in one line.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Each kind of verb",
+        "reason": "Taught in 2-1-2 to 2-1-12; previewed here.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Tenses",
+        "reason": "Taught in Stage 3.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

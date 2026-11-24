@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
-import { useEffect, useMemo, useReducer, useRef, type ReactNode } from 'react';
+import { useEffect, useMemo, useReducer, useRef, useState, type ReactNode } from 'react';
 import {
   AccessibilityInfo,
   BackHandler,
@@ -21,6 +21,7 @@ import type { TopicRef } from '@/learning-path/progression';
 import { grade } from '@/lessons/answers';
 import { buildSteps, canStepBack, initialLessonFlow, lessonFlowReducer, lessonScore, nextCta } from '@/lessons/lesson-flow';
 import type { Lesson } from '@/lessons/model';
+import { randomSeed } from '@/lessons/option-order';
 import { visualsFor } from '@/lessons/presentation';
 import { bodyBudget } from '@/lessons/screens';
 import { useProgress } from '@/state/progress-context';
@@ -50,6 +51,13 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   const steps = useMemo(() => buildSteps(lesson, visualsFor(lesson.id), budget), [lesson, budget]);
   const reducer = useMemo(() => lessonFlowReducer(steps), [steps]);
   const [state, dispatch] = useReducer(reducer, initialLessonFlow);
+  // One seed per attempt: answer options show in a shuffled order that holds for this attempt and
+  // changes when the lesson is opened again or reviewed.
+  const [seed, setSeed] = useState(randomSeed);
+  const review = () => {
+    setSeed(randomSeed());
+    dispatch({ type: 'restart' });
+  };
   const step = steps[state.index];
   const nextStep = steps[state.index + 1];
   // The step before an assessment offers it by name ("Quick Check", "Take Final Check").
@@ -147,6 +155,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
           number={step.position}
           question={q}
           answer={answer}
+          seed={seed}
           onAnswer={(a) => {
             dispatch({ type: 'answer', questionId: q.id, answer: a });
             // Bring the explanation into view.
@@ -180,7 +189,7 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
     footer = (
       <View style={styles.footerStack}>
         <PrimaryButton label="Back to path" trailingIcon="arrow-right" onPress={finish} />
-        <OutlineButton label="Review lesson" icon="restart" onPress={() => dispatch({ type: 'restart' })} />
+        <OutlineButton label="Review lesson" icon="restart" onPress={review} />
       </View>
     );
   }

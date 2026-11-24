@@ -1,0 +1,738 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-2-6",
+    "title": "Adverbs of Degree",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Adverbs of Degree",
+    "lesson_summary": "Adverbs of degree answer \"how much?\" or \"to what degree?\". Learners order them from a little to completely, place them before an adjective or another adverb, tell too (a problem) from very (a lot), and put enough after the adjective. Intensifiers and downtoners in depth are left to Stage 5.3 and comparison to Stage 5.2.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise and order degree adverbs.",
+        "success_criteria": [
+          "Order slightly, fairly, very and extremely.",
+          "Find what a degree adverb describes."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Choose between too and very.",
+        "success_criteria": [
+          "Use too for a problem and very for a lot."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use enough and so.",
+        "success_criteria": [
+          "Put enough after an adjective.",
+          "Use so for strong feeling."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Degree Words",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Too or Very",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Enough and So",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "How Much?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Adverbs of degree tell us how much, or to what degree."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The tea is extremely hot.",
+              "highlight": [
+                "extremely"
+              ],
+              "explanation": "Extremely tells how hot the tea is."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Degree adverbs tell how much.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "From a Little to a Lot",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "From weaker to stronger:",
+          "list_style": "bulleted",
+          "items": [
+            "slightly, a bit – a little",
+            "fairly, quite – more than a little",
+            "rather – more than expected",
+            "very, really – a lot",
+            "extremely – a great deal",
+            "almost – not quite all the way",
+            "completely, totally – all the way"
+          ]
+        }
+      ],
+      "key_takeaway": "Pick the degree that fits.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 41,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Before an Adjective or Adverb",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "A degree adverb usually comes just before the adjective or adverb it describes."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The maths puzzle was fairly easy.",
+              "highlight": [
+                "fairly"
+              ],
+              "explanation": "Fairly describes the adjective easy."
+            },
+            {
+              "sentence": "Our new ceiling fan runs really quietly.",
+              "highlight": [
+                "really"
+              ],
+              "explanation": "Really describes the adverb quietly."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Degree comes before the word it changes.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 47,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Very or Too?",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Very",
+              "description": "A lot, but still fine.",
+              "example": "The box is very heavy, but I can lift it."
+            },
+            {
+              "label": "Too",
+              "description": "More than is wanted, so there is a problem.",
+              "example": "The box is too heavy for me to lift."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, the box is heavy and the speaker can still lift it.",
+            "In the second, the weight stops the speaker."
+          ],
+          "conclusion": "Use too only when the amount causes a problem."
+        }
+      ],
+      "key_takeaway": "Very is a lot; too is a problem.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 71,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Too Before the Adjective",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "Too goes before an adjective or adverb. A phrase with for or to often follows and names the problem.",
+          "scope": "too + adjective",
+          "examples": [
+            {
+              "sentence": "The river is too cold for a swim.",
+              "highlight": [
+                "too cold"
+              ],
+              "explanation": "Too cold says the cold is a problem; for a swim names it."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Too + adjective, then for or to.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 51,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Enough Comes After",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE008",
+          "rule_text": "As a degree adverb, enough goes after the adjective or adverb.",
+          "scope": "adjective + enough",
+          "examples": [
+            {
+              "sentence": "Is the rope long enough?",
+              "highlight": [
+                "long enough"
+              ],
+              "explanation": "Enough follows the adjective long."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "note",
+          "title": "Before a noun",
+          "text": "Enough chairs, enough rice: before a noun, enough is a quantifier (1-4-11)."
+        }
+      ],
+      "key_takeaway": "Old enough, not enough old.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 47,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "So for Strong Feeling",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "So makes an adjective or adverb stronger and shows feeling. It is common after be."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The sunset was so beautiful!",
+              "highlight": [
+                "so"
+              ],
+              "explanation": "So shows how strongly the speaker feels."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "note",
+          "title": "So or too?",
+          "text": "So is just strong. Too means there is a problem."
+        }
+      ],
+      "key_takeaway": "So adds feeling; too adds a problem.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 51,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Degree Adverbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Degree adverbs answer \"how much?\".",
+            "They go before the adjective or adverb.",
+            "Very is a lot; too is a problem.",
+            "Enough goes after: tall enough.",
+            "So shows strong feeling."
+          ]
+        }
+      ],
+      "key_takeaway": "Choose the strength, then the place.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 31,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adverb of degree in: 'The film was rather long.'",
+      "target": "The word that tells how long.",
+      "accepted_answers": [
+        "rather"
+      ],
+      "explanation": "Rather tells how long the film was: longer than expected."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word shows the strongest degree?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "extremely"
+        },
+        {
+          "option_id": "B",
+          "text": "fairly"
+        },
+        {
+          "option_id": "C",
+          "text": "slightly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Extremely is near the top of the scale."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'She answered really politely.', what does really describe?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The adverb politely"
+        },
+        {
+          "option_id": "B",
+          "text": "The verb answered"
+        },
+        {
+          "option_id": "C",
+          "text": "The pronoun she"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Really tells how politely she answered."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the right word: 'This shirt is ___ small; I can't wear it.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "too"
+        },
+        {
+          "option_id": "B",
+          "text": "very"
+        },
+        {
+          "option_id": "C",
+          "text": "quite"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The size is a problem, so too fits."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "'The hill was very steep, but we reached the top.' What does very show?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "It was steep, but not a problem."
+        },
+        {
+          "option_id": "B",
+          "text": "It was so steep that we gave up."
+        },
+        {
+          "option_id": "C",
+          "text": "It was not steep at all."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Very means a lot, but the climbers still reached the top."
+    },
+    {
+      "question_id": "Q006",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the word order.",
+      "original_sentence": "Are you enough old to drive?",
+      "corrected_sentence": "Are you old enough to drive?",
+      "explanation": "As a degree adverb, enough goes after the adjective."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In which sentence is enough a degree adverb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The water is warm enough for a swim."
+        },
+        {
+          "option_id": "B",
+          "text": "We have enough bread."
+        },
+        {
+          "option_id": "C",
+          "text": "There are enough seats."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Enough comes after the adjective warm. In the other two, it comes before a noun."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Too means more than is wanted.",
+      "correct_answer": true,
+      "explanation": "Too shows that the amount causes a problem."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete with too or enough: 'The ladder isn't tall ___ to reach the roof.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "enough"
+          ]
+        }
+      ],
+      "explanation": "Enough comes after the adjective tall."
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adverb of degree in: 'The bus was almost full.'",
+      "target": "The word that tells how full.",
+      "accepted_answers": [
+        "almost"
+      ],
+      "explanation": "Almost tells how full the bus was: not quite full."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The soup is too hot to eat."
+        },
+        {
+          "option_id": "B",
+          "text": "The soup is hot too to eat."
+        },
+        {
+          "option_id": "C",
+          "text": "The soup is to hot to eat."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Too, spelled with two o's, goes before the adjective hot."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word means 'a little'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "slightly"
+        },
+        {
+          "option_id": "B",
+          "text": "completely"
+        },
+        {
+          "option_id": "C",
+          "text": "extremely"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Slightly is at the weak end of the scale."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Degree Words",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Too and Very",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Enough and So",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Degree Adverbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Enough before a noun",
+        "reason": "Taught in 1-4-11 Quantifiers.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Intensifiers, downtoners and degree modifiers",
+        "reason": "Taught in Stage 5.3 (Modifiers and Emphasis).",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Comparison of adjectives and adverbs",
+        "reason": "Taught in Stage 5.2.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

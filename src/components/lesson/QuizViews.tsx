@@ -5,6 +5,7 @@ import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { AppText } from '@/components/AppText';
 import { expectedText, explanationText, grade, isWordList, type Answer } from '@/lessons/answers';
 import type { Question } from '@/lessons/model';
+import { choiceOrder, matchBankOrder, positionLetter } from '@/lessons/option-order';
 import { keepSuffixes } from '@/lessons/sentence';
 import { borderWidth, colors, fonts, radii, space } from '@/theme/tokens';
 
@@ -35,13 +36,15 @@ interface QuestionCardProps {
   question: Question;
   answer?: Answer;
   onAnswer: (answer: Answer) => void;
+  /** This lesson attempt's seed: options and match answers show in an order derived from it. */
+  seed: number;
 }
 
 /**
  * One question of any type. Choice questions lock on the first tap; typed and matching questions
  * lock when "Check" is pressed. The explanation appears once answered.
  */
-export function QuestionCard({ number, question, answer, onAnswer }: QuestionCardProps) {
+export function QuestionCard({ number, question, answer, onAnswer, seed }: QuestionCardProps) {
   const result = grade(question, answer);
   return (
     <View style={styles.card}>
@@ -53,7 +56,7 @@ export function QuestionCard({ number, question, answer, onAnswer }: QuestionCar
           {keepSuffixes(question.prompt)}
         </AppText>
       </View>
-      <AnswerArea question={question} answer={answer} onAnswer={onAnswer} />
+      <AnswerArea question={question} answer={answer} onAnswer={onAnswer} seed={seed} />
       {answer ? (
         <InfoCard icon={<Lightbulb />} label="Explanation" emphasis style={styles.explanation}>
           <AppText style={styles.explanationText} accessibilityLiveRegion="polite">
@@ -65,17 +68,30 @@ export function QuestionCard({ number, question, answer, onAnswer }: QuestionCar
   );
 }
 
-function AnswerArea({ question, answer, onAnswer }: Required<Pick<QuestionCardProps, 'question' | 'onAnswer'>> & { answer?: Answer }) {
+function AnswerArea({
+  question,
+  answer,
+  onAnswer,
+  seed,
+}: Required<Pick<QuestionCardProps, 'question' | 'onAnswer' | 'seed'>> & { answer?: Answer }) {
   switch (question.type) {
-    case 'multiple_choice':
+    case 'multiple_choice': {
+      // Shuffled, because content usually lists the right answer first. Letters follow the shown order
+      // (A, B, C down the screen), not the content ids.
+      const lettered = question.options.every((o) => o.id.length === 1);
       return (
         <ChoiceList
-          options={question.options.map((o) => ({ id: o.id, text: o.text, letter: o.id.length === 1 ? o.id : undefined }))}
+          options={choiceOrder(question, seed).map((o, i) => ({
+            id: o.id,
+            text: o.text,
+            letter: lettered ? positionLetter(i) : undefined,
+          }))}
           correctId={question.correctIds[0]}
           chosenId={answer?.kind === 'choice' ? answer.id : undefined}
           onChoose={(id) => onAnswer({ kind: 'choice', id })}
         />
       );
+    }
     case 'true_false':
       return (
         <ChoiceList
@@ -93,7 +109,7 @@ function AnswerArea({ question, answer, onAnswer }: Required<Pick<QuestionCardPr
     case 'fill_blank':
       return <TypedAnswer question={question} answer={answer} onAnswer={onAnswer} />;
     case 'match_the_pair':
-      return <MatchPairs question={question} answer={answer} onAnswer={onAnswer} />;
+      return <MatchPairs question={question} answer={answer} onAnswer={onAnswer} seed={seed} />;
     case 'flash_card':
       return <FlashCard question={question} revealed={answer?.kind === 'reveal'} onReveal={() => onAnswer({ kind: 'reveal' })} />;
   }
@@ -254,7 +270,17 @@ type MatchQuestion = Extract<Question, { type: 'match_the_pair' }>;
  * Each left item has a slot. Tap a word below to put it in the highlighted slot; tap a filled slot
  * to empty it. "Check" grades all pairs at once.
  */
-function MatchPairs({ question, answer, onAnswer }: { question: MatchQuestion; answer?: Answer; onAnswer: (a: Answer) => void }) {
+function MatchPairs({
+  question,
+  answer,
+  onAnswer,
+  seed,
+}: {
+  question: MatchQuestion;
+  answer?: Answer;
+  onAnswer: (a: Answer) => void;
+  seed: number;
+}) {
   const [pairs, setPairs] = useState<Record<string, string>>({});
   const [active, setActive] = useState<string | undefined>(question.left[0]?.id);
   const locked = answer?.kind === 'pairs';
@@ -323,7 +349,7 @@ function MatchPairs({ question, answer, onAnswer }: { question: MatchQuestion; a
       {!locked ? (
         <>
           <View style={styles.bank}>
-            {question.right
+            {matchBankOrder(question, seed)
               .filter((r) => !used.has(r.id))
               .map((r) => (
                 <Pressable

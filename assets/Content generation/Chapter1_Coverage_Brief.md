@@ -60,7 +60,7 @@ Each lesson is generated without seeing the others, so new lessons tend to re-te
 
 Do not reuse any sentence, focus word, page title or key takeaway listed below. Build on these lessons instead of re-teaching them.
 
-**Words already shown doing more than one job** (don't demonstrate them that way again): careful, after, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, before, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late, glass, iron, silver, cousins.
+**Words already shown doing more than one job** (don't demonstrate them that way again): careful, after, text, book, play, water, answer, poor, clean, dry, fast, hard, early, inside, before, light, watch, patient, drink, help, dance, brush, plant, empty, straight, since, around, cook, late, glass, iron, silver, cousins, daily.
 
 ### 1.1.1 Discover Parts of Speech
 
@@ -1073,4 +1073,424 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - Dad bought a plastic new bucket.
   - Don't wake the asleep baby.
   - Let's buy a nice something for Mum.
+
+### 2.1.1 Introduction to Verbs
+
+- **Pages:** The Engine of a Sentence · No Verb, No Sentence · How to Find the Verb · Verbs With More Than One Word · The Verb Family · Verbs: Recap
+- **Key takeaways:** The verb drives the sentence. · No verb, no sentence. · The verb is the word that changes with time. · A verb can be more than one word. · Verbs come in several kinds. · Find the verb first, then the rest makes sense.
+- **Example sentences:**
+  - The ferry leaves at noon. _(focus: leaves)_
+  - The kites over the beach.
+  - The kites soared over the beach.
+  - Grandma knits scarves every winter. _(focus: knits)_
+  - Our neighbour is a firefighter. _(focus: is)_
+  - The baby is giggling at the puppy. _(focus: is giggling)_
+
+### 2.1.2 Main Verbs and Helping Verbs
+
+- **Pages:** A Verb With a Helper · The Main Verb Carries the Meaning · Common Helping Verbs · Helpers Jump to the Front · Helper or Main Verb? · Main and Helping Verbs: Recap
+- **Key takeaways:** Helping verbs team up with main verbs. · The last verb in the team carries the meaning. · Be, have, do and can are common helpers. · In questions, the helper comes first. · No other verb after it? Then it is the main verb. · Find the main verb, then its helpers.
+- **Example sentences:**
+  - We have painted the garden fence. _(focus: have, painted)_
+  - The chef is chopping onions. _(focus: chopping)_
+  - My cousins will arrive tomorrow. _(focus: arrive)_
+  - Does your brother like mangoes? _(focus: Does, like)_
+  - Riya has finished her homework.
+  - Riya has a pet tortoise.
+
+### 2.1.3 Action Verbs and Stative Verbs
+
+- **Pages:** Doing or Being? · Action Verbs · Kinds of Stative Verbs · States in Sentences · Is Something Happening? · Action and State: Recap
+- **Key takeaways:** Verbs show actions or states. · Actions can be of the body or the mind. · States are feelings, thoughts, having, senses and being. · Stative verbs describe how things are. · Happening means action; simply true means state. · Sort verbs into doing and being.
+- **Example sentences:**
+  - The toddler giggles because she loves the swing. _(focus: giggles, loves)_
+  - The goalkeeper dived for the ball. _(focus: dived)_
+  - Mira decided to join the choir. _(focus: decided)_
+  - This jar contains wild honey. _(focus: contains)_
+  - Arjun believes in ghosts. _(focus: believes)_
+  - The orchestra owns three grand pianos. _(focus: owns)_
+
+### 2.1.4 Linking Verbs
+
+- **Pages:** Verbs That Join · Three Groups of Linking Verbs · The Is Test · Verbs of Change · Linking or Action? · Linking Verbs: Recap
+- **Key takeaways:** Linking verbs join, they don't act. · Being, senses and change. · If is fits, the verb is linking. · Turn, get and grow can mean become. · Same verb, two jobs: test with is. · Test with is to find a linking verb.
+- **Example sentences:**
+  - Mum became a teacher in 2010. _(focus: became)_
+  - The puppy seems hungry. _(focus: seems)_
+  - Your plan sounds brilliant. _(focus: sounds)_
+  - The milk turned sour overnight. _(focus: turned)_
+  - My little brother is getting taller. _(focus: getting)_
+  - The curry tasted spicy.
+  - Dad tasted the curry.
+
+### 2.1.5 Transitive and Intransitive Verbs
+
+- **Pages:** Does the Action Pass On? · Transitive: The Action Passes On · Intransitive: Complete on Its Own · Verbs That Can Be Both · Transitive and Intransitive: Recap
+- **Key takeaways:** Some verbs need an object; some don't. · Ask what? or whom? to find the object. · Intransitive verbs stand without an object. · Read, eat and win can take an object or not. · Check whether the action passes to an object.
+- **Example sentences:**
+  - Kavya bought a kite, and her brother laughed. _(focus: bought, laughed)_
+  - The cat caught a moth. _(focus: caught)_
+  - Our coach praised the whole team. _(focus: praised)_
+  - The train arrived at platform two. _(focus: arrived)_
+  - Everyone in the hall clapped. _(focus: clapped)_
+  - Ravi is reading a comic.
+  - Ravi is reading in his room.
+
+### 2.1.6 Regular and Irregular Verbs
+
+- **Pages:** Three Forms of Every Verb · The Three Key Forms · Regular Verbs Add -ed · Spelling Changes With -ed · Three Kinds of Irregular Verbs · Irregular Verbs in Sentences · Regular and Irregular: Recap
+- **Key takeaways:** Base, past, past participle. · Learn each verb in three forms. · Regular verbs add -ed. · Watch the spelling when you add -ed. · Irregular verbs must be learned by heart. · Past alone; past participle after has. · Add -ed, or learn the irregular form.
+- **Example sentences:**
+  - I often swim here, I swam yesterday, and I have swum here since May. _(focus: swim, swam, swum)_
+  - Grandpa fixed the wall clock. _(focus: fixed)_
+  - The bus stopped and we hurried on board. _(focus: stopped, hurried)_
+  - The choir sang three songs last night. _(focus: sang)_
+  - Mum has bought fresh marigolds. _(focus: has bought)_
+
+### 2.1.7 Finite and Non-Finite Verbs – Introduction
+
+- **Pages:** Verbs That Change and Verbs That Don't · Finite Verbs Show Time · Three Non-Finite Forms · Finite or Non-Finite? · Every Sentence Needs a Finite Verb · Finite and Non-Finite: Recap
+- **Key takeaways:** Finite verbs change; non-finite forms don't. · Finite verbs show now or past. · To swim, swimming, swum never show time. · Change the time to find the finite verb. · No finite verb, no sentence. · Find the verb that shows time.
+- **Example sentences:**
+  - Asha wants to paint a mural. _(focus: wants, to paint)_
+  - My brother cycles to school. _(focus: cycles)_
+  - Last year we lived in Pune. _(focus: lived)_
+  - We went to the lake to swim. _(focus: to swim)_
+  - Neha sings in the school choir.
+  - Neha loves singing in the choir.
+  - We trained hard to win the relay. _(focus: trained)_
+
+### 2.1.8 Dynamic and Stative Verb Usage
+
+- **Pages:** States Stay Simple · No -ing for States · Have: Owning or Doing? · Think: Opinion or Activity? · Decide the Meaning First · Using States and Actions: Recap
+- **Key takeaways:** States usually stay simple. · I know, not I am knowing. · Having lunch, yes; having a garden, no. · Opinion: think. Activity: is thinking. · The meaning decides whether -ing fits. · Check the meaning before adding -ing.
+- **Example sentences:**
+  - Rahul understands French perfectly. _(focus: understands)_
+  - I need a sharp pencil right now. _(focus: need)_
+  - Meena prefers tea to coffee. _(focus: prefers)_
+  - We have a big garden.
+  - We are having lunch in the garden.
+  - I think this plan will work. _(focus: think)_
+  - Grandpa is thinking about his old school. _(focus: is thinking)_
+  - The doctor is seeing patients until five. _(focus: is seeing)_
+
+### 2.1.9 Verb Forms
+
+- **Pages:** One Verb, Five Shapes · The Five Forms · Spelling the -s Form · Spelling the -ing Form · Which Form Goes Where? · Verb Forms: Recap
+- **Key takeaways:** A verb has several forms. · Base, -s, past, past participle, -ing. · Fixes, carries, goes. · Making, running, lying. · The word before the verb picks its form. · Choose the form the sentence needs.
+- **Example sentences:**
+  - Kabir jogs around the lake. _(focus: jogs)_
+  - Nani fixes old clocks and carries them to the fair. _(focus: fixes, carries)_
+  - The kids were running and making a racket. _(focus: running, making)_
+  - Isha has written two poems and wants to write a third. _(focus: has written, to write)_
+
+### 2.1.10 Verb Complements
+
+- **Pages:** Finishing the Verb's Thought · Kinds of Complement · Verbs That Need Two Parts · Verbs That Need a Preposition · Complete or Not? · Verb Complements: Recap
+- **Key takeaways:** Complements finish what the verb starts. · Objects, describing words, places, prepositions and clauses can complete a verb. · Put needs what and where. · Learn depend on, listen to, wait for as pairs. · Missing where or what? Add the complement. · Give each verb everything it needs.
+- **Example sentences:**
+  - Please put the milk in the fridge. _(focus: put, the milk, in the fridge)_
+  - Arjun placed the vase on the windowsill. _(focus: placed)_
+  - We waited for the ferry in the rain. _(focus: waited for)_
+  - Puppies depend on their mothers. _(focus: depend on)_
+  - Riya put the books.
+  - Riya put the books on the top shelf.
+
+### 2.1.11 Verb Patterns and Verb Combinations
+
+- **Pages:** Which Form Comes Next? · Verb + To + Base · Verb + -ing · Verb + Someone + To + Base · Let and Make: No To · Either Pattern Works · Verb Patterns: Recap
+- **Key takeaways:** The first verb picks the pattern. · Decide to, hope to, plan to. · Enjoy, finish and avoid take -ing. · Ask someone to do something. · Let me go, not let me to go. · Start, begin and like take either pattern. · Learn each verb with its pattern.
+- **Example sentences:**
+  - Leena wants to learn the guitar, and she enjoys practising. _(focus: to learn, practising)_
+  - We decided to stay home during the storm. _(focus: decided to stay)_
+  - My cousin hopes to become a vet. _(focus: hopes to become)_
+  - Have you finished packing for the trip? _(focus: finished packing)_
+  - Please avoid shouting in the reading room. _(focus: avoid shouting)_
+  - The teacher asked us to line up quietly. _(focus: asked us to line up)_
+  - Mum let me stay up for the fireworks. _(focus: let me stay)_
+  - It started to drizzle at noon.
+  - It started drizzling at noon.
+
+### 2.1.12 Phrasal Verbs – Introduction
+
+- **Pages:** A Verb Plus a Small Word · Ordinary Meaning or New Meaning? · Everyday Phrasal Verbs · Moving the Small Word · Pronouns Go in the Middle · Phrasal Verbs: Recap
+- **Key takeaways:** Verb + small word can mean something new. · Look up can mean search. · Learn phrasal verbs with their meanings. · A noun can go in the middle or at the end. · Turn it down, never turn down it. · Learn the meaning and where the object goes.
+- **Example sentences:**
+  - Please don't give up on the puzzle now. _(focus: give up)_
+  - The boy looked up at the stars.
+  - The boy looked up the word in a dictionary.
+  - Please switch the fan off before you leave. _(focus: switch the fan off)_
+  - The radio is too loud, so turn it down. _(focus: turn it down)_
+
+### 2.1.13 Common Verb Confusions
+
+- **Pages:** Verbs That Look Alike · Borrow or Lend? · Bring or Take? · Say or Tell? · Make or Do? · Hear or Listen, See or Look? · Lie or Lay? · Verb Confusions: Recap
+- **Key takeaways:** Similar verbs need a quick test. · Borrow takes; lend gives. · Bring here; take there. · Tell someone; say something. · Make things; do tasks. · Listen to and look at need attention. · Lay and raise need an object. · Use the test for each pair.
+- **Example sentences:**
+  - Could you lend me your umbrella? _(focus: lend)_
+  - Can I borrow your scooter?
+  - Can you lend me your scooter?
+  - Please bring your notebook to class tomorrow.
+  - Take an umbrella when you go out.
+  - Tell Grandpa the good news. _(focus: Tell)_
+  - She said that the shop was shut. _(focus: said)_
+  - I made a mistake, but I did my best. _(focus: made, did)_
+  - We heard thunder in the night. _(focus: heard)_
+  - Look at that rainbow over the hills! _(focus: Look at)_
+  - The cat likes to lie in the sun. _(focus: lie)_
+  - Please lay the plates on the mat. _(focus: lay)_
+
+### 2.1.14 Verb Usage and Common Errors
+
+- **Pages:** Spot and Fix Verb Mistakes · Don't Leave Out the Verb · Bought, Not Buyed · Did You Go, Not Did You Went · Not I Am Knowing · The Wrong Verb Pattern · No Extra Preposition · Pronoun in the Middle · Verb Mistake Checklist
+- **Key takeaways:** Verb mistakes come in a few kinds. · Check that the sentence has its verb. · Irregular verbs don't add -ed. · After did, use the base form. · States stay simple: I know. · Let us use, not let us to use. · Discuss the trip, not discuss about it. · Turn it down, pick them up. · Check your verbs before you finish.
+- **Example sentences:**
+  - My sister very tall.
+  - We buyed fresh guavas at the market.
+  - Did you went to the book fair?
+  - I am knowing the answer to this riddle.
+  - Dad let us to use his laptop.
+  - We discussed about the school trip.
+  - The television is noisy, so please turn down it.
+
+### 2.2.1 Introduction to Adverbs
+
+- **Pages:** The Detail Givers · A Fourth Target: the Whole Sentence · Two Adverbs, Two Targets · The Take-Away Test · One Word or a Group · Adverbs Sorted by Question · More Kinds Ahead · Adverbs: Recap
+- **Key takeaways:** Adverbs fill in how, where and when. · Some adverbs comment on the whole sentence. · Ask what each adverb is attached to. · Remove it; the sentence still stands. · A group of words can work as an adverb. · Each kind answers its own question. · Later lessons cover each kind. · Find the adverb, then ask its question.
+- **Example sentences:**
+  - The baby giggled happily in her cot this morning. _(focus: happily, in her cot, this morning)_
+  - Luckily, the rain stopped before the match. _(focus: Luckily)_
+  - The very old clock ticked loudly. _(focus: very, loudly)_
+  - Meena wrapped the gift neatly. _(focus: neatly)_
+  - We met yesterday. _(focus: yesterday)_
+  - We met on Sunday afternoon. _(focus: on Sunday afternoon)_
+
+### 2.2.2 Adverbs of Manner
+
+- **Pages:** How Did It Happen? · Common Manner Adverbs · Well and Badly · Right After the Verb · After the Object · Plain or Precise? · Adverbs Show Feelings · Manner Adverbs: Recap
+- **Key takeaways:** Manner adverbs tell how. · Many manner adverbs end in -ly. · Well and badly tell how well something went. · No object? Put it after the verb. · Keep the verb and its object together. · A stronger verb can hold the manner. · The adverb can show how someone feels. · Tell how, after the verb or object.
+- **Example sentences:**
+  - The nurse lifted the newborn gently. _(focus: gently)_
+  - Rahul plays the flute well. _(focus: well)_
+  - I slept badly on the train. _(focus: badly)_
+  - The tortoise crawled slowly across the path. _(focus: slowly)_
+  - She folded the letter neatly. _(focus: neatly)_
+  - The boy walked slowly to the gate.
+  - The boy trudged to the gate.
+  - Priya closed the door softly. _(focus: softly)_
+  - Priya closed the door angrily. _(focus: angrily)_
+
+### 2.2.3 Adverbs of Time
+
+- **Pages:** When Does It Happen? · Everyday Time Adverbs · Time Phrases · Already and Just · Yet at the End · Time Usually Comes Last · End or Start? · Time Adverbs: Recap
+- **Key takeaways:** Time adverbs tell when. · Learn the common time words. · A phrase can tell when, too. · Already: sooner than expected. Just: a moment ago. · Yet waits at the end of questions and negatives. · Put the time at the end. · Start with the time to set the scene. · Tell when, usually at the end.
+- **Example sentences:**
+  - The plumber is coming tomorrow. _(focus: tomorrow)_
+  - Our cousins visited last weekend. _(focus: last weekend)_
+  - The vegetable seller comes in the morning. _(focus: in the morning)_
+  - The film has already started. _(focus: already)_
+  - Dad has just left for work. _(focus: just)_
+  - Has the school bus come yet? _(focus: yet)_
+  - Mum starts her new job next month. _(focus: next month)_
+  - We had a picnic by the lake on Sunday.
+  - On Sunday, we had a picnic by the lake.
+
+### 2.2.4 Adverbs of Place
+
+- **Pages:** Where Does It Happen? · Everyday Place Adverbs · Go Home, Not Go to Home · Which Way? · Somewhere, Anywhere, Everywhere · After the Verb or Object · Here Comes the Bus! · Place Adverbs: Recap
+- **Key takeaways:** Place adverbs tell where. · Learn the common place words. · No to before home or abroad. · Direction adverbs show which way. · Some- in statements, any- in questions. · Place usually follows the verb or object. · Here comes + noun; here it comes. · Tell where, after the verb or object.
+- **Example sentences:**
+  - The twins are playing outside. _(focus: outside)_
+  - It's getting dark, so let's go home. _(focus: home)_
+  - Step back from the edge of the platform. _(focus: back)_
+  - The lift is going down. _(focus: down)_
+  - I can't find my house keys anywhere. _(focus: anywhere)_
+  - There were balloons everywhere at the party. _(focus: everywhere)_
+  - Please put the boxes downstairs. _(focus: downstairs)_
+  - Here comes the bus! _(focus: Here comes)_
+  - There goes our kite! _(focus: There goes)_
+
+### 2.2.5 Adverbs of Frequency
+
+- **Pages:** How Often? · The Frequency Scale · Rarely and Never · Before the Main Verb · After Am, Is and Are · After the First Helper · Daily, Weekly, Twice a Week · Frequency Adverbs: Recap
+- **Key takeaways:** Frequency adverbs tell how often. · From always down to never. · Never already means not. · Frequency goes before the main verb. · With be, frequency comes after it. · Helper, then frequency, then main verb. · Exact frequency goes at the end. · Know the scale and the three places.
+- **Example sentences:**
+  - My grandmother usually wakes up at five. _(focus: usually)_
+  - We rarely eat at restaurants. _(focus: rarely)_
+  - Our dog never barks at the postman. _(focus: never)_
+  - Arun often forgets his lunch box. _(focus: often)_
+  - The library is always quiet. _(focus: always)_
+  - You can sometimes see dolphins from the pier. _(focus: sometimes)_
+  - The newspaper arrives daily. _(focus: daily)_
+  - Our class has art twice a week. _(focus: twice a week)_
+
+### 2.2.6 Adverbs of Degree
+
+- **Pages:** How Much? · From a Little to a Lot · Before an Adjective or Adverb · Very or Too? · Too Before the Adjective · Enough Comes After · So for Strong Feeling · Degree Adverbs: Recap
+- **Key takeaways:** Degree adverbs tell how much. · Pick the degree that fits. · Degree comes before the word it changes. · Very is a lot; too is a problem. · Too + adjective, then for or to. · Old enough, not enough old. · So adds feeling; too adds a problem. · Choose the strength, then the place.
+- **Example sentences:**
+  - The tea is extremely hot. _(focus: extremely)_
+  - The maths puzzle was fairly easy. _(focus: fairly)_
+  - Our new ceiling fan runs really quietly. _(focus: really)_
+  - The box is very heavy, but I can lift it.
+  - The box is too heavy for me to lift.
+  - The river is too cold for a swim. _(focus: too cold)_
+  - Is the rope long enough? _(focus: long enough)_
+  - The sunset was so beautiful! _(focus: so)_
+
+### 2.2.7 Adverbs of Certainty and Probability
+
+- **Pages:** How Sure Are You? · The Certainty Scale · Probably or Possibly? · After Be, Before the Main Verb · Probably Won't · Perhaps and Maybe Go First · One-Word Answers · Certainty Adverbs: Recap
+- **Key takeaways:** Certainty adverbs show how sure you are. · From sure to not sure. · Probably is likely; possibly is only maybe. · Probably goes where always goes. · Put the adverb before won't or don't. · Start with maybe or perhaps. · Certainly means yes; maybe means not sure. · Choose how sure, then place it.
+- **Example sentences:**
+  - It will probably rain this evening. _(focus: probably)_
+  - Our cricket team will probably win on Saturday.
+  - Our cricket team will possibly win on Saturday.
+  - She will definitely enjoy the puppet show. _(focus: definitely)_
+  - The chemist is probably closed by now. _(focus: probably)_
+  - Raju probably won't finish his project tonight. _(focus: probably won't)_
+  - Maybe the bakery opens at ten. _(focus: Maybe)_
+  - "Could you pass the salt?" "Certainly!" _(focus: Certainly)_
+  - "Will the train be late?" "Perhaps." _(focus: Perhaps)_
+
+### 2.2.8 Adverbs of Duration
+
+- **Pages:** How Long Did It Last? · Words for How Long · Briefly or Permanently · Still: It Hasn't Stopped · Where Still Goes · It Has Stopped · Middle or End? · Duration Adverbs: Recap
+- **Key takeaways:** Duration adverbs tell how long. · From a moment to forever. · Short time or all time. · Still means it is continuing. · Still sits before the main verb. · No longer and any more mean it stopped. · No longer in the middle; any more at the end. · Tell how long, or whether it stopped.
+- **Example sentences:**
+  - We waited for the ferry all morning. _(focus: all morning)_
+  - The principal spoke briefly at assembly. _(focus: briefly)_
+  - The old bridge has closed permanently. _(focus: permanently)_
+  - It's nine o'clock, and Ravi is still asleep. _(focus: still)_
+  - My grandfather still rides a bicycle. _(focus: still rides)_
+  - Mrs Rao no longer teaches at our school. _(focus: no longer)_
+  - The corner shop doesn't sell kites any more. _(focus: any more)_
+  - We don't live in Chennai any more. _(focus: any more)_
+
+### 2.2.9 Adverbs of Purpose and Reason
+
+- **Pages:** Why Did It Happen? · Words That Give a Result · Punctuating Therefore · To + Verb Answers Why · In Order To · On Purpose or By Accident? · Deliberately and Accidentally · Purpose and Reason: Recap
+- **Key takeaways:** Some adverbs answer why. · Therefore and that's why link cause and result. · Full stop or semicolon before; comma after. · To + verb can give the purpose. · In order to is a careful way to show purpose. · On purpose is meant; by accident is not. · One-word partners: deliberately, accidentally. · Give the reason, the purpose, or whether it was meant.
+- **Example sentences:**
+  - The roads were flooded. Therefore, the school stayed shut. _(focus: Therefore)_
+  - The match was cancelled; therefore, we went to the cinema. _(focus: therefore)_
+  - We left at six to catch the ferry. _(focus: to catch the ferry)_
+  - Nikhil saved his pocket money to buy a cricket bat. _(focus: to buy a cricket bat)_
+  - She whispered in order not to wake the baby. _(focus: in order not to wake the baby)_
+  - Tom knocked over the tower on purpose.
+  - Tom knocked over the tower by accident.
+  - The goalkeeper deliberately wasted time. _(focus: deliberately)_
+  - I accidentally deleted the holiday photos. _(focus: accidentally)_
+
+### 2.2.10 Interrogative Adverbs
+
+- **Pages:** Asking About Time, Place and Reason · Four Question Adverbs · Matching Question and Answer · How + Another Word · How Far and How Often · The Question Shapes the Answer · When or How Long? · Question Adverbs: Recap
+- **Key takeaways:** Question adverbs ask when, where, why, how. · Each one asks for a different answer. · Listen to the question word, then answer. · How joins other words to ask more. · The second word says what you want to know. · How asks for a way, not a time. · When is a point; how long is a stretch. · Pick the question word for the answer you need.
+- **Example sentences:**
+  - Where did you park the scooter? _(focus: Where)_
+  - When does the concert start? _(focus: When)_
+  - Why are you laughing? _(focus: Why)_
+  - How far is the beach from your house? _(focus: How far)_
+  - How often do you visit your grandparents? _(focus: How often)_
+  - "How did you get to the stadium?" "On the metro." _(focus: How)_
+  - When did the storm stop?
+  - How long did the storm last?
+
+### 2.2.11 Relative Adverbs
+
+- **Pages:** Joining Words for Places and Times · The Place Where · The Day When, the Reason Why · Question or Joining Word? · Find the Noun First · Where Means In Which · When Means On Which · Relative Adverbs: Recap
+- **Key takeaways:** Where, when and why can join information to a noun. · A place noun takes where. · Time nouns take when; reason takes why. · A noun before it means it is joining. · Find the noun, then the joining word. · Where = in which, but simpler. · When = on which, or in which. · Place where, time when, reason why.
+- **Example sentences:**
+  - This is the park where we learned to cycle. _(focus: where)_
+  - Kochi is the city where my mother grew up. _(focus: where)_
+  - I remember the day when our puppy arrived. _(focus: when)_
+  - Nobody knows the reason why the lights went out. _(focus: why)_
+  - Where did Grandpa grow up?
+  - This is the village where Grandpa grew up.
+  - We visited the shop where Dad bought his first watch. _(focus: the shop where)_
+  - This is the tin where I keep my stamps. _(focus: where)_
+  - Sunday is the day when the market is busiest. _(focus: when)_
+
+### 2.2.12 Focusing Adverbs
+
+- **Pages:** Pointing to One Part · Common Focusing Adverbs · Even and Especially · Moving Only · Only Next to Its Part · Also Before the Main Verb · Too and As Well at the End · Focusing Adverbs: Recap
+- **Key takeaways:** Focusing adverbs make one part stand out. · Each focus word adds its own meaning. · Even surprises; especially singles out. · Move only and the meaning moves too. · Keep only beside the words it limits. · Also goes where always goes. · Too and as well come last. · Choose the focus word, then its place.
+- **Example sentences:**
+  - Even the teacher laughed at the joke. _(focus: Even the teacher)_
+  - My grandmother even uses a smartphone. _(focus: even uses)_
+  - I love fruit, especially mangoes. _(focus: especially mangoes)_
+  - Only Mina ate the cake.
+  - Mina ate only the cake.
+  - We have only ten minutes left. _(focus: only ten minutes)_
+  - Priya also plays the tabla. _(focus: also plays)_
+  - Karan sings in the choir too. _(focus: too)_
+  - His sister sings in the choir as well. _(focus: as well)_
+
+### 2.2.13 Sentence Adverbs
+
+- **Pages:** Comments on the Whole Sentence · Common Sentence Adverbs · Good News, Surprising News · At the Start, With a Comma · Commas in the Middle · Whole Sentence or Just the Action? · The Comma Clue · Sentence Adverbs: Recap
+- **Key takeaways:** Sentence adverbs give the speaker's view. · Good news, bad news, or the speaker's view. · The adverb sets the mood. · Sentence adverb, comma, then the rest. · In the middle, put commas on both sides. · Same adverb, different job. · Front and comma: a comment on the sentence. · Comment first, comma next.
+- **Example sentences:**
+  - Unfortunately, the last train had gone. _(focus: Unfortunately)_
+  - Fortunately, nobody was hurt in the fall. _(focus: Fortunately)_
+  - Surprisingly, the shy boy won the speech contest. _(focus: Surprisingly)_
+  - Hopefully, the rain will stop by lunchtime. _(focus: Hopefully)_
+  - The puzzle, obviously, was too easy for Leela. _(focus: obviously)_
+  - Sadly, the old banyan tree fell down.
+  - The girl waved sadly from the bus.
+  - Honestly, I don't know the answer. _(focus: Honestly)_
+
+### 2.2.14 Adverb Position in Sentences
+
+- **Pages:** Front, Middle and End · Who Lives Where? · The Middle Position · Manner, Place, Time · Place Before Time · Never Between Verb and Object · Moving to the Front for Effect · Adverb Position: Recap
+- **Key takeaways:** Adverbs have three main homes. · Know the home of each kind. · Middle means after the first helper. · At the end: how, where, when. · Where comes before when. · Verb and object stay side by side. · Move an adverb forward to build a mood. · Front, middle or end: choose the home.
+- **Example sentences:**
+  - Suddenly, the dog began to bark. _(focus: Suddenly)_
+  - My aunt has always lived by the sea. _(focus: has always lived)_
+  - She sang sweetly at the concert last night. _(focus: sweetly, at the concert, last night)_
+  - We are going to the zoo tomorrow. _(focus: to the zoo, tomorrow)_
+  - Anil speaks Tamil fluently. _(focus: fluently)_
+  - Slowly, the old door creaked open. _(focus: Slowly)_
+
+### 2.2.15 Adverbs vs Adjectives
+
+- **Pages:** The Tricky Cases · Good or Well? · Well Meaning Healthy · One Form, Two Jobs · High in Two Jobs · Hard and Hardly Are Different · Friendly Has No Adverb · Adverb or Adjective: Recap
+- **Words shown in more than one job:** daily
+- **Key takeaways:** Most choices are easy; a few need care. · Good describes a noun; well describes an action. · Feel well: not ill. Feel good: happy. · Daily can describe a noun or an action. · Find what high is describing. · Adding -ly can change the meaning. · Say in a friendly way. · Check the tricky words twice.
+- **Example sentences:**
+  - The music was loud, so Dad spoke loudly. _(focus: loud, loudly)_
+  - Kavya is a good chess player.
+  - Kavya plays chess well.
+  - Grandpa had a cold, but he feels well now. _(focus: well)_
+  - We take a daily walk by the river.
+  - We walk daily by the river.
+  - The wall is too high to climb. _(focus: too high)_
+  - The eagle flew high over the hills. _(focus: flew high)_
+  - I could hardly hear the radio. _(focus: hardly)_
+  - The shopkeeper smiled in a friendly way. _(focus: in a friendly way)_
+
+### 2.2.16 Formation of Adverbs
+
+- **Pages:** Building Adverbs · Just Add -ly · Y Becomes I · Endings That Change · -wards Shows Direction · -wise for Direction or Manner · Adverbs With No Ending · Building Adverbs: Recap
+- **Key takeaways:** Adjective + -ly makes most adverbs. · Most adjectives just add -ly. · Consonant + y: change y to i, add -ly. · Watch -le, -ll, -ic and true. · -wards means in that direction. · Clockwise: the way a clock turns. · Some adverbs are not built from anything. · Know the rule, then the changes.
+- **Example sentences:**
+  - The sea was calm, and the boat moved calmly. _(focus: calm, calmly)_
+  - The puppy wagged its tail happily. _(focus: happily)_
+  - The car rolled backwards down the slope. _(focus: backwards)_
+  - After the match, the fans headed homewards. _(focus: homewards)_
+  - Turn the lid clockwise to close the jar. _(focus: clockwise)_
+  - The guests will arrive soon. _(focus: soon)_
+
+### 2.2.17 Adverb Usage and Common Errors
+
+- **Pages:** Spot and Fix Adverb Mistakes · Sings Well, Not Sings Good · An Adjective Instead of an Adverb · Smells Fresh, Not Smells Freshly · Don't Split the Verb and Object · Frequency in the Wrong Place · Hard or Hardly? · Happily, Not Happyly · Adverb Mistake Checklist
+- **Key takeaways:** Adverb mistakes come in a few kinds. · How someone does it: well. · Describe the action with the -ly form. · After a linking verb, use the adjective. · Speaks English well, not speaks well English. · Always go, not go always. · Hardly means almost not. · Consonant + y: change y to i. · Check your adverbs before you finish.
+- **Example sentences:**
+  - She sings good in the school choir.
+  - Uncle Joe drove careless on the wet road.
+  - The bread from the bakery smells freshly.
+  - Tanvi speaks very well English.
+  - I go always to the library on Saturdays.
+  - Sunil worked hardly for his exams.
+  - Everyone at the party clapped happyly.
 

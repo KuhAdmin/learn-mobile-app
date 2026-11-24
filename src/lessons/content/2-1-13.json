@@ -1,0 +1,803 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-13",
+    "title": "Common Verb Confusions",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Common Verb Confusions",
+    "lesson_summary": "Learners sort out verb pairs that are easy to mix up: borrow and lend, bring and take, say and tell, make and do, hear and listen, see and look, lie and lay, rise and raise. Each pair comes with a quick test for choosing. Preposition confusions are taught in Stage 4.1, and verb form errors in 2-1-14.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Choose borrow or lend, and bring or take.",
+        "success_criteria": [
+          "Use borrow for taking and lend for giving.",
+          "Use bring towards the speaker and take away."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Choose say or tell, and make or do.",
+        "success_criteria": [
+          "Use tell with a person.",
+          "Use make and do with the right nouns."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Choose hear or listen, see or look, lie or lay, rise or raise.",
+        "success_criteria": [
+          "Use listen to and look at for attention.",
+          "Use lay and raise with an object."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 14,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Borrow, Lend, Bring, Take",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Say, Tell, Make, Do",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Hear, Listen, Lie, Lay",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Verbs That Look Alike",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some verbs are easy to mix up because their meanings are close. A quick test helps you choose."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Could you lend me your umbrella?",
+              "highlight": [
+                "lend"
+              ],
+              "explanation": "The listener gives the umbrella for a while, so lend is right."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Similar verbs need a quick test.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Borrow or Lend?",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Borrow",
+              "description": "Take something for a while.",
+              "example": "Can I borrow your scooter?"
+            },
+            {
+              "label": "Lend",
+              "description": "Give something for a while.",
+              "example": "Can you lend me your scooter?"
+            }
+          ],
+          "comparison_points": [
+            "In the first question, the speaker takes the scooter.",
+            "In the second, the listener gives it."
+          ],
+          "conclusion": "Borrow from someone; lend to someone."
+        }
+      ],
+      "key_takeaway": "Borrow takes; lend gives.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Bring or Take?",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Bring",
+              "description": "Towards the speaker.",
+              "example": "Please bring your notebook to class tomorrow."
+            },
+            {
+              "label": "Take",
+              "description": "Away from the speaker.",
+              "example": "Take an umbrella when you go out."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, the notebook comes to where the teacher is.",
+            "In the second, the umbrella goes away with the listener."
+          ],
+          "conclusion": "Bring comes here; take goes there."
+        }
+      ],
+      "key_takeaway": "Bring here; take there.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Say or Tell?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Tell needs a person straight after it (tell me, tell Raj). Say does not (say hello, say that…).",
+          "scope": "Say and tell",
+          "examples": [
+            {
+              "sentence": "Tell Grandpa the good news.",
+              "highlight": [
+                "Tell"
+              ],
+              "explanation": "Grandpa comes straight after tell."
+            },
+            {
+              "sentence": "She said that the shop was shut.",
+              "highlight": [
+                "said"
+              ],
+              "explanation": "No person follows, so say is right."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Tell someone; say something.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "classification",
+      "pedagogical_role": "recognition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Make or Do?",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "make (create something): a cake, a mistake, a noise, friends",
+            "do (an activity or task): homework, the dishes, a favour, your best"
+          ]
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I made a mistake, but I did my best.",
+              "highlight": [
+                "made",
+                "did"
+              ],
+              "explanation": "We make a mistake and do our best."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Make things; do tasks.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Hear or Listen, See or Look?",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Hear and see happen without trying. Listen and look mean paying attention on purpose: listen to, look at."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We heard thunder in the night.",
+              "highlight": [
+                "heard"
+              ],
+              "explanation": "The thunder reached our ears without us trying."
+            },
+            {
+              "sentence": "Look at that rainbow over the hills!",
+              "highlight": [
+                "Look at"
+              ],
+              "explanation": "The speaker wants us to turn our eyes to it on purpose."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Listen to and look at need attention.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Lie or Lay?",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "text",
+          "text": "Lie means rest flat and has no object (lie, lay, lain). Lay means put something down and needs an object (lay, laid, laid)."
+        },
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The cat likes to lie in the sun.",
+              "highlight": [
+                "lie"
+              ],
+              "explanation": "The cat rests; there is no object."
+            },
+            {
+              "sentence": "Please lay the plates on the mat.",
+              "highlight": [
+                "lay"
+              ],
+              "explanation": "Lay has an object: the plates."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "note",
+          "title": "Rise or raise?",
+          "text": "The same idea: the sun rises (no object); raise your hand (an object)."
+        }
+      ],
+      "key_takeaway": "Lay and raise need an object.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Verb Confusions: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Borrow takes; lend gives.",
+            "Bring comes here; take goes there.",
+            "Tell someone; say something.",
+            "Make things; do tasks.",
+            "Listen to and look at need attention.",
+            "Lay and raise need an object."
+          ]
+        }
+      ],
+      "key_takeaway": "Use the test for each pair.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'Could you ___ me ten rupees until Friday?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "lend"
+        },
+        {
+          "option_id": "B",
+          "text": "borrow"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The listener gives the money for a while, so lend."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete: 'Please ___ these files to the office when you go.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "take"
+        },
+        {
+          "option_id": "B",
+          "text": "bring"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The files go away from the speaker, so take."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Can you ___ me the way to the museum?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "tell"
+        },
+        {
+          "option_id": "B",
+          "text": "say"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A person (me) comes straight after the verb, so tell."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Have you ___ your homework yet?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "done"
+        },
+        {
+          "option_id": "B",
+          "text": "made"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Homework is a task, so do: done."
+    },
+    {
+      "question_id": "Q005",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete with the past of make or do: 'The kids ___ a lot of noise.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "made"
+          ]
+        }
+      ],
+      "explanation": "We make a noise."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'We ___ to the radio every evening.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "listen"
+        },
+        {
+          "option_id": "B",
+          "text": "hear"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Paying attention on purpose takes listen to."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'Please ___ your hand if you know the answer.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "raise"
+        },
+        {
+          "option_id": "B",
+          "text": "rise"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Your hand is an object, so raise."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Lay needs an object, as in 'lay the table'.",
+      "correct_answer": true,
+      "explanation": "Lay means put something down, so it needs an object."
+    },
+    {
+      "question_id": "Q009",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the verb in this sentence.",
+      "original_sentence": "Can I lend your bicycle tomorrow?",
+      "corrected_sentence": "Can I borrow your bicycle tomorrow?",
+      "explanation": "The speaker takes the bicycle, so borrow."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Uncle Vikram ___ us a spooky story.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "told"
+        },
+        {
+          "option_id": "B",
+          "text": "said"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A person (us) comes straight after the verb, so tell: told."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete: 'I'm tired, so I'm going to ___ down for a while.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "lie"
+        },
+        {
+          "option_id": "B",
+          "text": "lay"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Resting flat has no object, so lie."
+    },
+    {
+      "question_id": "Q012",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ003"
+      ],
+      "prompt": "Match each verb with its meaning.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "borrow"
+        },
+        {
+          "item_id": "L2",
+          "text": "lend"
+        },
+        {
+          "item_id": "L3",
+          "text": "listen"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "pay attention to sounds"
+        },
+        {
+          "item_id": "R2",
+          "text": "take for a while"
+        },
+        {
+          "item_id": "R3",
+          "text": "give for a while"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Borrow takes, lend gives, and listen means paying attention."
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'Could you ___ me a favour?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "do"
+        },
+        {
+          "option_id": "B",
+          "text": "make"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We do a favour."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Borrow, Lend, Bring, Take",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Say, Tell, Make, Do",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Listen, Look, Lie, Lay",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007",
+          "Q008"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Verb Confusions: Final Check",
+      "question_ids": [
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Commonly confused prepositions",
+        "reason": "Taught in Stage 4.1.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Say and tell in reported speech",
+        "reason": "Taught in Stage 3.5.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Mistakes with verb forms",
+        "reason": "Practised in 2-1-14.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

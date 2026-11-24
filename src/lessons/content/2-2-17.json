@@ -1,0 +1,745 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-2-17",
+    "title": "Adverb Usage and Common Errors",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Adverb Usage and Common Errors",
+    "lesson_summary": "A review of the adverb mistakes learners make most often, one kind per page, each with a correction: good for well, an adjective for an adverb, an adverb after a linking verb, an adverb between a verb and its object, a frequency adverb in the wrong place, hard and hardly confused, and -ly spelling slips. The rules themselves were taught earlier in this chapter. Double negatives and comparison mistakes are left to Stages 2.4 and 5.2.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Correct mistakes in choosing an adverb or adjective.",
+        "success_criteria": [
+          "Fix good for well.",
+          "Fix an adjective used for an adverb, and an adverb after a linking verb."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Correct mistakes in adverb position.",
+        "success_criteria": [
+          "Move an adverb out from between a verb and its object.",
+          "Put a frequency adverb before the main verb."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Correct mistakes in meaning and spelling.",
+        "success_criteria": [
+          "Fix hardly used for hard.",
+          "Spell -ly adverbs correctly."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 14,
+    "total_pages": 9
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Choosing the Form",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Position",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Meaning and Spelling",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Spot and Fix Adverb Mistakes",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Adverbs are easy to get almost right. This lesson collects the common slips and shows how to fix each one."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "list",
+          "introduction": "Watch out for:",
+          "list_style": "bulleted",
+          "items": [
+            "an adjective where an adverb belongs, or the other way round",
+            "an adverb in the wrong place",
+            "look-alike words and -ly spelling"
+          ]
+        }
+      ],
+      "key_takeaway": "Adverb mistakes come in a few kinds.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 53,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Sings Well, Not Sings Good",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "She sings good in the school choir.",
+            "correct": "She sings well in the school choir.",
+            "reason": "Well tells how she sings. Good describes nouns."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "How someone does it: well.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "An Adjective Instead of an Adverb",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Uncle Joe drove careless on the wet road.",
+            "correct": "Uncle Joe drove carelessly on the wet road.",
+            "reason": "To say how he drove, use the adverb carelessly."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "Describe the action with the -ly form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 36,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Smells Fresh, Not Smells Freshly",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "The bread from the bakery smells freshly.",
+            "correct": "The bread from the bakery smells fresh.",
+            "reason": "Smell links the bread to a description here, so it takes an adjective."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "After a linking verb, use the adjective.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 37,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Don't Split the Verb and Object",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Tanvi speaks very well English.",
+            "correct": "Tanvi speaks English very well.",
+            "reason": "The adverb goes after the object, not between speaks and English."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Speaks English well, not speaks well English.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Frequency in the Wrong Place",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "I go always to the library on Saturdays.",
+            "correct": "I always go to the library on Saturdays.",
+            "reason": "A frequency adverb goes before the main verb."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Always go, not go always.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 34,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Hard or Hardly?",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Sunil worked hardly for his exams.",
+            "correct": "Sunil worked hard for his exams.",
+            "reason": "Hardly means almost not. With a lot of effort is hard."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Hardly means almost not.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 31,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Happily, Not Happyly",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Everyone at the party clapped happyly.",
+            "correct": "Everyone at the party clapped happily.",
+            "reason": "Happy changes y to i before -ly."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Consonant + y: change y to i.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 27,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Adverb Mistake Checklist",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Before you finish writing, check:",
+          "list_style": "bulleted",
+          "items": [
+            "How someone does it: well, not good.",
+            "Describe an action with the adverb.",
+            "After a linking verb, use the adjective.",
+            "Keep the verb and its object together.",
+            "Frequency goes before the main verb.",
+            "Hard means with effort; hardly means almost not.",
+            "Check the -ly spelling."
+          ]
+        }
+      ],
+      "key_takeaway": "Check your adverbs before you finish.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The children behaved well at the wedding."
+        },
+        {
+          "option_id": "B",
+          "text": "The children behaved good at the wedding."
+        },
+        {
+          "option_id": "C",
+          "text": "The children behaved goodly at the wedding."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Well tells how the children behaved."
+    },
+    {
+      "question_id": "Q002",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the describing word.",
+      "original_sentence": "Please speak quiet in the library.",
+      "corrected_sentence": "Please speak quietly in the library.",
+      "explanation": "Quietly tells how to speak."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "This mango tastes sweet."
+        },
+        {
+          "option_id": "B",
+          "text": "This mango tastes sweetly."
+        },
+        {
+          "option_id": "C",
+          "text": "This mango sweetly tastes."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Taste is a linking verb here, so it takes the adjective sweet."
+    },
+    {
+      "question_id": "Q004",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the word order.",
+      "original_sentence": "My father reads every morning the newspaper.",
+      "corrected_sentence": "My father reads the newspaper every morning.",
+      "explanation": "Reads and its object the newspaper stay together."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Our neighbours often have parties."
+        },
+        {
+          "option_id": "B",
+          "text": "Our neighbours have often parties."
+        },
+        {
+          "option_id": "C",
+          "text": "Our neighbours have parties often always."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Often goes before the main verb have."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence means 'I almost couldn't see'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "I could hardly see in the fog."
+        },
+        {
+          "option_id": "B",
+          "text": "I could see hard in the fog."
+        },
+        {
+          "option_id": "C",
+          "text": "I could see hardly in the fog."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Hardly means almost not, and it goes before the main verb."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which spelling is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "angrily"
+        },
+        {
+          "option_id": "B",
+          "text": "angryly"
+        },
+        {
+          "option_id": "C",
+          "text": "angrilly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Angry changes y to i, then adds -ly."
+    },
+    {
+      "question_id": "Q008",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the describing word.",
+      "original_sentence": "The new goalkeeper reacts quick.",
+      "corrected_sentence": "The new goalkeeper reacts quickly.",
+      "explanation": "Quickly tells how the goalkeeper reacts."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "You look happy today."
+        },
+        {
+          "option_id": "B",
+          "text": "You look happily today."
+        },
+        {
+          "option_id": "C",
+          "text": "You happily look today."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Look links you to a description, so it takes the adjective happy."
+    },
+    {
+      "question_id": "Q010",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the word order.",
+      "original_sentence": "Mohan plays nicely the guitar.",
+      "corrected_sentence": "Mohan plays the guitar nicely.",
+      "explanation": "The adverb goes after the object the guitar."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "'He worked hardly all day' means he worked with a lot of effort.",
+      "correct_answer": false,
+      "explanation": "Hardly means almost not. With a lot of effort is hard."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which spelling is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "terribly"
+        },
+        {
+          "option_id": "B",
+          "text": "terriblely"
+        },
+        {
+          "option_id": "C",
+          "text": "terribley"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Terrible changes -le to -ly."
+    },
+    {
+      "question_id": "Q013",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "She is always cheerful."
+        },
+        {
+          "option_id": "B",
+          "text": "She always cheerful is."
+        },
+        {
+          "option_id": "C",
+          "text": "She is cheerful always is."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "With is, the frequency adverb comes after it."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check the Form",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check the Position",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Meaning and Spelling",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Adverb Mistakes: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012",
+        "Q013"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The rules behind each mistake",
+        "reason": "Taught earlier in this chapter: 2-2-2, 2-2-5, 2-2-14, 2-2-15 and 2-2-16.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Double negatives",
+        "reason": "Taught in Stage 2.4 (Word Order in Negative Sentences).",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Comparison mistakes (more faster)",
+        "reason": "Taught in Stage 5.2.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

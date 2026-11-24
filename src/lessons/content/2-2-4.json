@@ -1,0 +1,763 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-2-4",
+    "title": "Adverbs of Place",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Adverbs of Place",
+    "lesson_summary": "Adverbs of place answer \"where?\". Learners meet everyday place adverbs, use home and abroad without to, add direction adverbs and the -where family (somewhere, anywhere, everywhere, nowhere), and place these adverbs after the verb or object, with here and there at the start for a lively effect. Prepositions of place are left to Stage 4.1.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise adverbs of place.",
+        "success_criteria": [
+          "Find the word that tells where.",
+          "Say go home, not go to home."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use direction adverbs and the -where words.",
+        "success_criteria": [
+          "Find a direction adverb.",
+          "Choose somewhere, anywhere or everywhere."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Place adverbs of place correctly.",
+        "success_criteria": [
+          "Put them after the verb or object.",
+          "Use Here comes… correctly."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Place Words",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Direction and -where Words",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Where Place Goes",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Where Does It Happen?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Adverbs of place tell us where something happens."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The twins are playing outside.",
+              "highlight": [
+                "outside"
+              ],
+              "explanation": "Outside tells where the twins are playing."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Place adverbs tell where.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 29,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Everyday Place Adverbs",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Each of these answers \"where?\":",
+          "list_style": "bulleted",
+          "items": [
+            "here",
+            "there",
+            "upstairs",
+            "downstairs",
+            "abroad",
+            "nearby",
+            "away",
+            "outside",
+            "home"
+          ]
+        }
+      ],
+      "key_takeaway": "Learn the common place words.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 12,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Go Home, Not Go to Home",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE004",
+          "rule_text": "After a verb of movement, home is a place adverb, so it takes no to.",
+          "scope": "go, come, walk, drive + home",
+          "examples": [
+            {
+              "sentence": "It's getting dark, so let's go home.",
+              "highlight": [
+                "home"
+              ],
+              "explanation": "Home already means \"to your house\", so no to is needed."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "note",
+          "title": "Same pattern",
+          "text": "Go abroad, run upstairs, come downstairs: no to before these either."
+        }
+      ],
+      "key_takeaway": "No to before home or abroad.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 63,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Which Way?",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "Some place adverbs show direction: up, down, back, forward, backwards, away."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Step back from the edge of the platform.",
+              "highlight": [
+                "back"
+              ],
+              "explanation": "Back shows which way to move."
+            },
+            {
+              "sentence": "The lift is going down.",
+              "highlight": [
+                "down"
+              ],
+              "explanation": "Down shows the direction of the lift."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Direction adverbs show which way.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Somewhere, Anywhere, Everywhere",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "text",
+          "text": "Somewhere, anywhere, everywhere and nowhere work like someone and anyone, but for places."
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I can't find my house keys anywhere.",
+              "highlight": [
+                "anywhere"
+              ],
+              "explanation": "Anywhere is used in a negative sentence."
+            },
+            {
+              "sentence": "There were balloons everywhere at the party.",
+              "highlight": [
+                "everywhere"
+              ],
+              "explanation": "Everywhere means in every place."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "note",
+          "title": "Nowhere",
+          "text": "Nowhere means \"not anywhere\": There was nowhere to sit."
+        }
+      ],
+      "key_takeaway": "Some- in statements, any- in questions.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 60,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "After the Verb or Object",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "rule",
+          "rule_id": "RULE011",
+          "rule_text": "A place adverb usually goes after the verb, or after the object if there is one.",
+          "scope": "Usual position",
+          "examples": [
+            {
+              "sentence": "Please put the boxes downstairs.",
+              "highlight": [
+                "downstairs"
+              ],
+              "explanation": "Downstairs comes after the object the boxes."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Place usually follows the verb or object.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 39,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Here Comes the Bus!",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "text",
+          "text": "Here and there can start a lively sentence. With a noun, the verb comes before it."
+        },
+        {
+          "block_id": "BLOCK013",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Here comes the bus!",
+              "highlight": [
+                "Here comes"
+              ],
+              "explanation": "The verb comes goes before the noun the bus."
+            },
+            {
+              "sentence": "There goes our kite!",
+              "highlight": [
+                "There goes"
+              ],
+              "explanation": "There goes shows the kite moving away."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK014",
+          "type": "note",
+          "title": "With a pronoun",
+          "text": "Keep the normal order: Here it comes!"
+        }
+      ],
+      "key_takeaway": "Here comes + noun; here it comes.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 64,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Place Adverbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK015",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Place adverbs answer \"where?\".",
+            "Go home and go abroad take no to.",
+            "Direction: up, down, back, forward.",
+            "Somewhere in statements; anywhere in questions and negatives.",
+            "Place goes after the verb or object."
+          ]
+        }
+      ],
+      "key_takeaway": "Tell where, after the verb or object.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 34,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adverb of place in: 'My uncle works abroad.'",
+      "target": "The word that tells where.",
+      "accepted_answers": [
+        "abroad"
+      ],
+      "explanation": "Abroad tells where my uncle works."
+    },
+    {
+      "question_id": "Q002",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the sentence.",
+      "original_sentence": "After school, we walked to home.",
+      "corrected_sentence": "After school, we walked home.",
+      "explanation": "Home is a place adverb after a verb of movement, so it takes no to."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word answers the question 'where?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "nearby"
+        },
+        {
+          "option_id": "B",
+          "text": "soon"
+        },
+        {
+          "option_id": "C",
+          "text": "neatly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nearby tells where. Soon tells when and neatly tells how."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete the sentence: 'I looked for my glasses, but I couldn't see them ___.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "anywhere"
+        },
+        {
+          "option_id": "B",
+          "text": "somewhere"
+        },
+        {
+          "option_id": "C",
+          "text": "everywhere"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Anywhere is used in a negative sentence."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which word shows direction in 'Please move forward a little.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "forward"
+        },
+        {
+          "option_id": "B",
+          "text": "Please"
+        },
+        {
+          "option_id": "C",
+          "text": "little"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Forward tells which way to move."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We carried the chairs upstairs."
+        },
+        {
+          "option_id": "B",
+          "text": "We upstairs carried the chairs."
+        },
+        {
+          "option_id": "C",
+          "text": "Upstairs we the chairs carried."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Upstairs goes after the object the chairs."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Here comes the ice-cream van!"
+        },
+        {
+          "option_id": "B",
+          "text": "Here the ice-cream van comes!"
+        },
+        {
+          "option_id": "C",
+          "text": "Comes here the ice-cream van!"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "With a noun, the verb comes goes straight after here."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "'Downstairs' answers the question 'where?'.",
+      "correct_answer": true,
+      "explanation": "Downstairs tells where something happens."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete with somewhere, anywhere or everywhere: 'Let's find ___ quiet to study.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "somewhere"
+          ]
+        }
+      ],
+      "explanation": "Somewhere is used in a statement or suggestion about one place."
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the adverb of place in: 'The ducks swam away.'",
+      "target": "The word that tells which way.",
+      "accepted_answers": [
+        "away"
+      ],
+      "explanation": "Away tells where the ducks swam."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence uses home correctly?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Raj drove home after the party."
+        },
+        {
+          "option_id": "B",
+          "text": "Raj drove to home after the party."
+        },
+        {
+          "option_id": "C",
+          "text": "Raj drove at home after the party."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "After drove, home needs no preposition."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word is not an adverb of place?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "quickly"
+        },
+        {
+          "option_id": "B",
+          "text": "there"
+        },
+        {
+          "option_id": "C",
+          "text": "outside"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Quickly tells how, not where."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Place Words",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Direction Words",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check the Place Position",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Place Adverbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Prepositions of place (in, on, under)",
+        "reason": "Taught in Stage 4.1.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Preposition or adverb (up the hill / went up)",
+        "reason": "Taught in Stage 4.1 (Preposition vs Adverb).",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Small words in phrasal verbs",
+        "reason": "Taught in 2-1-12 Phrasal Verbs.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Inverted word order",
+        "reason": "Taught in Stage 2.4.",
+        "coverage": "introduced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

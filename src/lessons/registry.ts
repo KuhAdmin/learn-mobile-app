@@ -68,6 +68,37 @@ import topic_1_5_13 from './content/1-5-13.json';
 import topic_1_5_14 from './content/1-5-14.json';
 import topic_1_5_15 from './content/1-5-15.json';
 import topic_1_5_16 from './content/1-5-16.json';
+import topic_2_1_1 from './content/2-1-1.json';
+import topic_2_1_2 from './content/2-1-2.json';
+import topic_2_1_3 from './content/2-1-3.json';
+import topic_2_1_4 from './content/2-1-4.json';
+import topic_2_1_5 from './content/2-1-5.json';
+import topic_2_1_6 from './content/2-1-6.json';
+import topic_2_1_7 from './content/2-1-7.json';
+import topic_2_1_8 from './content/2-1-8.json';
+import topic_2_1_9 from './content/2-1-9.json';
+import topic_2_1_10 from './content/2-1-10.json';
+import topic_2_1_11 from './content/2-1-11.json';
+import topic_2_1_12 from './content/2-1-12.json';
+import topic_2_1_13 from './content/2-1-13.json';
+import topic_2_1_14 from './content/2-1-14.json';
+import topic_2_2_1 from './content/2-2-1.json';
+import topic_2_2_2 from './content/2-2-2.json';
+import topic_2_2_3 from './content/2-2-3.json';
+import topic_2_2_4 from './content/2-2-4.json';
+import topic_2_2_5 from './content/2-2-5.json';
+import topic_2_2_6 from './content/2-2-6.json';
+import topic_2_2_7 from './content/2-2-7.json';
+import topic_2_2_8 from './content/2-2-8.json';
+import topic_2_2_9 from './content/2-2-9.json';
+import topic_2_2_10 from './content/2-2-10.json';
+import topic_2_2_11 from './content/2-2-11.json';
+import topic_2_2_12 from './content/2-2-12.json';
+import topic_2_2_13 from './content/2-2-13.json';
+import topic_2_2_14 from './content/2-2-14.json';
+import topic_2_2_15 from './content/2-2-15.json';
+import topic_2_2_16 from './content/2-2-16.json';
+import topic_2_2_17 from './content/2-2-17.json';
 import { loadLesson, type Lesson } from './model';
 
 const LESSON_FILES: unknown[] = [
@@ -134,6 +165,37 @@ const LESSON_FILES: unknown[] = [
   topic_1_5_14,
   topic_1_5_15,
   topic_1_5_16,
+  topic_2_1_1,
+  topic_2_1_2,
+  topic_2_1_3,
+  topic_2_1_4,
+  topic_2_1_5,
+  topic_2_1_6,
+  topic_2_1_7,
+  topic_2_1_8,
+  topic_2_1_9,
+  topic_2_1_10,
+  topic_2_1_11,
+  topic_2_1_12,
+  topic_2_1_13,
+  topic_2_1_14,
+  topic_2_2_1,
+  topic_2_2_2,
+  topic_2_2_3,
+  topic_2_2_4,
+  topic_2_2_5,
+  topic_2_2_6,
+  topic_2_2_7,
+  topic_2_2_8,
+  topic_2_2_9,
+  topic_2_2_10,
+  topic_2_2_11,
+  topic_2_2_12,
+  topic_2_2_13,
+  topic_2_2_14,
+  topic_2_2_15,
+  topic_2_2_16,
+  topic_2_2_17,
 ];
 
 /** `1.1.1.EP001` / `1-1-2` → `s1.1.01` / `s1.1.02`. */
@@ -152,4 +214,9 @@ for (const file of LESSON_FILES) {
 
 export function lessonForTopic(topicId: string): Lesson | undefined {
   return BY_TOPIC.get(topicId);
+}
+
+/** Every lesson the app plays, in path order. */
+export function allLessons(): Lesson[] {
+  return [...BY_TOPIC.values()];
 }

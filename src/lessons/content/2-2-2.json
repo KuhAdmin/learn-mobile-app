@@ -1,0 +1,737 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-2-2",
+    "title": "Adverbs of Manner",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Adverbs of Manner",
+    "lesson_summary": "Adverbs of manner answer \"how?\". Learners meet common manner adverbs, including well and badly, learn to put them after the verb or after the object, and see how a well-chosen manner adverb (or a stronger verb) makes writing precise. Spelling rules for -ly come in 2-2-16; good or well comes in 2-2-15.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise adverbs of manner.",
+        "success_criteria": [
+          "Find the word that tells how.",
+          "Use well and badly."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Place manner adverbs correctly.",
+        "success_criteria": [
+          "Put the adverb after the verb.",
+          "Put it after the object, not before it."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Choose manner adverbs that fit the meaning.",
+        "success_criteria": [
+          "Pick the adverb that shows a feeling.",
+          "Compare an adverb with a stronger verb."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Manner Adverbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Where They Go",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Choosing the Right One",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "How Did It Happen?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Adverbs of manner tell us how someone does something."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The nurse lifted the newborn gently.",
+              "highlight": [
+                "gently"
+              ],
+              "explanation": "Gently tells how the nurse lifted the newborn."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Manner adverbs tell how.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Common Manner Adverbs",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Each of these answers \"how?\":",
+          "list_style": "bulleted",
+          "items": [
+            "calmly",
+            "politely",
+            "bravely",
+            "neatly",
+            "loudly",
+            "silently",
+            "well",
+            "badly"
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Tip",
+          "text": "Most manner adverbs end in -ly, but well and badly are two you will use every day."
+        }
+      ],
+      "key_takeaway": "Many manner adverbs end in -ly.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Well and Badly",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Well says something was done in a good way. Badly says it was done in a poor way."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Rahul plays the flute well.",
+              "highlight": [
+                "well"
+              ],
+              "explanation": "Well tells how Rahul plays."
+            },
+            {
+              "sentence": "I slept badly on the train.",
+              "highlight": [
+                "badly"
+              ],
+              "explanation": "Badly tells how I slept."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Well and badly tell how well something went.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Right After the Verb",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "When there is no object, a manner adverb usually comes right after the verb.",
+          "scope": "Verbs with no object",
+          "examples": [
+            {
+              "sentence": "The tortoise crawled slowly across the path.",
+              "highlight": [
+                "slowly"
+              ],
+              "explanation": "Slowly comes straight after crawled."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "No object? Put it after the verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "After the Object",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE008",
+          "rule_text": "When the verb has an object, put the manner adverb after the object.",
+          "scope": "Verbs with an object",
+          "examples": [
+            {
+              "sentence": "She folded the letter neatly.",
+              "highlight": [
+                "neatly"
+              ],
+              "explanation": "The object the letter stays next to folded, and neatly comes after it."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "note",
+          "title": "Not this",
+          "text": "She folded neatly the letter. The adverb must not split the verb from its object."
+        }
+      ],
+      "key_takeaway": "Keep the verb and its object together.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 61,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Plain or Precise?",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "With a manner adverb",
+              "description": "An ordinary verb plus an adverb.",
+              "example": "The boy walked slowly to the gate."
+            },
+            {
+              "label": "With a stronger verb",
+              "description": "One verb that already shows the manner.",
+              "example": "The boy trudged to the gate."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, slowly tells how he walked.",
+            "In the second, trudged already means walked slowly and heavily."
+          ],
+          "conclusion": "Both are correct. Choose the one that paints the clearest picture."
+        }
+      ],
+      "key_takeaway": "A stronger verb can hold the manner.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 68,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Adverbs Show Feelings",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "text",
+          "text": "Change the manner adverb and the reader sees a different person."
+        },
+        {
+          "block_id": "BLOCK012",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Priya closed the door softly.",
+              "highlight": [
+                "softly"
+              ],
+              "explanation": "Softly suggests she didn't want to wake anyone."
+            },
+            {
+              "sentence": "Priya closed the door angrily.",
+              "highlight": [
+                "angrily"
+              ],
+              "explanation": "Angrily shows that she was upset."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The adverb can show how someone feels.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 44,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Manner Adverbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK013",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Manner adverbs answer \"how?\".",
+            "Well and badly are common manner adverbs.",
+            "No object: right after the verb.",
+            "With an object: after the object.",
+            "Choose the adverb that fits the feeling."
+          ]
+        }
+      ],
+      "key_takeaway": "Tell how, after the verb or object.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adverb of manner in: 'The waiter poured the juice slowly.'",
+      "target": "The word that tells how he poured.",
+      "accepted_answers": [
+        "slowly"
+      ],
+      "explanation": "Slowly tells how the waiter poured the juice."
+    },
+    {
+      "question_id": "Q002",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the adverb that means 'in a good way': 'Tara dances very ___.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "well"
+          ]
+        }
+      ],
+      "explanation": "Well is the manner adverb for doing something in a good way."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word answers the question 'how?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "politely"
+        },
+        {
+          "option_id": "B",
+          "text": "yesterday"
+        },
+        {
+          "option_id": "C",
+          "text": "outside"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Politely tells how. Yesterday tells when, and outside tells where."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence puts the adverb in the right place?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "He fixed the chair quickly."
+        },
+        {
+          "option_id": "B",
+          "text": "He fixed quickly the chair."
+        },
+        {
+          "option_id": "C",
+          "text": "He quickly the chair fixed."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The object the chair stays next to fixed, and quickly comes after it."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the position of the adverb.",
+      "original_sentence": "We ate quickly our lunch.",
+      "corrected_sentence": "We ate our lunch quickly.",
+      "explanation": "The adverb goes after the object, our lunch."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence shows that the child was scared?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The child whispered nervously."
+        },
+        {
+          "option_id": "B",
+          "text": "The child whispered yesterday."
+        },
+        {
+          "option_id": "C",
+          "text": "The child whispered upstairs."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Nervously shows how the child felt while whispering."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which adverb fits best? 'The thief crept ___ past the sleeping guard.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "silently"
+        },
+        {
+          "option_id": "B",
+          "text": "loudly"
+        },
+        {
+          "option_id": "C",
+          "text": "badly"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A thief creeping past a sleeping guard moves silently."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "An adverb of manner answers the question 'how?'.",
+      "correct_answer": true,
+      "explanation": "Manner adverbs tell how an action is done."
+    },
+    {
+      "question_id": "Q009",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the adverb in: 'The team played badly in the rain.'",
+      "target": "The word that tells how the team played.",
+      "accepted_answers": [
+        "badly"
+      ],
+      "explanation": "Badly tells how the team played."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word is not an adverb of manner?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "tomorrow"
+        },
+        {
+          "option_id": "B",
+          "text": "bravely"
+        },
+        {
+          "option_id": "C",
+          "text": "politely"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Tomorrow tells when, not how."
+    },
+    {
+      "question_id": "Q011",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the position of the adverb.",
+      "original_sentence": "Grandma stirred gently the milk.",
+      "corrected_sentence": "Grandma stirred the milk gently.",
+      "explanation": "Gently goes after the object, the milk."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which adverb fits best? 'Ravi sang ___ at his sister's wedding.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "sweetly"
+        },
+        {
+          "option_id": "B",
+          "text": "today"
+        },
+        {
+          "option_id": "C",
+          "text": "there"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Sweetly tells how Ravi sang; the other words tell when or where."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Manner Adverbs",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check the Position",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Your Choice",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Manner Adverbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Spelling of -ly adverbs",
+        "reason": "Taught in 2-2-16 Formation of Adverbs.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Good or well",
+        "reason": "Contrasted in 2-2-15 Adverbs vs Adjectives.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Adverb position in full",
+        "reason": "Taught in 2-2-14 Adverb Position in Sentences.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Prepositions of manner (by bus, with care)",
+        "reason": "Taught in Stage 4.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

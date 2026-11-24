@@ -1,0 +1,603 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-10",
+    "title": "Verb Complements",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Verb Complements",
+    "lesson_summary": "Learners see that many verbs need words after them to be complete: an object, a word after a linking verb, a place phrase, a preposition the verb always takes (depend on, listen to), or a that-clause. They meet verbs such as put that need two parts. Objects, complements and sentence patterns are taught in depth in Stage 2.4, and clauses in Stage 4.4.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise the kinds of verb complements.",
+        "success_criteria": [
+          "Name an object, a word after a linking verb, a place phrase and a that-clause."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Complete verbs that need more than one part or a preposition.",
+        "success_criteria": [
+          "Use put with an object and a place.",
+          "Use depend on, listen to and wait for."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 11,
+    "total_pages": 6
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Kinds of Complement",
+      "applicability": "applicable",
+      "status": "introduced",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Verbs That Need More",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Finishing the Verb's Thought",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Many verbs aren't complete on their own. The words that complete them are called complements."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Please put the milk in the fridge.",
+              "highlight": [
+                "put",
+                "the milk",
+                "in the fridge"
+              ],
+              "explanation": "Put needs both what (the milk) and where (in the fridge)."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Complements finish what the verb starts.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Kinds of Complement",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "An object: found her keys",
+            "A word after a linking verb: seems tired",
+            "A place phrase: put it on the shelf",
+            "A preposition the verb needs: listen to the birds",
+            "A that-clause: hope that it rains"
+          ]
+        }
+      ],
+      "key_takeaway": "Objects, describing words, places, prepositions and clauses can complete a verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Verbs That Need Two Parts",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Some verbs, such as put and place, need an object and a place. Leave either out and the sentence feels unfinished.",
+          "scope": "Verbs such as put and place",
+          "examples": [
+            {
+              "sentence": "Arjun placed the vase on the windowsill.",
+              "highlight": [
+                "placed"
+              ],
+              "explanation": "Placed needs what (the vase) and where (on the windowsill)."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Put needs what and where.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Verbs That Need a Preposition",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "Some verbs always take a particular preposition before what follows: depend on, listen to, belong to, wait for."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We waited for the ferry in the rain.",
+              "highlight": [
+                "waited for"
+              ],
+              "explanation": "Wait takes for: we wait for something."
+            },
+            {
+              "sentence": "Puppies depend on their mothers.",
+              "highlight": [
+                "depend on"
+              ],
+              "explanation": "Depend takes on."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Learn depend on, listen to, wait for as pairs.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Complete or Not?",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Unfinished",
+              "description": "Something the verb needs is missing.",
+              "example": "Riya put the books."
+            },
+            {
+              "label": "Complete",
+              "description": "The verb has everything it needs.",
+              "example": "Riya put the books on the top shelf."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, we wonder where she put them.",
+            "In the second, the place phrase completes the verb."
+          ],
+          "conclusion": "If the listener would ask 'where?' or 'what?', the complement is missing."
+        }
+      ],
+      "key_takeaway": "Missing where or what? Add the complement.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Verb Complements: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Complements complete the verb.",
+            "They can be objects, describing words, places, prepositions or that-clauses.",
+            "Put and place need what and where.",
+            "Depend on, listen to, wait for come as pairs."
+          ]
+        }
+      ],
+      "key_takeaway": "Give each verb everything it needs.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What completes the verb in 'My aunt became a dentist'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a dentist"
+        },
+        {
+          "option_id": "B",
+          "text": "My aunt"
+        },
+        {
+          "option_id": "C",
+          "text": "became"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Became is a linking verb, and a dentist completes it."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "A that-clause can complete a verb, as in 'I hope that you win'.",
+      "correct_answer": true,
+      "explanation": "Hope needs something after it; 'that you win' completes it."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is complete?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Put the keys in the drawer."
+        },
+        {
+          "option_id": "B",
+          "text": "Put the keys."
+        },
+        {
+          "option_id": "C",
+          "text": "Put in the drawer."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Put needs both what (the keys) and where (in the drawer)."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'This bicycle belongs ___ my cousin.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "to"
+        },
+        {
+          "option_id": "B",
+          "text": "for"
+        },
+        {
+          "option_id": "C",
+          "text": "on"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Belong always takes to."
+    },
+    {
+      "question_id": "Q005",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete: 'We are listening ___ the radio.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "to"
+          ]
+        }
+      ],
+      "explanation": "Listen always takes to before what we hear."
+    },
+    {
+      "question_id": "Q006",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the preposition the verb needs in: 'Everyone relies on Aunt Mira.'",
+      "target": "The preposition that goes with relies.",
+      "accepted_answers": [
+        "on"
+      ],
+      "explanation": "Rely always takes on."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word completes the linking verb in 'The kitten looks ___'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "sleepy"
+        },
+        {
+          "option_id": "B",
+          "text": "quickly"
+        },
+        {
+          "option_id": "C",
+          "text": "towards"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A describing word completes a linking verb: looks sleepy."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is missing its complement?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Dad placed."
+        },
+        {
+          "option_id": "B",
+          "text": "Dad placed the lamp in the corner."
+        },
+        {
+          "option_id": "C",
+          "text": "Dad smiled."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Placed needs what and where. Smiled is complete on its own."
+    },
+    {
+      "question_id": "Q009",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "In 'Wait for me!', for is the preposition that wait needs.",
+      "correct_answer": true,
+      "explanation": "We wait for someone or something."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Match each complement with its kind.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "on the shelf"
+        },
+        {
+          "item_id": "L2",
+          "text": "seems tired"
+        },
+        {
+          "item_id": "L3",
+          "text": "found a coin"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "an object"
+        },
+        {
+          "item_id": "R2",
+          "text": "a place phrase"
+        },
+        {
+          "item_id": "R3",
+          "text": "a word after a linking verb"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "On the shelf tells where, tired follows the linking verb seems, and a coin is the object of found."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Kinds of Complement",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Verbs That Need More",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Verb Complements: Final Check",
+      "question_ids": [
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Objects, complements and sentence patterns in depth",
+        "reason": "Taught in Stage 2.4 Sentence Structure and Word Order.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "That-clauses",
+        "reason": "Taught in Stage 4.4 Clauses.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Transitive and linking verbs",
+        "reason": "Taught in 2-1-4 and 2-1-5.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

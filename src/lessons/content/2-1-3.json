@@ -1,0 +1,599 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-3",
+    "title": "Action Verbs and Stative Verbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Action Verbs and Stative Verbs",
+    "lesson_summary": "Learners sort verbs into action verbs (something happens, with the body or the mind) and stative verbs (a state that simply is true): feelings, thinking, having, senses and being. They use the test 'Is something happening?' to tell them apart. Using stative verbs correctly, and verbs with both meanings, is taught in 2-1-8.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Recognise action verbs.",
+        "success_criteria": [
+          "Spot physical and mental actions."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Recognise stative verbs.",
+        "success_criteria": [
+          "Name the groups of stative verbs.",
+          "Use the 'Is something happening?' test."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 10,
+    "total_pages": 6
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Action Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Stative Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE003",
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Doing or Being?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some verbs show something happening. Others show a state: something that simply is true."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The toddler giggles because she loves the swing.",
+              "highlight": [
+                "giggles",
+                "loves"
+              ],
+              "explanation": "Giggles is something happening; loves is a feeling, a state."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Verbs show actions or states.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Action Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "text",
+          "text": "Action verbs show something happening. The action can be with the body or in the mind."
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The goalkeeper dived for the ball.",
+              "highlight": [
+                "dived"
+              ],
+              "explanation": "Diving is a body action."
+            },
+            {
+              "sentence": "Mira decided to join the choir.",
+              "highlight": [
+                "decided"
+              ],
+              "explanation": "Deciding happens in the mind, but it is still an action."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Actions can be of the body or the mind.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Kinds of Stative Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Feelings: love, hate, prefer",
+            "Thinking: know, believe, understand",
+            "Having: own, belong, include",
+            "Senses: hear, smell, taste",
+            "Being: seem, contain, weigh"
+          ]
+        }
+      ],
+      "key_takeaway": "States are feelings, thoughts, having, senses and being.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "States in Sentences",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "text",
+          "text": "Stative verbs describe how things are, not what anyone is doing."
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "This jar contains wild honey.",
+              "highlight": [
+                "contains"
+              ],
+              "explanation": "Nothing is happening; contains describes what is inside."
+            },
+            {
+              "sentence": "Arjun believes in ghosts.",
+              "highlight": [
+                "believes"
+              ],
+              "explanation": "Believes describes what Arjun thinks, a state."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Stative verbs describe how things are.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Is Something Happening?",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "Ask: is something happening, with a start and an end? Then it is an action. If it is simply true for a while, it is a state.",
+          "scope": "Telling action verbs from stative verbs",
+          "examples": [
+            {
+              "sentence": "The orchestra owns three grand pianos.",
+              "highlight": [
+                "owns"
+              ],
+              "explanation": "Nothing happens; owning is simply true, so owns is stative."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Happening means action; simply true means state.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "title": "Action and State: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "Action verbs: something happens (dive, decide).",
+            "Stative verbs: something is true (know, own).",
+            "States include feelings, thinking, having, senses and being.",
+            "Ask: is something happening?"
+          ]
+        }
+      ],
+      "key_takeaway": "Sort verbs into doing and being.",
+      "page_audit": {
+        "primary_objective_count": 2,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which is an action verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "sprint"
+        },
+        {
+          "option_id": "B",
+          "text": "belong"
+        },
+        {
+          "option_id": "C",
+          "text": "know"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Sprinting is something happening. Belong and know are states."
+    },
+    {
+      "question_id": "Q002",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Decide is an action verb, even though it happens in the mind.",
+      "correct_answer": true,
+      "explanation": "Deciding happens at a moment, so it is an action."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which is a stative verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "prefer"
+        },
+        {
+          "option_id": "B",
+          "text": "skip"
+        },
+        {
+          "option_id": "C",
+          "text": "shout"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Prefer is a feeling, so it is stative."
+    },
+    {
+      "question_id": "Q004",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the stative verb in: 'This old trunk holds Grandma's saris.'",
+      "target": "The verb that describes a state.",
+      "accepted_answers": [
+        "holds"
+      ],
+      "explanation": "Holds here means contains: nothing is happening."
+    },
+    {
+      "question_id": "Q005",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Match each stative verb with its group.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "hate"
+        },
+        {
+          "item_id": "L2",
+          "text": "own"
+        },
+        {
+          "item_id": "L3",
+          "text": "understand"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "thinking"
+        },
+        {
+          "item_id": "R2",
+          "text": "feelings"
+        },
+        {
+          "item_id": "R3",
+          "text": "having"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Hate is a feeling, own is having, and understand is thinking."
+    },
+    {
+      "question_id": "Q006",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the action verb in: 'The squirrel buried a nut.'",
+      "target": "The verb that shows something happening.",
+      "accepted_answers": [
+        "buried"
+      ],
+      "explanation": "Burying is something the squirrel did."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence has a stative verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "This suitcase weighs ten kilos."
+        },
+        {
+          "option_id": "B",
+          "text": "The porter lifted the suitcase."
+        },
+        {
+          "option_id": "C",
+          "text": "We packed the suitcase."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Weighs describes how heavy the suitcase is; nothing is happening."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Belong is an action verb.",
+      "correct_answer": false,
+      "explanation": "Belong describes ownership, a state."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which group has only stative verbs?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "know, own, seem"
+        },
+        {
+          "option_id": "B",
+          "text": "run, know, own"
+        },
+        {
+          "option_id": "C",
+          "text": "jump, swim, seem"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Know, own and seem all describe states."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002"
+      ],
+      "prompt": "Which question helps you spot an action verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Is something happening, with a start and an end?"
+        },
+        {
+          "option_id": "B",
+          "text": "Does the verb end in -s?"
+        },
+        {
+          "option_id": "C",
+          "text": "Is the verb a short word?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Actions happen; states are simply true for a while."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Action Verbs",
+        "after_page_id": "PAGE002",
+        "question_ids": [
+          "Q001",
+          "Q002"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Stative Verbs",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q003",
+          "Q004",
+          "Q005"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Action and Stative Verbs: Final Check",
+      "question_ids": [
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Stative verbs without -ing, and verbs with both meanings",
+        "reason": "Taught in 2-1-8.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Stative verbs and tense restrictions",
+        "reason": "Taught in Stage 3.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

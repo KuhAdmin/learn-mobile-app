@@ -1,0 +1,654 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-2",
+    "title": "Main Verbs and Helping Verbs",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Main Verbs and Helping Verbs",
+    "lesson_summary": "Learners tell the main verb, which carries the meaning, from helping verbs (forms of be, have and do, and words such as can and will) that come before it. They see the helping verb move to the front in questions, and notice that be, have and do can also be main verbs. Each auxiliary is taught in depth in Stage 3.2, and modal verbs in Stage 3.3.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Tell main verbs from helping verbs.",
+        "success_criteria": [
+          "Find the main verb in a verb phrase.",
+          "Name common helping verbs."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Spot the helping verb in a question.",
+        "success_criteria": [
+          "Find the helper before the subject."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise be, have and do as main verbs.",
+        "success_criteria": [
+          "Tell 'has finished' from 'has a pet'."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 6
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Main or Helping",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Helpers in Questions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Be, Have and Do as Main Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE005"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "A Verb With a Helper",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Many verbs come in a team: a helping verb first, then the main verb that carries the meaning."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "We have painted the garden fence.",
+              "highlight": [
+                "have",
+                "painted"
+              ],
+              "explanation": "Have helps; painted tells us the action."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Helping verbs team up with main verbs.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Main Verb Carries the Meaning",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE001",
+          "rule_text": "The main verb tells the action or state. In a verb phrase, it comes last, after any helping verbs.",
+          "scope": "Verb phrases with helping verbs",
+          "examples": [
+            {
+              "sentence": "The chef is chopping onions.",
+              "highlight": [
+                "chopping"
+              ],
+              "explanation": "Chopping is the action, so it is the main verb; is only helps."
+            },
+            {
+              "sentence": "My cousins will arrive tomorrow.",
+              "highlight": [
+                "arrive"
+              ],
+              "explanation": "Arrive carries the meaning; will helps to point to the future."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The last verb in the team carries the meaning.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Common Helping Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Forms of be: am, is, are, was, were",
+            "Forms of have: has, have, had",
+            "Forms of do: do, does, did",
+            "Others: can, will, must, should"
+          ]
+        }
+      ],
+      "key_takeaway": "Be, have, do and can are common helpers.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Helpers Jump to the Front",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "In a question, the helping verb usually moves to the front, before the subject. The main verb stays behind."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Does your brother like mangoes?",
+              "highlight": [
+                "Does",
+                "like"
+              ],
+              "explanation": "Does is the helper at the front; like is the main verb."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "In questions, the helper comes first.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Helper or Main Verb?",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Helping verb",
+              "description": "Another verb carries the meaning.",
+              "example": "Riya has finished her homework."
+            },
+            {
+              "label": "Main verb",
+              "description": "It carries the meaning itself.",
+              "example": "Riya has a pet tortoise."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, finished is the main verb and has only helps.",
+            "In the second, no other verb follows, so has means owns."
+          ],
+          "conclusion": "Be, have and do are helpers only when another verb follows."
+        }
+      ],
+      "key_takeaway": "No other verb after it? Then it is the main verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Main and Helping Verbs: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "Remember:",
+          "list_style": "bulleted",
+          "items": [
+            "The main verb carries the meaning and comes last.",
+            "Helping verbs: be, have, do, can, will, must.",
+            "In questions, the helper moves to the front.",
+            "Be, have and do can also be main verbs."
+          ]
+        }
+      ],
+      "key_takeaway": "Find the main verb, then its helpers.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the main verb in: 'The children are building a sandcastle.'",
+      "target": "The verb that carries the meaning.",
+      "accepted_answers": [
+        "building"
+      ],
+      "explanation": "Building is the action; are only helps."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the helping verb in: 'Grandpa can whistle a tune.'",
+      "target": "The verb that helps the main verb.",
+      "accepted_answers": [
+        "can"
+      ],
+      "explanation": "Can helps the main verb whistle."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which word can be a helping verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "were"
+        },
+        {
+          "option_id": "B",
+          "text": "quickly"
+        },
+        {
+          "option_id": "C",
+          "text": "garden"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Were is a form of be, a common helping verb."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which question puts the helping verb first?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Did you lock the back gate?"
+        },
+        {
+          "option_id": "B",
+          "text": "You did lock the back gate?"
+        },
+        {
+          "option_id": "C",
+          "text": "You lock did the back gate?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "In a question, the helper did comes before the subject you."
+    },
+    {
+      "question_id": "Q005",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Identify the helping verb in: 'Will the bus stop near the market?'",
+      "target": "The helper at the front of the question.",
+      "accepted_answers": [
+        "will"
+      ],
+      "explanation": "Will comes first and helps the main verb stop."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In which sentence is did the main verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Sana did her chores before lunch."
+        },
+        {
+          "option_id": "B",
+          "text": "Sana did not reply."
+        },
+        {
+          "option_id": "C",
+          "text": "Did Sana call you?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "In the first sentence no other verb follows, so did is the main verb."
+    },
+    {
+      "question_id": "Q007",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'We have a new puppy', have is a helping verb.",
+      "correct_answer": false,
+      "explanation": "No other verb follows, so have is the main verb here; it means own."
+    },
+    {
+      "question_id": "Q008",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the main verb in: 'The pilot has landed the plane safely.'",
+      "target": "The verb that carries the meaning.",
+      "accepted_answers": [
+        "landed"
+      ],
+      "explanation": "Landed is the action; has helps."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence has a helping verb?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The sparrows are chirping."
+        },
+        {
+          "option_id": "B",
+          "text": "The sparrows chirp."
+        },
+        {
+          "option_id": "C",
+          "text": "The sparrows chirped."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Are helps the main verb chirping. The others have one verb only."
+    },
+    {
+      "question_id": "Q010",
+      "type": "match_the_pair",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Match each helping verb with its family.",
+      "left_items": [
+        {
+          "item_id": "L1",
+          "text": "is"
+        },
+        {
+          "item_id": "L2",
+          "text": "had"
+        },
+        {
+          "item_id": "L3",
+          "text": "does"
+        }
+      ],
+      "right_items": [
+        {
+          "item_id": "R1",
+          "text": "a form of do"
+        },
+        {
+          "item_id": "R2",
+          "text": "a form of be"
+        },
+        {
+          "item_id": "R3",
+          "text": "a form of have"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R1"
+        }
+      ],
+      "explanation": "Is belongs to be, had to have, and does to do."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In a statement, the main verb comes after the helping verb.",
+      "correct_answer": true,
+      "explanation": "The helper comes first and the main verb last, as in 'is chopping'."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which helping verb fits: '___ you seen my scarf?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Have"
+        },
+        {
+          "option_id": "B",
+          "text": "Did"
+        },
+        {
+          "option_id": "C",
+          "text": "Are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Seen goes with have: 'Have you seen…?'"
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Main or Helping",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Helpers in Questions",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Be, Have and Do",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Main and Helping Verbs: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Auxiliary verbs in depth (be, have, do)",
+        "reason": "Taught in Stage 3.2 Auxiliary and Helping Verbs.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Modal verbs (can, will, must)",
+        "reason": "Taught in Stage 3.3.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Tense forms made with helping verbs",
+        "reason": "Taught in Stage 3.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

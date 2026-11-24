@@ -1,0 +1,723 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-1-14",
+    "title": "Verb Usage and Common Errors",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Verb Usage and Common Errors",
+    "lesson_summary": "A review of the verb mistakes learners make most often, one kind per page, each with a correction: a missing verb, wrong past forms ('buyed'), a past form after did, a stative verb with -ing, a wrong verb pattern ('let us to use'), an extra preposition ('discussed about') and a pronoun in the wrong place in a phrasal verb. The rules themselves were taught earlier in this chapter. Agreement and tense errors are left to Stages 2.3 and 3.1.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Correct missing verbs and wrong forms.",
+        "success_criteria": [
+          "Add a missing verb.",
+          "Fix buyed and did went."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Correct mistakes with stative verbs and patterns.",
+        "success_criteria": [
+          "Fix I am knowing.",
+          "Fix let us to use."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Correct mistakes with objects.",
+        "success_criteria": [
+          "Fix discussed about.",
+          "Fix turn down it."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 14,
+    "total_pages": 9
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Missing Verbs and Wrong Forms",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "States and Patterns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Objects",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Spot and Fix Verb Mistakes",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Verbs are the heart of a sentence, so verb slips stand out. This lesson collects the common ones and shows how to fix each."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "list",
+          "introduction": "Watch out for:",
+          "list_style": "bulleted",
+          "items": [
+            "missing verbs and wrong past forms",
+            "-ing with stative verbs and wrong patterns",
+            "extra prepositions and misplaced pronouns"
+          ]
+        }
+      ],
+      "key_takeaway": "Verb mistakes come in a few kinds.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Don't Leave Out the Verb",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "My sister very tall.",
+            "correct": "My sister is very tall.",
+            "reason": "Every sentence needs a verb. Here the linking verb is is missing."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "Check that the sentence has its verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 25,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Bought, Not Buyed",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "We buyed fresh guavas at the market.",
+            "correct": "We bought fresh guavas at the market.",
+            "reason": "Buy is irregular: buy, bought, bought."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "Irregular verbs don't add -ed.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 25,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Did You Go, Not Did You Went",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Did you went to the book fair?",
+            "correct": "Did you go to the book fair?",
+            "reason": "Did already shows the past, so the main verb stays in its base form."
+          },
+          "related_learning_objective_ids": [
+            "OBJ001"
+          ]
+        }
+      ],
+      "key_takeaway": "After did, use the base form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Not I Am Knowing",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "I am knowing the answer to this riddle.",
+            "correct": "I know the answer to this riddle.",
+            "reason": "Know is a stative verb, so it stays in its simple form."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "States stay simple: I know.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Wrong Verb Pattern",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Dad let us to use his laptop.",
+            "correct": "Dad let us use his laptop.",
+            "reason": "After let + a person, use the base form with no to."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Let us use, not let us to use.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 25,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "No Extra Preposition",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "We discussed about the school trip.",
+            "correct": "We discussed the school trip.",
+            "reason": "Discuss takes its object directly, with no preposition."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Discuss the trip, not discuss about it.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 25,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Pronoun in the Middle",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "The television is noisy, so please turn down it.",
+            "correct": "The television is noisy, so please turn it down.",
+            "reason": "A pronoun object goes between the verb and the small word."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Turn it down, pick them up.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Verb Mistake Checklist",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "introduction": "Before you finish writing, check:",
+          "list_style": "bulleted",
+          "items": [
+            "Every sentence has a verb.",
+            "Irregular past forms: bought, not buyed.",
+            "After did, the base form.",
+            "No -ing with stative verbs.",
+            "The right pattern: let us use, enjoy reading.",
+            "No extra preposition; pronouns in the middle of phrasal verbs."
+          ]
+        }
+      ],
+      "key_takeaway": "Check your verbs before you finish.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The dal is too salty."
+        },
+        {
+          "option_id": "B",
+          "text": "The dal too salty."
+        },
+        {
+          "option_id": "C",
+          "text": "The dal be too salty."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The sentence needs a verb, and is is the right form."
+    },
+    {
+      "question_id": "Q002",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Correct the verb in this sentence.",
+      "original_sentence": "Yesterday Leela catched a fish.",
+      "corrected_sentence": "Yesterday Leela caught a fish.",
+      "explanation": "Catch is irregular: catch, caught, caught."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Did she call you last night?"
+        },
+        {
+          "option_id": "B",
+          "text": "Did she called you last night?"
+        },
+        {
+          "option_id": "C",
+          "text": "Did she calls you last night?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "After did, the main verb is in its base form."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We own a small fishing boat."
+        },
+        {
+          "option_id": "B",
+          "text": "We are owning a small fishing boat."
+        },
+        {
+          "option_id": "C",
+          "text": "We owning a small fishing boat."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Own is a stative verb, so it stays simple."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the verb pattern in this sentence.",
+      "original_sentence": "The teacher made us to rewrite the essay.",
+      "corrected_sentence": "The teacher made us rewrite the essay.",
+      "explanation": "After make + a person, use the base form with no to."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Let's discuss the menu."
+        },
+        {
+          "option_id": "B",
+          "text": "Let's discuss about the menu."
+        },
+        {
+          "option_id": "C",
+          "text": "Let's discuss on the menu."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Discuss takes its object directly."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Please put them away."
+        },
+        {
+          "option_id": "B",
+          "text": "Please put away them."
+        },
+        {
+          "option_id": "C",
+          "text": "Please away put them."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The pronoun them goes in the middle of the phrasal verb."
+    },
+    {
+      "question_id": "Q008",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Our neighbours are very friendly."
+        },
+        {
+          "option_id": "B",
+          "text": "Our neighbours very friendly."
+        },
+        {
+          "option_id": "C",
+          "text": "Our neighbours very friendly are."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The sentence needs the verb are, before the describing words."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Write the past of think: 'I ___ it would rain all day.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "thought"
+          ]
+        }
+      ],
+      "explanation": "Think is irregular: think, thought, thought."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "My aunt enjoys gardening."
+        },
+        {
+          "option_id": "B",
+          "text": "My aunt enjoys to garden."
+        },
+        {
+          "option_id": "C",
+          "text": "My aunt enjoys garden."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Enjoy is followed by the -ing form."
+    },
+    {
+      "question_id": "Q011",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "'Did you went to the match?' is correct.",
+      "correct_answer": false,
+      "explanation": "After did, use the base form: Did you go?"
+    },
+    {
+      "question_id": "Q012",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the word order in this sentence.",
+      "original_sentence": "Please pick up it.",
+      "corrected_sentence": "Please pick it up.",
+      "explanation": "A pronoun object goes between pick and up."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Missing Verbs and Forms",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check States and Patterns",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Objects",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Verb Mistakes: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The verb rules behind each mistake",
+        "reason": "Taught earlier in this chapter: 2-1-1, 2-1-6, 2-1-8, 2-1-11 and 2-1-12.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Subject–verb agreement mistakes",
+        "reason": "Taught in Stage 2.3.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Tense mistakes",
+        "reason": "Taught in Stage 3.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}
