@@ -1,0 +1,715 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-4",
+    "title": "Direct and Indirect Objects",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Direct and Indirect Objects",
+    "lesson_summary": "Some verbs take two objects. The indirect object (met in 1-2-13) is the person or animal who gets something; the direct object is the thing. Learners tell them apart, put the indirect object first, check that an indirect object always has a direct object with it, and learn the common two-object verbs. Rewriting with to or for is left to 2-4-12.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Tell the direct object from the indirect object.",
+        "success_criteria": [
+          "Find the thing and the person who gets it."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Put two objects in the right order.",
+        "success_criteria": [
+          "Put the person before the thing.",
+          "Keep a direct object with an indirect one."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Recognise verbs that take two objects.",
+        "success_criteria": [
+          "Name common two-object verbs."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Which Is Which",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "The Order",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Two-Object Verbs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Two Objects After One Verb",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "Some verbs take two objects: a thing, and the person who gets it. You met the indirect object in 1-2-13."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Nani posted my cousin a birthday card.",
+              "highlight": [
+                "my cousin",
+                "a birthday card"
+              ],
+              "explanation": "My cousin gets something; a birthday card is the thing posted."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "A thing, and someone who gets it.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Thing and the Person",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "The direct object is the thing given, sent or made. The indirect object is the person who gets it.",
+          "scope": "Two objects",
+          "examples": [
+            {
+              "sentence": "The waiter brought us the menu.",
+              "highlight": [
+                "us",
+                "the menu"
+              ],
+              "explanation": "Us is the indirect object; the menu is the direct object."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Direct: the thing. Indirect: who gets it.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Animals Can Get Things Too",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Leela threw the parrot a green chilli.",
+              "highlight": [
+                "the parrot",
+                "a green chilli"
+              ],
+              "explanation": "The parrot gets the chilli, so it is the indirect object."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The indirect object can be an animal.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 29,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Person First, Then Thing",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE005",
+          "rule_text": "When there are two objects, the indirect object comes first.",
+          "scope": "Order",
+          "examples": [
+            {
+              "sentence": "Dad bought my brother a cricket bat.",
+              "highlight": [
+                "my brother",
+                "a cricket bat"
+              ],
+              "explanation": "The person comes before the thing."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "note",
+          "title": "Not this",
+          "text": "Dad bought a cricket bat my brother."
+        }
+      ],
+      "key_takeaway": "Indirect object before direct object.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 46,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Never an Indirect Object Alone",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "An indirect object needs a direct object with it. You can give a book, or give someone a book, but you can't just give someone.",
+          "scope": "Completeness",
+          "examples": [
+            {
+              "sentence": "I gave her my old bicycle.",
+              "highlight": [
+                "her",
+                "my old bicycle"
+              ],
+              "explanation": "Without my old bicycle, \"I gave her.\" is incomplete."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Give someone something, not just give someone.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Verbs That Take Two Objects",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "list",
+          "introduction": "These verbs often take two objects:",
+          "list_style": "bulleted",
+          "items": [
+            "give",
+            "send",
+            "show",
+            "tell",
+            "buy",
+            "make",
+            "lend",
+            "bring",
+            "offer",
+            "teach"
+          ]
+        }
+      ],
+      "key_takeaway": "Give, send, show, tell, buy, make.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 15,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Two Objects Every Day",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our teacher told us a funny story.",
+              "highlight": [
+                "us",
+                "a funny story"
+              ],
+              "explanation": "Us gets the story."
+            },
+            {
+              "sentence": "Can you lend Arun your pencil?",
+              "highlight": [
+                "Arun",
+                "your pencil"
+              ],
+              "explanation": "Arun gets the pencil."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Spot the person and the thing.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 32,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Two Objects: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Direct object: the thing.",
+            "Indirect object: the person or animal who gets it.",
+            "The indirect object comes first.",
+            "An indirect object needs a direct object.",
+            "Give, send, show, tell, buy and make take two objects."
+          ]
+        }
+      ],
+      "key_takeaway": "Person first, thing second.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 37,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the direct object in: 'Sita showed her friends the photos.'",
+      "target": "The thing that was shown.",
+      "accepted_answers": [
+        "the photos",
+        "photos"
+      ],
+      "explanation": "The photos are the thing shown."
+    },
+    {
+      "question_id": "Q002",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the indirect object in: 'The postman handed Grandpa a letter.'",
+      "target": "The person who got something.",
+      "accepted_answers": [
+        "grandpa"
+      ],
+      "explanation": "Grandpa gets the letter."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'I made my sister a card.', who gets the card?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "my sister"
+        },
+        {
+          "option_id": "B",
+          "text": "I"
+        },
+        {
+          "option_id": "C",
+          "text": "a card"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "My sister is the indirect object."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Uncle sent us a postcard."
+        },
+        {
+          "option_id": "B",
+          "text": "Uncle sent a postcard us."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The indirect object us comes first."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is complete?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The teacher gave Asha a prize."
+        },
+        {
+          "option_id": "B",
+          "text": "The teacher gave Asha."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "An indirect object needs a direct object."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which verb can take two objects?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "lend"
+        },
+        {
+          "option_id": "B",
+          "text": "sleep"
+        },
+        {
+          "option_id": "C",
+          "text": "arrive"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "You can lend someone something."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "How many objects are there in 'Mum bought me a new bag.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "two"
+        },
+        {
+          "option_id": "B",
+          "text": "one"
+        },
+        {
+          "option_id": "C",
+          "text": "none"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Me is the indirect object and a new bag is the direct object."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "The indirect object usually comes before the direct object.",
+      "correct_answer": true,
+      "explanation": "The person comes first, then the thing."
+    },
+    {
+      "question_id": "Q009",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Put the objects in the right order.",
+      "original_sentence": "She offered a biscuit her guest.",
+      "corrected_sentence": "She offered her guest a biscuit.",
+      "explanation": "The indirect object her guest comes first."
+    },
+    {
+      "question_id": "Q010",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the indirect object in: 'Can you bring me a glass of water?'",
+      "target": "The person who gets something.",
+      "accepted_answers": [
+        "me"
+      ],
+      "explanation": "Me gets the glass of water."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'Ali taught his cousin chess.', what is the direct object?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "chess"
+        },
+        {
+          "option_id": "B",
+          "text": "his cousin"
+        },
+        {
+          "option_id": "C",
+          "text": "Ali"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Chess is the thing taught."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence has two objects?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The baker made the children some cookies."
+        },
+        {
+          "option_id": "B",
+          "text": "The baker made cookies."
+        },
+        {
+          "option_id": "C",
+          "text": "The baker smiled."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The children and some cookies are both objects."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check the Two Objects",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check the Order",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Two-Object Verbs",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Two Objects: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The indirect object as a noun job",
+        "reason": "Introduced in 1-2-13.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Rewriting with to or for",
+        "reason": "Taught in 2-4-12.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Pronoun direct objects (give it to me)",
+        "reason": "Taught in 2-4-12.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

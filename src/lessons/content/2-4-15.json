@@ -1,0 +1,713 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-15",
+    "title": "Word Order in Statements",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Word Order in Statements",
+    "lesson_summary": "A statement keeps the order subject, verb, object or complement, then adverbials (2-2-14). Learners put statements in order, never drop the subject (We went…, not Went…; It is raining, not Is raining), and keep statement order when a question sits inside a statement (I know where she lives.). Reported questions in full are left to Stage 3.5.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Put a statement in the right order.",
+        "success_criteria": [
+          "Order subject, verb, object and adverbials."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Never drop the subject.",
+        "success_criteria": [
+          "Add a missing I or we.",
+          "Use it for weather, time and distance."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Keep statement order for questions inside statements.",
+        "success_criteria": [
+          "Say I know where she lives."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "The Statement Order",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Never Drop the Subject",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Questions Inside Statements",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Statements Keep the Subject First",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "A statement gives information. Its order is subject, verb, then object or complement, then the adverbials (2-2-14)."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "My cousin bought a scooter last month.",
+              "highlight": [
+                "My cousin bought a scooter"
+              ],
+              "explanation": "Subject, verb, object, then when."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Statement order: subject, verb, the rest.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "The Statement Order",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "list",
+          "introduction": "Build a statement in this order:",
+          "list_style": "bulleted",
+          "items": [
+            "Subject: Our class",
+            "Verb: visited",
+            "Object or complement: the planetarium",
+            "Adverbials (how, where, when): by bus on Friday"
+          ]
+        }
+      ],
+      "key_takeaway": "Who, does what, to what, then how, where, when.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 27,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Putting the Parts Together",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Our class visited the planetarium by bus on Friday.",
+              "highlight": [
+                "Our class visited the planetarium"
+              ],
+              "explanation": "The core comes first; the adverbials follow."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Line the parts up in order.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 27,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Don't Leave Out I or We",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Went to the beach on Sunday.",
+            "correct": "We went to the beach on Sunday.",
+            "reason": "A statement needs a subject. Only commands leave it out (2-4-2)."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "note",
+          "title": "Remember",
+          "text": "One subject is enough, too: My sister plays the sitar, not My sister she plays (1-3-15)."
+        }
+      ],
+      "key_takeaway": "Only commands leave out the subject.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Don't Drop the Subject",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "An English statement always needs a subject. For weather, time and distance, use it.",
+          "scope": "Empty it",
+          "examples": [
+            {
+              "sentence": "It is raining in Mumbai.",
+              "highlight": [
+                "It is raining"
+              ],
+              "explanation": "It is the subject, even though it doesn't name anything."
+            },
+            {
+              "sentence": "It is a long way to the station.",
+              "highlight": [
+                "It is a long way"
+              ],
+              "explanation": "It is the subject of a sentence about distance."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK008",
+          "type": "note",
+          "title": "Not this",
+          "text": "Is raining in Mumbai."
+        }
+      ],
+      "key_takeaway": "For weather, time and distance, use it.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 71,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "A Question Inside a Statement",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "rule",
+          "rule_id": "RULE009",
+          "rule_text": "When a question sits inside a statement, use statement order: subject before verb, and no do.",
+          "scope": "Questions inside statements",
+          "examples": [
+            {
+              "sentence": "I know where Priya lives.",
+              "highlight": [
+                "where Priya lives"
+              ],
+              "explanation": "Priya comes before lives, and there is no does."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "note",
+          "title": "Not this",
+          "text": "I know where does Priya live."
+        }
+      ],
+      "key_takeaway": "Inside a statement, no question order.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 54,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Can You Tell Me …?",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Can you tell me what time the shop opens?",
+              "highlight": [
+                "what time the shop opens"
+              ],
+              "explanation": "The shop comes before opens."
+            },
+            {
+              "sentence": "I wonder why the puppy is whimpering.",
+              "highlight": [
+                "why the puppy is whimpering"
+              ],
+              "explanation": "The puppy comes before is."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Polite questions use statement order too.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Statement Order: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Subject, verb, object or complement, then adverbials.",
+            "Don't leave out I or we.",
+            "Never drop the subject: It is raining.",
+            "Questions inside statements keep statement order."
+          ]
+        }
+      ],
+      "key_takeaway": "Subject first, once, every time.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 29,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is in statement order?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Arun fixed the fan yesterday."
+        },
+        {
+          "option_id": "B",
+          "text": "Fixed Arun the fan yesterday."
+        },
+        {
+          "option_id": "C",
+          "text": "Arun yesterday the fan fixed."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Subject, verb, object, then when."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Where do adverbials usually go in a statement?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "after the object or complement"
+        },
+        {
+          "option_id": "B",
+          "text": "before the subject"
+        },
+        {
+          "option_id": "C",
+          "text": "between the verb and the object"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Adverbials usually follow the core of the sentence."
+    },
+    {
+      "question_id": "Q003",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Put the statement in order.",
+      "original_sentence": "Grandpa the newspaper reads every morning.",
+      "corrected_sentence": "Grandpa reads the newspaper every morning.",
+      "explanation": "Subject, verb, object, then when."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "I reached home at nine."
+        },
+        {
+          "option_id": "B",
+          "text": "Reached home at nine."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A statement needs a subject."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "It is very cold today."
+        },
+        {
+          "option_id": "B",
+          "text": "Is very cold today."
+        },
+        {
+          "option_id": "C",
+          "text": "Very cold today."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The statement needs the subject it."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Do you know where the bus stop is?"
+        },
+        {
+          "option_id": "B",
+          "text": "Do you know where is the bus stop?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The question inside keeps statement order."
+    },
+    {
+      "question_id": "Q007",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the word order.",
+      "original_sentence": "I don't know what does this word mean.",
+      "corrected_sentence": "I don't know what this word means.",
+      "explanation": "Inside a statement, use statement order and no does."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "A statement in English always needs a subject.",
+      "correct_answer": true,
+      "explanation": "Use it when nothing else fits."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "It is two kilometres to the market."
+        },
+        {
+          "option_id": "B",
+          "text": "Is two kilometres to the market."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Distance statements need the subject it."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is missing its subject?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Is very windy tonight."
+        },
+        {
+          "option_id": "B",
+          "text": "It is very windy tonight."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Weather statements need the subject it."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Tell me why you are late."
+        },
+        {
+          "option_id": "B",
+          "text": "Tell me why are you late."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The question inside keeps statement order."
+    },
+    {
+      "question_id": "Q012",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Put the statement in order.",
+      "original_sentence": "Every evening a walk Mum takes.",
+      "corrected_sentence": "Mum takes a walk every evening.",
+      "explanation": "Subject, verb, object, then when."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Statement Order",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check the Subject",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Questions Inside Statements",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Statement Order: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Adverb order (manner, place, time)",
+        "reason": "Taught in 2-2-14.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Reported questions",
+        "reason": "Taught in Stage 3.5.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Noun clauses",
+        "reason": "Taught in Stage 4.4.",
+        "coverage": "introduced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

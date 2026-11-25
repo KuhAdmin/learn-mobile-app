@@ -1,0 +1,735 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-3-2",
+    "title": "Singular and Plural Subjects",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Singular and Plural Subjects",
+    "lesson_summary": "Nouns and pronouns as subjects. Learners give a singular noun the -s form and a plural noun the base form, including plurals without -s (children, people, mice); match each subject pronoun to its verb (I am, you are, she is); and give always-plural nouns (jeans, scissors) a plural verb and -s nouns like news and physics a singular one. Words between the subject and the verb are left to 2-3-14.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Match noun subjects to their verbs.",
+        "success_criteria": [
+          "Use -s after a singular noun.",
+          "Use a plural verb after children and people."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Match pronoun subjects to their verbs.",
+        "success_criteria": [
+          "Use I am, you are, she is.",
+          "Use the base form after I and you."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use the right verb with special nouns.",
+        "success_criteria": [
+          "Use a plural verb after jeans and scissors.",
+          "Use a singular verb after news and physics."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Noun Subjects",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Pronoun Subjects",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Special Nouns",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Nouns and Pronouns as Subjects",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "A subject can be a noun or a pronoun. Either way, the verb must match its number."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The postman delivers letters before noon.",
+              "highlight": [
+                "The postman delivers"
+              ],
+              "explanation": "One postman, so delivers has -s."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Noun or pronoun, the verb matches it.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 41,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "One Noun, One -s",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "A singular noun subject takes the -s form. A plural noun subject takes the base form.",
+          "scope": "Noun subjects",
+          "examples": [
+            {
+              "sentence": "The kettle whistles on the stove.",
+              "highlight": [
+                "The kettle whistles"
+              ],
+              "explanation": "One kettle, so whistles has -s."
+            },
+            {
+              "sentence": "The kites fly above the field.",
+              "highlight": [
+                "The kites fly"
+              ],
+              "explanation": "More than one kite, so fly has no -s."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Singular noun: -s. Plural noun: no -s.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 58,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Plurals Without -s",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "text",
+          "text": "Children, people, men, women, mice, teeth and feet are plural, even without -s. They take a plural verb."
+        },
+        {
+          "block_id": "BLOCK005",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The children want ice cream after lunch.",
+              "highlight": [
+                "The children want"
+              ],
+              "explanation": "Children is plural, so want has no -s."
+            },
+            {
+              "sentence": "People queue outside the bakery every morning.",
+              "highlight": [
+                "People queue"
+              ],
+              "explanation": "People is plural, so queue has no -s."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Children and people are plural.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 60,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Pronouns and Their Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "list",
+          "introduction": "Each subject pronoun with its verb:",
+          "list_style": "bulleted",
+          "items": [
+            "I play, I am",
+            "you play, you are",
+            "he, she, it plays; he is",
+            "we play, we are",
+            "they play, they are"
+          ]
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "note",
+          "title": "I and you",
+          "text": "I and you take the base form: I like, you like. Only he, she and it add -s."
+        }
+      ],
+      "key_takeaway": "Only he, she and it add -s.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 54,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "One You or Many, Still Are",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Talking to one person",
+              "description": "You takes are.",
+              "example": "Rahul, you are late again!"
+            },
+            {
+              "label": "Talking to many people",
+              "description": "You takes are too.",
+              "example": "Children, you are all invited."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, you means one boy.",
+            "In the second, you means a whole group."
+          ],
+          "conclusion": "For one person or many, say you are and you were."
+        }
+      ],
+      "key_takeaway": "You always takes are and were.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 59,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Always-Plural Nouns",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "rule",
+          "rule_id": "RULE009",
+          "rule_text": "Nouns that are always plural (jeans, scissors, glasses, shorts) take a plural verb.",
+          "scope": "Always-plural nouns",
+          "examples": [
+            {
+              "sentence": "My new jeans are too long.",
+              "highlight": [
+                "My new jeans are"
+              ],
+              "explanation": "Jeans is plural, so the verb is are."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK010",
+          "type": "note",
+          "title": "Coming up",
+          "text": "A pair of jeans takes a singular verb (2-3-14)."
+        }
+      ],
+      "key_takeaway": "Jeans and scissors take plural verbs.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "News and Physics Take Singular Verbs",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "rule",
+          "rule_id": "RULE011",
+          "rule_text": "A few nouns end in -s but are singular: news, maths, physics. They take a singular verb.",
+          "scope": "Singular -s nouns",
+          "examples": [
+            {
+              "sentence": "The news from the village makes Grandma smile.",
+              "highlight": [
+                "makes"
+              ],
+              "explanation": "News is singular, so makes has -s."
+            },
+            {
+              "sentence": "Physics seems hard at first.",
+              "highlight": [
+                "Physics seems"
+              ],
+              "explanation": "Physics is one subject, so seems has -s."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "News and physics: singular verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 60,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Noun and Pronoun Subjects: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Singular noun: -s verb. Plural noun: base verb.",
+            "Children and people are plural.",
+            "I and you: base form. He, she, it: -s.",
+            "Jeans and scissors: plural verb.",
+            "News and physics: singular verb."
+          ]
+        }
+      ],
+      "key_takeaway": "Check the number, then the verb.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 36,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose the verb: 'The fans ___ loudly at every goal.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "cheer"
+        },
+        {
+          "option_id": "B",
+          "text": "cheers"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Fans is plural, so the verb has no -s."
+    },
+    {
+      "question_id": "Q002",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with live or lives: 'Those people ___ next to the river.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "live"
+          ]
+        }
+      ],
+      "explanation": "People is plural, so the verb is live."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Mice live under the old shed."
+        },
+        {
+          "option_id": "B",
+          "text": "Mice lives under the old shed."
+        },
+        {
+          "option_id": "C",
+          "text": "Mice living under the old shed."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Mice is plural, so the verb is live."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the verb: 'I ___ ready for the test.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "am"
+        },
+        {
+          "option_id": "B",
+          "text": "is"
+        },
+        {
+          "option_id": "C",
+          "text": "are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "I takes am."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the verb.",
+      "original_sentence": "You was right about the weather.",
+      "corrected_sentence": "You were right about the weather.",
+      "explanation": "You takes were, even for one person."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "These scissors are blunt."
+        },
+        {
+          "option_id": "B",
+          "text": "These scissors is blunt."
+        },
+        {
+          "option_id": "C",
+          "text": "This scissors are blunt."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Scissors is always plural, so it takes these and are."
+    },
+    {
+      "question_id": "Q007",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Complete with is or are: 'The news on the radio ___ good today.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "is"
+          ]
+        }
+      ],
+      "explanation": "News is singular, so the verb is is."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "'Teeth' is plural, so it takes a plural verb.",
+      "correct_answer": true,
+      "explanation": "Teeth is the plural of tooth."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the verb: 'She ___ the piano every evening.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "practises"
+        },
+        {
+          "option_id": "B",
+          "text": "practise"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "She takes the -s form."
+    },
+    {
+      "question_id": "Q010",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the verb.",
+      "original_sentence": "My shorts is in the washing machine.",
+      "corrected_sentence": "My shorts are in the washing machine.",
+      "explanation": "Shorts is always plural, so the verb is are."
+    },
+    {
+      "question_id": "Q011",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Complete with has or have: 'They ___ two cats and a parrot.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "have"
+          ]
+        }
+      ],
+      "explanation": "They takes have."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Physics is Arun's best subject."
+        },
+        {
+          "option_id": "B",
+          "text": "Physics are Arun's best subject."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Physics is one subject, so the verb is singular."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Noun Subjects",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Pronoun Subjects",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Special Nouns",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Singular and Plural: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Singular, plural and irregular plural nouns",
+        "reason": "Taught in 1-2-8 and 1-2-9.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "A pair of + plural noun",
+        "reason": "Taught in 2-3-14 Tricky Cases.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Words between the subject and the verb",
+        "reason": "Taught in 2-3-14 Tricky Cases.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Collective and uncountable nouns",
+        "reason": "Taught in 2-3-4 and 2-3-7.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

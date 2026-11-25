@@ -1,0 +1,767 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-1",
+    "title": "Introduction to Sentence Construction",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Introduction to Sentence Construction",
+    "lesson_summary": "A sentence has a subject and a verb and makes complete sense. Learners spot and fix fragments (no subject, no verb, or not complete), meet the five building blocks of a sentence (subject, verb, object, complement, adverbial), and see the path through this chapter. Kinds of sentence are left to Stage 2.5.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Say what makes a sentence.",
+        "success_criteria": [
+          "Check for a subject and a verb.",
+          "Check that it makes complete sense."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Spot and fix fragments.",
+        "success_criteria": [
+          "Name what a fragment is missing.",
+          "Join a fragment to a sentence."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Name the five building blocks.",
+        "success_criteria": [
+          "Find the subject, verb, object and adverbial in a sentence."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 9
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "What a Sentence Needs",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Fragments",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Building Blocks",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007",
+        "PAGE008"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "What Makes a Sentence?",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "A sentence has a subject and a verb, and it makes complete sense on its own."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The monsoon reached Kerala on Monday.",
+              "highlight": [
+                "The monsoon",
+                "reached"
+              ],
+              "explanation": "The monsoon is the subject and reached is the verb. The idea is complete."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Subject, verb, complete sense.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 46,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Two Parts You Always Need",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "Every sentence needs a subject and a verb. Even a two-word sentence can be complete.",
+          "scope": "Every sentence",
+          "examples": [
+            {
+              "sentence": "Thunder rumbled.",
+              "highlight": [
+                "Thunder",
+                "rumbled"
+              ],
+              "explanation": "A subject and a verb make a complete sentence."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK004",
+          "type": "note",
+          "title": "Commands",
+          "text": "In \"Sit down.\" the subject you is understood (2-4-2)."
+        }
+      ],
+      "key_takeaway": "No subject or no verb: no sentence.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 48,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "concept",
+      "pedagogical_role": "explanation",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Complete Sense",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "text",
+          "text": "A sentence must also make complete sense. If the words leave you waiting for more, the sentence isn't finished."
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "When the bell rings, we line up.",
+              "highlight": [
+                "When the bell rings",
+                "we line up"
+              ],
+              "explanation": "\"When the bell rings\" alone leaves you waiting; \"we line up\" finishes the idea."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "If you're left waiting, it isn't finished.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 52,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Three Kinds of Fragment",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "list",
+          "introduction": "A fragment looks like a sentence but is missing a part:",
+          "list_style": "bulleted",
+          "items": [
+            "No subject: Ran to the gate.",
+            "No verb: The tall boy with the kite.",
+            "Not complete: Because it was raining."
+          ]
+        }
+      ],
+      "key_takeaway": "A fragment is missing something.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 36,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Fixing a Fragment",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "We stayed inside. Because it was raining.",
+            "correct": "We stayed inside because it was raining.",
+            "reason": "\"Because it was raining\" can't stand alone, so join it to the sentence before it."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Join the fragment to its sentence.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 37,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Five Building Blocks",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "introduction": "Sentences are built from these blocks:",
+          "list_style": "bulleted",
+          "items": [
+            "Subject – who or what the sentence is about",
+            "Verb – the action or state",
+            "Object – what receives the action",
+            "Complement – completes the subject or object",
+            "Adverbial – tells how, where or when"
+          ]
+        }
+      ],
+      "key_takeaway": "Subject, verb, object, complement, adverbial.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Blocks in One Sentence",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "My cousin painted a mural at school last week.",
+              "highlight": [
+                "My cousin",
+                "painted",
+                "a mural",
+                "at school last week"
+              ],
+              "explanation": "Subject, verb, object, then an adverbial of place and time."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Label each block in turn.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 31,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "classification",
+      "pedagogical_role": "decomposition",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "The Path Through This Chapter",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "list",
+          "introduction": "This chapter covers:",
+          "list_style": "bulleted",
+          "items": [
+            "the parts: subject, predicate, object, complement, modifier",
+            "the five sentence patterns",
+            "word order in statements, questions and negatives",
+            "normal and inverted order"
+          ]
+        }
+      ],
+      "key_takeaway": "Parts first, then patterns, then order.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 30,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE009",
+      "page_number": 9,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Building Sentences: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK012",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "A sentence needs a subject and a verb.",
+            "It must make complete sense.",
+            "A fragment is missing a part.",
+            "Five blocks: subject, verb, object, complement, adverbial."
+          ]
+        }
+      ],
+      "key_takeaway": "Check every sentence has what it needs.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 29,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which is a complete sentence?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The kettle boiled."
+        },
+        {
+          "option_id": "B",
+          "text": "The kettle on the stove."
+        },
+        {
+          "option_id": "C",
+          "text": "Boiling on the stove."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "It has a subject, the kettle, and a verb, boiled."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "What is missing from 'Jumped over the fence.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a subject"
+        },
+        {
+          "option_id": "B",
+          "text": "a verb"
+        },
+        {
+          "option_id": "C",
+          "text": "an object"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We don't know who jumped."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which group of words makes complete sense?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Grandpa told us a story."
+        },
+        {
+          "option_id": "B",
+          "text": "After Grandpa told us a story."
+        },
+        {
+          "option_id": "C",
+          "text": "Grandpa, who told us a story."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The other two leave you waiting for more."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which is a fragment?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Because the lift was broken."
+        },
+        {
+          "option_id": "B",
+          "text": "The lift was broken."
+        },
+        {
+          "option_id": "C",
+          "text": "We took the stairs because the lift was broken."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"Because the lift was broken\" doesn't make complete sense alone."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is missing from 'The man with the striped scarf.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "a verb"
+        },
+        {
+          "option_id": "B",
+          "text": "a subject"
+        },
+        {
+          "option_id": "C",
+          "text": "an object"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "We know who, but not what he did."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "In 'Ria sang a song at the party.', which block is 'at the party'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an adverbial"
+        },
+        {
+          "option_id": "B",
+          "text": "an object"
+        },
+        {
+          "option_id": "C",
+          "text": "a subject"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "At the party tells where."
+    },
+    {
+      "question_id": "Q007",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the object in: 'The farmer sold his cows.'",
+      "target": "The words that say what was sold.",
+      "accepted_answers": [
+        "his cows",
+        "cows"
+      ],
+      "explanation": "His cows receives the action of sold."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Every sentence needs a subject and a verb.",
+      "correct_answer": true,
+      "explanation": "In a command, the subject you is understood."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence fixes the fragment 'Since it was Sunday.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "We slept late since it was Sunday."
+        },
+        {
+          "option_id": "B",
+          "text": "Since it was Sunday."
+        },
+        {
+          "option_id": "C",
+          "text": "Since Sunday."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Joining it to a sentence makes the idea complete."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which block tells how, where or when?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "an adverbial"
+        },
+        {
+          "option_id": "B",
+          "text": "an object"
+        },
+        {
+          "option_id": "C",
+          "text": "a subject"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Adverbials add how, where or when."
+    },
+    {
+      "question_id": "Q011",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the verb in: 'Our neighbour's cat climbed the mango tree.'",
+      "target": "The action word.",
+      "accepted_answers": [
+        "climbed"
+      ],
+      "explanation": "Climbed is what the cat did."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which is a complete sentence?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The children ran down the hill."
+        },
+        {
+          "option_id": "B",
+          "text": "Running down the hill."
+        },
+        {
+          "option_id": "C",
+          "text": "The children down the hill."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "It has a subject and a verb and makes complete sense."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Complete Sentences",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Fragments",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check the Building Blocks",
+        "after_page_id": "PAGE008",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Building Sentences: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Kinds of sentence (statements, questions, commands)",
+        "reason": "Taught in Stage 2.5.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Each building block in depth",
+        "reason": "Taught in 2-4-2 to 2-4-7.",
+        "coverage": "introduced_only"
+      },
+      {
+        "concept": "Every sentence needs a verb",
+        "reason": "Taught in 2-1-1.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

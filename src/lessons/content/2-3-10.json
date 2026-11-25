@@ -1,0 +1,724 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-3-10",
+    "title": "Agreement with There Is and There Are",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Agreement with There Is and There Are",
+    "lesson_summary": "After there, the real subject comes after the verb, so learners look ahead to choose there is or there are, there was or there were. They use is there? and are there? in questions, let the first item of a list decide the verb, use there are in writing where speech often says there's, and match how many with are and how much with is.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Choose there is or there are, there was or there were.",
+        "success_criteria": [
+          "Look at the noun after the verb."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use there in questions and before lists.",
+        "success_criteria": [
+          "Choose is there? or are there?",
+          "Let the first item of a list decide."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use there are correctly in writing.",
+        "success_criteria": [
+          "Replace there's before a plural noun.",
+          "Match how many and how much."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Is or Are After There",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Questions and Lists",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Writing It Right",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "When the Subject Comes After",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "In sentences that start with there is or there are, the real subject comes after the verb. Look ahead to choose the verb."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "There is a lizard on the ceiling.",
+              "highlight": [
+                "There is a lizard"
+              ],
+              "explanation": "The subject is a lizard, which is singular."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Look after there for the subject.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 51,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "There Is or There Are",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "Use there is before a singular or uncountable noun, and there are before a plural noun.",
+          "scope": "there is / there are",
+          "examples": [
+            {
+              "sentence": "There is some rice in the pot.",
+              "highlight": [
+                "There is some rice"
+              ],
+              "explanation": "Rice is uncountable, so there is."
+            },
+            {
+              "sentence": "There are three kittens under the porch.",
+              "highlight": [
+                "There are three kittens"
+              ],
+              "explanation": "Kittens is plural, so there are."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Singular or uncountable: is. Plural: are.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 62,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "There Was and There Were",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE004",
+          "rule_text": "In the past, use there was before a singular noun and there were before a plural noun.",
+          "scope": "there was / there were",
+          "examples": [
+            {
+              "sentence": "There was a storm last night.",
+              "highlight": [
+                "There was a storm"
+              ],
+              "explanation": "One storm, so there was."
+            },
+            {
+              "sentence": "There were puddles everywhere this morning.",
+              "highlight": [
+                "There were puddles"
+              ],
+              "explanation": "Puddles is plural, so there were."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "The same rule in the past.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 59,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Is There? Are There?",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE005",
+          "rule_text": "In questions, is or are comes before there, but it still agrees with the noun after there.",
+          "scope": "Questions",
+          "examples": [
+            {
+              "sentence": "Is there a chemist near here?",
+              "highlight": [
+                "Is there a chemist"
+              ],
+              "explanation": "A chemist is singular, so is there."
+            },
+            {
+              "sentence": "Are there any seats left?",
+              "highlight": [
+                "Are there any seats"
+              ],
+              "explanation": "Seats is plural, so are there."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "In questions, the verb comes first.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 57,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "A List After There",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "rule",
+          "rule_id": "RULE006",
+          "rule_text": "When a list follows there, the verb usually agrees with the first item.",
+          "scope": "Lists",
+          "examples": [
+            {
+              "sentence": "There is a pen and two pencils in my bag.",
+              "highlight": [
+                "There is a pen"
+              ],
+              "explanation": "The first item, a pen, is singular."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK007",
+          "type": "note",
+          "title": "Plural first",
+          "text": "There are two pencils and a pen in my bag."
+        }
+      ],
+      "key_takeaway": "The first item in the list decides.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 56,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "There's With a Plural",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "There's two buses to the city every hour.",
+            "correct": "There are two buses to the city every hour.",
+            "reason": "Buses is plural, so write there are. There's before a plural noun is common in speech, but not in writing."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "In writing, plural nouns need there are.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 46,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "How Many and How Much",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "How many students are there in your class?",
+              "highlight": [
+                "are there"
+              ],
+              "explanation": "How many asks about a plural noun, so are."
+            },
+            {
+              "sentence": "How much sugar is there in this tea?",
+              "highlight": [
+                "is there"
+              ],
+              "explanation": "How much asks about an uncountable noun, so is."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "How many … are there; how much … is there.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 45,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "There Is and There Are: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "There is / was + singular or uncountable.",
+            "There are / were + plural.",
+            "Is there? Are there? follow the same rule.",
+            "A list: the first item decides.",
+            "In writing: there are, not there's, before a plural."
+          ]
+        }
+      ],
+      "key_takeaway": "Look past there to the real subject.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 38,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose the verb: 'There ___ a parcel for you.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "is"
+        },
+        {
+          "option_id": "B",
+          "text": "are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "A parcel is singular."
+    },
+    {
+      "question_id": "Q002",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with was or were: 'There ___ two dogs in the garden last night.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "were"
+          ]
+        }
+      ],
+      "explanation": "Dogs is plural, so there were."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose the verb: 'There ___ some milk in the fridge.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "is"
+        },
+        {
+          "option_id": "B",
+          "text": "are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Milk is uncountable, so there is."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Are there any eggs left?"
+        },
+        {
+          "option_id": "B",
+          "text": "Is there any eggs left?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Eggs is plural, so are there."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the verb: 'There ___ a sofa and two chairs in the room.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "is"
+        },
+        {
+          "option_id": "B",
+          "text": "are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The first item, a sofa, is singular."
+    },
+    {
+      "question_id": "Q006",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Correct the sentence for writing.",
+      "original_sentence": "There's three apples on the table.",
+      "corrected_sentence": "There are three apples on the table.",
+      "explanation": "Apples is plural, so write there are."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Choose the verb: 'How many pages ___ there in this book?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "are"
+        },
+        {
+          "option_id": "B",
+          "text": "is"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "How many asks about a plural noun."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'There are two buses', the subject is buses.",
+      "correct_answer": true,
+      "explanation": "The real subject comes after the verb."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with is or are: 'There ___ no water in the tank.'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "is"
+          ]
+        }
+      ],
+      "explanation": "Water is uncountable, so there is."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Choose the verb: 'There ___ two chairs and a table in the hall.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "are"
+        },
+        {
+          "option_id": "B",
+          "text": "is"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The first item, two chairs, is plural."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct in writing?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "There are many birds on the wire."
+        },
+        {
+          "option_id": "B",
+          "text": "There's many birds on the wire."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Birds is plural, so write there are."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Choose the verb: 'How much time ___ there before the bell?'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "is"
+        },
+        {
+          "option_id": "B",
+          "text": "are"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Time is uncountable, so is."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check There Is and There Are",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Questions and Lists",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check There's and How Many",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "There Is and There Are: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Other subjects that come after the verb",
+        "reason": "Taught in 2-3-14 Tricky Cases.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "How much and how many",
+        "reason": "Taught in 1-4-11 Quantifiers.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Word order in questions",
+        "reason": "Taught in Stage 2.4.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

@@ -55,6 +55,11 @@ Schema 1.0 lessons (`1.1.1.EP001`) have no learning dimensions, only a final qui
    - It removes only the warm-ivory background connected to the image edge.
    - Look at the result over a dark or coloured background before using it.
 3. **The tests enforce rule 1.** `lessons.test.ts` fails on any lesson image without transparency. `npm run art:cutout -- --check` lists them.
+4. **Never cut a hole or notch into a picture.** Every lesson image is either a scene with its own rectangular frame (rounded corners are fine) or an outlined figure on transparency.
+   - Never paint over a speech bubble, pill or label that sits *inside* a scene and let the cutout remove it.
+   - If a speech bubble sits inside the scene, keep it: crop the whole scene as one rectangle, bubble included.
+   - A bubble or pill that only touches the scene's edge may be left out by stopping the rectangle short of it.
+   - `art:cutout` refuses to write a notched picture, and `npm run art:cutout -- --check` lists any that exist (both use `notchIn` in `scripts/art-cutout.js`).
 
 ## Learner state
 

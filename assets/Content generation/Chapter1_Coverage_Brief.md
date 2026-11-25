@@ -1494,3 +1494,464 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - Sunil worked hardly for his exams.
   - Everyone at the party clapped happyly.
 
+### 2.3.1 Introduction to Subject–Verb Agreement
+
+- **Pages:** Matching Subject and Verb · One or More Than One · Where Agreement Shows · The First Helper Agrees · Verbs That Never Change · Find the Subject First · Subjects in This Chapter · Subject and Verb: Recap
+- **Key takeaways:** The verb matches its subject. · A plural verb has no -s. · Watch -s, be, have and do. · Only the first helper changes. · Can, will and must stay the same. · Ask who or what does the action. · Each lesson takes one kind of subject. · Find the subject, then match the verb.
+- **Example sentences:**
+  - My uncle grows tomatoes on the roof. _(focus: My uncle grows)_
+  - The temple bell rings at six.
+  - The temple bells ring at six.
+  - My sister is learning to swim. _(focus: is learning)_
+  - Does your dog like bones? _(focus: Does)_
+  - Our grandfather can juggle three oranges. _(focus: can juggle)_
+  - Every morning, my grandparents walk to the temple. _(focus: my grandparents walk)_
+
+### 2.3.2 Singular and Plural Subjects
+
+- **Pages:** Nouns and Pronouns as Subjects · One Noun, One -s · Plurals Without -s · Pronouns and Their Verbs · One You or Many, Still Are · Always-Plural Nouns · News and Physics Take Singular Verbs · Noun and Pronoun Subjects: Recap
+- **Key takeaways:** Noun or pronoun, the verb matches it. · Singular noun: -s. Plural noun: no -s. · Children and people are plural. · Only he, she and it add -s. · You always takes are and were. · Jeans and scissors take plural verbs. · News and physics: singular verb. · Check the number, then the verb.
+- **Example sentences:**
+  - The postman delivers letters before noon. _(focus: The postman delivers)_
+  - The kettle whistles on the stove. _(focus: The kettle whistles)_
+  - The kites fly above the field. _(focus: The kites fly)_
+  - The children want ice cream after lunch. _(focus: The children want)_
+  - People queue outside the bakery every morning. _(focus: People queue)_
+  - Rahul, you are late again!
+  - Children, you are all invited.
+  - My new jeans are too long. _(focus: My new jeans are)_
+  - The news from the village makes Grandma smile. _(focus: makes)_
+  - Physics seems hard at first. _(focus: Physics seems)_
+
+### 2.3.3 Agreement with Compound Subjects
+
+- **Pages:** Two Subjects Joined by And · And Means Plural · Pronoun Pairs · Two Words, One Dish · One Meal or Two Things? · Two Titles, One Person · One The or Two? · Compound Subjects: Recap
+- **Key takeaways:** A and B usually make a plural. · One plus one is more than one. · You and I are; my friend and I have. · A dish named by two words is one thing. · Served apart: plural. One meal: singular. · One person with two roles: singular. · Repeat the to show two people. · Count the things, not the words.
+- **Example sentences:**
+  - Riya and her brother are at the fair. _(focus: Riya and her brother are)_
+  - The cat and the dog sleep by the fire. _(focus: sleep)_
+  - You and I are in the same relay team. _(focus: You and I are)_
+  - My friend and I have a plan for the holidays. _(focus: My friend and I have)_
+  - Rice and dal is my favourite lunch. _(focus: Rice and dal is)_
+  - Bread and butter makes a quick breakfast. _(focus: Bread and butter makes)_
+  - The idli and the sambar are on separate plates.
+  - Idli and sambar is a popular breakfast.
+  - My neighbour and best friend is coming to dinner. _(focus: is coming)_
+  - The singer and dancer is on stage now.
+  - The singer and the dancer are on stage now.
+
+### 2.3.4 Agreement with Collective Nouns
+
+- **Pages:** Groups as Subjects · One Group, One Verb · More Groups Acting as One · The Group or Its Members? · Police and Cattle Are Plural · Match the Verb and the Pronoun · Don't Mix Singular and Plural · Group Words: Recap
+- **Key takeaways:** How the group acts decides the verb. · Acting together: singular verb. · Committee meets; herd crosses. · Members acting separately can take a plural verb. · Police and cattle take plural verbs. · Is goes with its; are goes with their. · Pick one number and keep it. · One unit, one verb; then match the pronoun.
+- **Example sentences:**
+  - Our class is going on a trip to the zoo. _(focus: Our class is going)_
+  - The orchestra plays every Friday evening. _(focus: The orchestra plays)_
+  - The committee meets in the library. _(focus: The committee meets)_
+  - The herd crosses the road at dusk. _(focus: The herd crosses)_
+  - The jury has reached a decision.
+  - The jury are still arguing among themselves.
+  - The police are searching the park. _(focus: The police are)_
+  - The cattle are grazing by the canal. _(focus: The cattle are grazing)_
+  - The team is proud of its new kit. _(focus: its)_
+  - The family is packing their bags.
+
+### 2.3.5 Agreement with Indefinite Pronouns
+
+- **Pages:** Everyone, Both and Some · -one, -body and -thing Are Singular · Many People, Singular Verb · Both, Few, Many, Several · Look at the Noun After Of · All of the Cake or All of the Cakes? · None: Singular or Plural? · Everyone, Both and Some: Recap
+- **Key takeaways:** Singular, plural, or it depends. · Everybody loves; nothing tastes. · Everyone means many, but it is singular. · These four take plural verbs. · Some of the milk is; some of the guests are. · One amount: singular. Many things: plural. · In careful writing, none is singular. · Know the group, then choose the verb.
+- **Example sentences:**
+  - Everyone knows the new rule. _(focus: Everyone knows)_
+  - Everybody loves Grandma's mango pickle. _(focus: Everybody loves)_
+  - Nothing tastes better than a cold drink in summer. _(focus: Nothing tastes)_
+  - Everyone has a seat on the school bus. _(focus: Everyone has)_
+  - Both of my sisters play the veena. _(focus: Both of my sisters play)_
+  - Many were waiting at the gate. _(focus: Many were)_
+  - Some of the milk is sour. _(focus: Some of the milk is)_
+  - Some of the guests are late. _(focus: Some of the guests are)_
+  - All of the cake has gone.
+  - All of the cakes have gone.
+  - None of the tickets was left by Friday. _(focus: None of the tickets was)_
+
+### 2.3.6 Agreement with Each, Every, Either and Neither
+
+- **Pages:** Singular Verbs for One-by-One Words · Each and Every + Singular Noun · Every … and … · A Plural Noun, a Singular Verb · Speech and Writing · Plural Subject + Each · Each Before or After? · Each and Every: Recap
+- **Key takeaways:** Each, every, either, neither: singular. · Each player gets; every shop closes. · Every boy and girl has. · A plural noun, but a singular verb. · In writing, keep either of singular. · The twins each have: plural verb. · Find the real subject first. · Look one at a time, unless the subject is plural.
+- **Example sentences:**
+  - Every seat has a number. _(focus: Every seat has)_
+  - Each player gets a medal. _(focus: Each player gets)_
+  - Every shop closes at nine on Sundays. _(focus: Every shop closes)_
+  - Every boy and girl has a library card. _(focus: has)_
+  - Each of the rooms has a ceiling fan. _(focus: Each of the rooms has)_
+  - Neither of my uncles drives a car. _(focus: Neither of my uncles drives)_
+  - Either of the buses goes to the station. _(focus: Either of the buses goes)_
+  - The twins each have a bicycle. _(focus: The twins each have)_
+  - Each child carries a lunch box.
+  - The children each carry a lunch box.
+
+### 2.3.7 Agreement with Uncountable Nouns
+
+- **Pages:** Uncountable Nouns as Subjects · One Form, Singular Verb · Nouns That Trick Learners · A Piece Of, Pieces Of · Other Counting Words · Money and Time · Paper or Papers? · Uncountable Subjects: Recap
+- **Key takeaways:** No plural, so a singular verb. · Fresh air helps; traffic moves. · Advice, luggage, homework: singular. · Piece or pieces decides the verb. · A bottle costs; three slices are. · Money is; time passes. · The meaning decides the verb. · Uncountable means singular.
+- **Example sentences:**
+  - This furniture looks very old. _(focus: This furniture looks)_
+  - Fresh air helps you sleep. _(focus: Fresh air helps)_
+  - The traffic moves slowly after six. _(focus: The traffic moves)_
+  - A piece of the jigsaw is missing. _(focus: A piece of the jigsaw is)_
+  - Two pieces of luggage are still on the belt. _(focus: Two pieces of luggage are)_
+  - A bottle of water costs twenty rupees. _(focus: A bottle of water costs)_
+  - Three slices of bread are enough for me. _(focus: Three slices of bread are)_
+  - Money is tight this month. _(focus: Money is)_
+  - Time passes quickly at the fair. _(focus: Time passes)_
+  - Paper comes from trees.
+  - The morning papers are on the doorstep.
+
+### 2.3.8 Agreement with Subjects Joined by Or and Nor
+
+- **Pages:** Subjects Joined by Or · Singular Or Singular · Plural Or Plural · The Nearer Subject Decides · Put the Plural Last · Or in Questions · Is or Are in a Question? · Or and Nor: Recap
+- **Key takeaways:** Or picks one, so the verb doesn't just go plural. · One or one: singular verb. · Many or many: plural verb. · Mixed? Match the closer one. · Plural last sounds natural. · The helper matches the subject after it. · Two singulars: is. A plural first: are. · Same number is easy; mixed, match the nearer.
+- **Example sentences:**
+  - Tea or coffee is served after dinner. _(focus: Tea or coffee is served)_
+  - A pen or a pencil works for this test. _(focus: works)_
+  - Apples or bananas make a good snack. _(focus: make)_
+  - My brother or my cousins are coming to pick me up. _(focus: my cousins are)_
+  - My cousins or my brother is coming to pick me up. _(focus: my brother is)_
+  - A sandwich or some biscuits are fine for the trip. _(focus: some biscuits are)_
+  - Are the twins or Asha joining us? _(focus: Are the twins)_
+  - Is Grandpa or Grandma picking us up? _(focus: Is Grandpa)_
+  - Are your parents or your grandparents coming to the show? _(focus: Are your parents)_
+
+### 2.3.9 Agreement with Either…Or and Neither…Nor
+
+- **Pages:** Paired Joining Words · Either … Or · Neither … Nor · Either You or I Am · Neither She Nor They · Neither … Nor Is Already Negative · Both … And or Either … Or? · Either and Neither: Recap
+- **Key takeaways:** The nearer subject still decides. · One or the other; match the nearer. · Not one and not the other. · Match the nearer pronoun: I am, you are. · Swap the order and the verb changes. · No not after neither … nor. · Both … and is always plural. · Match the nearer subject; add no extra not.
+- **Example sentences:**
+  - Either Priya or her brothers feed the cat. _(focus: her brothers feed)_
+  - Either the bus or the train stops at our village. _(focus: the train stops)_
+  - Neither the shops nor the bank is open on Sunday. _(focus: the bank is)_
+  - Either you or I am going to carry the bags. _(focus: I am)_
+  - Neither she nor they were at the meeting. _(focus: they were)_
+  - Neither they nor she was at the meeting. _(focus: she was)_
+  - Neither my sister nor I don't like spinach.
+  - Both the coach and the captain are pleased.
+  - Either the coach or the captain is speaking next.
+
+### 2.3.10 Agreement with There Is and There Are
+
+- **Pages:** When the Subject Comes After · There Is or There Are · There Was and There Were · Is There? Are There? · A List After There · There's With a Plural · How Many and How Much · There Is and There Are: Recap
+- **Key takeaways:** Look after there for the subject. · Singular or uncountable: is. Plural: are. · The same rule in the past. · In questions, the verb comes first. · The first item in the list decides. · In writing, plural nouns need there are. · How many … are there; how much … is there. · Look past there to the real subject.
+- **Example sentences:**
+  - There is a lizard on the ceiling. _(focus: There is a lizard)_
+  - There is some rice in the pot. _(focus: There is some rice)_
+  - There are three kittens under the porch. _(focus: There are three kittens)_
+  - There was a storm last night. _(focus: There was a storm)_
+  - There were puddles everywhere this morning. _(focus: There were puddles)_
+  - Is there a chemist near here? _(focus: Is there a chemist)_
+  - Are there any seats left? _(focus: Are there any seats)_
+  - There is a pen and two pencils in my bag. _(focus: There is a pen)_
+  - There's two buses to the city every hour.
+  - How many students are there in your class? _(focus: are there)_
+  - How much sugar is there in this tea? _(focus: is there)_
+
+### 2.3.11 Agreement with Expressions of Quantity
+
+- **Pages:** Quantity Words as Subjects · A Lot Of: The Noun Decides · Half, Thirds and Per Cent · A Number Of or The Number Of? · The Majority Of · One Of + Plural Noun · More One Of Sentences · Quantity Words: Recap
+- **Key takeaways:** Usually, the noun after of decides. · A lot of rain falls; lots of children play. · Half of the cake was; ten per cent of the students walk. · A number of: plural. The number of: singular. · The majority of + plural noun: plural verb. · One of my friends lives: singular verb. · Plural noun, singular verb. · Check the noun after of, or the word one.
+- **Example sentences:**
+  - A lot of people visit the fort in winter. _(focus: A lot of people visit)_
+  - A lot of rain falls in July. _(focus: A lot of rain falls)_
+  - Lots of children play in the park after school. _(focus: Lots of children play)_
+  - Half of the cake was eaten before lunch. _(focus: Half of the cake was)_
+  - Ten per cent of the students walk to school. _(focus: Ten per cent of the students walk)_
+  - A number of students are absent today.
+  - The number of students is falling.
+  - The majority of voters want a new park. _(focus: The majority of voters want)_
+  - One of my friends lives in Mysuru. _(focus: One of my friends lives)_
+  - One of the tyres is flat. _(focus: One of the tyres is)_
+  - One of our hens lays two eggs a day. _(focus: One of our hens lays)_
+
+### 2.3.12 Agreement with Titles, Names and Measurements
+
+- **Pages:** One Name, One Amount · Titles Are Singular · Names That Look Plural · One Amount, Singular Verb · One Amount or Separate Things? · Sums Take a Singular Verb · Times and Divided By · Titles and Amounts: Recap
+- **Key takeaways:** Looks plural, means one: singular verb. · One book or film: singular verb. · One country, one verb. · Five hundred rupees is; ten kilometres is. · An amount: singular. Separate items: plural. · Two plus three is five. · Times and divided by work the same way. · One title, one place, one amount: singular.
+- **Example sentences:**
+  - Little Women is my favourite novel. _(focus: Little Women is)_
+  - Gulliver's Travels is a funny book. _(focus: Gulliver's Travels is)_
+  - The Three Musketeers tells the story of four friends. _(focus: The Three Musketeers tells)_
+  - The Philippines is a country of many islands. _(focus: The Philippines is)_
+  - The United States has fifty states. _(focus: The United States has)_
+  - Five hundred rupees is too much for a T-shirt. _(focus: Five hundred rupees is)_
+  - Ten kilometres is a long way to walk. _(focus: Ten kilometres is)_
+  - Fifty rupees is the price of the ticket.
+  - Fifty one-rupee coins are in the jar.
+  - Two plus three is five. _(focus: Two plus three is)_
+  - Ten minus four equals six. _(focus: Ten minus four equals)_
+  - Six times seven is forty-two. _(focus: Six times seven is)_
+  - Twenty divided by five equals four. _(focus: Twenty divided by five equals)_
+
+### 2.3.13 Agreement with Relative Pronoun Subjects
+
+- **Pages:** Who, Which and That as Subjects · Look at the Noun Before Who · Which and That Work the Same · One of the … Who · Two Verbs, Two Subjects · The Only One Who · Who, Which and That: Recap
+- **Key takeaways:** Who borrows its number from the noun before. · Singular noun before who: singular verb. · Mango which looks; bags that hold. · Who refers to the plural noun: plural verb. · Each verb has its own subject. · The only one … who: singular verb. · Find what who stands for.
+- **Example sentences:**
+  - I have a friend who speaks four languages. _(focus: a friend who speaks)_
+  - The girl who sits next to me draws well. _(focus: The girl who sits)_
+  - The shops that sell kites are near the beach. _(focus: The shops that sell)_
+  - Pick the mango which looks ripest. _(focus: the mango which looks)_
+  - We need bags that hold a lot. _(focus: bags that hold)_
+  - Ali is one of the students who play in the band. _(focus: the students who play)_
+  - One of the girls sings in the choir.
+  - Meera is one of the girls who sing in the choir.
+  - Ravi is the only one of my friends who owns a dog. _(focus: the only one of my friends who owns)_
+
+### 2.3.14 Tricky Subject–Verb Agreement Cases
+
+- **Pages:** When the Subject Hides · Skip the Words in Between · As Well As and Along With · Questions: Look After the Helper · Here Come the Twins · -ing Subjects Are Singular · A Pair Of · Tricky Subjects: Recap
+- **Key takeaways:** Find the real subject before the verb. · Find the main noun, then the verb. · Extra people don't make the subject plural. · In questions, the subject follows the helper. · After here or there, look ahead. · An activity is one thing: singular verb. · A pair of socks is. · Find the real subject every time.
+- **Example sentences:**
+  - The box of crayons is on the shelf. _(focus: The box of crayons is)_
+  - The leaves on that tree are turning yellow. _(focus: The leaves on that tree are)_
+  - The colour of the curtains is lovely. _(focus: The colour of the curtains is)_
+  - The captain, as well as the players, is ready. _(focus: The captain, as well as the players, is)_
+  - Where are my house keys? _(focus: are my house keys)_
+  - Where does your uncle work? _(focus: does your uncle)_
+  - Here come the twins! _(focus: Here come the twins)_
+  - There goes the last ferry! _(focus: There goes the last ferry)_
+  - Swimming in the sea is fun. _(focus: Swimming in the sea is)_
+  - Eating vegetables keeps you healthy. _(focus: Eating vegetables keeps)_
+  - A pair of socks is missing from the line. _(focus: A pair of socks is)_
+
+### 2.4.1 Introduction to Sentence Construction
+
+- **Pages:** What Makes a Sentence? · Two Parts You Always Need · Complete Sense · Three Kinds of Fragment · Fixing a Fragment · Five Building Blocks · Blocks in One Sentence · The Path Through This Chapter · Building Sentences: Recap
+- **Key takeaways:** Subject, verb, complete sense. · No subject or no verb: no sentence. · If you're left waiting, it isn't finished. · A fragment is missing something. · Join the fragment to its sentence. · Subject, verb, object, complement, adverbial. · Label each block in turn. · Parts first, then patterns, then order. · Check every sentence has what it needs.
+- **Example sentences:**
+  - The monsoon reached Kerala on Monday. _(focus: The monsoon, reached)_
+  - Thunder rumbled. _(focus: Thunder, rumbled)_
+  - When the bell rings, we line up. _(focus: When the bell rings, we line up)_
+  - We stayed inside. Because it was raining.
+  - My cousin painted a mural at school last week. _(focus: My cousin, painted, a mural, at school last week)_
+
+### 2.4.2 Subject and Predicate
+
+- **Pages:** Two Halves of a Sentence · The Predicate Starts With the Verb · Long Subjects, Long Predicates · Simple and Complete Subject · Simple and Complete Predicate · Commands Hide You · When the Subject Isn't First · Subject and Predicate: Recap
+- **Key takeaways:** Who it is about, and what is said about it. · Find the verb, then cut. · Either half can be long. · The main noun is the simple subject. · The verb is the simple predicate. · In a command, the subject is you. · Skip the opener to find the subject. · Find the verb, then split.
+- **Example sentences:**
+  - The old fisherman mended his net. _(focus: The old fisherman, mended his net)_
+  - My little brother collects shiny stones. _(focus: collects shiny stones)_
+  - The boy in the blue jacket laughed. _(focus: The boy in the blue jacket)_
+  - Parrots chatter all day in the guava tree. _(focus: chatter all day in the guava tree)_
+  - The tall, smiling teacher waved. _(focus: teacher)_
+  - The puppy chewed my new slipper. _(focus: chewed)_
+  - Please shut the gate. _(focus: shut the gate)_
+  - After lunch, the whole class played kabaddi. _(focus: the whole class)_
+
+### 2.4.3 Verb and Object
+
+- **Pages:** The Object Slot · What Can Fill the Object Slot? · Long Objects and -ing Objects · Object or Adverbial? · The Move-to-the-Front Test · Object or Complement? · The Same-Person Test · Objects: Recap
+- **Key takeaways:** The object follows the verb. · Nouns, pronouns, phrases, -ing and to + base. · The whole group is the object. · A thing is an object; a time or place is not. · Adverbials move; objects stay. · Someone else: object. The same person: complement. · Same as the subject? Then it's a complement. · Find it, then test it.
+- **Example sentences:**
+  - Meera fed the hungry ducks. _(focus: the hungry ducks)_
+  - We bought the biggest watermelon in the market. _(focus: the biggest watermelon in the market)_
+  - Raju enjoys flying kites. _(focus: flying kites)_
+  - Arjun left his umbrella.
+  - Arjun left after lunch.
+  - Near the temple, the bus stopped. _(focus: Near the temple)_
+  - Priya met a doctor.
+  - Priya became a doctor.
+  - The stray puppy became my best friend. _(focus: my best friend)_
+
+### 2.4.4 Direct and Indirect Objects
+
+- **Pages:** Two Objects After One Verb · The Thing and the Person · Animals Can Get Things Too · Person First, Then Thing · Never an Indirect Object Alone · Verbs That Take Two Objects · Two Objects Every Day · Two Objects: Recap
+- **Key takeaways:** A thing, and someone who gets it. · Direct: the thing. Indirect: who gets it. · The indirect object can be an animal. · Indirect object before direct object. · Give someone something, not just give someone. · Give, send, show, tell, buy, make. · Spot the person and the thing. · Person first, thing second.
+- **Example sentences:**
+  - Nani posted my cousin a birthday card. _(focus: my cousin, a birthday card)_
+  - The waiter brought us the menu. _(focus: us, the menu)_
+  - Leela threw the parrot a green chilli. _(focus: the parrot, a green chilli)_
+  - Dad bought my brother a cricket bat. _(focus: my brother, a cricket bat)_
+  - I gave her my old bicycle. _(focus: her, my old bicycle)_
+  - Our teacher told us a funny story. _(focus: us, a funny story)_
+  - Can you lend Arun your pencil? _(focus: Arun, your pencil)_
+
+### 2.4.5 Subject Complements
+
+- **Pages:** Completing the Subject · Renaming or Describing? · More Complements · It's Me or It Is I? · -ing and To + Base Complements · Describing or Saying Where? · The What-Like Test · Subject Complements: Recap
+- **Key takeaways:** After a linking verb, the complement completes the subject. · A noun renames; an adjective describes. · A complement can be a phrase. · In everyday English, say it's me. · An activity can complete the subject. · Where or when after be is an adverbial. · What is it, or what is it like? Complement. · Rename or describe the subject.
+- **Example sentences:**
+  - The old lighthouse is a museum now. _(focus: a museum)_
+  - Aunt Rekha is a dentist.
+  - Aunt Rekha is very calm.
+  - The winner was a girl from Class 4. _(focus: a girl from Class 4)_
+  - The sky looks stormy. _(focus: stormy)_
+  - "Who's at the door?" "It's me!" _(focus: me)_
+  - Her hobby is collecting stamps. _(focus: collecting stamps)_
+  - The plan is to leave at dawn. _(focus: to leave at dawn)_
+  - The kitten is sleepy.
+  - The kitten is under the sofa.
+  - The concert was on Saturday. _(focus: on Saturday)_
+
+### 2.4.6 Object Complements
+
+- **Pages:** Completing the Object · Noun Object Complements · Adjective Object Complements · The Object-Is Test · Testing Two Sentences · Right After the Object · Object Complement or Adverbial? · Object Complements: Recap
+- **Key takeaways:** An object complement completes the object. · A noun after the object renames it. · An adjective after the object describes it. · Object + is + complement must make sense. · Run the test every time. · Object first, complement next. · Describes the object, or tells when? · Object, then what it is or is like.
+- **Example sentences:**
+  - The heavy rain made the roads slippery. _(focus: slippery)_
+  - The class elected Asha captain. _(focus: captain)_
+  - We call our grandfather Dadu. _(focus: Dadu)_
+  - The good news made Grandpa happy. _(focus: happy)_
+  - Please keep the windows open. _(focus: open)_
+  - The judges declared Kiran the winner. _(focus: Kiran the winner)_
+  - Long walks make me hungry. _(focus: me hungry)_
+  - They painted the fence green. _(focus: the fence green)_
+  - The children found the puzzle easy. _(focus: the puzzle easy)_
+  - Sonu left her room tidy.
+  - Sonu left her room at seven.
+
+### 2.4.7 Modifiers and Their Placement
+
+- **Pages:** Words That Describe Other Words · Kinds of Modifier · Keep It Close · A Modifier in the Wrong Place · One Move, a New Meaning · An -ing Opener Describes the Subject · A Dangling Opener · Modifiers: Recap
+- **Key takeaways:** A modifier describes another part. · Adjectives, adverbs and phrases. · Put the modifier next to its word. · Move it next to the word it describes. · Where the phrase sits changes who has it. · Who is doing the -ing? The subject after the comma. · The subject must do the -ing action. · Keep describers beside what they describe.
+- **Example sentences:**
+  - The girl with the red kite waved at us. _(focus: with the red kite)_
+  - The man in the white cap sells peanuts. _(focus: in the white cap)_
+  - She served cake to the guests on paper plates.
+  - The boy with a broken arm hugged his dog.
+  - The boy hugged his dog with a broken arm.
+  - Walking to school, I saw a rainbow. _(focus: Walking to school)_
+  - Walking to the bus stop, the rain started.
+
+### 2.4.8 Basic Sentence Patterns
+
+- **Pages:** Five Ways to Build a Sentence · The Five Patterns · The Verb Decides · Adverbials Are Extras · Same Pattern, More Detail · Find the Pattern in Four Steps · Pattern Detective · Sentence Patterns: Recap
+- **Key takeaways:** Five patterns cover most sentences. · SV, SVO, SVC, SVOO, SVOC. · Find the verb, then ask what it needs. · How, where and when don't change the pattern. · Strip the extras to see the pattern. · Verb, subject, remove extras, look after the verb. · Work through the steps in order. · Find the verb and what it needs.
+- **Example sentences:**
+  - The pressure cooker hissed. _(focus: The pressure cooker hissed)_
+  - Rahul seems nervous. _(focus: seems)_
+  - The baby giggled happily in her pram. _(focus: happily in her pram)_
+  - Every evening, Grandpa reads the newspaper on the porch. _(focus: Grandpa reads the newspaper)_
+  - After school, my brother made me a sandwich. _(focus: my brother made me a sandwich)_
+
+### 2.4.9 Subject–Verb Pattern
+
+- **Pages:** The Shortest Pattern · Extras Keep It SV · Long but Still SV · Verbs That Need a Place · Can You Drop the Place? · Two-Word Sentences · Commands Can Be SV · SV Pattern: Recap
+- **Key takeaways:** SV: a subject and a verb are enough. · How, where and when don't change SV. · Find the subject and the verb. · Live, stay, lie: the place must stay. · Most places are extras; some are needed. · A subject and a verb can be the whole sentence. · You is hidden; the verb stands alone. · Subject, verb, and any extras.
+- **Example sentences:**
+  - The tired toddler yawned. _(focus: The tired toddler yawned)_
+  - The old ceiling fan creaked noisily all night. _(focus: The old ceiling fan creaked)_
+  - The children in the back seat giggled for the whole journey. _(focus: The children in the back seat giggled)_
+  - My grandparents live in a small village near Udupi. _(focus: live in a small village near Udupi)_
+  - The dog barked in the yard.
+  - The dog lives in the yard.
+  - Volcanoes erupt. _(focus: Volcanoes erupt)_
+  - Our visitors have left. _(focus: Our visitors have left)_
+  - Please listen to the bell. _(focus: listen)_
+
+### 2.4.10 Subject–Verb–Object Pattern
+
+- **Pages:** Who Did What to What · Swap Them, Change the Story · Subject, Verb, Object · Grow the Subject and Object · Add Adverbials · Two SVO Sentences With And · Sharing a Subject · SVO Pattern: Recap
+- **Key takeaways:** SVO: subject, verb, object. · Order shows who does what. · Keep the three in that order. · Describing words keep the pattern. · Extras don't change SVO. · And joins two complete sentences. · One subject, two verbs with objects. · Keep the order, then build it up.
+- **Example sentences:**
+  - The goat ate my homework! _(focus: The goat, my homework)_
+  - The hen pecked the rooster.
+  - The rooster pecked the hen.
+  - Grandma feeds the sparrows every morning. _(focus: Grandma, feeds, the sparrows)_
+  - The small boy in the red cap caught the heavy cricket ball. _(focus: The small boy in the red cap, the heavy cricket ball)_
+  - Yesterday, our class planted twenty saplings near the gate. _(focus: our class planted twenty saplings)_
+  - Asha washed the cups, and Ravi dried them. _(focus: Asha washed the cups, Ravi dried them)_
+  - Mum peeled the mangoes and cut them into slices. _(focus: peeled the mangoes, cut them into slices)_
+
+### 2.4.11 Subject–Verb–Complement Pattern
+
+- **Pages:** Subject, Linking Verb, Complement · Build With Be, Seem and Look · Build With Change Verbs · A Noun or an Adjective? · A Noun Complement Matches the Subject · Add an Adverbial · Still SVC · SVC Pattern: Recap
+- **Key takeaways:** SVC: the verb links the subject to its complement. · Be, seem, look + complement. · Become, get, turn, grow show a change. · A noun says what; an adjective says what like. · Two girls became friends, not friend. · Extras don't change SVC. · Cross out the extras to find SVC. · Subject, linking verb, complement.
+- **Example sentences:**
+  - The rooftop garden looks beautiful. _(focus: The rooftop garden looks beautiful)_
+  - The new library seems huge. _(focus: seems huge)_
+  - The puppy grew strong on the farm. _(focus: grew strong)_
+  - The sky got dark at four o'clock. _(focus: got dark)_
+  - Our neighbour became a police officer.
+  - Our neighbour became famous.
+  - The two girls became best friends. _(focus: became best friends)_
+  - Grandma felt tired after the long wedding. _(focus: Grandma felt tired)_
+  - In winter, the lake turns icy every night. _(focus: the lake turns icy)_
+
+### 2.4.12 Subject–Verb–Indirect Object–Direct Object Pattern
+
+- **Pages:** Two Ways to Say It · Move the Person After To · To or For? · Give It to Me · Them and It · Explain, Describe, Suggest, Say · Describe It to Me · SVOO Pattern: Recap
+- **Key takeaways:** Person first, or thing first with to or for. · Thing, then to + person. · Goes to someone: to. Done for someone: for. · Thing is a pronoun? Use to or for. · Pronoun first, person after. · These verbs always use to. · Describe something to someone. · Know when to switch to to or for.
+- **Example sentences:**
+  - Nikhil lent his neighbour a ladder. _(focus: his neighbour a ladder)_
+  - Nikhil lent a ladder to his neighbour. _(focus: a ladder to his neighbour)_
+  - The coach threw the ball to Arjun. _(focus: the ball to Arjun)_
+  - Ammu sent a letter to her pen pal. _(focus: to her pen pal)_
+  - Papa cooked dinner for the guests. _(focus: for the guests)_
+  - Please pass it to Grandpa. _(focus: it to Grandpa)_
+  - I bought them for my sister. _(focus: them for my sister)_
+  - Can you show it to the class? _(focus: it to the class)_
+  - Could you explain the rule to me? _(focus: the rule to me)_
+  - Please describe me the thief.
+
+### 2.4.13 Subject–Verb–Object–Complement Pattern
+
+- **Pages:** Building With Make, Keep and Call · Make, Keep, Leave, Find + Adjective · Name, Call, Elect, Appoint + Noun · Consider and Think · Made Her Captain or Made Her a Cake? · The Is-Test Decides · Build Your Own · SVOC Pattern: Recap
+- **Key takeaways:** Some verbs take an object and a complement. · These verbs often take an adjective. · These verbs take a noun. · Consider and think take either kind. · Same verb, two patterns. · Object is complement? SVOC. If not, SVOO. · Verb, object, complement. · Pick the verb, then test with is.
+- **Example sentences:**
+  - The warm blanket kept the puppy cosy. _(focus: the puppy cosy)_
+  - The long queue made everyone grumpy. _(focus: everyone grumpy)_
+  - Leave the gate shut, please. _(focus: the gate shut)_
+  - The villagers elected Mrs Iyer their leader. _(focus: Mrs Iyer their leader)_
+  - Everyone calls my uncle Bablu. _(focus: my uncle Bablu)_
+  - The teachers consider Arjun a true artist. _(focus: Arjun a true artist)_
+  - We thought the film brilliant. _(focus: the film brilliant)_
+  - They made her captain.
+  - They made her a cake.
+  - Dad bought Meena a new dress. _(focus: Meena a new dress)_
+  - The bright sun turned the white walls golden. _(focus: the white walls golden)_
+  - The class voted Tara the best singer. _(focus: Tara the best singer)_
+
+### 2.4.14 Normal and Inverted Word Order
+
+- **Pages:** Subject First, or Verb First? · Normal Order · Inversion You Already Know · Never, Rarely, Seldom at the Start · Not Only … But Also · So Do I · Neither Can Ravi · Inverted Order: Recap
+- **Key takeaways:** Inverted order puts a verb before the subject. · Most statements: subject, then verb. · Questions and here or there invert. · Negative opener, then helper, then subject. · Not only + helper + subject. · Agree with a positive: so + helper + subject. · Agree with a negative: neither or nor + helper + subject. · Know when the helper jumps ahead.
+- **Example sentences:**
+  - Never have I seen such a big kite! _(focus: have I)_
+  - The postwoman delivers our letters at ten. _(focus: The postwoman delivers)_
+  - Is your brother at home? _(focus: Is your brother)_
+  - Rarely does Grandpa miss his evening walk. _(focus: does Grandpa miss)_
+  - Never have we had so much rain. _(focus: have we had)_
+  - Not only did Meera win the race, but she also broke the record. _(focus: did Meera win)_
+  - "I love mango ice cream." "So do I!" _(focus: So do I)_
+  - "I can't whistle." "Neither can Ravi." _(focus: Neither can Ravi)_
+
+### 2.4.15 Word Order in Statements
+
+- **Pages:** Statements Keep the Subject First · The Statement Order · Putting the Parts Together · Don't Leave Out I or We · Don't Drop the Subject · A Question Inside a Statement · Can You Tell Me …? · Statement Order: Recap
+- **Key takeaways:** Statement order: subject, verb, the rest. · Who, does what, to what, then how, where, when. · Line the parts up in order. · Only commands leave out the subject. · For weather, time and distance, use it. · Inside a statement, no question order. · Polite questions use statement order too. · Subject first, once, every time.
+- **Example sentences:**
+  - My cousin bought a scooter last month. _(focus: My cousin bought a scooter)_
+  - Our class visited the planetarium by bus on Friday. _(focus: Our class visited the planetarium)_
+  - Went to the beach on Sunday.
+  - It is raining in Mumbai. _(focus: It is raining)_
+  - It is a long way to the station. _(focus: It is a long way)_
+  - I know where Priya lives. _(focus: where Priya lives)_
+  - Can you tell me what time the shop opens? _(focus: what time the shop opens)_
+  - I wonder why the puppy is whimpering. _(focus: why the puppy is whimpering)_
+
+### 2.4.16 Word Order in Questions
+
+- **Pages:** Building a Question · Helper, Subject, Verb · No Helper? Use Do, Does or Did · Question Word First · Don't Forget the Helper · Asking About the Subject · Who Called? Or Who Did You Call? · Question Order: Recap
+- **Key takeaways:** In most questions, the helper comes first. · Move the helper to the front. · Do, does, did + base form. · Question word, helper, subject, verb. · Wh- questions need a helper too. · Who or what is the subject? No do. · Subject question: no do. Object question: do. · Helper first, unless who is the subject.
+- **Example sentences:**
+  - Can your sister ride a bicycle? _(focus: Can your sister ride)_
+  - Is the library open on Sundays? _(focus: Is the library)_
+  - Have the guests arrived? _(focus: Have the guests arrived)_
+  - Does your cat like fish? _(focus: Does your cat like)_
+  - Did you finish the puzzle? _(focus: Did you finish)_
+  - Where are you taking the puppy? _(focus: Where are you taking)_
+  - When does the next ferry leave? _(focus: When does the next ferry leave)_
+  - Where you bought this kite?
+  - Who ate the last samosa? _(focus: Who ate)_
+  - Who called Grandma?
+  - Who did Grandma call?
+

@@ -1,0 +1,729 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-13",
+    "title": "Subject–Verb–Object–Complement Pattern",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Subject–Verb–Object–Complement Pattern",
+    "lesson_summary": "In SVOC sentences (2-4-6), certain verbs take an object plus a complement. Learners use the three verb groups (make, keep, leave, find + adjective; name, call, elect, appoint + noun; consider and think + either), tell SVOC from SVOO with the is-test (They made her captain / They made her a cake), and build their own SVOC sentences. Make + object + base verb was taught in 2-1-11.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Use the verbs that take an object complement.",
+        "success_criteria": [
+          "Match make and keep with adjectives.",
+          "Match elect and call with nouns."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Tell SVOC from SVOO.",
+        "success_criteria": [
+          "Use the is-test."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Build SVOC sentences.",
+        "success_criteria": [
+          "Put the complement right after the object."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Verb Groups",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003",
+        "PAGE004"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "SVOC or SVOO?",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE005",
+        "PAGE006"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Building SVOC",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Building With Make, Keep and Call",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "In SVOC sentences (2-4-6), certain verbs take an object plus a complement that names or describes it."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The warm blanket kept the puppy cosy.",
+              "highlight": [
+                "the puppy cosy"
+              ],
+              "explanation": "The puppy is the object; cosy describes it."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Some verbs take an object and a complement.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 44,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Make, Keep, Leave, Find + Adjective",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "Make, keep, leave and find are often followed by an object and an adjective.",
+          "scope": "Adjective complements",
+          "examples": [
+            {
+              "sentence": "The long queue made everyone grumpy.",
+              "highlight": [
+                "everyone grumpy"
+              ],
+              "explanation": "Grumpy describes everyone."
+            },
+            {
+              "sentence": "Leave the gate shut, please.",
+              "highlight": [
+                "the gate shut"
+              ],
+              "explanation": "Shut describes the gate."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "These verbs often take an adjective.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 47,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Name, Call, Elect, Appoint + Noun",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE004",
+          "rule_text": "Name, call, elect and appoint are followed by an object and a noun that renames it.",
+          "scope": "Noun complements",
+          "examples": [
+            {
+              "sentence": "The villagers elected Mrs Iyer their leader.",
+              "highlight": [
+                "Mrs Iyer their leader"
+              ],
+              "explanation": "Their leader renames Mrs Iyer."
+            },
+            {
+              "sentence": "Everyone calls my uncle Bablu.",
+              "highlight": [
+                "my uncle Bablu"
+              ],
+              "explanation": "Bablu renames my uncle."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "These verbs take a noun.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 54,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Consider and Think",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE005",
+          "rule_text": "Consider and think can take an adjective or a noun complement.",
+          "scope": "Either kind",
+          "examples": [
+            {
+              "sentence": "The teachers consider Arjun a true artist.",
+              "highlight": [
+                "Arjun a true artist"
+              ],
+              "explanation": "A noun renames Arjun."
+            },
+            {
+              "sentence": "We thought the film brilliant.",
+              "highlight": [
+                "the film brilliant"
+              ],
+              "explanation": "An adjective describes the film."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Consider and think take either kind.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 47,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Made Her Captain or Made Her a Cake?",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "With an object complement",
+              "description": "She is the captain.",
+              "example": "They made her captain."
+            },
+            {
+              "label": "With two objects",
+              "description": "She gets a cake.",
+              "example": "They made her a cake."
+            }
+          ],
+          "comparison_points": [
+            "In the first sentence, captain renames her.",
+            "In the second, a cake is something she receives."
+          ],
+          "conclusion": "The is-test tells them apart."
+        }
+      ],
+      "key_takeaway": "Same verb, two patterns.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 54,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "The Is-Test Decides",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "Put is between the object and the last part. If it makes sense, the sentence is SVOC. If not, it is SVOO.",
+          "scope": "Testing",
+          "examples": [
+            {
+              "sentence": "Dad bought Meena a new dress.",
+              "highlight": [
+                "Meena a new dress"
+              ],
+              "explanation": "\"Meena is a new dress\" makes no sense, so this is SVOO."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Object is complement? SVOC. If not, SVOO.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 51,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Build Your Own",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "The bright sun turned the white walls golden.",
+              "highlight": [
+                "the white walls golden"
+              ],
+              "explanation": "Turn + object + adjective."
+            },
+            {
+              "sentence": "The class voted Tara the best singer.",
+              "highlight": [
+                "Tara the best singer"
+              ],
+              "explanation": "Vote + object + noun."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Verb, object, complement.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 34,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "SVOC Pattern: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Make, keep, leave, find + adjective.",
+            "Name, call, elect, appoint + noun.",
+            "Consider and think: either.",
+            "Is-test: SVOC makes sense; SVOO doesn't."
+          ]
+        }
+      ],
+      "key_takeaway": "Pick the verb, then test with is.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 23,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose the verb: 'The cold wind ___ our hands numb.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "made"
+        },
+        {
+          "option_id": "B",
+          "text": "gave"
+        },
+        {
+          "option_id": "C",
+          "text": "told"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Make + object + adjective."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence uses a noun object complement?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "They appointed Mr Khan manager."
+        },
+        {
+          "option_id": "B",
+          "text": "They kept Mr Khan busy."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Manager is a noun that renames Mr Khan."
+    },
+    {
+      "question_id": "Q003",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Identify the object complement in: 'We found the museum fascinating.'",
+      "target": "The word that describes the museum.",
+      "accepted_answers": [
+        "fascinating"
+      ],
+      "explanation": "Fascinating describes the object the museum."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the pattern of 'Mum made me a sandwich.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "SVOO"
+        },
+        {
+          "option_id": "B",
+          "text": "SVOC"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"I am a sandwich\" makes no sense, so it is SVOO."
+    },
+    {
+      "question_id": "Q005",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the pattern of 'The news made me nervous.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "SVOC"
+        },
+        {
+          "option_id": "B",
+          "text": "SVOO"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"I am nervous\" makes sense, so it is SVOC."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is SVOC?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Everyone considers Leela a genius."
+        },
+        {
+          "option_id": "B",
+          "text": "Everyone gave Leela a present."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"Leela is a genius\" makes sense."
+    },
+    {
+      "question_id": "Q007",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Put the complement after the object.",
+      "original_sentence": "The rain left muddy the playground.",
+      "corrected_sentence": "The rain left the playground muddy.",
+      "explanation": "Object first, then the complement."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In 'They named the puppy Biscuit', Biscuit is an object complement.",
+      "correct_answer": true,
+      "explanation": "Biscuit renames the object the puppy."
+    },
+    {
+      "question_id": "Q009",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which verb fits? 'Please ___ the door closed.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "keep"
+        },
+        {
+          "option_id": "B",
+          "text": "give"
+        },
+        {
+          "option_id": "C",
+          "text": "send"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Keep + object + adjective."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the pattern of 'The judges declared our team the winner.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "SVOC"
+        },
+        {
+          "option_id": "B",
+          "text": "SVOO"
+        },
+        {
+          "option_id": "C",
+          "text": "SVO"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"Our team is the winner\" makes sense."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "What is the pattern of 'Uncle bought us ice creams.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "SVOO"
+        },
+        {
+          "option_id": "B",
+          "text": "SVOC"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "\"We are ice creams\" makes no sense, so it is SVOO."
+    },
+    {
+      "question_id": "Q012",
+      "type": "identify",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Identify the object in: 'The loud music made the baby restless.'",
+      "target": "Who was made restless.",
+      "accepted_answers": [
+        "the baby",
+        "baby"
+      ],
+      "explanation": "The baby is the object; restless is the complement."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check the Verb Groups",
+        "after_page_id": "PAGE004",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check SVOC or SVOO",
+        "after_page_id": "PAGE006",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Building SVOC",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "SVOC Pattern: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "The object complement test",
+        "reason": "Taught in 2-4-6.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Make + object + base verb (made me laugh)",
+        "reason": "Taught in 2-1-11.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "SVOO and rewriting with to or for",
+        "reason": "Taught in 2-4-12.",
+        "coverage": "referenced_only"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

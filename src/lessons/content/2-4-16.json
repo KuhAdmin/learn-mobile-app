@@ -1,0 +1,718 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-16",
+    "title": "Word Order in Questions",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Word Order in Questions",
+    "lesson_summary": "In most questions, a helper comes before the subject. Learners build yes / no questions (helper + subject + verb), add do, does or did when there is no helper (with the base form after it), build wh- questions (question word + helper + subject + verb), and ask about the subject with no do (Who ate the last samosa?). Question words were taught in 2-2-10 and 1-3-8.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Build yes / no questions.",
+        "success_criteria": [
+          "Put the helper first.",
+          "Add do, does or did when there is no helper."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Build wh- questions.",
+        "success_criteria": [
+          "Put the question word, then the helper."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Ask about the subject.",
+        "success_criteria": [
+          "Use no do when who or what is the subject."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Yes / No Questions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Wh- Questions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Subject Questions",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Building a Question",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "In most questions, a helper comes before the subject."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Can your sister ride a bicycle?",
+              "highlight": [
+                "Can your sister ride"
+              ],
+              "explanation": "The helper can comes before the subject your sister."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "In most questions, the helper comes first.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 35,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Helper, Subject, Verb",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "For a yes / no question, put the first helper (or be) before the subject.",
+          "scope": "Yes / no questions",
+          "examples": [
+            {
+              "sentence": "Is the library open on Sundays?",
+              "highlight": [
+                "Is the library"
+              ],
+              "explanation": "Is moves before the library."
+            },
+            {
+              "sentence": "Have the guests arrived?",
+              "highlight": [
+                "Have the guests arrived"
+              ],
+              "explanation": "Have moves before the guests."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Move the helper to the front.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "No Helper? Use Do, Does or Did",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE004",
+          "rule_text": "If the statement has no helper, add do, does or did before the subject. The main verb goes back to its base form.",
+          "scope": "do-questions",
+          "examples": [
+            {
+              "sentence": "Does your cat like fish?",
+              "highlight": [
+                "Does your cat like"
+              ],
+              "explanation": "Does carries the -s, so like has none."
+            },
+            {
+              "sentence": "Did you finish the puzzle?",
+              "highlight": [
+                "Did you finish"
+              ],
+              "explanation": "Did shows the past, so finish stays in its base form."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Do, does, did + base form.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 70,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Question Word First",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE005",
+          "rule_text": "A wh- question starts with the question word, then the helper, then the subject and verb.",
+          "scope": "Wh- questions",
+          "examples": [
+            {
+              "sentence": "Where are you taking the puppy?",
+              "highlight": [
+                "Where are you taking"
+              ],
+              "explanation": "Where, then the helper are, then you."
+            },
+            {
+              "sentence": "When does the next ferry leave?",
+              "highlight": [
+                "When does the next ferry leave"
+              ],
+              "explanation": "When, then does, then the subject."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Question word, helper, subject, verb.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 59,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Don't Forget the Helper",
+      "content": [
+        {
+          "block_id": "BLOCK006",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Where you bought this kite?",
+            "correct": "Where did you buy this kite?",
+            "reason": "A wh- question needs a helper before the subject; with no other helper, use did and the base form."
+          },
+          "related_learning_objective_ids": [
+            "OBJ002"
+          ]
+        }
+      ],
+      "key_takeaway": "Wh- questions need a helper too.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 39,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Asking About the Subject",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "rule",
+          "rule_id": "RULE007",
+          "rule_text": "When who or what is the subject of the question, keep statement order and use no do.",
+          "scope": "Subject questions",
+          "examples": [
+            {
+              "sentence": "Who ate the last samosa?",
+              "highlight": [
+                "Who ate"
+              ],
+              "explanation": "Who is the subject, so there is no did."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Who or what is the subject? No do.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 42,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "comparison",
+      "pedagogical_role": "comparison",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Who Called? Or Who Did You Call?",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "comparison",
+          "items": [
+            {
+              "label": "Asking about the subject",
+              "description": "No do.",
+              "example": "Who called Grandma?"
+            },
+            {
+              "label": "Asking about the object",
+              "description": "Use do, does or did.",
+              "example": "Who did Grandma call?"
+            }
+          ],
+          "comparison_points": [
+            "In the first question, someone called Grandma.",
+            "In the second, Grandma called someone."
+          ],
+          "conclusion": "Ask whether who is doing the action or receiving it."
+        }
+      ],
+      "key_takeaway": "Subject question: no do. Object question: do.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 53,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Question Order: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK009",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Yes / no: helper + subject + verb.",
+            "No helper: do, does, did + base form.",
+            "Wh-: question word + helper + subject + verb.",
+            "Who or what as subject: no do."
+          ]
+        }
+      ],
+      "key_takeaway": "Helper first, unless who is the subject.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 28,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Are the twins coming today?"
+        },
+        {
+          "option_id": "B",
+          "text": "Are coming the twins today?"
+        },
+        {
+          "option_id": "C",
+          "text": "Coming are the twins today?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The helper are comes before the subject the twins."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Does Meena play the sitar?"
+        },
+        {
+          "option_id": "B",
+          "text": "Does Meena plays the sitar?"
+        },
+        {
+          "option_id": "C",
+          "text": "Meena does play the sitar?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "After does, the main verb has no -s."
+    },
+    {
+      "question_id": "Q003",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with do, does or did: '___ you see the eclipse last night?'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "did"
+          ]
+        }
+      ],
+      "explanation": "Last night is in the past, so did."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "What time does the film start?"
+        },
+        {
+          "option_id": "B",
+          "text": "What time the film starts?"
+        },
+        {
+          "option_id": "C",
+          "text": "What time does the film starts?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Question word, does, subject, base verb."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the question.",
+      "original_sentence": "Where you put my glasses?",
+      "corrected_sentence": "Where did you put my glasses?",
+      "explanation": "A wh- question needs a helper before the subject."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question asks who did the breaking?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Who broke the window?"
+        },
+        {
+          "option_id": "B",
+          "text": "Who did the window break?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Who is the subject, so there is no did."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question asks whom Ravi met?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Who did Ravi meet?"
+        },
+        {
+          "option_id": "B",
+          "text": "Who met Ravi?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Ravi is the subject; who is the object, so use did."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "In a yes / no question, the helper comes before the subject.",
+      "correct_answer": true,
+      "explanation": "That is what makes it a question."
+    },
+    {
+      "question_id": "Q009",
+      "type": "fill_blank",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Complete with do, does or did: '___ your uncle live in Kolkata?'",
+      "blanks": [
+        {
+          "blank_id": "B1",
+          "accepted_answers": [
+            "does"
+          ]
+        }
+      ],
+      "explanation": "Your uncle is singular, so does."
+    },
+    {
+      "question_id": "Q010",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Correct the question.",
+      "original_sentence": "Why the shop is closed?",
+      "corrected_sentence": "Why is the shop closed?",
+      "explanation": "The helper is comes before the subject."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "What happened at school today?"
+        },
+        {
+          "option_id": "B",
+          "text": "What did happen at school today?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "What is the subject, so there is no did."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which question is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "How often do you visit the dentist?"
+        },
+        {
+          "option_id": "B",
+          "text": "How often you visit the dentist?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Question word, then do, then the subject."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check Yes / No Questions",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Wh- Questions",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Subject Questions",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "Question Order: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Question words",
+        "reason": "Taught in 2-2-10 and 1-3-8.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Prepositions at the end of questions",
+        "reason": "Taught in Stage 4.1.",
+        "coverage": "excluded"
+      },
+      {
+        "concept": "Question tags",
+        "reason": "Taught in Stage 3.2.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}

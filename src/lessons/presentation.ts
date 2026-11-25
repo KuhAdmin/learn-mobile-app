@@ -1137,6 +1137,396 @@ const ART_2217 = {
 } satisfies Record<string, ImageSource>;
 type Art2217 = keyof typeof ART_2217;
 
+const ART_231 = {
+  tomatoes: require('../../assets/lessons/2-3-1/tomatoes.webp'),
+  bell: require('../../assets/lessons/2-3-1/bell.webp'),
+  bells: require('../../assets/lessons/2-3-1/bells.webp'),
+  girl: require('../../assets/lessons/2-3-1/girl.webp'),
+  glasses: require('../../assets/lessons/2-3-1/glasses.webp'),
+  thinking: require('../../assets/lessons/2-3-1/thinking.webp'),
+  books: require('../../assets/lessons/2-3-1/books.webp'),
+} satisfies Record<string, ImageSource>;
+type Art231 = keyof typeof ART_231;
+
+const ART_232 = {
+  postman: require('../../assets/lessons/2-3-2/postman.webp'),
+  kettle: require('../../assets/lessons/2-3-2/kettle.webp'),
+  kites: require('../../assets/lessons/2-3-2/kites.webp'),
+  children: require('../../assets/lessons/2-3-2/children.webp'),
+  people: require('../../assets/lessons/2-3-2/people.webp'),
+  rahul: require('../../assets/lessons/2-3-2/rahul.webp'),
+  group: require('../../assets/lessons/2-3-2/group.webp'),
+  jeans: require('../../assets/lessons/2-3-2/jeans.webp'),
+  news: require('../../assets/lessons/2-3-2/news.webp'),
+  physics: require('../../assets/lessons/2-3-2/physics.webp'),
+  thumbsup: require('../../assets/lessons/2-3-2/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art232 = keyof typeof ART_232;
+
+const ART_233 = {
+  fair: require('../../assets/lessons/2-3-3/fair.webp'),
+  pets: require('../../assets/lessons/2-3-3/pets.webp'),
+  cutlery: require('../../assets/lessons/2-3-3/cutlery.webp'),
+  idli: require('../../assets/lessons/2-3-3/idli.webp'),
+  neighbour: require('../../assets/lessons/2-3-3/neighbour.webp'),
+  thumbsup: require('../../assets/lessons/2-3-3/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art233 = keyof typeof ART_233;
+
+const ART_234 = {
+  classtrip: require('../../assets/lessons/2-3-4/classtrip.webp'),
+  orchestra: require('../../assets/lessons/2-3-4/orchestra.webp'),
+  committee: require('../../assets/lessons/2-3-4/committee.webp'),
+  herd: require('../../assets/lessons/2-3-4/herd.webp'),
+  jurydecides: require('../../assets/lessons/2-3-4/jurydecides.webp'),
+  juryargues: require('../../assets/lessons/2-3-4/juryargues.webp'),
+  police: require('../../assets/lessons/2-3-4/police.webp'),
+  cattle: require('../../assets/lessons/2-3-4/cattle.webp'),
+  team: require('../../assets/lessons/2-3-4/team.webp'),
+  family: require('../../assets/lessons/2-3-4/family.webp'),
+  thumbsup: require('../../assets/lessons/2-3-4/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art234 = keyof typeof ART_234;
+
+const ART_235 = {
+  pointing: require('../../assets/lessons/2-3-5/pointing.webp'),
+  pickle: require('../../assets/lessons/2-3-5/pickle.webp'),
+  lemonade: require('../../assets/lessons/2-3-5/lemonade.webp'),
+  bus: require('../../assets/lessons/2-3-5/bus.webp'),
+  sisters: require('../../assets/lessons/2-3-5/sisters.webp'),
+  gate: require('../../assets/lessons/2-3-5/gate.webp'),
+  milk: require('../../assets/lessons/2-3-5/milk.webp'),
+  guests: require('../../assets/lessons/2-3-5/guests.webp'),
+  cake: require('../../assets/lessons/2-3-5/cake.webp'),
+  slices: require('../../assets/lessons/2-3-5/slices.webp'),
+  tickets: require('../../assets/lessons/2-3-5/tickets.webp'),
+  thumbsup: require('../../assets/lessons/2-3-5/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art235 = keyof typeof ART_235;
+
+const ART_236 = {
+  seats: require('../../assets/lessons/2-3-6/seats.webp'),
+  medal: require('../../assets/lessons/2-3-6/medal.webp'),
+  shop: require('../../assets/lessons/2-3-6/shop.webp'),
+  library: require('../../assets/lessons/2-3-6/library.webp'),
+  fan: require('../../assets/lessons/2-3-6/fan.webp'),
+  uncles: require('../../assets/lessons/2-3-6/uncles.webp'),
+  bus: require('../../assets/lessons/2-3-6/bus.webp'),
+  twins: require('../../assets/lessons/2-3-6/twins.webp'),
+  boy: require('../../assets/lessons/2-3-6/boy.webp'),
+  children: require('../../assets/lessons/2-3-6/children.webp'),
+  thumbsup: require('../../assets/lessons/2-3-6/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art236 = keyof typeof ART_236;
+
+const ART_237 = {
+  furniture: require('../../assets/lessons/2-3-7/furniture.webp'),
+  fresh: require('../../assets/lessons/2-3-7/fresh.webp'),
+  traffic: require('../../assets/lessons/2-3-7/traffic.webp'),
+  advice: require('../../assets/lessons/2-3-7/advice.webp'),
+  jigsaw: require('../../assets/lessons/2-3-7/jigsaw.webp'),
+  luggage: require('../../assets/lessons/2-3-7/luggage.webp'),
+  water: require('../../assets/lessons/2-3-7/water.webp'),
+  bread: require('../../assets/lessons/2-3-7/bread.webp'),
+  money: require('../../assets/lessons/2-3-7/money.webp'),
+  time: require('../../assets/lessons/2-3-7/time.webp'),
+  paper: require('../../assets/lessons/2-3-7/paper.webp'),
+  papers: require('../../assets/lessons/2-3-7/papers.webp'),
+  thumbsup: require('../../assets/lessons/2-3-7/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art237 = keyof typeof ART_237;
+
+const ART_238 = {
+  tea: require('../../assets/lessons/2-3-8/tea.webp'),
+  pencil: require('../../assets/lessons/2-3-8/pencil.webp'),
+  apples: require('../../assets/lessons/2-3-8/apples.webp'),
+  brother: require('../../assets/lessons/2-3-8/brother.webp'),
+  cousins: require('../../assets/lessons/2-3-8/cousins.webp'),
+  sandwich: require('../../assets/lessons/2-3-8/sandwich.webp'),
+  twins: require('../../assets/lessons/2-3-8/twins.webp'),
+  grandparents: require('../../assets/lessons/2-3-8/grandparents.webp'),
+  parents: require('../../assets/lessons/2-3-8/parents.webp'),
+  thumbsup: require('../../assets/lessons/2-3-8/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art238 = keyof typeof ART_238;
+
+const ART_239 = {
+  cat: require('../../assets/lessons/2-3-9/cat.webp'),
+  train: require('../../assets/lessons/2-3-9/train.webp'),
+  closed: require('../../assets/lessons/2-3-9/closed.webp'),
+  bags: require('../../assets/lessons/2-3-9/bags.webp'),
+  she: require('../../assets/lessons/2-3-9/she.webp'),
+  theyshe: require('../../assets/lessons/2-3-9/theyshe.webp'),
+  thumbsup: require('../../assets/lessons/2-3-9/thumbsup.webp'),
+  coach: require('../../assets/lessons/2-3-9/coach.webp'),
+  mic: require('../../assets/lessons/2-3-9/mic.webp'),
+  girl: require('../../assets/lessons/2-3-9/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art239 = keyof typeof ART_239;
+
+const ART_2310 = {
+  lizard: require('../../assets/lessons/2-3-10/lizard.webp'),
+  rice: require('../../assets/lessons/2-3-10/rice.webp'),
+  kittens: require('../../assets/lessons/2-3-10/kittens.webp'),
+  wondering: require('../../assets/lessons/2-3-10/wondering.webp'),
+  students: require('../../assets/lessons/2-3-10/students.webp'),
+  thumbsup: require('../../assets/lessons/2-3-10/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2310 = keyof typeof ART_2310;
+
+const ART_2311 = {
+  fort: require('../../assets/lessons/2-3-11/fort.webp'),
+  rain: require('../../assets/lessons/2-3-11/rain.webp'),
+  children: require('../../assets/lessons/2-3-11/children.webp'),
+  cake: require('../../assets/lessons/2-3-11/cake.webp'),
+  school: require('../../assets/lessons/2-3-11/school.webp'),
+  students: require('../../assets/lessons/2-3-11/students.webp'),
+  chart: require('../../assets/lessons/2-3-11/chart.webp'),
+  vote: require('../../assets/lessons/2-3-11/vote.webp'),
+  mysuru: require('../../assets/lessons/2-3-11/mysuru.webp'),
+  tyre: require('../../assets/lessons/2-3-11/tyre.webp'),
+  hen: require('../../assets/lessons/2-3-11/hen.webp'),
+  girl: require('../../assets/lessons/2-3-11/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2311 = keyof typeof ART_2311;
+
+const ART_2312 = {
+  novel: require('../../assets/lessons/2-3-12/novel.webp'),
+  gulliver: require('../../assets/lessons/2-3-12/gulliver.webp'),
+  musketeers: require('../../assets/lessons/2-3-12/musketeers.webp'),
+  islands: require('../../assets/lessons/2-3-12/islands.webp'),
+  notes: require('../../assets/lessons/2-3-12/notes.webp'),
+  road: require('../../assets/lessons/2-3-12/road.webp'),
+  coins: require('../../assets/lessons/2-3-12/coins.webp'),
+  blackboard: require('../../assets/lessons/2-3-12/blackboard.webp'),
+  girl: require('../../assets/lessons/2-3-12/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2312 = keyof typeof ART_2312;
+
+const ART_2313 = {
+  languages: require('../../assets/lessons/2-3-13/languages.webp'),
+  girl: require('../../assets/lessons/2-3-13/girl.webp'),
+  kites: require('../../assets/lessons/2-3-13/kites.webp'),
+  mango: require('../../assets/lessons/2-3-13/mango.webp'),
+  bags: require('../../assets/lessons/2-3-13/bags.webp'),
+  band: require('../../assets/lessons/2-3-13/band.webp'),
+  sings: require('../../assets/lessons/2-3-13/sings.webp'),
+  meera: require('../../assets/lessons/2-3-13/meera.webp'),
+  ravi: require('../../assets/lessons/2-3-13/ravi.webp'),
+  thumbsup: require('../../assets/lessons/2-3-13/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2313 = keyof typeof ART_2313;
+
+const ART_2314 = {
+  crayons: require('../../assets/lessons/2-3-14/crayons.webp'),
+  leaves: require('../../assets/lessons/2-3-14/leaves.webp'),
+  curtains: require('../../assets/lessons/2-3-14/curtains.webp'),
+  captain: require('../../assets/lessons/2-3-14/captain.webp'),
+  keys: require('../../assets/lessons/2-3-14/keys.webp'),
+  uncle: require('../../assets/lessons/2-3-14/uncle.webp'),
+  twins: require('../../assets/lessons/2-3-14/twins.webp'),
+  ferry: require('../../assets/lessons/2-3-14/ferry.webp'),
+  swimming: require('../../assets/lessons/2-3-14/swimming.webp'),
+  eating: require('../../assets/lessons/2-3-14/eating.webp'),
+  socks: require('../../assets/lessons/2-3-14/socks.webp'),
+  thumbsup: require('../../assets/lessons/2-3-14/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2314 = keyof typeof ART_2314;
+
+const ART_241 = {
+  monsoon: require('../../assets/lessons/2-4-1/monsoon.webp'),
+  thunder: require('../../assets/lessons/2-4-1/thunder.webp'),
+  bell: require('../../assets/lessons/2-4-1/bell.webp'),
+  lineup: require('../../assets/lessons/2-4-1/lineup.webp'),
+  pointing: require('../../assets/lessons/2-4-1/pointing.webp'),
+} satisfies Record<string, ImageSource>;
+type Art241 = keyof typeof ART_241;
+
+const ART_242 = {
+  fisherman: require('../../assets/lessons/2-4-2/fisherman.webp'),
+  brother: require('../../assets/lessons/2-4-2/brother.webp'),
+  boy: require('../../assets/lessons/2-4-2/boy.webp'),
+  parrot: require('../../assets/lessons/2-4-2/parrot.webp'),
+  teacher: require('../../assets/lessons/2-4-2/teacher.webp'),
+  puppy: require('../../assets/lessons/2-4-2/puppy.webp'),
+  gate: require('../../assets/lessons/2-4-2/gate.webp'),
+  kabaddi: require('../../assets/lessons/2-4-2/kabaddi.webp'),
+  girl: require('../../assets/lessons/2-4-2/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art242 = keyof typeof ART_242;
+
+const ART_243 = {
+  ducks: require('../../assets/lessons/2-4-3/ducks.webp'),
+  watermelon: require('../../assets/lessons/2-4-3/watermelon.webp'),
+  kite: require('../../assets/lessons/2-4-3/kite.webp'),
+  umbrellaboy: require('../../assets/lessons/2-4-3/umbrellaboy.webp'),
+  clock: require('../../assets/lessons/2-4-3/clock.webp'),
+  temple: require('../../assets/lessons/2-4-3/temple.webp'),
+  met: require('../../assets/lessons/2-4-3/met.webp'),
+  became: require('../../assets/lessons/2-4-3/became.webp'),
+  puppy: require('../../assets/lessons/2-4-3/puppy.webp'),
+  girl: require('../../assets/lessons/2-4-3/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art243 = keyof typeof ART_243;
+
+const ART_244 = {
+  nani: require('../../assets/lessons/2-4-4/nani.webp'),
+  waiter: require('../../assets/lessons/2-4-4/waiter.webp'),
+  parrot: require('../../assets/lessons/2-4-4/parrot.webp'),
+  dad: require('../../assets/lessons/2-4-4/dad.webp'),
+  bicycle: require('../../assets/lessons/2-4-4/bicycle.webp'),
+  teacher: require('../../assets/lessons/2-4-4/teacher.webp'),
+  arun: require('../../assets/lessons/2-4-4/arun.webp'),
+  pointing: require('../../assets/lessons/2-4-4/pointing.webp'),
+} satisfies Record<string, ImageSource>;
+type Art244 = keyof typeof ART_244;
+
+const ART_245 = {
+  lighthouse: require('../../assets/lessons/2-4-5/lighthouse.webp'),
+  dentist: require('../../assets/lessons/2-4-5/dentist.webp'),
+  calm: require('../../assets/lessons/2-4-5/calm.webp'),
+  me: require('../../assets/lessons/2-4-5/me.webp'),
+  thumbsup: require('../../assets/lessons/2-4-5/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art245 = keyof typeof ART_245;
+
+const ART_246 = {
+  rain: require('../../assets/lessons/2-4-6/rain.webp'),
+  asha: require('../../assets/lessons/2-4-6/asha.webp'),
+  dadu: require('../../assets/lessons/2-4-6/dadu.webp'),
+  news: require('../../assets/lessons/2-4-6/news.webp'),
+  window: require('../../assets/lessons/2-4-6/window.webp'),
+  kiran: require('../../assets/lessons/2-4-6/kiran.webp'),
+  walks: require('../../assets/lessons/2-4-6/walks.webp'),
+  painted: require('../../assets/lessons/2-4-6/painted.webp'),
+  puzzle: require('../../assets/lessons/2-4-6/puzzle.webp'),
+  bed: require('../../assets/lessons/2-4-6/bed.webp'),
+  clock: require('../../assets/lessons/2-4-6/clock.webp'),
+  pointing: require('../../assets/lessons/2-4-6/pointing.webp'),
+} satisfies Record<string, ImageSource>;
+type Art246 = keyof typeof ART_246;
+
+const ART_247 = {
+  kite: require('../../assets/lessons/2-4-7/kite.webp'),
+  peanuts: require('../../assets/lessons/2-4-7/peanuts.webp'),
+  pointing: require('../../assets/lessons/2-4-7/pointing.webp'),
+} satisfies Record<string, ImageSource>;
+type Art247 = keyof typeof ART_247;
+
+const ART_248 = {
+  cooker: require('../../assets/lessons/2-4-8/cooker.webp'),
+  rahul: require('../../assets/lessons/2-4-8/rahul.webp'),
+  pram: require('../../assets/lessons/2-4-8/pram.webp'),
+  grandpa: require('../../assets/lessons/2-4-8/grandpa.webp'),
+  step4: require('../../assets/lessons/2-4-8/step4.webp'),
+  detective: require('../../assets/lessons/2-4-8/detective.webp'),
+  girl: require('../../assets/lessons/2-4-8/girl.webp'),
+} satisfies Record<string, ImageSource>;
+type Art248 = keyof typeof ART_248;
+
+const ART_249 = {
+  toddler: require('../../assets/lessons/2-4-9/toddler.webp'),
+  fan: require('../../assets/lessons/2-4-9/fan.webp'),
+  car: require('../../assets/lessons/2-4-9/car.webp'),
+  udupi: require('../../assets/lessons/2-4-9/udupi.webp'),
+  barked: require('../../assets/lessons/2-4-9/barked.webp'),
+  lives: require('../../assets/lessons/2-4-9/lives.webp'),
+  volcano: require('../../assets/lessons/2-4-9/volcano.webp'),
+  visitors: require('../../assets/lessons/2-4-9/visitors.webp'),
+  bell: require('../../assets/lessons/2-4-9/bell.webp'),
+  thumbsup: require('../../assets/lessons/2-4-9/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art249 = keyof typeof ART_249;
+
+const ART_2410 = {
+  goat: require('../../assets/lessons/2-4-10/goat.webp'),
+  hen: require('../../assets/lessons/2-4-10/hen.webp'),
+  rooster: require('../../assets/lessons/2-4-10/rooster.webp'),
+  grandma: require('../../assets/lessons/2-4-10/grandma.webp'),
+  cap: require('../../assets/lessons/2-4-10/cap.webp'),
+  class: require('../../assets/lessons/2-4-10/class.webp'),
+  cups: require('../../assets/lessons/2-4-10/cups.webp'),
+  mum: require('../../assets/lessons/2-4-10/mum.webp'),
+  thumbsup: require('../../assets/lessons/2-4-10/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2410 = keyof typeof ART_2410;
+
+const ART_2411 = {
+  garden: require('../../assets/lessons/2-4-11/garden.webp'),
+  library: require('../../assets/lessons/2-4-11/library.webp'),
+  puppy: require('../../assets/lessons/2-4-11/puppy.webp'),
+  sky: require('../../assets/lessons/2-4-11/sky.webp'),
+  police: require('../../assets/lessons/2-4-11/police.webp'),
+  famous: require('../../assets/lessons/2-4-11/famous.webp'),
+  girls: require('../../assets/lessons/2-4-11/girls.webp'),
+  grandma: require('../../assets/lessons/2-4-11/grandma.webp'),
+  lake: require('../../assets/lessons/2-4-11/lake.webp'),
+  thumbsup: require('../../assets/lessons/2-4-11/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2411 = keyof typeof ART_2411;
+
+const ART_2412 = {
+  nikhil: require('../../assets/lessons/2-4-12/nikhil.webp'),
+  coach: require('../../assets/lessons/2-4-12/coach.webp'),
+  ammu: require('../../assets/lessons/2-4-12/ammu.webp'),
+  papa: require('../../assets/lessons/2-4-12/papa.webp'),
+  grandpa: require('../../assets/lessons/2-4-12/grandpa.webp'),
+  bought: require('../../assets/lessons/2-4-12/bought.webp'),
+  show: require('../../assets/lessons/2-4-12/show.webp'),
+  teacher: require('../../assets/lessons/2-4-12/teacher.webp'),
+  thief: require('../../assets/lessons/2-4-12/thief.webp'),
+  thumbsup: require('../../assets/lessons/2-4-12/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2412 = keyof typeof ART_2412;
+
+const ART_2413 = {
+  blanket: require('../../assets/lessons/2-4-13/blanket.webp'),
+  queue: require('../../assets/lessons/2-4-13/queue.webp'),
+  gate: require('../../assets/lessons/2-4-13/gate.webp'),
+  villagers: require('../../assets/lessons/2-4-13/villagers.webp'),
+  bablu: require('../../assets/lessons/2-4-13/bablu.webp'),
+  teachers: require('../../assets/lessons/2-4-13/teachers.webp'),
+  film: require('../../assets/lessons/2-4-13/film.webp'),
+  captain: require('../../assets/lessons/2-4-13/captain.webp'),
+  cake: require('../../assets/lessons/2-4-13/cake.webp'),
+  dad: require('../../assets/lessons/2-4-13/dad.webp'),
+  sun: require('../../assets/lessons/2-4-13/sun.webp'),
+  tara: require('../../assets/lessons/2-4-13/tara.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2413 = keyof typeof ART_2413;
+
+const ART_2414 = {
+  kite: require('../../assets/lessons/2-4-14/kite.webp'),
+  postwoman: require('../../assets/lessons/2-4-14/postwoman.webp'),
+  bus: require('../../assets/lessons/2-4-14/bus.webp'),
+  trophy: require('../../assets/lessons/2-4-14/trophy.webp'),
+  thumbsup: require('../../assets/lessons/2-4-14/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2414 = keyof typeof ART_2414;
+
+const ART_2415 = {
+  cousin: require('../../assets/lessons/2-4-15/cousin.webp'),
+  planetarium: require('../../assets/lessons/2-4-15/planetarium.webp'),
+  bus: require('../../assets/lessons/2-4-15/bus.webp'),
+  beach: require('../../assets/lessons/2-4-15/beach.webp'),
+  cloud: require('../../assets/lessons/2-4-15/cloud.webp'),
+  station: require('../../assets/lessons/2-4-15/station.webp'),
+  priya: require('../../assets/lessons/2-4-15/priya.webp'),
+  shop: require('../../assets/lessons/2-4-15/shop.webp'),
+  puppy: require('../../assets/lessons/2-4-15/puppy.webp'),
+  thumbsup: require('../../assets/lessons/2-4-15/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2415 = keyof typeof ART_2415;
+
+const ART_2416 = {
+  bicycle: require('../../assets/lessons/2-4-16/bicycle.webp'),
+  library: require('../../assets/lessons/2-4-16/library.webp'),
+  guests: require('../../assets/lessons/2-4-16/guests.webp'),
+  samosa: require('../../assets/lessons/2-4-16/samosa.webp'),
+  thumbsup: require('../../assets/lessons/2-4-16/thumbsup.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2416 = keyof typeof ART_2416;
+
 export const LESSON_VISUALS: Record<string, LessonVisuals> = {
   '1.1.1.EP001': {
     pages: {
@@ -3352,6 +3742,875 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
     },
     resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
   },
+  // Cut from the 2.3.1 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy beside the
+  // rooftop tomato plants, the whole scene with its speech bubble (rule 4: a bubble inside a scene stays in the crop). Page 2 pictures each column (one temple bell, two bells), cut clear of the bubbles' tails.
+  // Page 4 shows the smiling girl (cut just left of her speech bubble, so her pointing hand runs off the edge), page 5
+  // the boy in glasses (the bubbles beside his hand were painted out), page 6 the boy wondering who does the action
+  // (without his thought bubble, which repeats the rule), and page 7 the book stack. Page 3's agreement table has no
+  // drawing. The recap's pencil is the same drawing as 1.3.1's, and the mockups have no clipboard, so the Lesson
+  // Complete screen reuses 1.2.8's.
+  '2-3-1': {
+    pages: {
+      PAGE001: { art: art231('tomatoes', 428 / 153, 'A boy pointing up beside tomato plants on a roof, saying the example sentence') },
+      PAGE004: { art: art231('girl', 131 / 142, 'A smiling girl in a pink headband') },
+      PAGE005: { art: art231('glasses', 148 / 130, 'A smiling boy in glasses holding out his hand') },
+      PAGE006: { art: art231('thinking', 111 / 158, 'A boy with his hand on his chin, thinking') },
+      PAGE007: { art: art231('books', 128 / 75, 'A stack of three books') },
+      PAGE008: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    comparisonArt: {
+      BLOCK003: [
+        art231('bell', 118 / 104, 'One golden bell hanging in a wooden temple frame'),
+        art231('bells', 118 / 106, 'Two golden bells hanging in a wooden temple frame'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.2 mockups (a larger 1312×1199 sheet; a plain white page, so `art:cutout --page white`). Page 1
+  // shows the boy pointing at the postman by the post box, pages 2, 3 and 7 a picture per rule or example (the kettle and
+  // the kites; the two children and the crowd of people; the newspaper and the atom), page 5 each column (the boy
+  // telling Rahul he is late, cut clear of his speech bubble; the group of children, cut clear of theirs), page 6 the
+  // jeans, scissors and glasses (the pale yellow glow of the example card beneath them painted out), and the recap
+  // the girl with her book and a thumbs up. Page 4's pronoun table has no drawing. The mockups have no clipboard, so
+  // the Lesson Complete screen reuses 1.2.8's.
+  '2-3-2': {
+    pages: {
+      PAGE001: { art: art232('postman', 309 / 157, 'A boy pointing up beside a postman reading a letter by a red post box') },
+      PAGE006: { art: art232('jeans', 295 / 112, 'A pair of jeans, a pair of scissors and a pair of glasses') },
+      PAGE008: { art: art232('thumbsup', 122 / 292, 'A smiling girl holding a book and giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art232('kettle', 144 / 112, 'A steel kettle letting off steam'),
+        art232('kites', 144 / 116, 'Four kites flying above a green field'),
+      ],
+      BLOCK005: [
+        art232('children', 145 / 115, 'A boy and a girl waving happily'),
+        art232('people', 138 / 112, 'A crowd of smiling people'),
+      ],
+      BLOCK011: [
+        art232('news', 146 / 117, 'A folded newspaper with NEWS on the front'),
+        art232('physics', 147 / 119, 'An atom with three orbits'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK008: [
+        art232('rahul', 140 / 112, 'A boy pointing and smiling'),
+        art232('group', 177 / 111, 'A group of four smiling children'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.3 mockups (a plain white page, so `art:cutout --page white`). The mockups were drawn from an
+  // earlier draft, so pictures go where they still fit the lesson: page 1 shows Riya and her brother at the fair, page 2
+  // the cat and dog asleep by the fire, page 4 the crossed fork and spoon (a pair that goes together; its pale blue
+  // card was painted white from the edge before the cut), page 5's "one meal" column the plate of idli and sambar (its bubble's tail painted over with the sky;
+  // the "two separate things" column has no picture), page 6 the neighbour (head and shoulders, above the mockup's
+  // examples box) and the recap the girl giving a thumbs up (the recap list's last line painted out beside her thumb).
+  // Page 3's boy and girl share a speech bubble that covers both their heads, so it is left text-only, as is page 7
+  // (a table in the mockup). The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-3': {
+    pages: {
+      PAGE001: { art: art233('fair', 416 / 139, 'A girl and her brother smiling at a fair, with a Ferris wheel behind them') },
+      PAGE002: { art: art233('pets', 417 / 141, 'A cat and a dog sleeping side by side in front of a fire') },
+      PAGE004: { art: art233('cutlery', 86 / 52, 'A fork and a spoon crossed') },
+      PAGE006: { art: art233('neighbour', 162 / 102, 'A smiling man in glasses') },
+      PAGE008: { art: art233('thumbsup', 103 / 234, 'A smiling girl giving a thumbs up') },
+    },
+    comparisonArt: {
+      BLOCK008: [null, art233('idli', 243 / 118, 'A plate of idli with a bowl of sambar')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.4 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the class beside the zoo
+  // bus and page 2 the orchestra (both cut above the sentence pill over their lower edge), pages 3 and 5 a picture per
+  // example (the committee and the herd; the two police officers and the grazing cattle), page 4 each column (the jury
+  // agreeing, then arguing; cut above their caption pills), page 6 the football team (cut with `--keep-edge bottom` so
+  // the ball's white patches stay, and a speck of the bubble's tail painted out), page 7 the family packing (cut from
+  // beside the mistake cards) and the recap the boy giving a thumbs up (the recap list's tinted card beside his head
+  // painted out). All crops stop short of the speech bubbles, which repeat the sentences. The mockups have no
+  // clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-4': {
+    pages: {
+      PAGE001: { art: art234('classtrip', 418 / 142, 'Four smiling children with backpacks beside a yellow zoo bus') },
+      PAGE002: { art: art234('orchestra', 417 / 134, 'A conductor leading children playing violins and a cello') },
+      PAGE006: { art: art234('team', 254 / 105, 'Four boys in blue football kits, arm in arm') },
+      PAGE007: { art: art234('family', 132 / 200, 'A mother, father and son packing a purple suitcase') },
+      PAGE008: { art: art234('thumbsup', 115 / 234, 'A smiling boy in a blue hoodie giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK004: [
+        art234('committee', 241 / 89, 'Three people in a meeting around a table'),
+        art234('herd', 242 / 90, 'A herd of cows walking across a field'),
+      ],
+      BLOCK006: [
+        art234('police', 225 / 92, 'Two smiling police officers in a park'),
+        art234('cattle', 233 / 88, 'Two cows grazing beside a stream'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK005: [
+        art234('jurydecides', 247 / 79, 'Three jurors sitting calmly together'),
+        art234('juryargues', 255 / 86, 'Three jurors arguing with each other'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.5 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy pointing up (cut
+  // clear of his speech bubble), page 3 the children on the school bus, page 7 the bundle of tickets, and the recap the
+  // girl giving a thumbs up. Pages 2, 4 and 5 picture each rule example (the pickle jar and the lemonade; the two
+  // sisters with their veenas and the crowd at the gate; the milk jug and the three guests), and page 6 each column
+  // (the whole cake, then two slices). The whole cake's white plate and cream run close to the crop's top and bottom,
+  // so it was cut with `--keep-edge top,bottom`. All crops stop short of the speech bubbles, which repeat the
+  // sentences. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-5': {
+    pages: {
+      PAGE001: { art: art235('pointing', 204 / 164, 'A smiling boy with a backpack pointing up') },
+      PAGE003: { art: art235('bus', 264 / 137, 'Four children smiling from the windows of a school bus') },
+      PAGE007: { art: art235('tickets', 188 / 99, 'A bundle of pink tickets') },
+      PAGE008: { art: art235('thumbsup', 125 / 236, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art235('pickle', 164 / 91, 'A jar of mango pickle beside two mangoes'),
+        art235('lemonade', 164 / 88, 'A glass of cold lemonade with a straw'),
+      ],
+      BLOCK007: [
+        art235('sisters', 247 / 97, 'Two sisters each playing a veena'),
+        art235('gate', 260 / 80, 'A crowd of children waiting at a closed gate'),
+      ],
+      BLOCK008: [
+        art235('milk', 182 / 89, 'A jug and a glass of milk'),
+        art235('guests', 202 / 82, 'Three smiling guests'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK009: [
+        art235('cake', 207 / 68, 'A whole chocolate cake on a plate'),
+        art235('slices', 207 / 69, 'Two slices of chocolate cake on plates'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.6 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page white`).
+  // Pages 1, 3, 5 and 6 show their scene above the sentence pill (the girl by the numbered seats, the boy and girl with
+  // library cards, the bus at the stop, the twins with their bicycles); pages 2 and 4 picture each rule example (the
+  // boy with his medal and the shop; the ceiling fan and the three uncles); page 7 each column (the boy with his
+  // backpack, then three children). Page 7's boy and the recap girl sat on cream cards: the card was painted white from
+  // the edge before the cut, and by hand beside the girl's thumb, whose skin is the card's colour. All crops stop short
+  // of the speech bubbles and pills, which repeat the sentences. The mockups have no clipboard, so the Lesson Complete
+  // screen reuses 1.2.8's.
+  '2-3-6': {
+    pages: {
+      PAGE001: { art: art236('seats', 363 / 150, 'A girl pointing at a row of numbered red seats') },
+      PAGE003: { art: art236('library', 363 / 150, 'A boy and a girl holding library cards beside a bookshelf') },
+      PAGE005: { art: art236('bus', 363 / 114, 'A yellow bus beside a bus stop sign') },
+      PAGE006: { art: art236('twins', 363 / 129, 'Twin boys smiling with a red bicycle and a blue bicycle') },
+      PAGE008: { art: art236('thumbsup', 115 / 268, 'A smiling girl with a backpack giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art236('medal', 170 / 88, 'A smiling boy holding up a gold medal'),
+        art236('shop', 176 / 95, 'A small shop with a striped awning'),
+      ],
+      BLOCK005: [
+        art236('fan', 194 / 99, 'A ceiling fan in a room'),
+        art236('uncles', 195 / 104, 'A man in glasses beside two older men'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK009: [
+        art236('boy', 97 / 120, 'A smiling boy with a red backpack'),
+        art236('children', 158 / 112, 'Three smiling children with backpacks'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.7 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy in the old
+  // living room (above the sentence pill), page 3 the boy in glasses pointing (beside the word list; its cream card and
+  // stray letters painted out), and the recap the girl giving a thumbs up (her cream
+  // card painted out). Page 3's book stack sits beside a sentence the lesson gives as a note, which takes no picture. Pages 2, 4, 5 and 6 picture each example (the girl in fresh air, cut short of her
+  // speech bubble, and the traffic; the jigsaw and the luggage on the belt; the bottle of water and the bread; the wallet
+  // and the alarm clock at the fair), and page 7 each column (a sheet of paper under a tree, the morning papers). All
+  // crops stop short of the speech bubbles, which repeat the sentences. The mockups have no clipboard, so the Lesson
+  // Complete screen reuses 1.2.8's.
+  '2-3-7': {
+    pages: {
+      PAGE001: { art: art237('furniture', 418 / 165, 'A boy pointing at an old sofa, lamp and bookcase') },
+      PAGE003: { art: art237('advice', 130 / 140, 'A boy in glasses pointing up') },
+      PAGE008: { art: art237('thumbsup', 124 / 227, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art237('fresh', 178 / 92, 'A girl breathing fresh air in a green valley'),
+        art237('traffic', 228 / 93, 'Three cars in a city street'),
+      ],
+      BLOCK006: [
+        art237('jigsaw', 200 / 93, 'Jigsaw pieces with one missing'),
+        art237('luggage', 200 / 92, 'Two suitcases on a baggage belt'),
+      ],
+      BLOCK008: [
+        art237('water', 181 / 90, 'A bottle and a glass of water'),
+        art237('bread', 181 / 87, 'Three slices of bread on a plate'),
+      ],
+      BLOCK009: [
+        art237('money', 208 / 92, 'A wallet with notes beside stacks of coins'),
+        art237('time', 228 / 93, 'An alarm clock beside a Ferris wheel at a fair'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK010: [
+        art237('paper', 203 / 72, 'A sheet of paper lying under a tree'),
+        art237('papers', 203 / 85, 'A pile of newspapers'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.8 mockups (a plain white page, so `art:cutout --page white`). Pages 1, 2, 3, 5 and 6 show their
+  // "this or that" scene above the sentence pill (tea or coffee; the girl thinking of a pen or a pencil; apples or
+  // bananas; a sandwich or biscuits; the twins and Asha); pages 4 and 7 picture each example (the brother, then the
+  // cousins; Grandpa and Grandma, then the parents), cut short of the speech bubbles; and the recap shows the boy giving
+  // a thumbs up (his cream card and a stray word painted out). The wide scenes' white clouds run into their top edge,
+  // so they start just below the page margin and were cut with `--keep-edge top`. Page 7's two pictures are cropped to
+  // head and shoulders so the page fits one screen, from just inside their scene's border (the clouds run off its
+  // edges); the grandparents' scene touches no page at all, so its rounded corners were made transparent by hand. The
+  // mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-8': {
+    pages: {
+      PAGE001: { art: art238('tea', 420 / 129, 'A boy pointing at a cup of tea and a cup of coffee') },
+      PAGE002: { art: art238('pencil', 418 / 149, 'A girl at her desk thinking of a pen or a pencil') },
+      PAGE003: { art: art238('apples', 420 / 141, 'A boy showing a plate of apples and a bunch of bananas') },
+      PAGE005: { art: art238('sandwich', 418 / 90, 'A sandwich on one plate and biscuits on another') },
+      PAGE006: { art: art238('twins', 420 / 129, 'Twin boys and a girl smiling together') },
+      PAGE008: { art: art238('thumbsup', 141 / 237, 'A smiling boy with a backpack giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK005: [
+        art238('brother', 200 / 93, 'A boy beside his two cousins'),
+        art238('cousins', 196 / 82, 'Two cousins beside a boy'),
+      ],
+      BLOCK009: [
+        art238('grandparents', 137 / 84, 'A grandfather and grandmother in glasses'),
+        art238('parents', 135 / 84, 'A father and mother smiling'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.9 mockups (a plain white page, so `art:cutout --page white`). Pages 1–4 show their scene above the
+  // sentence pill (Priya, the cat and her brothers; the bus and the train; the closed shops and bank; the boy and girl
+  // with the bags), page 5 each example (the girl, then the boy and girl; cut short of their speech bubbles), page 6
+  // the boy giving a thumbs up (beside the mistake cards, whose edges were painted out), page 7 each column (the coach
+  // and the captain, then the coach at the microphone), and the recap the girl giving a thumbs up (her cream card
+  // painted out). The scenes' white clouds run into their top and right edges, so those crops start just inside the
+  // scene and were cut with `--keep-edge top` (and `right` for the small ones and the shops). The mockups have no
+  // clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-9': {
+    pages: {
+      PAGE001: { art: art239('cat', 420 / 137, 'A girl pointing at a cat beside her two brothers') },
+      PAGE002: { art: art239('train', 420 / 137, 'A yellow bus on a road beside a red train') },
+      PAGE003: { art: art239('closed', 416 / 137, 'A shop and a bank, both with Closed signs') },
+      PAGE004: { art: art239('bags', 422 / 137, 'A boy and a girl smiling, each with a bag') },
+      PAGE006: { art: art239('thumbsup', 122 / 195, 'A smiling boy giving a thumbs up') },
+      PAGE008: { art: art239('girl', 130 / 230, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK006: [
+        art239('she', 148 / 88, 'A smiling girl'),
+        art239('theyshe', 148 / 85, 'A boy in glasses and a girl'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK008: [
+        art239('coach', 186 / 85, 'A coach in a cap beside the team captain'),
+        art239('mic', 188 / 85, 'A coach in a cap at a microphone'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.10 mockups (a plain white page, so `art:cutout --page white`). The mockups' examples differ from the
+  // lesson's on several pages, so only matching pictures are used: page 1 the boy pointing at the lizard (the whole
+  // scene, its speech bubble included), page 2 each rule example (the rice, its white grains
+  // kept with `--keep-edge top,right`; the three kittens), page 4 the girl wondering (a question page; her books
+  // illustrate other sentences, so they aren't used), page 7's first example the class of students (the second example
+  // is about sugar, not the mockup's water), and the recap the boy giving a thumbs up (his cream card painted out).
+  // Pages 3, 5 and 6 picture other sentences (a tree and ruins; fruit; cars), so they are text-only. The mockups have
+  // no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-10': {
+    pages: {
+      PAGE001: { art: art2310('lizard', 420 / 160, 'A boy pointing up at a lizard on the ceiling, saying the example sentence') },
+      PAGE004: { art: art2310('wondering', 126 / 185, 'A girl with her finger on her chin and a question mark') },
+      PAGE008: { art: art2310('thumbsup', 130 / 220, 'A smiling boy with a backpack giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2310('rice', 200 / 81, 'A blue bowl full of rice'),
+        art2310('kittens', 206 / 90, 'Three kittens sitting in a row'),
+      ],
+      BLOCK009: [art2310('students', 156 / 77, 'Three students smiling at their desks'), null],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.11 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Pages 1, 5 and 6 show their scene above the sentence pill (the boy at the fort, the voters with their sign,
+  // the boy at Mysuru Palace); pages 2, 3 and 7 picture each example (the rain cloud and the running children; the cake
+  // and the children by the school; the flat tyre and the hen on her eggs); page 4 each column (three students, then
+  // the falling bar chart, kept on its pale blue card like the mint blobs elsewhere); and the recap shows the girl giving a
+  // thumbs up (her cream card and the list's last letters painted out). The school and hen scenes' clouds run into their
+  // top edge, so those two were cut with `--keep-edge top`. The mockups have no clipboard, so the Lesson Complete
+  // screen reuses 1.2.8's.
+  '2-3-11': {
+    pages: {
+      PAGE001: { art: art2311('fort', 362 / 150, 'A boy pointing at an old stone fort') },
+      PAGE005: { art: art2311('vote', 362 / 146, 'Three voters smiling, one holding a Vote sign') },
+      PAGE006: { art: art2311('mysuru', 358 / 130, 'A boy showing Mysuru Palace behind a Mysuru sign') },
+      PAGE008: { art: art2311('girl', 114 / 205, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2311('rain', 192 / 96, 'A dark cloud raining on green leaves'),
+        art2311('children', 196 / 110, 'Three children running in a park'),
+      ],
+      BLOCK004: [
+        art2311('cake', 204 / 104, 'A chocolate cake with half of it gone'),
+        art2311('school', 204 / 99, 'A boy and a girl walking to school'),
+      ],
+      BLOCK008: [
+        art2311('tyre', 200 / 116, 'A blue car with a flat tyre'),
+        art2311('hen', 200 / 115, 'A hen sitting on two eggs in a nest'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK005: [
+        art2311('students', 186 / 82, 'Three smiling students'),
+        art2311('chart', 186 / 80, 'A bar chart on a clipboard with an arrow going down'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.12 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy with Little
+  // Women, page 2 each title (the Gulliver's Travels book, The Three Musketeers clapperboard), page 3 the Philippines'
+  // islands beside its example (the mockup draws "The United States" with the Sydney Opera House, so that example has
+  // no picture), page 4 each amount (the stack of notes, the road to the 10 km stone), page 5 the stack of coins under
+  // the "separate things" column (the lesson's coins in a jar; the "one amount" column has no picture), page 6 the boy at
+  // the blackboard of sums, and the recap the girl giving a thumbs up (her cream card painted out). Page 7's sums are
+  // drawn as plain boxes, so it is text-only. The small scenes' clouds run into their top edge, so they were cut with
+  // `--keep-edge top`. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-12': {
+    pages: {
+      PAGE001: { art: art2312('novel', 418 / 150, 'A boy pointing at a big copy of Little Women') },
+      PAGE006: { art: art2312('blackboard', 416 / 133, 'A boy in glasses pointing at sums on a blackboard') },
+      PAGE008: { art: art2312('girl', 116 / 162, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2312('gulliver', 208 / 87, "A copy of Gulliver's Travels with a ship on the cover"),
+        art2312('musketeers', 206 / 86, 'A film clapperboard reading The Three Musketeers'),
+      ],
+      BLOCK004: [art2312('islands', 224 / 87, 'Green islands in a blue sea'), null],
+      BLOCK006: [
+        art2312('notes', 192 / 56, 'A stack of five-hundred-rupee notes'),
+        art2312('road', 192 / 60, 'A winding road beside a 10 km stone'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK007: [null, art2312('coins', 115 / 73, 'Two stacks of gold coins')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.13 mockups (a 1536×1024 sheet; seven screens, the bottom three wider; a plain white page, so
+  // `art:cutout --page white`). Pages 1 and 4 show their scene above the sentence pill (the boy who speaks four
+  // languages, with flags in his thought bubble; Ali playing in the band), page 6 Ravi with his dog (cut short of the
+  // speech bubble), pages 2 and 3 a picture per example (the girl drawing and the kite shop; the mangoes and the
+  // backpacks), page 5 each column (the girl singing alone, then Meera with two girls), and the recap the girl giving a
+  // thumbs up (her cream card painted out, by hand beside her thumb, whose skin is the card's colour). Crops stop short
+  // of the speech bubbles; scenes whose clouds run into their top edge were cut with `--keep-edge top`. The mockups have
+  // no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-3-13': {
+    pages: {
+      PAGE001: { art: art2313('languages', 366 / 156, 'A boy thinking of flags from four countries') },
+      PAGE004: { art: art2313('band', 364 / 155, 'A boy playing guitar in a band with a drummer and a singer') },
+      PAGE006: { art: art2313('ravi', 272 / 187, 'A laughing boy hugging his dog') },
+      PAGE007: { art: art2313('thumbsup', 166 / 228, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2313('girl', 168 / 104, 'A girl drawing in a notebook'),
+        art2313('kites', 176 / 98, 'A kite shop by the beach'),
+      ],
+      BLOCK004: [
+        art2313('mango', 182 / 106, 'A basket of ripe mangoes'),
+        art2313('bags', 192 / 92, 'A blue backpack and a pink backpack'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK006: [
+        art2313('sings', 132 / 86, 'A girl singing into a microphone'),
+        art2313('meera', 164 / 100, 'A girl singing beside two other girls'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.3.14 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy pointing at the
+  // box of crayons (above the sentence pill); pages 2–7 picture each rule example (the yellow leaves and the curtains;
+  // the captain with his players; the girl wondering about her keys and the boy wondering about his uncle, cut short of
+  // the bubbles that hold the keys and laptop; the twins and the ferry; the swimmer and the girl eating salad; the socks
+  // on the line); and the recap shows the boy giving a thumbs up (his cream card painted out). Pages 3 and 7's second
+  // pictures (the captain and the players; the socks on the ground) belong to their notes, which take no picture. The
+  // scenes' clouds run into their top edge, so they were cut with `--keep-edge top`. The mockups have no clipboard, so
+  // the Lesson Complete screen reuses 1.2.8's.
+  '2-3-14': {
+    pages: {
+      PAGE001: { art: art2314('crayons', 416 / 129, 'A boy pointing at a box of crayons on a shelf') },
+      PAGE008: { art: art2314('thumbsup', 130 / 181, 'A smiling boy with a backpack giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2314('leaves', 200 / 90, 'A branch of yellow leaves'),
+        art2314('curtains', 196 / 82, 'Pink curtains at a window'),
+      ],
+      BLOCK004: [art2314('captain', 244 / 96, 'A ship captain beside three players in blue')],
+      BLOCK006: [
+        art2314('keys', 128 / 88, 'A girl with a question mark, thinking'),
+        art2314('uncle', 128 / 86, 'A boy in glasses with a question mark'),
+      ],
+      BLOCK007: [
+        art2314('twins', 224 / 79, 'Twin children with backpacks, waving'),
+        art2314('ferry', 236 / 78, 'A white ferry on the water'),
+      ],
+      BLOCK008: [
+        art2314('swimming', 240 / 82, 'A boy in goggles swimming in the sea'),
+        art2314('eating', 240 / 90, 'A girl eating a bowl of salad'),
+      ],
+      BLOCK009: [art2314('socks', 240 / 94, 'Two blue socks pegged on a washing line')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.1 mockups (a 1217×1293 sheet of five screens; a plain white page, so `art:cutout --page white`).
+  // The mockups cover pages 1–5 only. Page 1 shows the boy and the Kerala monsoon (above the sentence pill), page 2 the
+  // girl under the thundercloud (the whole
+  // scene, with the sentence pill and its subject / verb labels), page 3 the bell with the children lining up beside its example, and the
+  // fragment page 5 the boy pointing (its speech bubble's tail and the pill border above him painted out). Page 4's
+  // three small pictures belong to its list, which takes no picture; pages 6–8 have no mockup. The recap's pencil is
+  // the same drawing as 1.3.1's, and the Lesson Complete screen reuses 1.2.8's clipboard.
+  '2-4-1': {
+    pages: {
+      PAGE001: { art: art241('monsoon', 384 / 160, 'A boy pointing at monsoon rain over palm trees') },
+      PAGE002: { art: art241('thunder', 380 / 206, 'A girl under a thundercloud, with Thunder rumbled labelled subject and verb') },
+      PAGE003: { art: art241('bell', 172 / 104, 'A school bell ringing') },
+      PAGE005: { art: art241('pointing', 172 / 138, 'A smiling boy pointing up') },
+      PAGE009: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK006: [art241('lineup', 210 / 110, 'Three children lining up outside school')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.2 mockups (a plain white page, so `art:cutout --page white`). Page 1 shows the boy and the old
+  // fisherman mending his net, and page 7 the class playing kabaddi (both above their sentence pills); page 2 the little
+  // brother with his stone, page 4 the smiling teacher and page 5 the puppy with the slipper (each cut short of its
+  // speech bubble, above the subject / predicate labels); page 3 a picture per example (the boy's head, the parrot's
+  // upper half, cropped short so the page fits one screen); and page
+  // 6's rule example the gate (the boy beside it shares his space with the speech bubble, so he is left out). The scenes'
+  // clouds run into their top edge, so they were cut with `--keep-edge top`. The recap shows the girl giving a thumbs up
+  // (her cream card painted out). The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-2': {
+    pages: {
+      PAGE001: { art: art242('fisherman', 418 / 115, 'A boy pointing at an old fisherman mending his net by the sea') },
+      PAGE002: { art: art242('brother', 184 / 168, 'A smiling boy holding up a shiny stone') },
+      PAGE004: { art: art242('teacher', 160 / 120, 'A smiling teacher in glasses holding a book') },
+      PAGE005: { art: art242('puppy', 172 / 139, 'A happy puppy with a pink slipper') },
+      PAGE007: { art: art242('kabaddi', 418 / 89, 'Three children playing kabaddi on a field') },
+      PAGE008: { art: art242('girl', 134 / 188, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK004: [
+        art242('boy', 86 / 66, 'A smiling boy'),
+        art242('parrot', 119 / 86, 'A red parrot on a branch'),
+      ],
+      BLOCK009: [art242('gate', 150 / 108, 'A tall iron gate between two pillars')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.3 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Page 1 shows the boy pointing at the ducks (the whole scene,
+  // speech bubble included); page 3 a picture per example (the boy with the watermelon, the girl with her
+  // kite); pages 4 and 6 each column (the boy, then the clock, its pale blue card painted out; Priya, then the boy who
+  // stands for "became"); page 5's rule example the temple (the umbrella belongs to its note, which takes no picture);
+  // page 7 the boy hugging the stray puppy; and the recap the girl giving a thumbs up (her cream card, in three shades,
+  // and the list's last letters painted out). Crops stop short of the speech bubbles; scenes whose clouds run into their
+  // top edge were cut with `--keep-edge top`. Page 2's list has no drawing. The mockups have no clipboard, so the Lesson
+  // Complete screen reuses 1.2.8's.
+  '2-4-3': {
+    pages: {
+      PAGE001: { art: art243('ducks', 370 / 208, 'A boy pointing at three ducklings by a pond, saying the example sentence') },
+      PAGE007: { art: art243('puppy', 166 / 177, 'A laughing boy hugging a puppy') },
+      PAGE008: { art: art243('girl', 142 / 182, 'A smiling girl giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK004: [
+        art243('watermelon', 182 / 140, 'A boy carrying a big watermelon'),
+        art243('kite', 192 / 130, 'A girl flying a kite'),
+      ],
+      BLOCK006: [art243('temple', 96 / 86, 'A small golden temple')],
+    },
+    comparisonArt: {
+      BLOCK005: [
+        art243('umbrellaboy', 160 / 146, 'A smiling boy'),
+        art243('clock', 112 / 112, 'A wall clock'),
+      ],
+      BLOCK008: [
+        art243('met', 162 / 144, 'A smiling girl pointing'),
+        art243('became', 162 / 134, 'A smiling boy pointing'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.4 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Pages 1, 2, 3 and 5 show the whole scene with its speech bubble (Nani handing over the card; the waiter with the menu and the boy; Leela and the parrot;
+  // the girl giving away her bicycle). Page 4 shows Dad with the cricket bat and the boy; page 7 a picture per example
+  // (the teacher's class and the boy asking Arun, each the whole scene with its bubble); and the
+  // recap the boy pointing up (the list's last line and his cream card painted out). Page 6's verb list has no
+  // drawing. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-4': {
+    pages: {
+      PAGE001: { art: art244('nani', 356 / 168, 'A grandmother handing a girl a birthday card, saying the example sentence') },
+      PAGE004: { art: art244('dad', 196 / 130, 'A father holding a cricket bat beside his son') },
+      PAGE005: { art: art244('bicycle', 356 / 162, 'A girl handing her pink bicycle to a friend, saying the example sentence') },
+      PAGE008: { art: art244('pointing', 168 / 92, 'A smiling boy pointing up') },
+    },
+    exampleArt: {
+      BLOCK003: [art244('waiter', 356 / 160, 'A waiter holding a menu for a smiling boy, with the example sentence')],
+      BLOCK004: [art244('parrot', 356 / 244, 'A girl holding out a green chilli to a parrot, with the example sentence')],
+      BLOCK009: [
+        art244('teacher', 356 / 128, 'A teacher telling her class a story, with the example sentence'),
+        art244('arun', 356 / 100, 'A boy asking Arun for his pencil, with the example sentence'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.5 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). The mockups' examples differ from the lesson's on pages 3 and 5–7 (a list; reading and helping; soup and
+  // a book; a room full of books), so only matching pictures are used: page 1 the boy at the lighthouse and page 4 the
+  // girl saying "It's me" (both the
+  // whole scene with its speech bubble), page 2 Aunt Rekha under each column (the dentist, then calm; their pale blue and green cards painted
+  // out), and the recap the boy giving a thumbs up (his cream card painted out). The mockups have no clipboard, so the
+  // Lesson Complete screen reuses 1.2.8's.
+  '2-4-5': {
+    pages: {
+      PAGE001: { art: art245('lighthouse', 360 / 177, 'A boy pointing at an old lighthouse by the sea, saying the example sentence') },
+      PAGE004: { art: art245('me', 356 / 236, 'A smiling girl pointing at herself, saying It’s me') },
+      PAGE008: { art: art245('thumbsup', 160 / 88, 'A smiling boy giving a thumbs up') },
+    },
+    comparisonArt: {
+      BLOCK003: [
+        art245('dentist', 106 / 114, 'A smiling woman in glasses and a white coat'),
+        art245('calm', 108 / 114, 'A woman in a white coat, smiling calmly with her eyes closed'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.6 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Page 1 shows the boy pointing at the car on the wet road (the whole scene
+  // with its speech bubble); pages 2, 3 and 5 a picture per example, each cut short of its speech bubble (Asha and Dadu; Grandpa
+  // with his newspaper and the boy opening the window; the boy after his walk and the girl who painted the fence, cropped to head and shoulders so the page fits one
+  // screen); page
+  // 4's rule example the whole scene of Kiran with his trophy, speech bubble included; page 6's rule example the two children
+  // with the puzzle (the right-way picture; the confused pair belongs to the note); page 7 each column (the tidy bed,
+  // then the 7:00 clock); and the recap the boy pointing up. Cream, green and blue cards behind the small pictures were
+  // painted out before the cut. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-6': {
+    pages: {
+      PAGE001: { art: art246('rain', 356 / 174, 'A boy pointing at a car on a wet road in the rain, saying the example sentence') },
+      PAGE008: { art: art246('pointing', 156 / 70, 'A smiling boy pointing up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art246('asha', 96 / 94, 'A smiling girl in a school uniform'),
+        art246('dadu', 100 / 90, 'A smiling grandfather in glasses'),
+      ],
+      BLOCK004: [
+        art246('news', 104 / 96, 'A happy grandfather reading a newspaper'),
+        art246('window', 192 / 86, 'A boy opening a window'),
+      ],
+      BLOCK005: [art246('kiran', 360 / 150, 'A girl announcing that Kiran, holding a gold trophy, is the winner')],
+      BLOCK006: [
+        art246('walks', 82 / 62, 'A smiling boy'),
+        art246('painted', 76 / 60, 'A smiling girl in a pink headband'),
+      ],
+      BLOCK007: [art246('puzzle', 147 / 93, 'A boy and a girl doing a jigsaw puzzle')],
+    },
+    comparisonArt: {
+      BLOCK009: [
+        art246('bed', 177 / 82, 'A neatly made pink bed'),
+        art246('clock', 129 / 68, 'A red alarm clock showing 7:00'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.7 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). The mockups' examples differ from the lesson's on pages 4–7 (a boy with a telescope, hot soup, Arjun
+  // running for the bus, the bus that walks), so only matching pictures are used: page 1 the girl pointing at the girl
+  // with the red kite, and page 3 the peanut seller in his white cap (both the
+  // whole scene with its speech bubble), and the recap the boy pointing up (his cream card painted out). Page 2's list has no
+  // drawing. The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-7': {
+    pages: {
+      PAGE001: { art: art247('kite', 370 / 151, 'A girl pointing at another girl flying a red kite, saying the example sentence') },
+      PAGE003: { art: art247('peanuts', 362 / 181, 'A smiling man in a white cap selling peanuts, with the example sentence') },
+      PAGE008: { art: art247('pointing', 164 / 84, 'A smiling boy pointing up') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.8 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Pages 1, 4 and 5 show their whole scene with its speech bubble (the boy and
+  // the hissing pressure cooker; the girl and the baby giggling in her pram; Grandpa reading on the porch); page 3
+  // the whole scene of Rahul looking nervous, with his thought bubble and the verb notebook (its pale sky would be lost
+  // to the cutout, so it was cut with every edge kept and `--round 10`); page 6 the boy pointing up (beside step 4 of
+  // the list, its card and the row's last word painted out); page 7 the boy detective on his own pale card, a clean
+  // rounded rectangle stopping short of the steps panel (`--keep-edge` on every side, `--round 8`); and the recap the girl giving a thumbs up.
+  // Page 2's five small babies belong to its list rows, which take no picture. The mockups have no clipboard, so the
+  // Lesson Complete screen reuses 1.2.8's.
+  '2-4-8': {
+    pages: {
+      PAGE001: { art: art248('cooker', 360 / 154, 'A boy pointing at a hissing pressure cooker, saying the example sentence') },
+      PAGE003: { art: art248('rahul', 362 / 222, 'A worried boy thinking Rahul seems nervous, beside a notebook naming the verb, its type and the SVC pattern') },
+      PAGE004: { art: art248('pram', 368 / 152, 'A girl smiling at a laughing baby in a pram, saying the example sentence') },
+      PAGE005: { art: art248('grandpa', 363 / 150, 'A grandfather reading the newspaper on the porch, with the example sentence') },
+      PAGE006: { art: art248('step4', 138 / 88, 'A smiling boy pointing up') },
+      PAGE007: { art: art248('detective', 128 / 168, 'A laughing boy in a detective hat holding a magnifying glass') },
+      PAGE008: { art: art248('girl', 130 / 168, 'A smiling girl giving a thumbs up') },
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.9 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Every scene is cut whole with its speech bubble (rule 4): the yawning toddler, the creaking ceiling fan,
+  // the children giggling in the back seat (their bubble rises above the scene into the intro card, whose pink was
+  // cleared first), the grandparents near Udupi, page 5's two dogs (one per column), page 6's volcano and visitors (one
+  // per example; the volcano's sky is too pale for the cutout, so it is a clean rounded card: every edge kept,
+  // `--round 10`) and the girl pointing at the bell. Crops stop above the caption pills under the scenes. The recap
+  // shows the boy giving a thumbs up (his cream card, the list line beside his hair and the card's divider painted
+  // out). The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-9': {
+    pages: {
+      PAGE001: { art: art249('toddler', 370 / 182, 'A tired toddler yawning in bed, saying the example sentence') },
+      PAGE002: { art: art249('fan', 370 / 196, 'A boy looking up at a creaking ceiling fan, with the example sentence') },
+      PAGE003: { art: art249('car', 366 / 256, 'Three children giggling in the back seat of a car, with the example sentence') },
+      PAGE004: { art: art249('udupi', 372 / 187, 'A grandfather and grandmother outside a village house, with the example sentence') },
+      PAGE007: { art: art249('bell', 362 / 176, 'A girl pointing at a ringing bell, saying Please listen to the bell') },
+      PAGE008: { art: art249('thumbsup', 150 / 92, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK008: [
+        art249('volcano', 360 / 84, 'An erupting volcano, with Volcanoes erupt'),
+        art249('visitors', 368 / 88, 'Two visitors walking away with their bags, with Our visitors have left'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK006: [
+        art249('barked', 236 / 112, 'A dog barking in a yard, with The dog barked in the yard'),
+        art249('lives', 236 / 116, 'A dog beside its kennel, with The dog lives in the yard'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.10 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Every scene is cut whole with its speech bubble (rule 4): the boy and the goat with his homework, the hen
+  // and the rooster (one per column), Grandma feeding the sparrows, the boy in the red cap catching the ball (his bubble
+  // runs to the scene's edge, so that edge was kept and the corner rounded), the class planting saplings, and Mum
+  // peeling mangoes. Page 6's sentence pill only runs along the bottom of its scene (Asha and Ravi at the sink), so that
+  // crop stops above it. Crops stop above the word tiles under the scenes. The recap shows the boy giving a thumbs up
+  // (his cream card painted out). The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-10': {
+    pages: {
+      PAGE001: { art: art2410('goat', 370 / 174, 'A boy pointing at a goat eating his homework, saying the example sentence') },
+      PAGE003: { art: art2410('grandma', 366 / 168, 'A grandmother feeding sparrows, saying the example sentence') },
+      PAGE004: { art: art2410('cap', 368 / 156, 'A boy in a red cap catching a cricket ball, with the example sentence') },
+      PAGE005: { art: art2410('class', 370 / 159, 'A girl and a boy planting saplings, with the example sentence') },
+      PAGE006: { art: art2410('cups', 366 / 120, 'A girl washing cups and a boy drying them at the sink') },
+      PAGE007: { art: art2410('mum', 366 / 172, 'A mother slicing mangoes, with the example sentence') },
+      PAGE008: { art: art2410('thumbsup', 156 / 92, 'A smiling boy giving a thumbs up') },
+    },
+    comparisonArt: {
+      BLOCK003: [
+        art2410('hen', 366 / 98, 'A hen pecking a rooster, with The hen pecked the rooster'),
+        art2410('rooster', 366 / 100, 'A rooster pecking a hen, with The rooster pecked the hen'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.11 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Page 1 is the whole scene of the girl and the rooftop garden with its speech bubble (the bubble runs to
+  // the scene's edge, so that edge was kept and the corner rounded). On pages 2–7 the sentence sits on a card along the
+  // scene's left edge, so each picture is the clean rectangle of drawing beside it (rule 4), cut with every edge kept and
+  // `--round 10`: the library, the puppy and the dark sky (one per example), the police officer and the boy with a star
+  // (one per column), the two friends, Grandma (head and shoulders, above the card below her) and the icy lake. The
+  // recap shows the boy giving a thumbs up (his cream card and the list text beside him painted out). The mockups have
+  // no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-11': {
+    pages: {
+      PAGE001: { art: art2411('garden', 362 / 166, 'A girl pointing at a rooftop garden, saying the example sentence') },
+      PAGE005: { art: art2411('girls', 168 / 174, 'Two smiling girls, arm in arm') },
+      PAGE007: { art: art2411('lake', 172 / 142, 'A frozen lake among snowy pine trees') },
+      PAGE008: { art: art2411('thumbsup', 128 / 112, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [art2411('library', 126 / 152, 'A big new library building')],
+      BLOCK004: [
+        art2411('puppy', 168 / 112, 'A strong puppy running on the grass'),
+        art2411('sky', 168 / 114, 'Dark clouds over a line of trees'),
+      ],
+      BLOCK007: [art2411('grandma', 108 / 112, 'A tired, smiling grandmother resting her cheek on her hand')],
+    },
+    comparisonArt: {
+      BLOCK005: [
+        art2411('police', 128 / 126, 'A smiling police officer in uniform'),
+        art2411('famous', 128 / 122, 'A happy boy beside a gold star'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.12 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Every scene is cut whole with its speech bubbles (rule 4), as a clean rounded rectangle from just inside its
+  // frame (every edge kept, `--round 10`): Nikhil and his neighbour with both sentences, the coach throwing the ball,
+  // Ammu at the post box and Papa cooking (one per example), the boy passing the book to Grandpa, the boy with the gift
+  // and the boy with the globe (one per example), the teacher at the board and the two boys thinking about the thief.
+  // The Grandpa and teacher bubbles rise above their scenes, so those crops start higher and the bubbles' insides were
+  // protected before the cut (their thin outlines let the page fill leak in). Crops stop above the caption pills and
+  // the "Not this" cards. The recap shows the boy giving a thumbs up (his cream card painted out). The mockups have no
+  // clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-12': {
+    pages: {
+      PAGE001: { art: art2412('nikhil', 362 / 206, 'Nikhil lending his neighbour a ladder, with both example sentences') },
+      PAGE004: { art: art2412('grandpa', 358 / 166, 'A boy passing a book to Grandpa, saying Please pass it to Grandpa') },
+      PAGE007: { art: art2412('thief', 354 / 136, 'A boy describing a thief to his friend') },
+      PAGE008: { art: art2412('thumbsup', 124 / 88, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [art2412('coach', 358 / 160, 'A coach throwing a ball to Arjun, with the example sentence')],
+      BLOCK004: [
+        art2412('ammu', 354 / 102, 'A girl posting a letter, with the example sentence'),
+        art2412('papa', 354 / 98, 'A father cooking dinner for two guests, with the example sentence'),
+      ],
+      BLOCK007: [
+        art2412('bought', 360 / 126, 'A boy giving a gift to his sister, with the example sentence'),
+        art2412('show', 360 / 132, 'A boy holding a globe in front of the class, with the example sentence'),
+      ],
+      BLOCK008: [art2412('teacher', 358 / 175, 'A boy asking his teacher to explain the rule')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.13 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Every scene is cut whole with its speech bubble (rule 4), as a clean rounded rectangle from just inside its
+  // frame (every edge kept, `--round 10`): the girl and the cosy puppy; the grumpy queue and the gate (pages 2–4 picture
+  // each rule example: the queue and the gate, the villagers and uncle Bablu, the teachers with Arjun's painting and the
+  // film); page 5 each column (the girl with the trophy, the girl with the cake), cut short of the label cards on their
+  // right; page 6 Dad giving Meena the dress, below the sentence pill and above the is-test card; and page 7 each
+  // example (the sunlit walls, Tara singing), above their word-pattern pills. The recap mockup has no character, so it
+  // uses 1.3.1's pencil, and the Lesson Complete screen reuses 1.2.8's clipboard.
+  '2-4-13': {
+    pages: {
+      PAGE001: { art: art2413('blanket', 362 / 154, 'A girl tucking a sleepy puppy under a warm blanket, saying the example sentence') },
+      PAGE008: { art: art131('pencil', 123 / 240, 'A smiling pencil giving a thumbs up, standing on two books') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2413('queue', 360 / 128, 'A grumpy boy in a long queue, with the example sentence'),
+        art2413('gate', 360 / 112, 'A boy pointing at a wooden gate, with the example sentence'),
+      ],
+      BLOCK004: [
+        art2413('villagers', 356 / 130, 'A villager pointing at Mrs Iyer, with the example sentence'),
+        art2413('bablu', 356 / 106, 'A boy beside his uncle Bablu, with the example sentence'),
+      ],
+      BLOCK005: [
+        art2413('teachers', 360 / 134, "A teacher praising Arjun's painting, with the example sentence"),
+        art2413('film', 360 / 100, 'A boy thinking about a film, with the example sentence'),
+      ],
+      BLOCK007: [art2413('dad', 360 / 96, 'A father giving a girl a new pink dress')],
+      BLOCK008: [
+        art2413('sun', 356 / 92, 'The bright sun shining on white walls, with the example sentence'),
+        art2413('tara', 356 / 100, 'A girl singing beside a Best Singer sign, with the example sentence'),
+      ],
+    },
+    comparisonArt: {
+      BLOCK006: [
+        art2413('captain', 214 / 104, 'A girl holding a trophy as her teammates cheer'),
+        art2413('cake', 214 / 134, 'A girl holding a birthday cake as her friends smile'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.14 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). The mockups' examples differ from the lesson's on pages 4, 6 and 7 (other never / rarely / seldom
+  // sentences; "I like this book"; "I can't swim"), so those pages are text-only. Page 1 is the boy and the kite and
+  // page 2 the postwoman at the post box, each the whole scene with its speech bubble (the postwoman's bubble rises above
+  // her scene, so the crop starts higher and the bubble's inside was protected before the cut); page 3 the bus scene,
+  // with "Here comes the bus!", which the page's text mentions; page 5 only the trophy beside the bubble, since the
+  // mockup's bubble says "he" where the lesson has Meera; and the recap the boy giving a thumbs up (his cream card
+  // painted out). Scene crops are clean rounded rectangles (`--round 10`). The mockups have no clipboard, so the Lesson
+  // Complete screen reuses 1.2.8's.
+  '2-4-14': {
+    pages: {
+      PAGE001: { art: art2414('kite', 360 / 142, 'A boy pointing at a kite, saying the example sentence') },
+      PAGE003: { art: art2414('bus', 244 / 112, 'A school bus arriving, with Here comes the bus') },
+      PAGE005: { art: art2414('trophy', 70 / 130, 'A gold trophy with a star') },
+      PAGE008: { art: art2414('thumbsup', 150 / 70, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [art2414('postwoman', 360 / 178, 'A postwoman holding a letter by a post box, with the example sentence')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.15 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Scenes are clean rounded rectangles from just inside their frames (every edge kept, `--round 10`), each
+  // with its whole speech bubble (rule 4): the boy and his cousin's scooter, the class at the planetarium (the list page),
+  // the bus scene with the full sentence, the boy at the beach beside the mistake cards, the rain cloud and the station
+  // (one per example; the cloud's pale card painted out), Priya's statement bubble, and the shop and the puppy (one per
+  // example). The puppy's bubble rises into the shop scene above it, so that crop starts higher, the bits of the shop
+  // scene beside the bubble were filled with this scene's sky, and the bubble's inside was protected before the cut.
+  // The recap shows the boy giving a thumbs up (his cream card painted out). The mockups have no clipboard, so the
+  // Lesson Complete screen reuses 1.2.8's.
+  '2-4-15': {
+    pages: {
+      PAGE001: { art: art2415('cousin', 360 / 150, 'A boy pointing at his cousin’s pink scooter, saying the example sentence') },
+      PAGE002: { art: art2415('planetarium', 360 / 128, 'Three children outside the planetarium') },
+      PAGE004: { art: art2415('beach', 90 / 198, 'A smiling boy giving a thumbs up at the beach') },
+      PAGE008: { art: art2415('thumbsup', 140 / 72, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK004: [art2415('bus', 360 / 200, 'The class arriving at the planetarium by bus, with the example sentence')],
+      BLOCK007: [
+        art2415('cloud', 86 / 74, 'A rain cloud'),
+        art2415('station', 122 / 80, 'A railway station'),
+      ],
+      BLOCK009: [art2415('priya', 360 / 103, 'A girl thinking of Priya, saying It’s a statement, so use normal word order')],
+      BLOCK011: [
+        art2415('shop', 360 / 104, 'A boy asking what time the shop opens'),
+        art2415('puppy', 360 / 114, 'A girl wondering why the puppy is whimpering'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
+  // Cut from the 2.4.16 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). The mockups' examples differ from the lesson's on pages 3, 4, 5 and 7 (mangoes, guitar and zoo; "Where do
+  // you live?"; "Where you go?"; "Who called you?"), so those pages are text-only. Pages 1 and 2 are whole scenes with
+  // their speech bubbles, as clean rounded rectangles (every edge kept, `--round 10`): the boy asking about his sister's
+  // bicycle, and the library and the guests (one per example). Page 6's rule example shows the plate of samosas (its
+  // pale cyan row tint painted out; the bubble beside it is a text card). The recap shows the boy giving a thumbs up
+  // (his cream card painted out). The mockups have no clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-16': {
+    pages: {
+      PAGE001: { art: art2416('bicycle', 360 / 160, 'A boy asking about his sister on her bicycle, with the example question') },
+      PAGE008: { art: art2416('thumbsup', 130 / 72, 'A smiling boy giving a thumbs up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2416('library', 356 / 102, 'A boy asking about the library, with the example question'),
+        art2416('guests', 356 / 122, 'A girl asking about the guests who have arrived, with the example question'),
+      ],
+      BLOCK007: [art2416('samosa', 128 / 66, 'A plate of samosas with chutney')],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
   // 1.4.12's own pictures are still to be cut from its mockup; for now the recap uses 1.3.1's pencil and the Lesson
   // Complete screen 1.2.8's clipboard.
   '1-4-12': {
@@ -3361,6 +4620,156 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
     resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
   },
 };
+
+/** Lesson 2.4.16 artwork, cut from its mockups (`assets/lessons/2-4-16`). */
+function art2416(name: Art2416, aspect: number, label: string): LessonArt {
+  return { source: ART_2416[name], aspect, label };
+}
+
+/** Lesson 2.4.15 artwork, cut from its mockups (`assets/lessons/2-4-15`). */
+function art2415(name: Art2415, aspect: number, label: string): LessonArt {
+  return { source: ART_2415[name], aspect, label };
+}
+
+/** Lesson 2.4.14 artwork, cut from its mockups (`assets/lessons/2-4-14`). */
+function art2414(name: Art2414, aspect: number, label: string): LessonArt {
+  return { source: ART_2414[name], aspect, label };
+}
+
+/** Lesson 2.4.13 artwork, cut from its mockups (`assets/lessons/2-4-13`). */
+function art2413(name: Art2413, aspect: number, label: string): LessonArt {
+  return { source: ART_2413[name], aspect, label };
+}
+
+/** Lesson 2.4.12 artwork, cut from its mockups (`assets/lessons/2-4-12`). */
+function art2412(name: Art2412, aspect: number, label: string): LessonArt {
+  return { source: ART_2412[name], aspect, label };
+}
+
+/** Lesson 2.4.11 artwork, cut from its mockups (`assets/lessons/2-4-11`). */
+function art2411(name: Art2411, aspect: number, label: string): LessonArt {
+  return { source: ART_2411[name], aspect, label };
+}
+
+/** Lesson 2.4.10 artwork, cut from its mockups (`assets/lessons/2-4-10`). */
+function art2410(name: Art2410, aspect: number, label: string): LessonArt {
+  return { source: ART_2410[name], aspect, label };
+}
+
+/** Lesson 2.4.9 artwork, cut from its mockups (`assets/lessons/2-4-9`). */
+function art249(name: Art249, aspect: number, label: string): LessonArt {
+  return { source: ART_249[name], aspect, label };
+}
+
+/** Lesson 2.4.8 artwork, cut from its mockups (`assets/lessons/2-4-8`). */
+function art248(name: Art248, aspect: number, label: string): LessonArt {
+  return { source: ART_248[name], aspect, label };
+}
+
+/** Lesson 2.4.7 artwork, cut from its mockups (`assets/lessons/2-4-7`). */
+function art247(name: Art247, aspect: number, label: string): LessonArt {
+  return { source: ART_247[name], aspect, label };
+}
+
+/** Lesson 2.4.6 artwork, cut from its mockups (`assets/lessons/2-4-6`). */
+function art246(name: Art246, aspect: number, label: string): LessonArt {
+  return { source: ART_246[name], aspect, label };
+}
+
+/** Lesson 2.4.5 artwork, cut from its mockups (`assets/lessons/2-4-5`). */
+function art245(name: Art245, aspect: number, label: string): LessonArt {
+  return { source: ART_245[name], aspect, label };
+}
+
+/** Lesson 2.4.4 artwork, cut from its mockups (`assets/lessons/2-4-4`). */
+function art244(name: Art244, aspect: number, label: string): LessonArt {
+  return { source: ART_244[name], aspect, label };
+}
+
+/** Lesson 2.4.3 artwork, cut from its mockups (`assets/lessons/2-4-3`). */
+function art243(name: Art243, aspect: number, label: string): LessonArt {
+  return { source: ART_243[name], aspect, label };
+}
+
+/** Lesson 2.4.2 artwork, cut from its mockups (`assets/lessons/2-4-2`). */
+function art242(name: Art242, aspect: number, label: string): LessonArt {
+  return { source: ART_242[name], aspect, label };
+}
+
+/** Lesson 2.4.1 artwork, cut from its mockups (`assets/lessons/2-4-1`). */
+function art241(name: Art241, aspect: number, label: string): LessonArt {
+  return { source: ART_241[name], aspect, label };
+}
+
+/** Lesson 2.3.14 artwork, cut from its mockups (`assets/lessons/2-3-14`). */
+function art2314(name: Art2314, aspect: number, label: string): LessonArt {
+  return { source: ART_2314[name], aspect, label };
+}
+
+/** Lesson 2.3.13 artwork, cut from its mockups (`assets/lessons/2-3-13`). */
+function art2313(name: Art2313, aspect: number, label: string): LessonArt {
+  return { source: ART_2313[name], aspect, label };
+}
+
+/** Lesson 2.3.12 artwork, cut from its mockups (`assets/lessons/2-3-12`). */
+function art2312(name: Art2312, aspect: number, label: string): LessonArt {
+  return { source: ART_2312[name], aspect, label };
+}
+
+/** Lesson 2.3.11 artwork, cut from its mockups (`assets/lessons/2-3-11`). */
+function art2311(name: Art2311, aspect: number, label: string): LessonArt {
+  return { source: ART_2311[name], aspect, label };
+}
+
+/** Lesson 2.3.10 artwork, cut from its mockups (`assets/lessons/2-3-10`). */
+function art2310(name: Art2310, aspect: number, label: string): LessonArt {
+  return { source: ART_2310[name], aspect, label };
+}
+
+/** Lesson 2.3.9 artwork, cut from its mockups (`assets/lessons/2-3-9`). */
+function art239(name: Art239, aspect: number, label: string): LessonArt {
+  return { source: ART_239[name], aspect, label };
+}
+
+/** Lesson 2.3.8 artwork, cut from its mockups (`assets/lessons/2-3-8`). */
+function art238(name: Art238, aspect: number, label: string): LessonArt {
+  return { source: ART_238[name], aspect, label };
+}
+
+/** Lesson 2.3.7 artwork, cut from its mockups (`assets/lessons/2-3-7`). */
+function art237(name: Art237, aspect: number, label: string): LessonArt {
+  return { source: ART_237[name], aspect, label };
+}
+
+/** Lesson 2.3.6 artwork, cut from its mockups (`assets/lessons/2-3-6`). */
+function art236(name: Art236, aspect: number, label: string): LessonArt {
+  return { source: ART_236[name], aspect, label };
+}
+
+/** Lesson 2.3.5 artwork, cut from its mockups (`assets/lessons/2-3-5`). */
+function art235(name: Art235, aspect: number, label: string): LessonArt {
+  return { source: ART_235[name], aspect, label };
+}
+
+/** Lesson 2.3.4 artwork, cut from its mockups (`assets/lessons/2-3-4`). */
+function art234(name: Art234, aspect: number, label: string): LessonArt {
+  return { source: ART_234[name], aspect, label };
+}
+
+/** Lesson 2.3.3 artwork, cut from its mockups (`assets/lessons/2-3-3`). */
+function art233(name: Art233, aspect: number, label: string): LessonArt {
+  return { source: ART_233[name], aspect, label };
+}
+
+/** Lesson 2.3.2 artwork, cut from its mockups (`assets/lessons/2-3-2`). */
+function art232(name: Art232, aspect: number, label: string): LessonArt {
+  return { source: ART_232[name], aspect, label };
+}
+
+/** Lesson 2.3.1 artwork, cut from its mockups (`assets/lessons/2-3-1`). */
+function art231(name: Art231, aspect: number, label: string): LessonArt {
+  return { source: ART_231[name], aspect, label };
+}
 
 /** Lesson 2.2.17 artwork, cut from its mockups (`assets/lessons/2-2-17`). */
 function art2217(name: Art2217, aspect: number, label: string): LessonArt {

@@ -1,0 +1,724 @@
+{
+  "schema_version": "2.0",
+  "content_type": "grammar_lesson",
+  "generation_context": {
+    "target_audience": "English learners",
+    "language_level": "ELI5",
+    "learning_context": "Mobile learning",
+    "content_language": "en"
+  },
+  "topic": {
+    "topic_id": "2-4-12",
+    "title": "Subject–Verb–Indirect Object–Direct Object Pattern",
+    "learning_stage": null,
+    "learner_level": "ELI5",
+    "language": "en"
+  },
+  "lesson": {
+    "lesson_title": "Subject–Verb–Indirect Object–Direct Object Pattern",
+    "lesson_summary": "An SVOO sentence (2-4-4) can often be said another way: the thing first, then to or for + the person. Learners rewrite between the two patterns, choose to (give, send, lend, show) or for (buy, make, cook, get), use the to / for pattern when the thing is a pronoun (Give it to me.), and use to with verbs that never take the person first: explain, describe, suggest, say.",
+    "learning_objectives": [
+      {
+        "objective_id": "OBJ001",
+        "description": "Rewrite SVOO sentences with to or for.",
+        "success_criteria": [
+          "Move the person after to or for.",
+          "Choose to or for."
+        ]
+      },
+      {
+        "objective_id": "OBJ002",
+        "description": "Use the to / for pattern with pronoun objects.",
+        "success_criteria": [
+          "Say give it to me."
+        ]
+      },
+      {
+        "objective_id": "OBJ003",
+        "description": "Use to with explain, describe, suggest and say.",
+        "success_criteria": [
+          "Avoid explain me the rule."
+        ]
+      }
+    ],
+    "estimated_duration_minutes": 12,
+    "total_pages": 8
+  },
+  "learning_dimensions": [
+    {
+      "dimension_id": "DIM001",
+      "dimension": "Two Ways to Say It",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "page_ids": [
+        "PAGE002",
+        "PAGE003"
+      ],
+      "assessment_id": "DA001"
+    },
+    {
+      "dimension_id": "DIM002",
+      "dimension": "Pronoun Objects",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "page_ids": [
+        "PAGE004",
+        "PAGE005"
+      ],
+      "assessment_id": "DA002"
+    },
+    {
+      "dimension_id": "DIM003",
+      "dimension": "Verbs That Need To",
+      "applicability": "applicable",
+      "status": "covered",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "page_ids": [
+        "PAGE006",
+        "PAGE007"
+      ],
+      "assessment_id": "DA003"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PAGE001",
+      "page_number": 1,
+      "page_type": "introduction",
+      "pedagogical_role": "introduction",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "Two Ways to Say It",
+      "content": [
+        {
+          "block_id": "BLOCK001",
+          "type": "text",
+          "text": "An SVOO sentence (2-4-4) can often be said another way: put the thing first, then to or for + the person."
+        },
+        {
+          "block_id": "BLOCK002",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "Nikhil lent his neighbour a ladder.",
+              "highlight": [
+                "his neighbour a ladder"
+              ],
+              "explanation": "Person first, then the thing."
+            },
+            {
+              "sentence": "Nikhil lent a ladder to his neighbour.",
+              "highlight": [
+                "a ladder to his neighbour"
+              ],
+              "explanation": "Thing first, then to + the person."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Person first, or thing first with to or for.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 61,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE002",
+      "page_number": 2,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "Move the Person After To",
+      "content": [
+        {
+          "block_id": "BLOCK003",
+          "type": "rule",
+          "rule_id": "RULE003",
+          "rule_text": "To rewrite, put the thing straight after the verb and the person after to.",
+          "scope": "Rewriting",
+          "examples": [
+            {
+              "sentence": "The coach threw the ball to Arjun.",
+              "highlight": [
+                "the ball to Arjun"
+              ],
+              "explanation": "The same as: The coach threw Arjun the ball."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Thing, then to + person.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 43,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE003",
+      "page_number": 3,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "title": "To or For?",
+      "content": [
+        {
+          "block_id": "BLOCK004",
+          "type": "rule",
+          "rule_id": "RULE004",
+          "rule_text": "Use to when the thing goes to someone: give, send, lend, show. Use for when you do something for someone: buy, make, cook, get.",
+          "scope": "Choosing",
+          "examples": [
+            {
+              "sentence": "Ammu sent a letter to her pen pal.",
+              "highlight": [
+                "to her pen pal"
+              ],
+              "explanation": "The letter goes to someone, so to."
+            },
+            {
+              "sentence": "Papa cooked dinner for the guests.",
+              "highlight": [
+                "for the guests"
+              ],
+              "explanation": "Papa did the cooking for them, so for."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Goes to someone: to. Done for someone: for.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 67,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE004",
+      "page_number": 4,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Give It to Me",
+      "content": [
+        {
+          "block_id": "BLOCK005",
+          "type": "rule",
+          "rule_id": "RULE005",
+          "rule_text": "When the thing is a pronoun such as it or them, use the to or for pattern.",
+          "scope": "Pronoun direct objects",
+          "examples": [
+            {
+              "sentence": "Please pass it to Grandpa.",
+              "highlight": [
+                "it to Grandpa"
+              ],
+              "explanation": "It comes first, then to + the person."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK006",
+          "type": "note",
+          "title": "Not this",
+          "text": "Please pass Grandpa it."
+        }
+      ],
+      "key_takeaway": "Thing is a pronoun? Use to or for.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 50,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE005",
+      "page_number": 5,
+      "page_type": "example",
+      "pedagogical_role": "demonstration",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "title": "Them and It",
+      "content": [
+        {
+          "block_id": "BLOCK007",
+          "type": "example",
+          "examples": [
+            {
+              "sentence": "I bought them for my sister.",
+              "highlight": [
+                "them for my sister"
+              ],
+              "explanation": "Them comes first, then for + the person."
+            },
+            {
+              "sentence": "Can you show it to the class?",
+              "highlight": [
+                "it to the class"
+              ],
+              "explanation": "It comes first, then to + the people."
+            }
+          ]
+        }
+      ],
+      "key_takeaway": "Pronoun first, person after.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 40,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE006",
+      "page_number": 6,
+      "page_type": "rule",
+      "pedagogical_role": "rule_application",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Explain, Describe, Suggest, Say",
+      "content": [
+        {
+          "block_id": "BLOCK008",
+          "type": "rule",
+          "rule_id": "RULE008",
+          "rule_text": "Explain, describe, suggest and say never take the person first. Put the thing first and use to.",
+          "scope": "Verbs that need to",
+          "examples": [
+            {
+              "sentence": "Could you explain the rule to me?",
+              "highlight": [
+                "the rule to me"
+              ],
+              "explanation": "Explain needs to before the person."
+            }
+          ]
+        },
+        {
+          "block_id": "BLOCK009",
+          "type": "note",
+          "title": "Not this",
+          "text": "Could you explain me the rule?"
+        }
+      ],
+      "key_takeaway": "These verbs always use to.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 55,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE007",
+      "page_number": 7,
+      "page_type": "common_mistake",
+      "pedagogical_role": "error_analysis",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "title": "Describe It to Me",
+      "content": [
+        {
+          "block_id": "BLOCK010",
+          "type": "warning",
+          "title": "Common mistake",
+          "mistake": {
+            "incorrect": "Please describe me the thief.",
+            "correct": "Please describe the thief to me.",
+            "reason": "Describe can't take the person first, so use to."
+          },
+          "related_learning_objective_ids": [
+            "OBJ003"
+          ]
+        }
+      ],
+      "key_takeaway": "Describe something to someone.",
+      "page_audit": {
+        "primary_objective_count": 1,
+        "estimated_visible_word_count": 29,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    },
+    {
+      "page_id": "PAGE008",
+      "page_number": 8,
+      "page_type": "summary",
+      "pedagogical_role": "reinforcement",
+      "learning_objective_ids": [
+        "OBJ001",
+        "OBJ002",
+        "OBJ003"
+      ],
+      "title": "SVOO Pattern: Recap",
+      "content": [
+        {
+          "block_id": "BLOCK011",
+          "type": "list",
+          "list_style": "bulleted",
+          "items": [
+            "Give her the book = give the book to her.",
+            "To: give, send, lend, show. For: buy, make, cook, get.",
+            "Pronoun thing: give it to me.",
+            "Explain, describe, suggest, say: always to."
+          ]
+        }
+      ],
+      "key_takeaway": "Know when to switch to to or for.",
+      "page_audit": {
+        "primary_objective_count": 3,
+        "estimated_visible_word_count": 34,
+        "density_status": "passed",
+        "standalone_understanding": "passed"
+      }
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Which sentence means the same as 'Mum gave the watchman some tea.'?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Mum gave some tea to the watchman."
+        },
+        {
+          "option_id": "B",
+          "text": "Mum gave the watchman to some tea."
+        },
+        {
+          "option_id": "C",
+          "text": "Mum gave to some tea the watchman."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Thing first, then to + the person."
+    },
+    {
+      "question_id": "Q002",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose to or for: 'Dad made a kite ___ me.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "for"
+        },
+        {
+          "option_id": "B",
+          "text": "to"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Dad did the making for me, so for."
+    },
+    {
+      "question_id": "Q003",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose to or for: 'She sent a parcel ___ her uncle.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "to"
+        },
+        {
+          "option_id": "B",
+          "text": "for"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "The parcel goes to her uncle, so to."
+    },
+    {
+      "question_id": "Q004",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Give it to me, please."
+        },
+        {
+          "option_id": "B",
+          "text": "Give me to it, please."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "With the pronoun it, use the to pattern."
+    },
+    {
+      "question_id": "Q005",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ002"
+      ],
+      "prompt": "Rewrite with to.",
+      "original_sentence": "I wrote a poem and read my class it.",
+      "corrected_sentence": "I wrote a poem and read it to my class.",
+      "explanation": "With the pronoun it, put it first and use to."
+    },
+    {
+      "question_id": "Q006",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "The guide explained the map to us."
+        },
+        {
+          "option_id": "B",
+          "text": "The guide explained us the map."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Explain needs to before the person."
+    },
+    {
+      "question_id": "Q007",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Can you suggest a good book to me?"
+        },
+        {
+          "option_id": "B",
+          "text": "Can you suggest me a good book?"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Suggest never takes the person first."
+    },
+    {
+      "question_id": "Q008",
+      "type": "true_false",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "'Buy a gift for your friend' uses for because you do something for someone.",
+      "correct_answer": true,
+      "explanation": "Buy takes for."
+    },
+    {
+      "question_id": "Q009",
+      "type": "sentence_correction",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Rewrite with to.",
+      "original_sentence": "Ravi showed his friends the photo.",
+      "corrected_sentence": "Ravi showed the photo to his friends.",
+      "explanation": "Thing first, then to + the people."
+    },
+    {
+      "question_id": "Q010",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ001"
+      ],
+      "prompt": "Choose to or for: 'Grandma knitted a sweater ___ the baby.'",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "for"
+        },
+        {
+          "option_id": "B",
+          "text": "to"
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Grandma did the knitting for the baby."
+    },
+    {
+      "question_id": "Q011",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Please say sorry to your sister."
+        },
+        {
+          "option_id": "B",
+          "text": "Please say your sister sorry."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Say always uses to before the person."
+    },
+    {
+      "question_id": "Q012",
+      "type": "multiple_choice",
+      "learning_objective_ids": [
+        "OBJ003"
+      ],
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Describe the house to me."
+        },
+        {
+          "option_id": "B",
+          "text": "Describe me the house."
+        }
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "explanation": "Describe needs to before the person."
+    }
+  ],
+  "assessments": {
+    "dimension_assessments": [
+      {
+        "assessment_id": "DA001",
+        "dimension_id": "DIM001",
+        "title": "Check To and For",
+        "after_page_id": "PAGE003",
+        "question_ids": [
+          "Q001",
+          "Q002",
+          "Q003"
+        ]
+      },
+      {
+        "assessment_id": "DA002",
+        "dimension_id": "DIM002",
+        "title": "Check Give It to Me",
+        "after_page_id": "PAGE005",
+        "question_ids": [
+          "Q004",
+          "Q005"
+        ]
+      },
+      {
+        "assessment_id": "DA003",
+        "dimension_id": "DIM003",
+        "title": "Check Explain and Describe",
+        "after_page_id": "PAGE007",
+        "question_ids": [
+          "Q006",
+          "Q007"
+        ]
+      }
+    ],
+    "final_assessment": {
+      "assessment_id": "FA001",
+      "title": "SVOO Pattern: Final Check",
+      "question_ids": [
+        "Q008",
+        "Q009",
+        "Q010",
+        "Q011",
+        "Q012"
+      ]
+    }
+  },
+  "coverage": {
+    "cross_references": [
+      {
+        "concept": "Identifying direct and indirect objects",
+        "reason": "Taught in 2-4-4.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Say and tell",
+        "reason": "Taught in 2-1-13.",
+        "coverage": "referenced_only"
+      },
+      {
+        "concept": "Prepositions to and for in depth",
+        "reason": "Taught in Stage 4.1.",
+        "coverage": "excluded"
+      }
+    ]
+  },
+  "quality_audit": {
+    "grammar_accuracy": "passed",
+    "content_completeness": "passed",
+    "pedagogical_sequence": "passed",
+    "eli5_readability": "passed",
+    "mobile_page_density": "passed",
+    "example_quality": "passed",
+    "interaction_validity": "passed",
+    "json_schema_validity": "passed",
+    "duplicate_content_check": "passed",
+    "assessment_audit": {
+      "dimension_assessment_coverage": "passed",
+      "final_assessment_coverage": "passed",
+      "question_objective_alignment": "passed",
+      "duplicate_question_check": "passed",
+      "answer_key_validation": "passed",
+      "interaction_structure_validation": "passed"
+    },
+    "overall_status": "passed",
+    "issues_found": [],
+    "corrections_made": []
+  }
+}
