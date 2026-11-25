@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { Image } from 'expo-image';
 import { router } from 'expo-router';
 import { useEffect, useMemo, useReducer, useRef, useState, type ReactNode } from 'react';
 import {
@@ -64,6 +65,15 @@ export function LessonPlayer({ lesson, topic }: LessonPlayerProps) {
   const cta = nextCta(lesson, nextStep);
 
   const exit = () => (router.canGoBack() ? router.back() : router.replace('/learn'));
+
+  // Pictures stay cached while this lesson is open (stepping back is instant), and are released when it
+  // closes, so memory doesn't grow lesson after lesson.
+  useEffect(
+    () => () => {
+      void Image.clearMemoryCache();
+    },
+    [],
+  );
   const back = () => (canStepBack(state) ? dispatch({ type: 'back' }) : exit());
 
   // Android back steps through the lesson before leaving it.

@@ -127,6 +127,7 @@ import v2413raw from '../content/2-4-13.json';
 import v2414raw from '../content/2-4-14.json';
 import v2415raw from '../content/2-4-15.json';
 import v2416raw from '../content/2-4-16.json';
+import v2417raw from '../content/2-4-17.json';
 import {
   buildSteps,
   initialLessonFlow,
@@ -277,6 +278,7 @@ const v2413 = loadLesson(v2413raw);
 const v2414 = loadLesson(v2414raw);
 const v2415 = loadLesson(v2415raw);
 const v2416 = loadLesson(v2416raw);
+const v2417 = loadLesson(v2417raw);
 // Untyped deep copy, so tests can break the JSON on purpose.
 const clone = (x: unknown) => JSON.parse(JSON.stringify(x));
 
@@ -2969,6 +2971,28 @@ describe('lessonScreens', () => {
     expect(pageBlockArt(v2416.pages[5], visuals).BLOCK007?.examples).toHaveLength(1);
     const pages = visuals?.pages ?? {};
     expect(v2416.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE002', 'PAGE003', 'PAGE004', 'PAGE005', 'PAGE006', 'PAGE007']);
+  });
+
+  it('fits lesson 2.4.17 on screens, with a check after each dimension and a longer final check', () => {
+    // The last lesson of Chapter 2.4.
+    expect(curriculumTopicId(v2417.id)).toBe('s2.4.17');
+    expect(lessonForTopic('s2.4.17')?.id).toBe('2-4-17');
+    const visuals = visualsFor(v2417.id);
+    const screens = lessonScreens(v2417, visuals);
+    for (const s of screens.filter((x) => x.blockPart === 'all' && x.blocks.some((b) => b.type !== 'text')))
+      expect([s.page.page_number, packedHeight(v2417, s) <= DEFAULT_BUDGET - titleLines(s.page.title) * 37]).toEqual([s.page.page_number, true]);
+    expect(v2417.checkpoints.map((c) => c.afterPageId)).toEqual(['PAGE003', 'PAGE005', 'PAGE007']);
+    expect(v2417.finalCheck?.questionIds).toEqual(['Q008', 'Q009', 'Q010', 'Q011', 'Q012']);
+    expect(grade(v2417.questions.Q006, { kind: 'text', values: ["We didn't see anybody in the park."] })).toBe(true);
+    expect(grade(v2417.questions.Q006, { kind: 'text', values: ["We didn't see nobody in the park."] })).toBe(false);
+    expect(grade(v2417.questions.Q012, { kind: 'text', values: ["Grandpa doesn't drink coffee."] })).toBe(true);
+    expect(grade(v2417.questions.Q012, { kind: 'text', values: ["Grandpa doesn't drinks coffee."] })).toBe(false);
+    // Pages 2, 4 and 7 picture each example; every other page has its own picture.
+    expect(pageBlockArt(v2417.pages[1], visuals).BLOCK003?.examples).toHaveLength(2);
+    expect(pageBlockArt(v2417.pages[3], visuals).BLOCK005?.examples).toHaveLength(2);
+    expect(pageBlockArt(v2417.pages[6], visuals).BLOCK009?.examples).toHaveLength(2);
+    const pages = visuals?.pages ?? {};
+    expect(v2417.pages.filter((p) => !pages[p.page_id]?.art).map((p) => p.page_id)).toEqual(['PAGE002', 'PAGE004', 'PAGE007']);
   });
 
   it("draws a rule's examples as an example card under the rule", () => {

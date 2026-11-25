@@ -1527,6 +1527,21 @@ const ART_2416 = {
 } satisfies Record<string, ImageSource>;
 type Art2416 = keyof typeof ART_2416;
 
+const ART_2417 = {
+  baby: require('../../assets/lessons/2-4-17/baby.webp'),
+  project: require('../../assets/lessons/2-4-17/project.webp'),
+  tara: require('../../assets/lessons/2-4-17/tara.webp'),
+  shops: require('../../assets/lessons/2-4-17/shops.webp'),
+  okra: require('../../assets/lessons/2-4-17/okra.webp'),
+  doorbell: require('../../assets/lessons/2-4-17/doorbell.webp'),
+  shortforms: require('../../assets/lessons/2-4-17/shortforms.webp'),
+  trip: require('../../assets/lessons/2-4-17/trip.webp'),
+  busstop: require('../../assets/lessons/2-4-17/busstop.webp'),
+  tiger: require('../../assets/lessons/2-4-17/tiger.webp'),
+  cheer: require('../../assets/lessons/2-4-17/cheer.webp'),
+} satisfies Record<string, ImageSource>;
+type Art2417 = keyof typeof ART_2417;
+
 export const LESSON_VISUALS: Record<string, LessonVisuals> = {
   '1.1.1.EP001': {
     pages: {
@@ -4611,6 +4626,37 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
     },
     resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
   },
+  // Cut from the 2.4.17 mockups (a 1536×1024 sheet of 384×512 screens; a plain white page, so `art:cutout --page
+  // white`). Every scene is cut whole with its speech bubble (rule 4), as a clean rounded rectangle from just inside its
+  // frame (every edge kept, `--round 10`): the girl and the sleeping baby (above the pill under it), the project and
+  // Tara's birthday (one per example), the shops, the okra and the doorbell (one per example), the girl explaining the
+  // double negative beside the warning cards, and the bus stop and the tiger (one per example). Page 5 shows the boy
+  // beside the short-form list, and the recap the boy cheering (his cream card painted out). The mockups have no
+  // clipboard, so the Lesson Complete screen reuses 1.2.8's.
+  '2-4-17': {
+    pages: {
+      PAGE001: { art: art2417('baby', 362 / 206, 'A girl beside her sleeping baby brother, saying the example sentence') },
+      PAGE003: { art: art2417('shops', 360 / 220, 'A boy pointing at a quiet shop, saying the example sentence') },
+      PAGE005: { art: art2417('shortforms', 116 / 226, 'A smiling boy giving a thumbs up') },
+      PAGE006: { art: art2417('trip', 360 / 104, 'A girl explaining that don’t is already negative, beside a backpack and map') },
+      PAGE008: { art: art2417('cheer', 176 / 118, 'A smiling boy cheering with his fist up') },
+    },
+    exampleArt: {
+      BLOCK003: [
+        art2417('project', 360 / 104, 'A boy beside his laptop, with the example sentence'),
+        art2417('tara', 360 / 112, 'A girl beside a birthday cake and present, with the example sentence'),
+      ],
+      BLOCK005: [
+        art2417('okra', 362 / 102, 'A boy beside a plate of okra, with the example sentence'),
+        art2417('doorbell', 362 / 108, 'A girl beside a doorbell, with the example sentence'),
+      ],
+      BLOCK009: [
+        art2417('busstop', 360 / 98, 'A boy beside an empty bus stop, with the example sentence'),
+        art2417('tiger', 360 / 90, 'A girl beside a picture of a tiger, with the example sentence'),
+      ],
+    },
+    resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
+  },
   // 1.4.12's own pictures are still to be cut from its mockup; for now the recap uses 1.3.1's pencil and the Lesson
   // Complete screen 1.2.8's clipboard.
   '1-4-12': {
@@ -4620,6 +4666,11 @@ export const LESSON_VISUALS: Record<string, LessonVisuals> = {
     resultArt: art128('clipboard', 67 / 64, 'A checklist on a clipboard, with a pencil'),
   },
 };
+
+/** Lesson 2.4.17 artwork, cut from its mockups (`assets/lessons/2-4-17`). */
+function art2417(name: Art2417, aspect: number, label: string): LessonArt {
+  return { source: ART_2417[name], aspect, label };
+}
 
 /** Lesson 2.4.16 artwork, cut from its mockups (`assets/lessons/2-4-16`). */
 function art2416(name: Art2416, aspect: number, label: string): LessonArt {

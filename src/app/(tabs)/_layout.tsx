@@ -18,9 +18,10 @@ function TabIcon({ icon, activeIcon, focused }: { icon: IconName; activeIcon: Ic
   );
 }
 
-const TABS: { name: string; title: string; icon: IconName; activeIcon: IconName }[] = [
+const TABS: { name: string; title: string; icon: IconName; activeIcon: IconName; hidden?: boolean }[] = [
   { name: 'learn', title: 'Learn', icon: 'home-variant-outline', activeIcon: 'home-variant' },
-  { name: 'topics', title: 'Topics', icon: 'layers-outline', activeIcon: 'layers' },
+  // Hidden: the list shows every lesson title, including lessons the learner hasn't unlocked yet.
+  { name: 'topics', title: 'Topics', icon: 'layers-outline', activeIcon: 'layers', hidden: true },
   { name: 'practice', title: 'Practice', icon: 'pencil-outline', activeIcon: 'pencil' },
   { name: 'profile', title: 'Profile', icon: 'account-outline', activeIcon: 'account' },
 ];
@@ -45,6 +46,8 @@ export default function TabLayout() {
           name={t.name}
           options={{
             title: t.title,
+            // `href: null` keeps the route but removes its tab button.
+            ...(t.hidden ? { href: null } : {}),
             tabBarIcon: ({ focused }) => <TabIcon icon={t.icon} activeIcon={t.activeIcon} focused={focused} />,
           }}
         />

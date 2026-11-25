@@ -1,14 +1,22 @@
 import { describe, expect, it } from '@jest/globals';
 
-import { deriveTopicStatuses } from '../progression';
+import { ALL_TOPICS, deriveTopicStatuses, PATH_CURRICULUM } from '../progression';
 import { buildPathRows, PATH_ZIGZAG } from '../rows';
 
 describe('buildPathRows', () => {
   const rows = buildPathRows(deriveTopicStatuses({}));
 
-  it('emits every banner, sub-stage and topic in curriculum order', () => {
+  it('emits every banner, sub-stage and topic on the path in order, then the more-lessons row', () => {
     const count = (k: string) => rows.filter((r) => r.kind === k).length;
-    expect([count('banner'), count('legend'), count('sub'), count('topic')]).toEqual([5, 1, 25, 502]);
+    const subs = PATH_CURRICULUM.flatMap((s) => s.subStages).length;
+    expect([count('banner'), count('legend'), count('sub'), count('topic'), count('more')]).toEqual([
+      PATH_CURRICULUM.length,
+      1,
+      subs,
+      ALL_TOPICS.length,
+      1,
+    ]);
+    expect(rows[rows.length - 1].kind).toBe('more');
     expect(rows.slice(0, 4).map((r) => r.key)).toEqual(['s1', 'legend', 's1.1', 's1.1.01']);
   });
 
@@ -23,7 +31,7 @@ describe('buildPathRows', () => {
 
   it('numbers sub-stages as chapters across the whole path and gives topics icons', () => {
     const subs = rows.filter((r) => r.kind === 'sub');
-    expect(subs.map((r) => r.kind === 'sub' && r.chapter)).toEqual(Array.from({ length: 25 }, (_, i) => i + 1));
+    expect(subs.map((r) => r.kind === 'sub' && r.chapter).slice(0, 9)).toEqual(Array.from({ length: 9 }, (_, i) => i + 1));
     const s21 = rows.find((r) => r.key === 's2.1');
     expect(s21?.kind === 'sub' && s21.chapter).toBe(6);
     const t1 = rows.find((r) => r.key === 's1.1.02');

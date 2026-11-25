@@ -1,6 +1,6 @@
-import { router } from 'expo-router';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCallback, useMemo, useRef, useState } from 'react';
-import { Alert, FlatList, StyleSheet, View, type ListViewToken } from 'react-native';
+import { FlatList, Platform, StyleSheet, View, type ListViewToken } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PATH_SIDE_PADDING, usePathCenterX } from '@/components/learning-path/geometry';
@@ -9,22 +9,23 @@ import { PathHeader } from '@/components/learning-path/PathHeader';
 import { StageBanner } from '@/components/learning-path/StageBanner';
 import { SubStageHeading } from '@/components/learning-path/SubStageHeading';
 import { TopicNode } from '@/components/learning-path/TopicNode';
-import { CURRICULUM } from '@/data/curriculum';
-import { currentTopicId, findTopic, stageProgress, stageStatus } from '@/learning-path/progression';
+import { AppText } from '@/components/AppText';
+import { openTopic } from '@/learning-path/open-topic';
+import { currentTopicId, findTopic, PATH_CURRICULUM, stageProgress, stageStatus } from '@/learning-path/progression';
 import { buildPathRows, type PathRow } from '@/learning-path/rows';
 import { useProgress } from '@/state/progress-context';
 import { colors, space } from '@/theme/tokens';
 
 const VIEWABILITY = { itemVisiblePercentThreshold: 30 };
 
-/** Learn tab: the five-stage grammar journey as one winding, scrollable path. */
+/** Learn tab: the grammar journey (lessons available so far) as one winding, scrollable path. */
 export default function LearningPathScreen() {
   const insets = useSafeAreaInsets();
   const centerX = usePathCenterX();
   const { completed, statuses } = useProgress();
   const rows = useMemo(() => buildPathRows(statuses), [statuses]);
   const currentId = currentTopicId(statuses);
-  const learnerStage = currentId ? findTopic(currentId)!.stage.number : CURRICULUM.length;
+  const learnerStage = currentId ? findTopic(currentId)!.stage.number : PATH_CURRICULUM.length;
 
   // Header follows the stage in view; starts at the learner's current stage.
   const [visibleStage, setVisibleStage] = useState(learnerStage);
@@ -41,14 +42,6 @@ export default function LearningPathScreen() {
     didInitialScroll.current = true;
     const index = rows.findIndex((r) => r.key === currentId);
     if (index > 4) listRef.current?.scrollToIndex({ index, viewPosition: 0.35, animated: false });
-  };
-
-  const openTopic = (row: Extract<PathRow, { kind: 'topic' }>) => {
-    if (row.status === 'locked') {
-      Alert.alert('Lesson locked', 'Complete the lessons before this one to unlock it.');
-      return;
-    }
-    router.push({ pathname: '/lesson/[topicId]', params: { topicId: row.ref.topic.id } });
   };
 
   const renderItem = ({ item }: { item: PathRow }) => {
@@ -68,13 +61,22 @@ export default function LearningPathScreen() {
       case 'sub':
         return <SubStageHeading row={item} centerX={centerX} />;
       case 'topic':
-        return <TopicNode row={item} centerX={centerX} onPress={() => openTopic(item)} />;
+        return <TopicNode row={item} centerX={centerX} onPress={() => openTopic(item.ref.topic.id, item.status)} />;
+      case 'more':
+        return (
+          <View style={styles.more}>
+            <MaterialCommunityIcons name="book-plus-outline" size={22} color={colors.inkMuted} />
+            <AppText variant="label" align="center" style={styles.moreText}>
+              More lessons are on the way.
+            </AppText>
+          </View>
+        );
     }
   };
 
   return (
     <View style={[styles.root, { paddingTop: insets.top }]}>
-      <PathHeader stageNumber={visibleStage} stageCount={CURRICULUM.length} />
+      <PathHeader stageNumber={visibleStage} stageCount={PATH_CURRICULUM.length} />
       <FlatList
         ref={listRef}
         data={rows}
@@ -87,6 +89,7 @@ export default function LearningPathScreen() {
         onLayout={scrollToCurrent}
         initialNumToRender={14}
         windowSize={9}
+        removeClippedSubviews={Platform.OS === 'android'}
         onScrollToIndexFailed={(info) => {
           // Rows past the rendered window have no measured offset yet: jump near, then retry.
           listRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: false });
@@ -104,4 +107,6 @@ const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.bg },
   content: { paddingHorizontal: PATH_SIDE_PADDING, paddingTop: space.lg, paddingBottom: space.xxl },
   bannerGap: { marginTop: space.xxl },
+  more: { alignItems: 'center', gap: space.xs, marginTop: space.xxl },
+  moreText: { color: colors.inkMuted },
 });

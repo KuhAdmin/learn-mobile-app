@@ -8,6 +8,18 @@ import {
   type CurriculumSubStage,
   type CurriculumTopic,
 } from '@/data/curriculum';
+import { hasLesson } from '@/lessons/registry';
+
+/**
+ * The curriculum as learners see it: only topics that have a lesson, without empty chapters or courses.
+ * New lessons appear on the path as soon as they are registered in `src/lessons/registry.ts`.
+ */
+export const PATH_CURRICULUM: readonly CurriculumStage[] = CURRICULUM.map((stage) => ({
+  ...stage,
+  subStages: stage.subStages
+    .map((subStage) => ({ ...subStage, topics: subStage.topics.filter((t) => hasLesson(t.id)) }))
+    .filter((subStage) => subStage.topics.length > 0),
+})).filter((stage) => stage.subStages.length > 0);
 
 export type TopicStatus = 'locked' | 'available' | 'current' | 'completed';
 
@@ -21,9 +33,9 @@ export interface ProgressionRules {
   availableAhead: number;
 }
 
-/** Product rules: strictly sequential, starting at 1.1 "Introduction to Parts of Speech". */
+/** Product rules: strictly sequential, starting at the first lesson on the path. */
 export const PROGRESSION_RULES: ProgressionRules = {
-  entryTopicId: CURRICULUM[0].subStages[0].topics[0].id,
+  entryTopicId: PATH_CURRICULUM[0].subStages[0].topics[0].id,
   availableAhead: 0,
 };
 
@@ -35,8 +47,8 @@ export interface TopicRef {
   index: number;
 }
 
-/** Every topic in curriculum order, with its parents. */
-export const ALL_TOPICS: readonly TopicRef[] = CURRICULUM.flatMap((stage) =>
+/** Every topic on the path (see `PATH_CURRICULUM`), in order, with its parents. */
+export const ALL_TOPICS: readonly TopicRef[] = PATH_CURRICULUM.flatMap((stage) =>
   stage.subStages.flatMap((subStage) => subStage.topics.map((topic) => ({ topic, subStage, stage }))),
 ).map((ref, index) => ({ ...ref, index }));
 
@@ -46,7 +58,10 @@ export function findTopic(id: string): TopicRef | undefined {
   return BY_ID.get(id);
 }
 
-/** Sub-stages are shown to learners as numbered chapters, counted across the whole path (1.1 → Chapter 1, 2.1 → Chapter 6). */
+/**
+ * Sub-stages are shown to learners as numbered chapters, counted across the whole curriculum (1.1 → Chapter 1,
+ * 2.1 → Chapter 6), so a chapter keeps its number as lessons are added.
+ */
 const CHAPTERS = new Map(CURRICULUM.flatMap((stage) => stage.subStages).map((sub, i) => [sub.id, i + 1]));
 
 export function chapterNumber(subStageId: string): number {

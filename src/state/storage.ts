@@ -16,7 +16,7 @@ import { useEffect, useReducer, type Reducer } from 'react';
 export const STORAGE_KEYS = {
   onboarding: 'learn.onboarding.v1',
   progress: 'learn.progress.v1',
-  devUnlock: 'learn.devUnlock.v1',
+  devUnlock: 'learn.devUnlock.v2',
 } as const;
 
 const store = (): Storage | undefined => {

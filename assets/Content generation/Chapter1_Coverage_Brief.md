@@ -1955,3 +1955,18 @@ Do not reuse any sentence, focus word, page title or key takeaway listed below. 
   - Who called Grandma?
   - Who did Grandma call?
 
+### 2.4.17 Word Order in Negative Sentences
+
+- **Pages:** Saying No · Not After the First Helper · Not After Be · No Helper? Use Don't, Doesn't or Didn't · Short Forms · No Double Negatives · Nobody, Nothing, Never · Negative Order: Recap
+- **Key takeaways:** Not goes in one fixed place. · Helper, then not, then the main verb. · Am, is, are, was, were + not. · Do-word + not + base form. · Short forms are normal in speech. · One not is enough. · These words are already negative. · Put not in its place, and use it once.
+- **Example sentences:**
+  - The baby is not asleep yet. _(focus: is not)_
+  - We have not finished our project. _(focus: have not finished)_
+  - Tara will not forget your birthday. _(focus: will not forget)_
+  - The shops were not crowded today. _(focus: were not crowded)_
+  - My brother doesn't like okra. _(focus: doesn't like)_
+  - We didn't hear the doorbell. _(focus: didn't hear)_
+  - I don't know nothing about the trip.
+  - Nobody was at the bus stop. _(focus: Nobody was)_
+  - We have never seen a real tiger. _(focus: have never seen)_
+

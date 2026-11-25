@@ -1,6 +1,7 @@
 import { describe, expect, it } from '@jest/globals';
 
 import { CURRICULUM } from '@/data/curriculum';
+import { hasLesson } from '@/lessons/registry';
 
 import {
   ALL_TOPICS,
@@ -8,6 +9,7 @@ import {
   deriveTopicStatuses,
   findTopic,
   overallProgress,
+  PATH_CURRICULUM,
   stageProgress,
   stageStatus,
   subStageProgress,
@@ -50,27 +52,26 @@ describe('deriveTopicStatuses', () => {
   });
 
   it('honours a different entry point', () => {
-    const s = deriveTopicStatuses({}, { entryTopicId: 's3.1.01', availableAhead: 0 });
+    const s = deriveTopicStatuses({}, { entryTopicId: 's2.1.01', availableAhead: 0 });
     expect(s['s1.1.01']).toBe('locked');
-    expect(s['s3.1.01']).toBe('current');
+    expect(s['s2.1.01']).toBe('current');
   });
 });
 
 describe('progress', () => {
-  const stage1 = CURRICULUM[0];
+  const stage1 = PATH_CURRICULUM[0];
 
   it('derives sub-stage, stage and overall progress from completions', () => {
     const c = firstN(7); // all of 1.1 Parts of Speech
     expect(subStageProgress(stage1.subStages[0], c)).toEqual({ done: 7, total: 7, fraction: 1 });
     expect(stageProgress(stage1, c)).toEqual({ done: 7, total: 63, fraction: 7 / 63 });
-    expect(overallProgress(c)).toEqual({ done: 7, total: 502, fraction: 7 / 502 });
+    expect(overallProgress(c)).toEqual({ done: 7, total: ALL_TOPICS.length, fraction: 7 / ALL_TOPICS.length });
   });
 
   it('classifies stages', () => {
     const s = deriveTopicStatuses(firstN(63));
-    expect(stageStatus(CURRICULUM[0], s)).toBe('completed');
-    expect(stageStatus(CURRICULUM[1], s)).toBe('current');
-    expect(stageStatus(CURRICULUM[2], s)).toBe('locked');
+    expect(stageStatus(PATH_CURRICULUM[0], s)).toBe('completed');
+    expect(stageStatus(PATH_CURRICULUM[1], s)).toBe('current');
   });
 
   it('finds a topic with its parents', () => {
@@ -78,5 +79,23 @@ describe('progress', () => {
     expect(ref?.topic.title).toBe('Agreement with Either...Or and Neither...Nor');
     expect(ref?.subStage.code).toBe('2.3');
     expect(ref?.stage.title).toBe('Sentence Building');
+  });
+});
+
+describe('PATH_CURRICULUM', () => {
+  it('shows only topics that have a lesson, in curriculum order, and drops empty chapters and courses', () => {
+    expect(ALL_TOPICS.every((r) => hasLesson(r.topic.id))).toBe(true);
+    const withLessons = CURRICULUM.flatMap((st) => st.subStages.flatMap((sub) => sub.topics.map((t) => t.id))).filter(hasLesson);
+    expect(ALL_TOPICS.map((r) => r.topic.id)).toEqual(withLessons);
+    expect(PATH_CURRICULUM.every((st) => st.subStages.length > 0 && st.subStages.every((sub) => sub.topics.length > 0))).toBe(true);
+    // A topic without a lesson is not on the path, so it is never current or locked in the way.
+    expect(findTopic('s5.5.01')).toBeUndefined();
+  });
+
+  it('unlocks the next lesson on the path, skipping topics without lessons', () => {
+    const last = ALL_TOPICS[ALL_TOPICS.length - 1].topic.id;
+    const s = deriveTopicStatuses(firstN(ALL_TOPICS.length - 1));
+    expect(currentTopicId(s)).toBe(last);
+    expect(Object.keys(s)).toHaveLength(ALL_TOPICS.length);
   });
 });

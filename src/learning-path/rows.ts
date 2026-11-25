@@ -2,9 +2,9 @@
  * Flattens the curriculum into the Learning Path's list rows (banner → sub-stage → topics …),
  * and works out where the winding connector runs. Pure, so layout rules are unit tested.
  */
-import { CURRICULUM, type CurriculumStage, type CurriculumSubStage } from '@/data/curriculum';
+import type { CurriculumStage, CurriculumSubStage } from '@/data/curriculum';
 
-import { chapterNumber, findTopic, type TopicRef, type TopicStatus } from './progression';
+import { chapterNumber, findTopic, PATH_CURRICULUM, type TopicRef, type TopicStatus } from './progression';
 import { topicIconFor, type TopicIconName } from './topic-icons';
 
 /** Horizontal zig-zag of topic nodes (px either side of the centre line), repeating per sub-stage. */
@@ -24,6 +24,8 @@ export interface PathSegment {
 export type PathRow =
   | { kind: 'banner'; key: string; stageNumber: number; stage: CurriculumStage }
   | { kind: 'legend'; key: string; stageNumber: number }
+  /** Last row: more lessons are added in updates. */
+  | { kind: 'more'; key: string; stageNumber: number }
   | { kind: 'sub'; key: string; stageNumber: number; subStage: CurriculumSubStage; chapter: number; path: PathSegment }
   | {
       kind: 'topic';
@@ -40,7 +42,7 @@ const reached = (s: TopicStatus | undefined) => s === 'completed' || s === 'curr
 export function buildPathRows(statuses: Record<string, TopicStatus>): PathRow[] {
   const rows: PathRow[] = [];
 
-  for (const stage of CURRICULUM) {
+  for (const stage of PATH_CURRICULUM) {
     rows.push({ kind: 'banner', key: stage.id, stageNumber: stage.number, stage });
     if (stage.number === 1) rows.push({ kind: 'legend', key: 'legend', stageNumber: 1 });
 
@@ -88,5 +90,7 @@ export function buildPathRows(statuses: Record<string, TopicStatus>): PathRow[] 
     });
     rows.push(...pathRows);
   }
+  const last = PATH_CURRICULUM[PATH_CURRICULUM.length - 1];
+  if (last) rows.push({ kind: 'more', key: 'more', stageNumber: last.number });
   return rows;
 }

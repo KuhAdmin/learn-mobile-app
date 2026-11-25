@@ -66,4 +66,20 @@ Schema 1.0 lessons (`1.1.1.EP001`) have no learning dimensions, only a final qui
 - **Saved state goes through `src/state/storage.ts` only** (expo-sqlite `localStorage`). Never call storage from screens.
 - **Every saved value has a pure `restore…` function that validates it.** Invalid data falls back to defaults, and those functions are unit tested.
 - **Change a key's version when a value's shape changes incompatibly** (`learn.progress.v1` → `v2`).
-- **"Unlock all lessons" is a development-only tool.** It's honoured only when `__DEV__`, and it must never ship as a learner feature.
+- **"Unlock all lessons" is a development-only tool.** It's honoured only when `__DEV__`, and it must never ship as a learner feature. It's saved under `learn.devUnlock.v2` and starts off.
+
+## Learning path
+
+- **The path shows only lessons that exist.** `PATH_CURRICULUM` (`src/learning-path/progression.ts`) is the curriculum filtered to topics registered in `src/lessons/registry.ts`. Empty chapters and courses are dropped.
+  - Registering a lesson there is all it takes to show it. Never add placeholder or "coming soon" topics.
+  - Chapter numbers come from the full curriculum, so a chapter keeps its number as lessons are added.
+- **Lessons unlock strictly in order** (`PROGRESSION_RULES`), along the shown path.
+- **Lessons load on demand.** The registry lists a loader per lesson, and `lessonForTopic` keeps only the last few in memory. Never import lesson JSON statically in app code.
+- `LessonPlayer` clears expo-image's memory cache when a lesson closes. Keep that, so memory doesn't grow lesson after lesson.
+
+## Reminders
+
+- **One daily local notification, scheduled only through `src/notifications/reminder.ts`.**
+  - The preference lives in the onboarding state. `ReminderSync` (`src/app/_layout.tsx`) keeps the schedule in step with it.
+  - Permission is asked only when the learner turns the reminder on (onboarding Continue, or the Profile toggle).
+  - The scheduling rules are pure and unit tested (`reminder-plan.ts`).

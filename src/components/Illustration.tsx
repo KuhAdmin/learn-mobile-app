@@ -12,10 +12,9 @@ import { borderWidth, colors, radii } from '@/theme/tokens';
  * Phase-1 placeholder art. Each name maps to one future illustration from the mockup;
  * swap the body of this component for real artwork without touching any screen layout.
  */
-export type IllustrationName = 'mascot' | 'books' | 'blocks' | 'calendar' | 'bell' | 'plan' | 'idcard' | 'stage4' | 'stage5';
+export type IllustrationName = 'books' | 'blocks' | 'calendar' | 'bell' | 'plan' | 'idcard' | 'stage4' | 'stage5';
 
 const ICONS: Record<IllustrationName, IconName> = {
-  mascot: 'book-open-page-variant',
   books: 'bookshelf',
   blocks: 'alphabetical-variant',
   calendar: 'calendar-clock',
@@ -29,8 +28,6 @@ const ICONS: Record<IllustrationName, IconName> = {
 
 /** Final artwork, as it arrives. Names listed here render the image instead of the placeholder. */
 const ARTWORK: Partial<Record<IllustrationName, { source: ImageSource; aspect: number }>> = {
-  // Animated GIF (8 frames, transparent). expo-image plays it on iOS + Android, incl. Expo Go.
-  mascot: { source: require('../../assets/brand/mascot-walking.gif'), aspect: 1 },
   // Includes its own salmon dotted base.
   books: { source: require('../../assets/illustrations/welcome-books.webp'), aspect: 1257 / 1160 },
   blocks: { source: require('../../assets/illustrations/grammar-first-blocks.webp'), aspect: 1320 / 1191 },
@@ -41,7 +38,6 @@ const ARTWORK: Partial<Record<IllustrationName, { source: ImageSource; aspect: n
 };
 
 const LABELS: Record<IllustrationName, string> = {
-  mascot: 'Cheerful pencil and book walking together',
   books: 'Two books, the top one labelled English, with a graduation cap',
   blocks: 'A large G block beside a smaller V block',
   calendar: 'Mint desk calendar with checkmarks beside a clock',
