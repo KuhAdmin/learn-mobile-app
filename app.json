@@ -4,14 +4,14 @@
     "slug": "learn",
     "version": "1.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/brand/app-logo.png",
     "scheme": "learn",
     "userInterfaceStyle": "light",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
-      "package": "com.kuhedu.grammarbitbybit",
+      "package": "com.kuhedu.learnenglishbitbybit",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#EBF5F7",
